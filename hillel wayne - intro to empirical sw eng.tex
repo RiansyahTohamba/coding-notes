@@ -1,0 +1,232 @@
+\documentclass[conference, compsoc, twoside]{IEEEtran}
+\usepackage{graphicx}
+\usepackage{array,etoolbox}
+\usepackage[labelsep=period]{caption}
+
+\hyphenation{op-tical net-works semi-conduc-tor}
+\begin{document}
+\preto\tabular{\setcounter{magicrownumbers}{0}}
+\newcounter{magicrownumbers}
+\newcommand\rownumber{\stepcounter{magicrownumbers}\arabic{magicrownumbers}}
+\title{\Huge Intro to Empirical Software Engineering, What We Know We Don't Know : A Review}
+\author{
+\IEEEauthorblockN{Muh. Riansyah}
+\IEEEauthorblockA{
+	Faculty of Computer Science - University of Indonesia\\
+	Kampus UI, Depok 16424\\
+	muh.riansyah@ui.ac.id
+}}
+
+\maketitle
+\providecommand{\keywords}[1]{\textbf{\textit{Index terms---}} #1}
+\begin{abstract}
+Almost in Software Engineering is belief.
+\end{abstract}
+
+\keywords{Belief, Empirical}
+\IEEEpeerreviewmaketitle
+
+\section{Introduction}
+
+\section{Research Methodology}
+
+\subsection{Search Strategy}
+
+\section{Results}
+This section reports the findings of the SLR. An overview of the PSs is presented first and is followed by answers to the SLR research questions and the assessment results of the quality of the PSs. 
+\subsection{Overview of the PSs}
+The PS selection process discussed in Section 2 resulted in the identification of the 15 relevant articles. The total number of relevant articles published each year are depicted in Fig~\ref{fig:yearly-no-of-ps}. 
+\begin{figure}
+  \includegraphics[width=\linewidth]{yearly-no-of-ps.png}
+  \caption{Yearly Number of PSs}
+  \label{fig:yearly-no-of-ps}
+\end{figure}
+The first article that explores motivation and demotivation factor in software testing was published in a (FSE) proceeding in 2015\cite{Beller2015}.
+The first relevant PS published in a journal(Journal of Systems and Software)appeared in 2017\cite{Garcia2017}. 
+During the period 2015 - 2019, an average of approximately 3 relevant articles were published in either conference proceedings or journals each year. 
+% pertama kali muncul topik motivasi
+Since 2009, researchers have paid more attention to the motivation and demotivation factor in software testing. Fern{\'a}ndez-Sanz~\cite{fernandez2009factors} is first researcher that involve in this topic. 
+% research terakhir kali
+While the recent study in this topic conducted by Fraser and Rojas \cite{Fraser19} that published in SIGCSE conference which was held in 2019.
+% bunyi ga risetnya?
+Most of the PSs (68.75 percent) were published in the last three years, indicating that investigating the motivation and demotivation factor in software testing is currently active research topic. 
+
+\begin{table*}[h]
+\centering
+  \begin{center}
+    \caption{Key Publications Sources}
+    \label{tab:keypublicationsources}
+    
+    \begin{tabular}{l | l | l}
+       \textbf{Venue} & \textbf{Source} & \textbf{No. of PSs}\\
+       \hline
+        Journal & Empirical Software Engineering & 1 \\ 
+        Journal & Information and Software Technology & 1 \\
+        Journal & Journal of Systems And Software & 2 \\
+        Conference & International Conference on Software Engineering Research, Management and Applications (SERA) & 1 \\
+        Conference & ACM International Conference Proceeding Series (ICPS) & 1 \\
+        Conference & International Symposium on Empirical Software Engineering and Measurement & 1 \\
+        Conference & IEEE International Conference On Software Testing, Verification And Validation Workshops (ICSTW) & 1 \\
+        Conference & ACM/IEEE International Conference on Software Engineering (ICSE) & 1 \\
+        Conference & International Computer Software And Applications Conference & 1 \\
+        Conference & Innovations in Software Engineering Conference & 1 \\
+        Conference & International Workshop on Automation Of Software Testing & 1 \\
+        Conference & Foundations of Software Engineering (FSE) & 1 \\
+        Conference & ACM Technical Symposium on Computer Science Education & 1 \\
+        \multicolumn{2}{c}{\textbf{Total}} & \textbf{15}
+    \end{tabular}
+    
+  \end{center}
+\end{table*}
+
+% Sebaran PS
+The PSs appeared in 15 different sources including 2 journals and 13 conferences. About 68.75 percent of the primary studies were published in proceedings while 31.25 percent were published in journals. 
+The contrast between the rates of PSs distributed in proceedings and journals shows that researchers liked to publish their investigations in proceedings than in journals.
+In 2015, only two relevant conference articles was published while there are no journal articles was published during the similar period.
+The highest number of articles,i.e. 6 articles, were written in 2017.
+5 journal articles was published between 2015-2019.
+This is a good indication since journal articles ordinarily give increasingly point by point results and think about progressively broad investigations.
+Table~\ref{tab:keypublicationsources} shows that the Information and Software Technology journal and Journal of Systems And Software attracted more researchers to the field of exploring motivation and demotivation factor that affect software testing. In addition, 11 conferences contributed to one article for each conferences.
+\begin{table*}[h]
+\centering
+    \caption{Research Design in PSs}
+    \label{tab:researchdesignps}
+    \begin{tabular}{p{0.6cm} |p{2cm}| p{12cm}}
+      \textbf{Year} & \textbf{Primary Studies} & \textbf{Research Design} \\
+      \hline
+      2015 & M. Beller et al.\cite{Beller2015} & 
+        Investigating how tester do software testing by naturalistic observing 416 participant using plugin in the IDE.\\
+      2016 & A. Deak et al.~\cite{Deak2016} & 
+        Investigating motivation and demotivation factor in software testing process by collecting data through interviews with 36 practitioners in Norway. \\    
+      2016 & R.M. Parizi~\cite{Parizi2016193} & 
+        Understanding gamification for tracebility testing by case study experiment that was designed in way that of the 18 participants.\\
+      2017 & Santos et al.~\cite{Santos201795} & 
+        Understanding what motivate tester by collecting data through survey questionaire for 185 professionals tester that working in the three companies in Brazil. \\
+      2017 & R.K. Gupta et al.~\cite{Gupta2017} & 
+        Conducting case study on project organization to investigate scrum transformation. Team members mainly in India and some part of it in Germany and United States.\\
+      2017 & O. Liechti et al.~\cite{Liechti2017} &
+         Introducing the concept of test analytics with an industrial case study and describe the experiments run by a team who had set a goal for itself to get better at testing. \\
+      2017 & O.M. Ekwoge et al.~\cite{Ekwoge2017208} &
+         Proposing concept Tester Experience(TX) based on literature reviews and yet to be tested.\\
+      2017 & F. Garcia et al.~\cite{Garcia2017} &
+         Developing framework for gamification in SE that has been evaluated through case study in a medium software company which employ 19 software developer.  \\ 
+      2017 & G. Fraser~\cite{Fraser2017} &
+         Proposing potential future applications of gamification in the software testing proccess in three domains including of education, practice, and crowdsourcing \\ 
+      2018 & M.P. Prado \& Vincenzi~\cite{Prado2018} &
+         Understanding how to improve cognitive support that provided by testing tools by collecting data through online questionnaire and has replied by 58 volunteers.\\     
+      2019 & Capretz et al.~\cite{Capretz2019262} &
+         Developing survey-based instrument for 220 software professionals from 4 countries to probe how software testers perceived and valued what they do.  \\      
+      2019 & Foucault et al.~\cite{Foucault20193731} &
+         Developing industrial case study with two company to investigate how feedback and game tools for testing can motivate developers to do good coding practices.\\      
+    \end{tabular}
+\end{table*}
+In the table~\ref{tab:researchdesignps}, we can see that case studies is the most widely used method with roughly 33\% total of PSs. Then followed by survey with 26\% total of PSs.
+The least used methods are interview and naturalistic observation with 6\% of total PSs respectively.
+\subsection{RQ1. What motivation factors that affect software testing}
+Parizi ~\cite{Parizi2016193} is conducting case study for investigating how gamification on testing process can improve motivation of the team. He develop tools named GamiTracifY that would be used in case study. The experiment was designed in way that of the 18 participants from software development team members, 9 were randomly chosen to use SCOTCH and the other 9 were assigned to use GamiTracify. The results report that gamification could improve the motivation of the team who used GamiTracifY. The team produced a more accurate tracing process between tests and system code.
+\begin{table}[h!]
+\centering
+    \caption{Motivational \& demotivation Factors}
+    \label{tab:motivationtable}
+    \begin{tabular}{l|c}
+       No & \textbf{Motivation} \\
+       \hline
+       \rownumber & Enjoy challenges\cite{Deak2016} \\    
+       \rownumber & Focus on improving the quality\cite{Deak2016} \\
+       \rownumber & Variety of work\cite{Deak2016} \\
+       \rownumber & Recognition\cite{Deak2016} \\
+       \rownumber & Good management~\cite{Deak2016} \\
+       \rownumber & Technically challenging work~\cite{Deak2016} \\
+       \rownumber & Application of FBM~\cite{Liechti2017} \\
+       \rownumber & The use of GUI testing tools~\cite{Prado2018} \\
+       \rownumber & The use of information radiator~\cite{Gupta2017} \\
+       \rownumber & Learning opportunities~\cite{Capretz2019262} \\
+       \rownumber & Gamification for testing~\cite{DeJesus201839}\cite{Parizi2016193}\cite{Foucault20193731}\cite{Fraser2017}\cite{Garcia2017} \\
+    \end{tabular}
+\end{table}
+Gupta et al.~\cite{Gupta2017} explore how scrum transformation have impact on motivation of tester. They found that information radiator helped in motivating other scrum teams on technical debt. Information radiators was used for 
+documenting team debt reasons like smell code or less test automation.
+Santos et al.\cite{Santos201795} ask 80 software testers through questionnaire. They found that testers are motivated by creative tasks, variety and recognition for their work and acquisition of new knowledge.\cite{Santos201795}
+% TODO: tambah lagi diskusi tentang motivasi
+% A tester or the testing team can be motivated when the software being developed is meaningful, challenging and valuable. Other aspects include: opportunities to innovate, flexible working hours, an infrastructure that allows employees to work from anywhere, empowerment to make decisions about their work, respect, etc\cite{Ekwoge2017208}
+% Metrics were used to motivate people to react faster to problems. The number of defects was shown in monitors in hallways which motivated developers to fix the defects. Similarly, total reported defects, test failure rate, and test success rate were also shown throughout the organisation, which motivated people to avoid problems and fix the problems fast. At Systematic, they mea- sured fix time of broken build and showed the time next to the cof- fee machine. It provoked discussion about the causes of long fix times, and eventually the developers fixed the builds faster.\cite{KUPIAINEN2015143}
+
+\subsection{RQ2. What demotivation factors that affect software testing}
+% Demotivation, sudah di paraphrase
+Beller et al.\cite{Beller2015} show several studies that report novice tester think testing as a secondary task since they don't know about long-term benefits. Therefore they want know more about why do developers test.
+They have set up a study that included 416 programming engineers from the industry just as open-source extends the world over and has run for five months. They develop IDE plugin,named WatchDog, which instruments the IDE and objectively sees how engineers do tests. The outcome shows that most of projects and developers don't work on testing effectively. 
+Reasons may incorporate that there are regularly (1) no previous tests for the designers to alter, that they don't know about existing tests, or that testing is as well (2) tedious or (3) hard to do
+\begin{table}[h!]
+\centering
+    \caption{Demotivation Factors}
+    \label{tab:demotivationtable}
+    \begin{tabular}{l|c}
+     No & \textbf{Demotivation}\\
+     \hline
+     \rownumber &  Lack of influence and recognition\cite{Deak2016}\\
+     \rownumber &  Unhappy with management\cite{Deak2016}\\
+     \rownumber &  Technical issues\cite{Deak2016}\\
+     \rownumber &  Lack of organization\cite{Deak2016}\\
+     \rownumber &  Time Pressure\cite{Deak2016} \\
+     \rownumber &  Boredom\cite{Deak2016} \\
+     \rownumber &  Poor relationships with developers\cite{Deak2016} \\
+     \rownumber &  Working environment issues\cite{Deak2016} \\
+     \rownumber &  Testing is hard to do\cite{Beller2015} \\
+     \rownumber &  No previous tests\cite{Beller2015}\\
+     \rownumber &  Time-consuming\cite{Beller2015} \\
+     \rownumber &  Ignorance about software quality \cite{Foucault20193731} \\
+     \rownumber &  Second-class citizen  \cite{Capretz2019262} \\
+     \rownumber &  Short career development \cite{Capretz2019262} \\
+     \rownumber &  Complexity Tedious \cite{Capretz2019262} \\
+     \rownumber &  Missed development  \cite{Capretz2019262} \\
+     \rownumber &  Less monetary benefits  \cite{Capretz2019262} \\
+     \rownumber &  Finding other’s mistakes \cite{Capretz2019262} \\
+     \rownumber &  Detail oriented skills \cite{Capretz2019262} \\
+  \end{tabular}
+\end{table}
+% sudah
+Deak et al.~\cite{Deak2016} investigate demotivation factor in software testing process by collecting data through semi-structured and in-depth interviews with 36 practitioners in Norway. 
+Lack of influence and recognition was the idea expressed by most respondents as a factor with negative effect.Under this idea we assembled the sections referring to the sporadic working stream, and absence of authority over a precarious schedule.
+Also frequently mention by respondents are late inclusion in the development life cycle, and the fight for recognition.
+Another result that they found are unhappy with management,technical issues,time pressure,poor relationships with developers,working environment issues are some of demotivation factor.
+% TODO: Tambah lagi tentang demotivasi
+
+\section{Discussion}
+This section explain interpretations of the results in the previous section.
+\subsection{Gamification effect on testing motivation}
+Gamified Software Engineering (GSE) is a field that apply of game mechanics in non-game contexts, to solve human-related problem in the field of Software engineering. Software testing is one of field software engineering. Several PSs(see table~\ref{tab:motivationtable}) claim that gamification can improve motivation of software tester. However \cite{Foucault20193731} explain that gamification should be used in careful. They report that gamification can develop undesirable behaviors for developer as they can more enthusiasm in the game than in the project. They also found that some developers are opposed for playing game while working. 
+This is another outcome that stresses the way that gamification must be utilized cautiously in an industrial context.
+
+\subsection{Time pressure effect on testing motivation}
+The shortage of time and the impacts of shortage on outlook and human observation have been a subject of science\cite{mullainathan2013scarcity}.
+Mullainathan and Sharif \cite{mullainathan2013scarcity} put forth the defense that shortage of time shows both focus mindsets and tunneling.
+Tunneling means preferring short-term goals over long-term goals related to shortage of time.
+Nevertheless, a shortage mindset can likewise make peoples focus when spending a constrained asset. 
+Beneficial outcomes of time pressure can remember an expansion for imotivation or cooperation.
+In the expirement conducted by Paul and He \cite{paul2012time} show that time pressure improve motivation. 
+But time pressure have negative impact too.
+Finding by \cite{Deak2016} show that time pressure is one of cause low motivation. 
+Eventually , it has been indicated that while time pressure can effectively affect software engineers, as improve motivation, it has additionally negative impacts. 
+Individuals knowledge and managers abilities can likewise facilitate the negative impacts of time pressure on people.
+
+\subsection{Develop code for testing or feature ?}
+There are several best coding practices for programmers to follow, including refactoring code smells,  or achieve 85\% test code coverage\cite{Williams2001}. 
+Nevertheless, motivating programmers to follow such good practices is hard since quality of software is regularly saw as a fifth wheel. 
+Programmers are mostly motivated by writing new features but not by writing better tests. 
+It could have been caused by the lack of knowledge about the benefits of testing in the long term as happened in Turkish\cite{Garousi2015}. Hence, they recommend to the manager to tell novice programmer about the success stories of practice good testing.
+
+\section{Conclusion And Future Work}
+This study literature review identified the articles that report motivation and demotivation factor that affect software testing perfomance and analyzed and discussed the reported findings. 
+An automatic search of the most relevant digital libraries for studies published up to the end of 2015 resulted in the identification of 482 potential studies. 
+After try to obtain the inclusion and exclusion specification, 15 primary stuides were selected for inclusion in this SLR. 
+These PSs were analyzed in terms of aspects related to two RQs concerning the factors that affect demotivation and motivation tester , steps that should be taken to increase tester motivation and steps that should not be done so that it can reduce the motivation of the tester.
+The main results of this study literature show that research exploring factors that affect demotivation and motivation tester is relative active. 
+Regarding RQ1, we found that gamification gets more attention from researchers than other scenarios. 
+%RQ1 bisa dielaborasi lagi
+Regarding RQ2, we found that issues in management and lack of knowledge about testing benefit is to be common demotivation.
+%RQ2 bisa dielaborasi lagi
+Eventually, the outcome of this study produces a table of motivational and demotivation factors by employing a SLR of 15 publications which can be considered by management to improve the performance of its staff.
+The discoveries of this SLR demonstrated a shortcomings of the research which is still too broader. Thus, it could be narrowed in a specific topic i.e what motivating and demotivating tester to write automated testing. 
+
+\bibliographystyle{IEEEtran}
+\end{document}
