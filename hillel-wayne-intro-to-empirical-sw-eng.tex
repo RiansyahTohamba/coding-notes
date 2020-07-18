@@ -1,24 +1,38 @@
-so how's everybody feeling I know it's
-pretty late in the day we're kind of all
-out of energy I almost took a nap like
-five minutes ago
-everybody ready okay great so I actually
-want to start us off with an exercise
-imagine you're looking at a function and
-it's 40 lines long a pretty long
-function and you can break it down into
-say four ten line functions taking a big
-function and making some smaller
-functions so exercise one raise your
-hand if you think that the small
-functions will be easier to work with in
-the big functions coop I see most of you
-raise your hands
-cool down yeah on average okay so
-question number two it's flu season
-raise your hand if you think that a
-vaccine prevents diseases
-thank God I think that's everybody don't
+\documentclass[conference, compsoc, twoside]{IEEEtran}
+\usepackage{graphicx}
+\usepackage{array,etoolbox}
+\usepackage[labelsep=period]{caption}
+
+\hyphenation{op-tical net-works semi-conduc-tor}
+\begin{document}
+\preto\tabular{\setcounter{magicrownumbers}{0}}
+\newcounter{magicrownumbers}
+\newcommand\rownumber{\stepcounter{magicrownumbers}\arabic{magicrownumbers}}
+\title{\Huge Intro to Empirical Software Engineering, What We Know We Don't Know : A Review}
+\author{
+\IEEEauthorblockN{Muh. Riansyah}
+\IEEEauthorblockA{
+	Faculty of Computer Science - University of Indonesia\\
+	Kampus UI, Depok 16424\\
+	muh.riansyah@ui.ac.id
+}}
+
+\maketitle
+\providecommand{\keywords}[1]{\textbf{\textit{Index terms---}} #1}
+\begin{abstract}
+Almost in Software Engineering is belief.
+\end{abstract}
+
+\keywords{Belief, Empirical}
+\IEEEpeerreviewmaketitle
+
+\section{Introduction}
+I actually want to start us off with an exercise. Imagine you're looking at a function and it's 40 lines long a pretty long function and you can break it down into say four ten line functions taking a big
+function and making some smaller functions so exercise one raise your hand if you think that the small
+functions will be easier to work with in the big functions coop I see most of you
+raise your hands cool down yeah on average okay so
+question number two it's flu season raise your hand if you think that a
+vaccine prevents diseases thank God I think that's everybody don't
 have to kick anyone out so last question
 raise your hand if you think it is more
 likely if you believe more strongly that
@@ -26,8 +40,7 @@ small functions are easier then you
 believe that vaccines prevent diseases
 sorry oh is that raise your hand if you
 are more confident in your belief that
-small functions are good then that
-vaccines prevent diseases and I see a
+small functions are good then that vaccines prevent diseases and I see a
 couple of very brave souls have raised
 their hands but almost everybody else
 who raised their hands for both times
@@ -37,22 +50,9 @@ but believe one more well for vaccines
 we have we've got medical studies we
 have historical data we have the
 elimination of smallpox we have clinical
-trials we just have so much but for
-small versus big functions we have a
-feeling in experience our opinions and
-we might have some logic like it's
-obvious that small functions are easier
-but then again it also sounds obvious
-that injecting a virus into your veins
-isn't going to make you healthier right
-our logic can often be flawed now this
-talk is not about small versus big
-functions
-not telling you to write big functions
-this talk is not called write big
-functions but I do want to underscore
-some really important point
-almost everything in software is a
+trials we just have so much but for small versus big functions we have a feeling in experience our opinions and we might have some logic like it's obvious that small functions are easier, but then again it also sounds obvious that injecting a virus into your veins isn't going to make you healthier right our logic can often be flawed now.
+This talk is not about small versus big functions not telling you to write big functions this talk is not called write big
+functions but I do want to underscore some really important point almost everything in software is a
 belief it is something we have
 experience about it is something we have
 opinions on but it's not something we
@@ -69,101 +69,65 @@ is how we do it and it's why it's so
 important and some of the things we've
 learned on the way but first some
 bookkeeping I'm going to be
-name-dropping about 35 different studies
-in this talk you don't have to write
-them down if you go to this link I have
-every single one online annotated and
-linked you can just go there and find
-them and look at them that way also
-every question being asked through the
-app I will be answering if I don't get
-to it in this time I will be also
+name-dropping about 35 different studies in this talk you don't have to write them down if you go to this link I have
+every single one online annotated and linked you can just go there and find
+them and look at them that way also every question being asked through the app.
+I will be answering if I don't get to it in this time I will be also
 uploading all the answers to that linked
 to so you'll be able to see every
 question people ask and the researched
 answers there and with that we're ready
 to begin so I think the first question
-you have to ask is why why do we care
-about this why is it so important to be
-empirical and I see three reasons the
-first one is the easy one I'm a
+you have to ask is why 
+\subsection{Reason to do empirical research} % (fold)
+why do we care about this why is it so important to be empirical and I see three reasons
+\begin{enumerate}
+  \item Inefficient affect on GDP.
+The first one is the easy one I'm a
 developer I want to get better I want to
 know what works and what I just feels
-good by studying empirically I can find
-that out but that's probably not that
-convincing to any of you right I mean
-it's one thing to sort of have a more
-realistic argument of oh we should be
-better but quite different to actually
-do something
-the other reason extra density that's
-important is financial the tech industry
-makes up about 10% of the United States
-GDP that's 1.5 trillion dollars a year
-if we are 1% and that's really low
-estimate 1% inefficient
-that's the GDP of Iceland we are setting
-on fire every
-single year but that's it the
-large-scale that's not local to us and
-here's what I think is the most
-important the most subtle but most
-valuable reason to study the empiricism
-of software we do it to protect
-ourselves you see the most common most
-popular paradigm in software is charisma
-driven development there are experts who
-are good at speaking we're good at
-writing and they tell us what we should
-be doing maybe we do scrum because it
-works for our company maybe we do it
-because that's when everyone else is
-doing maybe we need a big data cluster
-to crunch our gigabytes of data
-maybe we're just following Google's lead
-maybe we do object oriented
-because people stand on commerce stages
-and say you must use solid but yes see
-empirical engineering just cuts all of
+good by studying empirically.
+I can find that out but that's probably not that convincing to any of you right.
+I mean it's one thing to sort of have a more realistic argument of oh we should be better but quite different to actually do something the other reason extra density that's
+important is financial the tech industry makes up about 10\% of the United States GDP that's 1.5 trillion dollars a year
+if we are 1\% and that's really low estimate 1\% inefficient that's the GDP of Iceland we are setting on fire every single year but that's it the large-scale that's not local to us and here's what I think is.
+  \item To protect ourselves.
+The most important the most subtle but most valuable reason to study the empiricism of software we do it to protect
+ourselves you see the most common most popular paradigm in software is charisma-driven-development.
+There are experts who are good at speaking we're good at writing and they tell us what we should be doing maybe we do scrum because it works for our company maybe we do it
+because that's when everyone else is doing. 
+Maybe we need a big data cluster to crunch our gigabytes of data.
+Maybe we're just following Google's lead.
+Maybe we do object oriented.
+Because people stand on commerce stages and say you must use S.O.L.I.D, but yes see empirical engineering just cuts all of
 that away it's what helps us distinguish
 what's fact from what just a Salesman is
 telling us empirical engineering is what
 tells us that well in 2014 MacBook Pro
 can crunch 50 gigabytes of data 100
 times faster than a hundred server spar
-cluster it tells us that experts
-separated by hundreds of miles writing
-the same kinds of problem will make the
-same mistakes in the same places with
-I'm sorry is that like part is that is
-that something we can like sort of hide
-ok ok yeah
-so fundamentally ok yeah I'll just
-ignore for now no so fundamentally the
-reason we study ESC is to protect
-ourselves from the thought leaders and
-the Predators but doing so is very very
-hard it's complicated to study people
-are complicated we're studying people
-and people are more complex than atoms I
-mean take that original question I asked
-our small functions easier than big
-functions well how do we even define
-better do we define it with a code
-metric like cyclomatic complexity some
-people do and some people do studies
-that find that's the case but that
-just pushing the question back how do
+cluster it tells us that experts separated by hundreds of miles writing the same kinds of problem will make the same mistakes in the same places with I'm sorry is that like part is that is that something we can like sort of hide ok ok yeah so fundamentally ok yeah I'll just ignore for now no so fundamentally the reason we study ESC is to protect ourselves from the thought leaders and the Predators.
+\end{enumerate}
+
+% Reason to do empirical research subsection_name (end)
+
+
+\section{Example of Empirical Research}
+Below are list of example empirical research in Software Engineering.
+But doing so is very very hard it's complicated to study people are complicated we're studying people and people are more complex than atoms.
+I mean, take that original question I asked, our small functions easier than big functions.
+Well how do we even define better do we define it with a code metric, like cyclomatic complexity some
+people do and some people do studies that find that's the case but that just pushing the question back how do
 you know that cyclomatic complexity is
-better we don't instead we can find
-maybe a more goal-oriented result we say
-better means well the code is easier to
-read or easier to modify or easier to
+better we don't instead we can find maybe a more goal-oriented result. 
+
+\subsection{Effects of Clean Code on Understandability}
+
+We say better means well the code is easier to read or easier to modify or easier to
 debug that makes sense to everyone who
 and turns out that we have not that many
 studies on whether clean code is
-actually easier to read and I have
-looked i've looked pretty dang hard
+actually easier to read and I have looked i've looked pretty dang hard
 about this and i was able to find a
 couple of studies that actually studied
 this and they both said the same thing
@@ -176,47 +140,38 @@ complicated so complicated we're doing
 such complicated things that some
 engineers think this is impossible we
 cannot study ourselves we cannot get
-hard data on what we do and in doing so
-we've made a mistake that a lot of
-engineers make a lot of smart people too
-because we don't know how to do
-something it can't be done but just as
-people are very smart they're also very
-clever and there are people who just as
-we put our lives into building
-complicated systems have put their lives
-into studying us so I want to give an
-example of what this looks like there
-are many different kinds of research we
-do I'm going to break them down to three
-kinds quantitative qualitative and code
-mining in terms of what recently looked
-like this is one of my favorite papers
-ever I know it looked small but it's
-well it's four-page forums pages to a
-sheet double-sided so it's actually
-about 40 pages in total this amazing
-paper is called
-fixing faults in C and Java source code
+hard data on what we do and in doing so we've made a mistake that a lot of engineers make a lot of smart people too.
+Because we don't know how to do something it can't be done but just as people are very smart they're also very
+clever and there are people who just as we put our lives into building
+complicated systems have put their lives into studying us.
+\section{Type of Research} % (fold)
+\label{sec:type_of_research}
+
+% section type_of_research (end)
+
+So I want to give an example of what this looks like there are many different kinds of research we do.
+I'm going to break them down to three kinds quantitative, qualitative and code mining.
+In terms of what recently looked like this is one of my favorite papers.
+ever I know it looked small but it's.
+\subsection{Fixing Faults in C and Java Source Code: Abbreviated vs. Full-Word Identifier Names}
+well it's four-page forums pages to a sheet double-sided so it's actually about 40 pages in total this amazing paper is called fixing faults in C and Java source code
 abbreviated vers forward identifier
 names yeah not the most exciting title
 and it's a pretty small topic - what
 makes it interesting it's interesting
 because it shows perfectly how we do
-research and why it matters
+research and why it matters.
 let's take a simple example I have a I
 have a codebase and one of the variable
-names is employer number okay
+names is employer\_number okay
 descriptive name descriptive title great
 is it easier to debug this verse debug
-this EMP num easier to read the code
+this emp\_num easier to read the code
 easier to find faults what not so this
 is what they did they want to study
 which of these would be easier to work
-with and what they were doing is called
-a qualitative a quantitative study it's
-what we most commonly think of as
-science we have two groups a control
+with and what they were doing is called a qualitative a quantitative study it's
+what we most commonly think of as science we have two groups a control
 group and a modified group control group
 we do not touch my group we make some
 tweak - then we have them both to a task
@@ -259,12 +214,11 @@ explain the results besides just that
 give you all 30 seconds
 everybody back up eyes back on me great
 everybody hub has everybody to have some
-things how many people got like one
-thing how many got like two to four how
-many got five six
-let me read all the things that they
-found
-I even compared it to your list
+things.
+
+How many people got like one thing. 
+How many got like two to four? How many got five? six ?
+Let me read all the things that they found I even compared it to your list
 experience level of the developer's
 education level of the developers
 programming language used size of the
@@ -286,7 +240,7 @@ show we can study something and get real
 results about what matters who here find
 that result surprising well so today it
 doesn't really make intuitive sense that
-a code base that EMP num is going to be
+a code base that emp\_num is going to be
 no harder than employee number right see
 quantitative studies are science but
 they're not enough we also need
@@ -305,8 +259,7 @@ two groups had different ways of
 debugging when you have the full word
 identifiers people tended to skim they
 used the name as an anchoring point
-lexicography
-or in themselves around the code and
+lexicography or in themselves around the code and
 quickly jump between where they thought
 the bugs might be this worked as a
 debugging technique the people who had
@@ -341,10 +294,10 @@ the unit testing coverage but how do you
 get enough samples how do we know the
 average well there's 100 million
 repositories on github we've just found
-them all crunch the data done problem
-solved
-and this does work here's another study
-that was done similar to this on code
+them all crunch the data done problem solved and this does work.
+
+\subsection{On the diffuseness and the impact on maintainability of code smells: a large scale empirical investigation}
+Here's another study that was done similar to this on code
 smells these were people who looked at
 30 open-source projects each of which
 had been around for over a decade and
@@ -378,10 +331,10 @@ it's not a controlled environment we're
 looking at the field we're looking at
 the world and that makes for very
 complicated noisy data and we have to be
-very careful about that who's heard of
-this paper came out in 2017
-a large-scale study of programming
-languages in code quality and github see
+very careful about that.
+
+\subsection{A Large Scale Study of Programming Languages and Code Quality in Github}
+Who's heard of this paper came out in 2017 a large-scale study of programming languages in code quality and github see
 a few of you because it was a pretty
 moment to study it was the first it only
 has about a hundred million lines of
@@ -450,8 +403,7 @@ anything see software engineering is a
 very very young field some of the
 founders are still alive today it's a
 feel about systems and any system is
-going to be complicated
-any system is going to have some things
+going to be complicated any system is going to have some things
 that are obvious and false and some
 things that are insane and totally
 correct we don't know that doesn't stop
@@ -489,10 +441,11 @@ experiments in many contexts and they've
 all found significant persistent
 positive or negative effects I'd like to
 share some of you with this to show you
-that there is some hope here I'm going
-to also focus on the field that matters
-most to me I do what's called formal
-verification the study of making
+that there is some hope here.
+
+\subsection{Beyond Lines of Code: Do We Need More Complexity Metrics?}
+I'm going to also focus on the field that matters
+most to me I do what's called formal verification the study of making
 programs probably correct unfortunately
 that's not been cited by anyone so
 complete waste of time but one thing
@@ -501,20 +454,13 @@ defect finding software defects how do
 we know where the bugs are in our code
 and a second how do you how do we
 prevent bugs in the first place
-that's what I'd like to talk about these
-two categories and what we've learned
+that's what I'd like to talk about these two categories and what we've learned
 about them so first question how do we
 find bugs I've already shared one thing
 that works identifying code smells and
-seeing where they are helps us trace
-down where the bugs are but that's
-probably not enough for most people we
-want an automated tool that helps us
-more carefully more accurately identify
-code that led to an explosion of code
-measuring techniques who here has heard
-of cyclomatic complexity who's here has
-heard of function points clean code most
+seeing where they are helps us trace down where the bugs are. but that's probably not enough for most people we want an automated tool that helps us more carefully more accurately identify code. that led to an explosion of code measuring techniques.
+who here has heard of cyclomatic complexity.
+Who's here has heard of function points clean code most
 people these are techniques people try
 to use to measure the quality of
 software and maybe they work but in
@@ -522,20 +468,18 @@ terms of finding where bugs are most
 likely to be in code there was one
 technique that works much better than
 all of them lines of code more lines
-more bugs
-now you might feel cheated by this
+more bugs now you might feel cheated by this
 because again we want an automated tool
 that we can point our code and find
 where the bugs are lines of code doesn't
 help us just saying there's a thousand
 lines probably bug somewhere in there
 just doesn't really do anything for us
-and as far as we can tell there just
-really isn't a way to just look at a
-code base and find where we can find the
-bugs so we don't look at the code base
-instead we mind the org chart you might
-have heard of Conway's law code reflects
+and as far as we can tell.
+
+There just really isn't a way to just look at a code base and find where we can find the bugs so we don't look at the code base instead we mind the org chart. 
+\subsection{The Influence of Organizational Structure On Software Quality}
+you might have heard of Conway's law code reflects
 the organization that produced it and it
 turns out that is empirically true in
 both positive ways and negative ways if
@@ -543,9 +487,7 @@ you have code if you have a system in
 the organization a functioning
 organization that is cross-cutting and
 complicated the code for that system is
-going to probably be buggy this has been
-empirically verified if you have a lot
-of different people that touch a code
+going to probably be buggy this has been empirically verified if you have a lot of different people that touch a code
 base it is more likely to be buggy if
 you have a lot of different groups that
 touch a code base it is more likely to
@@ -567,7 +509,7 @@ uncaught exceptions you know the kind
 you find with the unit test or
 configuration errors so if you look at
 those two things you'll cut out maybe
-90% of your crashes we also know from
+90\% of your crashes we also know from
 some surveys that about half of the
 worst bugs that take the longest to fix
 our requirement or design issues so if
@@ -593,10 +535,9 @@ something so obvious nobody bothers to
 study it this term comes from medicine
 well there's no double-blind studies
 showing that parachute save lives so how
-do we know for the record I did spend
-about three days hunting down really old
-studies and they all agree that yes
-testing has an overwhelming benefit keep
+do we know for the record 
+I did spend about three days hunting down really old
+studies and they all agree that yes testing has an overwhelming benefit keep
 writing your tests the question though
 is does test and development work better
 who here knows the test room development
@@ -607,13 +548,14 @@ then write the code that passes the test
 then refactor it's really widely lauded
 a lot of people really love it I
 personally love it I do it all the time
+\subsection{Realizing quality improvement through test driven development}
 I recommend friends do it but does it
 actually make a difference well we have
 one said he's saying yes this came out
 in 2006 it was the first long-term study
 on test row development it found that it
 did reduce defects but also added about
-20% more testing time to your system
+20\% more testing time to your system
 which made the effects kind of uncertain
 maybe it was the Chi GD maybe was just
 we spent more time testing we've done a
@@ -643,8 +585,7 @@ is one technical practice that we've
 studied again and again and know for
 certain not just finds and removes bugs
 but is dramatically effective at doing
-so
-code review now there are some caveats
+so code review now there are some caveats
 here you can't review that much at a
 time you can review that many lines of
 code at a time but in those constraints
@@ -671,7 +612,7 @@ even like formal proofs to be honest
 these are still great things and I still
 recommend doing them but far and away
 TDD is the one technical practice we are
-absolutely 100% certain is effective
+absolutely 100\% certain is effective
 nothing else comes close to code review
 at the end I said though technical
 practice for a reason we haven't studied
@@ -681,11 +622,11 @@ have to be knowledge workers in general
 we've studied them for a hundred years
 and we know without a doubt that there
 are three things that have a profound
-impact on the output of any possible
-knowledge worker any possible manual
-laborer anyone doing anything sleep
-deprivation stress levels and hours
-worked and these effects are absolutely
+impact on the output of any possible knowledge worker any possible manual
+laborer anyone doing anything 
+
+\subsection{Impact of a Night of Sleep Deprivation on Novice Developers Performance}
+Sleep deprivation stress levels and hours worked and these effects are absolutely
 enormous an unstressed well-rested oh
 not overworked team that is happiness
 job will produce orders of magnitude
@@ -757,8 +698,7 @@ code like code review but ultimately at
 its core software engineering is
 knowledge work
 it's about us putting our minds to the
-best use we can and I find that
-beautiful it really exalts what exists
+best use we can and I find that beautiful it really exalts what exists
 that humans can do but at the same time
 it means that anything that impairs our
 ability to think is going to cause much
@@ -774,7 +714,7 @@ software engineering just empirical
 engineering in software defects there's
 other fields we've studied - education
 human-computer interfaces performance
-all that stuff
+all that stuff.
 I shared software defect because that's
 what matters most to me I don't know
 what matters most to you maybe it's
@@ -821,8 +761,8 @@ almost all research is done by
 universities universities have their
 stuff published in scientific journals
 to read a scientific journal you have to
-pay either $30 per article or belong to
-an organization that pays $10,000 a year
+pay either\$30 per article or belong to
+an organization that pays\$10,000 a year
 for access I'm guessing you most of you
 aren't in that so you can find the paper
 you can read the abstract you can't
@@ -852,39 +792,30 @@ because you know copyright rulings so
 you really you're really supposed to you
 know if you want to be really moral
 about this you kind of have to pay the
-$30 per paper so I'm definitely don't go
+\$30 per paper so I'm definitely don't go
 to that website definitely but it all
 you can and don't go to there and don't
 like follow them on Twitter just don't
-so in conclusion
-software engineering very powerful very
-difficult but it helps us distinguish
-what is correct from what we believe and
-what is useful from what is either
-negative or uncertain
-it's great for I guess humility and
-actually improving and protecting
-ourselves now a couple of things to wrap
-up really quickly first as mentioned you
-can go to the site and you can see all
-the references you can also read the
-references for yourself and it would
-recommend that everything I've shared
-has been colored by my opinions how I
-see the world my own biases maybe when
+so in 
+
+\section{Conclusion}
+Software Engineering very powerful very difficult.
+But it helps us distinguish what is correct from what we believe and what is useful from.
+What is either negative or uncertain it's great for I guess humility and actually improving and protecting ourselves now a couple of things to wrap up really quickly.
+First as mentioned you can go to the site and you can see all the reference.
+You can also read the references for yourself and it would recommend that everything I've shared
+has been colored by my opinions, how I see the world my own biases maybe when
 you read it you'll come up with
 something different maybe you'll think
-it's correct maybe you'll think it's
-garbage
+it's correct maybe you'll think it's garbage.
 I do recommend though checking for yourself because you should see for yourself what the research says and not
 just trust a person on the stage selling their consult shilling their consulting business speaking of shilling I'd like
 to end by clearly talking about what I
 do I work in a field called formal
 methods that is sort of the art and
 science of producing large-scale
-bug-free designs
-essentially software blueprints I teach
-workshops and consult for companies
+bug-free designs essentially software blueprints.
+I teach workshops and consult for companies
 clients have included Netflix Cigna
 protocol labs Skala tea medium math so
 far they seem pretty satisfied with me
@@ -898,3 +829,6 @@ conference to ask me any questions you
 have about empirical engineering and
 with that my name is Helene and thank
 you for listening to my talk
+
+\bibliographystyle{IEEEtran}
+\end{document}
