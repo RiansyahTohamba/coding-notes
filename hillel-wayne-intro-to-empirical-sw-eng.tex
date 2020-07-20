@@ -20,17 +20,19 @@
 \maketitle
 \providecommand{\keywords}[1]{\textbf{\textit{Index terms---}} #1}
 \begin{abstract}
-Almost in Software Engineering is belief.
+Almost everything in Software Engineering is belief.
 \end{abstract}
 
 \keywords{Belief, Empirical}
 \IEEEpeerreviewmaketitle
 
 \section{Introduction}
-I actually want to start us off with an exercise. Imagine you're looking at a function and it's 40 lines long a pretty long function and you can break it down into say four ten line functions taking a big
-function and making some smaller functions so exercise one raise your hand if you think that the small
-functions will be easier to work with in the big functions coop I see most of you
-raise your hands cool down yeah on average okay so
+I actually want to start us off with an exercise. 
+Imagine you're looking at a function and it's 40 lines long.
+A pretty long function and you can break it down into say 14 line functions.
+Taking a big function and making some smaller functions. 
+So exercise one, raise your hand if you think that the small functions will be easier to work with in the big functions. 
+I see most of you raise your hands cool down yeah on average okay so
 question number two it's flu season raise your hand if you think that a
 vaccine prevents diseases thank God I think that's everybody don't
 have to kick anyone out so last question
@@ -58,7 +60,7 @@ experience about it is something we have
 opinions on but it's not something we
 have hard data in most cases we just
 don't know but we can find out we find
-out through empirical engineering or ESC
+out through empirical engineering or EMSE
 for short that is the science of taking
 claims about software and dissecting
 them testing them observing them to find
@@ -79,7 +81,7 @@ question people ask and the researched
 answers there and with that we're ready
 to begin so I think the first question
 you have to ask is why 
-\subsection{Reason to do empirical research} % (fold)
+\section{Reason to do empirical research} % (fold)
 why do we care about this why is it so important to be empirical and I see three reasons
 \begin{enumerate}
   \item Inefficient affect on GDP.
@@ -110,19 +112,18 @@ cluster it tells us that experts separated by hundreds of miles writing the same
 \end{enumerate}
 
 % Reason to do empirical research subsection_name (end)
-
-
-\section{Example of Empirical Research}
-Below are list of example empirical research in Software Engineering.
-But doing so is very very hard it's complicated to study people are complicated we're studying people and people are more complex than atoms.
+\section{EMSE is study about People and people is hard to learn}
+But doing so is very very hard ! 
+it's complicated to study! people are complicated! 
+we're studying people and people are more complex than atoms.
 I mean, take that original question I asked, our small functions easier than big functions.
-Well how do we even define better do we define it with a code metric, like cyclomatic complexity some
-people do and some people do studies that find that's the case but that just pushing the question back how do
-you know that cyclomatic complexity is
-better we don't instead we can find maybe a more goal-oriented result. 
+Well, how do we even define better ? do we define it with a code metric, like cyclomatic complexity? 
+some people do and some people do studies that find that's the case. 
+But that just pushing the question back, 
+how do you know that cyclomatic complexity is better ? 
+we don't. Instead we can find maybe a more goal-oriented result. 
 
-\subsection{Effects of Clean Code on Understandability}
-
+\section{Effects of Clean Code on Understandability}
 We say better means well the code is easier to read or easier to modify or easier to
 debug that makes sense to everyone who
 and turns out that we have not that many
@@ -248,40 +249,46 @@ only over a hundred people so it's not a
 hundred percent validated but it does
 show we can study something and get real
 results about what matters who here find
-that result surprising well so today it
-doesn't really make intuitive sense that
-a code base that emp\_num is going to be
-no harder than employee number right see
-quantitative studies are science but
-they're not enough we also need
-qualitative studies this is the studies
-of people's experiences of their
-opinions of their ideas how they flow it
-is the exploration part of science it's
-how we get the ideas we want to test in
-the first place we need to explore so
-they explored they did what's called an
-ethnography they sat down and watched
-developers debug code in the real world
-with no sort of controls no suggestions
-just watch them and they saw that the
-two groups had different ways of
-debugging when you have the full word
-identifiers people tended to skim they
-used the name as an anchoring point
-lexicography or in themselves around the code and
-quickly jump between where they thought
-the bugs might be this worked as a
-debugging technique the people who had
-abbreviations though they more
-methodically went top-down understanding
-the context and the full flow of the
-code this also worked so changing the
-names did subtly change how people debug
-code but in both cases there was
-advantages and disadvantages they both
-worked qualitative studies let us
-actually know what is we're seeing what
+that result surprising well so today 
+
+Kejelasan nama variable diuji dengan programmer positif rate on debugging. Hasilnya, It doesn’t really make intuitive sense that a code base that emp\_num is going to be no harder than employee\_number, right ? See ?quantitative studies are science but they’re not enough.
+We also need qualitative studies, this is the studies of people’s experiences
+\begin{enumerate}
+\item their opinions
+\item their ideas
+\item how they flow
+\end{enumerate}
+
+it is the exploration, (it's) part of science, it’s how we get. 
+the ideas we want to test in the first place.
+We need to explore, so they explored. 
+They did what’s called an ethnography.
+they sat down and watched developers debug code in the real world, with 
+\begin{enumerate}
+\item no sort of controls
+\item no suggestions 
+\end{enumerate}
+just watch them and they saw that the two groups had different ways of debugging.
+when you have the full word identifiers
+people tended to skim !(baca cepat, hanya melihat hal hal penting) 
+
+They used the name as an anchoring point lexicography or in themselves around the code and
+quickly jump between where they thought the bugs might be this worked as a debugging technique.
+ 
+The people who had abbreviations though they more methodically went top-down understanding the context and the full flow of the code. 
+this also worked.
+
+  so changing the names did subtly change how
+ people debug code but in both cases there was advantages
+ and disadvantages they both worth. 
+
+Qualitative studies let us actually know.
+
+
+
+
+
+what is we're seeing what
 is interesting what we want to explore
 now both of these studies these clinical
 trials these of sonography x' are about
