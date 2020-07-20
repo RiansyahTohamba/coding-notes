@@ -124,11 +124,16 @@ how do you know that cyclomatic complexity is better ?
 we don't. Instead we can find maybe a more goal-oriented result. 
 
 \section{Effects of Clean Code on Understandability}
-We say better means well the code is easier to read or easier to modify or easier to
-debug that makes sense to everyone who
-and turns out that we have not that many
-studies on whether clean code is
-actually easier to read and I have looked i've looked pretty dang hard
+We say better means well the code is 
+\begin{enumerate}
+	\item easier to read or
+	\item easier to modify or
+	\item easier to debug
+
+\end{enumerate}
+that (indicator) makes sense to everyone.
+
+Who and turns out that we have not that many studies on whether clean code is actually easier to read and I have looked. i've looked pretty dang hard.
 about this and i was able to find a
 couple of studies that actually studied
 this and they both said the same thing
@@ -223,35 +228,24 @@ Let me read all the things that they found.
 I even compared it to your list
 \begin{enumerate}
 \item experience level of the developer's
-\item
+\item education level of the developers
+\item programming language used 
+\item size of the codebase studied
+\item density of bugs in the code base 
+\item formatting of the code
+\item classification of bug 
+\item time of day
+\item fatigue level 
+\item prom domain (prom?)
+\item sample size
+\item experience with the problem 
+\item social media exposure
 \end{enumerate}
-
-education level of the developers
-
-programming language used size of the
-codebase studied
-density of bugs in the code base 
-formatting of the code
-classification of bug time of day
-fatigue level 
-prom domain 
-sample size
-experience with the problem 
-social media exposure
-how many of those did you miss ?
-yeah for the record, they didn't find any difference.
- so it turns out that while we
-know that descriptive names are really
-important there's no evidence that a
-full word is required when an
-abbreviation can fit in and this was
-only over a hundred people so it's not a
-hundred percent validated but it does
-show we can study something and get real
-results about what matters who here find
-that result surprising well so today 
-
-Kejelasan nama variable diuji dengan programmer positif rate on debugging. Hasilnya, It doesn’t really make intuitive sense that a code base that emp\_num is going to be no harder than employee\_number, right ? See ?quantitative studies are science but they’re not enough.
+% Kejelasan nama variable diuji dengan programmer positif rate on debugging.
+How many of those did you miss ?
+Yeah for the record, they didn't find any difference.
+So it turns out that while we know that descriptive names are really important.
+There's no evidence that a full word is required when an abbreviation can fit in and this was only over a hundred people. So it's not a hundred percent validated, but it does show we can study something and get real results about what matters. who here find that result surprising well so today, (hasilnya), It doesn’t really make intuitive sense that a code base that emp\_num is going to be no harder than employee\_number, right ? See ? Quantitative studies are science but they’re not enough.
 We also need qualitative studies, this is the studies of people’s experiences
 \begin{enumerate}
 \item their opinions
@@ -275,21 +269,9 @@ people tended to skim !(baca cepat, hanya melihat hal hal penting)
 They used the name as an anchoring point lexicography or in themselves around the code and
 quickly jump between where they thought the bugs might be this worked as a debugging technique.
  
-The people who had abbreviations though they more methodically went top-down understanding the context and the full flow of the code. 
-this also worked.
-
-  so changing the names did subtly change how
- people debug code but in both cases there was advantages
- and disadvantages they both worth. 
-
+The people who had abbreviations though they more methodically went top-down understanding the context and the full flow of the code. This also worked. So changing the names did subtly change how people debug code but in both cases there was advantages and disadvantages they both worth. 
 Qualitative studies let us actually know.
-
-
-
-
-
-what is we're seeing what
-is interesting what we want to explore
+What is we're seeing what is interesting what we want to explore
 now both of these studies these clinical
 trials these of sonography x' are about
 people and people are tricky to study
@@ -304,8 +286,8 @@ would you find that out anybody want to
 make raise your hand anyone yep yeah but
 where do you get the UM code so the
 question becomes how do we I'll just go
-ahead I think you have the right down
-the track here so I mean we can try code
+ahead.
+I think you have the right down the track here so I mean we can try code
 that analyzes like our code base to find
 the unit testing coverage but how do you
 get enough samples how do we know the
@@ -415,12 +397,11 @@ really strong effect write abbreviations
 totally fine code smells don't actually
 identify bugs it turns out that this
 talk is what we know we don't know and
-we know we don't know pretty much
-anything see software engineering is a
-very very young field some of the
-founders are still alive today it's a
-feel about systems and any system is
-going to be complicated any system is going to have some things
+we know we don't know pretty much anything. 
+See ? Software Engineering is a very-very young field. 
+Some of the founders are still alive today. 
+It's a feel about systems and any system is going to be complicated. 
+any system is going to have some things
 that are obvious and false and some
 things that are insane and totally
 correct we don't know that doesn't stop
@@ -483,17 +464,8 @@ to use to measure the quality of
 software and maybe they work but in
 terms of finding where bugs are most
 likely to be in code there was one
-technique that works much better than
-all of them lines of code more lines
-more bugs now you might feel cheated by this
-because again we want an automated tool
-that we can point our code and find
-where the bugs are lines of code doesn't
-help us just saying there's a thousand
-lines probably bug somewhere in there
-just doesn't really do anything for us
-and as far as we can tell.
-
+technique that works much better than all of them. Lines of code, more lines, more bugs, now you might feel cheated by this because again we want an automated tool, that we can point our code and find where the bugs are lines of code doesn't help us. Just saying there's a thousand lines probably bug somewhere in there.
+Just doesn't really do anything for us and as far as we can tell.
 There just really isn't a way to just look at a code base and find where we can find the bugs so we don't look at the code base instead we mind the org chart. 
 \subsection{The Influence of Organizational Structure On Software Quality}
 you might have heard of Conway's law code reflects
