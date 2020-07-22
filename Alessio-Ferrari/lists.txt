@@ -1,0 +1,19 @@
+Lecture 1.1 - Introduction.
+Lecture 1.2 - Roles, Tasks and Research Questions.
+Lecture 2.1 - Data Types, Measurements, Scale
+Lecture 2.2 - Data Collection Techniques
+Lecture 3.1 - Building Theories in Software Engineering
+Lecture 3.2 - Research Strategies
+Lecture 4.1 - Controlled Experiments
+Lecture 4.2 - Hypothesis Testing
+Lecture 5.1 - Selecting Statistical Tests
+Lecture 5.2 - Selecting Tests and Threats to Validity
+Lecture 6.2 - Sampling and Interviews
+Lecture 7.1 - Observation and Archival Data Analysis
+Lecture 7.2 - Coding, Thematic Analysis, Grounded Theory
+Lecture 8.1 - Survey Research in Software Engineering
+Lecture 8.2 - Surveys: Formulating Questions and Validity
+Lecture 9.1 - Case Studies Design
+Lecture 9.2 - Case Study Validity
+Lecture 10.1 - Systematic Literature Reviews and Mapping
+Lecture 10.2 - Systematic Literature Reviews and Mapping
