@@ -1,0 +1,3640 @@
+1
+00:00:00,230 --> 00:00:04,080
+okay in the previous slides I showed you
+
+2
+00:00:04,080 --> 00:00:10,559
+the an overview basically of what what
+
+3
+00:00:10,559 --> 00:00:12,450
+you are going to learn through this
+
+4
+00:00:12,450 --> 00:00:15,179
+course and mainly not really an overview
+
+5
+00:00:15,179 --> 00:00:17,460
+because you didn't see so much about the
+
+6
+00:00:17,460 --> 00:00:22,410
+methodologies but more of the motivation
+
+7
+00:00:22,410 --> 00:00:26,550
+why the thing that I would present you
+
+8
+00:00:26,550 --> 00:00:29,960
+in this course are irrelevant I
+
+9
+00:00:29,960 --> 00:00:32,850
+mentioned during the presentation that
+
+10
+00:00:32,850 --> 00:00:37,020
+we will have to deal with with several
+
+11
+00:00:37,020 --> 00:00:40,260
+stakeholders and I mention different
+
+12
+00:00:40,260 --> 00:00:43,550
+activities in the software engineering
+
+13
+00:00:43,550 --> 00:00:47,010
+process that are development testing etc
+
+14
+00:00:47,010 --> 00:00:51,360
+now let's see which which ones are the
+
+15
+00:00:51,360 --> 00:00:53,550
+roles that you would deal with in this
+
+16
+00:00:53,550 --> 00:00:56,250
+that you will deal with with the
+
+17
+00:00:56,250 --> 00:00:57,989
+different methods and the tasks in the
+
+18
+00:00:57,989 --> 00:01:00,059
+software engineering process this is
+
+19
+00:01:00,059 --> 00:01:03,080
+just a very very very broad overview
+
+20
+00:01:03,080 --> 00:01:07,110
+okay we chart the roles roll it software
+
+21
+00:01:07,110 --> 00:01:10,799
+engineering are different they change
+
+22
+00:01:10,799 --> 00:01:15,090
+based on the process also that you may
+
+23
+00:01:15,090 --> 00:01:17,130
+have in a company they vary on the
+
+24
+00:01:17,130 --> 00:01:19,890
+dimension of the company I will not I
+
+25
+00:01:19,890 --> 00:01:22,470
+will always repeat it until you are
+
+26
+00:01:22,470 --> 00:01:24,900
+tired that every company is different
+
+27
+00:01:24,900 --> 00:01:27,060
+every context is different but in
+
+28
+00:01:27,060 --> 00:01:30,390
+general a software engineering company
+
+29
+00:01:30,390 --> 00:01:32,939
+or a software company always have at
+
+30
+00:01:32,939 --> 00:01:36,000
+least the developers that are the ones
+
+31
+00:01:36,000 --> 00:01:39,060
+who do the coding of course this could
+
+32
+00:01:39,060 --> 00:01:41,729
+be also in principle outsourced because
+
+33
+00:01:41,729 --> 00:01:45,360
+I may be a company that have some that
+
+34
+00:01:45,360 --> 00:01:48,210
+doesn't develop in-house but is just
+
+35
+00:01:48,210 --> 00:01:50,820
+combining the code developed by
+
+36
+00:01:50,820 --> 00:01:52,950
+different developers outside but in
+
+37
+00:01:52,950 --> 00:01:55,860
+general in some way developers as always
+
+38
+00:01:55,860 --> 00:01:59,670
+him are always involved sometimes so you
+
+39
+00:01:59,670 --> 00:02:02,600
+may have designers and architects so
+
+40
+00:02:02,600 --> 00:02:05,520
+designers an architect I'm reading in
+
+41
+00:02:05,520 --> 00:02:07,920
+the slide from the bottom and like
+
+42
+00:02:07,920 --> 00:02:10,940
+checking some roads somewhat randomly
+
+43
+00:02:10,940 --> 00:02:13,650
+designers and architects are the wise
+
+44
+00:02:13,650 --> 00:02:15,299
+design the system at a high level and
+
+45
+00:02:15,299 --> 00:02:17,870
+the ones who do the project basically
+
+46
+00:02:17,870 --> 00:02:21,420
+very often is more company these are the
+
+47
+00:02:21,420 --> 00:02:24,000
+same as developers so-and-so or they
+
+48
+00:02:24,000 --> 00:02:27,959
+don't even exist if you are if you are
+
+49
+00:02:27,959 --> 00:02:31,440
+in a company where you are you don't
+
+50
+00:02:31,440 --> 00:02:35,000
+design the software but you simply
+
+51
+00:02:35,000 --> 00:02:38,040
+incrementally develop it so you don't
+
+52
+00:02:38,040 --> 00:02:42,030
+have this this type of roles okay you
+
+53
+00:02:42,030 --> 00:02:44,190
+add the requirements or business analyst
+
+54
+00:02:44,190 --> 00:02:45,959
+we would see the requirements engineer
+
+55
+00:02:45,959 --> 00:02:48,239
+business and several names are used for
+
+56
+00:02:48,239 --> 00:02:50,280
+that functional analysts in some cases
+
+57
+00:02:50,280 --> 00:02:52,739
+and this is the ones that gather the
+
+58
+00:02:52,739 --> 00:02:54,359
+requirements from customers and users
+
+59
+00:02:54,359 --> 00:02:58,170
+and create their requirements documents
+
+60
+00:02:58,170 --> 00:03:00,930
+to be used by the developers but very
+
+61
+00:03:00,930 --> 00:03:04,769
+often this is just a guy that interact
+
+62
+00:03:04,769 --> 00:03:07,650
+with the customer and doesn't write down
+
+63
+00:03:07,650 --> 00:03:09,510
+the requirements document but simply
+
+64
+00:03:09,510 --> 00:03:11,609
+speak with the developers to say what
+
+65
+00:03:11,609 --> 00:03:13,650
+they should do or write down the
+
+66
+00:03:13,650 --> 00:03:15,569
+so-called user stores that are short
+
+67
+00:03:15,569 --> 00:03:17,790
+form of requirements if you are using
+
+68
+00:03:17,790 --> 00:03:19,139
+so-called
+
+69
+00:03:19,139 --> 00:03:22,470
+agile processes okay then you have the
+
+70
+00:03:22,470 --> 00:03:25,470
+users the one that will use the system
+
+71
+00:03:25,470 --> 00:03:27,690
+and the customers the by the ones who
+
+72
+00:03:27,690 --> 00:03:29,970
+buy the system these are also in the
+
+73
+00:03:29,970 --> 00:03:32,129
+scope of our interest what is the
+
+74
+00:03:32,129 --> 00:03:34,349
+difference between customers clients
+
+75
+00:03:34,349 --> 00:03:38,819
+that say and uses normal users are the
+
+76
+00:03:38,819 --> 00:03:40,319
+actual users for example in the example
+
+77
+00:03:40,319 --> 00:03:42,480
+that I made in the previous part of the
+
+78
+00:03:42,480 --> 00:03:44,099
+lecture in which I was considered and
+
+79
+00:03:44,099 --> 00:03:47,849
+hoskin see during a hospital the user of
+
+80
+00:03:47,849 --> 00:03:52,379
+the system to update information about
+
+81
+00:03:52,379 --> 00:03:56,250
+the coronavirus are actually the doctors
+
+82
+00:03:56,250 --> 00:03:58,829
+so the general practice doctors the
+
+83
+00:03:58,829 --> 00:04:01,379
+so-called Medici de Familia in Italian
+
+84
+00:04:01,379 --> 00:04:03,720
+these are the users of the system but
+
+85
+00:04:03,720 --> 00:04:05,849
+they don't they don't pay for the system
+
+86
+00:04:05,849 --> 00:04:08,069
+and they don't pay for the development
+
+87
+00:04:08,069 --> 00:04:11,280
+of the system the customer is actually
+
+88
+00:04:11,280 --> 00:04:13,590
+the
+
+89
+00:04:13,590 --> 00:04:16,260
+they have the Health Organization they
+
+90
+00:04:16,260 --> 00:04:18,750
+held company for example the hospital or
+
+91
+00:04:18,750 --> 00:04:22,680
+if you are dealing with the if you want
+
+92
+00:04:22,680 --> 00:04:24,990
+to deliver this product to the wall
+
+93
+00:04:24,990 --> 00:04:27,720
+settle Ospital in tuscany for example it
+
+94
+00:04:27,720 --> 00:04:30,300
+will be the region so you have different
+
+95
+00:04:30,300 --> 00:04:31,860
+subjects that have different needs
+
+96
+00:04:31,860 --> 00:04:34,470
+because the user probably in this case
+
+97
+00:04:34,470 --> 00:04:37,260
+don't care about the the price of the
+
+98
+00:04:37,260 --> 00:04:40,080
+software while the customer does and in
+
+99
+00:04:40,080 --> 00:04:42,240
+some cases the users are also customers
+
+100
+00:04:42,240 --> 00:04:45,260
+for example in case there of mobile
+
+101
+00:04:45,260 --> 00:04:49,010
+application of any consumer softwares
+
+102
+00:04:49,010 --> 00:04:51,600
+for example if you think netflix
+
+103
+00:04:51,600 --> 00:04:54,930
+software we're all users but we pay for
+
+104
+00:04:54,930 --> 00:04:55,080
+it
+
+105
+00:04:55,080 --> 00:04:58,260
+and we're also customers so but have you
+
+106
+00:04:58,260 --> 00:05:01,710
+ever have you ever met someone from from
+
+107
+00:05:01,710 --> 00:05:04,800
+netflix asking you what is what is your
+
+108
+00:05:04,800 --> 00:05:07,050
+need for good bit in the system it
+
+109
+00:05:07,050 --> 00:05:07,950
+didn't happen
+
+110
+00:05:07,950 --> 00:05:11,610
+so you ever roll but you don't interact
+
+111
+00:05:11,610 --> 00:05:14,130
+directly with them but they can
+
+112
+00:05:14,130 --> 00:05:18,090
+understand what you did by sampling from
+
+113
+00:05:18,090 --> 00:05:21,090
+from your interaction with the system
+
+114
+00:05:21,090 --> 00:05:23,010
+they try to understand when you are
+
+115
+00:05:23,010 --> 00:05:26,970
+watching those movies which type of
+
+116
+00:05:26,970 --> 00:05:28,650
+movies are you watching and they
+
+117
+00:05:28,650 --> 00:05:32,340
+understand what are your needs based on
+
+118
+00:05:32,340 --> 00:05:34,860
+the usage of the system and this is
+
+119
+00:05:34,860 --> 00:05:37,320
+typical of for many consumer products
+
+120
+00:05:37,320 --> 00:05:41,400
+like for example Netflix or any app that
+
+121
+00:05:41,400 --> 00:05:43,440
+you have in your mobile or Microsoft
+
+122
+00:05:43,440 --> 00:05:47,190
+Word or any of this type of code summer
+
+123
+00:05:47,190 --> 00:05:50,880
+pro consumers products that that I used
+
+124
+00:05:50,880 --> 00:05:55,789
+by mmm that are used by by people that
+
+125
+00:05:55,789 --> 00:05:59,550
+are oriented to the large market and are
+
+126
+00:05:59,550 --> 00:06:03,120
+not specific for solving a problem like
+
+127
+00:06:03,120 --> 00:06:06,000
+the one I said for the hospital or for a
+
+128
+00:06:06,000 --> 00:06:09,600
+chain of supermarkets for itself if the
+
+129
+00:06:09,600 --> 00:06:12,930
+company is large you may have also some
+
+130
+00:06:12,930 --> 00:06:15,510
+managers in general you distinguish
+
+131
+00:06:15,510 --> 00:06:18,870
+between three levels of management in a
+
+132
+00:06:18,870 --> 00:06:20,760
+large company you have top-level
+
+133
+00:06:20,760 --> 00:06:22,830
+managers which are responsible for
+
+134
+00:06:22,830 --> 00:06:24,570
+controlling oversees the entire
+
+135
+00:06:24,570 --> 00:06:27,180
+organization so this is a top level
+
+136
+00:06:27,180 --> 00:06:29,370
+meet the level which are responsible for
+
+137
+00:06:29,370 --> 00:06:33,180
+executing organization plans according
+
+138
+00:06:33,180 --> 00:06:36,030
+to the company policies and they are
+
+139
+00:06:36,030 --> 00:06:38,490
+basically intermediate towards the top
+
+140
+00:06:38,490 --> 00:06:41,220
+management and low-level manager that
+
+141
+00:06:41,220 --> 00:06:43,980
+are ever direct contact with the
+
+142
+00:06:43,980 --> 00:06:47,640
+developers they say and often they are
+
+143
+00:06:47,640 --> 00:06:48,530
+called
+
+144
+00:06:48,530 --> 00:06:51,900
+project manager okay they ever there are
+
+145
+00:06:51,900 --> 00:06:54,210
+role models for the employees they
+
+146
+00:06:54,210 --> 00:06:56,130
+supervise and they control the timing
+
+147
+00:06:56,130 --> 00:06:59,970
+and they do more fine-tuned to control
+
+148
+00:06:59,970 --> 00:07:03,180
+but they don't give let's say the the
+
+149
+00:07:03,180 --> 00:07:08,090
+decision for the decision for a more
+
+150
+00:07:08,090 --> 00:07:10,890
+larger plan they are focused on a
+
+151
+00:07:10,890 --> 00:07:13,650
+project or two projects and they direct
+
+152
+00:07:13,650 --> 00:07:17,100
+the specific projects but there are more
+
+153
+00:07:17,100 --> 00:07:19,200
+level of management of all above them
+
+154
+00:07:19,200 --> 00:07:20,970
+and then there is the Board of Directors
+
+155
+00:07:20,970 --> 00:07:23,960
+so it's a people group elected by the
+
+156
+00:07:23,960 --> 00:07:27,480
+stockholders possible if if it is a
+
+157
+00:07:27,480 --> 00:07:32,790
+company if it is a market company and
+
+158
+00:07:32,790 --> 00:07:35,010
+they decide corporate policies and make
+
+159
+00:07:35,010 --> 00:07:37,290
+management decisions normally when we
+
+160
+00:07:37,290 --> 00:07:41,790
+study when we study software engineering
+
+161
+00:07:41,790 --> 00:07:45,000
+problems we don't do much with the Board
+
+162
+00:07:45,000 --> 00:07:47,340
+of Directors of course we may deal with
+
+163
+00:07:47,340 --> 00:07:50,040
+managers because the low-level managers
+
+164
+00:07:50,040 --> 00:07:54,210
+especially the project managers are are
+
+165
+00:07:54,210 --> 00:07:56,280
+dealing with the software and they are
+
+166
+00:07:56,280 --> 00:07:59,220
+really relevant roles we deal with
+
+167
+00:07:59,220 --> 00:08:01,380
+customers we use it with requirements
+
+168
+00:08:01,380 --> 00:08:03,330
+business scientists sometimes will
+
+169
+00:08:03,330 --> 00:08:05,490
+report designers and architects although
+
+170
+00:08:05,490 --> 00:08:08,580
+many companies don't have them and we
+
+171
+00:08:08,580 --> 00:08:10,740
+developers and testers so testers are
+
+172
+00:08:10,740 --> 00:08:12,450
+the ones who test the code so the
+
+173
+00:08:12,450 --> 00:08:16,770
+subjects that may be also or subjects
+
+174
+00:08:16,770 --> 00:08:19,110
+who review the code this is the review
+
+175
+00:08:19,110 --> 00:08:20,940
+the code they simply don't test but just
+
+176
+00:08:20,940 --> 00:08:23,700
+look at the code and check for the
+
+177
+00:08:23,700 --> 00:08:27,030
+quality this may be often the developer
+
+178
+00:08:27,030 --> 00:08:30,870
+themselves so everything may be adapted
+
+179
+00:08:30,870 --> 00:08:34,530
+to a specific company's need but these
+
+180
+00:08:34,530 --> 00:08:39,000
+are the main Rosemere names that you
+
+181
+00:08:39,000 --> 00:08:39,950
+will
+
+182
+00:08:39,950 --> 00:08:42,110
+that you will hear and you will read
+
+183
+00:08:42,110 --> 00:08:43,960
+about in software engineering
+
+184
+00:08:43,960 --> 00:08:48,950
+publications as I said companies may
+
+185
+00:08:48,950 --> 00:08:51,340
+include the only a subset of the roles
+
+186
+00:08:51,340 --> 00:08:53,810
+some of the roles may be covered by the
+
+187
+00:08:53,810 --> 00:08:54,770
+same person
+
+188
+00:08:54,770 --> 00:08:58,340
+so as I said some testers may be
+
+189
+00:08:58,340 --> 00:09:01,220
+actually developers some code reviewers
+
+190
+00:09:01,220 --> 00:09:03,260
+may be actually developers or the
+
+191
+00:09:03,260 --> 00:09:05,630
+designers may be the developers and in
+
+192
+00:09:05,630 --> 00:09:07,700
+some cases even the business analyst may
+
+193
+00:09:07,700 --> 00:09:11,390
+be the developers and the role may
+
+194
+00:09:11,390 --> 00:09:13,670
+depend of the adopter software process
+
+195
+00:09:13,670 --> 00:09:16,330
+so there I didn't go through this
+
+196
+00:09:16,330 --> 00:09:20,380
+disaster but there are two let's say
+
+197
+00:09:20,380 --> 00:09:24,290
+general general paradigm of software
+
+198
+00:09:24,290 --> 00:09:26,600
+process one is the traditional software
+
+199
+00:09:26,600 --> 00:09:30,020
+process that is the so-called waterful
+
+200
+00:09:30,020 --> 00:09:33,380
+process and in which you have the
+
+201
+00:09:33,380 --> 00:09:35,300
+sequence of steps like the one that I
+
+202
+00:09:35,300 --> 00:09:37,010
+described so you start from the
+
+203
+00:09:37,010 --> 00:09:39,020
+requirements you start with the
+
+204
+00:09:39,020 --> 00:09:40,700
+interaction with the customer you write
+
+205
+00:09:40,700 --> 00:09:43,610
+the requirements you design the software
+
+206
+00:09:43,610 --> 00:09:46,910
+you write down the code you test it in
+
+207
+00:09:46,910 --> 00:09:53,300
+etc etc or you have the so called guides
+
+208
+00:09:53,300 --> 00:09:57,290
+of the process and that is the more
+
+209
+00:09:57,290 --> 00:10:02,060
+modern way of programming of developing
+
+210
+00:10:02,060 --> 00:10:05,650
+software that consists in having
+
+211
+00:10:05,650 --> 00:10:11,120
+frequent interactions and frequent the
+
+212
+00:10:11,120 --> 00:10:14,570
+delivery of prototypes and rapid
+
+213
+00:10:14,570 --> 00:10:18,980
+implementation so the you don't wait to
+
+214
+00:10:18,980 --> 00:10:22,070
+develop you don't wait for the entire
+
+215
+00:10:22,070 --> 00:10:24,110
+requirements document to be completed or
+
+216
+00:10:24,110 --> 00:10:26,780
+the design to be completed before coding
+
+217
+00:10:26,780 --> 00:10:28,670
+but you start prototyping Cinda bit
+
+218
+00:10:28,670 --> 00:10:30,680
+since the beginning and you have
+
+219
+00:10:30,680 --> 00:10:32,810
+frequent stand-up meeting with the other
+
+220
+00:10:32,810 --> 00:10:36,770
+partners and you have more relevance of
+
+221
+00:10:36,770 --> 00:10:41,830
+interaction between between people so
+
+222
+00:10:41,830 --> 00:10:44,660
+rows may depend on the way that you
+
+223
+00:10:44,660 --> 00:10:47,720
+decide to develop your software which
+
+224
+00:10:47,720 --> 00:10:50,240
+are the main tasks the main tasks you
+
+225
+00:10:50,240 --> 00:10:53,030
+saw them in the in the previous in the
+
+226
+00:10:53,030 --> 00:10:53,990
+previous
+
+227
+00:10:53,990 --> 00:10:56,180
+in Denisha slides but I want to
+
+228
+00:10:56,180 --> 00:11:00,170
+emphasize them in here because the
+
+229
+00:11:00,170 --> 00:11:02,660
+examples that I will give throughout the
+
+230
+00:11:02,660 --> 00:11:04,970
+world the world class that will deal
+
+231
+00:11:04,970 --> 00:11:07,100
+with this aspect so when I speak about
+
+232
+00:11:07,100 --> 00:11:09,830
+requirements elicitation and analysis I
+
+233
+00:11:09,830 --> 00:11:12,590
+speak about the first phase in which you
+
+234
+00:11:12,590 --> 00:11:16,490
+try to understand what is needed to be
+
+235
+00:11:16,490 --> 00:11:16,940
+built
+
+236
+00:11:16,940 --> 00:11:19,640
+okay so requirements elicitation and
+
+237
+00:11:19,640 --> 00:11:24,020
+analysis is a very vast area and may
+
+238
+00:11:24,020 --> 00:11:27,790
+have different practical practical
+
+239
+00:11:27,790 --> 00:11:30,200
+solution in the sense that as I told
+
+240
+00:11:30,200 --> 00:11:33,200
+before you may have situation in which
+
+241
+00:11:33,200 --> 00:11:35,240
+you interact directly with the customer
+
+242
+00:11:35,240 --> 00:11:37,340
+so with the people who will pay you for
+
+243
+00:11:37,340 --> 00:11:41,540
+your product or you may build a consumer
+
+244
+00:11:41,540 --> 00:11:43,900
+product and so you have to harvest
+
+245
+00:11:43,900 --> 00:11:47,960
+gather the requirements from from the
+
+246
+00:11:47,960 --> 00:11:51,350
+mass from the people or just rely on new
+
+247
+00:11:51,350 --> 00:11:54,550
+ideas internal and then test these ideas
+
+248
+00:11:54,550 --> 00:11:57,080
+that are internal to your compendious
+
+249
+00:11:57,080 --> 00:12:00,320
+test this idea with the people of course
+
+250
+00:12:00,320 --> 00:12:03,920
+they didn't ask people for the iPod or
+
+251
+00:12:03,920 --> 00:12:06,860
+they didn't ask people for when they
+
+252
+00:12:06,860 --> 00:12:09,980
+invented the car so many new invention
+
+253
+00:12:09,980 --> 00:12:12,890
+also in software they come from ideas
+
+254
+00:12:12,890 --> 00:12:15,320
+and observation of reality and don't
+
+255
+00:12:15,320 --> 00:12:21,350
+need to require a direct interaction at
+
+256
+00:12:21,350 --> 00:12:23,720
+least at the beginning with the user but
+
+257
+00:12:23,720 --> 00:12:26,000
+it has been demonstrated that the
+
+258
+00:12:26,000 --> 00:12:28,190
+involvement of the users since the
+
+259
+00:12:28,190 --> 00:12:31,190
+beginning may be really useful to test
+
+260
+00:12:31,190 --> 00:12:33,380
+your idea I understand that you're not
+
+261
+00:12:33,380 --> 00:12:35,630
+wasting your money in the in the
+
+262
+00:12:35,630 --> 00:12:37,670
+investment that you are doing software
+
+263
+00:12:37,670 --> 00:12:40,160
+architecture software so this
+
+264
+00:12:40,160 --> 00:12:42,380
+requirement solicitation and analysis
+
+265
+00:12:42,380 --> 00:12:44,870
+analysis means means several things
+
+266
+00:12:44,870 --> 00:12:47,390
+means try to structure the requirements
+
+267
+00:12:47,390 --> 00:12:50,240
+imagine for example the requirements for
+
+268
+00:12:50,240 --> 00:12:54,050
+a system that is built on the trains
+
+269
+00:12:54,050 --> 00:12:56,150
+that you are using you may be using not
+
+270
+00:12:56,150 --> 00:13:01,160
+now how much usually the system that
+
+271
+00:13:01,160 --> 00:13:04,640
+brakes the train in case the driver
+
+272
+00:13:04,640 --> 00:13:07,820
+exceeds with the control speed
+
+273
+00:13:07,820 --> 00:13:10,100
+the requirements for these are like 300
+
+274
+00:13:10,100 --> 00:13:15,110
+or 400 pages long and this is just one
+
+275
+00:13:15,110 --> 00:13:17,840
+part or the more technical required and
+
+276
+00:13:17,840 --> 00:13:22,400
+you have different volumes that specify
+
+277
+00:13:22,400 --> 00:13:25,730
+how this software the different parts
+
+278
+00:13:25,730 --> 00:13:29,750
+related to the risk to them today other
+
+279
+00:13:29,750 --> 00:13:33,650
+aspect let's say of the process but it's
+
+280
+00:13:33,650 --> 00:13:37,700
+like a very large volume and analyzing
+
+281
+00:13:37,700 --> 00:13:40,250
+these requirements means that first
+
+282
+00:13:40,250 --> 00:13:43,330
+you've gone through the process of
+
+283
+00:13:43,330 --> 00:13:46,040
+starting from more abstract requirements
+
+284
+00:13:46,040 --> 00:13:48,140
+let's say then you have formalize them
+
+285
+00:13:48,140 --> 00:13:50,270
+and then you have checked that there is
+
+286
+00:13:50,270 --> 00:13:52,490
+no ambiguity in these documents that
+
+287
+00:13:52,490 --> 00:13:54,740
+they have being that they are clearly
+
+288
+00:13:54,740 --> 00:13:57,190
+understood by anyone who reads them etc
+
+289
+00:13:57,190 --> 00:14:01,400
+okay so the analysis process success
+
+290
+00:14:01,400 --> 00:14:06,220
+especially for very complex systems is a
+
+291
+00:14:06,220 --> 00:14:08,810
+very safety critical system like the
+
+292
+00:14:08,810 --> 00:14:11,330
+trains or aircraft is very it's very
+
+293
+00:14:11,330 --> 00:14:14,600
+long this this phase in which you try to
+
+294
+00:14:14,600 --> 00:14:17,060
+understand them formalize in written
+
+295
+00:14:17,060 --> 00:14:22,190
+form your requirements then you have the
+
+296
+00:14:22,190 --> 00:14:23,360
+software architecture software
+
+297
+00:14:23,360 --> 00:14:26,330
+architecture was what I what I was
+
+298
+00:14:26,330 --> 00:14:28,700
+speaking was so before about that is
+
+299
+00:14:28,700 --> 00:14:32,360
+design and softer so creating the the
+
+300
+00:14:32,360 --> 00:14:34,220
+picture of your soft train you I met
+
+301
+00:14:34,220 --> 00:14:37,090
+before you implement it UML is the most
+
+302
+00:14:37,090 --> 00:14:41,090
+common way of designing your software
+
+303
+00:14:41,090 --> 00:14:43,310
+software architecture of course that
+
+304
+00:14:43,310 --> 00:14:45,320
+there is a distinction between software
+
+305
+00:14:45,320 --> 00:14:47,120
+architecture and design because
+
+306
+00:14:47,120 --> 00:14:50,240
+architecture is more high level while
+
+307
+00:14:50,240 --> 00:14:52,400
+design is more related to object
+
+308
+00:14:52,400 --> 00:14:54,650
+oriented design let's say so it's more
+
+309
+00:14:54,650 --> 00:14:57,020
+detail why the architecture should be
+
+310
+00:14:57,020 --> 00:14:59,690
+language independent normal so doesn't
+
+311
+00:14:59,690 --> 00:15:01,970
+rely on objects and this type of stuff
+
+312
+00:15:01,970 --> 00:15:05,920
+but for what we are interested here
+
+313
+00:15:05,920 --> 00:15:09,230
+software architecture is building
+
+314
+00:15:09,230 --> 00:15:12,410
+somehow a model of what will be the
+
+315
+00:15:12,410 --> 00:15:16,060
+structure of the software that satisfies
+
+316
+00:15:16,060 --> 00:15:19,550
+the requirements that I am licit it so
+
+317
+00:15:19,550 --> 00:15:21,680
+if the development is the actual act or
+
+318
+00:15:21,680 --> 00:15:23,809
+developing that is not simply opening
+
+319
+00:15:23,809 --> 00:15:26,029
+the computer and start writing the code
+
+320
+00:15:26,029 --> 00:15:28,819
+is also interacting with the other
+
+321
+00:15:28,819 --> 00:15:30,949
+developers interacting with the software
+
+322
+00:15:30,949 --> 00:15:32,420
+architects interactive with the
+
+323
+00:15:32,420 --> 00:15:35,779
+requirements elicitation fair with the
+
+324
+00:15:35,779 --> 00:15:38,240
+requirements analyst so interacting with
+
+325
+00:15:38,240 --> 00:15:41,029
+several other subject and writing down
+
+326
+00:15:41,029 --> 00:15:43,459
+what the software should do but also the
+
+327
+00:15:43,459 --> 00:15:45,769
+bug in the sauce because of course when
+
+328
+00:15:45,769 --> 00:15:47,990
+you write the software you into it it
+
+329
+00:15:47,990 --> 00:15:50,449
+doesn't it doesn't always work properly
+
+330
+00:15:50,449 --> 00:15:54,410
+but also refactor the software so I mean
+
+331
+00:15:54,410 --> 00:15:58,279
+it - I find a bug that effects a certain
+
+332
+00:15:58,279 --> 00:16:00,439
+part of the software I need to refactor
+
+333
+00:16:00,439 --> 00:16:02,959
+it or I need to refactor the software
+
+334
+00:16:02,959 --> 00:16:04,850
+because new requirements come from the
+
+335
+00:16:04,850 --> 00:16:06,920
+customer can have several cases of
+
+336
+00:16:06,920 --> 00:16:10,100
+course then you have software testing
+
+337
+00:16:10,100 --> 00:16:12,499
+software testing also in this case you
+
+338
+00:16:12,499 --> 00:16:14,809
+may have different levels of testing for
+
+339
+00:16:14,809 --> 00:16:17,360
+example you have only a function level
+
+340
+00:16:17,360 --> 00:16:20,480
+you have only to do unit testing for a
+
+341
+00:16:20,480 --> 00:16:23,420
+Java program so you test just that unit
+
+342
+00:16:23,420 --> 00:16:27,679
+according to a set of tests or you may
+
+343
+00:16:27,679 --> 00:16:29,509
+need to do integration testing
+
+344
+00:16:29,509 --> 00:16:31,790
+integration testing means that for
+
+345
+00:16:31,790 --> 00:16:33,860
+example for the system that I was
+
+346
+00:16:33,860 --> 00:16:36,259
+exemplified before for stopping the
+
+347
+00:16:36,259 --> 00:16:40,009
+training case there is a the driver
+
+348
+00:16:40,009 --> 00:16:44,629
+exceeds the the maximum speed in that
+
+349
+00:16:44,629 --> 00:16:48,529
+case I may need first of all one system
+
+350
+00:16:48,529 --> 00:16:51,679
+that is on board but the system has to
+
+351
+00:16:51,679 --> 00:16:56,540
+be linked also to the brake so I need to
+
+352
+00:16:56,540 --> 00:16:59,509
+integrate probably the software that is
+
+353
+00:16:59,509 --> 00:17:01,790
+directly controlling the brake with the
+
+354
+00:17:01,790 --> 00:17:05,409
+software that is in this other box and
+
+355
+00:17:05,409 --> 00:17:09,439
+antis is monitoring the speed of the
+
+356
+00:17:09,439 --> 00:17:11,419
+train and in addition in this
+
+357
+00:17:11,419 --> 00:17:14,109
+architecture am I also have some
+
+358
+00:17:14,109 --> 00:17:17,209
+software that is deployed deployed on
+
+359
+00:17:17,209 --> 00:17:20,179
+the ground that is sending for example
+
+360
+00:17:20,179 --> 00:17:22,010
+the status of the Signet so the
+
+361
+00:17:22,010 --> 00:17:25,398
+semaphores that you that you meet across
+
+362
+00:17:25,398 --> 00:17:28,640
+the line so i have to integrate it to
+
+363
+00:17:28,640 --> 00:17:31,130
+check that all these elements interact
+
+364
+00:17:31,130 --> 00:17:33,529
+properly and this is so-called
+
+365
+00:17:33,529 --> 00:17:35,250
+integration testing
+
+366
+00:17:35,250 --> 00:17:39,420
+not this real same thing of the of the
+
+367
+00:17:39,420 --> 00:17:42,090
+unit testing which I test a function but
+
+368
+00:17:42,090 --> 00:17:45,090
+still I'm doing an a testing activity
+
+369
+00:17:45,090 --> 00:17:49,860
+and this is of interest for for for
+
+370
+00:17:49,860 --> 00:17:51,780
+software engineering and for our scope
+
+371
+00:17:51,780 --> 00:17:54,300
+then there is software documentation is
+
+372
+00:17:54,300 --> 00:17:56,970
+something that is normally poorly done
+
+373
+00:17:56,970 --> 00:18:00,870
+but in some cases is mandatory so it is
+
+374
+00:18:00,870 --> 00:18:02,850
+for example when you are developing
+
+375
+00:18:02,850 --> 00:18:05,520
+safety critical systems you have to
+
+376
+00:18:05,520 --> 00:18:08,700
+document each step of your of your
+
+377
+00:18:08,700 --> 00:18:11,010
+process and you have to careful the
+
+378
+00:18:11,010 --> 00:18:12,930
+human chess software super so writing
+
+379
+00:18:12,930 --> 00:18:18,120
+down the the what the software is doing
+
+380
+00:18:18,120 --> 00:18:21,210
+and if you if you are if you are
+
+381
+00:18:21,210 --> 00:18:25,320
+developing also man wants for example
+
+382
+00:18:25,320 --> 00:18:29,670
+for users or man was for developers also
+
+383
+00:18:29,670 --> 00:18:32,250
+how the software should be used and how
+
+384
+00:18:32,250 --> 00:18:34,950
+it should be extent and maintained and
+
+385
+00:18:34,950 --> 00:18:36,450
+then you have software maintenance
+
+386
+00:18:36,450 --> 00:18:38,700
+software maintenance is the other phase
+
+387
+00:18:38,700 --> 00:18:43,680
+in which okay I need to update the
+
+388
+00:18:43,680 --> 00:18:45,540
+software based on new requirements
+
+389
+00:18:45,540 --> 00:18:47,550
+normally the software developers are
+
+390
+00:18:47,550 --> 00:18:49,620
+involved in here but the activity is
+
+391
+00:18:49,620 --> 00:18:51,540
+completely different because I have to
+
+392
+00:18:51,540 --> 00:18:54,420
+refactor normally software do small
+
+393
+00:18:54,420 --> 00:18:58,920
+changes debug etc and finally there is
+
+394
+00:18:58,920 --> 00:19:01,290
+the software process management as a
+
+395
+00:19:01,290 --> 00:19:03,450
+short in the beginning of the
+
+396
+00:19:03,450 --> 00:19:06,120
+presentation there is a process this
+
+397
+00:19:06,120 --> 00:19:09,180
+process need to be managed by somehow by
+
+398
+00:19:09,180 --> 00:19:11,850
+some but as some people I've shown three
+
+399
+00:19:11,850 --> 00:19:15,390
+level of Management and these three
+
+400
+00:19:15,390 --> 00:19:18,780
+levels are involved in checking that the
+
+401
+00:19:18,780 --> 00:19:22,050
+word process runs smoothly but software
+
+402
+00:19:22,050 --> 00:19:26,000
+process management is also dealing with
+
+403
+00:19:26,000 --> 00:19:28,920
+concurrent versioning systems dealing
+
+404
+00:19:28,920 --> 00:19:33,330
+with bugs bug report dealing with all
+
+405
+00:19:33,330 --> 00:19:37,590
+the older tools and echo and and system
+
+406
+00:19:37,590 --> 00:19:40,050
+that allows me to better manage my
+
+407
+00:19:40,050 --> 00:19:43,350
+softer so summarize in software
+
+408
+00:19:43,350 --> 00:19:45,960
+engineering we are dealing with all the
+
+409
+00:19:45,960 --> 00:19:48,150
+roads that I listed in this previous
+
+410
+00:19:48,150 --> 00:19:49,179
+slide
+
+411
+00:19:49,179 --> 00:19:53,139
+in with all these roles from managers to
+
+412
+00:19:53,139 --> 00:19:55,149
+customers to uses to requirements
+
+413
+00:19:55,149 --> 00:19:57,249
+analyze to designers to developers and
+
+414
+00:19:57,249 --> 00:19:57,879
+testers
+
+415
+00:19:57,879 --> 00:20:00,369
+and more you I will show you more
+
+416
+00:20:00,369 --> 00:20:02,889
+details on the role when we will speak
+
+417
+00:20:02,889 --> 00:20:05,950
+about surveys which are more focused on
+
+418
+00:20:05,950 --> 00:20:09,969
+people so you need to understand more in
+
+419
+00:20:09,969 --> 00:20:15,999
+detail what are the roles and these are
+
+420
+00:20:15,999 --> 00:20:18,009
+the tasks so these people and these
+
+421
+00:20:18,009 --> 00:20:21,099
+tasks so we will deal with station
+
+422
+00:20:21,099 --> 00:20:22,509
+architecture development testing
+
+423
+00:20:22,509 --> 00:20:24,219
+documentation maintenance a software
+
+424
+00:20:24,219 --> 00:20:26,649
+process management you don't need to
+
+425
+00:20:26,649 --> 00:20:30,759
+learn in depth what are all these phases
+
+426
+00:20:30,759 --> 00:20:34,179
+what I told you now should be sufficient
+
+427
+00:20:34,179 --> 00:20:37,320
+to have a sufficient understanding
+
+428
+00:20:37,320 --> 00:20:40,450
+because here we are focused on tasks and
+
+429
+00:20:40,450 --> 00:20:42,759
+people but mostly on methodological
+
+430
+00:20:42,759 --> 00:20:48,099
+aspects so let's pass to this other part
+
+431
+00:20:48,099 --> 00:20:52,119
+and this will be the last the last part
+
+432
+00:20:52,119 --> 00:20:56,739
+for for today that is related to one of
+
+433
+00:20:56,739 --> 00:21:00,269
+the core one of the core element of
+
+434
+00:21:00,269 --> 00:21:03,339
+research that is the formulating
+
+435
+00:21:03,339 --> 00:21:08,139
+research questions so basically anything
+
+436
+00:21:08,139 --> 00:21:11,979
+that that you do in research in software
+
+437
+00:21:11,979 --> 00:21:13,779
+engineering but also in any type of
+
+438
+00:21:13,779 --> 00:21:16,450
+research starts with a question about
+
+439
+00:21:16,450 --> 00:21:19,809
+the reality ok a question about the
+
+440
+00:21:19,809 --> 00:21:22,210
+world this is normal in software
+
+441
+00:21:22,210 --> 00:21:23,889
+engineering a problem to solve
+
+442
+00:21:23,889 --> 00:21:26,320
+so the question about the word is how
+
+443
+00:21:26,320 --> 00:21:28,899
+can I solve this problem but it can be
+
+444
+00:21:28,899 --> 00:21:31,479
+also curiosity about some of surveyed
+
+445
+00:21:31,479 --> 00:21:35,409
+fact this curiosity is often related to
+
+446
+00:21:35,409 --> 00:21:37,690
+something that you that you feel is
+
+447
+00:21:37,690 --> 00:21:40,239
+relevant but you you cannot say why for
+
+448
+00:21:40,239 --> 00:21:44,529
+you is relevant and for example it is
+
+449
+00:21:44,529 --> 00:21:46,509
+interesting to know why do developers
+
+450
+00:21:46,509 --> 00:21:48,909
+prefer to work at night isn't it it's
+
+451
+00:21:48,909 --> 00:21:51,639
+something interesting but why is it
+
+452
+00:21:51,639 --> 00:21:54,849
+interesting why you are asking this
+
+453
+00:21:54,849 --> 00:21:56,679
+question you really don't know but
+
+454
+00:21:56,679 --> 00:22:00,700
+probably if if you understand why for
+
+455
+00:22:00,700 --> 00:22:02,950
+example by interviewing set of the
+
+456
+00:22:02,950 --> 00:22:05,679
+you may understand that these will help
+
+457
+00:22:05,679 --> 00:22:11,109
+you in in better in better plan your
+
+458
+00:22:11,109 --> 00:22:16,059
+software process in better define for
+
+459
+00:22:16,059 --> 00:22:18,159
+example your schedule for for your
+
+460
+00:22:18,159 --> 00:22:19,899
+company because if you find that
+
+461
+00:22:19,899 --> 00:22:21,789
+developers prefer to work at night so
+
+462
+00:22:21,789 --> 00:22:24,460
+why should you force them to work during
+
+463
+00:22:24,460 --> 00:22:27,419
+the day why should you have a strict
+
+464
+00:22:27,419 --> 00:22:30,190
+strict timing or if you discover that
+
+465
+00:22:30,190 --> 00:22:31,840
+this is not true and some people prefer
+
+466
+00:22:31,840 --> 00:22:33,700
+to work at night some people prefer to
+
+467
+00:22:33,700 --> 00:22:34,450
+work during the day
+
+468
+00:22:34,450 --> 00:22:37,149
+why don't you profit from that for that
+
+469
+00:22:37,149 --> 00:22:39,970
+from that and you start having some
+
+470
+00:22:39,970 --> 00:22:42,220
+people working during the day and some
+
+471
+00:22:42,220 --> 00:22:43,899
+people working during the night so you
+
+472
+00:22:43,899 --> 00:22:50,799
+have 24 hours people working and it can
+
+473
+00:22:50,799 --> 00:22:52,869
+be also some curiosity about some
+
+474
+00:22:52,869 --> 00:22:55,690
+unknown fact so some unknown fact this
+
+475
+00:22:55,690 --> 00:22:57,730
+is the curiosity about something that
+
+476
+00:22:57,730 --> 00:22:59,499
+you may have observed so you have an
+
+477
+00:22:59,499 --> 00:23:01,239
+intuition and you are curious to know
+
+478
+00:23:01,239 --> 00:23:03,580
+but also you want to know something that
+
+479
+00:23:03,580 --> 00:23:05,859
+you don't know sufficient you want to
+
+480
+00:23:05,859 --> 00:23:08,019
+explore so for example what are the most
+
+481
+00:23:08,019 --> 00:23:10,149
+frequent effects in open source code
+
+482
+00:23:10,149 --> 00:23:12,820
+which are their most typical the the
+
+483
+00:23:12,820 --> 00:23:15,129
+fact that you can find in open source
+
+484
+00:23:15,129 --> 00:23:17,109
+code this can be a vague curiosity you
+
+485
+00:23:17,109 --> 00:23:18,850
+don't know why it's interesting but you
+
+486
+00:23:18,850 --> 00:23:22,690
+may be interested in that the research
+
+487
+00:23:22,690 --> 00:23:26,289
+question is the inquiry that guides your
+
+488
+00:23:26,289 --> 00:23:29,259
+research so it's a question written in
+
+489
+00:23:29,259 --> 00:23:30,730
+natural language when I say natural
+
+490
+00:23:30,730 --> 00:23:33,340
+language I say means English Italian any
+
+491
+00:23:33,340 --> 00:23:35,649
+language that you normally use a spoken
+
+492
+00:23:35,649 --> 00:23:39,369
+language or written form in this case
+
+493
+00:23:39,369 --> 00:23:43,029
+and the research question can be
+
+494
+00:23:43,029 --> 00:23:44,889
+something like which are the most
+
+495
+00:23:44,889 --> 00:23:46,929
+frequent effects in code developed by
+
+496
+00:23:46,929 --> 00:23:48,669
+people with less than six months of
+
+497
+00:23:48,669 --> 00:23:50,889
+experience so by novices this is a
+
+498
+00:23:50,889 --> 00:23:54,639
+research question also which are the
+
+499
+00:23:54,639 --> 00:23:56,049
+most frequent effects in the code
+
+500
+00:23:56,049 --> 00:23:58,029
+developed by people from six months to
+
+501
+00:23:58,029 --> 00:24:00,220
+three years experience so this is
+
+502
+00:24:00,220 --> 00:24:01,749
+another research question a search
+
+503
+00:24:01,749 --> 00:24:03,850
+question is something that it's written
+
+504
+00:24:03,850 --> 00:24:07,480
+is clear and guides your research and
+
+505
+00:24:07,480 --> 00:24:10,629
+you should always refer to it to design
+
+506
+00:24:10,629 --> 00:24:13,380
+your research
+
+507
+00:24:13,380 --> 00:24:15,270
+you know my structure your research and
+
+508
+00:24:15,270 --> 00:24:17,880
+reporting according to one or more
+
+509
+00:24:17,880 --> 00:24:21,270
+research question writing them down can
+
+510
+00:24:21,270 --> 00:24:23,690
+help you to clarify your goal and also
+
+511
+00:24:23,690 --> 00:24:26,310
+not just to you but also to the reader
+
+512
+00:24:26,310 --> 00:24:28,890
+because you do research but you have to
+
+513
+00:24:28,890 --> 00:24:32,090
+communicate it of course because anytime
+
+514
+00:24:32,090 --> 00:24:35,550
+anytime you you research research for
+
+515
+00:24:35,550 --> 00:24:38,550
+something if you don't communicate it is
+
+516
+00:24:38,550 --> 00:24:40,830
+useless okay it's just useful probably
+
+517
+00:24:40,830 --> 00:24:44,010
+for you for your knowledge but it's not
+
+518
+00:24:44,010 --> 00:24:46,440
+useful for the other researchers or the
+
+519
+00:24:46,440 --> 00:24:50,580
+other software engineers normally if you
+
+520
+00:24:50,580 --> 00:24:52,170
+have more than one research questions
+
+521
+00:24:52,170 --> 00:24:54,090
+it is good to establish their general
+
+522
+00:24:54,090 --> 00:24:56,130
+research question or research objective
+
+523
+00:24:56,130 --> 00:25:01,860
+so for example if I want to consider how
+
+524
+00:25:01,860 --> 00:25:04,770
+aspects so how things are in practice so
+
+525
+00:25:04,770 --> 00:25:08,970
+more curiosity about observable fact I
+
+526
+00:25:08,970 --> 00:25:11,220
+can ask myself to eat just answers and
+
+527
+00:25:11,220 --> 00:25:12,990
+effect types are related to the degree
+
+528
+00:25:12,990 --> 00:25:15,060
+of experience of the developer this is a
+
+529
+00:25:15,060 --> 00:25:18,150
+general research question and the other
+
+530
+00:25:18,150 --> 00:25:19,920
+two question that you saw at the
+
+531
+00:25:19,920 --> 00:25:21,930
+beginning on slide so which are the most
+
+532
+00:25:21,930 --> 00:25:24,350
+frequent defects in code
+
+533
+00:25:24,350 --> 00:25:26,730
+developed by people with less than six
+
+534
+00:25:26,730 --> 00:25:28,500
+months experience and the other question
+
+535
+00:25:28,500 --> 00:25:32,130
+about the facts they encode developed by
+
+536
+00:25:32,130 --> 00:25:34,410
+people that are older this can be
+
+537
+00:25:34,410 --> 00:25:36,720
+summarized with a more general research
+
+538
+00:25:36,720 --> 00:25:38,640
+question is quite intuitive like to
+
+539
+00:25:38,640 --> 00:25:40,380
+adjust and certain defects type are
+
+540
+00:25:40,380 --> 00:25:42,600
+related to the degree of experience of
+
+541
+00:25:42,600 --> 00:25:44,370
+the developer I want to understand the
+
+542
+00:25:44,370 --> 00:25:46,110
+relation between degree of experience
+
+543
+00:25:46,110 --> 00:25:52,320
+and defect I because my idea is that no
+
+544
+00:25:52,320 --> 00:25:55,080
+of these people tend to introduce more
+
+545
+00:25:55,080 --> 00:25:57,720
+of a certain kind of defect while older
+
+546
+00:25:57,720 --> 00:26:00,180
+people tend to do mistake that are more
+
+547
+00:26:00,180 --> 00:26:04,350
+or less a at architectural level but I
+
+548
+00:26:04,350 --> 00:26:07,560
+can also introduce a more general
+
+549
+00:26:07,560 --> 00:26:10,020
+question also related to this like that
+
+550
+00:26:10,020 --> 00:26:12,720
+consider also why aspects for example
+
+551
+00:26:12,720 --> 00:26:15,270
+which is the relationship between the
+
+552
+00:26:15,270 --> 00:26:18,360
+defects types and degree of experience
+
+553
+00:26:18,360 --> 00:26:23,150
+of the developer so this is more vague
+
+554
+00:26:23,150 --> 00:26:26,880
+okay is not just that I'm searching
+
+555
+00:26:26,880 --> 00:26:29,100
+for relationship between the fax type
+
+556
+00:26:29,100 --> 00:26:31,770
+and degree of experience I'm also and
+
+557
+00:26:31,770 --> 00:26:36,660
+trying to understand what type of our
+
+558
+00:26:36,660 --> 00:26:39,150
+relationship is there in a broad sense
+
+559
+00:26:39,150 --> 00:26:43,380
+so why for example people that have less
+
+560
+00:26:43,380 --> 00:26:45,810
+experience do certain type of defects
+
+561
+00:26:45,810 --> 00:26:48,990
+and in this case probably I need to go
+
+562
+00:26:48,990 --> 00:26:52,620
+further and not just do an experiment
+
+563
+00:26:52,620 --> 00:26:54,840
+for example in which I have young people
+
+564
+00:26:54,840 --> 00:26:59,190
+odd people and let them program and see
+
+565
+00:26:59,190 --> 00:27:01,200
+the defects that they make and in order
+
+566
+00:27:01,200 --> 00:27:04,290
+to interview them and to ask them why
+
+567
+00:27:04,290 --> 00:27:08,490
+they committed a certain defect and to
+
+568
+00:27:08,490 --> 00:27:11,670
+check with them for some motivation that
+
+569
+00:27:11,670 --> 00:27:15,330
+can make me better understand the
+
+570
+00:27:15,330 --> 00:27:17,580
+relationship between the effect type and
+
+571
+00:27:17,580 --> 00:27:19,890
+degree of experience of the developer
+
+572
+00:27:19,890 --> 00:27:25,080
+okay this is a something quite difficult
+
+573
+00:27:25,080 --> 00:27:29,280
+to grasp but I invite you to to reason
+
+574
+00:27:29,280 --> 00:27:31,590
+about that because the difference
+
+575
+00:27:31,590 --> 00:27:36,240
+between and between how things works and
+
+576
+00:27:36,240 --> 00:27:39,750
+why things works in a certain way is
+
+577
+00:27:39,750 --> 00:27:45,660
+very relevant and you need always always
+
+578
+00:27:45,660 --> 00:27:49,470
+you need to resort to a different type
+
+579
+00:27:49,470 --> 00:27:52,320
+of methods if you want to understand
+
+580
+00:27:52,320 --> 00:27:55,020
+both how aspects so how things are
+
+581
+00:27:55,020 --> 00:27:57,180
+related with the sort of correlation
+
+582
+00:27:57,180 --> 00:28:00,600
+that's a correlation function and why
+
+583
+00:28:00,600 --> 00:28:03,540
+aspects so find the human reason behind
+
+584
+00:28:03,540 --> 00:28:07,950
+certain phenomena so many times a clear
+
+585
+00:28:07,950 --> 00:28:09,450
+formulation of the general research
+
+586
+00:28:09,450 --> 00:28:12,240
+question comes after the formulation of
+
+587
+00:28:12,240 --> 00:28:14,070
+the most specific research question so
+
+588
+00:28:14,070 --> 00:28:17,310
+it is easier to write down which are the
+
+589
+00:28:17,310 --> 00:28:19,020
+most frequent effects in code developed
+
+590
+00:28:19,020 --> 00:28:21,840
+by people that has less than six months
+
+591
+00:28:21,840 --> 00:28:23,460
+experience because it's more practical
+
+592
+00:28:23,460 --> 00:28:25,560
+you know you know that you have to
+
+593
+00:28:25,560 --> 00:28:27,690
+select people will assign some months
+
+594
+00:28:27,690 --> 00:28:30,030
+experience but then you have to think
+
+595
+00:28:30,030 --> 00:28:32,190
+what is the thing that I want to
+
+596
+00:28:32,190 --> 00:28:35,010
+understand I want to understand
+
+597
+00:28:35,010 --> 00:28:37,890
+relationship between age and type of
+
+598
+00:28:37,890 --> 00:28:40,470
+defects and I
+
+599
+00:28:40,470 --> 00:28:43,680
+to understand also why there is if there
+
+600
+00:28:43,680 --> 00:28:45,060
+is a relationship this relationship
+
+601
+00:28:45,060 --> 00:28:50,100
+holds in some cases to distinguish you
+
+602
+00:28:50,100 --> 00:28:52,590
+can between like detailed research
+
+603
+00:28:52,590 --> 00:28:54,240
+question like the ones that I listed
+
+604
+00:28:54,240 --> 00:28:56,700
+before and the more general research
+
+605
+00:28:56,700 --> 00:28:59,280
+question you can sometimes formulate the
+
+606
+00:28:59,280 --> 00:29:01,170
+general research question as a research
+
+607
+00:29:01,170 --> 00:29:03,270
+objective so instead of a question just
+
+608
+00:29:03,270 --> 00:29:05,600
+a sentence like the objective is
+
+609
+00:29:05,600 --> 00:29:08,040
+understanding to each stand a certain
+
+610
+00:29:08,040 --> 00:29:10,950
+defect types are related to the degree
+
+611
+00:29:10,950 --> 00:29:13,350
+of experience of a developer so this is
+
+612
+00:29:13,350 --> 00:29:17,750
+what is my research objective how do I
+
+613
+00:29:17,750 --> 00:29:23,130
+pack it into partition it into different
+
+614
+00:29:23,130 --> 00:29:24,900
+questions yes I start with the first
+
+615
+00:29:24,900 --> 00:29:26,940
+questions which are the most frequent
+
+616
+00:29:26,940 --> 00:29:29,010
+effects for people with six months
+
+617
+00:29:29,010 --> 00:29:30,930
+experience the most recurring the first
+
+618
+00:29:30,930 --> 00:29:33,300
+with people with between six and three
+
+619
+00:29:33,300 --> 00:29:35,940
+six months and three years and then I
+
+620
+00:29:35,940 --> 00:29:38,010
+can add the other other question for
+
+621
+00:29:38,010 --> 00:29:42,960
+people who have who have more who have
+
+622
+00:29:42,960 --> 00:29:45,210
+more experience and finally answering
+
+623
+00:29:45,210 --> 00:29:47,460
+the general question that will tell me
+
+624
+00:29:47,460 --> 00:29:50,630
+which are which is actually the
+
+625
+00:29:50,630 --> 00:29:54,750
+relationship between the the type of
+
+626
+00:29:54,750 --> 00:29:58,200
+defects and the years of experience here
+
+627
+00:29:58,200 --> 00:30:03,600
+I will I will tell you how to to write
+
+628
+00:30:03,600 --> 00:30:06,120
+down I will give you a guide that is
+
+629
+00:30:06,120 --> 00:30:08,190
+taken from Robert felt you can check
+
+630
+00:30:08,190 --> 00:30:12,390
+this PDF inning in Internet that is is
+
+631
+00:30:12,390 --> 00:30:15,990
+free that is very simplified guide to
+
+632
+00:30:15,990 --> 00:30:19,260
+how to formulate research questions it
+
+633
+00:30:19,260 --> 00:30:21,750
+is very important it is not important
+
+634
+00:30:21,750 --> 00:30:28,200
+really to let's say to to remember this
+
+635
+00:30:28,200 --> 00:30:31,350
+graph this structure but it's important
+
+636
+00:30:31,350 --> 00:30:34,320
+to refer to possible example actually of
+
+637
+00:30:34,320 --> 00:30:36,870
+research questions but of course
+
+638
+00:30:36,870 --> 00:30:40,160
+didactic li-like for for teaching you
+
+639
+00:30:40,160 --> 00:30:42,300
+for teaching you the different types of
+
+640
+00:30:42,300 --> 00:30:44,010
+research question is very useful to have
+
+641
+00:30:44,010 --> 00:30:47,220
+this classification okay so we have a
+
+642
+00:30:47,220 --> 00:30:49,860
+first of all research question in
+
+643
+00:30:49,860 --> 00:30:51,990
+software engineer you have to type as I
+
+644
+00:30:51,990 --> 00:30:53,610
+told you at the beginning for
+
+645
+00:30:53,610 --> 00:30:56,400
+we need to understand the reality and
+
+646
+00:30:56,400 --> 00:30:59,640
+then we build a solution so my research
+
+647
+00:30:59,640 --> 00:31:03,440
+question can be knowledge for Houston so
+
+648
+00:31:03,440 --> 00:31:07,260
+understanding the reality or solution
+
+649
+00:31:07,260 --> 00:31:09,600
+focus so the objective is transforming
+
+650
+00:31:09,600 --> 00:31:12,330
+the reality okay let's start with the
+
+651
+00:31:12,330 --> 00:31:14,340
+knowledge focused noise focus can be
+
+652
+00:31:14,340 --> 00:31:17,670
+exploratory so I don't know much about
+
+653
+00:31:17,670 --> 00:31:20,430
+the phenomenon and the studies I want to
+
+654
+00:31:20,430 --> 00:31:22,950
+create some tentative series I want to
+
+655
+00:31:22,950 --> 00:31:27,500
+try out some hypothesis and I want to
+
+656
+00:31:27,500 --> 00:31:30,540
+give evidence for example that a certain
+
+657
+00:31:30,540 --> 00:31:33,090
+phenomenon that I want to study can be
+
+658
+00:31:33,090 --> 00:31:36,330
+made measured for example the consumes
+
+659
+00:31:36,330 --> 00:31:38,330
+question should be general is
+
+660
+00:31:38,330 --> 00:31:42,180
+exploratory it's a new thing that I
+
+661
+00:31:42,180 --> 00:31:45,330
+don't know anything about for example to
+
+662
+00:31:45,330 --> 00:31:47,820
+which extent do developers get tired of
+
+663
+00:31:47,820 --> 00:31:50,400
+coding I still don't know if they get
+
+664
+00:31:50,400 --> 00:31:54,300
+tired of coding okay and I still don't
+
+665
+00:31:54,300 --> 00:31:57,120
+know why they make a tile coding so this
+
+666
+00:31:57,120 --> 00:32:00,540
+to which extent is a simple way of
+
+667
+00:32:00,540 --> 00:32:04,020
+saying hey explore this theme explore
+
+668
+00:32:04,020 --> 00:32:08,190
+this topic okay then I have a base rate
+
+669
+00:32:08,190 --> 00:32:11,040
+question base rate question and when you
+
+670
+00:32:11,040 --> 00:32:13,950
+already know something about certain
+
+671
+00:32:13,950 --> 00:32:18,180
+phenomenon we want to understand out the
+
+672
+00:32:18,180 --> 00:32:19,920
+phenomenon and the study appears which
+
+673
+00:32:19,920 --> 00:32:23,730
+are the normal patterns and this can be
+
+674
+00:32:23,730 --> 00:32:25,860
+asked when you already know a little bit
+
+675
+00:32:25,860 --> 00:32:28,860
+so you know that people are able the
+
+676
+00:32:28,860 --> 00:32:33,000
+people tend to get tired of coding my
+
+677
+00:32:33,000 --> 00:32:34,980
+more detailed question is about
+
+678
+00:32:34,980 --> 00:32:37,770
+frequency when the developer gets out oh
+
+679
+00:32:37,770 --> 00:32:43,820
+god okay so I ask I ask myself something
+
+680
+00:32:43,820 --> 00:32:49,020
+about related to the base rate that can
+
+681
+00:32:49,020 --> 00:32:51,060
+be frequency or can be process we'd see
+
+682
+00:32:51,060 --> 00:32:55,950
+more more example later on other so this
+
+683
+00:32:55,950 --> 00:32:58,470
+in the first case in exploratory case I
+
+684
+00:32:58,470 --> 00:33:00,600
+don't know anything now I know that the
+
+685
+00:33:00,600 --> 00:33:02,730
+certain phenomena happen and can be
+
+686
+00:33:02,730 --> 00:33:04,650
+measured so I asking a base rate
+
+687
+00:33:04,650 --> 00:33:06,850
+question in a different stage
+
+688
+00:33:06,850 --> 00:33:11,440
+the research and then I can also ask a
+
+689
+00:33:11,440 --> 00:33:13,470
+more detailed question like for example
+
+690
+00:33:13,470 --> 00:33:17,860
+how certain phenomenon under study
+
+691
+00:33:17,860 --> 00:33:20,980
+relates to other phenomena so why do
+
+692
+00:33:20,980 --> 00:33:23,500
+developers get tired of coding I asked
+
+693
+00:33:23,500 --> 00:33:26,679
+myself so which are the cows causes as
+
+694
+00:33:26,679 --> 00:33:29,309
+you see there is already causality there
+
+695
+00:33:29,309 --> 00:33:34,000
+which are the causes of for people to
+
+696
+00:33:34,000 --> 00:33:36,820
+get tired of coding ok these are
+
+697
+00:33:36,820 --> 00:33:40,120
+different levels that for knowledge
+
+698
+00:33:40,120 --> 00:33:44,940
+focus question that I normally reached
+
+699
+00:33:44,940 --> 00:33:47,019
+when you have different degrees of
+
+700
+00:33:47,019 --> 00:33:51,159
+knowledge of a system theme then you
+
+701
+00:33:51,159 --> 00:33:54,330
+have solution focus questions and
+
+702
+00:33:54,330 --> 00:33:57,610
+basically they describe better ways to
+
+703
+00:33:57,610 --> 00:33:59,320
+solve a problem or a certain situation
+
+704
+00:33:59,320 --> 00:34:02,559
+so which strategies app to achieve a
+
+705
+00:34:02,559 --> 00:34:06,039
+certain certain goal how can we refine a
+
+706
+00:34:06,039 --> 00:34:09,520
+certain tool to achieve certain goal in
+
+707
+00:34:09,520 --> 00:34:12,879
+a better way so they are related with
+
+708
+00:34:12,879 --> 00:34:15,339
+creating the new solution or refining an
+
+709
+00:34:15,339 --> 00:34:17,379
+existing solution these are still
+
+710
+00:34:17,379 --> 00:34:18,940
+research question as I told you before
+
+711
+00:34:18,940 --> 00:34:23,230
+because I need to find a way I need to
+
+712
+00:34:23,230 --> 00:34:25,418
+create an importance for a solution and
+
+713
+00:34:25,418 --> 00:34:28,149
+I have to test the hypothesis against
+
+714
+00:34:28,149 --> 00:34:30,399
+the reality like in the example before I
+
+715
+00:34:30,399 --> 00:34:34,199
+have to check that my proposal of
+
+716
+00:34:34,199 --> 00:34:36,750
+forbidding the people to work at night
+
+717
+00:34:36,750 --> 00:34:40,540
+actually reduces the number of bug in my
+
+718
+00:34:40,540 --> 00:34:44,949
+code and doesn't create new new problems
+
+719
+00:34:44,949 --> 00:34:49,960
+ok so here you have the different
+
+720
+00:34:49,960 --> 00:34:54,069
+subtypes I leave you I leave you this
+
+721
+00:34:54,069 --> 00:34:58,390
+this from from the from the work of
+
+722
+00:34:58,390 --> 00:35:02,230
+Robert felt that that is linked in this
+
+723
+00:35:02,230 --> 00:35:07,660
+light and I related to exploratory
+
+724
+00:35:07,660 --> 00:35:09,940
+questions can be of three types like
+
+725
+00:35:09,940 --> 00:35:13,349
+system descriptive and comparative so
+
+726
+00:35:13,349 --> 00:35:16,960
+existence is thus this phenomenon exists
+
+727
+00:35:16,960 --> 00:35:19,360
+so as I told before
+
+728
+00:35:19,360 --> 00:35:23,440
+that do people get tired of coding or
+
+729
+00:35:23,440 --> 00:35:28,060
+not is this thing that software
+
+730
+00:35:28,060 --> 00:35:31,620
+engineers really do like for example is
+
+731
+00:35:31,620 --> 00:35:34,030
+documentation something that they really
+
+732
+00:35:34,030 --> 00:35:37,000
+do because in a survey I may have in an
+
+733
+00:35:37,000 --> 00:35:40,030
+interview I may have understood that
+
+734
+00:35:40,030 --> 00:35:44,920
+these people are really really annoyed
+
+735
+00:35:44,920 --> 00:35:49,210
+by the fact of writing down
+
+736
+00:35:49,210 --> 00:35:51,250
+documentation and they say that is one
+
+737
+00:35:51,250 --> 00:35:53,380
+of the most time consuming activity of
+
+738
+00:35:53,380 --> 00:35:57,070
+the world but do they really document
+
+739
+00:35:57,070 --> 00:36:00,130
+the software and this is often not the
+
+740
+00:36:00,130 --> 00:36:03,880
+case so asking this this type of
+
+741
+00:36:03,880 --> 00:36:07,300
+existence question is important also for
+
+742
+00:36:07,300 --> 00:36:11,080
+understanding which one is the is the
+
+743
+00:36:11,080 --> 00:36:13,240
+reality okay for certain phenomena
+
+744
+00:36:13,240 --> 00:36:16,020
+actually existed deserves to be studied
+
+745
+00:36:16,020 --> 00:36:20,530
+descriptive descriptive cases are more
+
+746
+00:36:20,530 --> 00:36:22,570
+related to properties and attribution
+
+747
+00:36:22,570 --> 00:36:24,820
+thing that I can measure of a certain
+
+748
+00:36:24,820 --> 00:36:27,100
+phenomenon like what are the properties
+
+749
+00:36:27,100 --> 00:36:30,340
+attributes of a certain phenomenon for
+
+750
+00:36:30,340 --> 00:36:42,910
+example when it is is it is it is it
+
+751
+00:36:42,910 --> 00:36:45,820
+free not frequent but for example how
+
+752
+00:36:45,820 --> 00:36:47,740
+long is the documentation that they
+
+753
+00:36:47,740 --> 00:36:52,120
+produce for example and in any case the
+
+754
+00:36:52,120 --> 00:36:54,520
+things that are related to not to the
+
+755
+00:36:54,520 --> 00:36:56,470
+existent busted a discrete general
+
+756
+00:36:56,470 --> 00:36:58,390
+high-level description of a certain
+
+757
+00:36:58,390 --> 00:37:01,060
+phenomenon and comparative like how can
+
+758
+00:37:01,060 --> 00:37:03,370
+a certain phenomenon differ from another
+
+759
+00:37:03,370 --> 00:37:06,550
+phenomenon then you have the base rate
+
+760
+00:37:06,550 --> 00:37:09,370
+as I told there are can be related to
+
+761
+00:37:09,370 --> 00:37:12,370
+frequency of or to the process so how
+
+762
+00:37:12,370 --> 00:37:15,850
+often or how does this phenomenon
+
+763
+00:37:15,850 --> 00:37:21,250
+normally normally occur then you have
+
+764
+00:37:21,250 --> 00:37:23,770
+the relationship that are again very
+
+765
+00:37:23,770 --> 00:37:27,120
+similar to the exploratory they are
+
+766
+00:37:27,120 --> 00:37:29,440
+similar to inspiratory but instead of
+
+767
+00:37:29,440 --> 00:37:32,260
+focusing on a single element they relate
+
+768
+00:37:32,260 --> 00:37:33,000
+to
+
+769
+00:37:33,000 --> 00:37:35,280
+multiple elements for example do
+
+770
+00:37:35,280 --> 00:37:37,770
+occurrence is the of X correlate with a
+
+771
+00:37:37,770 --> 00:37:41,820
+certain other phenomenon or what are the
+
+772
+00:37:41,820 --> 00:37:44,670
+reason for a certain phenomenon do I
+
+773
+00:37:44,670 --> 00:37:46,290
+know that a certain phenomenon cause
+
+774
+00:37:46,290 --> 00:37:49,170
+causes another cause or prevent another
+
+775
+00:37:49,170 --> 00:37:55,490
+phenomenon and more related to actual
+
+776
+00:37:55,490 --> 00:38:00,270
+causes so causality related question can
+
+777
+00:38:00,270 --> 00:38:04,230
+be comparative of context related until
+
+778
+00:38:04,230 --> 00:38:06,900
+you have a couple a couple of examples
+
+779
+00:38:06,900 --> 00:38:10,080
+so these are just a list of typical
+
+780
+00:38:10,080 --> 00:38:12,420
+example of question can guide you in
+
+781
+00:38:12,420 --> 00:38:14,490
+better formulating the research question
+
+782
+00:38:14,490 --> 00:38:16,710
+this is quite important for you because
+
+783
+00:38:16,710 --> 00:38:20,190
+it would be part also of the exam to be
+
+784
+00:38:20,190 --> 00:38:23,250
+able to formulate research questions
+
+785
+00:38:23,250 --> 00:38:26,580
+okay so please pay attention to these
+
+786
+00:38:26,580 --> 00:38:29,160
+consider this material try to formulate
+
+787
+00:38:29,160 --> 00:38:32,100
+research questions and try to give your
+
+788
+00:38:32,100 --> 00:38:36,030
+own example and understand what is they
+
+789
+00:38:36,030 --> 00:38:39,030
+their classification as I said the
+
+790
+00:38:39,030 --> 00:38:42,090
+classification is useful to to give you
+
+791
+00:38:42,090 --> 00:38:45,630
+a way of of making sense of the
+
+792
+00:38:45,630 --> 00:38:47,220
+different types of question but in the
+
+793
+00:38:47,220 --> 00:38:51,420
+end it is useful to look at examples ok
+
+794
+00:38:51,420 --> 00:38:55,020
+this list of examples if you replace the
+
+795
+00:38:55,020 --> 00:38:57,420
+X and the y with some phenomena of
+
+796
+00:38:57,420 --> 00:39:00,000
+interest for software engineers they
+
+797
+00:39:00,000 --> 00:39:02,970
+they can be really useful for you how to
+
+798
+00:39:02,970 --> 00:39:06,030
+create research question you create
+
+799
+00:39:06,030 --> 00:39:09,240
+research questions by starting from not
+
+800
+00:39:09,240 --> 00:39:13,200
+a well-defined research objective
+
+801
+00:39:13,200 --> 00:39:15,570
+because as I said before it usually come
+
+802
+00:39:15,570 --> 00:39:18,990
+afterwards with the topic normally so it
+
+803
+00:39:18,990 --> 00:39:21,080
+can be software development speed and
+
+804
+00:39:21,080 --> 00:39:24,210
+then you can ask yourself do you want to
+
+805
+00:39:24,210 --> 00:39:26,400
+create more a better understanding or
+
+806
+00:39:26,400 --> 00:39:29,280
+you want to solve something related to
+
+807
+00:39:29,280 --> 00:39:32,100
+development speed if you want to create
+
+808
+00:39:32,100 --> 00:39:33,600
+better understanding then you are
+
+809
+00:39:33,600 --> 00:39:35,960
+dealing with a knowledge-based question
+
+810
+00:39:35,960 --> 00:39:38,460
+and you want to ask yourself something
+
+811
+00:39:38,460 --> 00:39:40,560
+like what effects development speed how
+
+812
+00:39:40,560 --> 00:39:43,410
+can we measure development speed so how
+
+813
+00:39:43,410 --> 00:39:45,960
+can we measure how fast are the people
+
+814
+00:39:45,960 --> 00:39:46,650
+in developing
+
+815
+00:39:46,650 --> 00:39:51,840
+what if then I have to ask myself okay
+
+816
+00:39:51,840 --> 00:39:53,250
+I've understood that I have a
+
+817
+00:39:53,250 --> 00:39:55,320
+knowledge-based question I have to
+
+818
+00:39:55,320 --> 00:39:57,660
+understand how much is known about this
+
+819
+00:39:57,660 --> 00:40:01,080
+specific topic if not much is known I
+
+820
+00:40:01,080 --> 00:40:04,200
+have to ask an exploitative question so
+
+821
+00:40:04,200 --> 00:40:06,000
+how can we measure for example
+
+822
+00:40:06,000 --> 00:40:08,100
+development speed because this is also
+
+823
+00:40:08,100 --> 00:40:10,350
+problem for example how can we measure a
+
+824
+00:40:10,350 --> 00:40:12,900
+little in relation to what in relay in
+
+825
+00:40:12,900 --> 00:40:15,150
+relation to the level software that even
+
+826
+00:40:15,150 --> 00:40:18,720
+good software for example which are the
+
+827
+00:40:18,720 --> 00:40:22,640
+measures that I can put into place okay
+
+828
+00:40:22,640 --> 00:40:25,950
+then you can have more information so
+
+829
+00:40:25,950 --> 00:40:27,720
+you know asset the phenomenon of
+
+830
+00:40:27,720 --> 00:40:30,120
+development speed but you don't know
+
+831
+00:40:30,120 --> 00:40:35,430
+when certain sentence when or how it
+
+832
+00:40:35,430 --> 00:40:39,390
+occurs so what is the development speed
+
+833
+00:40:39,390 --> 00:40:42,810
+actually of a child tips so specific
+
+834
+00:40:42,810 --> 00:40:47,100
+types specific types of teams and I want
+
+835
+00:40:47,100 --> 00:40:51,540
+to measure the I want to measure in this
+
+836
+00:40:51,540 --> 00:40:55,280
+specific case what is what is their
+
+837
+00:40:55,280 --> 00:40:59,040
+development speed in the case in which
+
+838
+00:40:59,040 --> 00:41:01,410
+you know the phenomenon and you have
+
+839
+00:41:01,410 --> 00:41:04,740
+understood it quite correctly how things
+
+840
+00:41:04,740 --> 00:41:07,590
+work in practice so you can measure you
+
+841
+00:41:07,590 --> 00:41:11,910
+can note also how things are working so
+
+842
+00:41:11,910 --> 00:41:13,950
+you've been able to measure for example
+
+843
+00:41:13,950 --> 00:41:16,830
+the develop speed of agile team you may
+
+844
+00:41:16,830 --> 00:41:19,200
+want to understand what is affecting
+
+845
+00:41:19,200 --> 00:41:21,960
+development speed so why certain teams
+
+846
+00:41:21,960 --> 00:41:24,510
+are faster than others so in this case
+
+847
+00:41:24,510 --> 00:41:25,700
+you want to understand the relationship
+
+848
+00:41:25,700 --> 00:41:28,740
+before between certain unknown causes
+
+849
+00:41:28,740 --> 00:41:32,460
+and the development speed in cases that
+
+850
+00:41:32,460 --> 00:41:37,250
+you've working towards a solution based
+
+851
+00:41:37,610 --> 00:41:40,620
+question the question can be how can I
+
+852
+00:41:40,620 --> 00:41:42,690
+improve development speed what is the
+
+853
+00:41:42,690 --> 00:41:44,160
+easiest way to improve the variable
+
+854
+00:41:44,160 --> 00:41:45,720
+speed you see that there is a
+
+855
+00:41:45,720 --> 00:41:48,030
+relationship now first as I said before
+
+856
+00:41:48,030 --> 00:41:51,240
+knowledge so first you understand what
+
+857
+00:41:51,240 --> 00:41:53,790
+effects development speed and then you
+
+858
+00:41:53,790 --> 00:41:56,280
+ask yourself how can I improve it how
+
+859
+00:41:56,280 --> 00:41:59,070
+can I move the factors so that
+
+860
+00:41:59,070 --> 00:42:00,620
+development speed increase
+
+861
+00:42:00,620 --> 00:42:02,610
+what is the easiest way to improve
+
+862
+00:42:02,610 --> 00:42:06,420
+development speed so which factors can I
+
+863
+00:42:06,420 --> 00:42:09,960
+use to somehow tune it so for example
+
+864
+00:42:09,960 --> 00:42:12,510
+pair programming I can use another
+
+865
+00:42:12,510 --> 00:42:15,300
+language or I don't know I can make
+
+866
+00:42:15,300 --> 00:42:17,910
+people work at night work at the time
+
+867
+00:42:17,910 --> 00:42:20,490
+that they want I can remove the presence
+
+868
+00:42:20,490 --> 00:42:23,240
+of the program manager I don't know
+
+869
+00:42:23,240 --> 00:42:26,070
+after I've studied the factor I can put
+
+870
+00:42:26,070 --> 00:42:27,660
+in place a solution that solved my
+
+871
+00:42:27,660 --> 00:42:32,880
+problem normally as I said before one
+
+872
+00:42:32,880 --> 00:42:35,040
+research question is not sufficient and
+
+873
+00:42:35,040 --> 00:42:38,630
+you normally need multiple question so
+
+874
+00:42:38,630 --> 00:42:42,150
+try to find after you have written down
+
+875
+00:42:42,150 --> 00:42:44,340
+some base question try to find the main
+
+876
+00:42:44,340 --> 00:42:46,200
+research question or overarching
+
+877
+00:42:46,200 --> 00:42:49,440
+research objective and then keep on
+
+878
+00:42:49,440 --> 00:42:52,290
+refinement the your type of question
+
+879
+00:42:52,290 --> 00:42:54,840
+okay and check the types of question the
+
+880
+00:42:54,840 --> 00:42:57,270
+previous table and adapt them to your
+
+881
+00:42:57,270 --> 00:42:59,580
+problem too so you start with the
+
+882
+00:42:59,580 --> 00:43:01,620
+question and you refine it you refine it
+
+883
+00:43:01,620 --> 00:43:05,520
+okay you refine it you you first go up
+
+884
+00:43:05,520 --> 00:43:09,540
+to more higher level research objective
+
+885
+00:43:09,540 --> 00:43:12,620
+and then go back and refine again so to
+
+886
+00:43:12,620 --> 00:43:15,270
+understand whether you've covered your
+
+887
+00:43:15,270 --> 00:43:17,790
+actual research objective and just in
+
+888
+00:43:17,790 --> 00:43:19,860
+the end very often just at the end of
+
+889
+00:43:19,860 --> 00:43:23,610
+your research you finalize the research
+
+890
+00:43:23,610 --> 00:43:25,410
+question this is something like they
+
+891
+00:43:25,410 --> 00:43:29,370
+seem to come at the beginning they
+
+892
+00:43:29,370 --> 00:43:31,230
+should come at the beginning at the
+
+893
+00:43:31,230 --> 00:43:32,760
+beginning you write some research
+
+894
+00:43:32,760 --> 00:43:35,730
+question but it is true that every time
+
+895
+00:43:35,730 --> 00:43:37,530
+you do an experiment every time you do a
+
+896
+00:43:37,530 --> 00:43:40,290
+case study anytime you study a real
+
+897
+00:43:40,290 --> 00:43:42,570
+phenomenon you understand that your
+
+898
+00:43:42,570 --> 00:43:45,720
+question need to be changed so your
+
+899
+00:43:45,720 --> 00:43:47,370
+research objective and your research
+
+900
+00:43:47,370 --> 00:43:49,950
+question will because stable just at the
+
+901
+00:43:49,950 --> 00:43:52,920
+end just like the requirements like the
+
+902
+00:43:52,920 --> 00:43:54,660
+requirements for a system they become
+
+903
+00:43:54,660 --> 00:43:56,430
+stable just when the system is finished
+
+904
+00:43:56,430 --> 00:43:58,770
+also the research question they get
+
+905
+00:43:58,770 --> 00:44:01,770
+transformed and transformed still even
+
+906
+00:44:01,770 --> 00:44:04,650
+in their form intermediate form they are
+
+907
+00:44:04,650 --> 00:44:10,580
+needed to guide your process so this is
+
+908
+00:44:10,580 --> 00:44:13,710
+this is all for for today
+
+909
+00:44:13,710 --> 00:44:20,400
+and we will we will meet again on on
+
+910
+00:44:20,400 --> 00:44:23,180
+Thursday
+

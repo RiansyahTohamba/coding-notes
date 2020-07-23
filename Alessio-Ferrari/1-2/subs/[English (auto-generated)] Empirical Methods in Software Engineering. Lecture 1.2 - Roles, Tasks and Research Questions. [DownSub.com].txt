@@ -1,0 +1,1820 @@
+okay in the previous slides I showed you
+
+the an overview basically of what what
+
+you are going to learn through this
+
+course and mainly not really an overview
+
+because you didn't see so much about the
+
+methodologies but more of the motivation
+
+why the thing that I would present you
+
+in this course are irrelevant I
+
+mentioned during the presentation that
+
+we will have to deal with with several
+
+stakeholders and I mention different
+
+activities in the software engineering
+
+process that are development testing etc
+
+now let's see which which ones are the
+
+roles that you would deal with in this
+
+that you will deal with with the
+
+different methods and the tasks in the
+
+software engineering process this is
+
+just a very very very broad overview
+
+okay we chart the roles roll it software
+
+engineering are different they change
+
+based on the process also that you may
+
+have in a company they vary on the
+
+dimension of the company I will not I
+
+will always repeat it until you are
+
+tired that every company is different
+
+every context is different but in
+
+general a software engineering company
+
+or a software company always have at
+
+least the developers that are the ones
+
+who do the coding of course this could
+
+be also in principle outsourced because
+
+I may be a company that have some that
+
+doesn't develop in-house but is just
+
+combining the code developed by
+
+different developers outside but in
+
+general in some way developers as always
+
+him are always involved sometimes so you
+
+may have designers and architects so
+
+designers an architect I'm reading in
+
+the slide from the bottom and like
+
+checking some roads somewhat randomly
+
+designers and architects are the wise
+
+design the system at a high level and
+
+the ones who do the project basically
+
+very often is more company these are the
+
+same as developers so-and-so or they
+
+don't even exist if you are if you are
+
+in a company where you are you don't
+
+design the software but you simply
+
+incrementally develop it so you don't
+
+have this this type of roles okay you
+
+add the requirements or business analyst
+
+we would see the requirements engineer
+
+business and several names are used for
+
+that functional analysts in some cases
+
+and this is the ones that gather the
+
+requirements from customers and users
+
+and create their requirements documents
+
+to be used by the developers but very
+
+often this is just a guy that interact
+
+with the customer and doesn't write down
+
+the requirements document but simply
+
+speak with the developers to say what
+
+they should do or write down the
+
+so-called user stores that are short
+
+form of requirements if you are using
+
+so-called
+
+agile processes okay then you have the
+
+users the one that will use the system
+
+and the customers the by the ones who
+
+buy the system these are also in the
+
+scope of our interest what is the
+
+difference between customers clients
+
+that say and uses normal users are the
+
+actual users for example in the example
+
+that I made in the previous part of the
+
+lecture in which I was considered and
+
+hoskin see during a hospital the user of
+
+the system to update information about
+
+the coronavirus are actually the doctors
+
+so the general practice doctors the
+
+so-called Medici de Familia in Italian
+
+these are the users of the system but
+
+they don't they don't pay for the system
+
+and they don't pay for the development
+
+of the system the customer is actually
+
+the
+
+they have the Health Organization they
+
+held company for example the hospital or
+
+if you are dealing with the if you want
+
+to deliver this product to the wall
+
+settle Ospital in tuscany for example it
+
+will be the region so you have different
+
+subjects that have different needs
+
+because the user probably in this case
+
+don't care about the the price of the
+
+software while the customer does and in
+
+some cases the users are also customers
+
+for example in case there of mobile
+
+application of any consumer softwares
+
+for example if you think netflix
+
+software we're all users but we pay for
+
+it
+
+and we're also customers so but have you
+
+ever have you ever met someone from from
+
+netflix asking you what is what is your
+
+need for good bit in the system it
+
+didn't happen
+
+so you ever roll but you don't interact
+
+directly with them but they can
+
+understand what you did by sampling from
+
+from your interaction with the system
+
+they try to understand when you are
+
+watching those movies which type of
+
+movies are you watching and they
+
+understand what are your needs based on
+
+the usage of the system and this is
+
+typical of for many consumer products
+
+like for example Netflix or any app that
+
+you have in your mobile or Microsoft
+
+Word or any of this type of code summer
+
+pro consumers products that that I used
+
+by mmm that are used by by people that
+
+are oriented to the large market and are
+
+not specific for solving a problem like
+
+the one I said for the hospital or for a
+
+chain of supermarkets for itself if the
+
+company is large you may have also some
+
+managers in general you distinguish
+
+between three levels of management in a
+
+large company you have top-level
+
+managers which are responsible for
+
+controlling oversees the entire
+
+organization so this is a top level
+
+meet the level which are responsible for
+
+executing organization plans according
+
+to the company policies and they are
+
+basically intermediate towards the top
+
+management and low-level manager that
+
+are ever direct contact with the
+
+developers they say and often they are
+
+called
+
+project manager okay they ever there are
+
+role models for the employees they
+
+supervise and they control the timing
+
+and they do more fine-tuned to control
+
+but they don't give let's say the the
+
+decision for the decision for a more
+
+larger plan they are focused on a
+
+project or two projects and they direct
+
+the specific projects but there are more
+
+level of management of all above them
+
+and then there is the Board of Directors
+
+so it's a people group elected by the
+
+stockholders possible if if it is a
+
+company if it is a market company and
+
+they decide corporate policies and make
+
+management decisions normally when we
+
+study when we study software engineering
+
+problems we don't do much with the Board
+
+of Directors of course we may deal with
+
+managers because the low-level managers
+
+especially the project managers are are
+
+dealing with the software and they are
+
+really relevant roles we deal with
+
+customers we use it with requirements
+
+business scientists sometimes will
+
+report designers and architects although
+
+many companies don't have them and we
+
+developers and testers so testers are
+
+the ones who test the code so the
+
+subjects that may be also or subjects
+
+who review the code this is the review
+
+the code they simply don't test but just
+
+look at the code and check for the
+
+quality this may be often the developer
+
+themselves so everything may be adapted
+
+to a specific company's need but these
+
+are the main Rosemere names that you
+
+will
+
+that you will hear and you will read
+
+about in software engineering
+
+publications as I said companies may
+
+include the only a subset of the roles
+
+some of the roles may be covered by the
+
+same person
+
+so as I said some testers may be
+
+actually developers some code reviewers
+
+may be actually developers or the
+
+designers may be the developers and in
+
+some cases even the business analyst may
+
+be the developers and the role may
+
+depend of the adopter software process
+
+so there I didn't go through this
+
+disaster but there are two let's say
+
+general general paradigm of software
+
+process one is the traditional software
+
+process that is the so-called waterful
+
+process and in which you have the
+
+sequence of steps like the one that I
+
+described so you start from the
+
+requirements you start with the
+
+interaction with the customer you write
+
+the requirements you design the software
+
+you write down the code you test it in
+
+etc etc or you have the so called guides
+
+of the process and that is the more
+
+modern way of programming of developing
+
+software that consists in having
+
+frequent interactions and frequent the
+
+delivery of prototypes and rapid
+
+implementation so the you don't wait to
+
+develop you don't wait for the entire
+
+requirements document to be completed or
+
+the design to be completed before coding
+
+but you start prototyping Cinda bit
+
+since the beginning and you have
+
+frequent stand-up meeting with the other
+
+partners and you have more relevance of
+
+interaction between between people so
+
+rows may depend on the way that you
+
+decide to develop your software which
+
+are the main tasks the main tasks you
+
+saw them in the in the previous in the
+
+previous
+
+in Denisha slides but I want to
+
+emphasize them in here because the
+
+examples that I will give throughout the
+
+world the world class that will deal
+
+with this aspect so when I speak about
+
+requirements elicitation and analysis I
+
+speak about the first phase in which you
+
+try to understand what is needed to be
+
+built
+
+okay so requirements elicitation and
+
+analysis is a very vast area and may
+
+have different practical practical
+
+solution in the sense that as I told
+
+before you may have situation in which
+
+you interact directly with the customer
+
+so with the people who will pay you for
+
+your product or you may build a consumer
+
+product and so you have to harvest
+
+gather the requirements from from the
+
+mass from the people or just rely on new
+
+ideas internal and then test these ideas
+
+that are internal to your compendious
+
+test this idea with the people of course
+
+they didn't ask people for the iPod or
+
+they didn't ask people for when they
+
+invented the car so many new invention
+
+also in software they come from ideas
+
+and observation of reality and don't
+
+need to require a direct interaction at
+
+least at the beginning with the user but
+
+it has been demonstrated that the
+
+involvement of the users since the
+
+beginning may be really useful to test
+
+your idea I understand that you're not
+
+wasting your money in the in the
+
+investment that you are doing software
+
+architecture software so this
+
+requirement solicitation and analysis
+
+analysis means means several things
+
+means try to structure the requirements
+
+imagine for example the requirements for
+
+a system that is built on the trains
+
+that you are using you may be using not
+
+now how much usually the system that
+
+brakes the train in case the driver
+
+exceeds with the control speed
+
+the requirements for these are like 300
+
+or 400 pages long and this is just one
+
+part or the more technical required and
+
+you have different volumes that specify
+
+how this software the different parts
+
+related to the risk to them today other
+
+aspect let's say of the process but it's
+
+like a very large volume and analyzing
+
+these requirements means that first
+
+you've gone through the process of
+
+starting from more abstract requirements
+
+let's say then you have formalize them
+
+and then you have checked that there is
+
+no ambiguity in these documents that
+
+they have being that they are clearly
+
+understood by anyone who reads them etc
+
+okay so the analysis process success
+
+especially for very complex systems is a
+
+very safety critical system like the
+
+trains or aircraft is very it's very
+
+long this this phase in which you try to
+
+understand them formalize in written
+
+form your requirements then you have the
+
+software architecture software
+
+architecture was what I what I was
+
+speaking was so before about that is
+
+design and softer so creating the the
+
+picture of your soft train you I met
+
+before you implement it UML is the most
+
+common way of designing your software
+
+software architecture of course that
+
+there is a distinction between software
+
+architecture and design because
+
+architecture is more high level while
+
+design is more related to object
+
+oriented design let's say so it's more
+
+detail why the architecture should be
+
+language independent normal so doesn't
+
+rely on objects and this type of stuff
+
+but for what we are interested here
+
+software architecture is building
+
+somehow a model of what will be the
+
+structure of the software that satisfies
+
+the requirements that I am licit it so
+
+if the development is the actual act or
+
+developing that is not simply opening
+
+the computer and start writing the code
+
+is also interacting with the other
+
+developers interacting with the software
+
+architects interactive with the
+
+requirements elicitation fair with the
+
+requirements analyst so interacting with
+
+several other subject and writing down
+
+what the software should do but also the
+
+bug in the sauce because of course when
+
+you write the software you into it it
+
+doesn't it doesn't always work properly
+
+but also refactor the software so I mean
+
+it - I find a bug that effects a certain
+
+part of the software I need to refactor
+
+it or I need to refactor the software
+
+because new requirements come from the
+
+customer can have several cases of
+
+course then you have software testing
+
+software testing also in this case you
+
+may have different levels of testing for
+
+example you have only a function level
+
+you have only to do unit testing for a
+
+Java program so you test just that unit
+
+according to a set of tests or you may
+
+need to do integration testing
+
+integration testing means that for
+
+example for the system that I was
+
+exemplified before for stopping the
+
+training case there is a the driver
+
+exceeds the the maximum speed in that
+
+case I may need first of all one system
+
+that is on board but the system has to
+
+be linked also to the brake so I need to
+
+integrate probably the software that is
+
+directly controlling the brake with the
+
+software that is in this other box and
+
+antis is monitoring the speed of the
+
+train and in addition in this
+
+architecture am I also have some
+
+software that is deployed deployed on
+
+the ground that is sending for example
+
+the status of the Signet so the
+
+semaphores that you that you meet across
+
+the line so i have to integrate it to
+
+check that all these elements interact
+
+properly and this is so-called
+
+integration testing
+
+not this real same thing of the of the
+
+unit testing which I test a function but
+
+still I'm doing an a testing activity
+
+and this is of interest for for for
+
+software engineering and for our scope
+
+then there is software documentation is
+
+something that is normally poorly done
+
+but in some cases is mandatory so it is
+
+for example when you are developing
+
+safety critical systems you have to
+
+document each step of your of your
+
+process and you have to careful the
+
+human chess software super so writing
+
+down the the what the software is doing
+
+and if you if you are if you are
+
+developing also man wants for example
+
+for users or man was for developers also
+
+how the software should be used and how
+
+it should be extent and maintained and
+
+then you have software maintenance
+
+software maintenance is the other phase
+
+in which okay I need to update the
+
+software based on new requirements
+
+normally the software developers are
+
+involved in here but the activity is
+
+completely different because I have to
+
+refactor normally software do small
+
+changes debug etc and finally there is
+
+the software process management as a
+
+short in the beginning of the
+
+presentation there is a process this
+
+process need to be managed by somehow by
+
+some but as some people I've shown three
+
+level of Management and these three
+
+levels are involved in checking that the
+
+word process runs smoothly but software
+
+process management is also dealing with
+
+concurrent versioning systems dealing
+
+with bugs bug report dealing with all
+
+the older tools and echo and and system
+
+that allows me to better manage my
+
+softer so summarize in software
+
+engineering we are dealing with all the
+
+roads that I listed in this previous
+
+slide
+
+in with all these roles from managers to
+
+customers to uses to requirements
+
+analyze to designers to developers and
+
+testers
+
+and more you I will show you more
+
+details on the role when we will speak
+
+about surveys which are more focused on
+
+people so you need to understand more in
+
+detail what are the roles and these are
+
+the tasks so these people and these
+
+tasks so we will deal with station
+
+architecture development testing
+
+documentation maintenance a software
+
+process management you don't need to
+
+learn in depth what are all these phases
+
+what I told you now should be sufficient
+
+to have a sufficient understanding
+
+because here we are focused on tasks and
+
+people but mostly on methodological
+
+aspects so let's pass to this other part
+
+and this will be the last the last part
+
+for for today that is related to one of
+
+the core one of the core element of
+
+research that is the formulating
+
+research questions so basically anything
+
+that that you do in research in software
+
+engineering but also in any type of
+
+research starts with a question about
+
+the reality ok a question about the
+
+world this is normal in software
+
+engineering a problem to solve
+
+so the question about the word is how
+
+can I solve this problem but it can be
+
+also curiosity about some of surveyed
+
+fact this curiosity is often related to
+
+something that you that you feel is
+
+relevant but you you cannot say why for
+
+you is relevant and for example it is
+
+interesting to know why do developers
+
+prefer to work at night isn't it it's
+
+something interesting but why is it
+
+interesting why you are asking this
+
+question you really don't know but
+
+probably if if you understand why for
+
+example by interviewing set of the
+
+you may understand that these will help
+
+you in in better in better plan your
+
+software process in better define for
+
+example your schedule for for your
+
+company because if you find that
+
+developers prefer to work at night so
+
+why should you force them to work during
+
+the day why should you have a strict
+
+strict timing or if you discover that
+
+this is not true and some people prefer
+
+to work at night some people prefer to
+
+work during the day
+
+why don't you profit from that for that
+
+from that and you start having some
+
+people working during the day and some
+
+people working during the night so you
+
+have 24 hours people working and it can
+
+be also some curiosity about some
+
+unknown fact so some unknown fact this
+
+is the curiosity about something that
+
+you may have observed so you have an
+
+intuition and you are curious to know
+
+but also you want to know something that
+
+you don't know sufficient you want to
+
+explore so for example what are the most
+
+frequent effects in open source code
+
+which are their most typical the the
+
+fact that you can find in open source
+
+code this can be a vague curiosity you
+
+don't know why it's interesting but you
+
+may be interested in that the research
+
+question is the inquiry that guides your
+
+research so it's a question written in
+
+natural language when I say natural
+
+language I say means English Italian any
+
+language that you normally use a spoken
+
+language or written form in this case
+
+and the research question can be
+
+something like which are the most
+
+frequent effects in code developed by
+
+people with less than six months of
+
+experience so by novices this is a
+
+research question also which are the
+
+most frequent effects in the code
+
+developed by people from six months to
+
+three years experience so this is
+
+another research question a search
+
+question is something that it's written
+
+is clear and guides your research and
+
+you should always refer to it to design
+
+your research
+
+you know my structure your research and
+
+reporting according to one or more
+
+research question writing them down can
+
+help you to clarify your goal and also
+
+not just to you but also to the reader
+
+because you do research but you have to
+
+communicate it of course because anytime
+
+anytime you you research research for
+
+something if you don't communicate it is
+
+useless okay it's just useful probably
+
+for you for your knowledge but it's not
+
+useful for the other researchers or the
+
+other software engineers normally if you
+
+have more than one research questions
+
+it is good to establish their general
+
+research question or research objective
+
+so for example if I want to consider how
+
+aspects so how things are in practice so
+
+more curiosity about observable fact I
+
+can ask myself to eat just answers and
+
+effect types are related to the degree
+
+of experience of the developer this is a
+
+general research question and the other
+
+two question that you saw at the
+
+beginning on slide so which are the most
+
+frequent defects in code
+
+developed by people with less than six
+
+months experience and the other question
+
+about the facts they encode developed by
+
+people that are older this can be
+
+summarized with a more general research
+
+question is quite intuitive like to
+
+adjust and certain defects type are
+
+related to the degree of experience of
+
+the developer I want to understand the
+
+relation between degree of experience
+
+and defect I because my idea is that no
+
+of these people tend to introduce more
+
+of a certain kind of defect while older
+
+people tend to do mistake that are more
+
+or less a at architectural level but I
+
+can also introduce a more general
+
+question also related to this like that
+
+consider also why aspects for example
+
+which is the relationship between the
+
+defects types and degree of experience
+
+of the developer so this is more vague
+
+okay is not just that I'm searching
+
+for relationship between the fax type
+
+and degree of experience I'm also and
+
+trying to understand what type of our
+
+relationship is there in a broad sense
+
+so why for example people that have less
+
+experience do certain type of defects
+
+and in this case probably I need to go
+
+further and not just do an experiment
+
+for example in which I have young people
+
+odd people and let them program and see
+
+the defects that they make and in order
+
+to interview them and to ask them why
+
+they committed a certain defect and to
+
+check with them for some motivation that
+
+can make me better understand the
+
+relationship between the effect type and
+
+degree of experience of the developer
+
+okay this is a something quite difficult
+
+to grasp but I invite you to to reason
+
+about that because the difference
+
+between and between how things works and
+
+why things works in a certain way is
+
+very relevant and you need always always
+
+you need to resort to a different type
+
+of methods if you want to understand
+
+both how aspects so how things are
+
+related with the sort of correlation
+
+that's a correlation function and why
+
+aspects so find the human reason behind
+
+certain phenomena so many times a clear
+
+formulation of the general research
+
+question comes after the formulation of
+
+the most specific research question so
+
+it is easier to write down which are the
+
+most frequent effects in code developed
+
+by people that has less than six months
+
+experience because it's more practical
+
+you know you know that you have to
+
+select people will assign some months
+
+experience but then you have to think
+
+what is the thing that I want to
+
+understand I want to understand
+
+relationship between age and type of
+
+defects and I
+
+to understand also why there is if there
+
+is a relationship this relationship
+
+holds in some cases to distinguish you
+
+can between like detailed research
+
+question like the ones that I listed
+
+before and the more general research
+
+question you can sometimes formulate the
+
+general research question as a research
+
+objective so instead of a question just
+
+a sentence like the objective is
+
+understanding to each stand a certain
+
+defect types are related to the degree
+
+of experience of a developer so this is
+
+what is my research objective how do I
+
+pack it into partition it into different
+
+questions yes I start with the first
+
+questions which are the most frequent
+
+effects for people with six months
+
+experience the most recurring the first
+
+with people with between six and three
+
+six months and three years and then I
+
+can add the other other question for
+
+people who have who have more who have
+
+more experience and finally answering
+
+the general question that will tell me
+
+which are which is actually the
+
+relationship between the the type of
+
+defects and the years of experience here
+
+I will I will tell you how to to write
+
+down I will give you a guide that is
+
+taken from Robert felt you can check
+
+this PDF inning in Internet that is is
+
+free that is very simplified guide to
+
+how to formulate research questions it
+
+is very important it is not important
+
+really to let's say to to remember this
+
+graph this structure but it's important
+
+to refer to possible example actually of
+
+research questions but of course
+
+didactic li-like for for teaching you
+
+for teaching you the different types of
+
+research question is very useful to have
+
+this classification okay so we have a
+
+first of all research question in
+
+software engineer you have to type as I
+
+told you at the beginning for
+
+we need to understand the reality and
+
+then we build a solution so my research
+
+question can be knowledge for Houston so
+
+understanding the reality or solution
+
+focus so the objective is transforming
+
+the reality okay let's start with the
+
+knowledge focused noise focus can be
+
+exploratory so I don't know much about
+
+the phenomenon and the studies I want to
+
+create some tentative series I want to
+
+try out some hypothesis and I want to
+
+give evidence for example that a certain
+
+phenomenon that I want to study can be
+
+made measured for example the consumes
+
+question should be general is
+
+exploratory it's a new thing that I
+
+don't know anything about for example to
+
+which extent do developers get tired of
+
+coding I still don't know if they get
+
+tired of coding okay and I still don't
+
+know why they make a tile coding so this
+
+to which extent is a simple way of
+
+saying hey explore this theme explore
+
+this topic okay then I have a base rate
+
+question base rate question and when you
+
+already know something about certain
+
+phenomenon we want to understand out the
+
+phenomenon and the study appears which
+
+are the normal patterns and this can be
+
+asked when you already know a little bit
+
+so you know that people are able the
+
+people tend to get tired of coding my
+
+more detailed question is about
+
+frequency when the developer gets out oh
+
+god okay so I ask I ask myself something
+
+about related to the base rate that can
+
+be frequency or can be process we'd see
+
+more more example later on other so this
+
+in the first case in exploratory case I
+
+don't know anything now I know that the
+
+certain phenomena happen and can be
+
+measured so I asking a base rate
+
+question in a different stage
+
+the research and then I can also ask a
+
+more detailed question like for example
+
+how certain phenomenon under study
+
+relates to other phenomena so why do
+
+developers get tired of coding I asked
+
+myself so which are the cows causes as
+
+you see there is already causality there
+
+which are the causes of for people to
+
+get tired of coding ok these are
+
+different levels that for knowledge
+
+focus question that I normally reached
+
+when you have different degrees of
+
+knowledge of a system theme then you
+
+have solution focus questions and
+
+basically they describe better ways to
+
+solve a problem or a certain situation
+
+so which strategies app to achieve a
+
+certain certain goal how can we refine a
+
+certain tool to achieve certain goal in
+
+a better way so they are related with
+
+creating the new solution or refining an
+
+existing solution these are still
+
+research question as I told you before
+
+because I need to find a way I need to
+
+create an importance for a solution and
+
+I have to test the hypothesis against
+
+the reality like in the example before I
+
+have to check that my proposal of
+
+forbidding the people to work at night
+
+actually reduces the number of bug in my
+
+code and doesn't create new new problems
+
+ok so here you have the different
+
+subtypes I leave you I leave you this
+
+this from from the from the work of
+
+Robert felt that that is linked in this
+
+light and I related to exploratory
+
+questions can be of three types like
+
+system descriptive and comparative so
+
+existence is thus this phenomenon exists
+
+so as I told before
+
+that do people get tired of coding or
+
+not is this thing that software
+
+engineers really do like for example is
+
+documentation something that they really
+
+do because in a survey I may have in an
+
+interview I may have understood that
+
+these people are really really annoyed
+
+by the fact of writing down
+
+documentation and they say that is one
+
+of the most time consuming activity of
+
+the world but do they really document
+
+the software and this is often not the
+
+case so asking this this type of
+
+existence question is important also for
+
+understanding which one is the is the
+
+reality okay for certain phenomena
+
+actually existed deserves to be studied
+
+descriptive descriptive cases are more
+
+related to properties and attribution
+
+thing that I can measure of a certain
+
+phenomenon like what are the properties
+
+attributes of a certain phenomenon for
+
+example when it is is it is it is it
+
+free not frequent but for example how
+
+long is the documentation that they
+
+produce for example and in any case the
+
+things that are related to not to the
+
+existent busted a discrete general
+
+high-level description of a certain
+
+phenomenon and comparative like how can
+
+a certain phenomenon differ from another
+
+phenomenon then you have the base rate
+
+as I told there are can be related to
+
+frequency of or to the process so how
+
+often or how does this phenomenon
+
+normally normally occur then you have
+
+the relationship that are again very
+
+similar to the exploratory they are
+
+similar to inspiratory but instead of
+
+focusing on a single element they relate
+
+to
+
+multiple elements for example do
+
+occurrence is the of X correlate with a
+
+certain other phenomenon or what are the
+
+reason for a certain phenomenon do I
+
+know that a certain phenomenon cause
+
+causes another cause or prevent another
+
+phenomenon and more related to actual
+
+causes so causality related question can
+
+be comparative of context related until
+
+you have a couple a couple of examples
+
+so these are just a list of typical
+
+example of question can guide you in
+
+better formulating the research question
+
+this is quite important for you because
+
+it would be part also of the exam to be
+
+able to formulate research questions
+
+okay so please pay attention to these
+
+consider this material try to formulate
+
+research questions and try to give your
+
+own example and understand what is they
+
+their classification as I said the
+
+classification is useful to to give you
+
+a way of of making sense of the
+
+different types of question but in the
+
+end it is useful to look at examples ok
+
+this list of examples if you replace the
+
+X and the y with some phenomena of
+
+interest for software engineers they
+
+they can be really useful for you how to
+
+create research question you create
+
+research questions by starting from not
+
+a well-defined research objective
+
+because as I said before it usually come
+
+afterwards with the topic normally so it
+
+can be software development speed and
+
+then you can ask yourself do you want to
+
+create more a better understanding or
+
+you want to solve something related to
+
+development speed if you want to create
+
+better understanding then you are
+
+dealing with a knowledge-based question
+
+and you want to ask yourself something
+
+like what effects development speed how
+
+can we measure development speed so how
+
+can we measure how fast are the people
+
+in developing
+
+what if then I have to ask myself okay
+
+I've understood that I have a
+
+knowledge-based question I have to
+
+understand how much is known about this
+
+specific topic if not much is known I
+
+have to ask an exploitative question so
+
+how can we measure for example
+
+development speed because this is also
+
+problem for example how can we measure a
+
+little in relation to what in relay in
+
+relation to the level software that even
+
+good software for example which are the
+
+measures that I can put into place okay
+
+then you can have more information so
+
+you know asset the phenomenon of
+
+development speed but you don't know
+
+when certain sentence when or how it
+
+occurs so what is the development speed
+
+actually of a child tips so specific
+
+types specific types of teams and I want
+
+to measure the I want to measure in this
+
+specific case what is what is their
+
+development speed in the case in which
+
+you know the phenomenon and you have
+
+understood it quite correctly how things
+
+work in practice so you can measure you
+
+can note also how things are working so
+
+you've been able to measure for example
+
+the develop speed of agile team you may
+
+want to understand what is affecting
+
+development speed so why certain teams
+
+are faster than others so in this case
+
+you want to understand the relationship
+
+before between certain unknown causes
+
+and the development speed in cases that
+
+you've working towards a solution based
+
+question the question can be how can I
+
+improve development speed what is the
+
+easiest way to improve the variable
+
+speed you see that there is a
+
+relationship now first as I said before
+
+knowledge so first you understand what
+
+effects development speed and then you
+
+ask yourself how can I improve it how
+
+can I move the factors so that
+
+development speed increase
+
+what is the easiest way to improve
+
+development speed so which factors can I
+
+use to somehow tune it so for example
+
+pair programming I can use another
+
+language or I don't know I can make
+
+people work at night work at the time
+
+that they want I can remove the presence
+
+of the program manager I don't know
+
+after I've studied the factor I can put
+
+in place a solution that solved my
+
+problem normally as I said before one
+
+research question is not sufficient and
+
+you normally need multiple question so
+
+try to find after you have written down
+
+some base question try to find the main
+
+research question or overarching
+
+research objective and then keep on
+
+refinement the your type of question
+
+okay and check the types of question the
+
+previous table and adapt them to your
+
+problem too so you start with the
+
+question and you refine it you refine it
+
+okay you refine it you you first go up
+
+to more higher level research objective
+
+and then go back and refine again so to
+
+understand whether you've covered your
+
+actual research objective and just in
+
+the end very often just at the end of
+
+your research you finalize the research
+
+question this is something like they
+
+seem to come at the beginning they
+
+should come at the beginning at the
+
+beginning you write some research
+
+question but it is true that every time
+
+you do an experiment every time you do a
+
+case study anytime you study a real
+
+phenomenon you understand that your
+
+question need to be changed so your
+
+research objective and your research
+
+question will because stable just at the
+
+end just like the requirements like the
+
+requirements for a system they become
+
+stable just when the system is finished
+
+also the research question they get
+
+transformed and transformed still even
+
+in their form intermediate form they are
+
+needed to guide your process so this is
+
+this is all for for today
+
+and we will we will meet again on on
+
+Thursday
+
