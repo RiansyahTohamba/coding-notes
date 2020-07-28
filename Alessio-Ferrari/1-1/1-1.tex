@@ -236,63 +236,86 @@ And the thing was that rarely in practice software engineering solution came fro
 \subsection{Two Space of EMSE Cycle} % (fold)
  So as I said do we have as I said we have two spaces. I didn't say we have two spaces. but somehow I implied that we are considering two spaces 
  \begin{enumerate}
- 	\item Reality Space: One is the reality space so the space of the of the software process, the picture that I showed you before with the customer with the developer etc that is the reality space.
- 	\item Theory space : And then the second is the theory space. The space of abstraction. 
- 	The space in which I as a software engineering researcher as I try to understand what is the problem and how to solve it. 
+ 	\item Reality Space: One is the reality space so the space of the of the software process, the picture that I showed you before with the customer with the developer etc. That is the reality space.
+ 	\item Theory space : And then the second is the theory space. The space of abstraction. The space in which I as a software engineering researcher as I try to understand what is the problem and how to solve it. 
  \end{enumerate}
 \subsubsection{Five Steps of EMSE Cycle} % (fold)
 \label{sub:five_steps_of_emse_cycle}
 So the typical software engineering cycle consider consider these five steps.
 \begin{enumerate}
 	\item Observe Reality
-	First steps is always observe reality ok ?  For example I have, I observed in a company that I have a lot of parts in software and I know that people in my company are working hours in hours.
-	but still, I have lots of bugs and this is a problem for me, okay? 
-	why is the problem? because it costs a lot! I can find several motivation for which. 
-	This is a problem, but I want to solve it! 
+	First steps is always observe reality ok ? For example, I have observed in a company that \textbf{I have a lot of Bug in software.}
+	And I know that people in my company are working in long hours.
+	But still, I have lots of bugs and this is a problem for me, okay? 
+	Why is the problem? because it costs a lot! I can find several motivation for which this is a problem, but I want to solve it! 
 	Because lots of bugs is not good, ok ? then I can start observing that say about this bug.
-
 	\item Formulate Problem Theory
+	I can try to formulate a theory, so I create some hypothesis. I try to abstract from the reality and reason on why these things happen? Well I can say backs ! 
+	may be produced by too many hours of work? 
+	because they say the people works a lot of hours.
+	so I can think that maybe all this working time does not have a good effect in the in the quality of the code? 
+	bugs may also be associated to complex code. For example this is can be another hypothesis of why things are there is a lot of bugs ?
+So my coders are writing very long functions for example very complex function nested.
+And they introduce back without considering that these are problem theories. 
+So basically are ways to explain the problem that where do they come from some inference. 
+some observation but also from my background that's research ok ? 
+from my also cultural background, because maybe i stimmt Elysees if you work too much maybe you do it wrong ok ? because you cannot focus enough so the formulation or problem. 	
 	\item Evaluate Theory Against Reality
-	\item Formulate Solution Theory
-	\item Evaluate Solution Against Theory
-	
-
-\end{enumerate}
-
-% subsubsection five_steps_of_emse_cycle (end)
-
-I can try to formulate a theory, so I create some hypothesis. 
-I try to abstract from the reality and reason on why these things happen well I can say backs may be produced by too many hours of work because they say the people works a lot of hours 
-so I can think that maybe all this working time does not have a good effect in the in the quality of the code bugs may also be associated to complex code 
-for example this is can be another hypothesis of why things are there is a lot of bugs so my coders are writing very long functions 
-for example very complex function nested and they introduce back without considering that these are problem theories so basically are ways to explain the problem that where do they come from they come from some inference some observation but also from my background that's research ok ? from my also cultural background because maybe i stimmt Elysees if you work too much maybe you do it wrong ok ? because you cannot focus enough so the formulation or problem.
-\section{Theory vs Reality} % (fold)
-\label{sec:theory_vs_reality}
 Theory is very dependent on the on the person and that's why you always have to evaluate the theory against reality ok ? and you have always to evaluate the theory against the reality.
-\subsection{Long working hours and bugs} % (fold)
+	\item Formulate Solution Theory
+% Programming at night result in bug
 And I want to check whether there is a relation to the working time and i see that actually no relation.
 The real relation is that most of the bugs are introduced between 8 p.m. and 8 a.m. 
-And if I see that if I check number of bugs in the code with respect to how long is the code and the code complexity, I see that there's no real relationship.
-So it seems that one hint from reality from the salvation of reality shows me that probably the complexity of code is not related to the number of bugs in my context and I see that actually what is related to the number of bugs is the time when this pre polar programming if people program by night it seems that they introduce back in during the day they don't introduce bug as at this point I have understood in practice what may be the source of my problem 
+And if I see that, if I check number of bugs in the code with respect to how long is the code and the code complexity, I see that there's no real relationship.
+So it seems that one hint from reality from the salvation of reality shows me that probably the complexity of code is not related to the number of bugs.
+in my context and I see that actually what is related to the number of bugs is the time when this pre polar programming.
+if people program by night it seems that they introduce back in during the day.
+they don't introduce bug as at this point I have understood in practice what may be the source of my problem.
 so I can pass to formulate a possible theory I want to solve this problem by basically preventing developer for working at night.
 So I see the bouncer in the night at a night. 
 so let's let's put a system that does not allow them to work them to work in the night.
 so let us say at the office at night they cannot upload the software from home at night.
 so they cannot to work between 8 p.m. and 8 a.m. 
-This is a constraint that I want to enforce and I solve the problem with a natural system a system that that blocks basically the system intended both as a software system that doesn't allow them to applaud 
-for example and also a system made of fur rules set of rules that tell them hey guys do not program between 8:00 p.m. and there and they I am you are not allowed to you won't get paid for the time that you spend programming at that time then I have to check if the solution works because again here I am in the theory space I didn't check against reality 
+This is a constraint that I want to enforce. 
+And I solve the problem with a natural system.
+a system that that blocks basically the system intended both as a software system that doesn't allow them to upload. 
+and also a system made of fur rules set of rules that tell them hey guys do not program between 8:00 p.m. and there and they I am you are not allowed to you won't get paid for the time that you spend programming at that time.
+Then I have to check if the solution works because again here I am in the theory space I didn't check against reality. 
 so I have to need to evaluate the solution of a reality and I say hey if programmed on is these people don't program at night. 
+ So this is this is a very good very good outcome. 
 Actually I see that I am able to reduce the number of bugs. 
- So this is this is a very good very good outcome. But on the other hand I see that I cannot meet the delivery deadline. so this comes from another observation of reality so after I built my solution this is not enough.
- I have to check that I that no additional problems have been introduced because I have somewhat transformed the reality and I need to observe that my transformation somehow didn't introduce some some noble problem so that my solution it'll create more problem that the one that is soft at this at this point I have a new problem that I cannot meet the delivery deadlines below beside the other one so it seems that development speed may be lower during the day because if this is a possible theory for for my problem so for my new problem because because I have understood I have seen that I forbid the people to before I was meeting the delivery deadline and people were working day and night but during the night they were introducing a lot of bugs ok ? the roundest speed may be lower during the day so because now they cannot they cannot they cannot program at night so let's evaluate this theory against the allottee and i see that actually there is more correct code during the day but slower speed and in the night there are more bugs but faster speed 
-so I get more code more code delivered but more buggy code so how can I solve this this problem I need to dedicate more testing resources for code developed at night so it is not possible to forbid the people to working at night because they seem to be more productive but the solution that I can find is that instead of instead of forbidding people to work at night to have correct code add more testing for coding development and night 
-so I invest some money for the testing resources instead of reducing the effort of the people during the night I check the solution and I see that I have less bugs and I have at the same time also more softer 
-so I can meet the delivery timeline so this is the typical cycle of empirical software engineering so start from reality formulate the problem theory check that my theory actually works against the reality then try so check that my theory is right basically then try to formulate a solution theory and finally try to evaluate the solution against against the reality ok ? so end and see observing the reality again that I didn't interfere with other aspects so the typical software engineering problems after introducing this type of cycle this new way of thinking they do remain the same still how can I find these bugs in the code how can I improve the requirements how can I reduce the resources dedicated to testing and up I improve software development speed and all the other type of problems related to the stakeholders to the to the task of the software process so problem is the same but the typical software engineering solution today is more based on understanding the reality so if someone asked how can I improve my requirements instead of proposing a new language that is instead of being English it's a it's a constrained way of writing in English is a restricted English is a simplified English I first asked let's see how you write your appointments now I asked the company the specific company to see what is the form of the requirements and I start from that reality and I want to see what are the main quality problems of the requirements 
-so I may see that 
-for example actually the requirement language is clear 
+	\item Evaluate Solution Against Theory
+But on the other hand I see that I cannot meet the delivery deadline. 
+ So this comes from another observation of reality.
+ So after I built my solution this is not enough.
+ I have to check that I that no additional problems have been introduced. 
+ Because I have somewhat transformed the reality and I need to observe that my transformation somehow didn't introduce some novel problem. 
+ So that my solution will create more problem that the one that is soft.
+ At this point, I have a new problem, that I cannot meet the delivery deadlines. 
+\end{enumerate}
+% subsubsection five_steps_of_emse_cycle (end)
+ Below beside the other one so it seems that development speed may be lower during the day because if this is a possible theory for for my problem so for my new problem because because I have understood I have seen that I forbid the people to before I was meeting the delivery deadline and people were working day and night but during the night they were introducing a lot of bugs ok ? the roundest speed may be lower during the day so because now they cannot they cannot they cannot program at night so let's evaluate this theory against the allottee and i see that actually there is more correct code during the day but slower speed and in the night there are more bugs but faster speed 
+so I get more code more code delivered but more buggy code so how can I solve this this problem I need to dedicate more testing resources for code developed at night so it is not possible to forbid the people to working at night because they seem to be more productive but the solution that I can find is that instead of instead of forbidding people to work at night. to have correct code add more testing for coding development and night. 
+so I invest some money for the testing resources instead of reducing the effort of the people during the night.
+I check the solution and I see that I have less bugs and I have at the same time. also more softer so I can meet the delivery timeline.
+so this is the typical cycle of empirical software engineering so start from reality formulate the problem theory check that my theory actually works against the reality then try so check that my theory is right ? 
+basically then try to formulate a solution theory and finally try to evaluate the solution against against the reality ok ? so end and see observing the reality again that I didn't interfere with other aspects so the typical software engineering problems after introducing this type of cycle this new way of thinking they do remain the same still. 
+how can I find these bugs in the code?
+ how can I improve the requirements ?
+ how can I reduce the resources dedicated to testing ? 
+ and up I improve software development speed? and all the other type of problems related to the stakeholders.
+  to the to the task of the software process so problem is the same but the typical software engineering solution today is more based on understanding the reality so if someone asked how can I improve my requirements instead of proposing a new language that is instead of being English it's a it's a constrained way of writing in English is a restricted English is a simplified English I first asked let's see how you write your appointments now I asked the company the specific company to see what is the form of the requirements and I start from that reality and I want to see what are the main quality problems of the requirements 
+so I may see that,for example actually the requirement language is clear.
 so I don't need I don't need a language for making them less ambiguous because it's very everything is very clear it's just that they are incomplete because you didn't meet probably enough with the customer 
-so I am asking how many meetings do you know I might do with your customer well you may say one meeting just one minute at the beginning and then and then that's it okay let's do another thing instead of introducing any more a new technology let's try to schedule a meeting each week to revise the requirements with the customer so the idea here is that I don't even need to introduce a new software to solve my problem I just need to manage the thing in a different way so let's meet with the customer each week to revise the requirements so to interact with the customer more frequently because he will change his mind and also the reality will change so because dynamism is one of the most typical aspect of the software engineering you have to take into account that you always have to continuously interact with people so the way of approaching problem is different but you have to consider in this example I am always speaking about an interaction with a specific customer so with an I'm proposing a context specific solution that derives from reality and use a scientific method so the realities of course the reality that is observable is the reality of my client or a set of clients set of customers and typical scientifical. 
-% section theory_vs_reality (end)
+so I am asking how many meetings do you know I might do with your customer well you may say one meeting just one minute at the beginning and then and then that's it okay let's do another thing instead of introducing any more a new technology let's try to schedule a meeting each week to revise the requirements with the customer so the idea here is that I don't even need to introduce a new software to solve my problem I just need to manage the thing in a different way so let's meet with the customer each week to revise the requirements so to interact with the customer more frequently because he will change his mind and also the reality will change so because dynamism is one of the most typical aspect of the software engineering you have to take into account that you always have to continuously interact with people so the way of approaching problem is different but you have to consider in this example.
+I am always speaking about an interaction with a specific customer so with an I'm proposing a context specific solution that derives from reality and use a scientific method so the realities of course the reality that is observable is the reality of my client or a set of clients set of customers and typical scientifical. 
+
+\subsection{conclusion for EMSE cycle} % (fold)
+\label{sub:conclusion_for_emse_cycle}
+The difference between SE solution without empirical method and with empirical method lies in the spaces that belongs to empirical method, i.e : 
+\textbf{Reality space} and \textbf{Theory space}.
+In those space, there is cycle of EMSE. 
+First, we observe reality that we face so we can get the REAL-PROBLEM. See? Understand the REAL PROBLEM with observation. We generate  solution from the problem theory. We always check solution against reality.
  \section{Scientifical Method in SE} % (fold)
  \label{sec:scientifical_method_in_se}
  You should use the scientific method but which method well consider this image software engineering is a is a strange creature because as I was speaking to you I was speaking about mostly stakeholders I didn't mention softer soft why because software engineering as a discipline as a very strong technical face it because it is it involves developers testers so people who know about software development and software is is a very technical thing but on the other hand it has also human and social face it's a human and social profile why because you have different stakeholders coming from different domain but you have also a lot of people involved in the organization running the development of software software is not developed by one person in his own room software for a car or for any any any software that you might use even in your mobile requires the participation of a minimum of two or three people also for the tiniest thing so whenever you you have to consider something bigger you need a structure you need management and this management has to deal with ever-changing requirements and the difference,for example, with the other engineering domain.
