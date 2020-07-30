@@ -1,3 +1,5 @@
+improvement subtitle from downsub.com
+
 1
 00:00:00,000 --> 00:00:03,270
 okay so today we will we closed our
@@ -95,7 +97,7 @@ field so first of all what is the theory ?
 00:01:08,400 --> 00:01:10,409
 a theory is a term that we already used
 
-25
+  25
 00:01:10,409 --> 00:01:13,220
 both in this course and you ofcourse
 26
@@ -120,31 +122,28 @@ statement about the existence of some
 
 30
 00:01:26,340 --> 00:01:29,040
-pattern in the entities that belong to a
+pattern in the entities that belong to a certain context 
 
 31
 00:01:29,040 --> 00:01:31,890
-certain code so basically the key here
+so basically the key here is "pattern" 
 
 32
 00:01:31,890 --> 00:01:35,759
-is but okay every time there is a
+okay ? every time there is a "regularity" in the world or
 
 33
 00:01:35,759 --> 00:01:39,540
-regularity in the world or in a like in
+or in a like in my in my area of interest okay ? 
 
-34
-00:01:39,540 --> 00:01:43,979
-my in my area of interest okay I can
 
 35
 00:01:43,979 --> 00:01:46,500
-build the theory and the theory is about
+I can build the theory and the theory is about entities
 
 36
 00:01:46,500 --> 00:01:49,259
-entities entities here is a generic word
+ entities here is a generic word
 
 37
 00:01:49,259 --> 00:01:51,470
@@ -156,11 +155,11 @@ observable phenomena and includes both
 
 39
 00:01:54,540 --> 00:01:57,780
-objects or static elements and events so
+objects or static elements and "events" 
 
 40
 00:01:57,780 --> 00:02:00,840
-dynamic elements and that belong to a
+so dynamic elements and that belong to a
 
 41
 00:02:00,840 --> 00:02:03,390
@@ -244,7 +243,7 @@ depends on how much abstract are these
 
 61
 00:02:53,820 --> 00:02:56,400
-entities considered so how much upset
+entities considered so how much abtract
 
 62
 00:02:56,400 --> 00:02:58,680
@@ -255,36 +254,13 @@ are the objects and the events that are
 considered they observable phenomena
 
 64
-00:03:00,750 --> 00:03:03,720
-okay also means how far are them from
-
-65
-00:03:03,720 --> 00:03:07,110
-direct measurable observation so how far
-
-66
-00:03:07,110 --> 00:03:09,890
-are them from thing that I can evaluate
-
-67
-00:03:09,890 --> 00:03:17,310
-in a with numbers okay here I made three
-
-68
-00:03:17,310 --> 00:03:19,049
-three different example that gives you
-
-69
-00:03:19,049 --> 00:03:21,900
-an idea of what what is the the
-
-70
-00:03:21,900 --> 00:03:25,320
-different what are the different level
+00:03:00,750 --> 00:03:26,320 
+okay also means how far are them from direct measurable observation so how far are them from thing that I can evaluate with numbers, okay? 
+here I made three different example that gives you an idea of what is the  different level of sophistication of a theory. 
 
 71
-00:03:25,320 --> 00:03:27,269
-of sophistication of a theory so we have
+00:03:26,320 --> 00:03:27,269
+so we have
 
 72
 00:03:27,269 --> 00:03:30,090
@@ -424,7 +400,7 @@ think okay is already it's already more
 
 106
 00:05:02,580 --> 00:05:05,490
-abstract than the other one okay here I
+abstract than the other one okay ? here I
 
 107
 00:05:05,490 --> 00:05:07,650
@@ -516,7 +492,7 @@ definitions and context and evaluation
 
 129
 00:06:09,810 --> 00:06:12,390
-that are less accurate less and avoid
+that are less accurate less and
 
 130
 00:06:12,390 --> 00:06:15,150
@@ -668,23 +644,16 @@ so this was what a theory is what a
 
 167
 00:07:59,340 --> 00:08:03,060
-theory does a theory can do this mainly
+theory does a theory can do? 
 
 168
-00:08:03,060 --> 00:08:05,880
-these five things so it can describe it
-
-169
-00:08:05,880 --> 00:08:09,000
-can explain it can predict it can do
-
-170
-00:08:09,000 --> 00:08:12,210
-explanation and prediction and it can do
-
-171
-00:08:12,210 --> 00:08:14,760
-especially in an engineering design and
+00:08:03,060 --> 00:08:14,760
+this mainly these five things so 
+1. it can describe 
+2. it can explain
+3. it can predict
+4. it can do explanation and prediction and 
+5.  it can do especially in an engineering design and
 
 172
 00:08:14,760 --> 00:08:18,380
@@ -1714,6 +1683,9 @@ have developed my theory how can I
 00:21:11,260 --> 00:21:15,160
 evaluate it here are six criteria for
 
+1. Testability 
+The degree to which a theory is constructed such that empirical refutation is possible
+
 429
 00:21:15,160 --> 00:21:17,350
 evaluating it okay first of all
@@ -1764,11 +1736,18 @@ can be put against reality and we can do
 
 441
 00:21:55,690 --> 00:21:59,350
-some empirical refutation okay empirical
+some empirical refutation okay ?
+
+2. Empirical support 
+The degree to which a theory is supported by empirical studies that confirm its validity
+3. Explanatory power 
+The degree to which a theory accounts for and predicts all known observations within its scope, is simple in that it has few ad hoc assumption, and relates to that which is already well understood
+Explantory power : to what extent my theory explain WHY?
+
 
 442
 00:21:59,350 --> 00:22:02,590
-support how many studies are supporting
+empirical support : how many studies are supporting
 
 443
 00:22:02,590 --> 00:22:05,050
@@ -1792,15 +1771,11 @@ why
 
 448
 00:22:14,630 --> 00:22:17,000
-okay explain why question so if I
+okay explain why question 
 
 449
-00:22:17,000 --> 00:22:19,940
-considered all the possible motivation
-
-450
-00:22:19,940 --> 00:22:22,760
-that may have lead to this to this
+00:22:17,000 --> 00:22:21,940
+so if I considered all the possible motivation that may have lead to this to this
 
 451
 00:22:22,760 --> 00:22:26,780
@@ -1840,11 +1815,14 @@ may be different reasons with respect to
 
 460
 00:22:56,720 --> 00:22:59,780
-the one that I found for explaining my
+the one that I found for explaining my theory 
+
+4. Parsimony 
+The degree to which a theory is economically constructed with a minimum of concepts and propositions
 
 461
 00:22:59,780 --> 00:23:05,600
-my theory okay parsimony so how much how
+okay parsimony so how much how
 
 462
 00:23:05,600 --> 00:23:09,230
@@ -1853,6 +1831,9 @@ much fo did I make to to minimize the
 463
 00:23:09,230 --> 00:23:12,740
 number of constructs involved in also
+
+5. Generality 
+The breadth of the scope of a theory and the degree to which the theory is independent of specific settings
 
 464
 00:23:12,740 --> 00:23:16,130
@@ -1865,6 +1846,9 @@ the scope of material many context am I
 466
 00:23:19,120 --> 00:23:21,740
 am i covering with this theory and
+
+6. Utility 
+The degree to which a theory supports the relevant areas of the software  industry
 
 467
 00:23:21,740 --> 00:23:24,620
@@ -2500,11 +2484,11 @@ and finally the finder scope of validity
 
 625
 00:31:11,230 --> 00:31:14,350
-okay I have tested I have selected a
+okay I have tested I have selected a sample
 
 626
 00:31:14,350 --> 00:31:18,310
-sample and therefore I didn't I didn't
+and therefore I didn't I didn't
 
 627
 00:31:18,310 --> 00:31:21,040
@@ -2771,16 +2755,12 @@ invalid operationalization of
 theoretical constructs and propositions
 
 693
-00:34:34,029 --> 00:34:37,869
-so for example you need to justify the
-
-694
-00:34:37,869 --> 00:34:41,429
-fact that a constructs successor says
+00:34:34,029 --> 00:34:41,429
+so for example you need to justify the fact that a constructs successor 
 
 695
 00:34:41,429 --> 00:34:44,730
-the complexity of the code is
+says the complexity of the code is
 
 696
 00:34:44,730 --> 00:34:47,799
