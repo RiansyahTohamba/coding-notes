@@ -1,11 +1,11 @@
 downsub.com
 1
 00:00:00,000 --> 00:00:02,909
-so let's start the second part about
+so let's start the second part about hypothesis testing 
 
 2
 00:00:02,909 --> 00:00:05,370
-hypothesis testing so now we have seen
+so now we have seen
 
 3
 00:00:05,370 --> 00:00:09,360
@@ -533,11 +533,11 @@ a little more so if I want to know who
 
 134
 00:06:25,270 --> 00:06:27,699
-is quicker between novices and expert I
+is quicker between novices and expert
 
 135
 00:06:27,699 --> 00:06:33,009
-need to modify my hypothesis I need to
+I need to modify my hypothesis I need to
 
 136
 00:06:33,009 --> 00:06:35,379
