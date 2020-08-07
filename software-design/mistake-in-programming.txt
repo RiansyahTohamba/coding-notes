@@ -1,0 +1,35 @@
+mistake in programming 
+I think this is one of the biggest mistakes people make,too many, too small, too shallow classes.
+And the reason people do that is because they'vebeen taught classes and methods should be small.
+How many of you at sometime in some coursewere taught your method should be small?And how many of you have been given a number, like any methodlarger than n lines, you should chop it up?How many of you have heard something like that said?OK.
+Tell me a small value of n you've heard.
+AUDIENCE: 20.
+JOHN OUTSERHOUT: 20?[INTERPOSING VOICES]JOHN OUTSERHOUT: Has anybody heard 10?[LAUGHTER]I've heard 10 sometimes.
+So if you take this to the extreme,this results in what I call classitis.
+Classitis is when somebody says classes are goodand somebody else thought what they heardwas more classes are better.
+[LAUGHTER]And so under classitis, your goalis to have as many small classes as possiblewhere each class adds the tiniestpossible amount of new functionalityto the previous classes.
+If you want more functionality than that,make another class for it.
+Probably the best example of this in the worldtoday is the Java Class Library.
+There's nothing in the Java language that requires this.
+But somehow this has just become the culturein the Java world, these tons of little tiny shallow interfaces.
+Like, for example, the thing that just bugged me about Javawhen I started programming, if I want to open a fileand read serialized objects from it,I have to create three objects for that.
+First, I have to create this file stream.
+But for some reason, I don't get buffering.
+If I want buffering--it's like, do you want it eat today?[LAUGHTER]If I want buffering, I have to create another object.
+And then if I want read serialized objects,you add another object on top of that.
+And each of these can throw exceptionsthat I have to catch.
+And then exceptions can come halfway through,and I have to do clean up--enormous amount of complexity for somethingthat's really, really simple.
+So I think they lost sight of the idea that, first of all,in managing complexity, the common case matters a lot.
+You want to make the common case really, really simple.
+I shouldn't have to do all of this.
+OK.
+Maybe I want to be able to not have buffering,but that should be an option that-- you know,if I don't want buffering, that should be where things get morecomplicated, not to have to remember to ask especiallyfor buffering.
+So to me, it's not about length.
+Length is really not the fundamental issues.
+I don't have problems with methodsthat are hundreds of lines long if they're relatively cleanand if they have a deep interface to them.
+It's abstraction.
+That's the most important thing.
+So rather than striving for length,you should first try and get these deep abstractions.
+And then if you end up with somethingthat's really big and long, then see if you can chop it up.
+But depth is more important.
+So what's an example of a deep interface?My favorite in the world, probably oneof the most beautiful interfaces ever inventedis that Unix file I/O interface--
