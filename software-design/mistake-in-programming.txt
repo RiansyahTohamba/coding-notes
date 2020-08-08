@@ -1,3 +1,5 @@
+https://platformlab.stanford.edu/Seminar%20Talks/retreat-2017/John%20Ousterhout.pdf 
+
 MISTAKE IN CODING  
 I think this is one of the biggest mistakes people make,  too many, too small, too shallow classes.
   And the reason people do that is because they've  been taught classes and methods should be small.
