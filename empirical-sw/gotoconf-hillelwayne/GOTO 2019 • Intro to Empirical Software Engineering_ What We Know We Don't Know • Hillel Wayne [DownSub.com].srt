@@ -1,0 +1,3624 @@
+1
+00:00:04,760 --> 00:00:07,849
+[Music]
+
+2
+00:00:12,170 --> 00:00:14,460
+so how's everybody feeling I know it's
+
+3
+00:00:14,460 --> 00:00:15,990
+pretty late in the day we're kind of all
+
+4
+00:00:15,990 --> 00:00:17,609
+out of energy I almost took a nap like
+
+5
+00:00:17,609 --> 00:00:18,480
+five minutes ago
+
+6
+00:00:18,480 --> 00:00:22,560
+everybody ready okay great so I actually
+
+7
+00:00:22,560 --> 00:00:24,439
+want to start us off with an exercise
+
+8
+00:00:24,439 --> 00:00:26,490
+imagine you're looking at a function and
+
+9
+00:00:26,490 --> 00:00:28,289
+it's 40 lines long a pretty long
+
+10
+00:00:28,289 --> 00:00:30,539
+function and you can break it down into
+
+11
+00:00:30,539 --> 00:00:33,390
+say four ten line functions taking a big
+
+12
+00:00:33,390 --> 00:00:34,680
+function and making some smaller
+
+13
+00:00:34,680 --> 00:00:38,489
+functions so exercise one raise your
+
+14
+00:00:38,489 --> 00:00:40,290
+hand if you think that the small
+
+15
+00:00:40,290 --> 00:00:41,700
+functions will be easier to work with in
+
+16
+00:00:41,700 --> 00:00:46,500
+the big functions coop I see most of you
+
+17
+00:00:46,500 --> 00:00:47,250
+raise your hands
+
+18
+00:00:47,250 --> 00:00:50,129
+cool down yeah on average okay so
+
+19
+00:00:50,129 --> 00:00:52,879
+question number two it's flu season
+
+20
+00:00:52,879 --> 00:00:54,719
+raise your hand if you think that a
+
+21
+00:00:54,719 --> 00:00:57,890
+vaccine prevents diseases
+
+22
+00:00:58,520 --> 00:01:00,510
+thank God I think that's everybody don't
+
+23
+00:01:00,510 --> 00:01:04,879
+have to kick anyone out so last question
+
+24
+00:01:04,879 --> 00:01:07,650
+raise your hand if you think it is more
+
+25
+00:01:07,650 --> 00:01:10,229
+likely if you believe more strongly that
+
+26
+00:01:10,229 --> 00:01:12,270
+small functions are easier then you
+
+27
+00:01:12,270 --> 00:01:15,500
+believe that vaccines prevent diseases
+
+28
+00:01:16,759 --> 00:01:19,920
+sorry oh is that raise your hand if you
+
+29
+00:01:19,920 --> 00:01:21,900
+are more confident in your belief that
+
+30
+00:01:21,900 --> 00:01:23,640
+small functions are good then that
+
+31
+00:01:23,640 --> 00:01:27,299
+vaccines prevent diseases and I see a
+
+32
+00:01:27,299 --> 00:01:28,979
+couple of very brave souls have raised
+
+33
+00:01:28,979 --> 00:01:31,950
+their hands but almost everybody else
+
+34
+00:01:31,950 --> 00:01:33,810
+who raised their hands for both times
+
+35
+00:01:33,810 --> 00:01:36,240
+put it down why is that why can we
+
+36
+00:01:36,240 --> 00:01:38,970
+believe two things competent two things
+
+37
+00:01:38,970 --> 00:01:42,630
+but believe one more well for vaccines
+
+38
+00:01:42,630 --> 00:01:45,210
+we have we've got medical studies we
+
+39
+00:01:45,210 --> 00:01:47,189
+have historical data we have the
+
+40
+00:01:47,189 --> 00:01:49,320
+elimination of smallpox we have clinical
+
+41
+00:01:49,320 --> 00:01:52,170
+trials we just have so much but for
+
+42
+00:01:52,170 --> 00:01:53,670
+small versus big functions we have a
+
+43
+00:01:53,670 --> 00:01:57,180
+feeling in experience our opinions and
+
+44
+00:01:57,180 --> 00:01:59,460
+we might have some logic like it's
+
+45
+00:01:59,460 --> 00:02:01,049
+obvious that small functions are easier
+
+46
+00:02:01,049 --> 00:02:03,540
+but then again it also sounds obvious
+
+47
+00:02:03,540 --> 00:02:05,219
+that injecting a virus into your veins
+
+48
+00:02:05,219 --> 00:02:06,799
+isn't going to make you healthier right
+
+49
+00:02:06,799 --> 00:02:10,800
+our logic can often be flawed now this
+
+50
+00:02:10,800 --> 00:02:12,690
+talk is not about small versus big
+
+51
+00:02:12,690 --> 00:02:13,690
+functions
+
+52
+00:02:13,690 --> 00:02:14,800
+not telling you to write big functions
+
+53
+00:02:14,800 --> 00:02:16,720
+this talk is not called write big
+
+54
+00:02:16,720 --> 00:02:18,940
+functions but I do want to underscore
+
+55
+00:02:18,940 --> 00:02:20,500
+some really important point
+
+56
+00:02:20,500 --> 00:02:22,600
+almost everything in software is a
+
+57
+00:02:22,600 --> 00:02:24,490
+belief it is something we have
+
+58
+00:02:24,490 --> 00:02:26,140
+experience about it is something we have
+
+59
+00:02:26,140 --> 00:02:28,180
+opinions on but it's not something we
+
+60
+00:02:28,180 --> 00:02:30,910
+have hard data in most cases we just
+
+61
+00:02:30,910 --> 00:02:35,680
+don't know but we can find out we find
+
+62
+00:02:35,680 --> 00:02:38,140
+out through empirical engineering or ESC
+
+63
+00:02:38,140 --> 00:02:40,960
+for short that is the science of taking
+
+64
+00:02:40,960 --> 00:02:43,600
+claims about software and dissecting
+
+65
+00:02:43,600 --> 00:02:45,610
+them testing them observing them to find
+
+66
+00:02:45,610 --> 00:02:47,710
+out what's really true and what just
+
+67
+00:02:47,710 --> 00:02:50,320
+feels good my name is Hillel Wayne and I
+
+68
+00:02:50,320 --> 00:02:52,360
+am here to talk to you about what this
+
+69
+00:02:52,360 --> 00:02:54,670
+is how we do it and it's why it's so
+
+70
+00:02:54,670 --> 00:02:56,080
+important and some of the things we've
+
+71
+00:02:56,080 --> 00:02:58,510
+learned on the way but first some
+
+72
+00:02:58,510 --> 00:03:00,370
+bookkeeping I'm going to be
+
+73
+00:03:00,370 --> 00:03:02,890
+name-dropping about 35 different studies
+
+74
+00:03:02,890 --> 00:03:05,290
+in this talk you don't have to write
+
+75
+00:03:05,290 --> 00:03:08,380
+them down if you go to this link I have
+
+76
+00:03:08,380 --> 00:03:10,570
+every single one online annotated and
+
+77
+00:03:10,570 --> 00:03:12,520
+linked you can just go there and find
+
+78
+00:03:12,520 --> 00:03:15,750
+them and look at them that way also
+
+79
+00:03:15,750 --> 00:03:17,890
+every question being asked through the
+
+80
+00:03:17,890 --> 00:03:19,690
+app I will be answering if I don't get
+
+81
+00:03:19,690 --> 00:03:21,790
+to it in this time I will be also
+
+82
+00:03:21,790 --> 00:03:23,500
+uploading all the answers to that linked
+
+83
+00:03:23,500 --> 00:03:25,600
+to so you'll be able to see every
+
+84
+00:03:25,600 --> 00:03:27,430
+question people ask and the researched
+
+85
+00:03:27,430 --> 00:03:33,880
+answers there and with that we're ready
+
+86
+00:03:33,880 --> 00:03:38,200
+to begin so I think the first question
+
+87
+00:03:38,200 --> 00:03:40,239
+you have to ask is why why do we care
+
+88
+00:03:40,239 --> 00:03:42,040
+about this why is it so important to be
+
+89
+00:03:42,040 --> 00:03:46,090
+empirical and I see three reasons the
+
+90
+00:03:46,090 --> 00:03:47,890
+first one is the easy one I'm a
+
+91
+00:03:47,890 --> 00:03:50,590
+developer I want to get better I want to
+
+92
+00:03:50,590 --> 00:03:52,720
+know what works and what I just feels
+
+93
+00:03:52,720 --> 00:03:55,690
+good by studying empirically I can find
+
+94
+00:03:55,690 --> 00:03:58,630
+that out but that's probably not that
+
+95
+00:03:58,630 --> 00:04:00,310
+convincing to any of you right I mean
+
+96
+00:04:00,310 --> 00:04:02,530
+it's one thing to sort of have a more
+
+97
+00:04:02,530 --> 00:04:04,209
+realistic argument of oh we should be
+
+98
+00:04:04,209 --> 00:04:06,040
+better but quite different to actually
+
+99
+00:04:06,040 --> 00:04:07,080
+do something
+
+100
+00:04:07,080 --> 00:04:09,280
+the other reason extra density that's
+
+101
+00:04:09,280 --> 00:04:12,700
+important is financial the tech industry
+
+102
+00:04:12,700 --> 00:04:15,430
+makes up about 10% of the United States
+
+103
+00:04:15,430 --> 00:04:17,850
+GDP that's 1.5 trillion dollars a year
+
+104
+00:04:17,850 --> 00:04:21,579
+if we are 1% and that's really low
+
+105
+00:04:21,579 --> 00:04:23,320
+estimate 1% inefficient
+
+106
+00:04:23,320 --> 00:04:26,080
+that's the GDP of Iceland we are setting
+
+107
+00:04:26,080 --> 00:04:27,100
+on fire every
+
+108
+00:04:27,100 --> 00:04:30,910
+single year but that's it the
+
+109
+00:04:30,910 --> 00:04:33,240
+large-scale that's not local to us and
+
+110
+00:04:33,240 --> 00:04:36,610
+here's what I think is the most
+
+111
+00:04:36,610 --> 00:04:38,320
+important the most subtle but most
+
+112
+00:04:38,320 --> 00:04:40,210
+valuable reason to study the empiricism
+
+113
+00:04:40,210 --> 00:04:44,350
+of software we do it to protect
+
+114
+00:04:44,350 --> 00:04:48,190
+ourselves you see the most common most
+
+115
+00:04:48,190 --> 00:04:50,740
+popular paradigm in software is charisma
+
+116
+00:04:50,740 --> 00:04:52,990
+driven development there are experts who
+
+117
+00:04:52,990 --> 00:04:54,280
+are good at speaking we're good at
+
+118
+00:04:54,280 --> 00:04:56,350
+writing and they tell us what we should
+
+119
+00:04:56,350 --> 00:04:59,320
+be doing maybe we do scrum because it
+
+120
+00:04:59,320 --> 00:05:01,300
+works for our company maybe we do it
+
+121
+00:05:01,300 --> 00:05:02,350
+because that's when everyone else is
+
+122
+00:05:02,350 --> 00:05:04,960
+doing maybe we need a big data cluster
+
+123
+00:05:04,960 --> 00:05:06,430
+to crunch our gigabytes of data
+
+124
+00:05:06,430 --> 00:05:08,730
+maybe we're just following Google's lead
+
+125
+00:05:08,730 --> 00:05:13,470
+maybe we do object oriented
+
+126
+00:05:14,130 --> 00:05:16,480
+because people stand on commerce stages
+
+127
+00:05:16,480 --> 00:05:21,340
+and say you must use solid but yes see
+
+128
+00:05:21,340 --> 00:05:23,110
+empirical engineering just cuts all of
+
+129
+00:05:23,110 --> 00:05:26,350
+that away it's what helps us distinguish
+
+130
+00:05:26,350 --> 00:05:29,290
+what's fact from what just a Salesman is
+
+131
+00:05:29,290 --> 00:05:32,020
+telling us empirical engineering is what
+
+132
+00:05:32,020 --> 00:05:37,420
+tells us that well in 2014 MacBook Pro
+
+133
+00:05:37,420 --> 00:05:40,090
+can crunch 50 gigabytes of data 100
+
+134
+00:05:40,090 --> 00:05:41,620
+times faster than a hundred server spar
+
+135
+00:05:41,620 --> 00:05:45,250
+cluster it tells us that experts
+
+136
+00:05:45,250 --> 00:05:47,740
+separated by hundreds of miles writing
+
+137
+00:05:47,740 --> 00:05:49,720
+the same kinds of problem will make the
+
+138
+00:05:49,720 --> 00:05:54,270
+same mistakes in the same places with
+
+139
+00:05:54,270 --> 00:05:56,830
+I'm sorry is that like part is that is
+
+140
+00:05:56,830 --> 00:05:58,980
+that something we can like sort of hide
+
+141
+00:05:58,980 --> 00:06:02,550
+ok ok yeah
+
+142
+00:06:02,550 --> 00:06:06,100
+so fundamentally ok yeah I'll just
+
+143
+00:06:06,100 --> 00:06:09,010
+ignore for now no so fundamentally the
+
+144
+00:06:09,010 --> 00:06:10,990
+reason we study ESC is to protect
+
+145
+00:06:10,990 --> 00:06:12,870
+ourselves from the thought leaders and
+
+146
+00:06:12,870 --> 00:06:17,230
+the Predators but doing so is very very
+
+147
+00:06:17,230 --> 00:06:21,250
+hard it's complicated to study people
+
+148
+00:06:21,250 --> 00:06:23,290
+are complicated we're studying people
+
+149
+00:06:23,290 --> 00:06:25,120
+and people are more complex than atoms I
+
+150
+00:06:25,120 --> 00:06:27,520
+mean take that original question I asked
+
+151
+00:06:27,520 --> 00:06:29,020
+our small functions easier than big
+
+152
+00:06:29,020 --> 00:06:31,750
+functions well how do we even define
+
+153
+00:06:31,750 --> 00:06:33,940
+better do we define it with a code
+
+154
+00:06:33,940 --> 00:06:36,490
+metric like cyclomatic complexity some
+
+155
+00:06:36,490 --> 00:06:37,990
+people do and some people do studies
+
+156
+00:06:37,990 --> 00:06:40,830
+that find that's the case but that
+
+157
+00:06:40,830 --> 00:06:42,420
+just pushing the question back how do
+
+158
+00:06:42,420 --> 00:06:44,160
+you know that cyclomatic complexity is
+
+159
+00:06:44,160 --> 00:06:47,670
+better we don't instead we can find
+
+160
+00:06:47,670 --> 00:06:50,070
+maybe a more goal-oriented result we say
+
+161
+00:06:50,070 --> 00:06:52,770
+better means well the code is easier to
+
+162
+00:06:52,770 --> 00:06:55,080
+read or easier to modify or easier to
+
+163
+00:06:55,080 --> 00:06:59,190
+debug that makes sense to everyone who
+
+164
+00:06:59,190 --> 00:07:03,510
+and turns out that we have not that many
+
+165
+00:07:03,510 --> 00:07:05,460
+studies on whether clean code is
+
+166
+00:07:05,460 --> 00:07:09,720
+actually easier to read and I have
+
+167
+00:07:09,720 --> 00:07:11,220
+looked i've looked pretty dang hard
+
+168
+00:07:11,220 --> 00:07:13,140
+about this and i was able to find a
+
+169
+00:07:13,140 --> 00:07:14,970
+couple of studies that actually studied
+
+170
+00:07:14,970 --> 00:07:18,740
+this and they both said the same thing
+
+171
+00:07:18,740 --> 00:07:21,210
+small functions are easier to read
+
+172
+00:07:21,210 --> 00:07:24,360
+easier to modify and much much harder to
+
+173
+00:07:24,360 --> 00:07:27,810
+debug so the evidence is mixed then
+
+174
+00:07:27,810 --> 00:07:29,520
+again those are small sample sizes with
+
+175
+00:07:29,520 --> 00:07:33,720
+lots of caveats and well look people are
+
+176
+00:07:33,720 --> 00:07:36,810
+complicated so complicated we're doing
+
+177
+00:07:36,810 --> 00:07:38,220
+such complicated things that some
+
+178
+00:07:38,220 --> 00:07:39,840
+engineers think this is impossible we
+
+179
+00:07:39,840 --> 00:07:41,820
+cannot study ourselves we cannot get
+
+180
+00:07:41,820 --> 00:07:44,760
+hard data on what we do and in doing so
+
+181
+00:07:44,760 --> 00:07:46,530
+we've made a mistake that a lot of
+
+182
+00:07:46,530 --> 00:07:49,230
+engineers make a lot of smart people too
+
+183
+00:07:49,230 --> 00:07:51,000
+because we don't know how to do
+
+184
+00:07:51,000 --> 00:07:55,650
+something it can't be done but just as
+
+185
+00:07:55,650 --> 00:07:58,140
+people are very smart they're also very
+
+186
+00:07:58,140 --> 00:08:01,050
+clever and there are people who just as
+
+187
+00:08:01,050 --> 00:08:02,250
+we put our lives into building
+
+188
+00:08:02,250 --> 00:08:04,890
+complicated systems have put their lives
+
+189
+00:08:04,890 --> 00:08:11,820
+into studying us so I want to give an
+
+190
+00:08:11,820 --> 00:08:13,890
+example of what this looks like there
+
+191
+00:08:13,890 --> 00:08:15,270
+are many different kinds of research we
+
+192
+00:08:15,270 --> 00:08:17,220
+do I'm going to break them down to three
+
+193
+00:08:17,220 --> 00:08:18,990
+kinds quantitative qualitative and code
+
+194
+00:08:18,990 --> 00:08:22,260
+mining in terms of what recently looked
+
+195
+00:08:22,260 --> 00:08:24,090
+like this is one of my favorite papers
+
+196
+00:08:24,090 --> 00:08:26,340
+ever I know it looked small but it's
+
+197
+00:08:26,340 --> 00:08:29,010
+well it's four-page forums pages to a
+
+198
+00:08:29,010 --> 00:08:30,390
+sheet double-sided so it's actually
+
+199
+00:08:30,390 --> 00:08:33,120
+about 40 pages in total this amazing
+
+200
+00:08:33,120 --> 00:08:34,250
+paper is called
+
+201
+00:08:34,250 --> 00:08:36,780
+fixing faults in C and Java source code
+
+202
+00:08:36,780 --> 00:08:38,820
+abbreviated vers forward identifier
+
+203
+00:08:38,820 --> 00:08:41,549
+names yeah not the most exciting title
+
+204
+00:08:41,549 --> 00:08:45,600
+and it's a pretty small topic - what
+
+205
+00:08:45,600 --> 00:08:47,580
+makes it interesting it's interesting
+
+206
+00:08:47,580 --> 00:08:49,980
+because it shows perfectly how we do
+
+207
+00:08:49,980 --> 00:08:51,700
+research and why it matters
+
+208
+00:08:51,700 --> 00:08:55,270
+let's take a simple example I have a I
+
+209
+00:08:55,270 --> 00:08:56,860
+have a codebase and one of the variable
+
+210
+00:08:56,860 --> 00:08:58,360
+names is employer number okay
+
+211
+00:08:58,360 --> 00:09:00,490
+descriptive name descriptive title great
+
+212
+00:09:00,490 --> 00:09:04,660
+is it easier to debug this verse debug
+
+213
+00:09:04,660 --> 00:09:07,960
+this EMP num easier to read the code
+
+214
+00:09:07,960 --> 00:09:11,710
+easier to find faults what not so this
+
+215
+00:09:11,710 --> 00:09:12,760
+is what they did they want to study
+
+216
+00:09:12,760 --> 00:09:14,920
+which of these would be easier to work
+
+217
+00:09:14,920 --> 00:09:17,320
+with and what they were doing is called
+
+218
+00:09:17,320 --> 00:09:20,110
+a qualitative a quantitative study it's
+
+219
+00:09:20,110 --> 00:09:21,640
+what we most commonly think of as
+
+220
+00:09:21,640 --> 00:09:25,000
+science we have two groups a control
+
+221
+00:09:25,000 --> 00:09:27,250
+group and a modified group control group
+
+222
+00:09:27,250 --> 00:09:29,410
+we do not touch my group we make some
+
+223
+00:09:29,410 --> 00:09:31,780
+tweak - then we have them both to a task
+
+224
+00:09:31,780 --> 00:09:34,390
+and see which one does it better in this
+
+225
+00:09:34,390 --> 00:09:36,100
+case the control group was debugging
+
+226
+00:09:36,100 --> 00:09:39,250
+code and the other group was debugging
+
+227
+00:09:39,250 --> 00:09:40,810
+code where all the full names were
+
+228
+00:09:40,810 --> 00:09:43,600
+replaced with abbreviations then we can
+
+229
+00:09:43,600 --> 00:09:45,730
+see which one does it better and then we
+
+230
+00:09:45,730 --> 00:09:49,330
+can know which one's better now I see
+
+231
+00:09:49,330 --> 00:09:51,460
+some of you looking skeptical I need me
+
+232
+00:09:51,460 --> 00:09:53,680
+right there's lots of what we call
+
+233
+00:09:53,680 --> 00:09:55,540
+confounding factors things that can
+
+234
+00:09:55,540 --> 00:09:57,520
+explain our results without our
+
+235
+00:09:57,520 --> 00:10:00,070
+fundamental premise being measured for
+
+236
+00:10:00,070 --> 00:10:02,410
+example experience maybe one group did a
+
+237
+00:10:02,410 --> 00:10:04,060
+better job because they all have 10
+
+238
+00:10:04,060 --> 00:10:06,310
+years more experience there might also
+
+239
+00:10:06,310 --> 00:10:07,840
+be alternate explanations
+
+240
+00:10:07,840 --> 00:10:10,690
+maybe this only matters when you're
+
+241
+00:10:10,690 --> 00:10:12,010
+working with assembly and if you're
+
+242
+00:10:12,010 --> 00:10:14,580
+working in Python the difference changes
+
+243
+00:10:14,580 --> 00:10:16,840
+there are a lot of different confounding
+
+244
+00:10:16,840 --> 00:10:19,210
+variables that can ruin an experiment if
+
+245
+00:10:19,210 --> 00:10:22,150
+we aren't careful and if we know them we
+
+246
+00:10:22,150 --> 00:10:24,310
+can design our experiment to control for
+
+247
+00:10:24,310 --> 00:10:26,020
+them make sure they don't matter
+
+248
+00:10:26,020 --> 00:10:27,280
+make sure they don't affect the results
+
+249
+00:10:27,280 --> 00:10:30,030
+but you have to think of them in advance
+
+250
+00:10:30,030 --> 00:10:32,620
+so they did they tried to figure out
+
+251
+00:10:32,620 --> 00:10:35,470
+what could possibly give alternate
+
+252
+00:10:35,470 --> 00:10:36,760
+explanations for whatever they were
+
+253
+00:10:36,760 --> 00:10:39,790
+seeing and I'd actually can make this a
+
+254
+00:10:39,790 --> 00:10:43,210
+quick demo quick exercise take 30
+
+255
+00:10:43,210 --> 00:10:44,980
+seconds think down write down now No
+
+256
+00:10:44,980 --> 00:10:46,150
+maybe ask the person next to you really
+
+257
+00:10:46,150 --> 00:10:48,190
+want to try to come up with possible
+
+258
+00:10:48,190 --> 00:10:50,890
+confounding factors things that might
+
+259
+00:10:50,890 --> 00:10:53,250
+explain the results besides just that
+
+260
+00:10:53,250 --> 00:10:57,030
+give you all 30 seconds
+
+261
+00:11:30,720 --> 00:11:33,720
+everybody back up eyes back on me great
+
+262
+00:11:33,720 --> 00:11:35,699
+everybody hub has everybody to have some
+
+263
+00:11:35,699 --> 00:11:37,769
+things how many people got like one
+
+264
+00:11:37,769 --> 00:11:41,970
+thing how many got like two to four how
+
+265
+00:11:41,970 --> 00:11:45,170
+many got five six
+
+266
+00:11:45,170 --> 00:11:47,490
+let me read all the things that they
+
+267
+00:11:47,490 --> 00:11:48,000
+found
+
+268
+00:11:48,000 --> 00:11:50,209
+I even compared it to your list
+
+269
+00:11:50,209 --> 00:11:52,730
+experience level of the developer's
+
+270
+00:11:52,730 --> 00:11:55,129
+education level of the developers
+
+271
+00:11:55,129 --> 00:11:58,350
+programming language used size of the
+
+272
+00:11:58,350 --> 00:12:00,959
+codebase studied density of bugs in the
+
+273
+00:12:00,959 --> 00:12:03,709
+code base formatting of the code
+
+274
+00:12:03,709 --> 00:12:06,899
+classification of bug time of day
+
+275
+00:12:06,899 --> 00:12:11,810
+fatigue level prom domain sample size
+
+276
+00:12:11,810 --> 00:12:15,180
+experience with the problem social media
+
+277
+00:12:15,180 --> 00:12:19,100
+exposure how many of those did you miss
+
+278
+00:12:19,100 --> 00:12:22,050
+yeah for the record they didn't find any
+
+279
+00:12:22,050 --> 00:12:25,560
+difference so it turns out that while we
+
+280
+00:12:25,560 --> 00:12:27,420
+know that descriptive names are really
+
+281
+00:12:27,420 --> 00:12:29,699
+important there's no evidence that a
+
+282
+00:12:29,699 --> 00:12:31,800
+full word is required when an
+
+283
+00:12:31,800 --> 00:12:34,800
+abbreviation can fit in and this was
+
+284
+00:12:34,800 --> 00:12:37,199
+only over a hundred people so it's not a
+
+285
+00:12:37,199 --> 00:12:39,240
+hundred percent validated but it does
+
+286
+00:12:39,240 --> 00:12:41,100
+show we can study something and get real
+
+287
+00:12:41,100 --> 00:12:45,060
+results about what matters who here find
+
+288
+00:12:45,060 --> 00:12:50,759
+that result surprising well so today it
+
+289
+00:12:50,759 --> 00:12:52,680
+doesn't really make intuitive sense that
+
+290
+00:12:52,680 --> 00:12:56,670
+a code base that EMP num is going to be
+
+291
+00:12:56,670 --> 00:13:01,069
+no harder than employee number right see
+
+292
+00:13:01,069 --> 00:13:03,990
+quantitative studies are science but
+
+293
+00:13:03,990 --> 00:13:05,939
+they're not enough we also need
+
+294
+00:13:05,939 --> 00:13:08,279
+qualitative studies this is the studies
+
+295
+00:13:08,279 --> 00:13:10,680
+of people's experiences of their
+
+296
+00:13:10,680 --> 00:13:13,620
+opinions of their ideas how they flow it
+
+297
+00:13:13,620 --> 00:13:16,079
+is the exploration part of science it's
+
+298
+00:13:16,079 --> 00:13:17,610
+how we get the ideas we want to test in
+
+299
+00:13:17,610 --> 00:13:21,389
+the first place we need to explore so
+
+300
+00:13:21,389 --> 00:13:24,089
+they explored they did what's called an
+
+301
+00:13:24,089 --> 00:13:26,910
+ethnography they sat down and watched
+
+302
+00:13:26,910 --> 00:13:29,040
+developers debug code in the real world
+
+303
+00:13:29,040 --> 00:13:31,410
+with no sort of controls no suggestions
+
+304
+00:13:31,410 --> 00:13:34,920
+just watch them and they saw that the
+
+305
+00:13:34,920 --> 00:13:36,449
+two groups had different ways of
+
+306
+00:13:36,449 --> 00:13:38,699
+debugging when you have the full word
+
+307
+00:13:38,699 --> 00:13:41,699
+identifiers people tended to skim they
+
+308
+00:13:41,699 --> 00:13:43,160
+used the name as an anchoring point
+
+309
+00:13:43,160 --> 00:13:44,800
+lexicography
+
+310
+00:13:44,800 --> 00:13:46,720
+or in themselves around the code and
+
+311
+00:13:46,720 --> 00:13:47,740
+quickly jump between where they thought
+
+312
+00:13:47,740 --> 00:13:49,990
+the bugs might be this worked as a
+
+313
+00:13:49,990 --> 00:13:52,330
+debugging technique the people who had
+
+314
+00:13:52,330 --> 00:13:54,670
+abbreviations though they more
+
+315
+00:13:54,670 --> 00:13:56,709
+methodically went top-down understanding
+
+316
+00:13:56,709 --> 00:13:58,570
+the context and the full flow of the
+
+317
+00:13:58,570 --> 00:14:02,500
+code this also worked so changing the
+
+318
+00:14:02,500 --> 00:14:04,570
+names did subtly change how people debug
+
+319
+00:14:04,570 --> 00:14:07,180
+code but in both cases there was
+
+320
+00:14:07,180 --> 00:14:09,040
+advantages and disadvantages they both
+
+321
+00:14:09,040 --> 00:14:12,130
+worked qualitative studies let us
+
+322
+00:14:12,130 --> 00:14:15,880
+actually know what is we're seeing what
+
+323
+00:14:15,880 --> 00:14:18,630
+is interesting what we want to explore
+
+324
+00:14:18,630 --> 00:14:22,149
+now both of these studies these clinical
+
+325
+00:14:22,149 --> 00:14:23,620
+trials these of sonography x' are about
+
+326
+00:14:23,620 --> 00:14:27,149
+people and people are tricky to study
+
+327
+00:14:27,149 --> 00:14:28,990
+something that's easier to study that
+
+328
+00:14:28,990 --> 00:14:31,720
+was code right it just sits there it's
+
+329
+00:14:31,720 --> 00:14:33,610
+not going to change on us it's not going
+
+330
+00:14:33,610 --> 00:14:37,060
+to be tired or sleep-deprived and code
+
+331
+00:14:37,060 --> 00:14:40,269
+also has one bigger one big advantage it
+
+332
+00:14:40,269 --> 00:14:44,700
+scales if I asked you average code base
+
+333
+00:14:44,700 --> 00:14:46,810
+what's the unit testing coverage how
+
+334
+00:14:46,810 --> 00:14:49,930
+would you find that out anybody want to
+
+335
+00:14:49,930 --> 00:14:56,290
+make raise your hand anyone yep yeah but
+
+336
+00:14:56,290 --> 00:15:02,140
+where do you get the UM code so the
+
+337
+00:15:02,140 --> 00:15:04,089
+question becomes how do we I'll just go
+
+338
+00:15:04,089 --> 00:15:05,230
+ahead I think you have the right down
+
+339
+00:15:05,230 --> 00:15:07,480
+the track here so I mean we can try code
+
+340
+00:15:07,480 --> 00:15:09,399
+that analyzes like our code base to find
+
+341
+00:15:09,399 --> 00:15:11,320
+the unit testing coverage but how do you
+
+342
+00:15:11,320 --> 00:15:12,579
+get enough samples how do we know the
+
+343
+00:15:12,579 --> 00:15:15,190
+average well there's 100 million
+
+344
+00:15:15,190 --> 00:15:16,480
+repositories on github we've just found
+
+345
+00:15:16,480 --> 00:15:18,040
+them all crunch the data done problem
+
+346
+00:15:18,040 --> 00:15:19,560
+solved
+
+347
+00:15:19,560 --> 00:15:23,560
+and this does work here's another study
+
+348
+00:15:23,560 --> 00:15:25,300
+that was done similar to this on code
+
+349
+00:15:25,300 --> 00:15:28,360
+smells these were people who looked at
+
+350
+00:15:28,360 --> 00:15:30,430
+30 open-source projects each of which
+
+351
+00:15:30,430 --> 00:15:32,610
+had been around for over a decade and
+
+352
+00:15:32,610 --> 00:15:35,980
+studied what the anti-patterns were what
+
+353
+00:15:35,980 --> 00:15:37,990
+they did wrong and where the defects in
+
+354
+00:15:37,990 --> 00:15:40,320
+the code were based on what was changed
+
+355
+00:15:40,320 --> 00:15:45,100
+their results were twofold one was that
+
+356
+00:15:45,100 --> 00:15:47,589
+yes if there are code smells the code is
+
+357
+00:15:47,589 --> 00:15:49,019
+more likely to be buggy in that area
+
+358
+00:15:49,019 --> 00:15:52,709
+that's probably obvious to a lot of us
+
+359
+00:15:52,709 --> 00:15:55,750
+the second thing that they found and
+
+360
+00:15:55,750 --> 00:15:57,070
+this is a little bit more surprising is
+
+361
+00:15:57,070 --> 00:15:57,580
+that
+
+362
+00:15:57,580 --> 00:15:59,380
+fixing the anti-patterns did nothing to
+
+363
+00:15:59,380 --> 00:16:01,480
+the bugs it turns out the two were
+
+364
+00:16:01,480 --> 00:16:04,000
+correlated certain kinds of code led to
+
+365
+00:16:04,000 --> 00:16:06,550
+more poorly designed low quality code
+
+366
+00:16:06,550 --> 00:16:09,270
+and more bugs but they were independent
+
+367
+00:16:09,270 --> 00:16:12,490
+fixing one didn't affect the other so
+
+368
+00:16:12,490 --> 00:16:14,050
+this means that we can use code smells
+
+369
+00:16:14,050 --> 00:16:16,540
+to isolate where we should be looking
+
+370
+00:16:16,540 --> 00:16:18,940
+for bugs but we can't fix the bugs we
+
+371
+00:16:18,940 --> 00:16:20,590
+just fixing the code smells we have to
+
+372
+00:16:20,590 --> 00:16:22,090
+actually figure out what the bug itself
+
+373
+00:16:22,090 --> 00:16:25,300
+is this is an example of how we can use
+
+374
+00:16:25,300 --> 00:16:26,620
+code mining to very quickly and
+
+375
+00:16:26,620 --> 00:16:29,350
+efficiently get insights into how things
+
+376
+00:16:29,350 --> 00:16:32,920
+work but code mining does this very
+
+377
+00:16:32,920 --> 00:16:35,860
+effective has traps of its own you see
+
+378
+00:16:35,860 --> 00:16:37,780
+it's not a controlled environment we're
+
+379
+00:16:37,780 --> 00:16:39,040
+looking at the field we're looking at
+
+380
+00:16:39,040 --> 00:16:40,990
+the world and that makes for very
+
+381
+00:16:40,990 --> 00:16:43,000
+complicated noisy data and we have to be
+
+382
+00:16:43,000 --> 00:16:45,250
+very careful about that who's heard of
+
+383
+00:16:45,250 --> 00:16:47,290
+this paper came out in 2017
+
+384
+00:16:47,290 --> 00:16:48,550
+a large-scale study of programming
+
+385
+00:16:48,550 --> 00:16:51,370
+languages in code quality and github see
+
+386
+00:16:51,370 --> 00:16:52,600
+a few of you because it was a pretty
+
+387
+00:16:52,600 --> 00:16:55,630
+moment to study it was the first it only
+
+388
+00:16:55,630 --> 00:16:56,950
+has about a hundred million lines of
+
+389
+00:16:56,950 --> 00:16:58,810
+github and it was the first site that
+
+390
+00:16:58,810 --> 00:17:00,850
+showed clear sophistical significance
+
+391
+00:17:00,850 --> 00:17:03,010
+between different kinds of programming
+
+392
+00:17:03,010 --> 00:17:06,190
+languages using commits and bug fixes
+
+393
+00:17:06,190 --> 00:17:09,550
+and commits they found that functionally
+
+394
+00:17:09,550 --> 00:17:12,250
+programming languages were safer than
+
+395
+00:17:12,250 --> 00:17:14,709
+imperative languages static typed
+
+396
+00:17:14,709 --> 00:17:16,900
+languages had fewer bugs and dynamic
+
+397
+00:17:16,900 --> 00:17:19,750
+type languages manual memory languages
+
+398
+00:17:19,750 --> 00:17:22,480
+were buggier then controlled garbage
+
+399
+00:17:22,480 --> 00:17:25,119
+collected languages this came out a
+
+400
+00:17:25,119 --> 00:17:26,589
+couple years ago and while the aspectus
+
+401
+00:17:26,589 --> 00:17:28,180
+was small it was hailed as one of the
+
+402
+00:17:28,180 --> 00:17:30,610
+best evidences for the port importance
+
+403
+00:17:30,610 --> 00:17:38,260
+of programming language now there's one
+
+404
+00:17:38,260 --> 00:17:40,090
+more part of this entire process that I
+
+405
+00:17:40,090 --> 00:17:42,790
+have neglected to tell you we don't
+
+406
+00:17:42,790 --> 00:17:45,820
+trust papers a paper is interesting it's
+
+407
+00:17:45,820 --> 00:17:47,380
+insightful but it's not trustworthy
+
+408
+00:17:47,380 --> 00:17:50,470
+people researchers make mistakes too in
+
+409
+00:17:50,470 --> 00:17:53,530
+order to see a paper and actually
+
+410
+00:17:53,530 --> 00:17:54,910
+benefit from it we have to do it's
+
+411
+00:17:54,910 --> 00:17:56,650
+called the replication we have to get
+
+412
+00:17:56,650 --> 00:17:58,480
+another group to do the same experiment
+
+413
+00:17:58,480 --> 00:18:00,180
+and see if they get the same results
+
+414
+00:18:00,180 --> 00:18:05,260
+that makes us more confident the study
+
+415
+00:18:05,260 --> 00:18:07,060
+on naming was done replicated several
+
+416
+00:18:07,060 --> 00:18:08,890
+times successfully as far as we can tell
+
+417
+00:18:08,890 --> 00:18:10,810
+that's a pretty consistent
+
+418
+00:18:10,810 --> 00:18:13,610
+this though just this year we tried to
+
+419
+00:18:13,610 --> 00:18:15,980
+replicate this a group tried to analyze
+
+420
+00:18:15,980 --> 00:18:17,990
+the same repositories and get the same
+
+421
+00:18:17,990 --> 00:18:20,810
+results and in doing so they found a
+
+422
+00:18:20,810 --> 00:18:23,630
+small problem you see this
+
+423
+00:18:23,630 --> 00:18:24,620
+imagine you have a commit that looks
+
+424
+00:18:24,620 --> 00:18:27,080
+like this add in fix operator the other
+
+425
+00:18:27,080 --> 00:18:28,610
+group was flagging it as a bug because
+
+426
+00:18:28,610 --> 00:18:32,150
+it had the word fix in it and all about
+
+427
+00:18:32,150 --> 00:18:34,520
+one third of the commits they studied
+
+428
+00:18:34,520 --> 00:18:37,670
+were false positives once this was a con
+
+429
+00:18:37,670 --> 00:18:39,110
+for every school difference went away
+
+430
+00:18:39,110 --> 00:18:40,730
+they could not find any evidence that
+
+431
+00:18:40,730 --> 00:18:42,470
+one language was better than any other
+
+432
+00:18:42,470 --> 00:18:44,660
+language doesn't mean it's not true it
+
+433
+00:18:44,660 --> 00:18:45,980
+just means you don't have evidence yet
+
+434
+00:18:45,980 --> 00:18:50,090
+so code mining can be very effective and
+
+435
+00:18:50,090 --> 00:18:52,070
+get us really deep insights but we have
+
+436
+00:18:52,070 --> 00:18:53,840
+to be careful we have to make sure that
+
+437
+00:18:53,840 --> 00:18:58,180
+what we're doing actually makes sense
+
+438
+00:18:58,180 --> 00:19:00,260
+now something interesting about all of
+
+439
+00:19:00,260 --> 00:19:01,430
+this that I've just been sharing you
+
+440
+00:19:01,430 --> 00:19:03,530
+might be noticing a pattern I've named
+
+441
+00:19:03,530 --> 00:19:05,390
+several things that we think are matter
+
+442
+00:19:05,390 --> 00:19:07,430
+programming language how we name our
+
+443
+00:19:07,430 --> 00:19:10,850
+things how we look at code smells all
+
+444
+00:19:10,850 --> 00:19:12,530
+that stuff and nothing seemed to have a
+
+445
+00:19:12,530 --> 00:19:14,240
+really strong effect write abbreviations
+
+446
+00:19:14,240 --> 00:19:16,580
+totally fine code smells don't actually
+
+447
+00:19:16,580 --> 00:19:19,970
+identify bugs it turns out that this
+
+448
+00:19:19,970 --> 00:19:21,410
+talk is what we know we don't know and
+
+449
+00:19:21,410 --> 00:19:23,570
+we know we don't know pretty much
+
+450
+00:19:23,570 --> 00:19:26,450
+anything see software engineering is a
+
+451
+00:19:26,450 --> 00:19:28,730
+very very young field some of the
+
+452
+00:19:28,730 --> 00:19:31,760
+founders are still alive today it's a
+
+453
+00:19:31,760 --> 00:19:34,370
+feel about systems and any system is
+
+454
+00:19:34,370 --> 00:19:35,840
+going to be complicated
+
+455
+00:19:35,840 --> 00:19:38,090
+any system is going to have some things
+
+456
+00:19:38,090 --> 00:19:41,240
+that are obvious and false and some
+
+457
+00:19:41,240 --> 00:19:43,520
+things that are insane and totally
+
+458
+00:19:43,520 --> 00:19:47,570
+correct we don't know that doesn't stop
+
+459
+00:19:47,570 --> 00:19:48,920
+us from programming we can still build
+
+460
+00:19:48,920 --> 00:19:51,350
+pretty incredible stuff just as humans
+
+461
+00:19:51,350 --> 00:19:53,270
+are complicated and clever we're really
+
+462
+00:19:53,270 --> 00:19:54,440
+good at doing things in on certain
+
+463
+00:19:54,440 --> 00:19:57,950
+situations so we don't know the answers
+
+464
+00:19:57,950 --> 00:20:02,210
+and that's okay but just as we don't
+
+465
+00:20:02,210 --> 00:20:04,400
+know the answers nobody else does either
+
+466
+00:20:04,400 --> 00:20:08,210
+and that's what it comes back to so many
+
+467
+00:20:08,210 --> 00:20:10,130
+people tell us here is how you must code
+
+468
+00:20:10,130 --> 00:20:11,690
+they're the people who tell us you must
+
+469
+00:20:11,690 --> 00:20:13,970
+use agile but they don't know they're
+
+470
+00:20:13,970 --> 00:20:15,320
+just saying that they just do believe
+
+471
+00:20:15,320 --> 00:20:17,630
+that though the people say agile is a
+
+472
+00:20:17,630 --> 00:20:19,610
+waste of time they don't know that they
+
+473
+00:20:19,610 --> 00:20:21,680
+just believe it they're just saying that
+
+474
+00:20:21,680 --> 00:20:24,290
+and that's the key here we don't
+
+475
+00:20:24,290 --> 00:20:26,330
+actually know anything nobody does and
+
+476
+00:20:26,330 --> 00:20:28,610
+that means anybody who's certain about
+
+477
+00:20:28,610 --> 00:20:31,430
+what isn't is it true about software is
+
+478
+00:20:31,430 --> 00:20:33,710
+probably wrong and probably trying to
+
+479
+00:20:33,710 --> 00:20:35,810
+sell you something we have to be
+
+480
+00:20:35,810 --> 00:20:38,180
+methodical we have to understand the
+
+481
+00:20:38,180 --> 00:20:39,650
+limits of our fields and learn how to
+
+482
+00:20:39,650 --> 00:20:41,960
+push them we have to be careful and
+
+483
+00:20:41,960 --> 00:20:45,350
+methodical and explore and short we need
+
+484
+00:20:45,350 --> 00:20:50,330
+to understand now I've shared some
+
+485
+00:20:50,330 --> 00:20:52,640
+things that don't work most things don't
+
+486
+00:20:52,640 --> 00:20:57,860
+work but there are some things that
+
+487
+00:20:57,860 --> 00:20:59,510
+we've studied that we are pretty sure
+
+488
+00:20:59,510 --> 00:21:01,310
+make a difference we have done many
+
+489
+00:21:01,310 --> 00:21:04,760
+experiments in many contexts and they've
+
+490
+00:21:04,760 --> 00:21:06,530
+all found significant persistent
+
+491
+00:21:06,530 --> 00:21:09,320
+positive or negative effects I'd like to
+
+492
+00:21:09,320 --> 00:21:10,850
+share some of you with this to show you
+
+493
+00:21:10,850 --> 00:21:13,340
+that there is some hope here I'm going
+
+494
+00:21:13,340 --> 00:21:15,230
+to also focus on the field that matters
+
+495
+00:21:15,230 --> 00:21:17,480
+most to me I do what's called formal
+
+496
+00:21:17,480 --> 00:21:19,460
+verification the study of making
+
+497
+00:21:19,460 --> 00:21:22,520
+programs probably correct unfortunately
+
+498
+00:21:22,520 --> 00:21:23,870
+that's not been cited by anyone so
+
+499
+00:21:23,870 --> 00:21:26,510
+complete waste of time but one thing
+
+500
+00:21:26,510 --> 00:21:27,800
+that has been pretty heavily studied is
+
+501
+00:21:27,800 --> 00:21:30,530
+defect finding software defects how do
+
+502
+00:21:30,530 --> 00:21:32,180
+we know where the bugs are in our code
+
+503
+00:21:32,180 --> 00:21:35,000
+and a second how do you how do we
+
+504
+00:21:35,000 --> 00:21:36,320
+prevent bugs in the first place
+
+505
+00:21:36,320 --> 00:21:38,360
+that's what I'd like to talk about these
+
+506
+00:21:38,360 --> 00:21:39,980
+two categories and what we've learned
+
+507
+00:21:39,980 --> 00:21:44,390
+about them so first question how do we
+
+508
+00:21:44,390 --> 00:21:47,480
+find bugs I've already shared one thing
+
+509
+00:21:47,480 --> 00:21:49,820
+that works identifying code smells and
+
+510
+00:21:49,820 --> 00:21:52,310
+seeing where they are helps us trace
+
+511
+00:21:52,310 --> 00:21:54,980
+down where the bugs are but that's
+
+512
+00:21:54,980 --> 00:21:56,660
+probably not enough for most people we
+
+513
+00:21:56,660 --> 00:21:58,040
+want an automated tool that helps us
+
+514
+00:21:58,040 --> 00:22:00,200
+more carefully more accurately identify
+
+515
+00:22:00,200 --> 00:22:04,070
+code that led to an explosion of code
+
+516
+00:22:04,070 --> 00:22:06,170
+measuring techniques who here has heard
+
+517
+00:22:06,170 --> 00:22:09,860
+of cyclomatic complexity who's here has
+
+518
+00:22:09,860 --> 00:22:13,820
+heard of function points clean code most
+
+519
+00:22:13,820 --> 00:22:15,500
+people these are techniques people try
+
+520
+00:22:15,500 --> 00:22:17,210
+to use to measure the quality of
+
+521
+00:22:17,210 --> 00:22:20,510
+software and maybe they work but in
+
+522
+00:22:20,510 --> 00:22:22,910
+terms of finding where bugs are most
+
+523
+00:22:22,910 --> 00:22:24,950
+likely to be in code there was one
+
+524
+00:22:24,950 --> 00:22:26,210
+technique that works much better than
+
+525
+00:22:26,210 --> 00:22:29,240
+all of them lines of code more lines
+
+526
+00:22:29,240 --> 00:22:30,520
+more bugs
+
+527
+00:22:30,520 --> 00:22:32,290
+now you might feel cheated by this
+
+528
+00:22:32,290 --> 00:22:34,660
+because again we want an automated tool
+
+529
+00:22:34,660 --> 00:22:36,040
+that we can point our code and find
+
+530
+00:22:36,040 --> 00:22:38,020
+where the bugs are lines of code doesn't
+
+531
+00:22:38,020 --> 00:22:39,370
+help us just saying there's a thousand
+
+532
+00:22:39,370 --> 00:22:40,570
+lines probably bug somewhere in there
+
+533
+00:22:40,570 --> 00:22:42,309
+just doesn't really do anything for us
+
+534
+00:22:42,309 --> 00:22:44,740
+and as far as we can tell there just
+
+535
+00:22:44,740 --> 00:22:46,150
+really isn't a way to just look at a
+
+536
+00:22:46,150 --> 00:22:48,970
+code base and find where we can find the
+
+537
+00:22:48,970 --> 00:22:52,410
+bugs so we don't look at the code base
+
+538
+00:22:52,410 --> 00:22:56,559
+instead we mind the org chart you might
+
+539
+00:22:56,559 --> 00:22:59,410
+have heard of Conway's law code reflects
+
+540
+00:22:59,410 --> 00:23:02,650
+the organization that produced it and it
+
+541
+00:23:02,650 --> 00:23:05,890
+turns out that is empirically true in
+
+542
+00:23:05,890 --> 00:23:08,740
+both positive ways and negative ways if
+
+543
+00:23:08,740 --> 00:23:12,280
+you have code if you have a system in
+
+544
+00:23:12,280 --> 00:23:13,270
+the organization a functioning
+
+545
+00:23:13,270 --> 00:23:14,860
+organization that is cross-cutting and
+
+546
+00:23:14,860 --> 00:23:17,980
+complicated the code for that system is
+
+547
+00:23:17,980 --> 00:23:20,440
+going to probably be buggy this has been
+
+548
+00:23:20,440 --> 00:23:23,170
+empirically verified if you have a lot
+
+549
+00:23:23,170 --> 00:23:24,490
+of different people that touch a code
+
+550
+00:23:24,490 --> 00:23:27,190
+base it is more likely to be buggy if
+
+551
+00:23:27,190 --> 00:23:28,240
+you have a lot of different groups that
+
+552
+00:23:28,240 --> 00:23:29,860
+touch a code base it is more likely to
+
+553
+00:23:29,860 --> 00:23:32,170
+be buggy not in the rate of change but
+
+554
+00:23:32,170 --> 00:23:35,290
+in the rate of types of change and this
+
+555
+00:23:35,290 --> 00:23:37,470
+is a pretty consistent persistent effect
+
+556
+00:23:37,470 --> 00:23:40,030
+so it's not necessarily a technical
+
+557
+00:23:40,030 --> 00:23:41,770
+thing that we look at but the social
+
+558
+00:23:41,770 --> 00:23:45,040
+thing our hierarchy is our VCS our git
+
+559
+00:23:45,040 --> 00:23:47,110
+blame that help us identify where the
+
+560
+00:23:47,110 --> 00:23:50,440
+bugs are going to be that's though in
+
+561
+00:23:50,440 --> 00:23:52,840
+the general case in the specific case we
+
+562
+00:23:52,840 --> 00:23:54,910
+know that in certain contexts it's
+
+563
+00:23:54,910 --> 00:23:57,280
+easier to find bugs for example in a
+
+564
+00:23:57,280 --> 00:23:59,380
+distributed system about nine out of
+
+565
+00:23:59,380 --> 00:24:03,160
+every ten critical bugs that crash the
+
+566
+00:24:03,160 --> 00:24:05,190
+entire distribute system are either
+
+567
+00:24:05,190 --> 00:24:07,750
+uncaught exceptions you know the kind
+
+568
+00:24:07,750 --> 00:24:09,330
+you find with the unit test or
+
+569
+00:24:09,330 --> 00:24:11,770
+configuration errors so if you look at
+
+570
+00:24:11,770 --> 00:24:13,120
+those two things you'll cut out maybe
+
+571
+00:24:13,120 --> 00:24:16,000
+90% of your crashes we also know from
+
+572
+00:24:16,000 --> 00:24:19,690
+some surveys that about half of the
+
+573
+00:24:19,690 --> 00:24:21,340
+worst bugs that take the longest to fix
+
+574
+00:24:21,340 --> 00:24:24,460
+our requirement or design issues so if
+
+575
+00:24:24,460 --> 00:24:25,840
+you just sit down and dry our decision
+
+576
+00:24:25,840 --> 00:24:27,910
+table before you start coding you will
+
+577
+00:24:27,910 --> 00:24:29,170
+probably save your company a few hundred
+
+578
+00:24:29,170 --> 00:24:31,770
+thousand dollars
+
+579
+00:24:33,760 --> 00:24:37,840
+but that's all in the finding of bugs
+
+580
+00:24:37,840 --> 00:24:40,040
+ideally we don't want bugs in the first
+
+581
+00:24:40,040 --> 00:24:47,030
+place right that's harder there's a lot
+
+582
+00:24:47,030 --> 00:24:49,670
+of things we've studied on this and most
+
+583
+00:24:49,670 --> 00:24:52,370
+of them seem like they work and seem to
+
+584
+00:24:52,370 --> 00:24:54,740
+work in practice for us but when we put
+
+585
+00:24:54,740 --> 00:24:55,460
+them to the test
+
+586
+00:24:55,460 --> 00:24:58,970
+they just fall apart take oh no
+
+587
+00:24:58,970 --> 00:25:01,400
+test-driven development now I'm gonna be
+
+588
+00:25:01,400 --> 00:25:02,960
+very clear here testing is great
+
+589
+00:25:02,960 --> 00:25:04,640
+everybody thinks testing is great in
+
+590
+00:25:04,640 --> 00:25:06,710
+fact it's so great that it's almost
+
+591
+00:25:06,710 --> 00:25:09,170
+impossible to find Studies on it it's
+
+592
+00:25:09,170 --> 00:25:10,820
+what's called a parachute study
+
+593
+00:25:10,820 --> 00:25:12,350
+something so obvious nobody bothers to
+
+594
+00:25:12,350 --> 00:25:14,510
+study it this term comes from medicine
+
+595
+00:25:14,510 --> 00:25:16,520
+well there's no double-blind studies
+
+596
+00:25:16,520 --> 00:25:18,170
+showing that parachute save lives so how
+
+597
+00:25:18,170 --> 00:25:22,130
+do we know for the record I did spend
+
+598
+00:25:22,130 --> 00:25:24,080
+about three days hunting down really old
+
+599
+00:25:24,080 --> 00:25:25,700
+studies and they all agree that yes
+
+600
+00:25:25,700 --> 00:25:27,290
+testing has an overwhelming benefit keep
+
+601
+00:25:27,290 --> 00:25:29,510
+writing your tests the question though
+
+602
+00:25:29,510 --> 00:25:31,610
+is does test and development work better
+
+603
+00:25:31,610 --> 00:25:33,410
+who here knows the test room development
+
+604
+00:25:33,410 --> 00:25:37,070
+is aa great most of you for the for the
+
+605
+00:25:37,070 --> 00:25:39,500
+people don't it's a very tight cycle
+
+606
+00:25:39,500 --> 00:25:41,480
+where you first write a failing test
+
+607
+00:25:41,480 --> 00:25:43,370
+then write the code that passes the test
+
+608
+00:25:43,370 --> 00:25:46,940
+then refactor it's really widely lauded
+
+609
+00:25:46,940 --> 00:25:48,730
+a lot of people really love it I
+
+610
+00:25:48,730 --> 00:25:50,750
+personally love it I do it all the time
+
+611
+00:25:50,750 --> 00:25:53,570
+I recommend friends do it but does it
+
+612
+00:25:53,570 --> 00:25:56,330
+actually make a difference well we have
+
+613
+00:25:56,330 --> 00:25:57,950
+one said he's saying yes this came out
+
+614
+00:25:57,950 --> 00:26:00,050
+in 2006 it was the first long-term study
+
+615
+00:26:00,050 --> 00:26:02,900
+on test row development it found that it
+
+616
+00:26:02,900 --> 00:26:05,900
+did reduce defects but also added about
+
+617
+00:26:05,900 --> 00:26:07,790
+20% more testing time to your system
+
+618
+00:26:07,790 --> 00:26:10,730
+which made the effects kind of uncertain
+
+619
+00:26:10,730 --> 00:26:12,800
+maybe it was the Chi GD maybe was just
+
+620
+00:26:12,800 --> 00:26:15,290
+we spent more time testing we've done a
+
+621
+00:26:15,290 --> 00:26:16,760
+lot of follow-up studies since then and
+
+622
+00:26:16,760 --> 00:26:18,410
+as far as we can tell no there's really
+
+623
+00:26:18,410 --> 00:26:21,230
+not a difference doesn't make a
+
+624
+00:26:21,230 --> 00:26:22,430
+difference that much to quality either
+
+625
+00:26:22,430 --> 00:26:24,020
+as far as we can tell test-driven
+
+626
+00:26:24,020 --> 00:26:25,490
+development is no better or worse than
+
+627
+00:26:25,490 --> 00:26:28,370
+any other disciplined controlled testing
+
+628
+00:26:28,370 --> 00:26:30,980
+technique this is personally a huge
+
+629
+00:26:30,980 --> 00:26:34,550
+bummer to me because I as I said loved
+
+630
+00:26:34,550 --> 00:26:36,050
+doing it and it's kind of frustrating to
+
+631
+00:26:36,050 --> 00:26:37,340
+know that this thing that I know helps
+
+632
+00:26:37,340 --> 00:26:41,270
+me probably doesn't work but that's
+
+633
+00:26:41,270 --> 00:26:44,090
+being what empirical means it means
+
+634
+00:26:44,090 --> 00:26:45,950
+accepting the results accepting the data
+
+635
+00:26:45,950 --> 00:26:46,790
+you
+
+636
+00:26:46,790 --> 00:26:49,700
+if we don't see that even if we don't
+
+637
+00:26:49,700 --> 00:26:53,240
+like the data and it turns out pretty
+
+638
+00:26:53,240 --> 00:26:54,170
+much every other technique we've studied
+
+639
+00:26:54,170 --> 00:26:57,050
+pair programming type systems etc don't
+
+640
+00:26:57,050 --> 00:26:59,120
+really have that much effect either they
+
+641
+00:26:59,120 --> 00:27:02,080
+feel like they help they probably don't
+
+642
+00:27:02,080 --> 00:27:05,150
+except for one technical practice there
+
+643
+00:27:05,150 --> 00:27:06,860
+is one technical practice that we've
+
+644
+00:27:06,860 --> 00:27:08,630
+studied again and again and know for
+
+645
+00:27:08,630 --> 00:27:10,970
+certain not just finds and removes bugs
+
+646
+00:27:10,970 --> 00:27:12,950
+but is dramatically effective at doing
+
+647
+00:27:12,950 --> 00:27:15,280
+so
+
+648
+00:27:24,670 --> 00:27:30,170
+code review now there are some caveats
+
+649
+00:27:30,170 --> 00:27:31,610
+here you can't review that much at a
+
+650
+00:27:31,610 --> 00:27:33,530
+time you can review that many lines of
+
+651
+00:27:33,530 --> 00:27:35,690
+code at a time but in those constraints
+
+652
+00:27:35,690 --> 00:27:38,750
+the effect is absolutely enormous most
+
+653
+00:27:38,750 --> 00:27:39,950
+of the rigorous studies they've seen on
+
+654
+00:27:39,950 --> 00:27:42,170
+this say it finds about 60 to 80 percent
+
+655
+00:27:42,170 --> 00:27:44,870
+of all the bugs in the code and even
+
+656
+00:27:44,870 --> 00:27:46,220
+better than that that's the secondary
+
+657
+00:27:46,220 --> 00:27:49,340
+effect it turns out that only one out of
+
+658
+00:27:49,340 --> 00:27:52,250
+every four comments that basically block
+
+659
+00:27:52,250 --> 00:27:54,410
+the code significant software defects is
+
+660
+00:27:54,410 --> 00:27:56,360
+about functionality the other three are
+
+661
+00:27:56,360 --> 00:28:00,080
+about code quality so very roughly for
+
+662
+00:28:00,080 --> 00:28:03,050
+every bug it finds which is again about
+
+663
+00:28:03,050 --> 00:28:04,400
+sixty to eighty percent of all of the
+
+664
+00:28:04,400 --> 00:28:07,820
+bugs it spines about three situations
+
+665
+00:28:07,820 --> 00:28:09,230
+where we can just make the code better
+
+666
+00:28:09,230 --> 00:28:11,210
+more maintainable spread knowledge share
+
+667
+00:28:11,210 --> 00:28:12,980
+knowledge code review is simply
+
+668
+00:28:12,980 --> 00:28:15,590
+fantastic and no other technical
+
+669
+00:28:15,590 --> 00:28:17,660
+practice comes close not pairing not TDD
+
+670
+00:28:17,660 --> 00:28:20,570
+not testing in general not types not
+
+671
+00:28:20,570 --> 00:28:22,480
+even like formal proofs to be honest
+
+672
+00:28:22,480 --> 00:28:24,620
+these are still great things and I still
+
+673
+00:28:24,620 --> 00:28:26,480
+recommend doing them but far and away
+
+674
+00:28:26,480 --> 00:28:29,900
+TDD is the one technical practice we are
+
+675
+00:28:29,900 --> 00:28:33,070
+absolutely 100% certain is effective
+
+676
+00:28:33,070 --> 00:28:37,000
+nothing else comes close to code review
+
+677
+00:28:37,000 --> 00:28:41,450
+at the end I said though technical
+
+678
+00:28:41,450 --> 00:28:44,720
+practice for a reason we haven't studied
+
+679
+00:28:44,720 --> 00:28:46,520
+software engineers as much as we really
+
+680
+00:28:46,520 --> 00:28:49,010
+should have as I've made clear but we
+
+681
+00:28:49,010 --> 00:28:50,320
+have to be knowledge workers in general
+
+682
+00:28:50,320 --> 00:28:52,730
+we've studied them for a hundred years
+
+683
+00:28:52,730 --> 00:28:55,880
+and we know without a doubt that there
+
+684
+00:28:55,880 --> 00:28:58,580
+are three things that have a profound
+
+685
+00:28:58,580 --> 00:29:01,940
+impact on the output of any possible
+
+686
+00:29:01,940 --> 00:29:03,440
+knowledge worker any possible manual
+
+687
+00:29:03,440 --> 00:29:07,610
+laborer anyone doing anything sleep
+
+688
+00:29:07,610 --> 00:29:10,850
+deprivation stress levels and hours
+
+689
+00:29:10,850 --> 00:29:14,450
+worked and these effects are absolutely
+
+690
+00:29:14,450 --> 00:29:18,320
+enormous an unstressed well-rested oh
+
+691
+00:29:18,320 --> 00:29:20,900
+not overworked team that is happiness
+
+692
+00:29:20,900 --> 00:29:23,360
+job will produce orders of magnitude
+
+693
+00:29:23,360 --> 00:29:25,760
+better code better output better systems
+
+694
+00:29:25,760 --> 00:29:29,540
+than otherwise as just one example of
+
+695
+00:29:29,540 --> 00:29:30,560
+one of the few cases we've studied
+
+696
+00:29:30,560 --> 00:29:32,960
+software engineers in this context this
+
+697
+00:29:32,960 --> 00:29:34,820
+was a study about what happens if you
+
+698
+00:29:34,820 --> 00:29:37,100
+skip a night of sleep one night so
+
+699
+00:29:37,100 --> 00:29:38,870
+you know your hackathon what you're
+
+700
+00:29:38,870 --> 00:29:39,950
+doing at the end of the hackathon
+
+701
+00:29:39,950 --> 00:29:40,940
+instead of at the beginning of the
+
+702
+00:29:40,940 --> 00:29:43,820
+hackathon and if you skip one hour of
+
+703
+00:29:43,820 --> 00:29:45,220
+sleep if you sleep one night of sleep
+
+704
+00:29:45,220 --> 00:29:47,600
+for the first hour of coding after that
+
+705
+00:29:47,600 --> 00:29:49,639
+just the first hour on simple tasks
+
+706
+00:29:49,639 --> 00:29:54,019
+you're about half as productive also
+
+707
+00:29:54,019 --> 00:29:55,610
+other studies show that if you miss
+
+708
+00:29:55,610 --> 00:29:57,919
+about a week of two hours of sleep at
+
+709
+00:29:57,919 --> 00:29:59,809
+night you are basically about as bad off
+
+710
+00:29:59,809 --> 00:30:01,340
+as a person who skipped an entire night
+
+711
+00:30:01,340 --> 00:30:03,049
+of sleep so chronic sleep deprivation
+
+712
+00:30:03,049 --> 00:30:06,470
+can be just as bad also also it turns
+
+713
+00:30:06,470 --> 00:30:08,179
+out that when you are sleep-deprived you
+
+714
+00:30:08,179 --> 00:30:11,149
+can't tell your work is worse so if your
+
+715
+00:30:11,149 --> 00:30:13,070
+team is sleep-deprived there is
+
+716
+00:30:13,070 --> 00:30:15,529
+literally nothing you can do to make up
+
+717
+00:30:15,529 --> 00:30:18,289
+for that no practice will make your code
+
+718
+00:30:18,289 --> 00:30:20,720
+any better then they would make if they
+
+719
+00:30:20,720 --> 00:30:24,889
+were well rested and well it's not just
+
+720
+00:30:24,889 --> 00:30:26,629
+sleep I mentioned also time worked and
+
+721
+00:30:26,629 --> 00:30:29,539
+hours worked right and stress one of my
+
+722
+00:30:29,539 --> 00:30:31,159
+favorite studies that's come out
+
+723
+00:30:31,159 --> 00:30:33,679
+recently is the gameís Sutra study on
+
+724
+00:30:33,679 --> 00:30:35,870
+game developers they interviewed 700
+
+725
+00:30:35,870 --> 00:30:37,929
+game developers on 700 separate teams
+
+726
+00:30:37,929 --> 00:30:41,779
+and we know that down to 270 different
+
+727
+00:30:41,779 --> 00:30:43,610
+code bases total seven different games
+
+728
+00:30:43,610 --> 00:30:46,159
+and among other things they found that
+
+729
+00:30:46,159 --> 00:30:48,500
+when a team entered crunch mode that is
+
+730
+00:30:48,500 --> 00:30:50,450
+over work to get a game done in time
+
+731
+00:30:50,450 --> 00:30:53,960
+they produced games that were worse on
+
+732
+00:30:53,960 --> 00:30:57,470
+every single metric reviewer scores
+
+733
+00:30:57,470 --> 00:31:00,559
+profitability user satisfaction sales
+
+734
+00:31:00,559 --> 00:31:03,379
+everything then the teams that simply
+
+735
+00:31:03,379 --> 00:31:06,860
+cut scope or push their deadlines those
+
+736
+00:31:06,860 --> 00:31:08,929
+groups were burning more time and money
+
+737
+00:31:08,929 --> 00:31:10,909
+not to mention the health and safety of
+
+738
+00:31:10,909 --> 00:31:19,639
+the developers on a worse outcome so the
+
+739
+00:31:19,639 --> 00:31:21,470
+question you've probably heard that
+
+740
+00:31:21,470 --> 00:31:23,149
+correctness you should be doing testing
+
+741
+00:31:23,149 --> 00:31:25,519
+or review or pairing why haven't you
+
+742
+00:31:25,519 --> 00:31:26,629
+heard about sleep why haven't you heard
+
+743
+00:31:26,629 --> 00:31:28,450
+about stress levels for correctness a
+
+744
+00:31:28,450 --> 00:31:31,639
+lot of reasons to be honest because
+
+745
+00:31:31,639 --> 00:31:34,610
+these are a long-term subtle effects as
+
+746
+00:31:34,610 --> 00:31:37,490
+opposed to short-term ones because they
+
+747
+00:31:37,490 --> 00:31:40,129
+are diffuse and insidious because it's
+
+748
+00:31:40,129 --> 00:31:41,419
+very hard to trace them back to their
+
+749
+00:31:41,419 --> 00:31:44,360
+source and because it's not in our
+
+750
+00:31:44,360 --> 00:31:47,779
+control things like stress and sleep are
+
+751
+00:31:47,779 --> 00:31:50,810
+a product of things like
+
+752
+00:31:50,810 --> 00:31:54,540
+deadlines scope creep bad managers bad
+
+753
+00:31:54,540 --> 00:31:57,720
+company culture things that our
+
+754
+00:31:57,720 --> 00:32:00,320
+organization level social not technical
+
+755
+00:32:00,320 --> 00:32:02,690
+you see there are some things that US
+
+756
+00:32:02,690 --> 00:32:05,100
+engineers can do that will improve our
+
+757
+00:32:05,100 --> 00:32:08,040
+code like code review but ultimately at
+
+758
+00:32:08,040 --> 00:32:10,230
+its core software engineering is
+
+759
+00:32:10,230 --> 00:32:11,130
+knowledge work
+
+760
+00:32:11,130 --> 00:32:12,660
+it's about us putting our minds to the
+
+761
+00:32:12,660 --> 00:32:15,240
+best use we can and I find that
+
+762
+00:32:15,240 --> 00:32:18,300
+beautiful it really exalts what exists
+
+763
+00:32:18,300 --> 00:32:21,090
+that humans can do but at the same time
+
+764
+00:32:21,090 --> 00:32:22,980
+it means that anything that impairs our
+
+765
+00:32:22,980 --> 00:32:26,520
+ability to think is going to cause much
+
+766
+00:32:26,520 --> 00:32:30,300
+worse effects than anything else can so
+
+767
+00:32:30,300 --> 00:32:32,760
+yes if we want higher quality we need to
+
+768
+00:32:32,760 --> 00:32:34,640
+do our code review we need to be careful
+
+769
+00:32:34,640 --> 00:32:36,870
+but if you really want high quality and
+
+770
+00:32:36,870 --> 00:32:39,390
+high productivity well that can't be
+
+771
+00:32:39,390 --> 00:32:41,220
+demanded of engineers it has to be
+
+772
+00:32:41,220 --> 00:32:43,230
+enforced at the organization the change
+
+773
+00:32:43,230 --> 00:32:47,510
+must come from the top now that is just
+
+774
+00:32:47,510 --> 00:32:49,860
+software engineering just empirical
+
+775
+00:32:49,860 --> 00:32:52,410
+engineering in software defects there's
+
+776
+00:32:52,410 --> 00:32:54,930
+other fields we've studied - education
+
+777
+00:32:54,930 --> 00:32:57,270
+human-computer interfaces performance
+
+778
+00:32:57,270 --> 00:32:58,200
+all that stuff
+
+779
+00:32:58,200 --> 00:33:00,390
+I shared software defect because that's
+
+780
+00:33:00,390 --> 00:33:02,820
+what matters most to me I don't know
+
+781
+00:33:02,820 --> 00:33:04,860
+what matters most to you maybe it's
+
+782
+00:33:04,860 --> 00:33:07,440
+something else all I can do is encourage
+
+783
+00:33:07,440 --> 00:33:08,520
+you to look for yourself
+
+784
+00:33:08,520 --> 00:33:09,900
+I encourage you that this is even worth
+
+785
+00:33:09,900 --> 00:33:12,300
+looking at in the first place hopefully
+
+786
+00:33:12,300 --> 00:33:13,320
+I've done that a little at least a
+
+787
+00:33:13,320 --> 00:33:14,370
+little bit of that hopefully I've
+
+788
+00:33:14,370 --> 00:33:16,680
+convinced you of the value here if so
+
+789
+00:33:16,680 --> 00:33:18,900
+I'd like to end by talking about where
+
+790
+00:33:18,900 --> 00:33:20,760
+we can get started what's the best
+
+791
+00:33:20,760 --> 00:33:22,710
+introduction to both doing the research
+
+792
+00:33:22,710 --> 00:33:25,410
+and finding it so there's two books I
+
+793
+00:33:25,410 --> 00:33:27,390
+definitely strongly recommend the first
+
+794
+00:33:27,390 --> 00:33:29,280
+is making software this is how I got
+
+795
+00:33:29,280 --> 00:33:31,740
+into it the first half is about the
+
+796
+00:33:31,740 --> 00:33:33,210
+practice of research how we do the
+
+797
+00:33:33,210 --> 00:33:35,700
+research the pitfalls everything the
+
+798
+00:33:35,700 --> 00:33:37,250
+second half is the things we've learned
+
+799
+00:33:37,250 --> 00:33:39,960
+this book is absolutely fantastic I
+
+800
+00:33:39,960 --> 00:33:42,780
+reread it once a year if any of you have
+
+801
+00:33:42,780 --> 00:33:44,430
+a safari subscription it's free online
+
+802
+00:33:44,430 --> 00:33:47,070
+there too they also have a site never
+
+803
+00:33:47,070 --> 00:33:49,110
+work in theory org which has high
+
+804
+00:33:49,110 --> 00:33:52,260
+quality open source research I'd also
+
+805
+00:33:52,260 --> 00:33:54,900
+recommend reading that other book is a
+
+806
+00:33:54,900 --> 00:33:56,730
+counterpoint the leprechauns of software
+
+807
+00:33:56,730 --> 00:33:59,490
+engineering this is by person laurent
+
+808
+00:33:59,490 --> 00:34:02,640
+bosavi who is skeptical the idea of
+
+809
+00:34:02,640 --> 00:34:03,560
+empirical engineer
+
+810
+00:34:03,560 --> 00:34:05,310
+obviously I disagree with him on that
+
+811
+00:34:05,310 --> 00:34:07,380
+but what he does in this book is show
+
+812
+00:34:07,380 --> 00:34:09,060
+how it is that people misinterpret
+
+813
+00:34:09,060 --> 00:34:11,610
+research how claims turn into urban
+
+814
+00:34:11,610 --> 00:34:13,949
+legends so it is a very good book for
+
+815
+00:34:13,949 --> 00:34:16,260
+learning the methodology of evaluating
+
+816
+00:34:16,260 --> 00:34:19,830
+research that's mostly about how we do
+
+817
+00:34:19,830 --> 00:34:21,270
+research in terms of finding it
+
+818
+00:34:21,270 --> 00:34:23,909
+that's a trickier problem who here has
+
+819
+00:34:23,909 --> 00:34:28,459
+heard of the academia industrial complex
+
+820
+00:34:28,850 --> 00:34:30,810
+basically goes like this
+
+821
+00:34:30,810 --> 00:34:32,668
+almost all research is done by
+
+822
+00:34:32,668 --> 00:34:35,190
+universities universities have their
+
+823
+00:34:35,190 --> 00:34:37,350
+stuff published in scientific journals
+
+824
+00:34:37,350 --> 00:34:39,418
+to read a scientific journal you have to
+
+825
+00:34:39,418 --> 00:34:43,110
+pay either $30 per article or belong to
+
+826
+00:34:43,110 --> 00:34:44,940
+an organization that pays $10,000 a year
+
+827
+00:34:44,940 --> 00:34:47,790
+for access I'm guessing you most of you
+
+828
+00:34:47,790 --> 00:34:50,520
+aren't in that so you can find the paper
+
+829
+00:34:50,520 --> 00:34:53,010
+you can read the abstract you can't
+
+830
+00:34:53,010 --> 00:34:55,800
+actually read the paper there are a few
+
+831
+00:34:55,800 --> 00:34:57,540
+ways around this though if you have an
+
+832
+00:34:57,540 --> 00:34:59,790
+ACM digital membership that's about a
+
+833
+00:34:59,790 --> 00:35:01,830
+hundred dollars a year you can read all
+
+834
+00:35:01,830 --> 00:35:04,590
+the memberships in their system if you
+
+835
+00:35:04,590 --> 00:35:06,300
+go to this place called the archive a
+
+836
+00:35:06,300 --> 00:35:08,070
+lot of scientists in protest and
+
+837
+00:35:08,070 --> 00:35:09,840
+rebellion of the system upload their
+
+838
+00:35:09,840 --> 00:35:12,210
+preprints there if you go to the
+
+839
+00:35:12,210 --> 00:35:13,980
+scientists actual website they probably
+
+840
+00:35:13,980 --> 00:35:16,440
+have their stuff hosted there too if you
+
+841
+00:35:16,440 --> 00:35:17,730
+email the scientists they'll happily
+
+842
+00:35:17,730 --> 00:35:20,790
+share it but by far the most efficient
+
+843
+00:35:20,790 --> 00:35:22,830
+most effective and easiest way is to use
+
+844
+00:35:22,830 --> 00:35:27,870
+SCI hub SC i - h ub if you put in a
+
+845
+00:35:27,870 --> 00:35:29,340
+paper into the site it will just
+
+846
+00:35:29,340 --> 00:35:30,750
+immediately give you the entire article
+
+847
+00:35:30,750 --> 00:35:34,020
+no problems no questions asked the
+
+848
+00:35:34,020 --> 00:35:35,520
+problem is I can't actually recommend
+
+849
+00:35:35,520 --> 00:35:37,830
+this because it's incredibly fast and
+
+850
+00:35:37,830 --> 00:35:39,930
+convenient and workable and has great UI
+
+851
+00:35:39,930 --> 00:35:41,580
+but it's also a little bit illegal
+
+852
+00:35:41,580 --> 00:35:45,690
+because you know copyright rulings so
+
+853
+00:35:45,690 --> 00:35:46,860
+you really you're really supposed to you
+
+854
+00:35:46,860 --> 00:35:48,060
+know if you want to be really moral
+
+855
+00:35:48,060 --> 00:35:49,260
+about this you kind of have to pay the
+
+856
+00:35:49,260 --> 00:35:52,470
+$30 per paper so I'm definitely don't go
+
+857
+00:35:52,470 --> 00:35:54,660
+to that website definitely but it all
+
+858
+00:35:54,660 --> 00:35:57,150
+you can and don't go to there and don't
+
+859
+00:35:57,150 --> 00:35:59,960
+like follow them on Twitter just don't
+
+860
+00:35:59,960 --> 00:36:03,590
+so in conclusion
+
+861
+00:36:03,590 --> 00:36:08,070
+software engineering very powerful very
+
+862
+00:36:08,070 --> 00:36:10,110
+difficult but it helps us distinguish
+
+863
+00:36:10,110 --> 00:36:12,090
+what is correct from what we believe and
+
+864
+00:36:12,090 --> 00:36:14,070
+what is useful from what is either
+
+865
+00:36:14,070 --> 00:36:15,760
+negative or uncertain
+
+866
+00:36:15,760 --> 00:36:18,190
+it's great for I guess humility and
+
+867
+00:36:18,190 --> 00:36:20,170
+actually improving and protecting
+
+868
+00:36:20,170 --> 00:36:22,810
+ourselves now a couple of things to wrap
+
+869
+00:36:22,810 --> 00:36:25,119
+up really quickly first as mentioned you
+
+870
+00:36:25,119 --> 00:36:26,560
+can go to the site and you can see all
+
+871
+00:36:26,560 --> 00:36:28,900
+the references you can also read the
+
+872
+00:36:28,900 --> 00:36:31,030
+references for yourself and it would
+
+873
+00:36:31,030 --> 00:36:33,070
+recommend that everything I've shared
+
+874
+00:36:33,070 --> 00:36:35,290
+has been colored by my opinions how I
+
+875
+00:36:35,290 --> 00:36:38,470
+see the world my own biases maybe when
+
+876
+00:36:38,470 --> 00:36:39,220
+you read it you'll come up with
+
+877
+00:36:39,220 --> 00:36:40,930
+something different maybe you'll think
+
+878
+00:36:40,930 --> 00:36:42,250
+it's correct maybe you'll think it's
+
+879
+00:36:42,250 --> 00:36:42,820
+garbage
+
+880
+00:36:42,820 --> 00:36:45,190
+I do recommend though checking for
+
+881
+00:36:45,190 --> 00:36:47,140
+yourself because you should see for
+
+882
+00:36:47,140 --> 00:36:49,690
+yourself what the research says and not
+
+883
+00:36:49,690 --> 00:36:51,460
+just trust a person on the stage selling
+
+884
+00:36:51,460 --> 00:36:53,200
+their consult shilling their consulting
+
+885
+00:36:53,200 --> 00:36:57,010
+business speaking of shilling I'd like
+
+886
+00:36:57,010 --> 00:36:58,060
+to end by clearly talking about what I
+
+887
+00:36:58,060 --> 00:37:00,100
+do I work in a field called formal
+
+888
+00:37:00,100 --> 00:37:02,590
+methods that is sort of the art and
+
+889
+00:37:02,590 --> 00:37:04,510
+science of producing large-scale
+
+890
+00:37:04,510 --> 00:37:05,619
+bug-free designs
+
+891
+00:37:05,619 --> 00:37:08,140
+essentially software blueprints I teach
+
+892
+00:37:08,140 --> 00:37:09,609
+workshops and consult for companies
+
+893
+00:37:09,609 --> 00:37:11,980
+clients have included Netflix Cigna
+
+894
+00:37:11,980 --> 00:37:15,940
+protocol labs Skala tea medium math so
+
+895
+00:37:15,940 --> 00:37:17,320
+far they seem pretty satisfied with me
+
+896
+00:37:17,320 --> 00:37:20,080
+so probably a good sign if you're
+
+897
+00:37:20,080 --> 00:37:21,609
+interested in this just either go to the
+
+898
+00:37:21,609 --> 00:37:23,530
+site or come talk to me after I'll
+
+899
+00:37:23,530 --> 00:37:24,850
+happily answer any questions on what I
+
+900
+00:37:24,850 --> 00:37:27,340
+do and how it works and of course you're
+
+901
+00:37:27,340 --> 00:37:28,359
+always welcome for the rest of the
+
+902
+00:37:28,359 --> 00:37:30,040
+conference to ask me any questions you
+
+903
+00:37:30,040 --> 00:37:32,619
+have about empirical engineering and
+
+904
+00:37:32,619 --> 00:37:35,020
+with that my name is Helene and thank
+
+905
+00:37:35,020 --> 00:37:36,610
+you for listening to my talk
+
+906
+00:37:36,610 --> 00:37:42,739
+[Applause]
+

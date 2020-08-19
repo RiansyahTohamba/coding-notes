@@ -296,6 +296,7 @@ repositories on github we've just found
 them all crunch the data done problem solved and this does work.
 
 \subsection{On the diffuseness and the impact on maintainability of code smells: a large scale empirical investigation}
+Mulainya menit 00:15:19.
 Here's another study that was done similar to this on code
 smells these were people who looked at
 30 open-source projects each of which
@@ -333,39 +334,125 @@ complicated noisy data and we have to be
 very careful about that.
 
 \subsection{A Large Scale Study of Programming Languages and Code Quality in Github}
-Who's heard of this paper came out in 2017 a large-scale study of programming languages in code quality and github see a few of you because it was a pretty moment to study it was the first it only has about a hundred million lines of github and it was the first site that showed clear sophistical significance between different kinds of programming languages using commits and bug fixes and commits they found that functionally programming languages were safer than imperative languages static typed languages had fewer bugs and dynamic type languages manual memory languages were buggier then controlled garbage collected languages this came out a couple years ago and while the aspectus was small it was hailed as one of the best evidences for the port importance of programming language now there's one more part of this entire process that I have neglected to tell you we don't trust papers a paper is interesting it's insightful but it's not trustworthy people researchers make mistakes too in order to see a paper and actually benefit from it we have to do it's called the replication we have to get another group to do the same experiment and see if they get the same results that makes us more confident the study on naming was done replicated several times successfully as far as we can tell that's a pretty consistent this though just this year we tried to replicate this a group tried to analyze the same repositories and get the same results and in doing so they found a small problem you see this imagine you have a commit that looks like this add in fix operator the other group was flagging it as a bug because it had the word fix in it and all about one third of the commits they studied were false positives once this was a con for every school difference went away they could not find any evidence that one language was better than any other language doesn't mean it's not true it just means you don't have evidence yet so code mining can be very effective and get us really deep insights but we have to be careful we have to make sure that what we're doing actually makes sense now something interesting about all of this that I've just been sharing you might be noticing a pattern. 
-I've named several things that we think are matter programming language how we name our things how we look at code smells all that stuff and nothing seemed to have a really strong effect write abbreviations totally fine code smells don't actually identify bugs it turns out that this talk is what we know we don't know and we know we don't know pretty much anything.  
-\section{Software Engineering still young field} % (fold)
-\label{sec:software_engineering_still_young_field}
-See ? Software Engineering is a very-very young field.  Some of the founders are still alive today.  It's a feel about systems and any system is going to be complicated.  Any system is going to have some things that are obvious and false and some things that are insane and totally correct we don't know that doesn't stop us from programming we can still build pretty incredible stuff just as humans are complicated and clever we're really good at doing things in on certain situations so we don't know the answers and that's okay but just as we don't know the answers nobody else does either and that's what it comes back to so many people tell us here is how you must code they're the people who tell us you must use agile but they don't know they're just saying that they just do believe that though the people say agile is a waste of time they don't know that they just believe it they're just saying that and that's the key here we don't actually know anything nobody does and that means anybody who's certain about what isn't is it true about software is probably wrong and probably trying to sell you something we have to be methodical we have to understand the limits of our fields and learn how to push them we have to be careful and methodical and explore and short we need to understand now I've shared some things that don't work most things don't work but there are some things that we've studied that we are pretty sure make a difference we have done many experiments in many contexts and they've all found significant persistent positive or negative effects I'd like to share some of you with this to show you that there is some hope here.
-% section software_engineering_still_young_field (end)
+Who's heard of this paper came out in 2017 a large-scale study of programming languages in code quality and github see a few of you because it was a pretty moment to study it was the first it only has about a hundred million lines of github and it was the first site that showed clear sophistical significance between different kinds of programming languages using commits and bug fixes and commits they found that functionally programming languages were safer than imperative languages static typed languages had fewer bugs and dynamic type languages manual memory languages were buggier then controlled garbage collected languages this came out a couple years ago and while the aspectus was small it was hailed as one of the best evidences for the port importance of programming language now there's one more part of this entire process that 
+\section{Replication as an evidence of method} % (fold)
+I have neglected to tell you, \textbf{we don't trust papers}. 
+a paper is interesting it's insightful but it's not trustworthy. 
+Researchers (is people too),make mistakes too.
+In order to see a paper and actually benefit from it, we have to do it's called the \textbf{replication}. 
+We have to get another group to do the same experiment and see if they get the same results that makes us more confident. 
+the study on naming was done replicated several times successfully as far as we can tell that's a pretty consistent this though just this year we tried to replicate this a group tried to analyze the same repositories and get the same results and in doing so they found a small problem you see this. 
+imagine you have a commit that looks like this add in fix operator the other group was flagging it as a bug because it had the word fix in it and all about one third of the commits they studied were false positives once this was a con for every school difference went away they could not find any evidence that one language was better than any other language doesn't mean it's not true it just means you don't have evidence yet so code mining can be very effective and get us really deep insights but we have to be careful we have to make sure that what we're doing actually makes sense. 
+\section{Hati-hati dengan sales}
+now something interesting about all of this that I’ve just been sharing.
+you  might be noticing a pattern. I’ve named several things that we think are matter
+\begin{enumerate}
+	\item programming language 
+	\item how we name our things (variable)
+	\item how we look at code smells
+\end{enumerate}
+all that stuff and Nothing seemed to have a really strong effect.
+write abbreviations totally, find code smells don’t actually identify bugs.
+it turns out that this talk is \textbf{what we know we don’t know} and 
+\textbf{we know we don’t know pretty much anything}, see ? 
+ Software  engineering is a very very young field.
+  some of the founders
+ are still alive today.
+ it’s a feel about systems and
+1.  any system
+ is going to be complicated
+2. any system is going to have some
+ things that are obvious and false
+ Semua metode sdh benar,jelas dan ttp saja salah
+ and 
+3. some things that are
+ insane and totally correct. Metode pengembangan ada yg di skip dan tetap benar(fb misalnya) 
+walaupun kita tidak tahu, kita masih bisa create incredible sw.
+we don’t know. (ketidaktahuan kita)  that doesn’t stop us from programming. 
+we can still build pretty incredible stuff just as humans are complicated and clever.
+we’re really good at doing things in uncertain situations.
 
-\subsection{Beyond Lines of Code: Do We Need More Complexity Metrics?}
+masih byk yg tdk kt ketahui,semua still belief
+so we don’t know
+ the answers and that’s okay. 
+but just as we don’t know the
+ answers nobody else does either and that’s what it comes
+ back to 
+ contoh contoh belief
+so many people tell us 
+here is how you must code
+.
+they’re the people who tell us you must use agile but they
+ don’t know,they’re just saying that, they just do believe that
+.
+though the people say agile is a waste of time 
+ banyak sales yg aslinya ga tau apa yg dia omongin dan itu belum cocok dgn tim/diri kita. 
+they don’t
+ know that they just believe it. they’re just saying that and
+that’s the key here.
+ we don’t actually know anything, nobody
+does
+ and that means anybody who’s certain about what isn’t
+ is it true about software is probably wrong and probably
+ trying to sell you something.
+ maka kt harus hati hati dan metodis
+we have to be methodical 
+we
+ have to understand the limits of our fields and learn how
+ to push them.
+ we have to be careful and methodical and
+explore and short we need to understand.
+
+
+now something interesting about all of this that I've just been sharing you might be noticing a pattern. 
+I've named several things that we think are matter programming language how we name our things how we look at code smells all that stuff and nothing seemed to have a really strong effect write abbreviations totally fine code smells don't actually identify bugs it turns out that this talk is what we know we don't know and we know we don't know pretty much anything.  
+\section{Beberapa belief yang terbukti benar}
+Beberapa belief yg dishare sebelumnya tak bekerja sesuai yg dijanjikan salesnya.now I’ve shared some things that don’t work.  
+most things don’t work .
+tapi ada metode yg sdh teruji di berbagai situasi
+ but
+ there are some things that we’ve studied.
+  that we are pretty
+ sure make a difference .
+ we have done many experiments in
+many contexts and they’ve all found significant persistent
+ positive or negative effects
+//masih ada harapan akan metode sw eng yg memang teruji dan bukan false belief
+ I’d like to share some of you
+with this to show you that there is some hope here.
+\subsection{Finding Defect in Software} % (fold)
+\label{sub:finding_defect_in_software}
 I'm going to also focus on the field that matters
-most to me I do what's called formal verification the study of making
-programs probably correct unfortunately
-that's not been cited by anyone so
+most to me. 
+I do what's called formal verification the study of making
+programs probably correct. 
+unfortunately that's not been cited by anyone so
 complete waste of time but one thing
 that has been pretty heavily studied is
-defect finding software defects how do
-we know where the bugs are in our code
-and a second how do you how do we
-prevent bugs in the first place
-that's what I'd like to talk about these two categories and what we've learned
-about them so first question how do we
-find bugs I've already shared one thing
-that works identifying code smells and
-seeing where they are helps us trace down where the bugs are. but that's probably not enough for most people we want an automated tool that helps us more carefully more accurately identify code. that led to an explosion of code measuring techniques.
-who here has heard of cyclomatic complexity.
-Who's here has heard of function points clean code most
-people these are techniques people try
-to use to measure the quality of
-software and maybe they work but in
-terms of finding where bugs are most
-likely to be in code there was one
-technique that works much better than all of them. Lines of code, more lines, more bugs, now you might feel cheated by this because again we want an automated tool, that we can point our code and find where the bugs are lines of code doesn't help us. Just saying there's a thousand lines probably bug somewhere in there.
-Just doesn't really do anything for us and as far as we can tell.
-There just really isn't a way to just look at a code base and find where we can find the bugs so we don't look at the code base instead we mind the org chart. 
+defect, finding software defects. 
+\begin{enumerate}
+	\item how do we know where the bugs are in our code ?
+	\item and a second how do you how do we prevent bugs in the first place?
+\end{enumerate}
+That's what I'd like to talk about these two categories and what we've learned
+about them.
+so first question \textit{how do we find bugs ?}
+I've already shared one thing that works, (which is) identifying code smells. and seeing where they are helps us trace down where the bugs are. \\
+% Beyond Lines of Code: Do We Need More Complexity Metrics?
+But that's probably not enough for most people.
+we want an automated tool that helps us more carefully, more accurately identify code. 
+That led to an explosion of code measuring techniques.
+Who here has heard of cyclomatic complexity?
+Who's here has heard of function points? clean code ? 
+most people? 
+these are techniques people try to use to measure the quality of
+software and maybe they work. \\
+But in terms of finding where bugs are most likely to be in code, there was one technique that works much better than all of them. 
+Lines of code, more lines, more bugs, now you might feel cheated by this because again we want an automated tool, that we can point our code and find where the bugs are. 
+Lines of code doesn't help us. Just saying there's a thousand lines probably bug somewhere in there.\\
+Just doesn't really do anything for us and as far as we can tell,
+there just really isn't a way to just look at a code base and find where we can find the bugs so we don't look at the code base. 
+instead we mind the org chart. 
 \subsection{Conway's law : The Influence of Organizational Structure On Software Quality}
 You might have heard of Conway's law code reflects the organization that produced it and it
 turns out that is empirically true in both positive ways and negative ways.
@@ -376,7 +463,6 @@ This has been empirically verified.
 	\item If you have a lot of different people that touch a code base, it is more likely to be buggy.
 	\item If you have a lot of different groups that touch a code base it is more likely to be buggy. 
 \end{enumerate}
-
 Not in the rate of change but in the rate of types of change and this is a pretty consistent,persistent effect.
 So it's not necessarily a technical thing that we look at, but the social thing
 \begin{enumerate}
@@ -385,28 +471,33 @@ So it's not necessarily a technical thing that we look at, but the social thing
 	\item our git blame
 \end{enumerate}
 That help us identify where the bugs are going to be. That's though in the general case.
-
 In the specific case we know that in certain contexts it's easier to find bugs. 
-For example in a distributed system, about 9 out of 10 critical bugs that crash.
+For example in a distributed system, about 9 out of every 10 critical bugs that crash.
 The entire distribute system are either uncaught exceptions .
 You know the kind you find with the unit test or configuration errors.
 So if you look at those two things you'll cut out maybe 90\% of your crashes.
-
-We also know from some surveys that about half of the worst bugs that take the longest to fix our requirement or design issues so if you just sit down and dry our decision table before you start coding you will probably save your company a few hundred thousand dollars. But that's all in the finding of bugs.
+\\
+We also know from some surveys that about half of the worst bugs that take the longest to fix our requirement or design issues. 
+so if you just sit down and write your decision table before you start coding you will probably save your company a few hundred thousand dollars. But that's all in the finding of bugs.
 ideally we don't want bugs in the first place, right? 
+
+\subsection{Realizing quality improvement through test driven development}
 That's harder there's a lot of things we've studied on this and most of them seem like they work and seem to work in practice for us but when we put them to the test they just fall apart take oh no test-driven development.
 Now I'm gonna be very clear here, testing is great. 
 Everybody thinks testing is great in fact it's so great.
 That it's almost impossible to find Studies on it.
 it's what's called a parachute study. 
 Something so obvious nobody bothers to study it.
-This term comes from medicine. well, there's no double-blind studies showing that parachute save lives so how do we know for the record.  
-
-\subsection{Realizing quality improvement through test driven development}
-I did spend about three days hunting down really old studies and they all agree that yes testing has an overwhelming benefit keep writing your tests the question though is does test and development work better
+This term comes from medicine. well, there's no double-blind studies showing that parachute save lives so how do we know?  
+For the record I did spend about three days hunting down really old studies and they all agree that yes testing has an overwhelming benefit keep writing your tests the question though is does test and development work better
 who here knows the test room development is aa great most of you for the people don't it's a very tight cycle
 where you first write a failing test then write the code that passes the test then refactor it's really widely lauded a lot of people really love it. I personally love it I do it all the time.
-I recommend friends do it but does it actually make a difference well we have one said he's saying yes this came out in 2006. it was the first long-term study on test row development it found that it did reduce defects but also added about 20\% more testing time to your system which made the effects kind of uncertain maybe it was the Chi GD.  maybe was just we spent more time testing we've done a lot of follow-up studies since then and as far as we can tell no there's really not a difference doesn't make a difference that much to quality either as far as we can tell test-driven development is no better or worse than any other disciplined controlled testing technique this is personally a huge bummer to me because I as I said loved doing it and it's kind of frustrating to know that this thing that I know helps me probably doesn't work but that's being what empirical means it means accepting the results accepting the data you if we don't see that even if we don't like the data and it turns out pretty much every other technique we've studied pair programming type systems etc don't really have that much effect either they feel like they help they probably don't except for one technical practice there is one technical practice that we've studied again and again and know for certain not just finds and removes bugs but is dramatically effective at doing so code review now there are some caveats here you can't review that much at a time you can review that many lines of code at a time but in those constraints the effect is absolutely enormous most of the rigorous studies they've seen on this say it finds about 60 to 80 percent of all the bugs in the code and even better than that that's the secondary effect it turns out that only one out of every four comments that basically block the code significant software defects is about functionality the other three are about code quality so very roughly for every bug it finds which is again about sixty to eighty percent of all of the bugs it spines about three situations where we can just make the code better more maintainable spread knowledge share knowledge code review is simply fantastic and no other technical practice comes close not pairing not TDD not testing in general not types not even like formal proofs to be honest these are still great things and I still recommend doing them but far and away TDD is the one technical practice we are absolutely 100\% certain is effective nothing else comes close to code review at the end I said though technical practice for a reason we haven't studied software engineers as much as we really should have as I've made clear but we have to be knowledge workers in general we've studied them for a hundred years and we know without a doubt that there are three things that have a profound impact on the output of any possible knowledge worker any possible manual laborer anyone doing anything.
+\\
+I recommend friends do it but does it actually make a difference well we have one said he's saying yes this came out in 2006. it was the first long-term study on test row development it found that it did reduce defects but also added about 20\% more testing time to your system which made the effects kind of uncertain maybe it was the TDD.  
+\\
+Maybe was just we spent more time testing.
+We've done a lot of follow-up studies since then and as far as we can tell no there's really not a difference doesn't make a difference that much to quality either as far as we can tell test-driven development is no better or worse than any other disciplined controlled testing technique this is personally a huge bummer to me because I as I said loved doing it and it's kind of frustrating to know that this thing that I know helps me probably doesn't work but that's being what empirical means it means accepting the results accepting the data you if we don't see that even if we don't like the data and it turns out pretty much every other technique we've studied pair programming type systems etc don't really have that much effect either they feel like they help they probably don't except for one technical practice there is one technical practice that we've studied again and again and know for certain not just finds and removes bugs but is dramatically effective at doing.\\
+so code review now there are some caveats here you can't review that much at a time you can review that many lines of code at a time but in those constraints the effect is absolutely enormous most of the rigorous studies they've seen on this say it finds about 60 to 80 percent of all the bugs in the code and even better than that that's the secondary effect it turns out that only one out of every four comments that basically block the code significant software defects is about functionality the other three are about code quality so very roughly for every bug it finds which is again about sixty to eighty percent of all of the bugs it spines about three situations where we can just make the code better more maintainable spread knowledge share knowledge code review is simply fantastic and no other technical practice comes close not pairing not TDD not testing in general not types not even like formal proofs to be honest these are still great things and I still recommend doing them but far and away TDD is the one technical practice we are absolutely 100\% certain is effective nothing else comes close to code review at the end I said though technical practice for a reason we haven't studied software engineers as much as we really should have as I've made clear but we have to be knowledge workers in general we've studied them for a hundred years and we know without a doubt that there are three things that have a profound impact on the output of any possible knowledge worker any possible manual laborer anyone doing anything.
 
 \subsection{Impact of a Night of Sleep Deprivation on Novice Developers Performance}
 Sleep deprivation stress levels and hours worked and these effects are absolutely enormous an unstressed well-rested. oh not overworked team that is happiness. Job will produce orders of magnitude better code, better output, better systems than otherwise as just one example of one of the few cases we've studied.

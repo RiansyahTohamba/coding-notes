@@ -1,0 +1,69 @@
+## kaji per kalimat ##
+
+9.2 CONTROL FLOW STRUCTURE OF PROGRAM UNITS
+
+1. awal pengukuran metrik cfs nya fungsi yg dimplementasikan sbg alogritma atau imperative (oop,procedural). Declarative tak menggunakan cfs.
+devoted = dikhususkan/loyal/mengorbankan
+---
+A great deal of early software metrics work was devoted to measuring the control flow structure of individual functions, procedures, or methods implemented as imperative language programs or algorithms. 
+
+2. spesial buat sw testing
+--
+This work is still relevant, especially when applied to problems in software testing. 
+--
+3. directed graph == "control flowgraphs" or "flowgraphs"
+---
+The control flow measures are usually modeled with directed graphs, where each node (or point) corresponds to a program statement or basic block (code that always executes sequentially), and each arc (or directed edge) indicates the flow of control from one statement or basic block to another.  We call these directed graphs "control flowgraphs" or "flowgraphs".
+---
+3.1 example directed graph
+---
+Figure 9.1 presents a simple example of a program, A, and a reasonable interpretation of its corresponding flowgraph, F(A). 
+We say "reasonable interpretation" because it is not always obvious how to map a program A to a flowgraph F(A). 
+--
+3.2 flowgraph 
+def control_flow_structure
+  flowgraph #good model
+end
+The flowgraph is a good model for defining measures of "control flow structure", because it makes explicit many of the structural properties of the program. 
+---
+enumerates = see thing in collections with one by one 
+statements.each {}
+arc = directed edge
+---
+The nodes enumerate "the program statements", and the arcs make visible the control patterns.
+---
+flowgraph-based measures banyak di static dev tools
+----
+There are many flowgraph-based measures, some of which are incorporated into static analysis and program development tools. 
+Many measures reflect an attempt to characterize a desirable (but possibly elusive) notion of structural complexity and preserve our intuitive feelings about complexity: 
+if m is a structural measure defined in terms of the flowgraph model, and if program A is structurally "more complex" than program B, then the measure m(A) should be greater than m(B). 
+
+In Chapter 2, we noted some theoretical problems with this simplistic approach. 
+There are practical problems as well; 
+since the measures are often based on very specific views of what constitutes good structure, there may be differing opinions about what constitutes a well-structured program. 
+
+The structural complexity properties in Section 9.1.1 represent one perspective on
+complexity. The other structural attributes in Section 9.1 have different
+properties.
+To support differing perspectives and multiple attributes, we introduce
+an approach for analyzing control flow structure that is independent of
+any particular view of desirable program structure. 
+We can also use this technique to describe and differentiate views of desirable structure. The
+technique enables us to show that any program has a uniquely defined
+structural decomposition into primitive components. In the following
+sections, we show that this decomposition (which can be generated automatically) may be used to define a wide range of structural measures.
+These unifying principles objectively make clear the assumptions about
+structuredness inherent in each measure’s definition. Most importantly,
+we show how the decomposition can be used to generate measures of specific attributes, such as those relating to test coverage. The decomposition
+is at the heart of many static analysis tools and reverse engineering tools.
+9.2.1 Flowgraph Model and the Notion of Structured Programs
+We begin our discussion by reviewing graph-related terminology. Recall
+that a graph consists of a set of points (or nodes) and line segments (or
+edges). In a directed graph, each edge is assigned a direction, indicated by
+an arrowhead on the edge. This directed edge is called an arc.
+Thus, directed graphs are depicted with a set of nodes, and each arc
+connects a pair of nodes. We write an arc as an ordered pair, <x, y>, where
+x and y are the nodes forming the endpoints of the arc, and the arrow
+indicates that the arc direction is from x to y. The arrowhead indicates
+that something flows from one node to another node. Therefore, each
+node has some arcs flowing into it and some arcs flowing out (or possibly

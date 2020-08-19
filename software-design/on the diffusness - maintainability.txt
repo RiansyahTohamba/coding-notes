@@ -1,0 +1,4 @@
+On the diffuseness and the impact on maintainability of code smells: a large scale empirical investigation
+
+Code smells are symptoms of poor design and implementation choices that may hinder code comprehensibility and maintainability. 
+Despite the effort devoted by the research community in studying code smells, the extent to which code smells in software systems affect software maintainability remains still unclear. In this paper we present a large scale empirical investigation on the diffuseness of code smells and their impact on code change- and fault-proneness. The study was conducted across a total of 395 releases of 30 open source projects and considering 17,350 manually validated instances of 13 different code smell kinds. The results show that smells characterized by long and/or complex code (e.g., Complex Class) are highly diffused, and that smelly classes have a higher change- and fault-proneness than smell-free classes.

@@ -1,0 +1,56 @@
+9.5 NO SINGLE OVERALL "SOFTWARE COMPLEXITY" MEASURE 425
+===
+These problems could have been avoided by heeding a basic principle
+of measurement theory: defining a numerical mapping does not in itself
+constitute measurement. Software engineers often use the word “metric”
+for any number extracted from a software entity. But while every measure
+is a metric, the converse is certainly not true. The confusion in analyses
+such as Cherniavsky and Smith’s or Weyuker’s arises from wrongly equating these two concepts, and from not viewing the problem from a measurement theory perspective.
+The approach in this chapter is to identify necessary, but not sufficient properties for notions of complexity, coupling, cohesion, and length in Section 9.1, as proposed by Briand et al. (1996). 
+We do not claim that measures of any of these attributes capture the overall “software complexity” of a system. No single measure can, with a single number, indicate how difficult it will be to understand, maintain, and test a software system. However, narrowly defined measures can quantify specific attributes.
+
+====
+9.6 SUMMARY 428
+===
+It is widely believed that a well-designed software product is characterized largely by its internal structure. 
+Indeed, the rationale behind most software engineering methods is to ensure that software products are built with certain desirable structural attributes. 
+# semua setuju dengan pernyataan diatas, even john. Tapi mulai berbeda pendapatnya saat menetapkan ukuran quality yang tepat seperti apa? john masih menganggap itu hal yang abstrak
+
+Thus, it is important to know how to recognize and measure these attributes, since they may provide important indicators of key external attributes, such as maintainability,testability, reusability, and even reliability.
+We have described how to perform measurements of what are generally believed to be key internal structural attributes, including 
+1. structural complexity, 
+2. coupling, 
+3. cohesion, 
+4. length, 
+5. modularity, 
+6. tree impurity, 
+7. reuse,and 
+8. information flow. 
+#relevan buat docs,models,code
+These attributes are relevant for design documents and their models as well as code. 
+Indeed, knowing these attributes, we can identify components that are likely to be difficult to implement, test, and maintain.
+
+object = ['implement', 'test','maintain']
+which_code_difficult_to(object,measure_8_attr)
+
+We looked in detail at control flow attributes of function, procedure, and
+method bodies. We showed how a program unit is built up in a unique way
+from the so-called prime structures, which are the building blocks of function, procedure, and method bodies. A program unit body can therefore
+be characterized objectively in terms of its prime decomposition, which
+may be automatically computed. Many measures of internal attributes of
+programs (including test coverage measures) can be computed easily once
+we know a program unit’s prime decomposition. These measures are called
+hierarchical. The prime decomposition is a definitive representation of the
+control structure of a flowgraph; it can also be used as the basis for optimal
+restructuring of code, and hence as a reverse engineering tool.
+Object-orientation affects the structure of most elements of a software
+implementation, design, and requirements. In particular, we examined
+how coupling and cohesion can be measured in object-oriented systems
+at various levels of abstraction. We applied specific coupling and cohesion
+measurement properties, and examined the measurement of inheritance,
+object-oriented reuse, and measurement involving design pattern use and
+misuse.
+It is unrealistic to expect that general complexity measures (of either
+the code or system design) will be good predictors of many different attributes. Complexity is an intuitive attribute that includes the specific internal attributes discussed in this chapter. Rather than seek a single measure,
+we should identify specific attributes of interest and obtain accurate measures of them; in combination, we can then paint an overall picture of
+complexity.

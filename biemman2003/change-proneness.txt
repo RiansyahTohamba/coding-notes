@@ -1,0 +1,52 @@
+prespektif melihat smell
+1. presepsi developer terhadap smell, apakah bahaya atau tidak ?
+2. validasi empiris smell terhadap kualitas software ? 
+2.1 apakah memang benar ia menurunkan kualitas software? 
+2.2 apakah smell berkaitan dengan bug ?
+2.2 apakah smell berkaitan dengan performance ?
+3. bagaimana cara deteksi smell ?
+
+paper dari palomba
+
+PALOMBA - ON THE DIFFUSNESS ..
+
+2 Related work
+-----
+The research community has been highly active in the definition of code smell detection methods and tools, as well as in the investigation of the impact of code smells on software maintenance properties. 
+In this section we report the literature related to 
+(i) empirical studies aimed at understanding to what extent code smells are diffused in software systems and how they evolve over time, 
+(ii) the impact of code smells on change- and fault-proneness, and 
+(iii) user studies conducted in order to comprehend the phenomenon from a developer’s perspective. 
+//detection
+A complete overview of code smell detection techniques can be found in related papers by 
+Palomba et al. (2015b) and 
+Fernandes et al. (2016).
+//evolution smell, meningkat-menurunnya smell
+The evolution of code smells has also been studied by Olbrich et al. (2009), who analyzed the evolution of God Class and Shotgun Surgery, showing that there are periods in which the number of smells increases and periods in which this number decreases. 
+//incr/decr tak bergantung terhadap size
+They also show that the increase/decrease of the number of instances does not depend on the size of the system. 
+//smell on long period?
+Vaucher et al. (2009) conducted a study on the evolution of the God Class smell, aimed at understanding whether they affect software systems for long periods of time or, instead, are refactored while the system evolves. 
+// smell introduced by design vs unintenionally 
+Their goal was to define a method able to discriminate between God Class instances that are introduced by design and God Class instances that are introduced unintentionally. 
+//alasan dibalik munculnya smell
+Recently, Tufano et al. (2015) investigated when code smells are introduced by developers, and the circumstances and reasons behind their introduction. They showed that most of the times code artifacts are affected by smells since their creation and that developers introduce them not only when implementing new features or enhancing existing ones, but sometimes also during refactoring. 
+//test jg bisa smell
+A similar study was also conducted on test smells (Tufano et al. 2016). 
+//smell tak diromve
+Furthermore, Tufano et al. (2017) also found that almost 80% of the code smells are never removed from software systems, and the main cause for their removal is the removal of the smelly artifact, rather than refactoring activities. 
+//
+In a closely related field, Bavota et al. (2012) and Palomba et al. (2016a) provided evidence that test smells are also widely diffused in test code and impact the maintainability of JUnit test classes.
+Historical information, in general, and the evolution of code smells, in particular, was also used in the past to identify components affected by code smells. Ratiu et al. (2004) proposed an approach to detect smells based on evolutionary information of code components over their life-time. The aim is to analyze the persistence of the problem and the effort spent to maintain these components. Historical information has also been used by Lozano et al. (2007) to assess the impact of code smells on software maintenance. Gˆırba et al. (2007) exploited formal concept analysis (FCA) to detect co-change patterns. In other words, they identified code components that change in the same way and at the same time. Palomba et al. (2015a) use association rule discovery to detect some code smell types, showing that the evolutionary-based approach outperforms approaches based on static and dynamic analysis and could also successfully complement them. 
+//
+Our investigation about the diffuseness of code smells (RQ1) is closely related to the empirical studies discussed above. However, our goal is to analyze whether the results achieved in previous work hold on the set of software systems used in this paper in order to 
+(i) corroborate previous findings on a much larger dataset (both in terms of number of software systems and code smells), and 
+(ii) understand the confidence level for the general- izability of the results provided through the analysis of the impact of code smells on change- and fault-proneness.
+
+2.1 Diffuseness and evolution of code smells
+
+Chatzigeorgiou and Manakos (2010) analyzed the evolution of code smells. Their results indicate that (i) the number of instances of code smells increases during time; and (ii) devel- opers are reluctant to perform refactoring operations in order to remove them. Peters and Zaidman (2012) obtained similar results, showing that developers are often aware of the presence of code smells in the source code, but they do not invest time in performing refac- toring activities aimed at removing them. A partial explanation for this behavior is provided by Arcoverde et al. (2011), who studied the longevity of code smells showing that they often survive for a long time in the source code. The authors point to the will of avoiding changes to API as one of the main reason behind this result (Arcoverde et al. 2011).
+
+2.2 Change- and fault-proneness of code smells
+The main goal of this paper is to analyze the change- and fault-proneness of classes affected (and not) by code smells. Such a relationship has already been investigated by previous research. In particular, Khomh et al. (2009a) showed that the presence of code smells increases the code change proneness. Also, they showed that code compo- nents affected by code smells are more fault-prone than non-smelly components (Khomh et al. 2012). Our work confirms the results achieved by Khomh et al. (2012)onalarger set of code smells and software systems, an provides some complementary hints about the phenomenon. In particular, other than studying the change- and fault-proneness of smelly and non-smelly classes, we analyzed how such indicators vary when the smells identified are removed. 
+Also, we use the SZZ algorithm (Sliwerski et al. 2005)tobetter investigate the temporal relationship between the presence of code smells and fault introduction. Gatrell and Counsell (2015) conducted an empirical study aimed at quantifying the effect of refactoring on class change- and fault-proneness. In particular, they monitored a com- mercial C# system for twelve months identifying the refactorings applied during the first four months. They examined the same classes for the second four months in order to deter- mine whether the refactoring results in a decrease of change- and fault-proneness. They also compared such classes with the classes of the system that were not refactored in the same period.
