@@ -1,3 +1,4 @@
+Palomba
 On the diffuseness and the impact on maintainability of code smells: a large scale empirical investigation
 
 Code smells are symptoms of poor design and implementation choices that may hinder code comprehensibility and maintainability. 
