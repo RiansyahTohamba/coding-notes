@@ -7,45 +7,41 @@ class DeterminingMetricThreshold{
 	}
 
 	class ProblemStatement {
+		class ImperfectApproach{
+			// Imperfect Deriving Threshold Approach
+			String drawback;
+			void commonError(){
+				return "lack of generality";
+			}
+		}
+
 		// 5.1
 		public problemStatement(){			
 			smellChecking(metric)
-			thresholdGenerality()
-			approachesToDeriveThreshold()
-
-			void falseAssumption(){
-				metricDistribution = normal;
-			}
-			void trueAssumption(){
-				metricDistribution	
-			}
-
-			// Deriving thresholds from experience makes them difficult to generalize to different software system. Wrongly assuming normality leads to the use of wrong statistical techniques (e.g., the 3-sigma rule identifies 16% of the observations as indicating potential problem). 
-
-			// Finally,
-			// the two approaches that derive thresholds from the correlation with bugs or
-			// failures generally are valid only for a specific error prediction model and
-			// lack generality.
-
-		}
-		void solution(){
-
+			ImperfectApproach experience = new ImperfectApproach();
+			ImperfectApproach metricAnalysis = new ImperfectApproach();
+			ImperfectApproach correlateToBug = new ImperfectApproach();
+			experience.drawback = 'difficult to generalize to different software system';	
+			metricAnalysis.drawback = 'assume that distribution of metric is normal leads to the use of wrong statistical techniques';	
+			correlateToBug.drawback = 'generally are valid only for a specific error prediction model';	
+			solution = alvesBaseline();
 		}
 
-		void isProblemIdentThresholdsSolved(){
-			List<String> problems = new ArrayList<>();
-			problems.add("LackGenerality");
-			problems.add("");
-			problems.add("");
-			Iterator<String> iter = list.iterator();				
-			while(iter.hasNext()){
-				String problem = iter.next();
-				problem.solved();
-			}			
-		}
 
-		void solved(){
-			return true;
+		/***
+		 The thresholds are derived with system  maintainability evaluation in mind. The main characteristics of the method proposed by Alves et al. in [3] are :
+			  the method should not be driven by expert opinion but by measurement data from representative set of systems (data-driven);
+			  the method should respect the statistical properties of the metric, such as metric scale and distribution and should be resilient against outliers in metric values and system size (robust);
+			  the method should be repeatable, transparent, and straightforward to carry out (pragmatic).
+		***/
+		void alvesBaseline(){
+			alvesThresholdCharacteristics = [
+				"notDrivenByExpert",
+				"respectStatisticalProperties",
+				"shouldBeRepeatable",
+				"shouldBeTransparent",
+				"straightForwardToCarryOut"
+			]
 		}
 
 		// Setting a threshold allows to correctly interpret the values we compute on a software system, so that we can evaluate its quality. 
@@ -80,36 +76,13 @@ class DeterminingMetricThreshold{
 			}
 		}
 
-		void approachesToDeriveThreshold(){
-			// In the literature, we can find many proposed approaches to derive metrics thresholds. Many authors define metric thresholds according to their experience.
-			// Some other authors face the thresholds computation using metric analysis. 
-			
-			// Often these analyses assume that the metrics are normally distributed [44], but we, and other experts [27][82][131], experiment that it is not true in most cases (refer to Section 5.2.4). Shatnawi et al. [118] and Benlarbi et al. [15] try to find thresholds investigating the correlation of the metrics with the existence of bugs or failures. 
-			// All the cited methods have some shortcoming. 
-			approaches = ["",""];
-		}
-
-		void thresholdGenerality(){
-			thresholds = "just good in one setting";
-			butThresholds =  "unsure if good in every setting";
-		}
-
 		
-		/***
-		 The thresholds are derived with system  maintainability evaluation in mind. The main characteristics of the method proposed by Alves et al. in [3] are :
-			  the method should not be driven by expert opinion but by measurement data from representative set of systems (data-driven);
-			  the method should respect the statistical properties of the metric, such as metric scale and distribution and should be resilient against outliers in metric values and system size (robust);
-			  the method should be repeatable, transparent, and straightforward to carry out (pragmatic).
-		***/
-		void derivedMaintainability(){
-			alvesThresholdCharacteristics = [
-				"notDrivenByExpert",
-				"respectStatisticalProperties",
-				"shouldBeRepeatable",
-				"shouldBeTransparent",
-				"straightForwardToCarryOut"
-			]
-		}
+
+	}
+	
+
+	class SmellsMetricsThresholdsDerivation{
+		class SmellsMetricsThresholdsDefinition{
 		void smellThresholdsDerivation(){
 			// We use common fractions (e.g., fraction like 1⁄2) to derive thresholds for metrics defined as ratio of values, and an automated method to empirically derive metrics thresholds from the measurement of a benchmark of software systems, for metrics defined in ℝ or ℕ. 
 
@@ -175,12 +148,6 @@ class DeterminingMetricThreshold{
 		void soften(){
 			//  Soften: the set of thresholds we offer to the user when he wants to try to raise the number of entities evaluated as affected by a code smell. 
 		}
-	}
-	
-
-	class SmellsMetricsThresholdsDerivation{
-		class SmellsMetricsThresholdsDefinition{
-
 		}
 		class CommonFractionThresholds{
 
