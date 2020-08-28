@@ -1,0 +1,160 @@
+Vicenzo Ferme
+5.2 Code Smells Metrics Thresholds Derivation
+5.2.1 Code Smells Metrics Thresholds Definition
+5.2.2 Common Fraction Thresholds
+5.2.3 Benchmark-Based Thresholds (BBT)
+step of BBT
+1. Metrics computation
+2. Metrics Aggregated Distribution Analysis
+3. Metrics Thresholds Derivation
+---
+We develop a method to derive metrics thresholds for code smells
+detection. 
+We distinguish two ways of computing thresholds based on the characteristics of the metric under analysis:
+a. Common Fraction Thresholds (or CFT, see Section 5.2.2);
+b. Benchmark-Based Thresholds (or BBT, see Section 5.2.3).
+
+The difference is due to the existence of some metrics, 
+1. like TCC, that are defined in terms of normalized ratio with a well-defined semantics, and 
+2. other metrics (e.g., LOC) having their values on an interval of the extended real number line (i.e., ℝ or [−∞, +∞]) or of the natural number line (i.e.,ℕ0).
+
+The rest of this chapter is organized as follows: 
+in Section 5.2.1 we define the thresholds we derive for code smells detection; 
+in Section 5.2.2 we describe the approach to derive CFT thresholds, 
+in Section 5.2.3 we introduce our method to derive thresholds (BBT) from a benchmark of software system; 
+in Section 5.2.4 we discuss some consideration an threats to validity of the proposed BBT derivation method.
+
+5.2.1 Code Smells Metrics Thresholds Definition
+Code smells define some properties of software design that should
+be identified in the system to capture potential problems. The defined properties are often in the form of "identify classes that have LOW cohesion" or "identify methods that have a VERY-HIGH complexity". We want to derive
+thresholds in a way that they can be semantically mapped to these informal
+requirements, to find out what LOW cohesion or VERY-HIGH complexity
+means in terms of the metrics we use to measure cohesion and complexity
+of the software system.
+With this need in mind, we compute, for each metric, a set of five thresholds
+that identifies five points on the metrics distribution, for BBTs, and five
+points among common fractions for CFTs.
+
+We define a threshold using three attributes:
+ a name or label;
+ a corresponding percentile (for BBT), or a corresponding common fraction (for CFT);
+ a type.
+
+We use the name to refer to a threshold with a semantic meaning. 
+The names we use for the five thresholds are: 
+VERY-LOW, LOW, MEAN, HIGH, VERY-HIGH. VERY-LOW represents the lowest threshold, while VERY-HIGH the highest one. 
+
+We call VERY-LOW and VERY-HIGH extreme thresholds.
+The corresponding percentile, or 𝑇ℎ𝑃𝑜𝑖𝑛𝑡, is the point on the reference set
+of points (i.e., the percentiles of the metrics distribution) representing where
+to find the value for the given threshold (i.e., 𝑇ℎ𝑉𝑎𝑙𝑢𝑒).
+The corresponding common fraction is the 𝑇ℎ𝑃𝑜𝑖𝑛𝑡 on the reference set of
+common fractions, that represents where to find the value for CFTs (i.e.,
+𝑇ℎ𝑉𝑎𝑙𝑢𝑒).
+Each threshold is mapped to a value by the function 𝑇ℎ𝑉𝑎𝑙𝑢𝑒 =
+𝑣𝑎𝑙𝑢𝑒𝑂𝑓(𝑇ℎ𝑃𝑜𝑖𝑛𝑡). 𝑇ℎ𝑉𝑎𝑙𝑢𝑒 is the threshold used for comparing other values of the metric.
+As part of our code smells detection approach, described in Chapter 6, we
+offer to the user the possibility of hardening or softening thresholds values.
+Hardening or softening threshold values is useful because of the difficulty
+to generalize the obtained thresholds to all the possible software systems;
+we offer to the user the possibility of moving thresholds to achieve more or
+less strict constraints.
+The type allows us to define different typologies of thresholds for each
+name/label, based on the selection we do in these sense. 
+
+We define three possible types of thresholds:
+ Default: the default selection we offer to the user;
+ Harden: the set of thresholds we offer to the user when he wants to
+try to reduce the number of entities evaluated as affected by a code
+smell 
+ Soften: the set of thresholds we offer to the user when he wants to
+try to raise the number of entities evaluated as affected by a code
+smell.
+When we set Harden and Soften, we have to refer to the characteristics of
+the metric and to the property of the system we want to measure, to understand if they have a direct or inverse correlation. To select properly the
+threshold we refer always to the definition we give in Appendix B2, in particularly to the "Worse" attribute, and to the detection strategies we define
+for each code smell in Chapter 6.
+As for example, consider the LOC metric and a generic 𝑇ℎ𝑉𝑎𝑙𝑢𝑒 corresponding to the HIGH threshold. If we want to capture "class with a HIGH number
+of lines of code", we can compare LOC and 𝑇ℎ𝑉𝑎𝑙𝑢𝑒 using: 𝐿𝑂𝐶 ≥
+𝑣𝑎𝑙𝑢𝑒𝑂𝑓(HIGH). Hardening the threshold in this situation means that we
+have to select a greater 𝑇ℎ𝑉𝑎𝑙𝑢𝑒 for the HIGH threshold, so that the number
+of entities that exceeds the threshold can be reduced. Conversely, if we want
+to capture "class with a LOW number of lines of code", we can compare
+LOC to the 𝑇ℎ𝑉𝑎𝑙𝑢𝑒 corresponding to the LOW threshold: 𝐿𝑂𝐶 ≤
+𝑣𝑎𝑙𝑢𝑒𝑂𝑓(𝐿𝑂𝑊). Here hardening the threshold means that we have to select
+a lower 𝑇ℎ𝑉𝑎𝑙𝑢𝑒 for the LOW threshold, so that the number of entities that
+exceeds the threshold can be reduced.
+In Sections 5.2.2 and 5.2.3, we discuss in details the attributes of the thresholds we defined, based on the way we derive thresholds (i.e., Benchmark -
+Based Thresholds or Common Fraction Thresholds).
+
+5.2.2 Common Fraction Thresholds
+Some metrics are defined as normalized ratio with well-defined semantics. Consider for example the Tight Class Cohesion (TCC) metric, defined as:
+"TCC is the normalized ratio between the number of methods directly connected with other methods through an instance variable and the total number of possible connections between methods"
+The higher the TCC, the more cohesive the class. For this type of metrics,
+when we think at a LOW value it is common to refer to values lower than
+or equal than 1⁄3 that in the case of TCC means that utmost 1⁄3 of the
+possible method-method connection of the class is present. Fractions like
+1⁄3 or 1⁄2 are defined as common fraction by Lanza et al. [75]. We use
+metrics like TCC in some of the detection strategies we define in Chapter 6
+for code smells detection: TCC for God Class, Weight Of A Class (WOC),
+and TCC for Data Class and Coupling Dispersion (CDISP) for Dispersed
+Coupling11. Because all these metrics are defined as a normalized ratio in
+the [0,1] interval and we use common fractions, the 𝑇ℎ𝑃𝑜𝑖𝑛𝑡, and consequently the 𝑇ℎ𝑉𝑎𝑙𝑢𝑒, we define are the same for all the metrics. Table 11
+shows the detailed description for all the type of thresholds we define. Obviously, when we refer to Hardened and Softened thresholds we cannot directly use common fractions as defined by Lanza et al. [75]. Anyway, as we
+always rely on fractions in the same range, the technique is consistent.
+The way we select Hardened and Softened thresholds consists in moving
+the MEAN ThPoint by 1⁄10 to the right or to the left and then LOW and
+HIGH ThPoint by 1⁄20 in the same direction.
+The VERY-LOW and VERY-HIGH thresholds points and values are the
+same for all types because they are extreme threshold we use as reference
+points to some part of our detection approach (e.g., harmfulness computation, described in Section 6.2.2), but we do not use them for code smells
+detection strategies.
+
+5.2.3 Benchmark-Based Thresholds (BBT)
+The most sensible part of our method is the one for BenchmarkBased Thresholds derivation. Most of the metrics we define in Chapter 4
+have as range of possible values an interval of the extended real line (i.e.,
+ℝ or [−∞, +∞]) or of the natural number line (i.e., ℕ0), most of the times
+from zero on. For this reason, we define a method to derive thresholds, to
+be used in the code smells detection context, from a dataset of software
+systems used as benchmark. The starting point of our method is the one
+proposed by Alves et al. in [3], which follows three core requirements: datadriven, robust and pragmatic.
+We fully agree with these requirements, so we decided to follow these requirements, to develop a method for computing metrics thresholds using a
+benchmark of systems. We cannot follow directly the method proposed by
+Alves et al. in [3] because the proposed method is suited for system maintainability evaluation, and assumes the system to be completely developed.
+In the context of code smells detection, we have to identify code smells also
+in a system that does not exist in all its parts, hence, for example, we cannot
+use measures at system level (e.g., the LOC of system).
+The method we propose allows us to compute in an automated way thresholds that are customized based on the code smell for which we have to use
+the metric we are deriving the threshold to. We add some requirements to
+the method proposed by Alves et al., because each code smell affects specific types of entities (e.g., only public methods), and we want to gather
+knowledge to compute thresholds only from the entities that can be a code
+smell. We develop a method that is as automatic as possible, because we
+need to add more systems to the benchmark during time to gather more knowledge. Hence, we need a method that is scalable and requires a slight
+manual effort for deriving thresholds. 
+Figure 13 shows the main steps of the method we propose and a description of the output of each step.
+
+..
+conclusion
+We develop a method to derive thresholds for two types of software design metrics:
+ defined as normalized ratio in [0,1];
+ defined in ℝ or ℕ^0.
+
+For the first type of metrics we select thresholds according to common fractions (e.g., 1⁄2), that identify a point in the [0,1] interval with a well-defined
+semantic, with respect to the rationale that defines the metric. We use this
+technique for metrics like Tight Class Cohesion (TCC), that is defined as
+"the normalized ratio between the number of methods directly connected
+with other methods through an instance variable and the total number of
+possible connections between methods" [41]. When we think at LOW values
+for this metric, we refer to values lower or equal than 1⁄3 fraction, which,
+in the case of TCC, means utmost 1⁄3 of the possible method-method connections of the class are present.
+
+For the second type of metrics, whose distributions are often heavily
+skewed, we propose an automatic method to derive thresholds. Starting from
+metric values computed on a benchmark of software systems, it determines
+thresholds that (i) are customized based on the code smell for which we use
+the metric, (ii) respects the statistical properties of the metric, such as its
+distribution, and (iii) helps focusing on the most interesting metric values.
+Both the methods allow us to obtain valid thresholds for a wide range of
+different metrics. We use these thresholds in Chapter 6, when we define
+code smells detection strategies and information related to the presence of
+code smell in the system.
