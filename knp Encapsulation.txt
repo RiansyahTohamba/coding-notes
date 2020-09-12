@@ -1,0 +1,65 @@
+Encapsulation is more than just defining accessor and mutator methods for a class. It is a broader concept of programming, not necessarily object-oriented programming, that consists in minimizing the interdependence between modules and it’s typically implemented through information hiding. 
+
+Paramount to understand encapsulation is the realization that  it has two main objectives: (1) hiding complexity and (2) hiding the sources of change.
+
+About Hiding Complexity
+Encapsulation is inherently related to the concepts of modularity and abstraction. So, in my opinion, to really understand encapsulation, one must first understand these two concepts.
+
+Let’s consider, for example, the level of abstraction in the concept of a car. A car is complex in its internal working. They have several subsystem, like the transmission system, the break system, the fuel system, etc.
+
+However, we have simplified its abstraction, and we interact with all cars in the world through the public interface of their abstraction: we know that all cars have a steering wheel through which we control direction, they have a pedal that when we press it we accelerate the car and control speed, and another one that when we press it we make it stop, and we have a gear stick that let us control if we go forward or backwards. These features constitute the public interface of the car abstraction. In the morning we can drive a sedan and then get out of it and drive an SUV in the afternoon as if it was the same thing.
+
+However, few of us know the details of how all these features are implemented under the hood. So, this simple analogy shows that human beings deal with complexity by defining abstractions with public interfaces that we use to interact with them and all the unnecessary details get hidden under the hood of these abstractions. And I want to emphasize that word “unnecessary” here, because the beauty of an abstraction is not having to understand all those details in order to be able to use it, we just need to understand a broader abstract concept and how it works and how we interact with it. That’s why most of us don’t know or don’t care how a car works under the hood, but that doesn’t prevents us from driving one.
+
+
+In his book Code Complete, Steve McConnell uses the analogy of an iceberg: only a small portion of an iceberg is visible on the surface, most of its true size is hidden underwater. Similarly, in our software designs the visible parts of our modules/classes constitute their public interface, and this is exposed to the outside world, the rest of it should be hidden to the naked eye. In the words of McConell “the interface to a class should reveal as little as possible about its inner workings”.
+
+Clearly, based on our car analogy, we can see that this encapsulation is good, since it hides unnecessary/complex details from the users. It makes objects simpler to use and understand.
+
+summary : untuk pakai x kita tidak perlu tau detail x itu
+----------------------------------------------------------------
+About Hiding the Sources of Change
+
+Now, continuing with the analogy; think of the time when cars did not have a hydraulics directional system. One day, the car manufactures invented it, and they decide it to put it in cars from there on. Still, this did not change the way in which drivers were interacting with them. At most, users experienced an improvement in the use of the directional system. A change like this was possible because the internal implementation of a car is encapsulated, that is, is hidden from its user. In other words changes can be safely done without affecting its public interface.
+
+In a similar way, if we achieve proper levels of encapsulation in our software design we can safely foster change and evolution of our APIs without breaking its users, by this minimizing the impact of changes and the interdependence of modules. Therefore, encapsulation is a way to achieve another important attribute of a good software design known as loose coupling.
+
+In his book Effective Java, Joshua Block highlights the power of information hiding and loose coupling when he says: “Information hiding is important for many reasons, most of which stem from the fact that it decouples the modules that compromise a system, allowing them to be developed, tested, optimized, used, understood, and modified in isolation. This speeds up system development because modules can be developed in parallel. It eases the burden of maintenance because modules can be understood more quickly and debugged with little fear of harming other modules [...] it enables effective performance tuning [since] those modules can be optimized without affecting the correctness of other modules increases software reuse because modules that aren’t tightly coupled often prove useful in other contexts besides the ones for which they were developed”.
+
+So, once more, we can clearly see that encapsulation is a desirable attribute that eases the introduction of change and foster the evolution of our APIs. As long as we respect the public interface of our abstractions we are free to change whatever we want of its encapsulated inner workings.
+
+summary : isolasi memudahkan development API secara paralel
+---------------------------------------------------------------------
+About Breaking the Public Interface
+---------------------------------------------------------------------
+So what happens when we do not achieve the proper levels of encapsulation in our designs?
+
+Now, think that car manufactures decided to put the fuel cap below the car, and not in one of its sides. Let’s say we go and buy one of these new cars, and when we run out of gas we go to the nearest gas station, and then we do not find the fuel cap. Suddenly we realize is below the car, but we cannot reach it with the gas pump hose. Now, we have broken the public interface contract, and therefore, the entire world breaks, it falls apart because things are not working the way it was expected. A change like this would cost millions. We would need to change all gas pumps, not to mention mechanical shops and auto parts. When we break encapsulation we have to pay a price.
+
+This last part of our analogy, clearly reveals that failing to define proper abstractions with  proper levels of encapsulation will end up causing difficulties when change finally happens. So, as we can see, the goal of encapsulation is reduce the complexity of the abstractions by providing a way to hide implementation details and it also help us to minimize interdependence and facilitate change. We maximize encapsulation by minimizing the exposure of implementation details.
+
+However encapsulation will not help us if we do not define proper abstractions. Simply put, there is no way to change the public interface of an abstraction without breaking its users. So, the design of good abstractions is of paramount importance to facilitate the evolution of the APIs, encapsulation is just one of the tools that help us create this good abstractions, but no level of encapsulation is going to make a bad abstraction work.
+
+summary : API contract dilanggar maka client yg akses API itu jadi error
+----------------------------------------------------
+Encapsulation in Java
+One of those things that we always want to encapsulate is the state of a class. The state of a class should only be accessed through its public interface.
+
+In a object-oriented programming language like Java, we achieve encapsulation by hiding details using the accessibility modifiers (i.e. public, protected, private, plus no modifier which implies package private). With these levels of accessibility we control the level of encapsulation, the less restrictive the level, the more expensive change is when it happens and the more coupled the class is with other dependent classes (i.e. user classes, subclasses, etc.).
+
+In object-oriented languages a class has two public interfaces: the public interface shared with all users of the class, and the protected interface shared with subclasses. It is of paramount importance that we design the proper levels of encapsulation for every one of these public interfaces so that we can facilitate change and foster evolution of our APIs.
+
+summary : modifier
+-------------------------
+Why Getters and Setters?
+Many people wonder why we need accessor and mutator methods in Java (a.k.a. getters and setters), why can’t we just access the data directly? But the purpose of encapsulation here is is not to hide the data itself, but the implementation details on how this data is manipulated. So, once more what we want is a way to provide a public interface through which we can gain access to this data. We can later change the internal representation of the data without compromising the public interface of the class. On the contrary, by exposing the data itself, we compromise encapsulation, and therefore, the capacity of changing the ways to manipulate this data in the future without affecting its users. We would create a dependency with the data itself, and not with the public interface of the class. We would be creating a perfect cocktail for trouble when “change” finally finds us.
+
+There are several compelling reasons why we might want to encapsulate access to our fields. The best compendium of these reasons I have ever found is described in Joshua Bloch’s book [a href="http://192.9.162.55/docs/books/effective/" target="_blank"]Effective Java. There in Item 14: Minimize the accessibility of classes and members, he mentions several  reasons, which I mention here:
+
+You can limit the values that can be stored in a field (i.e. gender must be F or M).
+You can take actions when the field is modified (trigger event, validate, etc).
+You can provide thread safety by synchronizing the method.
+You can switch to a new data representation (i.e. calculated fields, different data type)
+However, it is very important to understand that encapsulation is more than hiding fields. In Java we can hide entire classes, by this, hiding the implementation details of an entire API.
+
+My understanding of this important concept was broaden and enriched by my reading of a great article  by Alan Snyder called Encapsulation and Inheritance in Object-Oriented Programming Languages which I recommend to all readers of this blog. I found a version of it available on the Web and I shared a link to it a the end of this article.
