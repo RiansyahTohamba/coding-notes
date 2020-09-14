@@ -1,5 +1,4 @@
-#contoh dari 
-class NeuralNet
+class ExampleOfNn
   attr_reader :shape, :outputs
   attr_accessor :weights, :weight_update_values
 
