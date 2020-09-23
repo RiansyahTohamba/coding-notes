@@ -13,9 +13,10 @@ Contoh kasus pengambilan sampel berdasarkan pengujung perpus adalah salah, karen
 ---
 In certain situations, such as the library illustration, we are presented with a sample and must then decide whether this sample is reasonably representative of the entire population.
 ---
-In practice, a given sample generally cannot be assumed to be representative of a population unless that sample has been chosen in a random manner. This is because any specific nonrandom rule for selecting a sample often results in one that is inherently biased toward some data values as opposed to others.
-Kami kemungkinan besar mendapatkan sampel yang representatif dengan memilih anggotanya secara acak total tanpa pertimbangan sebelumnya tentang elemen yang akan dipilih.
-Thus, although it may seem paradoxical, we are most likely to obtain a representative sample by choosing its members in a totally random fashion without any prior considerations of the elements that will be chosen. 
+Syarat lain sampel representatif adalah has been chosen in a random manner. 
+Karena non random rule tertentu for selecting a sample seringkali menghasilkan one that is inherently biased toward some data values as opposed to others.
+Kami kemungkinan besar mendapatkan sampel yang representatif dengan memilih anggotanya secara "acak total tanpa pertimbangan sebelumnya tentang elemen yang akan dipilih".
+(totally random fashion without any prior considerations of the elements that will be chosen. )
 Dengan kata lain, kita tidak perlu mencoba secara sengaja memilih sampel sehingga sampel mengandung, misalnya, persentase jenis kelamin yang sama dan persentase orang yang sama di setiap profesi seperti yang ditemukan pada populasi umum.
 Sebaliknya, kita harus menyerahkannya pada "kesempatan" untuk mendapatkan persentase yang kira-kira tepat.
 Bagaimana dengan saya yang memilih smell coupling lalu me-refactornya?
