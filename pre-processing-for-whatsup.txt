@@ -1,0 +1,214 @@
+
+
+Upgrade
+Muhammad Riansyah Tohamba
+Towards Data Science
+DATA SCIENCE
+MACHINE LEARNING
+PROGRAMMING
+VISUALIZATION
+VIDEO
+★
+ABOUT
+CONTRIBUTE
+Responses (3)
+
+Muhammad Riansyah Tohamba
+Muhammad Riansyah Tohamba
+What are your thoughts?﻿
+
+Cancel
+Respond
+Ludwig Stumpp
+Ludwig Stumpp
+9 months ago
+
+Thank you for sharing!
+1
+
+Luc Wastiaux
+Luc Wastiaux
+9 months ago
+
+You could have saved yourself a ton of work by creating an app on top of slack or telegram instead.
+
+Sania Kanwal
+Sania Kanwal
+8 months ago
+
+Thanks for sharing such a valuable story
+
+You have 2 free stories left this month. Upgrade for unlimited access.
+Complete Beginner’s Guide to Processing Whatsapp Data with Python
+Making use of basic Python methods to process text data instead of Regex
+Bobby Muljono
+Bobby Muljono
+Follow
+Dec 26, 2019 · 7 min read
+
+
+
+
+
+Image for post
+Photo by Rachit Tank on Unsplash
+Free-Text Goldmine
+From texting your loved ones, sending memes and professional usage, Whatsapp has been dominating the messenger market worldwide with 1.5 billion active monthly users. When it comes to complex NLP modelling, free text is black gold.
+NLP for businesses provide enhanced user experience ranging from spell-checks, feedback analysis and even virtual assistants.
+12 NLP Examples: How Natural Language Processing is Used
+With NLP, autocomplete isn't the only way businesses can upgrade their on-site search. Klevu is a smart search provider…
+www.wonderflow.co
+In certain situations, small businesses may create Whatsapp chat groups to relay information between members as a low-cost alternative to setting up systems to log data. Rule-based chat system on how the information is to be disseminated is agreed at the start of the chat. Consider the following example:
+21/09/2019, 14:04 — Salesperson A: Item B/Branch C/Sold/$1900
+21/09/2019, 16:12 — Salesperson X: Item Y/Branch Z/Refund/$1600, defect found in product, not functioning
+We can immediately recognize patterns pertaining to sales order from different salesperson, separated by common operators such as ‘/’ and ‘,’. With a simple system (but prone to human spelling error) like this, we can analyze sales pattern of different products and different locations with the use of Whatsapp.
+Methodology
+There are many great resources online to convert Whatsapp data into a pandas dataframe. Most, if not all, makes use of Python’s Regex library as a fairly complicated solution to split the text file into columns of the dataframe.
+However, my objective here is to target Python users who are beginners in string manipulation. For beginners learning Python, we have better familiarity with basic Python methods that does not come from external libraries. In this article, we will be using a lot of the basic methods in processing Whatsapp data into a pandas dataframe.
+Here is what we will be covering:
+2 libraries (pandas for dataframe and datetime to detect datetime objects)
+A lot of .split() methods
+List comprehensions
+Error-handling
+Step 1: Getting the data
+If exporting messages directly from your phone is not your jam, you can try the following method:
+Read, Extract WhatsApp Messages backup on Android, iPhone, Blackberry
+WhatsApp is undoubtedly no.1 Messaging service on mobile devices having its presence across Android, iOS, Blackberry…
+geeknizer.com
+Otherwise, the easiest way to extract Whatsapp .txt file can be done by the following method:
+Open your Whatsapp application
+Select a chat of your interest
+Tap on the ‘…’ > Select ‘More’ > Select ‘Export chat’ without media and send it to your personal e-mail
+Once you’re done, your text file should look something like this:
+21/09/2019, 23:03 — Friend: my boss dont like filter
+21/09/2019, 23:03 — Friend: he likes everything on a page
+21/09/2019, 23:03 — Me: so basically you need to turn your data into ugly first then come out pivot table
+21/09/2019, 23:03 — Me: haha
+21/09/2019, 23:04 — Me: pivot table all in 1 page what
+21/09/2019, 23:05 — Me: but ya i hate this kinda excel work sia
+21/09/2019, 23:05 — Me: haha
+21/09/2019, 23:05 — Friend: as in
+21/09/2019, 23:05 — Me: hope to transition to data scientist asap
+Step 2: Importing the data into your Python IDE
+The first thing we want to do is to make sure we know the location of your text file. Once we know its destination, we can set our working directory to the file’s location:
+import os
+os.chdir('C:/Users/Some_Directory/...')
+Once that is out of the way, we want to define a function to read your text file into a Python variable with the following method:
+
+The above function converts our text file into a list of strings that allows us to make use of .split() methods later on. But for now, there is some cleaning you need to do.
+Step 3: Handling multi-line messages
+Sometimes the data you extract may not be in perfect format due to multi-line texts. Consider the following situation using the same salesperson example from above that is already converted into a list:
+21/09/2019, 14:04 — Salesperson A: Item B/Branch C/Sold/$1900
+'Some random text formed by new line from Salesperson A'
+21/09/2019, 16:12 — Salesperson X: Item Y/Branch Z/Refund/$1600, defect found in product, not functioning
+We can observe that ‘Some random text’ does not have the same usual format that every line of Whatsapp text should have. To handle such elements, let’s first look at the pattern of Whatsapp text messages.
+Image for post
+Ignoring everything else after the date, it is obvious that unwanted elements do not have date objects in them. So we begin removing them by checking if they do contain date before the first ‘,’. We do this by utilizing basic error handling-technique.
+
+As you can see, we have removed about 100 elements that may pose a hindrance to feature extraction later on. It is just within most of our casual texting culture to not use multi-line texts unless we are sharing links with caption with our buddies!
+Step 4: Feature extraction
+Now this is where you will be using your basic Python skills to extract features from the list that you will parse into a dataframe later on. First, we need to revisit the string pattern from the Whatsapp data.
+The first feature we would like to extract is the date. Remember that the date string occurs right before the first ‘,’. So we extract the element using the .split(‘,’) method at index 0. We can write this beautifully using Python’s list comprehension.
+
+Do note that I came from an R background and I am very used to using ‘i’ in for loops. Another way you can write the above code without using range() function is the following:
+date = [text.split(‘,’)[0] for text in chat]
+In contrast, this is what is required using the Regex method just to check whether the string pattern is date.
+
+Credits: Samir Sheriff
+Image for post
+All that just to identify the date feature?! (Photo by Ben White on Unsplash)
+With that out of the way, we may proceed with the same logic when extracting both the time and name of the sender. Take note of the following pattern:
+Time string occurs right after the first ‘,’ and right before the first ‘-’
+Name string occurs right after the first ‘-’ followed by the second ‘:’ at index 0
+
+Finally we want to extract the content of the message. This is a little bit tricky because certain lines do not contain any messages. Instead, they are system-generated messages depicted by the following:
+21/09/2019, 11:03 — Salesperson A created the group "Dummy Chat"
+21/09/2019, 11:03 — Salesperson A added Salesperson B
+21/09/2019, 14:04 — Salesperson A: Item B/Branch C/Sold/$1900
+21/09/2019, 16:12 — Salesperson X: Item Y/Branch Z/Refund/$1600, defect found in product, not functioning
+Notice that there is no additional ‘:’ after the first one that occurred at the time string. To put into perspective, consider the following .split(‘:’) method:
+chat.split(":")
+#['21/09/2019, 14','04 — Salesperson A',' Item B/Branch C/Sold/$1900']
+The element at index 2 is of interest to us. However, since system-generated messages do not contain the second ‘:’, extracting information at index 2 will produce an error. Therefore we will proceed with our second error-handling technique.
+
+You may choose to remove elements with ‘Missing Text’ later on.
+Final step: Concatenating everything into a dataframe
+Now that we have 4 lists of features, we can finally create a pandas dataframe with a single line of code!
+
+Image for post
+And voila! Your data frame is ready for post-analysis! Notice the system-generated message that appear on the name column. You can conditionally remove rows with system generated message with the following code:
+df = df[df[‘Content’] != ‘Missing Text’]
+Final Thoughts
+There are many ways you can make use of a processed Whatsapp text data to conduct your analysis. From recreating yourself as a bot, using NLP for sentiment analysis to just plain simple analytics. Making use of Whatsapp data is great practice for any complex NLP projects to come.
+Basic string manipulation is enough to convert a text file into a pandas dataframe as shown above. If you are a newbie with Python(like me), it is better to get used to the basics than trying out new techniques that may prove a little overwhelming at first. However, Python’s regex library is still an important tool for intermediate to advanced uses of text mining and data validation.
+Here is a great article explaining the concepts of the Regex library in Python along with its potential uses for data analytics and data science:
+The Ultimate Guide to using the Python regex module
+The original Pattern Finder
+towardsdatascience.com
+Happy coding!
+Towards Data Science
+A Medium publication sharing concepts, ideas, and codes.
+Following
+372
+
+3
+
+Sign up for The Daily Pick
+By Towards Data Science
+Hands-on real-world examples, research, tutorials, and cutting-edge techniques delivered Monday to Thursday. Make learning your daily ritual. Take a look
+
+Get this newsletter
+Emails will be sent to mriansyah93@gmail.com.
+Not you?
+
+Python
+Data Science
+Programming
+Analytics
+WhatsApp
+372 claps
+
+3 responses
+
+
+
+
+
+Bobby Muljono
+WRITTEN BY
+
+Bobby Muljono
+Follow
+Data Analyst aspiring to be a Data Scientist. My site: https://www.bobbymuljono.com
+Towards Data Science
+Towards Data Science
+Following
+A Medium publication sharing concepts, ideas, and codes.
+More From Medium
+More from Towards Data Science
+How I’d Learn Data Science if I Could Start Over (2 years in)
+Terence S in Towards Data Science
+Sep 11 · 6 min read
+1K
+
+More from Towards Data Science
+10 Cool Python Project Ideas for Python Developers
+Claire D. Costa in Towards Data Science
+Sep 5 · 10 min read
+1.5K
+
+More from Towards Data Science
+Develop and sell a Python API — from start to end tutorial
+Daniel Deutsch in Towards Data Science
+Sep 4 · 13 min read
+1.5K
+
+Discover Medium
+Welcome to a place where words matter. On Medium, smart voices and original ideas take center stage - with no ads in sight. Watch
+Make Medium yours
+Follow all the topics you care about, and we’ll deliver the best stories for you to your homepage and inbox. Explore
+Become a member
+Get unlimited access to the best stories on Medium — and support writers while you’re at it. Just $5/month. Upgrade
+About
+Help
+Legal

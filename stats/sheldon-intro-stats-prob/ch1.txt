@@ -1,0 +1,23 @@
+intro of statistic
+descriptive and inferential statistics
+history of statistic
+population and samples
+
+In statistics, we are interested in obtaining information about a total collection of elements, notably population. 
+The population is often too large for us to examine each of its members. 
+For instance, semua penduduk di suatu provinsi (misal Sulawesi Tenggara) atau semua snack yang diproduksi PT.
+Jika ingin mempelajari sesuatu tentang populasi tersebut, kita dapat melakukannya dengan mengambil sub-group dari populasi tersebut. Sub-grup ini disebut sample.
+Bagaimana cara mendapatkan Representative Sample?
+If the sample is to be informative about the total population, it must be, in some sense, representative of that population. 
+Contoh kasus pengambilan sampel berdasarkan pengujung perpus adalah salah, karena ingin mempelajari usia populasi penduduk Sultra hanya berdasarkan pada pengunjung semua perpus yang ada di sultra, padahal pengunjung perpus kemungkinan besar terdiri dari pensiunan dan anak muda tidak termasuk usia pekerja.
+---
+In certain situations, such as the library illustration, we are presented with a sample and must then decide whether this sample is reasonably representative of the entire population.
+---
+In practice, a given sample generally cannot be assumed to be representative of a population unless that sample has been chosen in a random manner. This is because any specific nonrandom rule for selecting a sample often results in one that is inherently biased toward some data values as opposed to others.
+Kami kemungkinan besar mendapatkan sampel yang representatif dengan memilih anggotanya secara acak total tanpa pertimbangan sebelumnya tentang elemen yang akan dipilih.
+Thus, although it may seem paradoxical, we are most likely to obtain a representative sample by choosing its members in a totally random fashion without any prior considerations of the elements that will be chosen. 
+Dengan kata lain, kita tidak perlu mencoba secara sengaja memilih sampel sehingga sampel mengandung, misalnya, persentase jenis kelamin yang sama dan persentase orang yang sama di setiap profesi seperti yang ditemukan pada populasi umum.
+Sebaliknya, kita harus menyerahkannya pada "kesempatan" untuk mendapatkan persentase yang kira-kira tepat.
+Bagaimana dengan saya yang memilih smell coupling lalu me-refactornya?
+saya tidak pilih-pilih class yang akan di-refactor?
+Setelah sampel acak dipilih, kita dapat menggunakan statistical inference untuk menarik kesimpulan tentang keseluruhan populasi dengan mempelajari elemen sampel.
