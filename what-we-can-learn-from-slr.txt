@@ -1,0 +1,113 @@
+what we can learn from slr
+
+Kitchenham mendukung kombinasi evidence-based software engineering + systematic reviews
+
+sinonim(systematic_reviews) == slr 
+kenapa disamakan dengan slr?
+krn systematic_reviews mirip dengan inspection methods (i.e., methods for reading and reviewing software engineering documents or code). 
+
+evidence-based software engineering require 'a sound methodology' for 'aggregating' evidence from "different empirical studies". 
+
+'a sound methodology' itu systematic_reviews.
+SRs = systematic_reviews.
+SRs sdh digunakan pada disciplines lain selama 1 dekade terakhir.
+
+
+SR dibuat researcher to investigate all available evidence that supports or refutes a particular "topic of interest" which in software engineering typically involves asking about Method/Process nya punya efek?. 
+
+A researcher conducting an SR selects empirical studies that are relevant to the particular research question, assesses the validity of each one, and then determines the trend shown by those studies. Thus, SRs aim to find, assess, and aggregate all relevant evidence about some topic of interest in a fair, repeatable, and auditable manner.
+
+This chapter introduces the value of SRs to readers with a general interest in empirical software engineering. I also aim to help novice researchers (such as PhD students)—who might be looking for robust methods to undertake state-of-the-art reviews—get started with SRs. 
+
+European researchers > US researcher dalam publikasi SLR, Masih banyak periset yang not yet confident of the value of the SR methodology. 
+
+I also hope that this chapter will alert empirical researchers to the possibility that their studies will contribute to subsequent SRs and that they consequently will report their results with future aggregation in mind. A recent SR found it impossible to undertake a full meta-analysis because the individual primary studies used very disparate practices for reporting their results.
+
+The aim of systematic reviews in the context of evidence-based software engineering is not just to provide a methodology for researchers; the aim is to influence practice. I hope, therefore, that managers and decision makers in industry also will find something in this chapter relevant to their needs. The main lesson for industry is that "common knowledge" and expert opinion should not be the sole basis for the decisions about the choice of software engineering methods.
+Furthermore, unfortunately, individual empirical studies cannot be trusted automatically. For
+important decisions concerning the adoption of new methods, decision makers need unbiased
+summaries of all relevant evidence, and SRs provide a means to deliver such summaries. 
+
+An Overview of Systematic Reviews
+Believable research starts with primary studies: experiments with qualitative or quantitative
+results relevant to the question one is researching. An SR aggregates results from different
+independent experiments sometimes using statistical meta-analysis.
+
+SR dimulai on medical domain, oleh Crowley et al. tentang pemberian obat agar lahir prematur pada tahun 1990.
+
+Crowley et al. published an SR that included a meta-analysis of 12 primary studies on the effect of giving corticosteroids to pregnant women expected to give premature birth.
+Corticosteroids were believed to reduce lung problems affecting premature babies.
+Crowley at al.'s SR confirmed that the use of corticosteroids substantially decreased the risk of
+infant death. Corticosteroid administration was not the standard treatment for premature
+babies at the time, and the publication of the SR resulted in a change of medical practice.
+However, this was not considered a major triumph for evidence-based medicine. 
+Out of those 12 studies, 8 were published before 1982. If those 8 studies had been aggregated in 1982, eight years of incorrect treatment and associated infant deaths would have been avoided. This led to a reassessment of the importance of aggregating evidence in a timely manner and to the establishment of the Cochrane Collaboration, a nonprofit organization that undertakes SRs of medical and health care issues and maintains a database of SR reports. 
+-----
+ada pembahasan tentang 
+1. cost estimation dan akurasi dari estimasi tersebut
+2. riset mengenai agile methods
+---
+both of them found expert judgment better than model-based estimation, as we ourselves did. 
+
+
+akurasi estimasi model di industri
+The accuracy of cost estimates in industry
+
+The 1994 CHAOS Report from the Standish Group stated that
+Project overrun sebesar 189%, hanya 16 % sukses (i.e., within budget and schedule). 
+
+Subsequent reports from the Standish Group have found lower levels of overruns, with 34% of projects being classified as successful, a change observers have hailed as demonstrating how much software engineering techniques are improving. 
+
+However, when Molokken-Ostvold and Jorgensen undertook a literature review of software effort estimation surveys ([Molokken-Ostvold et al. 2004], [Molokken Ostvold and Jorgensen 2003]), they found three industrial surveys undertaken before the CHAOS report that found average cost overruns of between 30% and 50%. 
+
+This was so different from the CHAOS report results that they reviewed the CHAOS report carefully to understand why the overrun rates were so high, and as a result of their investigation, omitted the CHAOS report from their survey.
+
+The details of their investigation of the CHAOS report are given in [Jorgensen and Molokken Ostvold 2006]. 
+
+Jorgensen and Molokken Ostvold found that the methodology adopted by the Standish Group left much to be desired:
+• The method of calculating the overruns was not specified. When Molokken-Ostvold and Jorgensen ran their own calculations, they found that the overruns should have been close to 89%, not 189%.
+mendekati 89 % bukan 189 %.
+• The Standish Group appeared to have deliberately solicited failure stories.
+• There was no category for under-budget projects.
+• Cost overruns were not well-defined and could have included costs on canceled projects.
+
+paper CHAOS yg sering disitasi tidak dapat dipercaya.
+--
+ideanya : 
+
+Conclusion
+
+Di bagian sebelumnya saya membahas beberapa SR yang menawarkan insight baru ke dalam rekayasa perangkat lunak. Banyak studi SR dan pemetaan lainnya selama beberapa tahun terakhir telah mencakup berbagai topik RPL.
+Saya percaya studi ini harus mulai mengubah cara kita melakukan penelitian di bidang rekayasa perangkat lunak. Siapa pun yang tertarik dengan topik tertentu perlu memeriksa  SRs addressing the topic (refactoring,smell, deep learning pada RPL). 
+Jika tidak ada SR, mungkin ada baiknya untuk melakukannya. Jika sudah ada tinjauan, tinjauan tersebut dapat bertindak sebagai titik awal untuk pencarian literatur Anda sendiri atau dapat mengarahkan Anda ke bidang topik di mana penelitian baru diperlukan. Namun, SR memiliki batasan yang jelas. Pertama, hanya karena paper tersebut mengklaim dirinya sebagai SR, tidak berarti bahwa itu adalah ulasan berkualitas tinggi. Anda harus membaca SR sama kritisnya dengan Anda membaca makalah penelitian lainnya.
+
+Greenhalgh's evaluation criteria  [Greenhalgh 2000] or 
+5 kriteria [Centre for Reviews and Dissemination 2007]:
+1. Are the review's inclusion and exclusion criteria described and appropriate?
+2. Is the literature search likely to have covered all relevant studies?
+3. Were the studies synthesized?
+4. Did the reviewers assess the quality/validity of the included studies?
+5. Were the basic data/studies adequately described?
+
+The second major problem is that SRs rely on the availability of high-quality primary studies.
+The studies discussed in the previous section suggest that there are a relatively large number of primary studies but cast doubts on their quality. For SRs, we need primary studies that:
+• Conform to best quality guidelines for the type of study being undertaken
+• Report their results in sufficient detail for meta-analysis to be performed
+• Are independent of one another in terms of research groups and research materials (in contrast to Basili's et al.'s suggestion for families of experiments [Basili et al. 1999])
+• Collect data concerning possible moderating variables, e.g., subject type and experience, task complexity, size, and duration
+
+---
+situasi riset diusahkan mendekati situasi realita
+
+riset pada SE kebanyakan human-centric methods adopt these best practices. 
+
+Maka meta-analysis-based aggregation can reliably assess the impact of a method/technique unless we are able to use professional subjects in realistic situations yakni doing tasks of realistic complexity and duration. 
+menjalankan metode nya jg butuh professional subjects (experienced programmer e.g. tester,mainteners,designer )
+situasi risetnya juga industrial (face the deadline, etc)
+
+
+PS = primary studies
+
+Meskipun demikian, bahkan jika ada masalah dengan primary studies dan interpretasi hasil meta-analisis, bagi saya tidak ada gunanya melakukan studi empiris if we don't attempt to organize into an 'empirical body of knowledge' about 'our methods and techniques'. 
+
+idealnya SR harus open dan fairly sebisa mungkin.

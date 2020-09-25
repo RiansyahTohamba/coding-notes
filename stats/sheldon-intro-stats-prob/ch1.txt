@@ -22,3 +22,18 @@ Sebaliknya, kita harus menyerahkannya pada "kesempatan" untuk mendapatkan persen
 Bagaimana dengan saya yang memilih smell coupling lalu me-refactornya?
 saya tidak pilih-pilih class yang akan di-refactor?
 Setelah sampel acak dipilih, kita dapat menggunakan statistical inference untuk menarik kesimpulan tentang keseluruhan populasi dengan mempelajari elemen sampel.
+---
+2. brief history of statistic
+Jaman renaissance sebagai awal mula statistik ditemukan (A systematic collection of data on the population and the economy).
+Term statistic derived from state refer to a collection of facts of 'interest to the state'.
+----
+abad 18th statistic singkatan dari descriptive science of states.
+1830s statistic = numerical science of society
+abad 19 mulai ditemukan teori probability oleh mathematicians including Jacob Bernoulli, Karl Friedrich Gauss, and Pierre-Simon Laplace. 
+inferences about individuals vs society
+Statiskawan pada masa itu belum tertarik drawing inferences about individuals, but rather were concerned with the society as a whole. 
+sampling vs entire population
+Lalu they were not concerned with sampling but rather tried to obtain censuses of the 'entire population'.
+abad 19 ga ada inference sample dari populasi.
+Sehingga probabilistic inference from samples to a population was almost unknown in 19th century social statistics.
+akhir tahun 1800s  statistics became concerned with inferring conclusions from numerical data dimotori oleh Francis Galton’s work on analyzing hereditary genius through the uses of what we would now call "regression and correlation analysis" (see Chapter 9)
