@@ -209,6 +209,7 @@ I use the information to transform a reality.
 this is the I don't have the example here 
 
 but if you remember in the first lecture I was giving you an example about testing resources. 
+
 the one about the developers that if they code at night they create more bugs and they are more productive but they are more productive 
 
 so the solution was theory actually I called it at that time the solution theory was to dedicate more more testing resources to the to the code developer that developed at night okay ?
@@ -621,7 +622,7 @@ we will see in the different in the different examples of research types in rese
 3. a company is a more natural setting 
 okay?
 
-then i operationalize theoretical construct into empirical variables 
+then i operationalised theoretical construct into empirical variables 
 
 so I transform these constructs in variable that they can be measured in reality 
 so a term like 
@@ -656,53 +657,102 @@ although the terminology is like
  
 and finally "define scope of validity" okay ?
 
-I have tested I have selected a sample and therefore I didn't verify my theory for the whole possible set of samples 
+I have tested I have selected a sample 
+and therefore I didn't verify my theory for the whole possible set of samples 
 but just for a specific set of cases okay ?
 
 scope of validity is the part of the scope of interest in which the theory has actually been validated okay ?
  
-so here is the summary in terms of a graphical summary of how the theory is built according to the steps that I gave you before 
+so here is the summary in terms of a graphical summary of "how the theory is built" according to the steps that I gave you before 
 
 so first of all 
 1. the constructs 
 2. the propositions 
-3. explanation and 
-4. then the scope of interest okay ?
- 
+3. explanation and then
+4. the scope of interest okay ?
+
+(lalu muncul lingkaran kuning)
 then given this 
-this is the feeling from which I start I operationalized the variables and I transform and identify my apophysis that are basically the representation of the proposition in terms of the concrete variables okay ?
- and identify the sample you already see that this sample is smaller than the than the context of the theory okay ?
- and 
-then I here I'm still somehow in an abstract space but closer to reality the final step is data collection and measurements in which I actually go to the reality and collect this data once 
+this is the theory from which I start 
+I operationalisedd the variables 
+and I transform and identify my hypothesis that are basically the representation of 
+the proposition in terms of the concrete variables okay ?
 
-I have defined the sample I can apply the sampling strategy and 
-I can identify oh my data with the different data collection techniques that I explained you last time at this point sorry this point 
-I can have in my daughter I can test whether my effort as you sold 
-so given my data I said hey is this hypothesis true or not I can confirm and reject the hypothesis and therefore support or not support my theory and 
+and identify the sample.
+you already see that this sample is smaller than the context of the theory, okay?
 
-I can identify my scope of validity 
+and then I here I'm still somehow in an abstract space but closer to reality 
+
+the final step is data collection and measurements in which I actually go to the reality and collect this data 
+
+once I have defined the sample 
+I can apply the sampling strategy and 
+I can identify all my data with the different data collection techniques that I explained you last time 
+
+at this point 
+I can having my data 
+I can test whether my effort as should (seperti seharusnya. mungkin? wkwk)
+
+so given my data I said hey is this hypothesis true or not ?
+I can confirm and reject the hypothesis 
+and therefore "support or not support" my theory and I can identify my scope of validity 
 so after I am verified in a certain specific context and 
-===============================================
-Threat to validity
+============================================
+Scope of validity
 ===============================================
 I have identified the scope abilities 
 I can say okay ?
 my theory for the specific context 
-the scope of validity 
-here you have an interesting image that tells you that you to cover the scope of interest of a theory 
-you know you need multiple studies they make over different scope of validity ok ?
-so here you have a scope of validity for study 
-one for study to study three and all together 
+the scope of validity here 
+you have an interesting image that tells you that you to cover the scope of interest of a theory 
+
+you know
+you need multiple studies 
+they make over different scope of validity ok ?
+so here you have a scope of validity 
+for study one 
+for study two 
+study three and all together 
+
 they cover a part of the possible scope of interest of the theory okay ?
- Kress to validity this is another important point that you will encounter in every method okay ?
- the fact that you've done all this very nice very nice process of starting from the theory and empirical verification etc doesn't mean that your theory is is accepted or reject okay ?
- you need to provide arguments that you needed you didn't do any mistake okay ?
- and you need to provide arguments that you didn't do especially invalid operationalization of theoretical constructs and propositions 
-so 
-for example you need to justify the fact that a constructs successor says the complexity of the code is represented with line of codes is it's a valid operationalization or not you need to provide arguments okay ?
- to which extent this operationalization is valid or inappropriate research design 
-so you may have selected you may have selected the wrong sample you may have made a mistake in the data collection procedures in the data analysis procedures 
-so you may have made mistakes across the step and you need to demonstrate that you didn't do that in accuracy in data collection and data analysis this is related to of course to an inappropriate research design and possible misinterpretation of the empirical findings 
+============================================
+Threat to validity
+============================================
+This is another important point that you will encounter in every method okay ?
+
+the fact that you've done all this very nice 
+very nice process of 
+starting from the theory and empirical verification etc doesn't mean that your theory is is accepted or reject okay ?
+
+you need to provide arguments that you needed you didn't do any mistake okay ?
+
+and you need to provide arguments that you didn't do especially 
+"invalid operationalization of theoretical constructs and propositions" 
+
+so for example : you need to "justify the fact" that a constructs such as 
+"the complexity of the code is represented with line of codes" 
+is it's a valid operationalization ? 
+or not ?
+
+you need to provide arguments to which extent this operationalization is valid ? 
+================
+CONTOH DARI inappropriate research design 
+================
+or inappropriate research design 
+
+so you may have selected 
+you may have selected the wrong sample 
+you may have made a mistake in the data collection procedures 
+in the data analysis procedures 
+
+so you may have made mistakes across the step and you need to demonstrate that you didn't do that 
+
+inaccuracy in data collection and data analysis 
+
+this is related to of course to 
+1. an inappropriate research design and 
+2. possible misinterpretation of the empirical findings 
+
 so what you found was actually clearly leading with the data and you didn't do any wrong interpretation
 ===============================================
 Threat to validity : 
@@ -711,124 +761,181 @@ internal -
 external
 ===============================================
 
-in general each research method as his own classification that that those that I listed before where some intuitions through behind the concept of tres to validity 
+in general, each research method as his own classification that those 
+that I listed before where some intuitions through behind the concept of threat to validity 
 so anything that you could have done wrong in this process okay ?
- but 
-then in in in each type of research research methods you use a different classification for because you may have different types of threats different type of mistakes that you have made 
+
+but then in each type of research methods, you use a different classification for because you may have different types of threats different type of mistakes that you have made 
 
 and this is a general classification that is typical for experiments and that but it is useful to remember okay ?
-? 
-because it it gives you the the flavor of what are the main concern interest to validity evaluation 
+
+because it gives you the the "flavor" of what are the main concern interest to validity evaluation 
+
 1. construct validity
-first of all construct validity that is related to the question that I was explaining before am i operationalize the older concert correctly 
+first of all construct validity that is related to the question that I was explaining before 
+
+"have i operationalised the all constructs correctly ?"
+
 so my constructs are actually represented in a proper way by my variables this is this is the question okay ?
- and you have to provide sufficient arguments 
+
+and you have to provide sufficient arguments 
 
 2. internal validity
-internal validity other any aspects that may have influenced my outcome and I did not consider this is related mostly to your design and data collection method okay ?
-? 
+internal validity : "are there aspects that may have influenced my outcome and I did not consider" 
+this is related mostly to your design and data collection method okay ?
 and in this case you have to identify which are the possible variables that you didn't control and you didn't consider and and that may have had an impact on your design 
 for example if I am evaluating the complexity of a code and I'm using some code samples okay ?
- and I want to let the people actual people assess the degree of complexity of this code
+
 //orang yang menyatakan kodenya kompleks harus belum pernah melihat kode nya
-I have to be sure that these people did not already see the code that they are evaluating because otherwise the evaluation of complexity is biased okay ?
- if you all know already if you've seen already a certain code of course it will be less complex than 
-then for another person who didn't see it who didn't see it who never saw it okay ?
- these are typical internal threats 
+and I want to let the people- actual people - assess the degree of complexity of this code
+
+I have to be sure that these people did not already see the code 
+that they are evaluating because otherwise the evaluation of complexity is biased okay ?
+programer have seen code then code less complex
+
+if you all know already 
+if you've seen already a certain code of course it will be less complex than for another person who didn't see it who didn't see it who never saw it, okay ?
+
+these are typical internal threats 
 so other variable that you did not consider in your experiment or in your in your study and that have an influence all on your outcome 
 
 3. external validity
-external validity that is related to which extent are my findings generalizable 
-so this is related to how much my scope of validity basically covers my scope of interest or how many contexts can I cover okay ?
-? 
-which 
-for example which type of languages are considered here in this example complexity yes but may it be different from if I 
+external validity that is related to which extent are my findings generalizable?
+so this is related to how much my "scope of validity" ?
+basically covers my scope of interest or how many contexts can I cover okay ?
+  
+which for example "which type of languages are considered?" 
+
+here in this example, complexity yes! 
+but may it be different from 
 if I am covering C code and Python code 
 so if my experiment is made on both C code and Python code 
-then I have quite a good external validity but if it's just made of one type of code is more limited okay ?
-? 
-this is these are three that are quite clear and I think quite intuitive as type of threats, okay ?
-?
 
+then I have quite a good external validity.
+
+but if it's just made of one type of code is more limited okay ?
+
+this is these are three that are quite clear and I think quite intuitive as type of threats, okay ?
+---------------------
 example before = deductive step-by-step 
-this we saw in the example before let's let's make a step back in the example before we saw this we saw that we were passing from theory to reality okay ?
+---------------------
+this we saw in the example before 
+(let's let's make a step back in the example before) 
+
+we saw that we were passing from theory to reality okay ?
 
 this was the typical process for a deductive approach 
 
 if you remember the early slides 
-because I'm starting from theory I assume that I built the theory somehow and I go towards reality
-but the reality could be though 
+1. because I'm starting from theory 
+2. I assume that I built the theory somehow and I go towards reality 
 
-so that I don't have a theory yet 
+----
+WHAT IF NOT HAVE THEORY YET?
+----
+but the reality could be also that I don't have a theory yet !
+
 so I need to start from observation.
-I need to start from the from the reality and in this case I use the 
-so-called inductive approach. 
+I need to start from the reality 
+and in this case I use the so-called "inductive" approach. 
 ------------
 inductive : step-by-step 
 
-so the one that I showed before is the typical say if you want the positivist approach for constructing constructing theory 
-so the deductive one you start from some constructs 
-from the researcher from the propositions and you create hypothesis and your new test but in our in our diagram which also the inductive process okay ?
+so the one that I showed before is the typical say 
+if you want the positivist approach for constructing theory 
+so the deductive one 
+you start 
+from some constructs 
+from the researcher 
+from the propositions and 
+you create hypothesis and 
+your then you test 
 
-we will not cover here abductive processes but inductive is important because it's typical of the 
-so called constructivist approaches, that are one the ones using used in qualitative studies. 
+but in our diagram which also the inductive process okay ?
 
+we will not cover here abductive processes 
+but inductive is important because it's typical of the so called constructivist approaches, that are one the ones using used in qualitative studies. 
 
 so in this case I start from simple definition and data collection 
 for example 
 1. I collect some interviews in a company and 
-2. then from these interviews I identify which are the constructs okay ?
-? 
+2. then from these interviews I identify which are the constructs okay ? 
 3. then the basic thing is that I start from my simple definition and 
 4. then afterwards I identify variables and propositions okay ?
 5. and from this I can build my theory, 
-so the theory comes afterwards I am eliciting the theory from from the data okay ?
+so the theory comes afterwards I am eliciting the theory from the data okay ?
 
-I can combine the two approaches, of course, because in a case in which I don't know much about a certain reality like the reality of a specific company and I have to start with the collection of interviews before knowing what is actually relevant.
+============
+KOMBINASI INDUCTIVE AND DEDUCTIVE
+============
+I can combine the two approaches, of course
+because in a case in which I don't know much about a certain reality like the reality of a specific company 
+and I have to start with the collection of interviews before knowing what is actually relevant.
 
-what what time 
-for example in the case that in the example before 
+what time for example in the case that in the example before 
 
 what are the elements that may affect the (dia lagi nyari contoh) or in which way 
 "the UML language can affect the development?" 
 
 to understand the ways : 
-I have to ask to people ! to understand that 
-for example 
+I have to ask to people ! to understand that, for example 
 it affects documentation ? 
 it affects understability ?  or other aspects ? okay ?
 
-then I have built the theory in an inductive way but afterwards I have to test the theory and I can apply a deductive approach okay ?
+then I have built the theory in an inductive way 
+but afterwards I have to test the theory 
+and I can apply a deductive approach okay ?
+
 I can take my preposition. 
-I can operationalized in into more refined variables 
-for example into more measure measurable variables 
+I can operationalised into more refined variables 
+for example into more measurable variables 
 so give a way of evaluating the quality of documentation.
 
-then I do again around of some definition and data collection and in this case I do my hypothesis testing 
-so I reduce my policies I test processes and 
-then I can refute on confirm the theory 
+then I do again around of sample definition and data collection 
+and in this case I do my hypothesis testing 
+so I deduce my hypothesis 
+I test hypothesis and 
+then I can refute OR confirm the theory 
 
-so inductive process and deductive process are combined and are made of different steps of the field of the theory constructions and they are used at different stages okay ?
+so inductive process and deductive process are combined 
+and are made of different steps of the theory constructions 
+and they are used at different stages okay ?
 
 in one case I use the inductive processes if I don't know anything about a context and 
-I use a deductive process if I already have some theory or I can build something from the information that I have already collected 
-
+I use a deductive process if I already have some theory or I can build some theory from the information that I have already collected 
+(
+theory nya : refactoring -> improve quality
+observation : extract method kecil-kecil terjadi penurunan jumlah baris kode, tapi disatu sisi programmer lain bingung karena banyak fungsi kecil
+)
 this remembers us when we were speaking about the different research questions okay ?
+===================
+RESEARCH QUESTION sebagai pemandu riset secara impilisit
+===================
 because theories are built and are guided in a hidden way here in this presentation also by research questions okay ?
 
-when we were thinking about the research question we were thinking about exploratory, explanatory 
-so different type of questions depending on how much information do I have about a certain context and this is strictly related to this diagram 
+when we were thinking about the research question we were thinking about 
+exploratory, 
+explanatory 
+so different type of questions depending on how much information do I have about a certain context ?
+
+and this is strictly related to this diagram 
 (diagram step-by-step guide : inductive to deductive)
 
-first of all I will have exploratory research questions and 
-I always tend to induct I will tend to use a research approach that is more inductive. 
-once I have the theory I will go towards more explanatory or more predictive research questions and I will tend to use deductive approach okay ?
+first of all 
+I will have exploratory research questions 
+(ada yg sy hapus : and I always tend to induct??)
+dia ingin ngomong bahwa diagram berikut tentang inductive approach
+I will tend to use a research approach that is more inductive. 
+once I have the theory 
+I will go towards more explanatory or more predictive research questions 
+and I will tend to use deductive approach okay ?
 ==================================
 Generating a theory - inductive to deductive an example
 ==================================
--now I'll give you an example in here.
-
-I was hiding the example between the lines but this is the example basically this is taken from the paper that I used as a reference here for for building this this lecture and 
+-now I'll give you an example 
+in here I was hiding the example between the lines 
+but this is the example 
+basically this is taken from the paper that I used as a reference here for building this lecture 
 
 ====================================================
 step 1. defining the constructs
@@ -837,172 +944,232 @@ step 3. Provide explanation
 step 4. scope of interest of the theory
 ====================================================
 
-I invite you also to read the paper because, of course, it contains much more information that I wanted that the one that 
-I could give here here the example is with a field study 
-so 
-I study in a company basically to investigate benefits and challenges of the use of UML in a large distributed development process 
-so development project 
-so you have large and distributed means that you have different people working in different in different areas. 
+and I invite you also to read the paper because, of course, it contains much more information that I wanted that the one that 
+I could give here 
 
-so 
-for example 
+here the example is concern with a field study 
+Field study in a company basically 
+"to investigate benefits and challenges of the use of UML in a large distributed development project"
+
+so you have large and distributed means that you have 
+"different people working in different areas "
+
+so for example 
 1. one in Milan and one in Florence or 
 2. even one in India, one in Italy okay ?
 
 
-so different teams belonging to the organization but located in different geographical locations and you want to understand whether. 
-this UML works fine or not 
-so what are the benefits and the challenges and the project was concerned the project that they were developing is concerned with a safety critical process control system okay ?
-you don't this is needed just to identify the scope later on in this case you are four sites in three countries 
-so not just Milan Florence but other country 
-for example in Germany and in France and you have many people two hundred and thirty and a hundred of them are using actually a UML ok 
+so different teams belonging to the organization but located in different geographical locations and you want to understand whether this UML works "fine or not ?" 
+so what are the benefits and the challenges ?
+
+and the project was concerned the project that they were developing is concerned with 
+"a safety critical process control system"
+okay ?
+this is needed just to identify the scope later on 
+in this case you are four sites in three countries 
+
+so not just Milan Florence but other country for example in Germany and in France 
+230 , 100 nya using UML
+and you have many people two hundred and thirty and a hundred of them are using actually a UML, ok ?
  
 so they could collect information from 
- 1. individual interviews 
- 2. questionnaires and 
- 3. project documents 
+1. individual interviews 
+2. questionnaires and 
+3. project documents 
 
- 
 so the data collection was using different strategies okay ?
- both interviews questionnaires or surveys and also document analysis okay ? also taking the documentation. 
-
+both interviews questionnaires or surveys and also document analysis okay ? also taking the documentation. 
  
-so you see already the data collection strategies that I explained you before they come handy 
+so you see already the data collection strategies that I explained you before they come handy.
+you have here some "people intensive" data collection methods like 'interviews' and 
 
-you have here some people intensive people intensive data collection methods like interviews and some system intensive all objects intensive like project documents okay ?
+some system intensive 
+all objects intensive like project documents okay ?
 
-first I define the constructs and to do that I perform a series of interviews okay ?
+first I define the constructs 
+and to do that I perform a series of interviews okay ?
 
-and I from this interview that I performed with the people in the company identify which are the most significant concepts okay ?
- and how do I do that? 
+and from this interview that I performed with the people in the company identify which are the most significant concepts okay ?
+and how do I do that? 
 
- you learned this when we do qualitative study and basically it's a strategy called open coding that means labeling the concepts in the Inditex finding representation finding fragments in the text that represent my my concepts okay ?
+you learned this when we do qualitative study and basically it's a strategy called open coding that means labeling the concepts in the text 
+finding fragments in the text that represent my concepts okay ?
  
- 
-so if people, 
-for example, like in a trivial case they mention that documentation many time documentation may may be relevant and 
+so if people, for example, like in a trivial case they mention that documentation many time 
+documentation may be relevant and 
 so this is one of my construct, okay ?
- and I can find it during the interview okay ?
- they are speaking about documentation and 
+and I can find it during the interview okay ?
+they are speaking about documentation and 
 so this is a relevant constructs. 
 
 these are the examples the same way that I gave you before 
-so code UML based development methods is a constructs because we are speaking about that cause communication design documentation 
-so these are all the building blocks that I want to consider in my theory and that are elicited they are identified in the interview transcripts okay ?
+so code "UML based development methods" is a constructs because we are speaking about that 1. COST 
+2. communication 
+3. design 
+4. documentation 
 
-in their interview with the people people are speaking about this thing 
-so they are elements that I need to consider my theory propositions propositions still from these interviews I can identify not just the elements but also the relationship 
+so these are all the building blocks that I want to consider in my theory and that are elicited. they are identified in the interview transcripts okay ?
 
+in their interview with the people 
+people are speaking about this thing 
+so they are elements that I need to consider my theory 
 
+---------------------
+propositions 
+---------------------
+propositions still from these interviews 
+I can identify not just the elements but also the relationship 
 again the paradigm of entity relationship diagrams is still relevant here. 
+like you have identified the entities 
 
- like you have identified the entities and now still in the interviews you identify the relationship and these are translated into propositions okay ?
+and now still in the interviews you identify the relationship and these are translated into propositions okay ?
 
 now I have a series of relationships 
-for example UML decrease in the effects cost 
-so increases costs and I want to understand whether this proposition that I gathered from the interview are actually true for all the people because the interview some people may mention this aspect and some people may not 
+for example "UML decrease in the effects cost"  so "increases costs"
 
+and I want to understand whether this proposition that I gathered from the interview are actually "true?" for all the people 
+because the interview
+some people may mention this aspect 
+and some people may not 
  
-so I need to test this with questioners this this preposition to make them more solid okay ?
- 
-then I provide explanation. despite I see that the in interview there is some explanation that explained the reason behind the proposition okay ?
+so I need to test this (proposition) with questioners, to make them more solid okay ?
+then I provide explanation. 
+
+I see that the in interview there is some explanation that explained the reason behind the proposition okay ?
+
 But in some cases 
 for example I may have no explanation 
-so I perform further interview that are more focused on finding explanation for certain statements of the of the people and that allow me to list the destination 
-for example Here I am the illumination is 
+so I perform further interview that are more focused on finding explanation for certain statements of the people 
+and that allow me to list the explanation 
+for example Here 
 
-more complete 
-more consistent 
+documentation is 
+1. more complete 
+2. more consistent 
+3. more readable :because it makes it easier to find specific information to a common format 
+4. more understandable for non-technical people 
+so if I have the diagram. it is more understandable, because technical people find it easier to understand the diagram that the technical written that the technical text okay?
 
-more readable because it makes it easier to find specific information to a common format more understandable for non-technical people 
-so if I have the diagram.
+it may be viewed from different expressed paired different perspective because I have different types of diagrams 
 
-it is more understandable, because technical people find it easier to understand the diagram that the technical written that the technical text okay?
+so these are all motivations that I can find in the interviews 
 
-it may be viewed from different expressed paired different perspective.
-
-because I have different types of diagrams 
-so these are all motivations that 
-
-I can find in the interviews 
 so we are at the step 3. 
+now step 4 : identifying the scope of interest of the theory.
 
-now step 4 it is define the scope of interest of the theory.
+so with this theory in principle 
+what do I want to cover okay ?
+I started from a specific company's, large company, (what do?) 
+but my aspiration is that I want this theory to hold in a large broad scope (ok?), that is the scope of interest of my theory 
 
+the scope of interest in general in software engineering can be defined according to these four elements (4 element = technology,actors,software system, activity
+)
 
-so with this theory in principle what do I want to cover okay ?
- I started from a specific company's, large company,
+1. one is the technologies that I consider, it considering and it is UML 
+2. in this case the actor, the actors that are involved and here are designers in distributed team, so this characterized my actors. 
+3. software system, here the type of software system is embedded software, large-sized embedded software  
+4. and activity, activities is in this case create a modify UML diagram, so if the editing of I could also have called activity tasks 
+for example tasks that : I'm doing is designing (okay ?) design, software design
 
-what do but my aspiration is that I want this theory to hold in a large broad scope ok.
-that is the scope of interest 
-so my theory the scope of interest in general in software engineering can be defined according to these four elements one is the technologies that I consider.
+----------------------------------
+TESTING THEORIES
+----------------------------------
+finally I need to test the theory 
+so I've done 
+all this interview 
+all this step 
+in inductive way 
 
-4 element = technology,actors,software system, activity
+because I was Following an inductive process 
+(interviews to eliciting)
+starting from the data of the interviews 
+and eliciting proposition and theory 
+but then now I have the theory 
+but this theory is not fully robust 
+(let's say) because I need to verified it !
 
-it considering and it is UML in this case the actor the actors that are involved and here are designers in distributed team 
-so this characterized my my actors software system here the type of software system in amber is embedded software large-sized embedded embedded software and activity activities in this case create a modify UML diagram 
-so if the editing of I could could also have called activity tasks 
-for example tasks that I'm doing is designing okay ?
+(I need to prove it ? eh, it's not proved  beliau salah menyebut need to prove it padahal harusnya verified)
 
-design software design finally I need to test the theory 
-so I've done all this interview all this step in inductive way because I was following an inductive process starting from the date of the interviews and eliciting proposition and theory but 
-then I now I have the theory but this theory is not fully robust let's say because I need to to prove it ok? 
-it's not proved I need to to bio to verify ok and in this case I apply deductive step.
+and in this case I apply deductive step.
 
 step 5 : deductive
 
-Deductive step means that I take the single proposition or a subset because probably to verify with quantitative methods a deductive approach. 
+Deductive step means that I take the "single proposition" or a "subset" because probably to verify with quantitative methods a deductive approach. 
 
 I cannot consider all the proposition all together but better to focus on one at a time. 
 
 and translate into hypothesis 
 and do some study ok?
+ 
+for example I can use. 
+I can take the proposition 
+"use of UML methods increases costs" 
 
+and I can decide to assess (beliau bingung lagi) with this preposition that can be translated into hypothesis, it's true ? 
 
-for example I can use I can take the proposition use of methods increases costs and I can decide to assess whether these hypo with is this preposition that can become an app or can be translated into an ecologist it's true by doing, by using different methods 
+by doing, by using different methods.
+
 for example I can do a field study (sorry for the typo here, tertulis di slide filed study)  
-but is field study an experiment or a survey, 
-
+1. field study 
+2. an experiment or 
+3. a survey, 
 
 for example if I do a field study I can identify companies that want to introduce UML and establish a clear way to evaluate the cost. 
 
 so I say ok man-hour is my way of evaluate cost.
 
 I consider another comparable company that's not using UML.
------------
-COMPANY USING UML VS COMPANY NOT USING UML affect cost (in man-hour) ? 
------------
-and I check the resulting cost of the two companies 
-so here I am studying in the real world someone that is introducing UML and someone that is not and I compare the cost if the one that is introduced in UML is having higher costs then I can say that it is true it is at least it is not false that the use of your main methods increases costs okay ?
- 
-then I can or I can do I can choose to do an experiment 
+
+======================================
+FIELD STUDY EXAMPLE : COMPANY USING UML VS COMPANY NOT USING UML affect cost (in man-hour) ? 
+======================================
+and I check the resulting cost of the two companies. 
+
+so here I am studying in the real world. 
+someone that is introducing UML and 
+someone that is not.
+and I compare the cost 
+
+if the one that is introduced in UML is having higher costs then I can say that it is true (it is at least) it is not false that 
+"the use of UML methods increases costs", okay ?
+
+=====================
+EXPERIMENT EXAMPLE
+====================
+then I can or I can do choose to do "an experiment "
 for example an experiment still related to the same proposition.
 
 in this case I take two group of subjects I give them a requirements document written in natural language 
 so that explain basically what the system should do I ask group one to take the document and write down the code and group two to write the diagram and 
 then implement the code and 
 then I can evaluate and compare the cost okay ?
- in this case I'm performing an experiment very narrow take group of subjects in a lab environment with a very well-defined requirement document.
- I have constrained in terms of constraints in terms of time it does not scale - it does not consider the whole context of a company.
- but still it's another way to evaluate whether this proposition is biased to assess my hypothesis ? 
+in this case I'm performing an experiment very narrow take group of subjects in a lab environment with a very well-defined requirement document.
+
+I have constrained in terms of constraints in terms of time it does not scale - it does not consider the whole context of a company.
+
+but still it's another way to evaluate whether this proposition is biased to assess my hypothesis ? 
  or 
 
- I can do a survey a question 
+I can do a survey a question 
 so with the same statement I can  contact multiple companies that have introduced UML.
 
- and I can ask them the same questions that it asks them to stay their agreement with with my proposition in this case I can reach more people and I can I can have an answer to more than one to two more than one of these questions.
- but of course I cannot go too deep into the reasons,
+and I can ask them the same questions that it asks them to stay their agreement with with my proposition in this case I can reach more people and I can I can have an answer to more than one to two more than one of these questions.
+
+but of course I cannot go too deep into the reasons,
  
 for example why someone is choosing a certain answer or not? 
 
- we will see that 
+we will see that 
 so this this survey and we will see all this type of study in our class 
 so based on this 
 
 ========================================
 step 5 : testing the theory
 ========================================
-let's study then identify the scope of validity that is larger for survey and I referred narrower for kill study as I was saying if I am using a survey I am reaching many more people than if I do a fit study 
+let's study then identify the scope of validity that is larger for survey 
+
+and I referred narrower for kill study as I was saying if I am using a survey I am reaching many more people than if I do a fit study 
+
 so if his study is proving somehow is verifying the hypothesis testing the hypothesis in a more restricted context okay ?
 
 but if I do a survey I am verifying and testing my hypothesis in a much broader much larger context okay ?
@@ -1020,7 +1187,6 @@ Theory evaluation
 4. parsimony
 5. generality
 6. useful
-
 
 so the testability is that in this case is average. 
 it is not 
@@ -1047,7 +1213,9 @@ the generality is a bit limited because my scope is related only to a field stud
 
 but the utility is very high because you can help decision making 
 so if I am company, I know that this very large company has used UML and it has affected the cost but it has improved the quality of documentation.
-I can know what to do! 
+
+I can know what to do ! 
+
 if I have money to invest and I know that in the long term using this language pays off and this is the written in a paper from a study of a large sized company that is comparable to mine this is extremely useful, okay ?
 I don't have to take (high risk).
 I can take the risk of introducing UML.
