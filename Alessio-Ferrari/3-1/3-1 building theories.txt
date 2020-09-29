@@ -1136,50 +1136,88 @@ if the one that is introduced in UML is having higher costs then I can say that 
 =====================
 EXPERIMENT EXAMPLE
 ====================
-then I can or I can do choose to do "an experiment "
-for example an experiment still related to the same proposition.
+then (bingung lagi "I can or") 
+I can do choose to do "an experiment "
+for example : an experiment still related to the same proposition.
+(proposition nya : (UML) DIAGRAM -> COST)
 
-in this case I take two group of subjects I give them a requirements document written in natural language 
-so that explain basically what the system should do I ask group one to take the document and write down the code and group two to write the diagram and 
-then implement the code and 
+in this case I take two group of subjects 
+I give them a requirements document written in natural language,so, that explain basically what the system should do 
+--------------------
+GROUP 1 VS GROUP 2
+--------------------
+I ask group one 
+1. to take the document and 
+2. write down the code 
+
+and group two 
+1. to write the diagram and 
+2. then implement the code and 
+
 then I can evaluate and compare the cost okay ?
-in this case I'm performing an experiment very narrow take group of subjects in a lab environment with a very well-defined requirement document.
 
-I have constrained in terms of constraints in terms of time it does not scale - it does not consider the whole context of a company.
+in this case I'm performing an experiment very narrow 
+take group of subjects in a lab environment with a very well-defined requirement document.
+
+I have constrained in terms of time 
+it does not consider the whole context of a company.
 
 but still it's another way to evaluate whether this proposition is biased to assess my hypothesis ? 
- or 
 
-I can do a survey a question 
-so with the same statement I can  contact multiple companies that have introduced UML.
+====================
+SURVEY EXAMPLE
+====================
+or I can do a survey a question 
+so with the same statement (UML affect COST)
+I can contact multiple companies that have introduced UML.
 
-and I can ask them the same questions that it asks them to stay their agreement with with my proposition in this case I can reach more people and I can I can have an answer to more than one to two more than one of these questions.
+and I can ask them the same questions 
+
+asks them to said their agreement with my proposition 
+in this case 
+I can reach more people 
+and I can have an answer to more than one to two more than one of these questions.
 
 but of course I cannot go too deep into the reasons,
  
 for example why someone is choosing a certain answer or not? 
 
 we will see that 
-so this this survey and we will see all this type of study in our class 
-so based on this 
+so this this survey 
+and we will see all this type of study in our class 
 
 ========================================
 step 5 : testing the theory
 ========================================
+so based on this
 let's study then identify the scope of validity that is larger for survey 
 
-and I referred narrower for kill study as I was saying if I am using a survey I am reaching many more people than if I do a fit study 
+and I referred narrower for FIELD study 
+============
+SURVEY > FIELD STUDY in the case People reachment
+================
+as I was saying 
+if I am using a survey 
+I am reaching many more people than if I do FIELD study 
 
-so if his study is proving somehow is verifying the hypothesis testing the hypothesis in a more restricted context okay ?
+so FIELD study is proving somehow 
+is verifying the hypothesis 
+testing the hypothesis in a more restricted context okay ?
 
-but if I do a survey I am verifying and testing my hypothesis in a much broader much larger context okay ?
+but if I do a survey
+I am verifying and testing my hypothesis in a much broader much larger context okay ?
  
-then still in this example as I said before the these different ways of evaluating the theory.
+==============
+GENERATING THEORIES : EXAMPLE
+==============
+then still, in this example as I said before 
+these different ways of evaluating the theory.
 in this case I did assume that I didn't test ! 
-I didn't do the theory testing. 
 
+I didn't do the theory testing. 
 so I stopped at with the inductive stage.
 
+=====================
 Theory evaluation
 1. testability
 2. empirical support 
@@ -1187,50 +1225,70 @@ Theory evaluation
 4. parsimony
 5. generality
 6. useful
-
-so the testability is that in this case is average. 
-it is not 
-so high because it is true that constructs are well-defined and the proposition are clear.
-
-but on the other hand these, are definitions, are not numerical and the data collection was qualitative 
+=====================
+------------------------------
+1. testability
+------------------------------
+so the testability is in this case (UML affect COST ?) "is average"
+it is not so high because it is true 
+that constructs are well-defined and the proposition are clear 
+BUT....on the other hand 
+these definitions are NOT NUMERICAL ! 
+and the data collection was qualitative (interview and survey)
 
 so I've done some open coding 
-
 so I used strategies that are somewhat subjective 
-
-so testability is limited and I could have different results okay ?
-
+so testability is limited and I could have different results okay ? 
+(jika replikasi dilakukan maka hasilnya bisa saja berbeda)
+------------------------------
+2. empirical support
+------------------------------
 empirical support seems to be good because 
 for example I find other studies that seem to support my proposition 
-
+------------------------------
+3. explanatory power
+------------------------------
 explanatory power is also limited because motivations are derived from the interviews.
 
-so the the reasons why have not been actually I didn't to consider all the possible variables that may explain why okay ?
-
+so the the reasons why have not been actually I didn't to consider all the possible variables that may explain WHY okay ?
+------------------------------
+4. parsimony
+------------------------------
 parsimony yeah I can consider, I can give arguments that the number of constructs is limited.
-
+------------------------------
+5. generality
+------------------------------
 the generality is a bit limited because my scope is related only to a field study in a specific company okay ?
-
+------------------------------
+6. useful
+------------------------------
 but the utility is very high because you can help decision making 
-so if I am company, I know that this very large company has used UML and it has affected the cost but it has improved the quality of documentation.
+so if I am company, I know that this very large company has used UML 
+and it has affected the cost (ughh!)
+but it has improved the quality of documentation (hore!)
 
 I can know what to do ! 
 
-if I have money to invest and I know that in the long term using this language pays off and this is the written in a paper from a study of a large sized company that is comparable to mine this is extremely useful, okay ?
+if I have money to invest 
+and I know that in the long term using this language pays off 
+and this is the written in a paper from a study of a large sized company that is comparable to mine this is extremely useful, okay ?
+
 I don't have to take (high risk).
 I can take the risk of introducing UML.
 
-so this theory maybe not 
-so much supported. 
-not 
-so much general but still very useful okay ?
+so this theory maybe not so much supported. 
+not so much general but still very useful okay ?
 
-and these are all arguments that when you develop a theory when you do an implicit study like the one exemplified are all illogical arguments that have be to be checked by peers.
-
-
-so you write these arguments that these are just words but the 
-so called reviewers of your research will we check whether these arguments are sound okay ?
+and these are all arguments that 
+when you develop a theory 
+when you do an empirical study 
+like the one exemplified are all logical arguments that have be to be checked by peers.
 
 
-so the there is a research community a set of other people that will read your arguments to support your theory and and will be allowed to evaluate your work okay ?
- 
+so you write these arguments that these are just words but the (so called) reviewers of your research will we check whether these arguments are sound okay ?
+
+so the there is a research community (a set of other people) that will read your arguments to support your theory and and will be allowed to evaluate your work okay ?
+
+Peer-review akan dilakukan oleh reviewer apakah argument kita punya sound? atau unsound? 
+
+6 kriteria tersebut akan digunakan saat melakukan evaluasi teori yang kita tawarkan.
