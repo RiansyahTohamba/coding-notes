@@ -1,6 +1,6 @@
 crash course philosoph argument 
 species of argument
-1. deductive = collection of premise that lead to conclusion
+1. deductive
 2. inductive 
 3. abductive
 4. etc
