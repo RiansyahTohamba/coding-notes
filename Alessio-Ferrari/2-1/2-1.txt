@@ -1,0 +1,928 @@
+okay so welcome so last lecture we've
+
+seen a brief introduction to to the
+
+outline of the course and the main
+
+content of the course and we sold so in
+
+the second part some guideline on how to
+
+formulate and write down research
+
+questions that are like the starting
+
+point of of any research in this lecture
+
+we will speak more about why research
+
+question are the very the most abstract
+
+thing that say in your in your research
+
+now we will look at the more concrete
+
+most concrete thing in your research
+
+which are the data and so we speak about
+
+data types measures and scale you might
+
+have you may have seen these things
+
+already in the past but I'm like at
+
+least refreshing them and I will show
+
+you today also about I will talk to
+
+readers I will teach you about data
+
+collection methods different data
+
+collection methods that you may
+
+encounter during during your career and
+
+in in software engineering research in
+
+general so last time we we saw some we
+
+gave an overview of the different
+
+empirical methods that I used to
+
+commonly software engineering so we
+
+spoke about spoke not in detail but at
+
+least we mentioned about surveys
+
+interview experiments case studies
+
+literature reviews judgments studies now
+
+the the common thing between all these
+
+empirical study is that they all entail
+
+some observation as I showed in the
+
+other presentation in the previous
+
+lecture you always start from some
+
+observation in the reality and then you
+
+go back to to the theory space and and
+
+then you move again to to to the reality
+
+to test your T
+
+okay so you always observe and you
+
+always have to collect some data so any
+
+empirical method that I will teach you
+
+we need some form of data collection
+
+activity okay so let's look at what type
+
+of data we will we will try to collect
+
+basically there are two big families of
+
+data the so called qualitative data
+
+which are mainly words but could be also
+
+any also even images could be diagrams
+
+but in our in our case we will mostly
+
+speak about that those that can be
+
+treated as words let's say and that come
+
+from interviews but also surveys and
+
+also documents and more recently for
+
+software engineering we've been studying
+
+also qualitative data sources such as
+
+social media opinions called comments
+
+and also app reviews because if you have
+
+an app and you have several reviews
+
+these reviews may contain information
+
+that he useful for software engineering
+
+for software engineers to improve the
+
+app so may contain additional
+
+requirements that the developers did
+
+have considered at the beginning and
+
+these are qualitative data so quality
+
+data for you now is the synonym of words
+
+okay
+
+quantitative data instead is numbers
+
+okay so they come from generally exact
+
+measure measurement that you do and you
+
+can also do these measurements also on
+
+qualitative data
+
+of course because qualitative data can
+
+can can be transformed somehow also into
+
+into numbers now for example if I want
+
+to count how many times a certain word
+
+certain relevant word is mentioned in a
+
+bunch of up reviews I'm transforming
+
+words into numbers into frequency
+
+numbers okay so I'm dealing with
+
+qualitative and quantitative data and of
+
+course qualitative data are less precise
+
+but more rich
+
+quantitative data are more precise but
+
+the meaning is is not is not always
+
+straightforward okay I need some
+
+interpretation and some some
+
+predetermined interpretation because all
+
+some qualitative data of course I need
+
+interpretation
+
+so given this distinction let's start to
+
+give some definition and then I will
+
+give you some example this is definition
+
+of a measure so we're dealing with data
+
+we want to measure data a measure let's
+
+read this light a measure is a mapping
+
+from the attribute of an entity to a
+
+measurement value which can be numerical
+
+or categorical numerical is a number
+
+categorically is a label again a way of
+
+a kind of a world of or label or tag
+
+let's say so I'm measuring attributes of
+
+entities what are entities entities are
+
+any object that I cannot serve in the
+
+words and entities self shares for
+
+example an entity can be the source code
+
+in the software engineering environment
+
+in an attribute of the source code that
+
+I want to measure is the complexity for
+
+example I have this this code and I want
+
+to understand how complex it is how much
+
+complex for example because I would like
+
+to understand whether more complex code
+
+is related to is related to more bugs
+
+has a correlation with increasing number
+
+of bugs or increasing number of defects
+
+so I can choose different measure for
+
+evaluate complexity I can use a measure
+
+that can be the number of lines of code
+
+it's a simplification but of course it
+
+gives an idea that more more lines also
+
+imply may imply more complexity and the
+
+measure has a value in this case I've
+
+wrote 1,000 so a 1000 lines of code I
+
+can also choose to make another type of
+
+measure for the same attribute so I have
+
+still the complexity to measure but this
+
+time I want to evaluate the complexity
+
+as it is evaluated
+
+by a user as it is perceived by someone
+
+who reads the code so this person will
+
+not count the number of lines this
+
+person will tell me hey this is very
+
+complex or this is not complex at all it
+
+will give an estimation that that is
+
+based on on a scale that I may decide or
+
+or I mean I may interview him and try to
+
+infer which is which is the scale by
+
+interviewing several other people but
+
+the most most the simplest thing to
+
+measure this would be to ask him hey is
+
+this low complexity
+
+average complexity high complexity for
+
+example and so I have a measure given by
+
+by a certain user of course different
+
+measures may have different implications
+
+because the lines of code is something
+
+that is objective okay the devaluation
+
+made by the user may change for another
+
+user so I have to consider that
+
+depending on the measure that I choose I
+
+may have different different implication
+
+in terms of objectivity and subjectivity
+
+of the measure and I have different
+
+implication in terms of resources that I
+
+need to estimate the measure because for
+
+example for measuring 1,000 lines of
+
+code I just need to count the lines in
+
+an automated way in the second case I
+
+need many uses many subjects and compare
+
+and make an average of the of their
+
+evaluation to establish which is the
+
+value of the on my measure the actual
+
+value as a reliable very old manager
+
+okay but what is the overall goal of
+
+having measures associated to data so
+
+every measure associated to attribute of
+
+the entity my amira in my environment
+
+the goal is to characterize and
+
+manipulate the attributes in a formal
+
+way so once I have measures I can do
+
+better comparison I can do some
+
+statistics okay and the more the measure
+
+is a
+
+start the more the measure is powerful
+
+the most power the more powerful
+
+statistics I can apply ok so let's look
+
+it is let's look at another definition
+
+the definition is a scale okay
+
+as I said the mapping of the attribute
+
+to a measurement value can be done in
+
+different ways okay each way is a scale
+
+okay as I as I showed you before I use
+
+different scale to evaluate the
+
+complexity attribute okay in this case
+
+you see it you see you see in the
+
+picture the entity that is such codes
+
+the attributes is again complexity I can
+
+have a measurement value that is one
+
+thousand the one that I showed before
+
+and this scale is LOC which is lines of
+
+code okay I produce another scale for
+
+example number of variables to to
+
+identify complexity and it's another
+
+scale I can use the other complexity
+
+complexity estimated by a user okay and
+
+the measurement value will be very
+
+complex and the scale will be complexity
+
+by the user
+
+okay evaluated complexity I can invent
+
+let's say this this different scale
+
+scale types okay I will poke we spoke
+
+about scale we understood that that day
+
+is according to the example that I gave
+
+that can be numbers but I can never be
+
+old so words so this already gives a
+
+hint that there is some some differences
+
+in the in the types of scale and here
+
+you have you have a list of the
+
+different types the that go from the
+
+less polished powerful the nominal scale
+
+until the most powerful the ratio scale
+
+nominal scale are named values so for
+
+example the rebbe can be for example
+
+many liter or can be also the type of
+
+defects for example in code for example
+
+or only in requirements for example it
+
+can be this requirement is ambiguous
+
+this requirement is incomplete okay
+
+basically all nominal scale map the
+
+attribute of the entity into a name or
+
+symbol okay it can be seen as a form of
+
+classification of the attribute so types
+
+of code defects is a typical is a
+
+typical representation like for example
+
+is the code effect can be function is
+
+overly long function is overly complex
+
+okay of course in nominal scale with
+
+respect to ordinary you don't have an
+
+order you are just classes and you don't
+
+have an order between the classes in not
+
+in a scale you still have labels but
+
+this label are ordered okay the ordinal
+
+scale ranks the entities after an
+
+ordering criterion okay so I say greater
+
+them better the more complex for example
+
+in this case risk can be evaluated as
+
+catastrophic critical marginal or
+
+negligible okay you can have different
+
+level of risk and catastrophic is
+
+greater than in terms of risk negligible
+
+and is greater than critical so you have
+
+an order in your scale interval scale
+
+they introduce numbers basically an
+
+interval scale is used when the
+
+difference between two measures are
+
+meaningful but the value itself is not
+
+meaningful this is not directly
+
+intuitive for for I think it's not it
+
+cannot be grasped at first first glance
+
+but mmm you have to consider that this
+
+type of scale are the ones that are like
+
+your dinner scale but you have numbers
+
+instead of labels and there is these
+
+numbers are useful because they allow
+
+you to establish a relative distance
+
+between two entities okay these are not
+
+so frequent in software engineering but
+
+imagine for example the temperature in
+
+Celsius or Fahrenheit
+
+this is a typical interval scale so the
+
+difference between 38 degrees and 39
+
+degrees makes sense is 1 degree but but
+
+there is no actual meaningful 0 body
+
+okay it is a convention the zero Celsius
+
+okay
+
+while the zero Kelvin is a meaningful
+
+value because you don't have also
+
+negative values for example in the in a
+
+Celsius scale mmm the zero value is a
+
+convention okay anytime the zero value
+
+is a convention it is likely to be an
+
+interval scale in software engineering
+
+there are rare but they can also be
+
+introduced in an experiment to evaluate
+
+some some specific articles for example
+
+if I want to evaluate the usability of a
+
+certain software tool I can create a
+
+test that allows me to establish some
+
+some score of the usability and this
+
+score is this score is a would be
+
+numerical and we not have probably a
+
+zero level of usability a meaningful
+
+zero level of usability okay it will
+
+range for example between I don't know
+
+five and ten or five and fifteen because
+
+all the elaboration that I make on the
+
+test as answers to the test allows me to
+
+create this type of scale in which I
+
+have an order and the difference between
+
+the values of usability is meaningful
+
+but I don't have a meaningful zero this
+
+is also for the same thing for the IQ
+
+okay but in general these are not so
+
+common in software engineering but
+
+consider that you may need to generate
+
+them for your software engineering
+
+experiment and finally the Russia scale
+
+the Asha scale are more the more
+
+powerful in this case the additional
+
+thing is that you have numbers but there
+
+is also meaningful zero value negative
+
+value does not exist okay do not exist
+
+meaningful zero value implies that you
+
+can do ratio you can do division okay so
+
+the ratio between two measures in a
+
+ratio scale is meaningful okay
+
+this leads you leads us to
+
+first consideration first on some
+
+typical scales that are time and
+
+duration and and the other one about the
+
+power of the different scale okay
+
+time in duration what type of scalar
+
+them time can be considered an interval
+
+scale while duration is a ratio scale
+
+time is an interval scale because there
+
+is no fixed started points that point
+
+for example we are considering like the
+
+birth of as in a Christian community we
+
+may consider the birth of Christ as the
+
+starting point of the of the time but
+
+actually it's a convention okay we
+
+decided one day that that was our 0 for
+
+time but time existed also before that's
+
+why we are saying also before Christ
+
+okay so there is four time there is no
+
+actual meaningful zero it's a zero is a
+
+convention why for duration duration is
+
+a ratio measure and indicates the amount
+
+of time something takes and it has a
+
+meaningful zero because it is zero time
+
+passed it is as this as somehow a
+
+meaning okay and divisions ratios of
+
+meaning okay for example 20 seconds is
+
+twice as long and 10 second and 10 days
+
+is twice as long as five days okay so I
+
+can do this type of this type of this
+
+type of computation so I division and
+
+multiplication okay
+
+this leads us to the scale types and the
+
+power that they have so also in to Italy
+
+intuitively we understand that the
+
+nominal scale is the least powerful
+
+because I can count like for example
+
+just frequency or distribution of mold
+
+and for for ordinal scale I can do
+
+something more but but not much interval
+
+scale are the ones for which I can start
+
+doing some real computation for example
+
+evaluate the median the mean and come to
+
+Phi the difference between each value
+
+can add or subtract value so interval
+
+scale nah man America scale but do not
+
+allow me to multiply and divide
+
+values mostly because the zero in this
+
+case is always a compassion okay the
+
+ratio scale I have the true zero I can I
+
+can do all of the operation in software
+
+engineering you will deal with with all
+
+these type of scales but it is important
+
+that you remember that they have
+
+different powers
+
+okay different different power basically
+
+different power and so this implies that
+
+some operation cannot be done on nominal
+
+scale ordinal scale and interval scale
+
+so if you have an interval scale you
+
+cannot do multiplication and divisions
+
+and some operation are there for some
+
+statistics are therefore not allowed
+
+okay other other characteristic of the
+
+measures are you ready introduce some
+
+gave a hint before about objective and
+
+subjective measure here you see a more
+
+more precise description or ejective
+
+measure basically is a measure that does
+
+not require a judgement by by an
+
+external subjects okay and the value is
+
+only dependent on the entity that is
+
+being measured so you don't you know
+
+even if you measure it ten thousand
+
+times so you will always have the same
+
+the same measure considering also of
+
+course the measurement error subjective
+
+measure instead they require some
+
+subjects to perform the measure okay and
+
+so there is a viewpoint they involved
+
+and the viewpoint affects the measure
+
+okay so it can be different if the
+
+measure is the entity's measured again
+
+and normally they are normal are no
+
+nominal or ordinal scale type like the
+
+ones that I that I exemplified before
+
+for example very complex or not so
+
+complex okay then there is a further
+
+distinction between direct and indirect
+
+measures direct measure are the one that
+
+simple measurements do not involve
+
+measurements on other attributes for
+
+example
+
+Coates okay and indirect measure of the
+
+more complex one so that that are
+
+derived from combination of different
+
+other measures or the involvement or
+
+other entities so as we have seen random
+
+measures in so Tanjung are often
+
+indirect okay you cannot you rarely
+
+measure just lines of code okay you most
+
+often want to measure complexity
+
+usability okay
+
+subjective and you very often so involve
+
+some some person in the valuation of the
+
+other of your of your management and are
+
+normally expressed in nominal or ordinal
+
+a scale so they are not so powerful
+
+because you always ask in some people to
+
+to do some evaluation okay so also even
+
+there's also the statistics that you can
+
+do are limited okay
+
+however and most of the times what we
+
+want to do in social engineering
+
+experiments and in software engineering
+
+research in general is try to link some
+
+internal attributes like code sides the
+
+color of the guy of the graphical user
+
+interface to some external one so
+
+perceived complexity usability etc so
+
+you can see there on one hand an
+
+internal attribute and you want to
+
+understand twitches to which extent it
+
+relates to an external attribute okay
+
+the real thing as I was telling before
+
+is that you normally could not apply
+
+advanced statistical analysis to when
+
+you use this measure because they often
+
+entirely subjective nominal and with
+
+ordinal or without in a scale but we do
+
+it anyway okay this is a violation of
+
+some sometimes of some statistical
+
+statistical assumption but some
+
+information some little information is
+
+is is better than nothing and we should
+
+always be aware of the validity of our
+
+conclusion
+
+we'll go through the issue of validity a
+
+very frequent we've encountered this
+
+issue of validating very frequent in
+
+this course if you feel curious you can
+
+refers to refer to this paper in which
+
+there is a discussion on how despite the
+
+the fact that using some measure is not
+
+some that applying sunset resistance
+
+statistics is not appropriate in
+
+software engineering we do it anyway
+
+mostly because having an indication is
+
+better than knowing nothing okay so if
+
+you want to know more please refer to
+
+this paper
+
+so now let's let's but let's do a little
+
+break and let's let's pass afterwards to
+
+to the other
+

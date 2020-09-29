@@ -3,7 +3,7 @@ Lecture 1.2 - Roles, Tasks and Research Questions.
 Lecture 2.1 - Data Types, Measurements, Scale
 Lecture 2.2 - Data Collection Techniques
 Lecture 3.1 - Building Theories in Software Engineering
-Lecture 3.2 - Research Strategies
+Lecture 3.2 - Research Strategies (ABC research framework)
 Lecture 4.1 - Controlled Experiments
 Lecture 4.2 - Hypothesis Testing
 Lecture 5.1 - Selecting Statistical Tests
