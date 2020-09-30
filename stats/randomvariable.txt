@@ -1,0 +1,15 @@
+sebagian ilmunya ada di repo 'learn-stats' (jupyter notebook )
+
+variable ini valuenya bukanlah SET melainkan "single value" tapi random 
+
+variable ini bisa interval (misal 1<=X<=3) atau diskrit (misal X=1)
+
+untuk P(X=2) = 1/2
+
+fungsi P(Probability) = PMF OR PDF tergantung tipe X
+
+jika X nya diskrit maka
+PMF(X=2) = 1/2
+
+jika X nya REAL maka 
+PDF(1<=X<=3) = 1/2

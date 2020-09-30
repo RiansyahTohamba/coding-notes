@@ -1,3 +1,10 @@
 Random Variable
-cdf
-pdf
+Calculus singkatan dari calculus infinite small
+Area under curve : bentuk beraturan , persegi dan yang tak beraturan
+
+kaitannya dengan probabilitas
+AUC di pakai untuk PDF, yang dense, rapat
+
+
+
+
