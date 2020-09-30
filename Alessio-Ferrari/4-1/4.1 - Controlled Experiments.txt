@@ -54,7 +54,7 @@ when I have to involves human subjects
 it is the case for exam on the human subject 
 so no software subjects involved, but still in the field of software engineering there is the second example. 
 ===
-so my research berada pada posisi HUMAN SUBJECT, yakni Method refactoring terhadap kemampuannya untuk di maintain oleh the next Maintainers ?
+so research about refactoring use HUMAN SUBJECT, yakni Method refactoring terhadap kemampuannya untuk di maintain oleh the next Maintainers ?
 Maintainer akan kesulitan dengan high coupling ? 
 ya beberapa riset menunjukkan change-then-fault pronennes dipengaruhi oleh dispersion coupling ?
 How to consider the experience of programmer , john outsterhart tidak punya masalah dengan high LOC of Class atau high LOC of Method ?
