@@ -1,0 +1,9 @@
+pvalue statequest
+
+1. how to interpret p-value?
+contoh dari 2 obat yang diberikan pada 2 grup
+
+contoh pertama  untuk grup A 2 orang dan grup B 2 orang
+contoh kedua untuk 12000 orang
+2. how to count p-value?
+
