@@ -1,0 +1,198 @@
+=================================
+dimulai pada waktu ke 1:06:15 - 1:17:06 = 11 menit
+CONCLUSION OF INTRODUCTION OF EMPIRICAL STUDY IN SW ENGINEERINGS
+0. rujukan ke daniel mendez
+1. NO UNIVERSAL TRUTH
+2. VALUE OF scientific theories
+3. Theory building is a long endeavour (lamaaa)
+4. Be skeptical and open at the same time
+5. Be always aware of strength & limitation, validity and scope, relation to existing BOK
+6. appreciate the value of all research process and methods, null	results, replication studies
+7. Be an active part of something bigger
+=================================
+
+0. rujukan ke daniel mendez
+
+so as a to conclude this very long introduction. 
+I would like to give you just 
+a few information 
+a few hint 
+a few reflections 
+that are taken from Daniel Mendez which is who is a colleague and I invite you also to look at his slide
+took inspiration from his slide ! 
+
+also for that the link is there in the slide for the pattern on building theories in software engineering.
+
+so if you want to know more especially about concept philosophical context such as 
+reductionism 
+structural 
+constructivist and 
+positivist approaches 
+
+and all these philosophical terms, you can refer and have an even larger view of of the theory building !
+
+you can refer his own slides ! okay? that are public. 
+
+--------------
+1. NO UNIVERSAL TRUTH
+
+the thing that you should remember and that we can consider as commandments of software engineering is that of empirical software engineering is that 
+
+there is "no such thing as an absolute and/or universal truth"
+so "truth is always relative" ok? 
+
+everything i apply one of the methodology as I said, I lose some information either on 
+the behavior on the actor or 
+on the context 
+so there is no way in empirical studies to find a universal truth ok? 
+
+2. VALUE OF scientific theories
+the value of a scientific theory that is derived through one of these strategies depends on the ability to stand criticism by the research community.
+
+so peers have to evaluate to "what extent you are convincing?" 
+ok? 
+
+"what extent your studies convincing?" ok? 
+
+the contribution to the body of knowledge.
+
+so how much you are actually contributing in terms of existing evidence 
+
+does your contribution actually say something new ? 
+and sufficiently different from what he was told before? 
+or is sufficiently confirming to a certain degree what was intuitively shown before? 
+
+for example and ability to solve the problem so I mean 
+
+so the problem is fundamental so the value is related to how much also it is useful 
+your research 
+your theory is useful. ok? 
+
+
+this is as i said before I want to repeat it theory building is alone than ever as I said as I shown there may be a step inductive step then 
+
+afterwards a deductive step followed by other deductive steps ok 
+
+you may have different iterations before covering the scope of interest of your theory ok and this iteration are also within the study themselves as I said 
+
+when we were speaking about research questions sometime ago your research questions becomes stable just at the end of the research ok? 
+
+because the data it will show you something new always 
+and you will have to iterate even in your own research so iteration means that you have iteration between different stages from exploratory to explanatory 
+
+but at the same time you have also iteration within your own research to change to make linear to show as linear something that actually was developed through different iteration 
+
+--------------
+3. Theory building is a long endeavour where
+--------------
+and again it is important to consider the acceptance by peer so research communities are key in here for both acceptance and criticism of your own research not just evidence but also evidence that can be communicated and it is in and it is argued in a in a clear way so that to other peers other people that are competent in the field can judge okay other other 
+
+the other come commandant somehow are 
+
+be skeptical and open at the same time of course this is this is also key do not consider that something that is some statement that you find in the book 
+
+or that I communicate to you is true and is true forever okay criticize it because things change and both in the rigour in which research is performed and both in the software engineering reality the way we were building software ten years ago 20 years ago is not the same way that we are approaching the software problem today okay 
+
+
+and be also open at the same time skeptical but also open to the 
+new arguments that are expressed 
+
+because this is not a process in which we are building theories and it is like a pyramid that remains there okay theories are transformed !
+
+transformed with time 
+because theories try to represent a reality 
+that is ever-changing okay? 
+5. be always aware of
+a. strengths & limitation of the single research strategies 
+
+fundamental to consider strengths of limitation and the single research strategies that that we listed before.
+so again no silver bullets !
+no strategy that can can optimize for the different elements 
+
+
+
+================================
+contoh aspek anekdot , efek LSD ke mental disorder
+memberitahukan efek sebuah  LSD kepada objek riset sebelum mereka diberikan obat akan menghantarkan kepada BIAS, dimana kebanyakan objek akan menjawab bahwa efek nya sesuai dengan apa yang "didoktirinkan" sebelumnya.
+Mirip placebo.
+Jika programmer diberi sugesti akan manfaat method (TDD, AGILE, Refactoring) maka mereka bisa bias dan tak melihat dimensi lainnya.
+================================
+and consider the validity analyze always the validity of your study and be self-aware also of the bias to that you may introduce in your research 
+--------------------------------------------------
+LSD: GOOD TRIP VS BAD TRIP karena objek "dibisiki" sebelumnya
+----------------------------------------
+for example, here I can give you an anecdote aspect, is not related to software engineering, but to is related to the use of LSD.
+
+"The use of LSD to cure some mental disorders" okay ?
+
+and also to enhance the capability of of the people to have the some form of "mystical experience". 
+
+These people that were doing experiment with this product Halucinogent product. 
+basically they were explaining before doing the test with the people, 
+they spent like one hour or two with them
+explaining them "what would be the trip like" okay? 
+
+and they asked him somehow questions to them that were already driving them towards a certain type of mystical experience 
+
+so the experimenter was actually oriented to have 
+a good experiment ! 
+a sound experiment ! 
+with the randomized trials 
+people selected randomly 
+
+but at the same time the way that he was training the people for the experience was biasing them towards the mystical experience 
+
+so they were speaking already about mystical aspects one hour before 
+
+and (of course )this had an influence on the way 
+they experienced & the actual trip with the LSD okay? 
+
+if they were speaking about, for example tragic aspects of the usage of the drug 
+then the experience would have been probably "a bad trip" or something completely different, okay? 
+
+I'm giving you this, as an example 
+because it is showing the good faith of the researcher in creating in demonstrating that "something is useful" 
+because for these people using this drug was actually "seen as a new medicine" for the people okay? 
+
+but at the same time they meant goods 
+they want to do the experiment in a good way 
+but at the same time they were introducing some bias, okay? 
+---------------------
+
+finally, appreciate the value of all research process and methods 
+you've seen a variety very large variety 
+(large variety of) new results 
+
+so also is if some theory that is developed "it doesn't work" 
+so if you happen to review a paper or 
+to read about an experiment "that failed"
+(then) don't criticize that much 
+
+because "knowing that something doesn't a work is knowing", okay? 
+----------------------
+and appreciate replication study 
+-------------------
+so if someone did the same thing like another one this still has value okay because 
+
+progress and knowledge come through repetition and one key element that I want equality of research was testability 
+
+if I can replicate a study it means that is testable 
+and if it's testable it means that I can if I reproduce the same results 
+
+these rain firts a lot the study 
+because it takes away a lot of the possible bias 
+that may be introduced and a lot of variable 
+confounding variables that may be introduced in the earlier study 
+
+so replication studies are very important 
+
+and again be an active part of something bigger in your studies ! 
+if you decide 
+if you go ahead with studying these topics 
+you will be able to cover in your career 
+just few steps of a certain theory 
+
+and just contribute to some bricks of the some elements of the old knowledge 
+
+but so you will need to rely on other people 
+and it is important that you clearly communicate your results okay!
