@@ -32,29 +32,45 @@ let's start with some practical typical examples that that can give us an overvi
 experiments they can be in software engineering at least like because experiments, of course, we study them in this specific 
 in this specific field they can be with soft subject or with human subjects. 
 so for example experiment with only software subject ARE like the one that is that is described here. 
+
 software subject : TOOL A VS TOOL B
 
-I have two tools so one tool a and one tool B and they do automatic testing okay they're push-button tools for testing so I have some code I press a button and the to test my code and 
-
-I want to compare them I want to compare them in terms of different aspects for example 
+I have two tools 
+so one tool a and one tool B 
+and they do automatic testing okay ?
+they're push-button tools for testing 
+so I have some code (then) I press a button 
+and the to test my code 
+and I want to compare them in terms of different aspects 
+for example 
 how many bugs do they find ? and 
-how how fast they are in finding this bugs? etc.
-so I need to compare two tools in this case since they are push button tools out of my completely out of fully automatic tools I don't I do not need to involve people okay? 
+how fast they are in finding this bugs? etc.
+so I need to compare two tools 
 
-so it's an experiment with only software subjects when I have to involves human subjects it is the case for exam on the human subject so no software subjects involved, but still in the field of software engineering there is the second example. 
+in this case since they are push button tools (fully automatic tools) then I do not need to involve people okay? 
+
+so it's an experiment with only software subjects 
+when I have to involves human subjects 
+it is the case for exam on the human subject 
+so no software subjects involved, but still in the field of software engineering there is the second example. 
 ===
 so my research berada pada posisi HUMAN SUBJECT, yakni Method refactoring terhadap kemampuannya untuk di maintain oleh the next Maintainers ?
 Maintainer akan kesulitan dengan high coupling ? 
 ya beberapa riset menunjukkan change-then-fault pronennes dipengaruhi oleh dispersion coupling ?
-Bagaimana dengan consider the experience of programmer , john outsterhart tidak punya masalah dengan high LOC of Class atau high LOC of Method ?
+How to consider the experience of programmer , john outsterhart tidak punya masalah dengan high LOC of Class atau high LOC of Method ?
 =====
 METHOD X FOR EXPERT VS NOVICES ?
 
 so I have a certain method that is a manual strategy for finding bugs in the code. 
 so I manually reviewed the code and I search for bugs according to a certain checklist, for example. 
 a new checklist for finding bugs were also other defects in the code my question can be. 
-how effective is this guideline this checklist for experts and how effective is it for novices ok? 
-what is the differences between novices and experts in adopting this type of method? so here I'm involving human subjects I'm studying constructs related to to the subjects because D is the level of expertise here that are studying actually and I want to see 
+
+how effective is this guideline, this checklist, for experts ?
+and how effective is it for novices ok? 
+
+what is the differences between novices and experts in adopting this type of method? 
+so here I'm involving human subjects 
+I'm studying constructs related to the subjects because D is the level of expertise here that are studying actually and I want to see 
 how the the certain strategy, how the behavior of the people varries when using these specific strategies ok? 
 
 specific strategy varies in terms of effectiveness so this effectiveness can can be again defined in different ways so how many bugs do they find out how quick are them in finding bugs so but the idea here is that while in the first example you have only software subjects in here you have only human subjects and strategy ok? but most of the time you mix it ! 
