@@ -18,8 +18,8 @@ summary
 8. first example : software  (34:30 - 40:40)
 9. second example : software and human (40:40 - 48:24)
 10. advantage and disadvantage (48:24 - 54:28)
-selanjutnya : hypothesis testing
 
+selanjutnya : hypothesis testing
 ===================================
 
 oh hello to everyone 
@@ -270,18 +270,21 @@ as you remember the terminology that we used to
 selecting the type of 
 'how many groups of people do I want to involve' 
 and 'how to map these variables into actual data' that I can gather , okay? 
+
 and in the research design 
-I also define the measures for the different variables 
-then I recruit the participants 
-and I select test artifacts for my experiments collect data analyze the data it is the execution of this paramount 
-and then I discussed several validity threats that are all related to different layers to different levels of my study 
-
-I report my answers to the research question 
-and finally I discuss how the theory changed based on my experiment 
-
+1. I also define the measures for the different variables 
+2. then I recruit the participants 
+3. and I select test artifacts for my experiments 
+4. (then) collect data analyze the data it is the execution of this paramount 
+5. and then I discussed several validity threats that are all related to different layers to different levels of my study 
+6. I report my answers to the research question 
+7. and finally I discuss how the theory changed based on my experiment 
+-------------
+beliau mengulang lagi, mengikuti garis dari atas kebawah, yakni dari alam pikiran ke reality, lalu dari bawah naik ke atas lagi dari reality ke alam pikiran
+---------------------------------------------
 so I start from a theory 
 and I perform this study so I go top-down towards reality 
-(then) I test the theory, really test in a quantitative way 
+(then) I test the theory really test in a quantitative way 
 and then I discuss if the theory is confirmed? 
 in which way  my scope of validity is extended for a certain theory with respect to previously existing studies 
 
@@ -291,114 +294,14 @@ and explaining in which way your experiments are 'advanced their knowledge' in t
 this is just to give you an 'overview of '
 'what controlled experiments are?' 
 and how are they 'positioned in the process' of "building theories", ok? 
-------------------
-sampai menit 18:58
-------------------
-now let's see more in depth : what are the elements that you will learn in this lecture ok? 
-
-here you will see a lot of words that you probably do not know 
-(gambar element : design - collect data - analyse data)
-
-and they are the core elements of 'all the approach of the controlled experiment' approach 
-
-then going to explain so one fundamental element this 
-this picture you you have to read it starting from design collect data and afterwards analyzed it , okay? 
-
-you start from a certain hypothesis that is the right from the theory , if you remember we had propositions in the theory that can be 'translated into some form of hypothesis'
-
-we will see examples of hypothesis later on 
-
-then you have the concept of 
-independent variables 
-dependent variables and 
-control variables 
-
-this is the identification the operationalization of the 
-so called constructs of the of my theory and i have different 
-so-called treatments , okay? 
-we will see what are the treatments in the in very few slides , okay? 
-so basically this is the design that is somehow transforming your theory in something more operational and more controllable , okay? then you do you collect the data 
-so you measure this variable that you have define and you have all your data from the experiment 
-so the experiment takes place after you designed it takes place and afterwards you have a lot of data and you have to analyze them 
-so in the rest of the picture you have all the concepts that are needed to analyze 
-
-the data in controlled experiments analyze the data most of the time means doing hypothesis testing 
-
-
-so quantitative test of the hypotheses according to some statistical test you take what is 
-
-it's a statistical test for you it is generally a black box in which you insert a certain significant value a value that indicates how sure you want to be of your results basically and outputs to three main values 
-
-the two main values and another value can be computed later on but two main value one is the test statistic that is a numerical value that doesn't mean 
-so much in itself but is the main output let's say of the test we will see the meaning the specific meaning later on the end 
-
-the p-value the pivot value is a value that while significant tells you how sure you want to be about about the results of your test the p-value indicates basically how sure can you be about the value of the test once this has been performed understanding this concept of significance and p-value will be it will be not straightforward but 
-I will do my best to to show you pictures and some graphical diagrams to allow you to to understand them at best another thing that you can extract from these analysis analyzed data is the effect size 
-so for example the test can tell you how significant is your is your results 
-
-so how sure can you be that that that your test is successful 
-so how sure can you do for example that in this case normally that your null hypothesis is rejected but this we will see later on but how sure can you be of the conclusion of this test and the effect size is how much is this effect that are measuring with my test big large , okay? 
-so one is their p-value out was telling you how much can you be confident let's say how significant is your result and the emphasize tells you how much how large is the effect is the effect that you have observed in your data , okay? after this analysis you have a say you have more confidence about the reliability of your hypothesis 
-so actually we are never speaking about accepting and hypothesis but we are speaking about rejecting a null hypothesis and we will see this in the next slide some explanation some explanation about that but the idea here that you need to remember is that you start with up with a hypothesis that you don't know whether it's true or not and at the end the data analysis you may have come to ERISA that tells you these hypothesis is more likely to be true than to be false , okay? the left part will require your creativity 
-so designing and also collecting data somehow because it involves selecting also the people the people involved in the experiment 
-
-because most of the time you will deal with human and software all together requires your creativity you have to invent how to pass from your research question to variables and you need to justify the measures that you are using for the different variables 
-
-, okay? and this second part is mostly automated as I said the test for you as a software engineer will be mostly a back black box, 
-but you need to understand what are this concepts and how to interpret them because there is some statistics in them and it is not fully straightforward , okay?? 
-
-================================================
-slide-title : controlled experiment
-start menit 18:58 - 
-================================================
-
-so let's see more in detail what are this controlled experiment with some definition now we've seen a bit of a high level high level view of what are the different elements that you will encounter through these lectures. 
-but is not now let's see let's see more formal let's say definitions , okay? a 
-controlled experiments let's read the slide is 
-
-"an environmental investigation of a testable hypothesis in which conditions are set up to isolate the variables of interest that are independent variables and tests how they affect certain measurable outcomes the dependent variables" 
-
-
-so what does it mean look at the picture and I think is quite intuitive.
-you have some input variable , okay? some input variable that you want to change and these are the independent variables , okay? the experiment is this box , okay? the treatments box let's call it and you want to see how certain the variables 
-so variables of output in this box vary based on the independent one , okay? the treatment what is a treatment treatment is a combination of values for the independent variables what does it mean in an example can can clarify everything here for example in the in the in the case of the experiment with software tools I may have the independent variable is the test into the testing to does that I'm using , okay? the treatments is one treatment is with tool a and the second treatment is which will be because the testing tool as a variable can take tool a or tool B as values , okay? 
-so I have two different two different treatments and the dependent variable is the thing that I want to measure for example can for example can be the number of bugs found in the software or the speed , okay? this is a this is the basic element of any experiment 
-so independent variables that are also sometimes called factors , okay? the treatments that are combinations of values of the independent variable and the dependent variable 
-so the measurable outcome that 
-I want to observe ! 
-so I changed something and I want to observe something as output it is important to consider this these are this other part what I want to do is to isolate the independent variable because I want to see just the effect on them of them on the dependent variables , okay? 
-so this means that in the Oh experimental all the treatment all the other variables need to be controlled , okay? 
-so in the example of the testing tool what I need to do is that the what can be the other variables that can affect my dependent ones , okay? what can be the other aspects the other factors that combined with the choice of the testing tool can modify the number of bugs found well obviously the type of code that I'm using for testing , okay? the code sample that 
-I'm using for testing if this code samples need to be need to be to have a sufficient variation of number of bugs 
-so that I can see 
-so that they are sufficiently representative of typical code base , okay?? 
-so I need to control the variable of number of bugs in code but I have also a number of bad like not number of bugs found in terms of dependent variables but number of bugs included in the code that I'm that I'm considering in the experiment included in the console but also the length of this code sample because in reality I can have different lengths and this may affect for example the speed of the tool or actually the number of bugs that a certain tool is able to find , okay? 
-so this is this is to tell you that here in an email like in any controlled experiment the independent variables need to be isolated if I want to say that the variation on the dependent variable is due to the modification of the independent one otherwise if I don't control these variables what happens it happens that I may observe variation in the dependent variable but this may be caused not by the independent one but by the other variables that I didn't control 
-so it's like being somewhat in a in a field study where I take things from reality I don't isolate elements and I see their collective impact on a certain variables but (of course) the validity of what I am finding and the connection between independent in the independent variable is much weaker , okay? 
-so it is really important to to remember to remember this when you design an expense 
-=============================
-slide baru menit 24:32
-independent variable -> treatments -> dependent variable
-penambahan penjelasan controlled variable pada kotak treatments
-=============================
-
-so again this is alighting a little bit more what we mean by controlled variable here for example I was recent the sample length the type of language also because some - maybe maybe working in only on a certain language the degree of complexity under of the code because also this may impact on the ability of the tool to to find bugs 
-so all this variable need to be controlled they can be related to two objects like in this case in this case they are related to the different to the different code samples that I'm using in the test in the experiment and they can also be related to human subjects in this example I'm using software subjects only but if humans are involved as I as I briefly touched before you will need some representatives of different types of developers with different expertise for example if I want to make this experiment independent of the expertise of the people 
-so I need to control the expertise variable , okay? what are the main characteristics that the control variables should have and at least the the sample that I'm including in this experiment should have there should be equivalent for each treatment 
-so not equal but least equivalent they can be there should be general enough 
-so to cover with my experiment the the largest part of my scope of interest and homogeneous they need to be homogeneous (of course) is another way of seeing of saying it is a way of saying that they are not emphasizing any any aspect if your if you are using for example a code sample you cannot have all all the code all the C code of a certain length and all the Java code shorter , okay? you need to have some some homogeneous representation datian of all the different factors in the sample that you consider and representative , okay? they need to represent some reality , okay? they need to be representative or some population of code in this case , okay? 
-so it's very difficult to do this to do this election and you need to justify your selection and very often if the control variables are many you end up dealing with the needs to constrain some some dimension we will see an example later on 
-so when when I consider you might subject as a simplified before the control variable may be related to the experience of developers for examples or age or like gender or like if you are using biometric sensor also the the color of the skin may may affect that 
-so there there are several there are several several aspects that that may be considered to have to control your variables , okay? 
 ====================================
-Definitions : lebih formal
-27:55 - 30:52
+4. controlled experiments : elements (12:57 - 18:58)
+5. controlled experiments : controlled variables (18:58 - 27:55)
+durasi 15 menit : berapa kata yang dihasilkan?
 ====================================
-
-
+6. Definitions : lebih formal (27:55 - 30:52)
 =====================================
-advantage and disadvantage
-48:24 - 54:28
+10. advantage and disadvantage (48:24 - 54:28)
 =====================================
 my summary
 ==================================

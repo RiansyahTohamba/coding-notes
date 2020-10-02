@@ -11,7 +11,11 @@ and in this case like it is an example that we considered also before
 I want to see if the experience of the user affects the "effectiveness" of a certain tool , okay? 
 
 the dependent variable in this case is there is the one that we took from last experiment 
-so it's the 'efectiveness' " that is 'the number of bugs found(NBF) divided by the total number of bugs (TNB)' in a certain piece of code 
+so it's the 'efectiveness' " that is 
+the number of bugs found(NBF)
+divided by 
+the total number of bugs (TNB) 
+in a certain piece of code 
 -----------------
 efectiveness = NBF/TNB
 TNB nya harus sama untuk 2 grup
