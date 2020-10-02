@@ -1,0 +1,52 @@
+=====================================
+advantage and disadvantage
+48:24 - 54:28
+=====================================
+so what are the pros and cons of controlled experiment the main Pro the main 
+
+
+the main advantage physical experiment is that you're using you are doing really real science ok? 
+
+with the numbers because controlled experiments are quantitative but up to now you've never you didn't see any number ok ?
+I didn't see any number 
+so you see that they are "real science with numbers"
+
+real science means also dealing a lot with the creativity 
+with creating this constrained environment of the lab experiments of the control the spam , okay? ?
+
+and the great advantage is also that they can be applied to identifies identify cause effect relationship for specific well defined variables why as we said before the goal of the experiment is is to isolate the independent variable and control the other one 
+so that the dependent variable is just dependent on variations variations of the independent one , okay? 
+so this allows me to say when I change this I have a change in that and this change is not caused by anything else , okay? disadvantage there are many , okay? they are applicable only to well-defined problem in which you can actually define and isolate these variables as I said at the beginning if you have cases in which it is very complicated to to isolate the variable of interest because the contextual factors that may affect them are many and cannot be cannot be separated by by the measurement of the variable it is very hard to perform an experiment and they are hard also if you cannot simulate the right conditions in the rod 
+so if the control confounding factors confounding variables may be too r2 to control 
+so the other variable that may impact the dependent variable and the other issues that the experiment is not realistic they behavior especially the behaviorist people of people in a in an experimental environment is very different from from their behavior in the in the real world of software development but the the obvious thing is that while in a lab the experiment is carried out and in trust maybe one hour two hour maximum also because afterwards people get tired in software development you have eight hours of programming in a day or even more and in addition our dealing with the dynamic and ever-changing context with several people coming to the developers of emails coming requests coming randomly 
+so it is a much more complex reality that changes the behavior of the developer and that influences the behavior of the developer and (of course) recreating this complexity in the lab is not possible even just for the matter of time , okay? another issue is that if you do an experiment with software with human subject is desire to recruit the subjects (of course) as I said develop yourself to develop and many managers need to manage 
+so people have to work ok and recruiting people for example with expertise higher than 5 5 years it is complicated ok and very often in controlled experiment in software engineering students are used ok? 
+
+other PhD students or or master students ok? 
+
+they are proxies of develop or real-world developers 
+
+but ((of course)) ! in practice they can rarely mimic the degree of expertise ok they are used as proxies 
+
+when you want to test for example a new methodology or a new tool that you that you are proposing for software engineer what software engineers but they use it and they are used because it's easier to involve students and it 
+
+it is less costly to recruit them because you may pay them a little manual or a little reward 
+
+I think that is always important to give in an experiment you always have to think hey but this person why is she or he coming to the experiments either for learning something either because this person is forced but you don't want that (of course) and or because you give them a kind of soft reward or because they learn something from from the experience, ok ?
+
+so you have to clean it to carefully consider this when designing the experiment !
+
+thinking about recruiting as we saw in the in our example 
+
+the design is time consuming we spent a lot of time (to) thinking about the experiments and can get very complicated very easily , okay? 
+
+so if the core the thing becomes too complicated the actual control becomes difficult , okay? 
+
+so better the recommendation is that 
+"better to keep your experiments simple" , okay? 
+
+otherwise your control experiment frequently risks to go out of control , , okay? 
+
+so now we pass two hypothesis testing 
+but now first let's 
+let's make a little break , okay? 

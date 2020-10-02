@@ -1,0 +1,58 @@
+====================================
+Definitions : lebih formal
+27:55 - 30:52
+====================================
+
+so let's go to some more formal definitions , okay? 
+you have now a general understanding of what we are speaking about here 
+
+but now we give some definition 
+and I will generally read what's written here 
+
+so we start with the definition of 
+1. hypothesis where what is it is the statement that I want to test with my experiment  so as I shown 
+as I've shown I start with the hypothesis 
+
+and at the end of hypothesis 
+at the end of my experiment 
+I have either rejected 
+
+my it said I have either rejected a certain hypothesis or I have some support for that type of disease , okay? the apology's normally derived from a research question for example what is the difference between a and B in terms of bug detection capability the same example as before 
+so is it better a or B for for finding bugs in this code , okay? ?
+
+I then include the hypothesis include variables that represent my contracts the costs of interest that may be tools methods actor number of bugs 
+so all the things that may be involved in the in the experiments and that are relevant for me and the process is normally concerned the measurable impact that a certain variation 
+
+or some construct can have on other constructs variation in input variable can have on output variable 
+
+so variation of independent variables can have on dependent variable 
+
+so to a finds more bugs than to be or to a finds less or equal box than to be , okay? these are examples of hypotheses that are derived from the research question and that are concerned with the specific construct in in my in my my experiments in my in my scope or in my scope of interest , okay? and when when we do is a potus's testing we normally have a null and alternative hypothesis , okay? then the null hypothesis is the one that 
+
+I will test , okay? but the one 
+that I am trusted in is the alternative one , okay? ?
+
+this is a tricky thing that you at this moment you will have to take as a fact , okay? when you do a part of this testing you're actually testing a null hypothesis the null hypothesis that is telling you the exact opposite of what you want to to show but it will become a little clearer later on , okay? 
+
+
+==============
+Definitions : variables (independent, controlled, dependent) + treatments
+30:52 - 34:30
+===============
+
+at the moment you just take it as a as a as an assumption , okay? 
+so more definitions again you already understood what our independent dependent variable treatment and controlled variables but here you have precise definition 
+so independent variables are operationalization or constructs that i want to isolate whose values I want to manipulate with the example you see this is clear I work to isolate the type of tool 
+so that I want to see just the influence of tool or I want to isolate the expertise of actors 
+so that I just I just took I just consider that and I want to manipulate because I do different treatment because I assign different values to these independent variables then I have treatments that are actually combinations of values for the independent variables 
+so here I have if I have to lay and tool B and I test them and I compare them I have one variable the type of tool and two treatments , okay? I normally speak about one factor two treatments or one variable two treatments is equivalent , okay? but in the books you always find one factor , okay? after you find quite frequently one factor two treatments , okay? but don't get confused with with this it's just synonyms , okay? or you can have if you want to to consider also the expertise as as a variable you will have four treatments because you have you need to you need to experiment with to lay an expert to lay a novices to be an expert to be a novices 
+so you have two variables and four treatments 
+so you see that it's easily edited your design can easily get complicated because when when you have just the tools and one variable you just run the experiments and you compare between two elements in here you just added one variable that is the expertise but you involve people you need to 
+so you need more effort and in addition you have four treatments 
+so you need unity enough people also to carry out this experiment in four different groups one group using to lay one group one group of experts schools using to lay one group of experts in to be etc , okay? dependent variables dependent variables are the output and they are operationalization of constructs that want to measure based on the manipulation of the independent variables , okay? 
+so these are the constant the operationalization of those constructs that vary based on the independent variables , okay? for example the number of box and finally controlled variable we discuss them extensively and these 
+
+
+are again operationalization (of course) but in practice they are attributes of human subjects or objects as we saw before definite to control to mask or prevent their impact on the dependent variable this controlled variable I need to control them because otherwise the variation of the dependent variable is not linked only to the variation of the independent one but may be caused by the control by this other variable , okay? and for example as it was exemplified multiple time I have to test on some code that is sufficiently general and equivalent for all cases 
+
+

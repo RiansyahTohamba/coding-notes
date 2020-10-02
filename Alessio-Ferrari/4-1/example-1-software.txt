@@ -1,0 +1,57 @@
+=================================================================
+first example : software 
+- 34:30
+=================================================================
+
+let's see an example you've seen these examples on what hidden in the in the previous explanation but now let let us see it more extensively 
+so this is example is an example of an experiment of the experiment with just software , okay? my goal is to understand which tool is better for testing among two available choices a and B , okay? these are push button tools 
+so I don't need to consider the impact of the human in using this tool , okay? the independent variable we already saw it is the tool is one part , okay? the treatments are also straightforward 
+so I have to lay and should be one factor to treatment what is the dependent variable well my objective is to see which one is better what do I mean by better , okay? better is a quite vague concept is it better in terms of speed where in terms of bugs found I want to consider both aspects 
+-----------------------
+dependent variable nya = efectiveness dan efficiency 
+-----------------------
+so I in this case 
+I will have two dependent variable 
+and I define them as "effectiveness" and "efficiency" 
+so I compared the two tool in terms of "effectiveness" that is how many bugs do they found compared with the total number of bugs that is present in the culture 
+
+because in this case, I assume that the two could not be able to find some specific types of bugs and "efficiency" that is related to the running time 
+
+
+and i define it as the running time in relation to the number of bugs that are found , okay? 
+
+or I could define it also in relation to the length of the code 
+
+this is just what I decided these quantities to me , okay? 
+
+I decide what I'm interested , okay? 
+
+in this case I have two these two dependent variable 
+one dependent variable and two treatments , okay? 
+
+(two treatments = ?)
+
+now comes the difficult part I have to identify the control variables what and the question that I need to answer is what can impact on "effectiveness" and "efficiency" beside the type of tool well the user well the user we said no it does an impact because the tool is just a push button to is fully automatic the language of the code yes then probably is it is too hard to consider all the type of codes because it would need a too large sample and in addition one of the tool is able to test just for C 
+
+so I want to focus just on C code 
+
+so you see that I'm reducing my my scope of interest somehow before I was speaking about difference between today and should be in finding bugs 
+but now I am saying that I am focusing just on C code on a certain type of language (of course) 
+also another variable to take into account is the chosen code but the code shows and code samples as we exemplified before 
+so but which are the attributes of the chosen code that my impact on the on the dependent variables where might be the actual number of bugs in the code model 
+so I need some sufficient very a sufficient variation in terms of number of bugs in each module that I'm testing the length of the module as I said before the some tool might be more effective if it's working in shorter in shorter code 
+so I need two quite different and realistic representation of different codes the complexity of the of the code another variable 
+and the domain of the code 
+why ?
+because maybe depending on the domain I a certain type of solutions that are always adopted in a certain code and a certain tool is more appropriate for the features that the code in that domain shows for example in a safety critical environment 
+I may not be allowed to use global variables or I may not be allowed to use pointers , okay? 
+so a certain tool may be more effective for the specific quality specific feature of the safety critical sector of the railway sector. 
+
+for example while it may not work properly if the C code is pointers and has other characteristics (of course) you can 
+you can frame it in different ways 
+you can look at at the different 
+and the different characteristics that of the code or you can just say ok this code is coming from a database of railway code and this code is coming from a database of I don't know financial financial software , okay? 
+so these are all variables that you need to take into account and justify when you design your experiment ok 
+so as I said I have to create a code sample that has sufficient variations you know these variables and if I can do very eight certain variable if I cannot have a sufficient variation in a certain variable I have to fix it like I did with the C code or like I'm made to need to do for the domain , okay? and I need to make this choice explicit as Italy mists my scope of interest , okay? or in this case if the theory independent it may limit your scope or validity as well but in this case you can say , okay? my theory I want to refocus my theory only on this domain and on this type of God , okay? 
+so this creates a boundary 
+so the controlled variable somewhat create a boundary in your scope of interest , okay? 
