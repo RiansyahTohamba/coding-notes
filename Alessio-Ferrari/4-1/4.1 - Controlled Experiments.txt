@@ -1,4 +1,19 @@
-===================================
+apa yang ingin saya ketahui?
+dalam konteks experiment refactoring bagaimana dengan komposisi variable-nya?
+
+independent = COUPLING (CINT,CDISP), size (NOM,NOC,LOC) (benarkah?)
+dependent = harmfulness (benarkah?)
+controlled =  experience, experimenter, env of computer, source code (ada lagi?) , tingkat pressure, 
+variable dikontrol agar tidak membingungkan, sebenarnya faktor apa yang menaikkan kualitas?
+bagaimana dengan teknik refactoringnya? 
+treatments = refactoring (refactoring -> coupling and size)
+
+coba bandingkan dengan contoh riset alessio.
+
+------------------------------
+apa lagi yang didapat dari course ini?
+
+-----------------------------------
 CONTROLLED EXPERIMENT
 summary
 1. typical examples
@@ -26,10 +41,11 @@ treatments are also straightforward : tool A and B (two treatments)
 dependent variable :  I have to detail what I mean by "better"?
 better in terms of speed ?
 better in terms of bugs found ?
-alessio already have 2 dependent variable : effectiveness and efficiency
+alessio already have 2 dependent variable : "effectiveness" and "efficiency"
+efectiveness = NBF/TNB
 
 Now i have to identify the controlled variables : 
-what can impact on effectiveness and efficiency 
+what can impact on "effectiveness" and "efficiency" 
 language of code : only C code.
 numbers of bugs in the code module (harus sama-sama 2 grup)
 lengths of the module
@@ -61,6 +77,7 @@ and we saw that experiments laboratory experiments
 controlled experiments 
 in vitro experiment as a paradigm are typically strategies that require are contrived settings 
 so an artificial settings , okay?? 
+
 ==============
 Experiment dilakukan di lab, actually SW ENG Lab dapat hanya berupa only room. Pada ruangan tersebut kita bisa eliminasi confounding factors.
 ==============
@@ -165,8 +182,8 @@ how the the certain strategy (for finding bug)
 how the behavior of the people varries 
 when using these specific strategies ok? 
 
-specific strategy varies in terms of effectiveness 
-so this effectiveness can be again defined in different ways 
+specific strategy varies in terms of "effectiveness" 
+so this "effectiveness" can be again defined in different ways 
 so how many bugs do they find out 
 how quick are them in finding bugs 
 so but the idea here is that while in the first example you have 
@@ -409,234 +426,13 @@ so to cover with my experiment the the largest part of my scope of interest and 
 so it's very difficult to do this to do this election and you need to justify your selection and very often if the control variables are many you end up dealing with the needs to constrain some some dimension we will see an example later on 
 so when when I consider you might subject as a simplified before the control variable may be related to the experience of developers for examples or age or like gender or like if you are using biometric sensor also the the color of the skin may may affect that 
 so there there are several there are several several aspects that that may be considered to have to control your variables , okay? 
-
 ====================================
 Definitions : lebih formal
 27:55 - 30:52
 ====================================
 
-so let's go to some more formal definitions , okay? 
-you have now a general understanding of what we are speaking about here 
 
-but now we give some definition 
-and I will generally read what's written here 
-
-so we start with the definition of 
-1. hypothesis where what is it is the statement that I want to test with my experiment  so as I shown 
-as I've shown I start with the hypothesis 
-
-and at the end of hypothesis 
-at the end of my experiment 
-I have either rejected 
-
-my it said I have either rejected a certain hypothesis or I have some support for that type of disease , okay? the apology's normally derived from a research question for example what is the difference between a and B in terms of bug detection capability the same example as before 
-so is it better a or B for for finding bugs in this code , okay? ?
-
-I then include the hypothesis include variables that represent my contracts the costs of interest that may be tools methods actor number of bugs 
-so all the things that may be involved in the in the experiments and that are relevant for me and the process is normally concerned the measurable impact that a certain variation 
-
-or some construct can have on other constructs variation in input variable can have on output variable 
-
-so variation of independent variables can have on dependent variable 
-
-so to a finds more bugs than to be or to a finds less or equal box than to be , okay? these are examples of hypotheses that are derived from the research question and that are concerned with the specific construct in in my in my my experiments in my in my scope or in my scope of interest , okay? and when when we do is a potus's testing we normally have a null and alternative hypothesis , okay? then the null hypothesis is the one that 
-
-I will test , okay? but the one 
-that I am trusted in is the alternative one , okay? ?
-
-this is a tricky thing that you at this moment you will have to take as a fact , okay? when you do a part of this testing you're actually testing a null hypothesis the null hypothesis that is telling you the exact opposite of what you want to to show but it will become a little clearer later on , okay? 
-
-
-==============
-Definitions : variables (independent, controlled, dependent) + treatments
-30:52 - 34:30
-===============
-
-at the moment you just take it as a as a as an assumption , okay? 
-so more definitions again you already understood what our independent dependent variable treatment and controlled variables but here you have precise definition 
-so independent variables are operationalization or constructs that i want to isolate whose values I want to manipulate with the example you see this is clear I work to isolate the type of tool 
-so that I want to see just the influence of tool or I want to isolate the expertise of actors 
-so that I just I just took I just consider that and I want to manipulate because I do different treatment because I assign different values to these independent variables then I have treatments that are actually combinations of values for the independent variables 
-so here I have if I have to lay and tool B and I test them and I compare them I have one variable the type of tool and two treatments , okay? I normally speak about one factor two treatments or one variable two treatments is equivalent , okay? but in the books you always find one factor , okay? after you find quite frequently one factor two treatments , okay? but don't get confused with with this it's just synonyms , okay? or you can have if you want to to consider also the expertise as as a variable you will have four treatments because you have you need to you need to experiment with to lay an expert to lay a novices to be an expert to be a novices 
-so you have two variables and four treatments 
-so you see that it's easily edited your design can easily get complicated because when when you have just the tools and one variable you just run the experiments and you compare between two elements in here you just added one variable that is the expertise but you involve people you need to 
-so you need more effort and in addition you have four treatments 
-so you need unity enough people also to carry out this experiment in four different groups one group using to lay one group one group of experts schools using to lay one group of experts in to be etc , okay? dependent variables dependent variables are the output and they are operationalization of constructs that want to measure based on the manipulation of the independent variables , okay? 
-so these are the constant the operationalization of those constructs that vary based on the independent variables , okay? for example the number of box and finally controlled variable we discuss them extensively and these 
-
-
-are again operationalization (of course) but in practice they are attributes of human subjects or objects as we saw before definite to control to mask or prevent their impact on the dependent variable this controlled variable I need to control them because otherwise the variation of the dependent variable is not linked only to the variation of the independent one but may be caused by the control by this other variable , okay? and for example as it was exemplified multiple time I have to test on some code that is sufficiently general and equivalent for all cases 
-
-===================
-example : software 
-- 34:30
-===================
-
-let's see an example you've seen these examples on what hidden in the in the previous explanation but now let let us see it more extensively 
-so this is example is an example of an experiment of the experiment with just software , okay? my goal is to understand which tool is better for testing among two available choices a and B , okay? these are push button tools 
-so I don't need to consider the impact of the human in using this tool , okay? the independent variable we already saw it is the tool is one part , okay? the treatments are also straightforward 
-so I have to lay and should be one factor to treatment what is the dependent variable well my objective is to see which one is better what do I mean by better , okay? better is a quite vague concept is it better in terms of speed where in terms of bugs found I want to consider both aspects 
-so I in this case 
- I will have two dependent variable and I define them as effectiveness and efficiency 
-so I compared the two tool in terms of effectiveness that is how many bugs do they found compared with the total number of bugs that is present in the culture because in this case 
-
-I assume that the two could not be able to find some specific types of bugs and efficiency that is related to the running time and I define it as the running time in relation to the number of bugs that are found , okay? or I could define it also in relation to the length of the code this is just what I decided I decided this these quantities to me , okay? I decide what I'm interested , okay? in this case I have two these two dependent variable one dependent variable and two treatments , okay? now comes the difficult part I have to identify the control variables what and the question that I need to answer is what can impact on effectiveness and efficiency beside the type of tool well the user well the user we said no it does an impact because the tool is just a push button to is fully automatic the language of the code yes then probably is it is too hard to consider all the type of codes because it would need a too large sample and in addition one of the tool is able to test just for C 
-so I want to focus just on C code 
-
-so you see that I'm reducing my my scope of interest somehow before I was speaking about difference between today and should be in finding bugs 
-but now I am saying that I am focusing just on C code on a certain type of language (of course) 
-also another variable to take into account is the chosen code but the code shows and code samples as we exemplified before 
-so but which are the attributes of the chosen code that my impact on the on the dependent variables where might be the actual number of bugs in the code model 
-so I need some sufficient very a sufficient variation in terms of number of bugs in each module that I'm testing the length of the module as I said before the some tool might be more effective if it's working in shorter in shorter code 
-so I need two quite different and realistic representation of different codes the complexity of the of the code another variable 
-and the domain of the code 
-why ?
-because maybe depending on the domain I a certain type of solutions that are always adopted in a certain code and a certain tool is more appropriate for the features that the code in that domain shows for example in a safety critical environment 
-I may not be allowed to use global variables or I may not be allowed to use pointers , okay? 
-so a certain tool may be more effective for the specific quality specific feature of the safety critical sector of the railway sector. 
-
-for example while it may not work properly if the C code is pointers and has other characteristics (of course) you can 
-you can frame it in different ways 
-you can look at at the different 
-and the different characteristics that of the code or you can just say ok this code is coming from a database of railway code and this code is coming from a database of I don't know financial financial software , okay? 
-so these are all variables that you need to take into account and justify when you design your experiment ok 
-so as I said I have to create a code sample that has sufficient variations you know these variables and if I can do very eight certain variable if I cannot have a sufficient variation in a certain variable I have to fix it like I did with the C code or like I'm made to need to do for the domain , okay? and I need to make this choice explicit as Italy mists my scope of interest , okay? or in this case if the theory independent it may limit your scope or validity as well but in this case you can say , okay? my theory I want to refocus my theory only on this domain and on this type of God , okay? 
-so this creates a boundary 
-so the controlled variable somewhat create a boundary in your scope of interest , okay? 
-
-======================================
-second example : software and human
-(40:40 - )
-======================================
-
-this is another example with software and humans , okay? 
-
-
-and in this case like it is an example that we considered also before 
-
-I want to see if the experience of the user affects the effectiveness of a certain tool , okay? 
-
-the dependent variable in this case is there is the one that we took from last experiment 
-so it's the 'efectiveness' " that is 'the number of bugs found(NBF) divided by the total number of bugs (TNB)' in a certain piece of code 
------------------
-efectiveness = NBF/TNB
-TNB nya harus sama untuk 2 grup
---------------
-so this is the dependent variable that I want to that I want to observe while they're independent variable is is the experience of the of the user but the issue here is how can I measure this experience while before the independent variable was tool a or told B it was it was quite clear straightforward we didn't even think about measuring the independent variable because it was a binary variable basically 
-so either you use tool a or to B but in this case your independent variable is the experience and this is how to measure it I can consider how can I measure the experience of a user where I can consider the years of experience is stay in testing or I can ask what the years of experience may tell you something but they don't tell you how much how expert is really that person 
-so you may want to ask the colleagues to judge a certain person and to score this person for for expertise in testing , okay? um 
-
-
-so in general it is better to select one independent measure for the variable , okay? 
-so otherwise have many too many treatments and might not find enough participants , okay? 
-so better to select one of this measure and justify but , okay? 
-
-
-so let's consider since it is easier to evaluate although not necessarily perfect I consider the years but sure that you consider 
-one year 
-two years 
-four years 
-five years 
-so by single year or  can I group this year?
-
-well if I decide that I choose one two three four as differences 
-
-so I want to see how a different of one year only can affect the usage of a certain tool well this may be difficult in several terms because maybe the difference between two and three years of experience is not that much 
-
-
-and in addition I need to find enough people for the experiment 
-
-so I have to find many people 
-who have just one year 
-many people who have just two years 
-many people who have three years and 
-
-so it may be very complicated again as an experiment 
-so probably is better to separate to select some levels , okay? 
-
-how to select the level ? 
-
-I have to do some assumptions , okay? 
-I have to take some assumption take from the literature or justify and defend my decision , okay? 
-
-there is no no silver bullet in here , okay? 
-and often you research on other studies that have done choice that is similar to yours or you you have to consider also common sense and your knowledge, for example : I can decide for two levels , okay? 
-
-and in this level I have two treatments one from zero to one years novices and more than five years experts , okay? 
-
-
-so in this case I have eliminated people that are in the in-between ok 
-
-there is a radical difference (of course) between zero - one year and more than five years , okay? 
-
-so this is evident and it is common sense that I don't need to justify much , okay? 
-so think about that  !
-
-(of course) if you have people that have between two and four years of experience 
-and these are a candidate for your experiment 
-you cannot choose them 
-you cannot see really 
-you cannot involve them , okay? 
-
-
-now it will identify the control variables again the question is the usual one what can impact on my outcomes besides the experience here I don't have the code I don't have the objects but I have people 
-so in this case I can have age gender demographic variable 
-so how old am where do they come from where did they study , okay? from which company are they coming from and (of course) again the code on which the tool is is applied , okay? 
-so the other previous variable 
-so you see that this experiment becomes much more complicated I have to make some choice I fix some some code base we use the same for a subject and make sure also in this case in say up also interacting aspects make sure none of them have shown I've seen the code in advance because if for example if I have to test certain code that I have already tested I know already which are the bugs 
-so it's this is a this is affecting my experiment 
-so and but all but since in some cases it may be the case that if you if you're using code from a certain company and the people are from the same company it is possible that P those people have seen that code , okay? and these joopa dyes your experiments , okay? and and then I control demographic variables , okay? select the rebels in a way that I have a representative group of people without imbalance in terms of age for example otherwise if I cannot do that again I restrict my scope of interest if I find just people for example you know that are all coming from the same company (of course) the result of my experiment is limited to the characteristic of the specific company and may be extended to companies with similar characteristics and with similar trainings for example ok 
-so at the end this is my design and I have a group with a comparable experience novice or expert but variations in terms of age gender and other demographic aspects and I have a code base 
-
-
-so I have designed my experience you see that here when I said this requires a lot of creativity it requires a lot of creativity you have to think truly about what are your constructs how to measure them how to create your variables how to how to measure the variables and you have to consider different factors that are also related to the possibilities that you have because when you build a software experiment a software engineering experiment you you don't have infinite resources if you had used it for example if we are involved in developers and as we said in the last lecture this developer they have to do their work their daily work 
-so they cannot stay in your experiment for two hours and there are also fatigue and other factors that may affect the experiment 
-so is the is really again optimizing between different factors , okay? 
-so what are the pros and cons of controlled experiment the main Pro the main 
-
-
-the main advantage physical experiment is that you're using you are doing really real science ok? 
-
-with the numbers because controlled experiments are quantitative but up to now you've never you didn't see any number ok ?
-I didn't see any number 
-so you see that they are "real science with numbers"
-
-real science means also dealing a lot with the creativity 
-with creating this constrained environment of the lab experiments of the control the spam , okay? ?
-
-and the great advantage is also that they can be applied to identifies identify cause effect relationship for specific well defined variables why as we said before the goal of the experiment is is to isolate the independent variable and control the other one 
-so that the dependent variable is just dependent on variations variations of the independent one , okay? 
-so this allows me to say when I change this I have a change in that and this change is not caused by anything else , okay? disadvantage there are many , okay? they are applicable only to well-defined problem in which you can actually define and isolate these variables as I said at the beginning if you have cases in which it is very complicated to to isolate the variable of interest because the contextual factors that may affect them are many and cannot be cannot be separated by by the measurement of the variable it is very hard to perform an experiment and they are hard also if you cannot simulate the right conditions in the rod 
-so if the control confounding factors confounding variables may be too r2 to control 
-so the other variable that may impact the dependent variable and the other issues that the experiment is not realistic they behavior especially the behaviorist people of people in a in an experimental environment is very different from from their behavior in the in the real world of software development but the the obvious thing is that while in a lab the experiment is carried out and in trust maybe one hour two hour maximum also because afterwards people get tired in software development you have eight hours of programming in a day or even more and in addition our dealing with the dynamic and ever-changing context with several people coming to the developers of emails coming requests coming randomly 
-so it is a much more complex reality that changes the behavior of the developer and that influences the behavior of the developer and (of course) recreating this complexity in the lab is not possible even just for the matter of time , okay? another issue is that if you do an experiment with software with human subject is desire to recruit the subjects (of course) as I said develop yourself to develop and many managers need to manage 
-so people have to work ok and recruiting people for example with expertise higher than 5 5 years it is complicated ok and very often in controlled experiment in software engineering students are used ok? 
-
-other PhD students or or master students ok? 
-
-they are proxies of develop or real-world developers 
-
-but ((of course)) ! in practice they can rarely mimic the degree of expertise ok they are used as proxies 
-
-when you want to test for example a new methodology or a new tool that you that you are proposing for software engineer what software engineers but they use it and they are used because it's easier to involve students and it 
-
-it is less costly to recruit them because you may pay them a little manual or a little reward 
-
-I think that is always important to give in an experiment you always have to think hey but this person why is she or he coming to the experiments either for learning something either because this person is forced but you don't want that (of course) and or because you give them a kind of soft reward or because they learn something from from the experience, ok ?
-
-so you have to clean it to carefully consider this when designing the experiment !
-
-thinking about recruiting as we saw in the in our example 
-
-the design is time consuming we spent a lot of time (to) thinking about the experiments and can get very complicated very easily , okay? 
-
-so if the core the thing becomes too complicated the actual control becomes difficult , okay? 
-
-so better the recommendation is that 
-"better to keep your experiments simple" , okay? 
-
-otherwise your control experiment frequently risks to go out of control , , okay? 
-
-so now we pass two hypothesis testing 
-but now first let's 
-let's make a little break , okay? 
+=====================================
+advantage and disadvantage
+48:24 - 54:28
+=====================================
