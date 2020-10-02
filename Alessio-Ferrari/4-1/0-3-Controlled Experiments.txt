@@ -1,62 +1,25 @@
-apa yang ingin saya ketahui?
-dalam konteks experiment refactoring bagaimana dengan komposisi variable-nya?
-
-independent = COUPLING (CINT,CDISP), size (NOM,NOC,LOC) (benarkah?)
-dependent = harmfulness (benarkah?)
-controlled =  experience, experimenter, env of computer, source code (ada lagi?) , tingkat pressure, 
-variable dikontrol agar tidak membingungkan, sebenarnya faktor apa yang menaikkan kualitas?
-bagaimana dengan teknik refactoringnya? 
-treatments = refactoring (refactoring -> coupling and size)
-
-coba bandingkan dengan contoh riset alessio.
-
-------------------------------
-apa lagi yang didapat dari course ini?
-
------------------------------------
 CONTROLLED EXPERIMENT
 summary
-1. typical examples
-a. software subject
-b. Human Subject : method tertentu pada process SE : requirement gathering, refactoring
-human and software subject
 
-2. controlled experiments and theories
-3. controlled experiments : process, typically quantitative
-4. controlled experiments : elements
-a. creativity in creating hypothesis
-b. testing : this part is mostly automated, but need to understand it
-c. hypothesis proven
-5. diagram controlled experiments
-
-6. definition of hypothesis
-
+0. intro , posisi controlled experiments dalam ABC Framework (0 - 03:15)
+1. typical examples (03:15 - 09:12)
+	a. software subject
+	b. Human Subject : method tertentu pada process SE : requirement gathering, refactoring
+	human and software subject
+2. controlled experiments and theories (09:12 - 10:22)
+3. controlled experiments : process (10:22 - 12:57)
+4. controlled experiments : elements (12:57 - 18:58)
+	a. creativity in creating hypothesis
+	b. testing : this part is mostly automated, but need to understand it
+	c. hypothesis proven	
+5. controlled experiments : controlled variables (18:58 - 27:55)
+6. definition of hypothesis (27:55 - 30:52)
 7. definition of variables (independent, dependent, controlled ) and treatments (30:52 - 34:30)
-
-8. first example : software 
-
-objective : which is the better tools for testing?  tools A vs tools B
-independent variables = the tool (one factor)
-treatments are also straightforward : tool A and B (two treatments)
-dependent variable :  I have to detail what I mean by "better"?
-better in terms of speed ?
-better in terms of bugs found ?
-alessio already have 2 dependent variable : "effectiveness" and "efficiency"
-efectiveness = NBF/TNB
-
-Now i have to identify the controlled variables : 
-what can impact on "effectiveness" and "efficiency" 
-language of code : only C code.
-numbers of bugs in the code module (harus sama-sama 2 grup)
-lengths of the module
-complexity of the module
-domain of the code (OS, text processing, egov, etc)
--------------
-10. second example : software and human 
-advantage of software	
-disadvantage of software
-
+8. first example : software  (34:30 - 40:40)
+9. second example : software and human (40:40 - 48:24)
+10. advantage and disadvantage (48:24 - 54:28)
 selanjutnya : hypothesis testing
+
 ===================================
 
 oh hello to everyone 
@@ -286,7 +249,7 @@ abduction and
 deduction, ok? 
 
 ----------------------------------------
-process for controlled experiments
+controlled experiments : process 
 ----------------------------------
 what is the process for controlled experiments ?
 and at the end of these two lectures, I will show you more in detail what they all these blocks mean ? 
@@ -330,6 +293,7 @@ this is just to give you an 'overview of '
 and how are they 'positioned in the process' of "building theories", ok? 
 ------------------
 sampai menit 18:58
+------------------
 now let's see more in depth : what are the elements that you will learn in this lecture ok? 
 
 here you will see a lot of words that you probably do not know 
@@ -436,3 +400,39 @@ Definitions : lebih formal
 advantage and disadvantage
 48:24 - 54:28
 =====================================
+my summary
+==================================
+first example
+objective : which is the better tools for testing?  tools A vs tools B
+independent variables = the tool (one factor)
+treatments are also straightforward : tool A and B (two treatments)
+dependent variable :  I have to detail what I mean by "better"?
+better in terms of speed ?
+better in terms of bugs found ?
+alessio already have 2 dependent variable : "effectiveness" and "efficiency"
+efectiveness = NBF/TNB
+
+Now i have to identify the controlled variables : 
+what can impact on "effectiveness" and "efficiency" 
+language of code : only C code.
+numbers of bugs in the code module (harus sama-sama 2 grup)
+lengths of the module
+complexity of the module
+domain of the code (OS, text processing, egov, etc)
+-------------
+apa yang ingin saya ketahui?
+dalam konteks experiment refactoring bagaimana dengan komposisi variable-nya?
+
+independent = COUPLING (CINT,CDISP), size (NOM,NOC,LOC) (benarkah?)
+dependent = harmfulness (benarkah?)
+controlled =  experience, experimenter, env of computer, source code (ada lagi?) , tingkat pressure, 
+variable dikontrol agar tidak membingungkan, sebenarnya faktor apa yang menaikkan kualitas?
+bagaimana dengan teknik refactoringnya? 
+treatments = refactoring (refactoring -> coupling and size)
+
+coba bandingkan dengan contoh riset alessio.
+
+------------------------------
+apa lagi yang didapat dari course ini?
+
+-----------------------------------

@@ -1,7 +1,9 @@
 ====================================
-Definitions : lebih formal
+6. Definitions : hypothesis
 27:55 - 30:52
-====================================
+7. Definitions : variables (independent, controlled, dependent) + treatments
+30:52 - 34:30
+===============
 
 so let's go to some more formal definitions , okay? 
 you have now a general understanding of what we are speaking about here 

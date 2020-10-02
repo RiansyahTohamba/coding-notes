@@ -1,6 +1,6 @@
 ======================================
-second example : software and human
-(40:40 - )
+9. second example : software and human
+(40:40 - 48:24)
 ======================================
 
 this is another example with software and humans , okay? 
@@ -79,10 +79,17 @@ so how old am where do they come from where did they study , okay? from which co
 so the other previous variable 
 so you see that this experiment becomes much more complicated I have to make some choice I fix some some code base we use the same for a subject and make sure also in this case in say up also interacting aspects make sure none of them have shown I've seen the code in advance because if for example if I have to test certain code that I have already tested I know already which are the bugs 
 so it's this is a this is affecting my experiment 
-so and but all but since in some cases it may be the case that if you if you're using code from a certain company and the people are from the same company it is possible that P those people have seen that code , okay? and these joopa dyes your experiments , okay? and and then I control demographic variables , okay? select the rebels in a way that I have a representative group of people without imbalance in terms of age for example otherwise if I cannot do that again I restrict my scope of interest if I find just people for example you know that are all coming from the same company (of course) the result of my experiment is limited to the characteristic of the specific company and may be extended to companies with similar characteristics and with similar trainings for example ok 
+so and but all but since in some cases 
+
+it may be the case that 
+if you 
+if you're using code from a certain company 
+and the people are from the same company it is possible that P those people have seen that code , okay? and these joopa dyes your experiments , okay? and and then I control demographic variables , okay? select the rebels in a way that I have a representative group of people without imbalance in terms of age for example otherwise if I cannot do that again I restrict my scope of interest if I find just people for example you know that are all coming from the same company (of course) the result of my experiment is limited to the characteristic of the specific company and may be extended to companies with similar characteristics and with similar trainings for example ok 
 so at the end this is my design and I have a group with a comparable experience novice or expert but variations in terms of age gender and other demographic aspects and I have a code base 
 
 
-so I have designed my experience you see that here when I said this requires a lot of creativity it requires a lot of creativity you have to think truly about what are your constructs how to measure them how to create your variables how to how to measure the variables and you have to consider different factors that are also related to the possibilities that you have because when you build a software experiment a software engineering experiment you you don't have infinite resources if you had used it for example if we are involved in developers and as we said in the last lecture this developer they have to do their work their daily work 
+so I have designed my experience you see that here when I said this requires a lot of creativity it requires a lot of creativity you have to think truly about what are your constructs how to measure them how to create your variables how to how to measure the variables and you have to consider different factors that are also related to the possibilities that you have because when you build a software experiment a software engineering experiment you you don't have infinite resources if you had used it 
+
+for example if we are involved in developers and as we said in the last lecture this developer they have to do their work their daily work 
 so they cannot stay in your experiment for two hours and there are also fatigue and other factors that may affect the experiment 
 so is the is really again optimizing between different factors , okay? 
