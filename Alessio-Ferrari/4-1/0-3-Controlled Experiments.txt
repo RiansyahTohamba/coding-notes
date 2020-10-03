@@ -28,6 +28,7 @@ today we start with a some more harder material with respect to the other lectur
 
 now we start with one of the strategies that that we listed last time 
 and these "controlled experiments" 
+
 here I put a couple of references that you can take 
 to extend some to the material that you will find 
 we will find in these slides 
@@ -231,7 +232,6 @@ and now let's see how this experiments are placed in our diagram of theory build
 basically controlled experiments are positioned our deductive approaches 
 
 so are positioned in the top-down direction of this diagram 
-
 so they are not using induction but they're using deduction 
 ---------------------------
 
@@ -326,12 +326,11 @@ domain of the code (OS, text processing, egov, etc)
 apa yang ingin saya ketahui?
 dalam konteks experiment refactoring bagaimana dengan komposisi variable-nya?
 
-independent = COUPLING (CINT,CDISP), size (NOM,NOC,LOC) (benarkah?)
-dependent = harmfulness (benarkah?)
+dependent = COUPLING (CINT,CDISP), size (NOM,NOC,LOC),harmfulness  (benarkah?), 
 controlled =  experience, experimenter, env of computer, source code (ada lagi?) , tingkat pressure, 
 variable dikontrol agar tidak membingungkan, sebenarnya faktor apa yang menaikkan kualitas?
 bagaimana dengan teknik refactoringnya? 
-treatments = refactoring (refactoring -> coupling and size)
+independent (treatments) = refactoring (refactoring -> coupling and size)
 
 coba bandingkan dengan contoh riset alessio.
 

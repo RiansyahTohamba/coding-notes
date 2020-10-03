@@ -47,14 +47,22 @@ so more definitions again you already understood what our independent dependent 
 so independent variables are operationalization or constructs that i want to isolate whose values I want to manipulate with the example you see this is clear I work to isolate the type of tool 
 so that I want to see just the influence of tool or I want to isolate the expertise of actors 
 so that I just I just took I just consider that and I want to manipulate because I do different treatment because I assign different values to these independent variables then I have treatments that are actually combinations of values for the independent variables 
-so here I have if I have to lay and tool B and I test them and I compare them I have one variable the type of tool and two treatments , okay? I normally speak about one factor two treatments or one variable two treatments is equivalent , okay? but in the books you always find one factor , okay? after you find quite frequently one factor two treatments , okay? but don't get confused with with this it's just synonyms , okay? or you can have if you want to to consider also the expertise as as a variable you will have four treatments because you have you need to you need to experiment with to lay an expert to lay a novices to be an expert to be a novices 
+so here I have if I have tool A and tool B and I test them and I compare them I have one variable the type of tool and two treatments , okay? I normally speak about one factor two treatments or one variable two treatments is equivalent , okay? but in the books you always find one factor , okay? after you find quite frequently one factor two treatments , okay? but don't get confused with with this it's just synonyms , okay? or you can have if you want to to consider also the expertise as as a variable you will have four treatments because you have you need to you need to experiment with tool A an expert tool A a novices to be an expert to be a novices 
 so you have two variables and four treatments 
 so you see that it's easily edited your design can easily get complicated because when when you have just the tools and one variable you just run the experiments and you compare between two elements in here you just added one variable that is the expertise but you involve people you need to 
 so you need more effort and in addition you have four treatments 
-so you need unity enough people also to carry out this experiment in four different groups one group using to lay one group one group of experts schools using to lay one group of experts in to be etc , okay? dependent variables dependent variables are the output and they are operationalization of constructs that want to measure based on the manipulation of the independent variables , okay? 
-so these are the constant the operationalization of those constructs that vary based on the independent variables , okay? for example the number of box and finally controlled variable we discuss them extensively and these 
+so you need unity enough people also to carry out this experiment in four different groups one group using tool A one group one group of experts schools 
 
+using tool A one group of experts in to be etc , okay? dependent variables dependent variables are the output and they are operationalization of constructs that want to measure based on the manipulation of the independent variables , okay? 
+so these are the constant the operationalization of those constructs that vary based on the independent variables , okay? for example the number of box 
 
-are again operationalization (of course) but in practice they are attributes of human subjects or objects as we saw before definite to control to mask or prevent their impact on the dependent variable this controlled variable I need to control them because otherwise the variation of the dependent variable is not linked only to the variation of the independent one but may be caused by the control by this other variable , okay? and for example as it was exemplified multiple time I have to test on some code that is sufficiently general and equivalent for all cases 
+and finally controlled variable we discuss them extensively and these are again operationalization (of course) 
+but in practice they are attributes of human subjects or objects as we saw before definite to control to mask 
+
+or prevent their impact on the dependent variable this controlled variable I need to control them 
+
+because otherwise the variation of the dependent variable 'is not linked' only to the variation of the independent one 
+but may be caused by the control, by this other variable , okay? 
+and for example as it was exemplified multiple time I have to test on some code that is sufficiently general and equivalent for all cases 
 
 

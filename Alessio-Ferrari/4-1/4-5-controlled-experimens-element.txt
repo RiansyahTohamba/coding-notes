@@ -99,10 +99,12 @@ so let's see more in detail what are this controlled experiment with some defini
 
 now we've seen a bit of a high level view of what are the different elements that you will encounter through these lectures. 
 but now let's see more formal let's, say definitions , okay? 
-a controlled experiments is (let's read the slide ) "an environmental investigation of a testable hypothesis in which conditions are set up to isolate the variables of interest that are independent variables and tests how they affect certain measurable outcomes the dependent variables" 
+a controlled experiments is (let's read the slide ) 
+"an environmental investigation of a testable hypothesis in which conditions are set up to isolate the variables of interest that are independent variables and tests how they affect certain measurable outcomes the dependent variables" 
 
 
-so what does it mean look at the picture and I think is quite intuitive.
+so what does it mean ?
+look at the picture and I think is quite intuitive.
 
 you have some input variable , okay? some input variable that you want to change and these are the independent variables, okay? 
 
@@ -111,8 +113,7 @@ the treatments box (let's call it)
 and you want to see how certain dependent variables: (so variables of output in this box) vary based on the independent one , okay? 
 
 (the treatment) what is a treatment ? 
-treatment is a combination of values for the independent variables 
-what does it mean? 
+treatment is a combination of values for the independent variables. what does it mean? 
 
 in an example can clarify everything here 
 for example 
@@ -120,50 +121,85 @@ for example
 in the case of the experiment with software tools 
 I may have the independent variable is the testing tool that I'm using , okay? 
 the treatments is 
-1. the first (one?) treatment is with tool A and 
+1. the first treatment is with tool A and 
 2. the second treatment is with tool B 
 
-because the testing tool as a variable can take tool a or tool B as values , okay? 
-
+because the testing tool as a variable can take tool A or tool B as values , okay? 
+----------
+testing tool = tool A (benarkah?)
+testing tool = tool B (benarkah?)
+---
 so I have two different treatments 
-
-and the dependent variable is the thing that I want to measure for example can 
-
+and the dependent variable is the thing that I want to measure.
 for example can be 
 1. the number of bugs found in the software 
 2. or the speed , okay? 
 
 this is the basic element of any experiment 
-
 so independent variables that are also sometimes called factors , okay? 
 
-the treatments that are combinations of values of the independent variable 
-and the dependent variable : so the measurable outcome that i want to observe ! 
+the treatments that are "combinations" of values of the independent variable and the dependent variable : so the measurable outcome that i want to observe, so 
+1. I changed something (independent variable)
+2. and (then) I want to observe something as output (dependent variable)
 
-(treatments = kombinasi value of variable)
 ==============
-(todo! sampai sini)
+treatments = kombinasi value of dependent, independent
+masalahnya pada riset refactoring, independent nya belum kelihatan
 ==================
-so I changed something and I want to observe something as output it is important to consider this these are this other part what I want to do is to isolate the independent variable because I want to see just the effect on them of them on the dependent variables , okay? 
+It is important to consider this other part :
+what I want to do is to 'isolate' the independent variable because I want to see just the effect on them  (on the dependent variables) , okay? 
 
-so this means that in the Oh experimental all the treatment all the other variables need to be controlled , okay? 
-so in the example of the testing tool what I need to do is that the what can be the other variables that can affect my dependent ones , okay? 
+so this means that 
+in the all experimental,
+in the all the treatment,
+in the all the other variables 
+need to be controlled , okay? 
+--------
+mau lihat kebenaran proposisi yg disusun dari block of constructs
+--------
+so in the example of the testing tool 
+what I need to do is that 
+1. what can be the other variables that can 'affect' my dependent ones , (okay?) 
+2. what can be the other aspects, the other factors, that 'combined' with the choice of the testing tool can modify the number of bugs found ?
 
-what can be the other aspects (the other factors) 
-that combined with the choice of the testing tool can modify the number of bugs found ?
-
-well obviously the type of code that I'm using for testing , okay? the code sample that 
-I'm using for testing if this code samples need to be need to be to have a sufficient variation of number of bugs 
-
-so that I can see 
-so that they are sufficiently representative of typical code base , okay?
+----
+samakan nilai variable control untuk testing tool A dan B. 
+contoh variable control nya : jumlah bug nya harus sama yang sudah diketahui dari awal, length of program,
+----
+well obviously 
+the type of code that I'm using for testing 
+the code sample that I'm using for testing 
+this code samples need to have 'a sufficient variation' of number of bugs 
+so that they are sufficiently representative of 'typical' code base , okay?
 so I need to control the variable of number of bugs in code 
-but I have also a number of bug like not number of bugs found in terms of dependent variables 
+but I have also a number of bug like 
+(catat!) 'not' number of bugs found in terms of dependent variables, (tapi)
+but number of bugs included in the code that I'm considering in the experiment included in the code sample 
+but also the 'length' of this code sample 
 
-but number of bugs included in the code that I'm that I'm considering in the experiment included in the console but also the length of this code sample because in reality I can have different lengths and this may affect for example the speed of the tool or actually the number of bugs that a certain tool is able to find , okay? 
-so this is this is to tell you that here in an email like in any controlled experiment the independent variables need to be isolated if I want to say that the variation on the dependent variable is due to the modification of the independent one otherwise if I don't control these variables what happens it happens that I may observe variation in the dependent variable but this may be caused not by the independent one but by the other variables that I didn't control 
-so it's like being somewhat in a in a field study where I take things from reality I don't isolate elements and I see their collective impact on a certain variables but (of course) the validity of what I am finding and the connection between independent in the independent variable is much weaker , okay? 
-so it is really important to to remember to remember this when you design an expense 
+because in reality I can have different lengths 
+and this may affect for example 
+1. the speed of the tool or 
+2. actually the number of bugs that a certain tool is able to find , okay? 
+
+so this is to tell you that 
+here, like in any controlled experiment the independent variables need to be isolated 
+if I want to say that the variation on the dependent variable is 'due to the modification' of the independent one 
+otherwise 
+if I don't control these variables, what happens? 
+
+it happens that I may observe variation in the dependent variable 
+but this may be caused not by the independent one 
+but by the other variables that I didn't control 
+
+so it's like being somewhat in a in a field study 
+where I take things from reality I don't isolate elements 
+and I see their 'collective impact' on a certain variables 
+
+but (of course) the validity of what I am finding and the 'connection' between independent and dependent variable is much 'weaker' , okay? 
+
+so it is really important to to remember !
+to remember this when you design an experiments! 
 
 =============================
 5. controlled experiments : controlled variables (18:58 - 27:55)
@@ -174,15 +210,68 @@ independent variable -> treatments -> dependent variable
 penambahan penjelasan controlled variable pada kotak treatments
 =============================
 
-so again this is alighting a little bit more what we mean by controlled variable here for example I was recent the sample length the type of language also because some - maybe maybe working in only on a certain language the degree of complexity under of the code because also this may impact on the ability of the tool to to find bugs 
+so again this is a slide 
+a little bit more what we mean by 'controlled variable' here !
+
+for example 
+I was recent the sample 
+1. 'length' (of the source code)
+2. the type of language also : because some tool maybe working in only on a 'certain language'
+3.  the degree of complexity under of the code because also this may impact on the ability of the tool to to find bugs 
+
 so all this variable need to be controlled 
+---
+control variable related to objects and human
+----
+1. they can be related to two objects 
+like in this case : they are related to the 'different code samples' that I'm using in the test (in the experiment )
+2. and they can also be related to human subjects 
 
-they can be related to two objects like in this case in this case they are related to the different to the different code samples that I'm using in the test in the experiment 
+in this example I'm using software subjects only 
+but if humans are involved as I as I briefly touched before 
+you will need some representatives of different types of developers with different expertise for example 
+if I want to make this experiment independent of the expertise of the people 
 
-and they can also be related to human subjects in this example I'm using software subjects only but if humans are involved as I as I briefly touched before you will need some representatives of different types of developers with different expertise for example if I want to make this experiment independent of the expertise of the people 
-so I need to control the expertise variable , okay? what are the main characteristics that the control variables should have and at least the the sample that I'm including in this experiment should have there should be equivalent for each treatment 
-so not equal but least equivalent they can be there should be general enough 
-so to cover with my experiment the the largest part of my scope of interest and homogeneous they need to be homogeneous (of course) is another way of seeing of saying it is a way of saying that they are not emphasizing any any aspect if your if you are using for example a code sample you cannot have all all the code all the C code of a certain length and all the Java code shorter , okay? you need to have some some homogeneous representation datian of all the different factors in the sample that you consider and representative , okay? they need to represent some reality , okay? they need to be representative or some population of code in this case , okay? 
-so it's very difficult to do this to do this election and you need to justify your selection and very often if the control variables are many you end up dealing with the needs to constrain some some dimension we will see an example later on 
-so when when I consider you might subject as a simplified before the control variable may be related to the experience of developers for examples or age or like gender or like if you are using biometric sensor also the the color of the skin may may affect that 
-so there there are several there are several several aspects that that may be considered to have to control your variables , okay? 
+so I need to control the expertise variable , okay? 
+-----------
+characteristics control variable
+-----------
+1. what are the main characteristics that the control variables should have ?
+
+2. and at least the the sample that I'm including in this experiment should have ?
+----
+1. apa saja syarat dari control variable?
+2. untuk contoh ini saja, apa saja karateristik yang harus dipunya?
+----
+1. there should be equivalent for each treatment : so not equal but least equivalent 
+
+2. they should be 'general' enough : so to cover with my experiment , the largest part of my scope of interest 
+
+3. and homogeneous : they need to be homogeneous (of course) (beliau lagi nyari kata-kata)
+it is a way of saying that they are not emphasizing any aspect 
+if you are using for example a code sample 
+you cannot have all the code 
+all the C code of a certain length 
+and all the Java code shorter , okay? 
+
+you need to have some homogeneous representation of all the different factors in the sample that you consider 
+
+4. and representative , okay? they need to represent some reality , okay? 
+they need to be representative of some population of code (in this case,okay? ) 
+
+so it's very difficult to do this 
+to do this selection 
+and you need to justify your selection 
+and very often (especially) if the control variables are many
+(then) you end up dealing with the needs to constrain some dimension 
+we will see an example later on !
+
+so when I consider human subject as a simplified before 
+the control variable may be related to the 'experience of developers' for examples  
+1. age or 
+2. like gender or 
+3. like if you are using biometric sensor also the the color of the skin may affect that 
+
+so there are several 
+there are several several aspects 
+that may be considered to have to control your variables , okay? 
