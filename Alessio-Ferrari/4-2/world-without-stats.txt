@@ -1,0 +1,112 @@
+
+dunia tanpa statistics
+
+Seorang reporter meminta saya untuk mengutip tentang pentingnya statistik. Tapi, setelah memikirkannya sejenak, saya memutuskan bahwa statistik sama sekali tidak penting. Dunia tanpa statistik tidak akan jauh berbeda dari dunia yang kita miliki sekarang.
+
+Apa yang akan hilang, di dunia tanpa statistik?
+
+Sains akan baik-baik saja. Newton tidak membutuhkan statistik untuk teori gravitasi, gerak, dan cahayanya, Einstein juga tidak membutuhkan statistik untuk teori relativitas. Termodinamika dan mekanika kuantum pada dasarnya bersifat statistik, tetapi banyak kemajuan dapat dibuat di bidang ini tanpa statistik. Hukum kedua termodinamika adalah fakta yang dapat diamati, mengikuti eksperimen dua celah dan berbagai hasil eksperimen yang mengungkapkan sifat atom. 
+
+Bom-A dan, hampir pasti, bom-H, mungkin ini tidak akan pernah ditemukan tanpa statistik, tetapi secara seimbang saya pikir kebanyakan orang akan merasa bahwa dunia akan menjadi tempat yang lebih baik tanpa perkembangan ilmiah khusus ini. Tanpa statistik, kita dapat melupakan tentang menemukan Hibbs boson dll, tetapi itu tidak tampak seperti kerugian bagi umat manusia.
+
+Pada tingkat yang lebih terapan, statistik membantu memenangkan Perang Dunia 2, terutama dalam memecahkan kode Enigma tetapi juga dalam berbagai upaya penelitian operasi. 
+Dan menurut saya, statistik "kami" lebih baik daripada statistik "mereka". Jadi itu sesuatu.
+
+-------------
+
+Where would civilian technology be without statistics? I’m not sure. I don’t have a sense of how necessary statistics was for quantum theory. 
+
+In a world without statistics, would the study of quantum physics have progressed far enough so that transistors were invented? This one, I don’t know. 
+
+And without statistics we wouldn’t have modern quality control, so maybe we’d still be driving around in AMC Gremlins and the like. Scary thought, but not a huge deal, I’d think. No transistors, though, that would make a difference in my life. 
+
+No transistors, no blogging! And I guess we could also forget about various unequivocally beneficial technological innovations such as modern pacemakers, hearing aids, cochlear implants, and Clippy.
+
+----
+Di manakah teknologi sipil tanpa statistik? 
+(sebelumnya bahas teknologi perang seperti :  enigma enkriptor, )
+Saya tidak yakin. Saya tidak mengerti betapa pentingnya statistik untuk teori kuantum. Di dunia tanpa statistik, akankah studi fisika kuantum berkembang cukup jauh sehingga transistor diciptakan? Yang ini, saya tidak tahu. Dan tanpa statistik kami tidak akan memiliki kontrol kualitas modern, jadi mungkin kami masih akan berkeliling di AMC Gremlins dan sejenisnya. Pikiran menakutkan, tapi bukan masalah besar, menurutku. Tidak ada transistor, bagaimanapun, yang akan membuat perbedaan dalam hidup saya. Tanpa transistor, tanpa blog! 
+Dan saya rasa kita juga bisa melupakan berbagai inovasi teknologi yang sangat bermanfaat seperti alat pacu jantung modern, alat bantu dengar, implan koklea, dan Clippy.
+----
+Modern biomedicine uses lots and lots of statistics, but would medicine be so much worse without it? 
+I don’t think so, at least not yet. 
+---
+Biomedis modern menggunakan banyak sekali statistik, tetapi apakah pengobatan akan jauh lebih buruk tanpanya? Saya tidak berpikir demikian, setidaknya belum. 
+
+Anda tidak perlu statistik untuk 
+1. melihat bahwa penisilin bekerja, atau 
+2. untuk melihat bahwa nyamuk menularkan penyakit dan 
+3. bahwa jaring mencegah nyamuk masuk.
+----
+Without statistics, I assume that 
+1. various mistakes would get into the system, 
+2. various ineffective treatments that people think are effective, etc. 
+----
+But on balance I doubt these would be huge mistakes, and the big ones would eventually get caught, with careful record-keeping even without statistical inference and adjustments. Without statistics, biologists would not be able to sequence the gene, and I assume they’d be much slower at developing tools such as tests that allow you to check for chromosomal abnormalities in amnio. 
+-------------
+Tetapi secara seimbang saya ragu ini akan menjadi kesalahan besar, dan yang besar pada akhirnya akan tertangkap, dengan pencatatan yang cermat bahkan tanpa inferensi dan penyesuaian statistik. Tanpa statistik, ahli biologi tidak akan dapat mengurutkan gen tersebut, dan saya berasumsi bahwa mereka akan jauh lebih lambat dalam mengembangkan alat seperti tes yang memungkinkan Anda untuk memeriksa kelainan kromosom pada amnio. 
+
+
+I doubt all these things add up to much yet, but I guess there’s promise for the future. Statistics is also necessary for a lot of drug development—right now my colleagues and I are working on a pharmacodynamic model of dosing—but, again, without any of this, it’s not clear the world would be so much different.
+
+Saya ragu semua hal ini bertambah banyak, tapi saya rasa ada janji untuk masa depan. Statistik juga diperlukan untuk banyak pengembangan obat — saat ini kolega saya dan saya sedang mengerjakan model dosis farmakodinamik — tetapi, sekali lagi, tanpa semua ini, tidak jelas dunia akan menjadi begitu jauh berbeda.
+----
+The Poverty Lab team use statistics and randomized experiments to see what works to help the lives of poor people around the world. That’s cool but I’m not ultimately convinced this all makes a difference in the big picture. Or, to put it another way, I suspect that the statistical validation serves mostly as a way to build political consensus for economic policies that will be effective in sharing the wealth. By demonstrating in a scientific way that Treatment X is effective, this supports the idea that there is a way to help the sort of people who live in what Nicholas Wade would describe as “tribal” societies. So, sure, fine, but in this case the benefits of the statistical methods are somewhat indirect.
+
+Without statistics, we wouldn’t have most of the papers in “Psychological Science,” but I could handle that. Piaget didn’t need any statistics, and I think the modern successors of Piaget could’ve done pretty much what they’ve done without statistics, just by careful observation of major transitions.
+---------
+
+Tim Poverty Lab menggunakan statistik dan eksperimen acak untuk melihat apa yang berhasil membantu kehidupan orang miskin di seluruh dunia. Itu keren, tetapi saya pada akhirnya tidak yakin ini semua membuat perbedaan dalam gambaran besar. Atau, dengan kata lain, saya curiga bahwa validasi statistik sebagian besar berfungsi sebagai cara untuk membangun konsensus politik untuk kebijakan ekonomi yang akan efektif dalam membagi kekayaan. Dengan mendemonstrasikan secara ilmiah bahwa Pengobatan X efektif, ini mendukung gagasan bahwa ada cara untuk membantu jenis orang yang hidup dalam apa yang digambarkan oleh Nicholas Wade sebagai masyarakat "kesukuan". Jadi, tentu, bagus, tetapi dalam hal ini manfaat metode statistik agak tidak langsung.
+
+Tanpa statistik, kami tidak akan memiliki sebagian besar makalah di "Ilmu Psikologi", tetapi saya bisa mengatasinya. Piaget tidak memerlukan statistik apa pun, dan saya pikir penerus modern Piaget dapat melakukan hampir apa yang telah mereka lakukan tanpa statistik, hanya dengan mengamati transisi besar secara cermat.
+---------
+
+Careful observation and precise measurement can be done, with or without statistical methods. Indeed, researchers often use statistics as a substitute for careful observation and precise measurement. That is a horrible thing to do, and if you have a clear understanding of statistical theory, you can see why. But statistics is hard, and lots of researchers (and journal editors, news reporters, etc.) don’t have that understanding. When statistics is used as a substitute for, rather than an adjunct to, scientific measurement, we get problems.
+
+OK, here’s another one: no statistics, no psychometrics. That’s too bad but one could make the argument that, on the whole, psychometrics has done more harm than good (value-added assessment, anyone?). Don’t get me wrong—I like psychometrics, and a strong argument could be made that it’s done more good than harm—but my point here is that the net benefit is not clear; a case would have to be made.
+
+Polling. Can’t do it well without statistics. But, would a world without polling be so horrible? Much as I hate to admit it, I don’t think so. Don’t get me wrong, I think polling is on balance a good thing—I agree with George Gallup that measurement of public opinion is an important part of the modern democratic process—but I wouldn’t want to hang too much of the benefits of statistics on this one use, given that I expect lots of people would argue that opinion polls do more harm than good in politics.
+------
+Pengamatan yang cermat dan pengukuran yang tepat dapat dilakukan, dengan atau tanpa metode statistik. Memang, peneliti sering menggunakan statistik sebagai pengganti observasi yang cermat dan pengukuran yang tepat. Itu adalah hal yang mengerikan untuk dilakukan, dan jika Anda memiliki pemahaman yang jelas tentang teori statistik, Anda dapat mengetahui alasannya. Tetapi statistik itu sulit, dan banyak peneliti (dan editor jurnal, reporter berita, dll.) Tidak memiliki pemahaman itu. Ketika statistik digunakan sebagai pengganti, bukan sebagai tambahan, pengukuran ilmiah, kita mendapatkan masalah.
+
+Oke, ini satu lagi: tidak ada statistik, tidak ada psikometri. Itu terlalu buruk tetapi orang dapat membuat argumen bahwa, secara keseluruhan, psikometri telah melakukan lebih banyak kerugian daripada kebaikan (penilaian nilai tambah, siapa?). Jangan salah paham — saya suka psikometri, dan argumen yang kuat dapat dibuat bahwa hal itu dilakukan lebih baik daripada merugikan — tetapi maksud saya di sini adalah bahwa manfaat bersihnya tidak jelas; kasus harus dibuat.
+
+Jajak pendapat. Tidak dapat melakukannya dengan baik tanpa statistik. Tapi, apakah dunia tanpa polling akan begitu mengerikan? Meski aku benci mengakuinya, kurasa tidak. Jangan salah paham, menurut saya pemungutan suara seimbang adalah hal yang baik — saya setuju dengan George Gallup bahwa pengukuran opini publik adalah bagian penting dari proses demokrasi modern — tetapi saya tidak ingin terlalu banyak menggantungkan manfaatnya statistik tentang penggunaan yang satu ini, mengingat saya berharap banyak orang akan berpendapat bahwa jajak pendapat lebih merugikan daripada kebaikan dalam politik.
+------
+
+The alternative to good statistics is . . .
+
+Perhaps the most important benefits of statistics come not from the direct use of statistical methods in science and technology, but rather in helping us learn about the world. Statisticians from Francis Galton and Ronald Fisher onward have used statistics to give us a much deeper understanding of human and biological variation. I can’t see how any non-statistical, mechanistic model of the world could reproduce that level of understanding. Forget about p-values, Bayesian inference, and the rest: here I’m simply talking about the nature of correlation and variation.
+
+For a more humble example, consider Bill James. Baseball is a silly example, sure, but the point is to see how much understanding has been gained in this area through statistical measurement and comparison. As James so memorably wrote, the alternative to good statistics is not “no statistics,” it’s “bad statistics.” James wrote about baseball commentators who would make asinine arguments which they would back up by picking out numbers without context. In politics, the equivalent might be a proudly humanistic pundit such as New York Times columnist David Brooks supporting his views by just making up numbers or featuring various “too good to be true” statistics and not checking them.
+
+So here’s one benefit to the formal study of statistics: Without any statistics, there still would be numbers, along with people trying to interpret them.
+
+Could governments and large businesses be managed well without statistics? I’m not sure. Given that half the U.S. Congress seems willing to shut down the government from time to time, it’s not clear than any agreement on the numbers will have much to do with political action. Similarly, all the statistics in the world don’t seem to be stopping the euro-zone from drifting. But maybe things would be much worse without a common core of statistical agreement. I don’t know; unfortunately this seems like the sort of causal question that is too difficult for statistics to answer.
+
+Finally, one way that statistics is potentially having a huge impact in our lives is through the measurement of global warming and all the rest. But I’m guessing that a lot of this could be done with a pre-statistical understanding. The basic physics is already there, as would be the careful measurements. Statistical modeling is certainly relevant to the study of climate change—if you’re trying to reconstruct historical climate conditions from tree-ring data, it’s tough enough to do it with statistical modeling, I can’t imagine how it could be done otherwise—but the basic patterns of carbon dioxide, temperature, melting ice, etc., are apparent in any case. And, even with statistics, much uncertainty remains.
+
+Summary
+
+When I started writing this post, I was thinking that statistics doesn’t really matter, but I think that’s because I was focusing on some of the more highly-publicized but less beneficial applications of statistics: the use of statistical experimentation and inference to get p-values for tabloid-bait scientific papers, or for Google, Amazon, etc., to perfect their techniques for squeezing money out of their customers or, even at best, to test a medical treatment that increases survival rate for some rare disease by 2 percentage points. But statistics is central to how we think about the world. 
+
+I still think that statistics is much less central to our lives than, say, chemistry. But it ain’t nothing.
+
+Alternatif untuk statistik yang baik adalah. . .
+
+Mungkin manfaat statistik yang paling penting bukan berasal dari penggunaan langsung metode statistik dalam sains dan teknologi, tetapi lebih pada membantu kita belajar tentang dunia. Ahli statistik dari Francis Galton dan Ronald Fisher dan seterusnya telah menggunakan statistik untuk memberi kita pemahaman yang lebih dalam tentang variasi manusia dan biologis. Saya tidak dapat melihat bagaimana model dunia non-statistik dan mekanistik dapat mereproduksi tingkat pemahaman itu. Lupakan nilai-p, kesimpulan Bayesian, dan lainnya: di sini saya hanya berbicara tentang sifat korelasi dan variasi.
+
+Untuk contoh yang lebih sederhana, pertimbangkan Bill James. Bisbol adalah contoh yang konyol, tentu saja, tetapi intinya adalah untuk melihat seberapa banyak pemahaman yang telah diperoleh di bidang ini melalui pengukuran dan perbandingan statistik. Seperti yang James sangat ingat tulis, alternatif untuk statistik yang baik bukanlah "tidak ada statistik," itu "statistik buruk." James menulis tentang komentator bisbol yang akan membuat argumen konyol yang akan mereka dukung dengan memilih angka tanpa konteks. Dalam politik, padanannya mungkin seorang pakar humanistik yang bangga seperti kolumnis New York Times David Brooks mendukung pandangannya dengan hanya mengarang angka atau menampilkan berbagai statistik "terlalu bagus untuk menjadi kenyataan" dan tidak memeriksanya.
+
+Jadi, inilah satu manfaat dari studi formal statistik: Tanpa statistik apa pun, masih akan ada angka , bersama dengan orang yang mencoba menafsirkannya.
+
+Bisakah pemerintah dan bisnis besar dikelola dengan baik tanpa statistik? Saya tidak yakin. Mengingat bahwa setengah dari Kongres AS tampaknya bersedia menutup pemerintah dari waktu ke waktu, tidak jelas bahwa kesepakatan tentang angka-angka tersebut akan banyak berkaitan dengan tindakan politik. Demikian pula, semua statistik di dunia tampaknya tidak menghentikan pergerakan zona euro. Tapi mungkin keadaan akan jauh lebih buruk tanpa inti kesepakatan statistik yang sama. Saya tidak tahu; Sayangnya ini sepertinya jenis pertanyaan kausal yang terlalu sulit dijawab oleh statistik.
+
+Terakhir, salah satu cara statistik berpotensi memiliki dampak besar dalam hidup kita adalah melalui pengukuran pemanasan global dan lainnya. Tapi saya menduga banyak dari ini bisa dilakukan dengan pemahaman pra-statistik. Fisika dasar sudah ada, seperti halnya pengukuran yang cermat. Pemodelan statistik tentu saja relevan dengan studi tentang perubahan iklim — jika Anda mencoba merekonstruksi kondisi iklim historis dari data cincin pohon, cukup sulit untuk melakukannya dengan pemodelan statistik, saya tidak dapat membayangkan bagaimana hal itu dapat dilakukan sebaliknya— tetapi pola dasar karbondioksida, suhu, es yang mencair, dll., terlihat jelas dalam kasus apa pun. Dan, bahkan dengan statistik, masih banyak ketidakpastian.
+
+Ringkasan
+
+Ketika saya mulai menulis posting ini, saya berpikir bahwa statistik tidak terlalu penting, tetapi saya pikir itu karena saya fokus pada beberapa aplikasi statistik yang lebih dipublikasikan tetapi kurang bermanfaat: penggunaan eksperimen statistik dan inferensi untuk mendapatkan nilai p untuk makalah ilmiah umpan tabloid, atau untuk Google, Amazon, dll., untuk menyempurnakan teknik mereka dalam memeras uang dari pelanggan mereka atau, bahkan paling banter, untuk menguji perawatan medis yang meningkatkan tingkat kelangsungan hidup untuk beberapa penyakit langka dengan 2 poin persentase. 
+
+
+Tetapi statistik adalah pusat cara kita berpikir tentang dunia. Saya masih berpikir bahwa statistik jauh lebih penting bagi kehidupan kita daripada, katakanlah, kimia. Tapi itu bukan apa-apa.

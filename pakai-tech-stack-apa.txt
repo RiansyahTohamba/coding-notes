@@ -1,0 +1,13 @@
+Node js naik daun gegara serverless, saya juga masih mendalami mengenai hal ini hehe, bisa dibaca disini (https://tsh.io/blog/serverless-in-node-js-beginners-guide/#:~:text=In%20short%2C%20going%20%E2%80%9Cserverless%E2%80%9D,introduce%20new%20features%20more%20frequently.). 
+Jangan lupa juga bahwa javascript memang digunakan untuk membangun aplikasi browser-based dan juga bisa untuk persistent storing dengan MongoDB. Maka dengan kemampuan nodejs untuk running di server-side, maka jadilah MEAN stack, full javascript stack. Tak perlu lagi mempelajari bahasa lain untuk sisi server dan persistent storage. cukup belajar javascript. 
+
+lalu ada Functional Programming yang mulai populer karena kemampuannya memanfaatkaan multicore CPU. seperti yang kita ketahui doubling clock rate CPU sudah mencapai batasnya sehingga solusi dari praktisi adalah menambah jumlah CPU dan Functional Programming pun menjadi populer (https://blog.cleancoder.com/uncle-bob/2017/11/18/OnThePlateau.html)
+
+Bagaimana dengan python (atau Django)? yang saya ketahui untuk package matematik yang terlengkap adalah python ,sebut saja numpy, scipy dan sebagainya yang menjadi pondasi dari AI mazhab statistical Learning dan integrasi dengan CUDA.
+Sehingga akan lebih nikmat jika front aplikasi nya menggunakan python bukan? Kita tinggal menyatukannya dengan framework deep learning populer macam Keras dan Tensorflow.
+ 
+Ruby punya keunggulan pada metaprogramming, use casenya misalkan pada route Rails dimana Rails memanfaatkan metaprogramming  saat membuat HTTP method pada idiom 'resource'.
+
+Lalu akhir kata, memang penting untuk mengetahui use case dari tech stack yang ada, tapi jangan lupa mempelajari goal dari project yang sedang dikerjakan seperti yang disarankan itamar. (https://codewithoutrules.com/2016/12/20/the-best-technology/)
+
+ 

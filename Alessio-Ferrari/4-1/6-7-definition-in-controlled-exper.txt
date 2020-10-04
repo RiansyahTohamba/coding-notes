@@ -11,20 +11,33 @@ you have now a general understanding of what we are speaking about here
 but now we give some definition 
 and I will generally read what's written here 
 
-so we start with the definition of 
-1. hypothesis where what is it is the statement that I want to test with my experiment  so as I shown 
+so we start with the definition of hypothesis 
+"the hypothesis is the statement that I want to test with my experiment" 
+
+(beliau bingung malah nyebutin at the end of hypothesis)
+so as I shown 
 as I've shown I start with the hypothesis 
+at the end of my experiment (beliau bingung lagi)
+I have either rejected a certain hypothesis 
+or 
+I have some support for that hypothesis, okay? 
 
-and at the end of hypothesis 
-at the end of my experiment 
-I have either rejected 
+hypothesis normally derived from a research question 
+for example 
+"what is the difference between (tool) A and (tool) B in terms of bug detection capability ?"
+the same example as before 
+so is it better (tool) A and (tool) B for for finding bugs in this code , okay? 
 
-my it said I have either rejected a certain hypothesis or I have some support for that type of disease , okay? the apology's normally derived from a research question for example what is the difference between a and B in terms of bug detection capability the same example as before 
-so is it better a or B for for finding bugs in this code , okay? ?
+I then include the hypothesis include variables that represent my construct 
+the construct of interest that may be 
+1. tools 
+2. methods 
+3. actor 
+4. number of bugs 
 
-I then include the hypothesis include variables that represent my contracts the costs of interest that may be tools methods actor number of bugs 
-so all the things that may be involved in the in the experiments and that are relevant for me and the process is normally concerned the measurable impact that a certain variation 
-
+so all the things that may be involved in the in the experiments 
+and that are relevant for me 
+and the process is normally concerned the measurable impact that a certain variation 
 or some construct can have on other constructs variation in input variable can have on output variable 
 
 so variation of independent variables can have on dependent variable 
@@ -59,7 +72,8 @@ so these are the constant the operationalization of those constructs that vary b
 and finally controlled variable we discuss them extensively and these are again operationalization (of course) 
 but in practice they are attributes of human subjects or objects as we saw before definite to control to mask 
 
-or prevent their impact on the dependent variable this controlled variable I need to control them 
+or prevent their impact on the dependent variable 
+this controlled variable I need to control them 
 
 because otherwise the variation of the dependent variable 'is not linked' only to the variation of the independent one 
 but may be caused by the control, by this other variable , okay? 
