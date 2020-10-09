@@ -4,7 +4,7 @@ test-statistic
 5. (7:30 - 10:20) test statistic 
 6. (10:20 - 15:25) Probability Distribution of the Test Statistic
 8. level of significance
-11.
+11. Type I and Type II Errors
 ------
 so let's introduce this other concept these other ingredients disagree that is one of the core ingredients of how hypothesis testing which is the test statistic during that process is test normally I perform my experiment and I take a sample of data and I usually compare them into a single value this single value is called test statistic okay so imagine you have collected your data and this data can be combined and give you just one single number is just a number this number is crucial because it can tell you whether you can reject the null hypothesis or not the value of the test statistic the way you compute this test statistic depends on several factors that are related basically to the experiments that you that you have to carry out and basically the way of computing this test statistic is deterministic and is given you by statisticians okay so in this case I didn't write ========
 MAGIC

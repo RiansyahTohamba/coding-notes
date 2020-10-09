@@ -1,0 +1,92 @@
+Hello everyone, my name is muhammad riansyah, I am a computer science student at the University of Indonesia. Today, I will be presenting about Empirical Evaluation of the Impact of Refactoring on Internal Product Attributes. 
+
+outline
+We will start by introducing two main topics including empirical evaluation in software engineering then smells and refactoring . after which, we will move on problem statement around the evaluation of refactoring impact, then we will present the proposed empirical evaluation which includes coupling and size attributes evaluation. After that, we will move on to the result and discussion. And further, we will conclude the summary.
+
+Empirical Evaluation 
+=Why Empirical Evaluation in software engineering is required?
+Because the main objective is to select the best or optimal tool or technique requires some empirical support (from the experiment, survey, or case study) (Fenton & Bieman, 2014).
+=There are many technique or method  in software engineering activities that should be evaluated: SOLID Principles, TDD, Code Review and our topics is Code Smell & Refactoring
+= This study will use an Experiment where the refactoring scenario will be the independent variable and software metric as dependent variable like Coupling and Size which are part of the internal product attributes of the software.
+
+Smells and refactoring
+= in the ninety nine Martin Fowler et al explain about code smell which is an indications that the code has a problem and need for preventive change.
+• Refactoring is a solution for removing code smells.
+• So they write the book that contain the catalog of twenty two smells and seventy two refactoring scenarios 
+
+problem statement 
+after they publish their work, smell and refactoring became popular in software development community.
+= Refactoring was widely believed as a solution to improve software quality, although there are few empirical studies about refactoring benefits (Al Dallal & Abidin, 2018)
+= several empirical study show that refactoring indeed improve several metric but decreasing another metric too.
+There is a need for multi-dimensional assessment to see if the refactoring improves one dimension while another dimension become worsen (Kim, 2019)
+
+Propose empirical evaluation
+so in this study we propose to do an Evaluation  of the impact of refactoring on Dispersion Coupling Smell .
+The Dispersed Coupling code smell refers to methods that call a large number of other methods in a large number of different classes.
+The smell is choosen because its dangerous based on ferme study.
+The smell and refactoring was introduced by Lanza & Radu. The refactoring scenarios for this smell including : 
+• Move Method
+• Extract Method
+• Extract Class
+• Introduce proper abstraction
+• Introduce facade pattern
+
+Size & Coupling Metric
+Previous studies has used several coupling and size metric , as can be seen in the figure.
+While in this study use harmfullnes of Dispersion Coupling, CINT,CDISP and SIZE use LOC,Number of Java Class, Number of Method.
+
+Research Question
+"Can refactoring improve software coupling attributes ?"
+Null Hypothesis : "The refactoring scenario does not improve software coupling attributes."
+
+Experiment
+So we can see the flow of the experiment in the flowchart. 
+The experiment starting from Generation of code metric from Omegat which is source code that written using java programming languange. The code is open source, we can download it in the github website.
+We detect smell based on the metric value.
+The software metric Generation and smell detection helped by JCodeOdor that was developed by ferme in Essere lab in italy.
+Smell dispersion coupling detection have rule that is
+CDISP greater or equal HIGH  
+AND 
+CINT greater or equal HIGH too
+--
+Ferme state that
+HIGH for CDISP equal to (0.66) (zero and sixty six hundreths)
+HIGH for CINT is (8) eight.
+
+After that we refactoring the code with help of Intellij Jetbrain. 
+When refactoring is done, code metric was generated to collect data that will be evaluated using statistical test. 
+
+Result and discussion
+we can see in the boxplot that tell us about the distribution of the value before and after refactoring.
+The median of CDISP before refactoring was (0.8) (zero and eight tenths)
+and after refactoring, (64) (sixty four) percent of functions have value CDISP equal one.
+while the rest have range value from (0.6) (zero and six tenths) to one 
+and one outlier that have value of one.
+although it seems after refactoring the CDISP is increasing but we must see the coupling intensity too.
+----
+We can see in the boxplot that The median of CINT before refactoring was (10.5)  (ten and five tenths)
+and there are five function that have outlier value with maximum value was (37) thirty seven
+and after refactoring the CINT was decreasing with median value became (4) four 
+and the maximum value is approximately (11) eleven and without outlier
+These two metric value will be used to count harmfullnes of dispersion coupling in the next slide.
+---
+
+Result and discussion
+harmfullnes of dispersion coupling is an indirect measurement that need combination of CINT and CDISP metric that was mentioned before.
+The distribution of harmfullnes value can be seen in the figure. 
+The median of harmfullnes before refactoring was (7.7)  (seven and seven tenths) 
+with the minimum value is approximately four and maximum is (10) ten.
+and after refactoring, eighty six (86) percent of samples have zero value of Dispersion coupling harmfullnes while there are still two outlier function that have high value of harmfulness.
+
+The difference between harmfulness value between before refactoring and after refactoring was tested statistically using Wilcoxon paired test and the result is p-value below (zero and one hundreths) 0.01 
+so that means the Null Hypothesis can be rejected.
+
+Although refactoring can cause a reduction in specific coupling measures, it has side effects too. That is the increase of the Size of the code indicated by increasing of LOC, the number of classes and the most change is the Number of method which has increased by (1.81 %) (one and eighty one hundreths) percent.
+
+Conclusion
+= The results show that the refactoring recommendations succeed in eliminating significant Dispersion Coupling.
+= Refactoring indeed can improve internal quality of software attributes.
+= But the Practitioners and researchers should consider the Side effect of refactoring on the size of source code.
+So they must keep the balance between coupling and size of source code.
+
+thanks for attention.

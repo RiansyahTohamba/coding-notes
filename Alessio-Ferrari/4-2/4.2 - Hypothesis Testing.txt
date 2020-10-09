@@ -39,8 +39,8 @@ hypothesis testing: MAGIC
 23. what about type II errors?
 24. type II errors
 25. hard truth
-26. summary of concepts
-27. Graphical summary (46:18)
+26. summary of concepts ( - 45:32)
+27. Graphical summary (45:32 - 46:18)
 -------------------------------------------
 my objective?
 Contoh kasus yang diberikan
