@@ -1,0 +1,44 @@
+some question that i can't answer?
+= thpoint vs thvalue? apakah mereka penting?
+	= keyword thpoint dimana saja?
+	= keyword thvalue dimana saja?
+
+= kalau CINT gimana cara hitung thPoint, thValue?
+= kalau CDISP gimana cara hitung thPoint, thValue?
+= kalau operator buat deteksi smell nya AND , bgmn cara untuk mendapatkan index harmfulness nya , dikalikan kah CINT dan CDISP? 
+= 
+
+harmfulness computation details
+keyword
+statistical distribution , threshold , detection strategy , metric, Absolute comparator , sisi manakah , harmfulness starting point , 
+---------------
+
+As discussed in the previous section, a code smell is captured using a dedicated detection strategy, composed by one or more logical condition made by: 
+1. a metric (e.g. LOC) , 
+2. an Absolute Comparator (e.g. >), and 
+3. a threshold (e.g. HIGH)
+example : LOC > HIGH
+
+Given the metric, if its value exceeds the threshold value(see footnote :19), we refer to its statistical distribution to compute the metric values where to place the harmfulness level points.
+--------
+footnote 19 
+catatan kaki
+19. There can be some of the metrics in the detection strategy that do not exceed the threshold, for example when we use the OR logical operator to compose logical condition.
+---
+loopingku biar paham wkwk
+There can be some of the metrics in the detection strategy that do not exceed the threshold
+There can be some of the metrics in the detection strategy 
+that 
+do not exceed the threshold
+for example 
+when we use the OR logical operator to compose logical condition
+jika strategi deteksi use OR, maka tidak semua metrik perlu melebih threshold
+-------------
+Distribusi statistik dari metrik jadi basis untuk penentuan harmfulness level points.
+-------------
+The threshold defines the value where to start to place the harmfulness level points, and the Absolute Comparator (i.e., >, ≥, < or ≤) defines the side of the metric distribution where to place the points (i.e., the left side or the right side of the distribution starting from the threshold).
+--
+threshold menentukan value dimanakan start untuk penempatan harmfulness level points dan juga
+the Absolute comparator menentukan di sisi mana penempatan harmfulness point, dikiri atau dikanan dari harmfulness starting point kah?
+-----
+
