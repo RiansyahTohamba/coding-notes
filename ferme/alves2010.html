@@ -1,8 +1,14 @@
-2010 - alves
-sudah banyak proposal ttg software metric dan juga tools untuk mengukurnya.
+<!DOCTYPE html>
+<html>
+<head>
+	<title>2010 - alves</title>
+</head>
+<body>
+<div id='abstract'>
+	sudah banyak proposal ttg software metric dan juga tools untuk mengukurnya.
 apakah penggunaan metrik sdh efektif? 
 karena threshold untuk menyatakan kode kita sedang tidak baik baik saja masih meaningless.
-Threshold yg dibuat hanya untuk beberapa metris saja, itupun kebanyakan berdasarkan pada 
+Threshold yg dibuat hanya untuk beberapa metrik saja, itupun kebanyakan berdasarkan pada 
 1. opini expert
 2. jumlah observasi yang masih sedikit. 
 
@@ -26,7 +32,9 @@ Metode kami berkaitan dengan distribusi dan skala metrik kode sumber
 dan 
 "resilient against outliers" dalam nilai metrik atau ukuran sistem.
 
-We applied our method to a 'benchmark' of 100 object-oriented software systems, both proprietary and open-source, to derive thresholds for metrics included in the SIG maintainability model.
+We applied our method to a 'benchmark' of 100 object-oriented software systems, 
+both proprietary and open-source, 
+to derive thresholds for metrics included in the SIG maintainability model.
 
 apa itu SIG maintainability model ?
 SIG itu company mereka : Software Improvement Group
@@ -37,17 +45,24 @@ SIG itu company mereka : Software Improvement Group
 	C. Thresholds using error models
 	D. Thresholds using cluster techniques
 	E. Methodologies for characterizing metric distribution	
+
 3. MOTIVATING EXAMPLE	
 4. benchmark based thresholds derivation
 5. benchmarking data
 6. ANALYSIS OF THE METHODOLOGY STEPS
 -----------------
+methodology step 
 	1. metrics extraction
-		System ⇀ (Entity ⇀ Metric ! Weight)
+		1 sistem punya banyak entitas
+		1 entitas punya banyak metric=bobot
+		System ⇀ (Entity ⇀ Metric x Weight)
 	2. weight ratio calculation
-		System ⇀ (Entity ⇀ Metric ! WeightRatio)
+		1 sistem punya banyak entitas
+		1 entitas punya banyak metric=weightratio
+		System ⇀ (Entity ⇀ Metric x WeightRatio)
 	3. entity aggregation
 		System ⇀ (Metric ⇀ WeightRatio)
+
 	4. system aggregation
 		Metric ⇀ WeightRatio
 	5. weight ratio aggregation
@@ -55,6 +70,15 @@ SIG itu company mereka : Software Improvement Group
 		WeightRatio ⇀ Metric
 	6. thresholds derivation
 		70% 80% 90%
+
+Legend
+⇀ map relation (one-to-many relationship)
+x product (pair of columns or elements)
+System = Represents individual systems (e.g. Vuze)
+Entity = Represents a measurable entity (e.g java method)
+Metric = Represents a metric value (e.g. McCabe of 5)
+Weight = Represents the weight value (e.g. LOC of 10)
+WeightRatio = Represents the weight percentage inside of the system (e.g. entity LOC divided by system LOC)
 -----------------	
 	a. background
 	b. weighting by size
@@ -68,7 +92,14 @@ SIG itu company mereka : Software Improvement Group
 
 8. THRESHOLDS FOR SIG QUALITY MODEL METRICS
 
-9. Conclusion
+
+-----
+contoh 100 software 	
+</div>
+<div id='intro'></div>
+
+<div id='Conclusion'>
+	9. Conclusion
 	a. Contributions
 		We proposed a novel methodology for deriving software metric thresholds and a calibration of previously introduced metrics. 
 		Our methodology improves over others by fulfilling three fundamental requirements: 
@@ -78,3 +109,8 @@ SIG itu company mereka : Software Improvement Group
 	b. discussion
 	c. industrial applications
 	d. future work
+
+</div>
+</body>
+</html>
+
