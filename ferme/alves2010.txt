@@ -1,0 +1,80 @@
+2010 - alves
+sudah banyak proposal ttg software metric dan juga tools untuk mengukurnya.
+apakah penggunaan metrik sdh efektif? 
+karena threshold untuk menyatakan kode kita sedang tidak baik baik saja masih meaningless.
+Threshold yg dibuat hanya untuk beberapa metris saja, itupun kebanyakan berdasarkan pada 
+1. opini expert
+2. jumlah observasi yang masih sedikit. 
+
+sebelumnya, sudah ada upaya for deriving thresholds.
+previous method for deriving thresholds for metric use asumsi yg tidak dapat dibenarkan(unjustified asumption) mengenai statistical properties of source code metric.
+
+akhirnya general validity of the derivation method menyempit dan became dangerous when it will be generally applied.
+
+Alves et al try to solve those problems by presenting :
+"how to derive thresholds empirically from measurement data".
+
+tahapan derive threshold
+
+1. karakter derivated selected threshold : 
+(i) memunculkan variabilitas metrik antara sistem dan
+(ii) membantu fokus pada persentase yang wajar (reasonable percentage) dari volume kode sumber. 
+
+2. The measurement data for different software systems  dikumpulkan dan digabungkan (are pooled and aggregated)
+
+Metode kami berkaitan dengan distribusi dan skala metrik kode sumber 
+dan 
+"resilient against outliers" dalam nilai metrik atau ukuran sistem.
+
+We applied our method to a 'benchmark' of 100 object-oriented software systems, both proprietary and open-source, to derive thresholds for metrics included in the SIG maintainability model.
+
+apa itu SIG maintainability model ?
+SIG itu company mereka : Software Improvement Group
+----
+2. Related Work
+	A. Thresholds derived from experience
+	B. Thresholds from metric analysis
+	C. Thresholds using error models
+	D. Thresholds using cluster techniques
+	E. Methodologies for characterizing metric distribution	
+3. MOTIVATING EXAMPLE	
+4. benchmark based thresholds derivation
+5. benchmarking data
+6. ANALYSIS OF THE METHODOLOGY STEPS
+-----------------
+	1. metrics extraction
+		System ⇀ (Entity ⇀ Metric ! Weight)
+	2. weight ratio calculation
+		System ⇀ (Entity ⇀ Metric ! WeightRatio)
+	3. entity aggregation
+		System ⇀ (Metric ⇀ WeightRatio)
+	4. system aggregation
+		Metric ⇀ WeightRatio
+	5. weight ratio aggregation
+		Metric Metric Metric
+		WeightRatio ⇀ Metric
+	6. thresholds derivation
+		70% 80% 90%
+-----------------	
+	a. background
+	b. weighting by size
+	c. using relative size
+	d. choosing percentile thresholds	
+7. Variants and threats
+	a. weight by size
+	b. use of relative weight
+	c. outliers
+	d. impact of the tools/scoping
+
+8. THRESHOLDS FOR SIG QUALITY MODEL METRICS
+
+9. Conclusion
+	a. Contributions
+		We proposed a novel methodology for deriving software metric thresholds and a calibration of previously introduced metrics. 
+		Our methodology improves over others by fulfilling three fundamental requirements: 
+			i) it respects the statistical properties of the metric, such as metric scale and distribution;
+			ii) it is based on data analysis from a representative set of systems (benchmark); 
+			iii) it is repeatable, transparent and straightforward to carry out. These requirements were achieved by aggregating measurements from different systems using relative size weighting. Our methodology was applied to a large set of systems and thresholds were derived by choosing specific percentages of overall code of the benchmark.
+	b. discussion
+	c. industrial applications
+	d. future work
