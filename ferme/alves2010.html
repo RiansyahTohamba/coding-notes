@@ -1,16 +1,42 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>2010 - alves</title>
+	<title>2010 - Alves et al</title>
 </head>
 <body>
+<div id='authors'>
+	dibuat oleh SIG - Software Improvement Group
+</div>
+<div id='contents'>
+	1. Introduction
+	2. Related Work
+		A. Thresholds derived from experience
+		B. Thresholds from metric analysis
+		C. Thresholds using error models
+		D. Thresholds using cluster techniques
+		E. Methodologies for characterizing metric distribution	
+	3. motivating example
+	4. benchmark based thresholds derivation
+	5. benchmarking 
+	6. analysis of the methodology steps
+		a. background
+		b. weighting by size
+		c. using relative size
+		d. choosing percentile thresholds	
+	7. Variants and threats
+		a. weight by size
+		b. use of relative weight
+		c. outliers
+		d. impact of the tools/scoping
+	8. thresholds SIG'S quality models metrics
+	9. conclusion
+</div>	
 <div id='abstract'>
-	sudah banyak proposal ttg software metric dan juga tools untuk mengukurnya.
-apakah penggunaan metrik sdh efektif? 
-karena threshold untuk menyatakan kode kita sedang tidak baik baik saja masih meaningless.
-Threshold yg dibuat hanya untuk beberapa metrik saja, itupun kebanyakan berdasarkan pada 
-1. opini expert
-2. jumlah observasi yang masih sedikit. 
+	Sudah banyak proposal ttg software metric dan juga tools untuk mengukurnya.
+	Apakah penggunaan metrik sdh efektif? karena threshold untuk menyatakan kode kita sedang tidak baik baik saja masih meaningless.
+	Threshold yg dibuat hanya untuk beberapa metrik saja, itupun kebanyakan berdasarkan pada 
+	1. opini expert
+	2. jumlah observasi yang masih sedikit. 
 
 sebelumnya, sudah ada upaya for deriving thresholds.
 previous method for deriving thresholds for metric use asumsi yg tidak dapat dibenarkan(unjustified asumption) mengenai statistical properties of source code metric.
@@ -38,20 +64,18 @@ to derive thresholds for metrics included in the SIG maintainability model.
 
 apa itu SIG maintainability model ?
 SIG itu company mereka : Software Improvement Group
-----
-2. Related Work
-	A. Thresholds derived from experience
-	B. Thresholds from metric analysis
-	C. Thresholds using error models
-	D. Thresholds using cluster techniques
-	E. Methodologies for characterizing metric distribution	
 
-3. MOTIVATING EXAMPLE	
-4. benchmark based thresholds derivation
-5. benchmarking data
-6. ANALYSIS OF THE METHODOLOGY STEPS
 -----------------
-methodology step 
+
+-----------------	
+	
+
+-----
+</div>
+<div id='intro'>
+	
+</div>
+<div id='Methodology Step'>
 	1. metrics extraction
 		1 sistem punya banyak entitas
 		1 entitas punya banyak metric=bobot
@@ -70,7 +94,6 @@ methodology step
 		WeightRatio ⇀ Metric
 	6. thresholds derivation
 		70% 80% 90%
-
 Legend
 ⇀ map relation (one-to-many relationship)
 x product (pair of columns or elements)
@@ -79,25 +102,8 @@ Entity = Represents a measurable entity (e.g java method)
 Metric = Represents a metric value (e.g. McCabe of 5)
 Weight = Represents the weight value (e.g. LOC of 10)
 WeightRatio = Represents the weight percentage inside of the system (e.g. entity LOC divided by system LOC)
------------------	
-	a. background
-	b. weighting by size
-	c. using relative size
-	d. choosing percentile thresholds	
-7. Variants and threats
-	a. weight by size
-	b. use of relative weight
-	c. outliers
-	d. impact of the tools/scoping
 
-8. THRESHOLDS FOR SIG QUALITY MODEL METRICS
-
-
------
-contoh 100 software 	
 </div>
-<div id='intro'></div>
-
 <div id='Conclusion'>
 	9. Conclusion
 	a. Contributions
@@ -109,6 +115,32 @@ contoh 100 software
 	b. discussion
 	c. industrial applications
 	d. future work
+
+</div>
+<div id='Software Dataset Functionality'>
+Contoh 100 software 	
+
+Functionality type n
+Catalogue or register of things or events 8
+Customer billing or relationship management 5
+Document management 5
+Electronic data interchange 3
+Financial transaction processing and accounting 12
+Geographic or spatial information systems 2
+Graphics and publishing tools or system 2
+Embedded software for machine control 3
+Job, case, incident or project management 6
+Logistic or supply planning and control 8
+Management or performance reporting 2
+Mathematical modeling (finance or engineering) 1
+Online analysis and reporting 6
+Operating systems or software utility 14
+Software development tool 3
+Stock control and order processing 1
+Trading 1
+Workflow support and management 10
+Other 8
+Total 100
 
 </div>
 </body>
