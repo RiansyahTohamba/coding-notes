@@ -52,39 +52,85 @@ tahapan derive threshold
 ide paragraf 4 = diuji ke 100 OO source code
 
 # 1. Introduction
-6 paragraf
-ide paragraf 1 =  
-ide paragraf 2 = 
-ide paragraf 3 =
-ide paragraf 4 =
-ide paragraf 5 =
-ide paragraf 6 =
-
+5 paragraf
+ide paragraf 1 = Kemunculan metric dan Manfaatnya
+ide paragraf 2 = Metric masih belum efektif digunakan untuk decision making
+ide paragraf 3 = Agar efektif, metric diberikan thresholds. Validitas thresholds yg ada masih pada jenis software tertentu
+ide paragraf 4 = requirement dari method yg dibuat
+ide paragraf 5 = struktur paper
+==
+Opiniku
 Meaningless Threshold
-Scope of validity existing thresholds sempit, dikarenakan
-1. experience : cuman software yang tuliskan oleh sang pembobot thresholds
-2. 
-
+Scope of validity existing thresholds sempit, dikarenakan experience, cuman software yang tuliskan oleh sang pembobot thresholds.
 
 # 2. Related Work
 Beberapa methodology for derivating thresholds
 
 ## A. Thresholds derived from experience
+
 ### Definition
 McCabe experience
+
 ### Dis-advantage
 Scope of validity, bisa jadi untuk software jenis tersebut (CRUD), memang CDISP tidak boleh lebih dari 20 (CDISP < 20), tapi untuk software jenis lain tidak apa-apa CDISP lebih dari 20
-## B. Thresholds from metric analysis
-### Definition
-proposed by Erni
+1. difficult to reproduce or generalize these results. 
+2. the lack of scientific support can lead to perselisihan mengenai nilai thresholds yang disepakati
 
-### Dis-advantage
-1.
+### Against Alves Method
+apa ya?
+
+## B. Thresholds from metric analysis
+
+### Erni Method
+Karin Erni from ABB, using mean and std deviasi to derivate T.
+T = µ + σ  atau  T = µ − σ 
+Baik nilai T yang tinggi atau rendah mengindikasikan bahwa ada masalah.
+
+This methodology is a common statistical technique which, when data is normally distributed, identifies 16% of the observations.
+
+
+#### Dis-advantage
+1. Not analyze the underlying distribution, and 
+2. only apply it to one system (albeit using three releases). 
+
+
+1. distribusi metric tidaklah normal 
+Beberapa software punya metric yang berbeda, misal
+10 % code (CBO < 20)
+10 %
+10 % code  (CBO > 20 < 40)
+10 % 
+jadi sebaran metric tidak merata,skew.
+
+Metode erni akan salah mengira sebuah kode bermasalah dikarenakan masuk 16 % observations, padahal kode itu baik-baik saja.
+
+For metrics with high values and high variability, this methodology will identify less
+than 16% of code, while for metrics with low values or low variability, this methodology will identify more than 16% of code. 
+
+#### Against Alves Method
+In contrast, our approach does not make assumption about data normality. Moreover, we apply our methodology to 100 projects, both proprietary and open-source.
+
+### French Method
+French using Chebyshev’s inequality yg tak terbatas untuk distribution normal saja
+
+#### Dis-advantage
+This methodology is sensitive to large numbers or outliers. 
+For metrics with high range or high variation, this technique will identify a smaller percentage of observations than its theoretical maximum. 
+misal 
+
+#### Against Alves Method
+1. alves derive thresholds from benchmark data and 
+2. such is resilient to high variation of data our outliers.
+3. French 'only' use 8 software (C++ dan ADA), alves use 100 software
 
 ## C. Thresholds using error models
+
 ### Definition
 
 ### Dis-advantage
+
+### Against Alves Method
+apa ya?
 
 ## D. Thresholds using cluster techniques
 ### Definition
@@ -92,15 +138,24 @@ Proposed by Yoon et al.
 
 They investigate the use of the K-means Cluster algorithm to identify outliers in the data measurements.
 
-Outliers can be identified by observations that appear either in isolated clusters (external outliers), or by observations that appear far away from other observations within the same cluster (internal outliers). 
-
-However, this algorithm suffers from several shortcomings: it requires an input parameter that affects both the performance and the accuracy of the results, the process of identifying the outliers is manual, after identifying outliers the algorithm should be executed again, and if new systems are added to the sample the thresholds might change significantly.
-
-In contrast, our methodology accuracy is not influenced by input parameters, it is automatic, and stable (the addition of more systems results only in small variation). 			
+Outliers can be identified by observations that appear either 2 kind of outliers including : 
+1. external outliers : in isolated clusters , or 
+2. internal outliers : by observations that appear far away from other observations within the same cluster.
 
 ### Dis-advantage
-1. 
+However, this algorithm suffers from several shortcomings: 
+1. accuracy affected by input parameter
+it requires an input parameter that affects both the performance and the accuracy of the results,
+2. manually identifying outlier
+the process of identifying the outliers is manual, after identifying outliers the algorithm should be executed again, and 
+3. unstable
+if new systems are added to the sample the thresholds might change significantly.
 
+### Against Alves Method
+In contrast, our methodology  
+1. accuracy is not influenced by input parameters, 
+2. it is automatic, and 
+3. stable (the addition of more systems results only in small variation). 
 
 
 ## E. Methodologies for characterizing metric distribution	
