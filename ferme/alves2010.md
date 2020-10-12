@@ -9,57 +9,63 @@
 		C. Thresholds using error models
 		D. Thresholds using cluster techniques
 		E. Methodologies for characterizing metric distribution	
-	3. motivating example
-	4. benchmark based thresholds derivation
-	5. benchmarking 
-	6. analysis of the methodology steps
+	3. Motivating Example
+	4. Benchmark Based Thresholds derivation
+	5. Benchmarking 
+	6. Analysis of the Methodology Steps
 		a. background
 		b. weighting by size
 		c. using relative size
 		d. choosing percentile thresholds	
-	7. Variants and threats
+	7. Variants and Threats
 		a. weight by size
 		b. use of relative weight
 		c. outliers
 		d. impact of the tools/scoping
-	8. thresholds SIG'S quality models metrics
-	9. conclusion
+	8. Thresholds SIG'S quality models metrics
+	9. Conclusion
 
 # Abstract
+4 paragraf
+ide paragraf 1 = meaningless threshold
 Sudah banyak proposal ttg software metric dan juga tools untuk mengukurnya.
-Apakah penggunaan metrik sdh efektif? karena threshold untuk menyatakan kode kita sedang tidak baik baik saja masih meaningless.
+Apakah penggunaan metrik sdh efektif? 
+Threshold untuk menyatakan kode kita beramasalah masih 'meaningless'.
 Threshold yg dibuat hanya untuk beberapa metrik saja, itupun kebanyakan berdasarkan pada 
 1. opini expert
 2. jumlah observasi yang masih sedikit. 
-
+==
+ide paragraf 2 = scope validity of existing proposed thresholds masih sempit
 Sebelumnya, sudah ada upaya for deriving thresholds.
 Previous method for deriving thresholds for metric use asumsi yg tidak dapat dibenarkan(unjustified asumption) mengenai statistical properties of source code metric.
-
 akhirnya general validity of the derivation method menyempit dan became dangerous when it will be generally applied.
-
+==
+ide paragraf 3 = usulan alves
 Alves et al try to solve those problems by presenting :
 "how to derive thresholds empirically from measurement data".
-
 tahapan derive threshold
-
 1. karakter derivated selected threshold : 
 (i) memunculkan variabilitas metrik antara sistem dan
 (ii) membantu fokus pada persentase yang wajar (reasonable percentage) dari volume kode sumber. 
-
 2. The measurement data for different software systems  dikumpulkan dan digabungkan (are pooled and aggregated)
-
-Metode kami berkaitan dengan distribusi dan skala metrik kode sumber 
-dan 
-"resilient against outliers" dalam nilai metrik atau ukuran sistem.
-
-We applied our method to a 'benchmark' of 100 object-oriented software systems, 
-both proprietary and open-source, 
-to derive thresholds for metrics included in the SIG maintainability model.
-
-apa itu SIG maintainability model ?
-SIG itu company mereka : Software Improvement Group
+===
+ide paragraf 4 = diuji ke 100 OO source code
 
 # 1. Introduction
+6 paragraf
+ide paragraf 1 =  
+ide paragraf 2 = 
+ide paragraf 3 =
+ide paragraf 4 =
+ide paragraf 5 =
+ide paragraf 6 =
+
+Meaningless Threshold
+Scope of validity existing thresholds sempit, dikarenakan
+1. experience : cuman software yang tuliskan oleh sang pembobot thresholds
+2. 
+
+
 # 2. Related Work
 Beberapa methodology for derivating thresholds
 
