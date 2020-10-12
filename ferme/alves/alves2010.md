@@ -1,6 +1,8 @@
 # Title : Deriving Metric Thresholds from Benchmark Data
 # Author : 2010 - SIG - Alves et al
-(Software Improvement Group)
+SIG = Software Improvement Group, mereka juga ikutan publish paper, luar biasa
+https://www.softwareimprovementgroup.com/
+
 # Contents
 	1. Introduction
 	2. Related Work
@@ -111,12 +113,21 @@ than 16% of code, while for metrics with low values or low variability, this met
 In contrast, our approach does not make assumption about data normality. Moreover, we apply our methodology to 100 projects, both proprietary and open-source.
 
 ### French Method
-French using Chebyshev’s inequality yg tak terbatas untuk distribution normal saja
+French use (mean and std deviasi ) + Chebyshev’s inequality
+Penggunaan Chebyshev’s inequality tak terbatas untuk distribution normal saja.
+Rumus French : 
+T = µ + k × σ, 
+where k = number of standard deviations. 
+According to Chebyshev’s theorem, for any distribution 1/k^2 is the maximal portion of observations outside k standard deviations.
 
 #### Dis-advantage
+However, French proposes to divide the Chebyshev formula by two which is only valid for two-tailed symmetric distributions. 
+asumsi two-tailed symmetric distributions is not justified. 
+
+For one tailed distributions, the Cantelli’s formula, 1/(1+k2), should have been used instead.
+
 This methodology is sensitive to large numbers or outliers. 
 For metrics with high range or high variation, this technique will identify a smaller percentage of observations than its theoretical maximum. 
-misal 
 
 #### Against Alves Method
 1. alves derive thresholds from benchmark data and 
@@ -125,11 +136,22 @@ misal
 
 ## C. Thresholds using error models
 
-### Definition
+### Shatnawi method
+#### Dis-advantage
+apa ya?
+#### Against Alves Method
+apa ya?
 
-### Dis-advantage
+### Benlarbi method
+#### Dis-advantage
+apa ya?
+#### Against Alves Method
+apa ya?
 
-### Against Alves Method
+### El Eman method
+#### Dis-advantage
+apa ya?
+#### Against Alves Method
 apa ya?
 
 ## D. Thresholds using cluster techniques
@@ -159,8 +181,35 @@ In contrast, our methodology
 
 
 ## E. Methodologies for characterizing metric distribution	
+### Chidamber and Kemerer - CK metric
+
+### Spinellis 
+For each metric, box plots of the four kernels (of OS) are put side-by side showing the smallest observation, lower quantile, median, mean, higher quantile, highest observation and identify outliers. 
+The box-plots are then analyzed by the author and used to give ranks, + or −, to each kernel. 
+However, as the author states, ranks are given subjectively.
+
+### Vasa
+Propose gini coeficients
+
+### Against alves method
+However all the studies fall short in concluding how to use these distributions, and the coefficients of the distributions, to establish baseline values to judge systems. 
+
+Moreover, even if such baseline values were established it would not be possible
+to identify the code responsible for deviations (there is no
+traceability of results). In contrast, our research is focused
+on defining thresholds with direct applicability to differentiate
+software systems, judge quality and pinpoint problems
 
 # 3. Motivating Example
+komparasi 4 P2P software
+quality berbasis SIG quality model.
+
+One of the used metrics is the McCabe metric
+
+I. Heitlager, T. Kuipers, and J. Visser, “A practical model for measuring
+maintainability,” International Conference on the Quality of Information
+and Communications Technology (QUATIC’07), pp. 30–39, 2007
+
 # 4. Benchmark based thresholds derivation
 ### Figure of Methodology Step 
 1. metrics extraction
