@@ -1,0 +1,197 @@
+# Title : Deriving Metric Thresholds from Benchmark Data
+# Author : 2010 - SIG - Alves et al
+(Software Improvement Group)
+# Contents
+	1. Introduction
+	2. Related Work
+		A. Thresholds derived from experience
+		B. Thresholds from metric analysis
+		C. Thresholds using error models
+		D. Thresholds using cluster techniques
+		E. Methodologies for characterizing metric distribution	
+	3. motivating example
+	4. benchmark based thresholds derivation
+	5. benchmarking 
+	6. analysis of the methodology steps
+		a. background
+		b. weighting by size
+		c. using relative size
+		d. choosing percentile thresholds	
+	7. Variants and threats
+		a. weight by size
+		b. use of relative weight
+		c. outliers
+		d. impact of the tools/scoping
+	8. thresholds SIG'S quality models metrics
+	9. conclusion
+
+# Abstract
+Sudah banyak proposal ttg software metric dan juga tools untuk mengukurnya.
+Apakah penggunaan metrik sdh efektif? karena threshold untuk menyatakan kode kita sedang tidak baik baik saja masih meaningless.
+Threshold yg dibuat hanya untuk beberapa metrik saja, itupun kebanyakan berdasarkan pada 
+1. opini expert
+2. jumlah observasi yang masih sedikit. 
+
+Sebelumnya, sudah ada upaya for deriving thresholds.
+Previous method for deriving thresholds for metric use asumsi yg tidak dapat dibenarkan(unjustified asumption) mengenai statistical properties of source code metric.
+
+akhirnya general validity of the derivation method menyempit dan became dangerous when it will be generally applied.
+
+Alves et al try to solve those problems by presenting :
+"how to derive thresholds empirically from measurement data".
+
+tahapan derive threshold
+
+1. karakter derivated selected threshold : 
+(i) memunculkan variabilitas metrik antara sistem dan
+(ii) membantu fokus pada persentase yang wajar (reasonable percentage) dari volume kode sumber. 
+
+2. The measurement data for different software systems  dikumpulkan dan digabungkan (are pooled and aggregated)
+
+Metode kami berkaitan dengan distribusi dan skala metrik kode sumber 
+dan 
+"resilient against outliers" dalam nilai metrik atau ukuran sistem.
+
+We applied our method to a 'benchmark' of 100 object-oriented software systems, 
+both proprietary and open-source, 
+to derive thresholds for metrics included in the SIG maintainability model.
+
+apa itu SIG maintainability model ?
+SIG itu company mereka : Software Improvement Group
+
+# 1. Introduction
+# 2. Related Work
+Beberapa methodology for derivating thresholds
+
+## A. Thresholds derived from experience
+### Definition
+McCabe experience
+### Dis-advantage
+Scope of validity, bisa jadi untuk software jenis tersebut (CRUD), memang CDISP tidak boleh lebih dari 20 (CDISP < 20), tapi untuk software jenis lain tidak apa-apa CDISP lebih dari 20
+## B. Thresholds from metric analysis
+### Definition
+proposed by Erni
+
+### Dis-advantage
+1.
+
+## C. Thresholds using error models
+### Definition
+
+### Dis-advantage
+
+## D. Thresholds using cluster techniques
+### Definition
+Proposed by Yoon et al. 
+
+They investigate the use of the K-means Cluster algorithm to identify outliers in the data measurements.
+
+Outliers can be identified by observations that appear either in isolated clusters (external outliers), or by observations that appear far away from other observations within the same cluster (internal outliers). 
+
+However, this algorithm suffers from several shortcomings: it requires an input parameter that affects both the performance and the accuracy of the results, the process of identifying the outliers is manual, after identifying outliers the algorithm should be executed again, and if new systems are added to the sample the thresholds might change significantly.
+
+In contrast, our methodology accuracy is not influenced by input parameters, it is automatic, and stable (the addition of more systems results only in small variation). 			
+
+### Dis-advantage
+1. 
+
+
+
+## E. Methodologies for characterizing metric distribution	
+
+# 3. Motivating Example
+# 4. Benchmark based thresholds derivation
+### Figure of Methodology Step 
+1. metrics extraction
+	1 sistem punya banyak entitas
+	1 entitas punya banyak metric=bobot
+	System ⇀ (Entity ⇀ Metric x Weight)
+2. weight ratio calculation
+	1 sistem punya banyak entitas
+	1 entitas punya banyak metric=weightratio
+	System ⇀ (Entity ⇀ Metric x WeightRatio)
+3. entity aggregation
+	1 sistem punya banyak metric
+	1 metric punya banyak WeightRatio
+	System ⇀ (Metric ⇀ WeightRatio)
+4. system aggregation
+	Metric ⇀ WeightRatio
+5. weight ratio aggregation
+	Metric Metric Metric
+	WeightRatio ⇀ Metric
+6. thresholds derivation
+	70% 80% 90%
+Legend
+⇀ map relation (one-to-many relationship)
+x product (pair of columns or elements)
+System = Represents individual systems (e.g. Vuze)
+Entity = Represents a measurable entity (e.g java method)
+Metric = Represents a metric value (e.g. McCabe of 5)
+Weight = Represents the weight value (e.g. LOC of 10)
+WeightRatio = Represents the weight percentage inside of the system (e.g. entity LOC divided by system LOC)
+
+# 5. Benchmarking 
+
+# 6. Analysis of the methodology steps
+
+## A. Background
+## B. Weighting by size
+## C. Using relative size
+## D. Choosing percentile thresholds	
+
+# 7. Variants and threats
+
+## A. Weight by size
+## B. Use of relative weight
+## C. Outliers
+
+## D. Impact of the tools/scoping
+
+# 8. Thresholds SIG'S quality models metrics
+
+# 9. Conclusion
+##	A. Contributions
+We proposed a novel methodology for deriving software metric thresholds and a calibration of previously introduced metrics. 
+Our methodology improves over others by fulfilling three fundamental requirements: 
+i) it respects the statistical properties of the metric, such as metric scale and distribution;
+ii) it is based on data analysis from a representative set of systems (benchmark); 
+iii) it is repeatable, transparent and straightforward to carry out. These requirements were achieved by aggregating measurements from different systems using relative size weighting. Our methodology was applied to a large set of systems and thresholds were derived by choosing specific percentages of overall code of the benchmark.
+##	b. Discussion
+##	c. Industrial applications
+
+##	d. Future work
+
+#  Software Clasification 
+Calsified Software by its Functionality
+alves et al menggunakan 100 software untuk menurunkan nilai metric nya
+
+This Table characterizes the used software systems according to their
+functionality using the taxonomy defined by ISBSG in [18].
+
+C. Lokan, "The Benchmark Release 10 - project planning edition,"
+International Software Benchmarcking Standards Groups Ltd., Tech.
+Rep., February 2008.
+
+Table Number of systems per functionality
+
+Functionality type | Total
+Catalogue or register of things or events | 8
+Customer billing or relationship management 5
+Document management 5
+Electronic data interchange 3
+Financial transaction processing and accounting 12
+Geographic or spatial information systems 2
+Graphics and publishing tools or system 2
+Embedded software for machine control 3
+Job, case, incident or project management 6
+Logistic or supply planning and control 8
+Management or performance reporting 2
+Mathematical modeling (finance or engineering) 1
+Online analysis and reporting 6
+Operating systems or software utility 14
+Software development tool 3
+Stock control and order processing 1
+Trading 1
+Workflow support and management 10
+Other 8
+Total 100
