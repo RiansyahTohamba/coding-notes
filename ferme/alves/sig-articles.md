@@ -44,13 +44,14 @@ Laporan Benchmark mereka berisi 3 RQ (research questions) :
 3. What is the impact of emerging technology stacks?
 --
 1. Has the quality of software improved or decreased?
-Sampai saat ini, kami menemukan bahwa dalam industri perangkat lunak tidak ada pemahaman tentang apakah kualitas perangkat lunak benar-benar meningkat atau menurun.
+Sampai saat ini, SIG menemukan bahwa dalam industri perangkat lunak tidak ada pemahaman tentang apakah kualitas perangkat lunak benar-benar meningkat atau menurun.
 --
-2. Is better softare processes imply better software quality ?
+2. Is better software (processes) imply better software (quality) ?
 Mereka sedang membuat correlate our data sets from both angles (software procces and software quality), in order to arrive at a more direct answer.
 --
-3. What is the impact of emerging technology stacks?
-Reflections on the past are incomplete without projections into the future. What do we see in our recently collected data at SIG and what does that mean for decision-makers?
+3. apakah ada dampak dari technology stacks yang terus bermunculan ?
+Refleksi di masa lalu tidaklah lengkap tanpa proyeksi ke masa depan. 
+Apa yang kami lihat dalam data yang kami kumpulkan baru-baru ini di SIG dan apa artinya bagi para decision-makers?
 
 https://www.softwareimprovementgroup.com/resources/2019-benchmark-report/
 

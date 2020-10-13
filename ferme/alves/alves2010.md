@@ -36,13 +36,13 @@ Threshold untuk menyatakan kode kita beramasalah masih 'meaningless'.
 Threshold yg dibuat hanya untuk beberapa metrik saja, itupun kebanyakan berdasarkan pada 
 1. opini expert
 2. jumlah observasi yang masih sedikit. 
-==
-ide paragraf 2 = scope validity of existing proposed thresholds masih sempit
+
+## ide paragraf 2 = scope validity of existing proposed thresholds masih sempit
 Sebelumnya, sudah ada upaya for deriving thresholds.
 Previous method for deriving thresholds for metric use asumsi yg tidak dapat dibenarkan(unjustified asumption) mengenai statistical properties of source code metric.
 akhirnya general validity of the derivation method menyempit dan became dangerous when it will be generally applied.
-==
-ide paragraf 3 = usulan alves
+
+## ide paragraf 3 = usulan alves
 Alves et al try to solve those problems by presenting :
 "how to derive thresholds empirically from measurement data".
 tahapan derive threshold
@@ -50,8 +50,8 @@ tahapan derive threshold
 (i) memunculkan variabilitas metrik antara sistem dan
 (ii) membantu fokus pada persentase yang wajar (reasonable percentage) dari volume kode sumber. 
 2. The measurement data for different software systems  dikumpulkan dan digabungkan (are pooled and aggregated)
-===
-ide paragraf 4 = diuji ke 100 OO source code
+
+## ide paragraf 4 = diuji ke 100 Object-Oriented source code
 
 # 1. Introduction
 5 paragraf
@@ -268,7 +268,8 @@ iii) it is repeatable, transparent and straightforward to carry out. These requi
 
 ##	d. Future work
 
-#  Software Clasification 
+
+# Software Clasification 
 Calsified Software by its Functionality
 alves et al menggunakan 100 software untuk menurunkan nilai metric nya
 
