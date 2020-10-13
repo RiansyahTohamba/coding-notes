@@ -206,9 +206,6 @@ quality berbasis SIG quality model.
 
 One of the used metrics is the McCabe metric
 
-I. Heitlager, T. Kuipers, and J. Visser, “A practical model for measuring
-maintainability,” International Conference on the Quality of Information
-and Communications Technology (QUATIC’07), pp. 30–39, 2007
 
 # 4. Benchmark based thresholds derivation
 ### Figure of Methodology Step 
