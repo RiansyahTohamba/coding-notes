@@ -110,7 +110,7 @@ For metrics with high values and high variability, this methodology will identif
 than 16% of code, while for metrics with low values or low variability, this methodology will identify more than 16% of code. 
 
 #### Against Alves Method
-In contrast, our approach does not make assumption about data normality. Moreover, we apply our methodology to 100 projects, both proprietary and open-source.
+In contrast, Alves et al approach does not make assumption about data normality. Moreover, we apply Alves et al methodology to 100 projects, both proprietary and open-source.
 
 ### French Method
 French use (mean and std deviasi ) + Chebyshev’s inequality
@@ -131,28 +131,54 @@ For metrics with high range or high variation, this technique will identify a sm
 
 #### Against Alves Method
 1. alves derive thresholds from benchmark data and 
-2. such is resilient to high variation of data our outliers.
+2. such is resilient to high variation of data Alves et al outliers.
 3. French 'only' use 8 software (C++ dan ADA), alves use 100 software
 
 ## C. Thresholds using error models
+Maksudnya? jika suatu kode menghasilkan error lebih sering maka ia adalah kode yang berbahaya , gitu?
+
+### Benlarbi
+Linear Regression untuk melihat relasi metrics thresholds -> failures
+metrics used = CDK metrics
+2 model "error probability " dibandingkan 
+1 dengan threshold vs 1 tanpa threshold
+
+Ternyata model dengan threshold menghasilkan 
+kode dengan "zero probability of error" jika entitas memiliki metric yang nilainya dibawah threshold. 
+
+Kesimpulan benlarbi bahwa 
+TAK ADA empirical evidence supporting the model with threshold karena TAK ADA "significant difference" between TWO models.  
+
+### El Eman
+class-size vs faults
+El Eman state "no optimal class size based on a study comparing class size and faults".
+
+The existence of an optimal size is based on the Goldilocks conjecture which states that the error probability of a class increases for a metric values higher or lower a specific threshold (resembling a U-shape).
 
 ### Shatnawi method
-#### Dis-advantage
-apa ya?
-#### Against Alves Method
-apa ya?
+1. method : ROC method to identify thresholds to predict the existence of bugs in different error categories. 
+2. Metric yg digunakan : Chidamber and Kemerer (CKD) metrics 
+3. Software dataset : three releases of Eclipse.
 
-### Benlarbi method
-#### Dis-advantage
-apa ya?
 #### Against Alves Method
-apa ya?
+1. Tidak berhasilkan derive monotonic thresholds. 
+2. Tidak monotonic : untuk rilis Eclipse yang berbeda, ambang batas yang berbeda diturunkan.
 
-### El Eman method
-#### Dis-advantage
-apa ya?
-#### Against Alves Method
-apa ya?
+In comparison, alves methodology is based only in metric distribution analysis, 
+1. dijamin menghasilkan monotonic thresholds and 
+2. penambahan lebih banyak sistem hanya menyebabkan penyimpangan yang dapat diabaikan.
+
+
+#### Improvement dari Alves Method
+Studi Benlarbi & El Eman menunjukkan
+"Tak ada empirical evidence for the threshold model used to predict faults"
+Validitynya sempit : 
+1. specific error prediction model and 
+2. for the metrics the authors used. 
+
+Sehingga models lain dapat give different results. 
+
+In contrast to using errors to derive thresholds, our methodology derives meaningful thresholds which represent overall volume of code from a benchmark of systems
 
 ## D. Thresholds using cluster techniques
 ### Definition
@@ -165,7 +191,7 @@ Outliers can be identified by observations that appear either 2 kind of outliers
 2. internal outliers : by observations that appear far away from other observations within the same cluster.
 
 ### Dis-advantage
-However, this algorithm suffers from several shortcomings: 
+Clustering algorithm suffers from several shortcomings: 
 1. accuracy affected by input parameter
 it requires an input parameter that affects both the performance and the accuracy of the results,
 2. manually identifying outlier
@@ -174,7 +200,7 @@ the process of identifying the outliers is manual, after identifying outliers th
 if new systems are added to the sample the thresholds might change significantly.
 
 ### Against Alves Method
-In contrast, our methodology  
+In contrast, Alves et al methodology  
 1. accuracy is not influenced by input parameters, 
 2. it is automatic, and 
 3. stable (the addition of more systems results only in small variation). 
@@ -191,51 +217,56 @@ However, as the author states, ranks are given subjectively.
 ### Vasa
 Propose gini coeficients
 
-### Against alves method
-However all the studies fall short in concluding how to use these distributions, and the coefficients of the distributions, to establish baseline values to judge systems. 
+### All distributions methods Against alves's
+Semua studies gagal concluding 
+1. "how to use these distributions ?", and 
+2. coefficients distributions yang digunakan untuk establish baseline values to menghakimi jelek tidaknya systems. 
 
-Moreover, even if such baseline values were established it would not be possible
-to identify the code responsible for deviations (there is no
-traceability of results). In contrast, our research is focused
-on defining thresholds with direct applicability to differentiate
-software systems, judge quality and pinpoint problems
+Bahkan jika baseline values sudah established 
+maka it would not be possible to identify the code responsible for deviations (there is no traceability of results). 
+
+In contrast, Alves et al research is focused on defining thresholds with direct applicability 
+1. to differentiate software systems, 
+2. judge quality and 
+3. pinpoint problems.
 
 # 3. Motivating Example
 komparasi 4 P2P software
 quality berbasis SIG quality model.
 
-One of the used metrics is the McCabe metric
+One of the used metrics is the McCabe metric.
 
 
 # 4. Benchmark based thresholds derivation
+
 ### Figure of Methodology Step 
 1. metrics extraction
-	1 sistem punya banyak entitas
-	1 entitas punya banyak metric=bobot
-	System ⇀ (Entity ⇀ Metric x Weight)
+	1 sistem punya banyak entitas dimana
+	1 entitas punya banyak metric serta bobotnya
 2. weight ratio calculation
-	1 sistem punya banyak entitas
+	1 sistem punya banyak entitas dimana
 	1 entitas punya banyak metric=weightratio
-	System ⇀ (Entity ⇀ Metric x WeightRatio)
 3. entity aggregation
-	1 sistem punya banyak metric
+	1 sistem punya banyak metric dimana
 	1 metric punya banyak WeightRatio
-	System ⇀ (Metric ⇀ WeightRatio)
 4. system aggregation
-	Metric ⇀ WeightRatio
+	1 Metric punya banyak WeightRatio
 5. weight ratio aggregation
-	Metric Metric Metric
-	WeightRatio ⇀ Metric
+	1 WeightRatio punya banyak Metric
 6. thresholds derivation
-	70% 80% 90%
-Legend
-⇀ map relation (one-to-many relationship)
-x product (pair of columns or elements)
-System = Represents individual systems (e.g. Vuze)
-Entity = Represents a measurable entity (e.g java method)
-Metric = Represents a metric value (e.g. McCabe of 5)
-Weight = Represents the weight value (e.g. LOC of 10)
-WeightRatio = Represents the weight percentage inside of the system (e.g. entity LOC divided by system LOC)
+	misal 
+	a. jika suatu entitas berada diatas dari 70% metric CINT maka entitas itu berbahaya 
+
+	b. jika suatu entitas berada diatas dari 80% metric LOC maka entitas itu berbahaya
+
+	agar kembali normal, entitas itu harus dibersihkan
+
+Dimana
+1. Sistem seperti Omegat, Vuze.
+2. Entitas = measurable entity seperti java method , java class
+3. Metric satuan ukurnya, weight valuenya gitukan?
+4. WeightRatio = Rasio antara weight entitas dan weight seluruh entitas pada sistem
+5. WeightRatioLOC = LOCSendPOP / LOCPOP
 
 # 5. Benchmarking 
 
@@ -257,12 +288,14 @@ WeightRatio = Represents the weight percentage inside of the system (e.g. entity
 # 8. Thresholds SIG'S quality models metrics
 
 # 9. Conclusion
+
 ##	A. Contributions
 We proposed a novel methodology for deriving software metric thresholds and a calibration of previously introduced metrics. 
-Our methodology improves over others by fulfilling three fundamental requirements: 
+Alves et al methodology improves over others by fulfilling three fundamental requirements: 
 i) it respects the statistical properties of the metric, such as metric scale and distribution;
 ii) it is based on data analysis from a representative set of systems (benchmark); 
-iii) it is repeatable, transparent and straightforward to carry out. These requirements were achieved by aggregating measurements from different systems using relative size weighting. Our methodology was applied to a large set of systems and thresholds were derived by choosing specific percentages of overall code of the benchmark.
+iii) it is repeatable, transparent and straightforward to carry out. These requirements were achieved by aggregating measurements from different systems using relative size weighting. Alves et al methodology was applied to a large set of systems and thresholds were derived by choosing specific percentages of overall code of the benchmark.
+
 ##	b. Discussion
 ##	c. Industrial applications
 

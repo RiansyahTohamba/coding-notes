@@ -1,3 +1,7 @@
+# Catatanku
+Semua teori yang mereka bangun didasarkan pada MILIARAN LOC dan 
+10 tahun pengalaman konsul dengan software dimana SIG didirikan.
+
 # Software development: What you measure tends to improve
 
 "You can’t manage what you can’t measure." (peter drucker)
