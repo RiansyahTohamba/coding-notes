@@ -29,6 +29,7 @@ Ilmu probabilitas dibutuhkan untuk memahami 'kaitan(relation)' antara
 1. properties of the sample data
 to 
 2. properties of the entire population
+
 Di chapter ini juga dijelaskan tentang
 1. Idea of a probability experiment, 
 2. explains the concept of the probability of an event, and 
@@ -96,7 +97,7 @@ Chapter 12 deals with nonparametric hypothesis tests, which can be used when one
 form (such as normal).
 
 # Chapter 13
-Chapter 13 considers the subject matter of quality control, a key statistical technique in manufacturing and production processes. 
+Teknik Statistical bagi QC pada proses manufacturing and production.
 A variety of control charts, including not only the Shewhart control charts but also more sophisticated ones based on moving averages and cumulative sums, are considered.
 
 # Chapter 14
