@@ -183,22 +183,25 @@ the fact that the requirements defects can be classified according to those the 
  
 theory can also explain 
 so can allow to identify the motivation for for something and in this case you have to consider the example of the team leader 
-so the the team leader example tells us the motivation : "why people develop a stand to lose trust" 
-so it can it is explained according to the to the degree of self-confidence of the team leader okay ?
+so the the team leader example tells us the motivation : "why people developer tend to lose trust" 
+so it can 
+it is explained according to the to the degree of self-confidence of the team leader okay ?
  
 it can predict 
 so I build the model and 
-I predict how things are in the reality like in the fault example 
-so in the example in which I was speaking about the presence of fault in that our founding 
+I predict how things are in the reality like 
+
+in the fault example 
 ==========================
 contoh teori : 90% fault ditemukan di FUNGSI yg punya > 1000 LOC , jadi kita bisa memprediksi setiap fungsi yang punya > 1000 LOC.
 DESIGN AND ACTION
 berjaga-jaga terhadap Fungsi yang punya > 1000 LOC
 ==========================
-functions that are longer than 1000 line of code 
-so this is the model if I found. 
-a function that is longer than times a thousand level code 
+so in the example in which I was speaking about the presence of fault in that our "founding functions" that are longer than 1000 line of code  
+so this is the model 
+if I found a function that is longer than times a thousand level code 
 I can predict that there will be some fault. 
+
 explanation and prediction. 
 
 so I find them order 
