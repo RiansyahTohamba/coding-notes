@@ -1,13 +1,38 @@
 Sheldon M. Ross
 
 # Chapter 1 
-Chapter 1 presents a brief introduction to statistics, presenting its two branches of descriptive and inferential statistics, and a short history of the subject and some of the people whose early work provided a foundation for work done today.
+Chapter 1 presents a brief introduction to statistics, presenting its two branches 
+1. descriptive statistics and 
+2. inferential statistics
+Lalu ada a short history of the statistic
+Dan pondasi apa yang sudah dibuat matematikawan terdahulu yang bisa kita manfaatkan hingga hari ini.
 
 # Chapter 2
-The subject matter of descriptive statistics is then considered in Chapter 2. Graphs and tables that describe a data set are presented in this chapter, as are quantities that are used to summarize certain of the key properties of the data set.
+Penjelasan mengenai Descriptive statistics yakni describing dataset dengan Graphs and tables
+Lalu summarize 'key properties' of the data set.
+
+Statistic membahas tentang properties sampel. 
+Parameter membahas tentang properties populasi.
+Properti nya
+1. central of tendency
+2. measure of dispersion
+3. measure of position
+Populasi punya mean , sample juga punya mean, rumus nya berbeda. 
 
 # Chapter 3
-To be able to draw conclusions from data, it is necessary to have an understanding of the data’s origination. For instance, it is often assumed that the data constitute a "random sample" from some population. To understand exactly what this means and what its consequences are for relating properties of the sample data to properties of the entire population, it is necessary to have some understanding of probability, and that is the subject of Chapter 3. This chapter introduces the idea of a probability experiment, explains the concept of the probability of an event, and presents the axioms of probability.
+While statistics explain about sample and populasi and its properties, probability come to improve it. 
+
+Bagaimana bisa dari data yang sedikit bisa digunakan untuk mengambil kesimpulan untuk semua populasi ?
+Data yang 'sedikit' itu didapatkan dari "random sample" yang ada pada populasi.
+
+Ilmu probabilitas dibutuhkan untuk memahami 'kaitan(relation)' antara
+1. properties of the sample data
+to 
+2. properties of the entire population
+Di chapter ini juga dijelaskan tentang
+1. Idea of a probability experiment, 
+2. explains the concept of the probability of an event, and 
+3. presents the axioms of probability.
 
 # Chapter 4, 5, 6
 ## Introduction RV and Expectation
