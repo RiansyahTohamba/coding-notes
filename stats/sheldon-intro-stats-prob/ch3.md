@@ -1,23 +1,33 @@
 Element Probabilitas
 # Questioning chapter 3 ?
+
 1. Apa Rule atau aksioma teori probabilitas yang disajikan pada chapter ini ?
-2. ?
+2. statement ini dimana ya ?
+Ilmu probabilitas dibutuhkan untuk memahami 'kaitan(relation)' antara A dan B, dimana
+A = properties of the sample data
+B = properties of the entire population
+
+# Summary 
+Di chapter ini juga dijelaskan tentang
+1. Idea of a probability experiment, 
+2. explains the concept of the probability of an event, and 
+3. presents the axioms of probability.
 
 # intro
 frequency interpretation vs subjective interpretation
 frequency interpretation
 In the frequency interpretation, the probability of a given outcome of an experiment is considered as being a "property" of that outcome. 
-nilai dari probabilitas ada nya oil ditentukan by continual repetition of the experiment — the probability of the outcome will then be observable as being the proportion of the experiments that result in the outcome. 
+
+Nilai dari probabilitas ada nya oil ditentukan by continual repetition of the experiment — the probability of the outcome will then be observable as being the proportion of the experiments that result in the outcome. 
 
 continual_repetition_of_the_experiment = 10 times, 100 times ,1M times
 proporsi_experiments = observable_oil / (observable_oil + unobservable_oil)
 
 This is the interpretation of probability that is most prevalent among scientists.
---
-Pendapat kedua subjective interpration of probability, based on someone belief, dipakai di filosofi dan decision maker ekonomi.
---
+2. Pendapat kedua :subjective interpration of probability, based on someone belief, dipakai di filosofi dan decision maker ekonomi.
+
 Regardless of which interpretation one gives to probability, however, there is a consensus 
-the mathematics of probability (frequency) ==the mathematics of probability (subjective)
+frequency ==  subjective
 
 i think 
 probability rain tommorow = 3/10 
@@ -30,11 +40,27 @@ independently of your individual interpretation of the concept of probability (f
 ruang sample dan kejadian
 sample itu dari statistic
 event itu dari probability
-outcome experiment sifatnya random tapi (biasanya) kita sudah mengetahui possible outcome nya (lemparan koin,dadu etc) atau experiment refactoring (improving or not affect quality).
-
+outcome experiment sifatnya random tapi (biasanya) kita sudah mengetahui all possible outcome nya, misal 
+1. lemparan koin : outcome nya HEAD or TAIL (nominal)
+2. anak yg lahir : Girl or Boy
+3. impact refactoring : (improving or not affect quality).
 saya hanya melakkan eksperimen refactoring 29 kali pada satu software.
 Bagaimana menyatakan refactoring dilakukan 29 kali?
 untuk menghilangkan 1 smell, butuh berapa kali refactoring?
+
+all possible outcome itu istilahnya SAMPLE SPACE disingkat S, misal jenis kelamin bayi yang keluar.
+EVENT (disingkat E) adalah subset dari S , misal bayi yang keluar adalah Laki-laki adalah event.
+
+For any two events E and F of a sample space S, we define the new event E ∪ F, called
+the union of the events E and F, to consist of all outcomes that are either in E or in F or
+in both E and F. That is, the event E ∪ F will occur if either E or F occurs. For instance,
+in Example 1 if E = {g} and F = {b}, then E ∪ F = {g, b}. That is, E ∪ F would be the
+whole sample space S. In Example 2 if E = {all outcomes starting with 6} is the event that
+the number 6 horse wins and F = {all outcomes having 6 in the second position} is the
+event that the number 6 horse comes in second, then E ∪ F is the event that the number 6 horse comes in either first or second.
+
+Apa kaitan intersection event dengan hyphotesis testing?
+Kenapa
 
 # diagram vents and algebra events
 

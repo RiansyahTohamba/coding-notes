@@ -1,4 +1,9 @@
 # Robust model
+
+## Resilent against outliers
+Artinya kalaupun ada outlier, modelnya tetap bisa menghasilkan hasil yg tepat
+Kalau tidak robust, dia kacau kalau ketemu outlier
+
 ## Data driven
 Bukan berdasarkan pengalaman
 

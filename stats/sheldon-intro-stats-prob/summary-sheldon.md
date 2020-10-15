@@ -4,8 +4,8 @@ Sheldon M. Ross
 Chapter 1 presents a brief introduction to statistics, presenting its two branches 
 1. descriptive statistics and 
 2. inferential statistics
-Lalu ada a short history of the statistic
-Dan pondasi apa yang sudah dibuat matematikawan terdahulu yang bisa kita manfaatkan hingga hari ini.
+
+Lalu ada short history of the statistic. Dan pondasi apa yang sudah dibuat matematikawan terdahulu yang bisa kita manfaatkan hingga hari ini.
 
 # Chapter 2
 Penjelasan mengenai Descriptive statistics yakni describing dataset dengan Graphs and tables
@@ -17,7 +17,7 @@ Properti nya
 1. central of tendency
 2. measure of dispersion
 3. measure of position
-Populasi punya mean , sample juga punya mean, rumus nya berbeda. 
+Populasi punya mean, sample juga punya mean, rumus nya berbeda. 
 
 # Chapter 3
 While statistics explain about sample and populasi and its properties, probability come to improve it. 
@@ -36,10 +36,13 @@ Di chapter ini juga dijelaskan tentang
 3. presents the axioms of probability.
 
 # Chapter 4, 5, 6
+
 ## Introduction RV and Expectation
 Our study of probability is continued in Chapter 4, which deals with the important concepts of random variables and expectation, 
+
 ## Special RV
 and in Chapter 5, which considers some specialtypes of random variables that often occur in applications. 
+
 ## Kind of RV
 Chapter 6 isinya Kind of RV including 
 {the binomial, Poisson, hypergeometric, normal, uniform, gamma, chi-square, t, and F}
@@ -80,12 +83,11 @@ A variety of hypothesis tests concerning the parameters of both one and two norm
 Hypothesis tests concerning Bernoulli and Poisson parameters are also presented.
 
 # Chapter 9 
-Chapter 9 deals with the important topic of regression. Both simple linear regression — including such subtopics as regression to the mean, residual analysis, and
-weighted least squares — and multiple linear regression are considered.
+Chapter 9 deals with the important topic of regression. 
+Both simple linear regression — including such subtopics as regression to the mean, residual analysis, and weighted least squares — and multiple linear regression are considered.
 
 # Chapter 10
-Chapter 10 introduces the analysis of variance. Both one-way and two-way (with
-and without the possibility of interaction) problems are considered.
+Chapter 10 introduces the analysis of variance. Both one-way and two-way (with and without the possibility of interaction) problems are considered.
 
 # Chapter 11
 Bab 11 membahas tentang uji coba yang goodness, yang dapat digunakan untuk menguji apakah model yang diusulkan konsisten dengan data.

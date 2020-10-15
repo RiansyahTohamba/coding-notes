@@ -26,14 +26,15 @@ Celsius) and the number of defective parts produced during that day, a company r
 the data presented in Table 2.8. For this data set, xi represents the temperature in degrees
 Celsius and yi the number of defective parts produced on day i.
 A useful way of portraying a data set of paired values is to plot the data on a twodimensional graph, with the x-axis representing the x value of the data and the y-axis
-representing the y value. Such a plot is called a scatter diagram. Figure 2.13 presents a
-scatter diagram for the data of Table 2.8.
-A question of interest concerning paired data sets is whether large x values tend to be
-paired with largey values, and small x values with smally values; if this is not the case,
-then we might question whether large values of one of the variables tend to be paired
-with small values of the other. A rough answer to these questions can often be provided
-by the scatter diagram. For instance, Figure 2.13 indicates that there appears to be some
-connection between high temperatures and large numbers of defective items. To obtain
-a quantitative measure of this relationship, we now develop a statistic that attempts to
-measure the degree to which larger x values go with larger y values and smaller x values
-with smaller y values.
+representing the y value. Such a plot is called a scatter diagram. 
+
+Figure 2.13 presents a scatter diagram for the data of Table 2.8.
+
+A question of interest concerning paired data sets is whether large x values tend to be paired with largey values, and small x values with smally values; if this is not the case, then we might question whether large values of one of the variables tend to be paired
+with small values of the other. 
+
+A rough answer to these questions can often be provided by the scatter diagram. 
+
+For instance, Figure 2.13 indicates that there appears to be some connection between high temperatures and large numbers of defective items. 
+
+To obtain a quantitative measure of this relationship, we now develop a statistic that attempts to measure the degree to which larger x values go with larger y values and smaller x values with smaller y values.
