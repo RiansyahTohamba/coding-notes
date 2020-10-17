@@ -6,8 +6,14 @@ Element Probabilitas
 Ilmu probabilitas dibutuhkan untuk memahami 'kaitan(relation)' antara A dan B, dimana
 A = properties of the sample data
 B = properties of the entire population
+3. Apa kaitan intersection event dengan hyphotesis testing? 
+Kenapa mesti belajar algebra himpunan untuk events?
+Ada overlapping event yang harus dihindari untuk mendapatkan nilai yang peresisi.
 
 # Summary 
+Probability dibutuhkan untuk meng infer data yang sudah disajikan statistik.
+Probability membuat inferensi tentang probability kemiripan 'distribution of population' vs  sample.
+
 Di chapter ini juga dijelaskan tentang
 1. Idea of a probability experiment, 
 2. explains the concept of the probability of an event, and 
@@ -30,16 +36,20 @@ Regardless of which interpretation one gives to probability, however, there is a
 frequency ==  subjective
 
 i think 
-probability rain tommorow = 3/10 
-probability cloudy without any rain = 2/10
+1. probability rain tommorow = 3/10 
+2. probability cloudy without any rain = 2/10
 then
-probability cloudy or rainy = 5/10 
+3. probability cloudy or rainy = 5/10 
+
 independently of your individual interpretation of the concept of probability (frequency or subjective). 
 
 # sample space and event
-ruang sample dan kejadian
-sample itu dari statistic
-event itu dari probability
+Experiment = apapun yang outcomenya belum pasti(uncertanty)
+Sample Space = All possible outcome of experiment
+Event = subset dari Sample Space
+
+"Beda antara 'sample space' vs sample nya statistik !"
+
 outcome experiment sifatnya random tapi (biasanya) kita sudah mengetahui all possible outcome nya, misal 
 1. lemparan koin : outcome nya HEAD or TAIL (nominal)
 2. anak yg lahir : Girl or Boy
@@ -48,21 +58,35 @@ saya hanya melakkan eksperimen refactoring 29 kali pada satu software.
 Bagaimana menyatakan refactoring dilakukan 29 kali?
 untuk menghilangkan 1 smell, butuh berapa kali refactoring?
 
-all possible outcome itu istilahnya SAMPLE SPACE disingkat S, misal jenis kelamin bayi yang keluar.
+All possible outcome itu istilahnya SAMPLE SPACE disingkat S, misal jenis kelamin bayi yang keluar.
 EVENT (disingkat E) adalah subset dari S , misal bayi yang keluar adalah Laki-laki adalah event.
 
-For any two events E and F of a sample space S, we define the new event E ∪ F, called
-the union of the events E and F, to consist of all outcomes that are either in E or in F or
-in both E and F. That is, the event E ∪ F will occur if either E or F occurs. For instance,
-in Example 1 if E = {g} and F = {b}, then E ∪ F = {g, b}. That is, E ∪ F would be the
-whole sample space S. In Example 2 if E = {all outcomes starting with 6} is the event that
-the number 6 horse wins and F = {all outcomes having 6 in the second position} is the
-event that the number 6 horse comes in second, then E ∪ F is the event that the number 6 horse comes in either first or second.
+For any two events E and F of a sample space S, 
 
-Apa kaitan intersection event dengan hyphotesis testing?
-Kenapa
+we define the new event E ∪ F, 
+called the union of the events E and F, 
+to consist of all outcomes that are either in E or in F or in both E and F. 
 
-# diagram vents and algebra events
+That is, the event E ∪ F will occur if either E or F occurs. 
+
+For instance, in 
+Example 1 
+if E = {g} and F = {b}, 
+then E ∪ F = {g, b}. 
+That is, E ∪ F would be the whole sample space S. 
+
+In Example 2 
+if 
+E = {all outcomes starting with 6} is the event that the number 6 horse wins 
+and 
+F = {all outcomes having 6 in the second position} is the event that the number 6 horse comes in second, 
+
+then E ∪ F is the event that the number 6 horse comes in either first or second.
+
+Disini diperlukan algebra event
+
+# diagram venn and algebra events
+Biar lebih jelas sebaran dan himpunan event nya.
 
 # axioms of probability
 
@@ -94,12 +118,26 @@ then 33 percent of the time the outcome will be either 2, 3, 12, 7, or 11.
 
 Ada kejadian F dan E yang tak eksklusif.
 
-# sample spaces having equally likely outcomes
+# Sample Spaces punya equally likely outcomes
+
+semua event pada sample space punya probability 1 (aksioma probability)
+sebaran event dadu semua merata 1/6, dimana rumusnya 
+	"(desired_event/sample_space)"
+Inilah yang disebut 
+"Sample Spaces punya equally-likely-outcomes"
+Dadu yang dicurangi tak bisa menggunakan aksioma probability. 
+
+Misalkan dadunya diberi magnet pada angka 3 agar selalu muncul angka 3. Sehingga P(3) != 1/6 melainkan P(3) == 1
+Maka untuk soal-soal statistk yang ada di literatur di asumsikan bahwa dice nya itu FAIR atau 
+Sample Spaces punya 'equally likely outcomes'
+
+Apakah sama seperti eksperimen yang un-fair dimana hasilnya sudah dapat diketahui?
+
 
 # conditional probability
 Skip
 
-# bayes formula
+# Bayes Formula
 Skip
 
 # Independent events

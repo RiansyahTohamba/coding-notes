@@ -39,9 +39,9 @@ notasi theta dipakai untuk parameter populasi.
 Normal Mean and V unknown for a Normal Mean When the Variance Is Unknown
 
 ## Prediction Interval
+
 ## Confidence Intervals for the Variance of a Normal Distribution
 
 # ESTIMATING THE DIFFERENCE IN MEANS OF TWO NORMAL POPULATIONS
 
-# APPROXIMATE CONFIDENCE INTERVAL FOR THE MEAN OF A BERNOULLI RANDOM VARIABLE
 
