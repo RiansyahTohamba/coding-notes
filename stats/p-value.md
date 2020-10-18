@@ -1,7 +1,5 @@
 p-value 
 
-# Saifudin Azwar
-
 ## Terminologi
 
 ## Uji Hipotesis
@@ -12,15 +10,19 @@ apa ya?
 
 ## Eror Tipe I dan Eror Tipe II 
 Prinsipnya tidak ada penetapan hipotesis yang 100% benar.
-Pasti ada saja error, 
+Pasti ada saja error, nah berikut error yg terjadi
 Eror Tipe I = Sebenarnya H0 betul tapi ditolak
 Eror Tipe II = Sebenarnya H0 salah tapi diterima
 
 ## Significance level (Taraf Signifikansi )
-apa ya?
+Significance level merujuk pada berapa probabilitas Error I terjadi? di simbolkan dengan p-val
+
+## Confidence interval (Tingkat kerpecayaan)
+Seberapa besar kita percaya bahwa tidak akan terjadi Error I?
+(1-p_val) misal pval 30 % maka kita cuman percaya (1-0.3) atau 70 % saja kita percaya untuk me-reject H0 kita.
 
 ## Apriori vs Aposteriori
-apa ya?
+Apriori = sejak awal kita sudah tetapkan batas pvalue yang kita terima
 
 ## Interpretasi
 apa ya?
@@ -46,4 +48,7 @@ artinya harus lebih hati-hati untuk me-reject null hyphotesis.
 # referensi
 1. statequest
 2. asistensi
-3. statprob
+3. kuliah statprob
+4. Saifudin azwar
+5. Alessio Ferrari
+6. Crash Course Statistic
