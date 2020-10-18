@@ -6,11 +6,16 @@ Caranya dgn integrated element organisasi
 
 
 # Ilmuwan
-Gavriel Salvendy, Purdue University
-indikator keilmuan
-h-index
-citations
-publication
+~~~
+
+1. Gavriel Salvendy
+	* Affliation : Purdue University
+	* h-index : 55 
+	* citations : 12.768
+	* publication : 513
+2. ?
+~~~
+
 # Referensi
 ## Textbook
 1. Handbook of Industrial Engineering: Technology and Operations Management, Third Edition. (2798 halaman)
