@@ -146,13 +146,15 @@ apakah RMI itu ?
 RMI jadi alat ukurnya ?
 RMI itu seperti harmfulness ?
 
-## statistical test yg digunakan?
+## statistical test yg digunakan ?
+Correlation  
+Effect Test : Mann Whitney
+Effect Size
 
-
-## cara improve dataset?
-
+## cara improve dataset ?
 
 # Yang saya dapatkan dari makalah ini
+
 ## Kontribusi dari papernya
 1. improve Dataset juga bisa jadi kontribusi, Dataset Refactoring yang di improve dibanding dengan dataset pada paper empirical yg sebelumnya
 2. 
