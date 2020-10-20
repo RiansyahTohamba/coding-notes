@@ -2,11 +2,17 @@ p-value
 
 ## Terminologi
 
-## Uji Hipotesis
-apa ya?
+## Jenis hipotesis
 
-## Hipotesis Nihil
-apa ya?
+### Uji Korelasi
+dinotasikan dengan r square
+
+### Uji Beda (Effect)
+dinotasikan w square atau variabel T pada kode wilcoxon scipy
+
+## Uji Hipotesis
+
+## Hipotesis Null
 
 ## Eror Tipe I dan Eror Tipe II 
 Prinsipnya tidak ada penetapan hipotesis yang 100% benar.

@@ -15,16 +15,18 @@ This paper presents a manually validated subset of a previously published datase
 2. code metrics, and 
 3. maintainability of 7 open-source systems. 
 
-RefFinder memiliki 27% average precision on the subject system.
+RefFinder memiliki 27% average precision on the subject system. (kaga ngerti)
 
 We found that RefFinder had around  27% overall average precision on the subject systems, thus our manually validated subset has substantial added value. (maksudnya?)
 
-
-several aspects of the refactored and non-refactored source code elements (classes and methods) dengan dataset, like the differences in their 'maintainability' and 'source code metrics'. 
+Several aspects of the refactored and non-refactored source code elements (classes and methods) dengan dataset, like the differences in their 'maintainability' and 'source code metrics'. 
 
 # Method: 
 We divided the source code elements into a group containing the refactored elements and a group with non-refactored elements. 
-We analyzed the elements’ characteristics in these groups using correlation analysis, Mann–Whitney U test and effect size measures. 
+analyzed the elements’ characteristics in these groups using 
+1. correlation analysis, 
+2. Mann–Whitney U test and 
+3. effect size measures. 
 
 # Results: 
 Source code elements subjected to refactorings had significantly lower maintainability than elements not affected by refactorings. 
@@ -138,18 +140,28 @@ Cara jawabnya ?
 6.2.2. Interpretation of the results for methods
 6.2.3. Comparison with the base dataset results
 
-keyword p-value 29 kali muncul
 
 # PR-KU !!
-## RMI vs harmfulness 
+
+## Metric yang digunakan
+
+### RMI vs harmfulness 
 apakah RMI itu ?
 RMI jadi alat ukurnya ?
 RMI itu seperti harmfulness ?
+
+RMI = Relative Maintainability Index
+
+### Another metric
+Size, complexity, cloning metric, coupling, cohesion
 
 ## statistical test yg digunakan ?
 Correlation  
 Effect Test : Mann Whitney
 Effect Size
+
+## p-value 
+muncul 29 kali dalam konteks statistical test diatas
 
 ## cara improve dataset ?
 

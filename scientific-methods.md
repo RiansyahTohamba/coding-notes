@@ -4,8 +4,22 @@ Scientific-methods
 History Scientific-methods  yg ada di crash course
 tokoh-tokohnya
 1. Galilleo : ?
-2. Bacon : introduce konsep universitas 
-3. Rene Descartes : Skepticsm 
+2. Bacon : replikasi dan experiment
+first hand experiment, lakukan experiment dengan tangan sendiri, harus observasi dan experiment, jangan percaya dengan literatur greek and arabian
+
+3. Rene Descartes 
+Apa yang rene kontribusikan terhadap scientific methods?
+
+kontribusi skepticsm dan epistemologi
+1. how do we know what we know? inilah epistemologi.
+origin of knowledge.
+2. Knowledge from 'sense' bisa menipu dengan keterbatasan sense.
+3. Knowledge from logical bisa menipu jika terdapat satu premis saja yang salah.
+4. Reductionistically : reduksi dengan mathematic.
+5. Systematic doubt 
+6. ask yourself : how sure you are that you are know stuff ?
+
+
 
 # background 
 Upaya untuk melawan belief atau mitos yang ada.
