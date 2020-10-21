@@ -161,7 +161,7 @@ Effect Test : Mann Whitney
 Effect Size
 
 ## p-value 
-muncul 29 kali dalam konteks statistical test diatas
+muncul 29 kali dalam konteks 3 statistical test diatas
 
 ## cara improve dataset ?
 
