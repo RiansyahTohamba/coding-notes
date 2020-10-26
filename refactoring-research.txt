@@ -1,0 +1,18 @@
+Apa yang baru?
+Uji Skenario Refactoring terhadap Metrik OOP ? 
+72 Skenario Refactoring
+
+
+MLE 
+Likelihood is different from probability even both of meaning in english is same
+
+Gradient Descent -> Derivative and  Limit
+
+Find Optimal Value using Gradient Descent. Applied GDescent in several method: 
+1. Minimum Of Sum Of Residual Error For linier Regression
+2. Optimal value for Squigle In Logistic Regression
+
+
+Gradient Descent Method and Newton Method
+Newton Method = Gradient Descent * Hessian 
+
