@@ -22,3 +22,10 @@ Caranya dgn integrated element organisasi
 2. HANDBOOK OF HUMAN FACTORS AND ERGONOMICS (1700 halaman) edisi ke 4
 
 ## Journal
+## Conference
+~~~
+
+1. Gavriel Salvendy : saudi conferences
+http://sssie.org/home/conference_en/
+2. You name it
+~~~
