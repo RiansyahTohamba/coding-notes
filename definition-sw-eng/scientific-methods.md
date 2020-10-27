@@ -5,8 +5,7 @@ History Scientific-methods  yg ada di crash course
 tokoh-tokohnya
 1. Galilleo : ?
 2. Bacon : replikasi dan experiment
-first hand experiment, lakukan experiment dengan tangan sendiri, harus observasi dan experiment, jangan percaya dengan literatur greek and arabian
-
+first hand experiment, lakukan experiment dengan tangan sendiri, harus observasi dan experiment, jangan percaya dengan literatur greek and arabian.
 3. Rene Descartes 
 Apa yang rene kontribusikan terhadap scientific methods?
 
