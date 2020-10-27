@@ -1,0 +1,2 @@
+understanding -> controlling -> improving
+

@@ -1,4 +1,10 @@
 # se as science-and-engineering
+## author
+E. M. Lavrishcheva 
+
+### Intro
+1. Tulisan dibuat oleh Lavrishcheva dan didasarkan pada SWEBOK
+2. Lalu ada tambahan lain ,yang disebukan di poin referensi
 
 
 ## RQ
@@ -8,9 +14,16 @@
 3. SW ENG =  SCIENCE + Engineering ?
 4. 
 ~~~
-## Intro
-1. Tulisan dibuat oleh Lavrishcheva dan didasarkan pada SWEBOK
-2. Lalu ada tambahan lain ,yang disebukan di poin referensi
+
+## Contents
+### SOFTWARE ENGINEERING AS A SCIENTIFIC DISCIPLINE
+### SOFTWARE ENGINEERING AS AN ENGINEERING DISCIPLINE
+### SOFTWARE ENGINEERING IN PRACTICAL MEASUREMENTS
+
+### Conclusion 
+### Implications 
+
+
 ## Definisi SE
 ada 4 definisi
 ~~~
