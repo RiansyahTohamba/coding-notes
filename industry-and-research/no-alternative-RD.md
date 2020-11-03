@@ -1,3 +1,5 @@
+https://medium.com/karena-x/karena-nujum-adalah-kunci-2983ad3855b3
+
 There is no alternative of RD
 
 pada takut invest ke RD, soalnya jika karyawan sudah pinter dia malah keluar ke perusahan lain atau buat perusahaan sendiri wkwk.

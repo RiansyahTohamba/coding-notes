@@ -1,6 +1,14 @@
 # Language Processing and Python
 ## 3. Computing with Language: Simple Statistics
 ### 3.1 FreqDist
+Menampilkan array of key-value (di python namanya tuple) yakni 
+
+fdist = [(katatertentu1,frekuensi1),(katatertentu2,frekuensi2),...]
+
+Hitung frekuensi kata-tertentu?
+
+fdist['katatertentu1'] = frekuensi.
+
 ### 3.2 Fine-grained selection
 Vocabs = set(nltk.text)
 
