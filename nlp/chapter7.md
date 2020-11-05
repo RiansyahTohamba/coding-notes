@@ -44,5 +44,23 @@ Then we reap the benefits of powerful query tools such as SQL.
 
 This method of getting meaning from text is called Information Extraction.
 
+Information extraction = 
+# 1.1 shows the architecture for a simple information extraction system. 
 
+## processing a document
+It begins by processing a document using several of the procedures discussed in chapter 3 and chapter 5: 
+
+### sentence segmenter then tokenizer
+1. first, the raw text of the document is split into sentences using a 'sentence segmenter', and 'each sentence' is further subdivided into words using a tokenizer. 
+
+### part-of-speech tags
+2. Next, each sentence is tagged with 'part-of-speech tags', which will prove very helpful in the next step, named 'entity detection'. 
+In this step, we search for mentions of potentially interesting entities in each sentence. 
+
+### 
+3. Finally, we use relation detection to search for likely relations
+between different entities in the text.
+
+# Reference
+sentence segmenter = chapter 3 - 3.8 Segmentation  
 
