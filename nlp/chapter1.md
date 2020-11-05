@@ -43,6 +43,8 @@ Berikut adalah challenges dan beberapa language understanding technologies.
 
 
 ### 5.2 Pronoun Resolution
+A deeper kind of language understanding is to work out "who did what to whom" 
+dengan kata lain
 Detecting the 'subjects' and 'objects' of 'verbs'.
 
 
