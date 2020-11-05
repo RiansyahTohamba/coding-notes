@@ -32,12 +32,8 @@ query : where lokasi kantor liwayway ?
 klo datanya tabular pakai query ini
 Select lokasi from kantor where pt_name = 'liwayway'
 
-klo datanya paragraph?
+klo datanya text?
 One approach to this problem involves building a 'very general representation of meaning' (chapter 10). 
-
-
-
-Rather than trying to use text like (1) to answer the question directly, we first convert the unstructured data of natural language sentences into the structured data of 1.1. 
 
 Then we reap the benefits of powerful query tools such as SQL. 
 
@@ -83,22 +79,14 @@ and these do not necessarily refer to 'entities' in the same way as definite NPs
 ### 4.1 chunking
 basic technique we will use for entity detection is chunking, which segments and labels multitoken sequences.
 
-### relation-extraction
-
-Finally, in relation extraction, we search for specific patterns between pairs of entities that occur near one another in the text, and use those patterns to build tuples recording the relationships between the entities
-
-### Relation extraction setelah  2.chunking ?
-
-# Reference
-sentence segmenter = chapter 3 - 3.8 Segmentation  
-
-# Terms
+### Terms in chunking
 determiner (DT) followed by any number of adjectives (JJ) and then a noun (NN).
 
 DT = determiner
 JJ = adjectives
 NN = noun
 
+tambah terms dari  http://www.bowdoin.edu/~allen/nlp/nlp1.html
 np - noun phrase
 vp - verb phrase
 s - sentence
@@ -110,4 +98,14 @@ prep - preposition
 pp - prepositional phrase
 adj - adjective
 
-tambah terms dari  http://www.bowdoin.edu/~allen/nlp/nlp1.html
+
+
+### relation-extraction
+
+Finally, in relation extraction, we search for specific patterns between pairs of entities that occur near one another in the text, and use those patterns to build tuples recording the relationships between the entities
+
+### Relation extraction setelah  2.chunking ?
+
+# Reference
+sentence segmenter = chapter 3 - 3.8 Segmentation  
+
