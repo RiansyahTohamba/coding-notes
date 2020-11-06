@@ -1,4 +1,28 @@
 chapter7.md 
+## Susunan konten
+~~~
+1. (intro) Information Extraction
+1.1 Information Extraction Architecture
+2. Chunking
+2.1 Noun Phrase Chunking
+2.2 Tag Patterns
+2.3 Chunking with Regular Expressions
+2.4 Exploring Text Corpora
+2.5 Chinking
+2.6 Representing Chunks: Tags vs Trees
+3. Developing and Evaluating Chunkers
+3.1 Reading IOB Format and the CoNLL 2000 Corpus
+3.2 Simple Evaluation and Baselines
+3.3 Training Classifier-Based Chunkers
+4 Recursion in Linguistic Structure
+4.1 Building Nested Structure with Cascaded Chunkers
+4.2 Trees
+4.3 Tree Traversal
+5. Named Entity Recognition
+6. Relation Extraction
+7. Summary
+~~~
+##Intro
 Semua pertanyaan (sepertinya) sudah punya jawabannya di internet sana, begitu banyak dokumen(html,pdf,word,etc) yang terus diupload tiap harinya.
 
 Tapi mengambil dari dokumen tersebut tidak mudah.
@@ -69,15 +93,32 @@ def ie_preprocess(document):
 ### 4. named entity detection
 Next, in 'named entity detection', we segment and label the entities that might participate in interesting relations with one another. 
 
-Typically, these will be definite 'noun phrases' such as the knights who say "ni", or proper names such as Monty Python. 
+Typically, these will be 'definite noun phrases' such as 
+1. 'the knights' who say "ni", or 
+2. 'proper names' such as  Monty Python (grup komedi)
 
 In some tasks it is useful to also consider 
 'indefinite nouns' or 'noun chunks', such as 'every student' or 'cats', 
 
-and these do not necessarily refer to 'entities' in the same way as definite NPs and proper names.
+
+## Monty Python instance of class comedy group
+Monty Python adalah grup komedi Inggris yang terdiri dari John Cleese, Graham Chapman, Michael Palin, Eric Idle, Terry Jones dan Terry Gilliam. Mereka memiliki acara televisi yang sangat berhasil pada tahun 1969 sampai 1974 Monty Python's Flying Circus.
+
+
+#### definite vs (indefinite & proper-name)
+Dalam beberapa tugas, berguna juga untuk mempertimbangkan kata benda tak tentu atau potongan kata benda, seperti setiap siswa atau kucing, dan ini tidak selalu merujuk ke entitas dengan cara yang sama seperti NP tertentu dan proper name.
+
+#### Common Noun examples	
+I can't wait to start college this fall.	
+I ordered a new computer online.	
+
+#### Proper Noun/name examples
+I got accepted to UCLA. (UCLA vs COLLEGE)
+I ordered the laptop from Amazon.
 
 ### 4.1 chunking
-basic technique we will use for entity detection is chunking, which segments and labels multitoken sequences.
+the basic technique we will use for 'entity detection' is chunking, which 'segments' and labels 'multitoken sequences' yg ada di gambar sequence of boxes
+
 
 ### Terms in chunking
 determiner (DT) followed by any number of adjectives (JJ) and then a noun (NN).
@@ -97,6 +138,9 @@ iv - intransitive verb
 prep - preposition
 pp - prepositional phrase
 adj - adjective
+
+## after chunking?
+Kalau sudah bisa chunking, lalu?
 
 
 
