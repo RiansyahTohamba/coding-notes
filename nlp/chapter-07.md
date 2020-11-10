@@ -22,6 +22,46 @@ chapter7.md
 6. Relation Extraction
 7. Summary
 ~~~
+## background 
+Filosofi nya adalah bagaimana cara mendapat pengetahuan? 
+Mengetahui itu apa?
+Pengetahuan merupakan hal yang ingin kita dapatkan, bukankah begitu? 
+
+Pengetahuan diawali oleh pertanyaan atau QUERY. Misal Bagaimana caranya mendapatkan uang yang banyak? dan pertanyaan lain diartikel <a href="https://riansyahtohamba.medium.com/seberapa-murni-ilmu-mu-8e2656ab9754"> ini </a>, hehe.
+
+Contoh yg diberikan oleh tim NLTK adalah dimana lokasi sebuah perusahaan? 
+
+Untuk menjawab pertanyaan tersebut, bisa saja kita melakukan pencarian dengan membaca teks, misalkan dalam bentuk paragraf. 
+
+Tetapi, bukankah lebih sulit mendapatkan informasi dari membaca teks tersebut (unstructered text)? Bandingkan dalam bentuk tabel yakni kolom(nama perusahaan, lokasi) dan baris (nama  perusahaan seperti Microsoft, CT Corp, TSM, etc).
+
+Tabel berisikan relasi antar entitas, untuk contoh NLTK, relasinya adalah organisasi-in-location.
+
+
+### Tahapan 
+Setelah mengetahui tujuan utama dari artikel ini, yakni  bagaimana melakukan konversi unstructered data to SQL, maka tahap pertama yang harus dilakukan adalah mendeteksi entitas.
+Setelahnya baru bisa kita buat relasi antar entitas tersebut.
+
+## Chunking
+chunking? perlukah diautomasi? bisa dikerjakan manual;?
+sudah cukup?
+Cara chunking :
+rule-based vs statistical
+= rule-base menggunakan regex
+= statistical menggunakan corpus
+
+## Formalisasi
+1. ask questions -> 
+2. writing noun phrase in questions -> 
+3. cek entities -> 
+4. cek relation between entities
+
+## knp questions dulu atau detect entity dulu ?
+questions apa yang diharapkan dari artikel ini?
+jawabannya question dulu, seperti kasus 
+"mencari lokasi organisasi ? "
+maka sudah jelas ada kolom nama organisasi dan lokasi organisasi dalam teks tersebut.
+
 ##Intro
 Semua pertanyaan (sepertinya) sudah punya jawabannya di internet sana, begitu banyak dokumen(html,pdf,word,etc) yang terus diupload tiap harinya.
 
@@ -79,8 +119,7 @@ It begins by processing a document using several of the procedures discussed in 
 In this step, we search for mentions of potentially interesting entities in each sentence. 
 
 ### 3. relation-detection
-3. Finally, we use relation detection to search for likely relations
-between different entities in the text.
+3. Finally, we use relation detection to search for likely relations between different entities in the text.
 
 kode dari 3 step tadi.
 ```
@@ -144,11 +183,19 @@ Kalau sudah bisa chunking, lalu?
 
 
 
-### relation-extraction
 
-Finally, in relation extraction, we search for specific patterns between pairs of entities that occur near one another in the text, and use those patterns to build tuples recording the relationships between the entities
+## RQ deteksi entitas
+Q : Apakah sulit auto-deteksi entitasnya?
+A : butuh korpus, sebaiknya deteksi manual saja.
 
-### Relation extraction setelah  2.chunking ?
+Q : bagaimana detilnya deteksi manual itu?
+A : awalnya saya harus tetapkan dulu Query dan entitas apa yang saya inginkan, misalkan pada paper Alves, query apa saja yang saya butuhkan.
+
+Q : bagaimana dengan  contoh HRS?
+A : ada 2 pihak
+mahfud : query 'select no_surat from bukti'
+FPI : query 'is tangan hrs diborgol?' 
+'select statement from saudi_autority where name="namanya"'
 
 # Reference
 sentence segmenter = chapter 3 - 3.8 Segmentation  

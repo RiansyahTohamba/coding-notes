@@ -1,0 +1,21 @@
+Sentences have internal organization that can be represented using a tree. Notable features of constituent
+structure are: recursion, heads, complements and modifiers.
+A grammar is a compact characterization of a potentially infinite set of sentences; we say that a tree is wellformed according to a grammar, or that a grammar licenses a tree.
+A grammar is a formal model for describing whether a given phrase can be assigned a particular constituent or
+dependency structure.
+Given a set of syntactic categories, a context-free grammar uses a set of productions to say how a phrase of some
+category A can be analyzed into a sequence of smaller parts α1
+ ... αn
+.
+A dependency grammar uses productions to specify what the dependents are of a given lexical head.
+Syntactic ambiguity arises when one sentence has more than one syntactic analysis (e.g. prepositional phrase
+attachment ambiguity).
+A parser is a procedure for finding one or more trees corresponding to a grammatically well-formed sentence.
+A simple top-down parser is the recursive descent parser, which recursively expands the start symbol (usually S)
+with the help of the grammar productions, and tries to match the input sentence. This parser cannot handle leftrecursive productions (e.g., productions such as NP -> NP PP). It is inefficient in the way it blindly expands
+categories without checking whether they are compatible with the input string, and in repeatedly expanding the
+same non-terminals and discarding the results.
+A simple bottom-up parser is the shift-reduce parser, which shifts input onto a stack and tries to match the items
+at the top of the stack with the right hand side of grammar productions. This parser is not guaranteed to find a
+valid parse for the input even if one exists, and builds substructure without checking whether it is globally
+consistent with the grammar.
