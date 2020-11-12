@@ -37,7 +37,7 @@ selengkapnya di chapter-07.md
 ## chapter 8. Analyzing 'Sentence' Structure
 sebelumya baru di level 'token' bukan 'sentence'
 token = tagging, 
-sudah cukup?
+pakai CFG 
 
 ## chapter 9. Building Feature Based Grammars
 ?
@@ -49,7 +49,7 @@ sudah cukup?
 ?
 
 ## chapter 12. Afterword: Facing the Language Challenge
-Filsafat Empiris dengan korpora
+Filsafat Empiris (ML use korpora)
 vs
-Filsafat Rule based
+Filsafat Rational (Rule based)
 
