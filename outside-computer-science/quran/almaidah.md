@@ -4,12 +4,14 @@
 # quraish shihab
 jangan mengambil aulia dari jews dan christian
 aulia = teman yang begitu dekat sampai kita saling tukar-menukar rahasia
-
-pemimpin termasuk
+pemimpin termasuk aulia
+boleh saja berteman biasa, asalkan mereka mau ikuti rule of our islam
 
 #  zakir naik tafsir
 
-
+# tldr
+kita adalah pemimpin
+kita harus melindungi non-muslim, tapi jangan minta perlindungan kepada non-muslim
 
 # question
 Baik
