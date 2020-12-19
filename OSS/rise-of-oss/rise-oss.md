@@ -1,103 +1,9 @@
-rise-oss.md
-Much of the software that powers
-the world's largest companies, protects
+# seksi 1
+on a separate note
+# seksi 2
+Microsoft has completely changed its point of view and is now seen as a leader in the space.
 
-our personal data, or encrypts national
-security information is open to
-
-the public. Anyone can download the
-source code behind Facebook's user
-
-interface, Google's Android operating system
-or even Goldman Sachs' data
-
-modeling program, and use it as a
-building block for a totally new
-
-project. What's more, lots of
-this software is actually developed
-
-collaboratively, created and maintained by
-an army of thousands, from
-
-unpaid volunteers to employees
-at competing tech companies.
-
-As a kid in a small town in
-Virginia, I could get connected to the best
-
-developers anywhere on earth and learn from
-them and even read the code
-
-that they'd written. I really wanted to
-give back and these people were
-
-always my heroes, so I
-wanted to participate too.
-
-And my voice mattered, it was
-just immediately, I was hooked.
-
-This is the collaborative world of
-open-source software, where code is
-
-written and shared freely.
-
-If individuals catch a bug or see
-an opportunity for improvement, they can
-
-suggest changes to the code and thereby
-become a contributor to some of
-
-the biggest software
-projects on Earth.
-
-But this model hasn't
-always been the norm.
-
-At the dawn of the Internet
-era through the late 1990s, proprietary
-
-software proliferated.
-
-Microsoft even went so far as to
-call open-source un-American and bad for
-
-intellectual property rights.
-
-Software was a finite commodity that people
-hoarded and wanted to sell as
-
-a product. Open-source software was only
-developed and maintained by a
-
-dedicated few. And there was this
-fringe world, there was this academic
-
-world who were creating software according
-to their own rules and sharing
-
-it publicly and making it free.
-
-Certainly dreamed, like wouldn't it be awesome
-if we could sort of take
-
-over the world? Now, open-source has,
-essentially, taken over the world.
-
-Companies in every industry from Walmart
-to ExxonMobil to Verizon have
-
-open-sourced their projects.
-
-Microsoft has completely changed its point of
-view and is now seen as a
-
-leader in the space.
-
-And in 2016, the U.S.
-
-government even promised to open-source at
+And in 2016, the U.S. government even promised to open-source at
 least 20 percent of all its
 
 new, custom developed code.
@@ -302,6 +208,7 @@ of the world's open-source software
 projects. And in 2018, Microsoft even
 acquired GitHub, affirming the tech
 
+# seksi 3
 giant's commitment to
 open-source development.
 
