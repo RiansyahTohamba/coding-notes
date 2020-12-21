@@ -15,19 +15,23 @@ Jika software membesar adalah indikasi bahwa organisasi puas.
 Jadi size tak bisa dihindari, yang bisa dilakukan adalah mengontrol complexity.
 
 # 3. Event-Based Architecture
-
+Recap
+Testing the already isolated modules is also much more straightforward, and dependency and fan-out counts are greatly reduced. Give an event-based architecture a whirl today!
 
 # 4. Unit Tests
+Recap
 
 
 # 5. Code Coverage
+Recap
 
 
 # 6. Integration, Performance, and Load Testing
+Recap
 
 
 # 7. Debugging
-
+Recap
 
 # 8. Automation
 Recap
