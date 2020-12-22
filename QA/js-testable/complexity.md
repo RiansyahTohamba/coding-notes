@@ -1,7 +1,8 @@
 complexity.md
-
+<!-- file:///home/riansyah/Documents/rian/RPL%20LANJUT/Testable%20JavaScript%20by%20Mark%20Ethan%20Trostler%20(z-lib.org).pdf -->
 chapter 2, membahas complexity of code.
 
+# ramuanku dari berbagai sumber
 Complexity diawali oleh **size** of code yang membesar.
 Dan memang pasti membesar, hehe.
 Jika software membesar adalah indikasi bahwa organisasi puas (hukum lehman belady ?).
@@ -11,16 +12,58 @@ Berbagai usaha dilakukan untuk mengetahui seberapa kompleks kode kita.
 Diantarnya dengan mengembangkan metrik tunggal (single metrik) complexity.
 Metrik ini diharapkan dapat menggambarkan kompleksitas kode program.
 
-
 Ada berbagai metrik untuk mengetahui seberapa kompleks kode kita, seperti coupling dan size.
 cara yang paling tepat untuk mengetahui seberapa kompleks kode kita dengan menunjukkan ke tim kita.
 jika tim kita tidak mengerti bagaimana alur dari kode kita, maka ini menjadi indikasi bahwa kode kita kompleks.
 jika kompleks maka kode kita akan sulit di maintain.
 
+# dari mark ethan trostler
+important = [JSLint, cyclomatic complexity, lines of code, and fan-in and fan-out]
+showing_to_coworker is more important measure
+starting point for testable JavaScript = analysis(complexity of static)
 
-recap
+50% of time developer = testing_debugging, (kata trostler)
+testing_debugging = non_functional
+jadi tidak bisa kerjakan functional(fitur) krn terkendala masalah non_functional
+functional dan non_functional punya kaitan
 
-referensi
+
+case_a =  complexity is invetabily
+case_b = complexity is avoid-able
+case_b > case_a
+
+## recap
+Code complexity comes in many shapes and sizes. Most complexity can be measured; however, the most important measurements cannot. Static code analysis will make large strides in cleaning up your code and make it more testable. Using well-understood patterns from static languages and standards-based JavaScript will help keep your code testable, and therefore maintainable. Dependencies play a large role in code complexity. They must be constructed, destroyed, understood, and maintained. Instantiating dependencies is a dangerous business. If the process can be offloaded to an injector, all the better.  
+
+= Natural lang to support Pro Lang
+Untuk JavaScript sudah ada bantuan dari komunitas yakni dengan YUIDoc, JSDoc, or Rocco-style documentation automatically with each build akan menurunkan kompleksitas.
+
+Tapi, menulis komen itu "half the battle". 
+Tantangan dengan natural language = "Keeping the comments up to date". 
+
+However, there is no substitute for Fagan inspections and code reviews in terms of finding bugs and ensuring that your code is not overly complex. 
+
+There are no magic bullets reducing the complexity of your code. 
+
+The first step is to understand and realize where the complexity lies. 
+
+There are many industry-standard books about modeling and refactoring code and the various patterns that can be used to factor and refactor your code.
+
+ada 2 kitab-belief di field ini : 
+
+Refactoring: Improving the Design of Existing Code, by Martin Fowler (Addison-Wesley), and 
+
+Code Complete: A Practical Handbook of Software Construction, by Steve McConnell (Microsoft Press). 
+
+*belief = percaya saja*
+
+All of the dirty details are available in these two books, and therefore, both are very highly recommended. 
+
+Gak mungkn bisa eliminate complexity seutuhnya.
+Yang bisa kita lakukan, reduksi dia !
+reduksi dengan cara comment with NatLang and test code !
+
+# tambahan referensi
 lehman law
 https://courses.cs.washington.edu/courses/csep503/97sp/lecture4/sld011.htm
 

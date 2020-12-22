@@ -1,0 +1,7 @@
+Maintainable JavaScript is clear, consistent, and standards-based. Testable JavaScript is loosely coupled, short, and isolatable. The magic happens when your code is both maintainable and testable. Since you will spend about 50% of your time testing and debugging your code, which is significantly more time than you will spend coding it, you might as well make code maintenance as easy on yourself and others as possible. 
+Complexity is the bane of every software project. While some complexity is unavoidable, in many cases complexity can be avoided. 
+
+Being able to recognize which parts of your application are complex, and understanding why, will allow you to reduce its overall complexity. As always, recognizing the problem is the first step toward fixing it. It is also important to note that the algorithms your code relies on may be complex as well. 
+
+In fact, typically these complex algorithms are what make your code unique and useful. If your core algorithms were not complex, someone probably would have already created your application. 
+However, unavoidable (in fact, beneficial) algorithm complexity is no excuse for writing complicated code. Although the details, and perhaps the code, surrounding your algorithm may be complex, of course there is a lot more to your application than some core algorithms.
