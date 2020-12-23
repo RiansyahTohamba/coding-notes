@@ -2,6 +2,23 @@ complexity.md
 <!-- file:///home/riansyah/Documents/rian/RPL%20LANJUT/Testable%20JavaScript%20by%20Mark%20Ethan%20Trostler%20(z-lib.org).pdf -->
 chapter 2, membahas complexity of code.
 
+# keywords
+code-size, 
+jslint, 
+cyclomatic complexity, 
+reuse, 
+fan-out, 
+fan-in, 
+{content,common,control,stamp,data,no,instantiation}-coupling, 
+coupling-metrics, 
+coupling-in-the-real world(testing-coupled-code), 
+dependency-injection, 
+comments(yuidoc,jsdoc,docco/rocco), 
+human-test, 
+recap
+
+
+
 # ramuanku dari berbagai sumber
 Complexity diawali oleh **size** of code yang membesar.
 Dan memang pasti membesar, hehe.
@@ -27,13 +44,49 @@ testing_debugging = non_functional
 jadi tidak bisa kerjakan functional(fitur) krn terkendala masalah non_functional
 functional dan non_functional punya kaitan
 
-
 case_a =  complexity is invetabily
 case_b = complexity is avoid-able
-case_b > case_a
+number_case_b > number_case_a
+
+# coupling-metrics
+The point of naming and scoring each type of coupling, besides giving us all a common frame of reference, is to generate metrics based on coupling found in functions, objects, and modules. 
+
+Inti dari penamaan dan penilaian setiap jenis kopling : 
+1. common frame : memberi kita semua kerangka acuan yang sama, 
+2. generate coupling metric in fungsi, objek, dan modul.
+Metric pada awal-awal menghitung the coupling between two modules or objects. 
+caranya dengan hanya adding up the number of interconnections between the modules or objects.
+Dan masukkan skor maximum coupling.
+
+
+Ada juga metric yg  try to measure the coupling inherent in a single module.
+
+Matrix bisa digunakan untuk menjadi big-picture of modul.
+Matrix berisikan semua modules in an application to view the overall coupling between each of them.
+
+
+The point here is that a number or set of numbers can be derived to determine how
+tightly or loosely coupled a system or set of modules is. This implies that someone
+“above” the system is trying to determine its state. For our purposes, we are the pro‐
+grammers looking at this stuff every day. Once we know what to look for, we can find
+it and refactor if necessary. Again, code inspections and code reviews are an excellent
+way to find code coupling, instead of relying on a tool to root out coupling metrics.
+
+# coupling-in-the-real-world
+lihat kode di 
+coupled-real-world.js
+
+final note
+minimize coupling and your testing will be easier.
 
 ## recap
-Code complexity comes in many shapes and sizes. Most complexity can be measured; however, the most important measurements cannot. Static code analysis will make large strides in cleaning up your code and make it more testable. Using well-understood patterns from static languages and standards-based JavaScript will help keep your code testable, and therefore maintainable. Dependencies play a large role in code complexity. They must be constructed, destroyed, understood, and maintained. Instantiating dependencies is a dangerous business. If the process can be offloaded to an injector, all the better.  
+
+Code complexity banyak bentuk dan ukurannya. 
+Sebagian besar complexity bisa diukur.
+Sebagian pengukuran yg penting tak bisa diukur.
+Tahu kan ada hal-hal yang memang un-measurable.
+
+Static code analysis will make large strides in cleaning up your code and make it more testable. Using well-understood patterns from static languages and standards-based JavaScript will help keep your code testable, and therefore maintainable. Dependencies play a large role in code complexity. They must be constructed, destroyed, understood, and maintained. Instantiating dependencies is a dangerous business. If the process can be offloaded to an injector, all the better.  
 
 = Natural lang to support Pro Lang
 Untuk JavaScript sudah ada bantuan dari komunitas yakni dengan YUIDoc, JSDoc, or Rocco-style documentation automatically with each build akan menurunkan kompleksitas.
