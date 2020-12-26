@@ -10,8 +10,10 @@ pilot ini buat quotes.
 
 
 
-# 34:20
-it took a generation to agree that
+# 00:34:20
+it took a generation to agree that high-level language is good
+
+it took a generation to agree that lambda is good
 
 https://www.youtube.com/watch?v=XFTOG895C7c
 
