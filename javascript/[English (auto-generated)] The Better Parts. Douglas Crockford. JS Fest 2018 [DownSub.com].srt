@@ -1,0 +1,4808 @@
+1
+00:00:15,460 --> 00:00:22,530
+[Applause]
+
+2
+00:00:22,530 --> 00:00:25,420
+so I'm going to begin by introducing you
+
+3
+00:00:25,420 --> 00:00:28,270
+to this guy this is Antoine de
+
+4
+00:00:28,270 --> 00:00:31,980
+saint-exupéry he was a French aviator
+
+5
+00:00:31,980 --> 00:00:34,480
+aviator is the word that we used to use
+
+6
+00:00:34,480 --> 00:00:37,330
+for pilot back when aviation was really
+
+7
+00:00:37,330 --> 00:00:39,640
+dangerous and it was really dangerous
+
+8
+00:00:39,640 --> 00:00:45,420
+because the planes crashed a lot he
+
+9
+00:00:45,420 --> 00:00:47,980
+experienced several crashes during his
+
+10
+00:00:47,980 --> 00:00:50,350
+career and survived almost all of them
+
+11
+00:00:50,350 --> 00:00:53,140
+he is once trying to set a speed record
+
+12
+00:00:53,140 --> 00:00:57,730
+from Paris to Saigon but his plane
+
+13
+00:00:57,730 --> 00:00:59,830
+crashed in the sahara desert just
+
+14
+00:00:59,830 --> 00:01:02,530
+outside of Cairo and he was not prepared
+
+15
+00:01:02,530 --> 00:01:05,590
+for desert survival so he suffered
+
+16
+00:01:05,590 --> 00:01:08,500
+terrible dehydration as a result of that
+
+17
+00:01:08,500 --> 00:01:11,740
+he stopped sweating which in the desert
+
+18
+00:01:11,740 --> 00:01:14,080
+is a really dangerous thing he had awful
+
+19
+00:01:14,080 --> 00:01:16,659
+hallucinations fortunately he was
+
+20
+00:01:16,659 --> 00:01:19,450
+rescued by someone who knew how to treat
+
+21
+00:01:19,450 --> 00:01:25,000
+severe dehydration and he recovered Wow
+
+22
+00:01:25,000 --> 00:01:29,740
+World War two was starting so he went
+
+23
+00:01:29,740 --> 00:01:33,310
+into exile in America where he became a
+
+24
+00:01:33,310 --> 00:01:35,890
+writer it turns out he was a really good
+
+25
+00:01:35,890 --> 00:01:37,720
+writer he is best remembered for having
+
+26
+00:01:37,720 --> 00:01:41,160
+written the little prince which is a
+
+27
+00:01:41,160 --> 00:01:43,510
+famous children's book it's about an
+
+28
+00:01:43,510 --> 00:01:45,610
+aviator who was stranded in the desert
+
+29
+00:01:45,610 --> 00:01:48,040
+who was was visited by a strange little
+
+30
+00:01:48,040 --> 00:01:50,620
+boy who lives on an asteroid and his
+
+31
+00:01:50,620 --> 00:01:53,410
+suicidal like all the great children's
+
+32
+00:01:53,410 --> 00:01:55,360
+books it's not really a children's book
+
+33
+00:01:55,360 --> 00:01:59,290
+he also wrote books for adults and in
+
+34
+00:01:59,290 --> 00:02:01,240
+one of them he wrote what I think is one
+
+35
+00:02:01,240 --> 00:02:03,910
+of the best sentences ever written he
+
+36
+00:02:03,910 --> 00:02:05,770
+said it seems that perfection is
+
+37
+00:02:05,770 --> 00:02:08,019
+attained not when there is nothing more
+
+38
+00:02:08,019 --> 00:02:10,929
+to add but when there is nothing more to
+
+39
+00:02:10,929 --> 00:02:13,720
+take away he was writing about the
+
+40
+00:02:13,720 --> 00:02:16,150
+design of airplanes but it seems to talk
+
+41
+00:02:16,150 --> 00:02:17,830
+about everything which combines
+
+42
+00:02:17,830 --> 00:02:20,319
+discipline and creativity and I hear
+
+43
+00:02:20,319 --> 00:02:22,540
+this quote being used all the time from
+
+44
+00:02:22,540 --> 00:02:25,030
+in architecture and design and
+
+45
+00:02:25,030 --> 00:02:27,249
+everything but I think it has a
+
+46
+00:02:27,249 --> 00:02:30,260
+particular application to programming
+
+47
+00:02:30,260 --> 00:02:32,989
+because we have this real connection
+
+48
+00:02:32,989 --> 00:02:34,879
+with perfection more than any other
+
+49
+00:02:34,879 --> 00:02:39,049
+craft our programs have to be perfect if
+
+50
+00:02:39,049 --> 00:02:40,819
+our programs are not perfect in every
+
+51
+00:02:40,819 --> 00:02:45,620
+way dad things happen and he gives us
+
+52
+00:02:45,620 --> 00:02:48,950
+some insight as to how perfection is
+
+53
+00:02:48,950 --> 00:02:51,709
+attained it's not by adding things it's
+
+54
+00:02:51,709 --> 00:02:54,860
+by taking things away and it occurred to
+
+55
+00:02:54,860 --> 00:02:57,319
+me that this should also apply to
+
+56
+00:02:57,319 --> 00:02:59,299
+programming languages that we can make
+
+57
+00:02:59,299 --> 00:03:01,069
+our programming languages better by
+
+58
+00:03:01,069 --> 00:03:04,340
+taking away things so that leads to the
+
+59
+00:03:04,340 --> 00:03:07,790
+idea of good parts where a language can
+
+60
+00:03:07,790 --> 00:03:09,920
+be made better not by adding things but
+
+61
+00:03:09,920 --> 00:03:12,859
+by removing things and the principle of
+
+62
+00:03:12,859 --> 00:03:15,799
+good parts says that if a feature is
+
+63
+00:03:15,799 --> 00:03:18,319
+sometimes useful and sometimes dangerous
+
+64
+00:03:18,319 --> 00:03:21,859
+and if there is a better option then
+
+65
+00:03:21,859 --> 00:03:26,359
+always use the better option I think
+
+66
+00:03:26,359 --> 00:03:27,769
+this makes a lot of sense a lot of
+
+67
+00:03:27,769 --> 00:03:29,799
+people still think this is controversial
+
+68
+00:03:29,799 --> 00:03:32,480
+that you can't make me use the better
+
+69
+00:03:32,480 --> 00:03:35,690
+option which seems like an odd argument
+
+70
+00:03:35,690 --> 00:03:37,549
+to make but there's still a lot of
+
+71
+00:03:37,549 --> 00:03:39,590
+people saying that and I think it comes
+
+72
+00:03:39,590 --> 00:03:41,959
+from a fundamental misunderstanding of
+
+73
+00:03:41,959 --> 00:03:45,319
+what it is that we're doing here we are
+
+74
+00:03:45,319 --> 00:03:48,079
+not paid to use every feature of the
+
+75
+00:03:48,079 --> 00:03:50,720
+language at the end of a project there
+
+76
+00:03:50,720 --> 00:03:52,760
+isn't a manager with a clipboard saying
+
+77
+00:03:52,760 --> 00:03:56,599
+did you use a-plus-plus did you leave
+
+78
+00:03:56,599 --> 00:04:01,790
+out any semicolons excellent no that's
+
+79
+00:04:01,790 --> 00:04:04,609
+not what they're looking for we are paid
+
+80
+00:04:04,609 --> 00:04:07,040
+to write programs that work well and are
+
+81
+00:04:07,040 --> 00:04:11,569
+free of error now free of error when did
+
+82
+00:04:11,569 --> 00:04:12,950
+that become part of the deal
+
+83
+00:04:12,950 --> 00:04:15,859
+well it turns out it has always been a
+
+84
+00:04:15,859 --> 00:04:17,450
+part of the deal it it's the most
+
+85
+00:04:17,450 --> 00:04:20,238
+important part it's just that we attain
+
+86
+00:04:20,238 --> 00:04:22,639
+it so rarely that it's easy to forget
+
+87
+00:04:22,639 --> 00:04:24,590
+that that's the most important thing
+
+88
+00:04:24,590 --> 00:04:27,919
+about what we're doing so my advice to
+
+89
+00:04:27,919 --> 00:04:29,389
+everybody who wants to be a better
+
+90
+00:04:29,389 --> 00:04:32,510
+programmer is to learn more languages
+
+91
+00:04:32,510 --> 00:04:35,330
+because a good program good programming
+
+92
+00:04:35,330 --> 00:04:37,880
+language should teach you and in my
+
+93
+00:04:37,880 --> 00:04:39,710
+career the language which has taught me
+
+94
+00:04:39,710 --> 00:04:41,720
+the most was JavaScript
+
+95
+00:04:41,720 --> 00:04:44,000
+I had a very difficult relationship
+
+96
+00:04:44,000 --> 00:04:46,490
+relationship with JavaScript because in
+
+97
+00:04:46,490 --> 00:04:49,670
+the beginning I made every mistake with
+
+98
+00:04:49,670 --> 00:04:51,890
+JavaScript you can make starting with
+
+99
+00:04:51,890 --> 00:04:54,410
+the first one the worst one I started
+
+100
+00:04:54,410 --> 00:04:56,420
+programming without bothering to learn
+
+101
+00:04:56,420 --> 00:04:58,880
+the language first and I I thought I
+
+102
+00:04:58,880 --> 00:05:00,290
+could get away with that because it
+
+103
+00:05:00,290 --> 00:05:02,090
+looked familiar I thought I understood
+
+104
+00:05:02,090 --> 00:05:04,190
+how it worked and it punished me for
+
+105
+00:05:04,190 --> 00:05:08,450
+that it punished me hard eventually I
+
+106
+00:05:08,450 --> 00:05:11,120
+decided to read the standard and try to
+
+107
+00:05:11,120 --> 00:05:12,410
+figure out what the language actually
+
+108
+00:05:12,410 --> 00:05:16,160
+did and that completely changed my
+
+109
+00:05:16,160 --> 00:05:17,810
+understanding of this language it was
+
+110
+00:05:17,810 --> 00:05:19,820
+not at all what I had thought of at
+
+111
+00:05:19,820 --> 00:05:21,680
+first it was actually a very different
+
+112
+00:05:21,680 --> 00:05:24,920
+actually a very good language but until
+
+113
+00:05:24,920 --> 00:05:26,690
+I read the standard I had no idea that
+
+114
+00:05:26,690 --> 00:05:29,570
+was true now even though it's a very
+
+115
+00:05:29,570 --> 00:05:31,010
+good language it's a language that
+
+116
+00:05:31,010 --> 00:05:33,890
+contains a lot of bad parts and to help
+
+117
+00:05:33,890 --> 00:05:35,960
+me manage those bad parts I wrote a
+
+118
+00:05:35,960 --> 00:05:38,780
+program called jeaious lint everybody
+
+119
+00:05:38,780 --> 00:05:40,790
+should be using jeaious lint you know
+
+120
+00:05:40,790 --> 00:05:43,310
+all of your code everything should pass
+
+121
+00:05:43,310 --> 00:05:45,050
+chance lint because it's important for
+
+122
+00:05:45,050 --> 00:05:46,970
+us to write good stuff and this is the
+
+123
+00:05:46,970 --> 00:05:50,330
+best way to assure that it's good and
+
+124
+00:05:50,330 --> 00:05:52,700
+when I started writing jeaious lint
+
+125
+00:05:52,700 --> 00:05:55,430
+I had no idea about programming style I
+
+126
+00:05:55,430 --> 00:05:57,229
+didn't think style was important I was
+
+127
+00:05:57,229 --> 00:06:00,110
+just looking for errors but jeaious lint
+
+128
+00:06:00,110 --> 00:06:01,970
+taught me that programming style is
+
+129
+00:06:01,970 --> 00:06:04,400
+actually very important that increasing
+
+130
+00:06:04,400 --> 00:06:06,350
+the visual distance between a good
+
+131
+00:06:06,350 --> 00:06:08,780
+program and a bad one is one of the most
+
+132
+00:06:08,780 --> 00:06:11,180
+effective ways we have to avoid making
+
+133
+00:06:11,180 --> 00:06:14,900
+mistakes so turns out chance lint is a
+
+134
+00:06:14,900 --> 00:06:17,210
+lot smarter about javascript than I am
+
+135
+00:06:17,210 --> 00:06:21,770
+it taught me more than I taught it so I
+
+136
+00:06:21,770 --> 00:06:23,840
+wrote my own book about my adventures
+
+137
+00:06:23,840 --> 00:06:25,880
+with JavaScript and giant called
+
+138
+00:06:25,880 --> 00:06:28,010
+javascript the good parts anyone heard
+
+139
+00:06:28,010 --> 00:06:34,190
+of this one yeah a few hands go up so
+
+140
+00:06:34,190 --> 00:06:37,190
+it's still a best-seller in its category
+
+141
+00:06:37,190 --> 00:06:38,780
+which is really unusual
+
+142
+00:06:38,780 --> 00:06:41,720
+most software books are obsolete at the
+
+143
+00:06:41,720 --> 00:06:44,060
+time that the printed in this one has
+
+144
+00:06:44,060 --> 00:06:46,250
+been out for 10 years and is still doing
+
+145
+00:06:46,250 --> 00:06:49,610
+really well and I think that's because
+
+146
+00:06:49,610 --> 00:06:51,410
+it turned out what I identified as good
+
+147
+00:06:51,410 --> 00:06:54,330
+parts we're mostly right and
+
+148
+00:06:54,330 --> 00:06:55,889
+so there's still value in the book that
+
+149
+00:06:55,889 --> 00:06:58,289
+said I'm working on another book and I'm
+
+150
+00:06:58,289 --> 00:07:01,340
+hoping to get it out for you this year
+
+151
+00:07:01,340 --> 00:07:04,259
+and in the process of going through it
+
+152
+00:07:04,259 --> 00:07:06,090
+it gave me a chance to sort of
+
+153
+00:07:06,090 --> 00:07:09,870
+re-evaluate and decide what actually is
+
+154
+00:07:09,870 --> 00:07:13,949
+good and what is not there is still an
+
+155
+00:07:13,949 --> 00:07:15,840
+argument though about good parts that
+
+156
+00:07:15,840 --> 00:07:17,270
+there are some people who think that
+
+157
+00:07:17,270 --> 00:07:19,889
+that concept doesn't apply to them
+
+158
+00:07:19,889 --> 00:07:22,889
+so I'd like to review some of the
+
+159
+00:07:22,889 --> 00:07:26,310
+arguments about why we shouldn't care
+
+160
+00:07:26,310 --> 00:07:28,830
+about the good parts the first one is
+
+161
+00:07:28,830 --> 00:07:32,009
+it's just a matter of opinion you say
+
+162
+00:07:32,009 --> 00:07:34,889
+it's bad I say it's good all opinions
+
+163
+00:07:34,889 --> 00:07:37,229
+are equally valid that turns out not to
+
+164
+00:07:37,229 --> 00:07:41,639
+be true that and the reason I say that
+
+165
+00:07:41,639 --> 00:07:44,370
+is so I'm the maintainer of Janice Lynch
+
+166
+00:07:44,370 --> 00:07:46,440
+and I get reports from people from all
+
+167
+00:07:46,440 --> 00:07:48,569
+over the world an occasion I get
+
+168
+00:07:48,569 --> 00:07:50,129
+something from someone who says we've
+
+169
+00:07:50,129 --> 00:07:53,759
+just spent two bloody weeks chasing down
+
+170
+00:07:53,759 --> 00:07:55,469
+some weird thing that turned out to be
+
+171
+00:07:55,469 --> 00:07:57,479
+an obscure corner case in JavaScript
+
+172
+00:07:57,479 --> 00:07:59,250
+that none of us had ever heard of and it
+
+173
+00:07:59,250 --> 00:08:02,279
+really was expensive to find this thing
+
+174
+00:08:02,279 --> 00:08:04,560
+could you please put a test in to Janice
+
+175
+00:08:04,560 --> 00:08:06,389
+lint so that no one will ever experience
+
+176
+00:08:06,389 --> 00:08:09,659
+that again and if their request makes
+
+177
+00:08:09,659 --> 00:08:11,789
+sense I put it in which means that if
+
+178
+00:08:11,789 --> 00:08:13,830
+you're using jeaious lint that will
+
+179
+00:08:13,830 --> 00:08:15,930
+never happen to you
+
+180
+00:08:15,930 --> 00:08:20,990
+that's not an opinion that is a fact
+
+181
+00:08:21,800 --> 00:08:24,629
+every feature is an essential tool I
+
+182
+00:08:24,629 --> 00:08:26,819
+need to be able to use every tool in the
+
+183
+00:08:26,819 --> 00:08:29,250
+tool sets in order to do my work it
+
+184
+00:08:29,250 --> 00:08:31,159
+turns out that's not true
+
+185
+00:08:31,159 --> 00:08:34,469
+that you can do better work with just
+
+186
+00:08:34,469 --> 00:08:36,899
+the good parts with just the good tools
+
+187
+00:08:36,899 --> 00:08:38,909
+you don't need to use the tools that are
+
+188
+00:08:38,909 --> 00:08:42,000
+rusted or have broken handles if you can
+
+189
+00:08:42,000 --> 00:08:43,708
+do better work without a broken tool
+
+190
+00:08:43,708 --> 00:08:48,720
+then that tool was not essential but a
+
+191
+00:08:48,720 --> 00:08:50,579
+feature is sometimes useful I should be
+
+192
+00:08:50,579 --> 00:08:51,660
+able to use everything which is
+
+193
+00:08:51,660 --> 00:08:54,060
+sometimes useful and this sounds like a
+
+194
+00:08:54,060 --> 00:08:57,240
+good argument except it turns out that
+
+195
+00:08:57,240 --> 00:09:01,380
+everything is sometimes useful humans
+
+196
+00:09:01,380 --> 00:09:03,660
+are so creative we can find a use for
+
+197
+00:09:03,660 --> 00:09:06,540
+anything there's nothing so awful or
+
+198
+00:09:06,540 --> 00:09:06,830
+does
+
+199
+00:09:06,830 --> 00:09:11,000
+gusting or bad that we can't find a use
+
+200
+00:09:11,000 --> 00:09:14,270
+for so saying that something is
+
+201
+00:09:14,270 --> 00:09:16,760
+sometimes useful is saying nothing at
+
+202
+00:09:16,760 --> 00:09:18,380
+all because you can say that about
+
+203
+00:09:18,380 --> 00:09:20,300
+literally everything so if your only
+
+204
+00:09:20,300 --> 00:09:22,160
+argument for using a feature is that
+
+205
+00:09:22,160 --> 00:09:24,530
+it's sometimes useful you do not even
+
+206
+00:09:24,530 --> 00:09:29,690
+have an argument I have a right to use
+
+207
+00:09:29,690 --> 00:09:32,300
+every feature so this sounds important
+
+208
+00:09:32,300 --> 00:09:33,680
+we're gonna be righteous now I have a
+
+209
+00:09:33,680 --> 00:09:37,340
+right and we're gonna fight for our
+
+210
+00:09:37,340 --> 00:09:40,870
+rights and that's we're gonna do that
+
+211
+00:09:40,870 --> 00:09:44,350
+but if you take this argument to the end
+
+212
+00:09:44,350 --> 00:09:47,590
+do you have the right to right to crap
+
+213
+00:09:47,590 --> 00:09:53,090
+yes I have the right what are we
+
+214
+00:09:53,090 --> 00:09:55,760
+fighting about that it doesn't matter if
+
+215
+00:09:55,760 --> 00:09:58,100
+you have the right what matters is you
+
+216
+00:09:58,100 --> 00:10:00,170
+have the responsibility to write good
+
+217
+00:10:00,170 --> 00:10:01,790
+programs that are free of error
+
+218
+00:10:01,790 --> 00:10:06,380
+I need the freedom to express myself I'm
+
+219
+00:10:06,380 --> 00:10:09,020
+a poet and I express my poetry by
+
+220
+00:10:09,020 --> 00:10:15,290
+leaving out my semicolons I need to
+
+221
+00:10:15,290 --> 00:10:17,540
+reduce my keystrokes this is an
+
+222
+00:10:17,540 --> 00:10:19,340
+important one we think that we spend
+
+223
+00:10:19,340 --> 00:10:21,140
+most of our time power typing you know
+
+224
+00:10:21,140 --> 00:10:22,400
+you think over the day what did i do
+
+225
+00:10:22,400 --> 00:10:24,530
+today I was typing I got that that I did
+
+226
+00:10:24,530 --> 00:10:25,820
+that $1.00 right of writing a program
+
+227
+00:10:25,820 --> 00:10:28,550
+da-da-da-da-da except that's not
+
+228
+00:10:28,550 --> 00:10:31,520
+actually how we spend our time we spend
+
+229
+00:10:31,520 --> 00:10:34,120
+most of our time staring into the abyss
+
+230
+00:10:34,120 --> 00:10:38,500
+saying my god what have I done
+
+231
+00:10:41,250 --> 00:10:44,830
+so it's not the keystrokes it's that you
+
+232
+00:10:44,830 --> 00:10:45,730
+know if we could figure out a way to
+
+233
+00:10:45,730 --> 00:10:48,040
+spend less time doing that we will be
+
+234
+00:10:48,040 --> 00:10:50,500
+much much more productive the keystrokes
+
+235
+00:10:50,500 --> 00:10:52,750
+are irrelevant you could take all the
+
+236
+00:10:52,750 --> 00:10:54,820
+clean finished code that you produce in
+
+237
+00:10:54,820 --> 00:10:57,730
+a year in a day you know if all you were
+
+238
+00:10:57,730 --> 00:10:59,410
+doing was typing in the program did it
+
+239
+00:10:59,410 --> 00:10:59,830
+did it
+
+240
+00:10:59,830 --> 00:11:03,100
+I'm not saying it'd be a fun day but in
+
+241
+00:11:03,100 --> 00:11:04,570
+a day you could type all the program
+
+242
+00:11:04,570 --> 00:11:06,850
+that you write in the year that raises a
+
+243
+00:11:06,850 --> 00:11:08,410
+question what are you doing with the
+
+244
+00:11:08,410 --> 00:11:13,240
+other 99% of your time it's a lot of its
+
+245
+00:11:13,240 --> 00:11:17,680
+that then it's an insult to suggest that
+
+246
+00:11:17,680 --> 00:11:19,960
+I would ever make a mistake with a
+
+247
+00:11:19,960 --> 00:11:22,030
+dangerous feature obviously someone
+
+248
+00:11:22,030 --> 00:11:25,900
+who's less qualified than me would make
+
+249
+00:11:25,900 --> 00:11:28,150
+mistakes with that but I am so skilled
+
+250
+00:11:28,150 --> 00:11:31,420
+that I can do stupid things and it's
+
+251
+00:11:31,420 --> 00:11:36,760
+gonna work that that's not good there's
+
+252
+00:11:36,760 --> 00:11:38,650
+a good reason those features were added
+
+253
+00:11:38,650 --> 00:11:41,140
+to the language now I've been part of
+
+254
+00:11:41,140 --> 00:11:43,720
+the standards process so I can tell you
+
+255
+00:11:43,720 --> 00:11:46,690
+for a fact that is not true there are
+
+256
+00:11:46,690 --> 00:11:48,790
+all sorts of reasons for why things can
+
+257
+00:11:48,790 --> 00:11:52,180
+get into a standard and the if they
+
+258
+00:11:52,180 --> 00:11:53,620
+don't have to be good in order for that
+
+259
+00:11:53,620 --> 00:11:56,380
+to happen so Brendan Eich who's the
+
+260
+00:11:56,380 --> 00:11:58,920
+brilliant man who invented JavaScript
+
+261
+00:11:58,920 --> 00:12:02,260
+talks about foot guns a foot gun is a
+
+262
+00:12:02,260 --> 00:12:03,820
+feature that you use to shoot yourself
+
+263
+00:12:03,820 --> 00:12:09,220
+in the foot and he unintentionally put a
+
+264
+00:12:09,220 --> 00:12:11,410
+lot of foot guns into JavaScript and
+
+265
+00:12:11,410 --> 00:12:13,270
+they're people who think that they're
+
+266
+00:12:13,270 --> 00:12:15,730
+there to be used so watch this I almost
+
+267
+00:12:15,730 --> 00:12:22,510
+always miss here we go so the purpose of
+
+268
+00:12:22,510 --> 00:12:24,460
+a programming language is to aid
+
+269
+00:12:24,460 --> 00:12:27,190
+programmers in producing error free
+
+270
+00:12:27,190 --> 00:12:29,170
+programs if you're doing anything else
+
+271
+00:12:29,170 --> 00:12:33,150
+you're doing it wrong you're misusing it
+
+272
+00:12:33,150 --> 00:12:35,590
+so we used to think it wasn't possible
+
+273
+00:12:35,590 --> 00:12:38,050
+to write good programs in JavaScript so
+
+274
+00:12:38,050 --> 00:12:40,480
+now don't even try just write sloppy
+
+275
+00:12:40,480 --> 00:12:43,060
+because that's the best you can do that
+
+276
+00:12:43,060 --> 00:12:46,810
+turned out not to be true that it is not
+
+277
+00:12:46,810 --> 00:12:48,730
+only possible to write good programs in
+
+278
+00:12:48,730 --> 00:12:51,260
+JavaScript it is necessary
+
+279
+00:12:51,260 --> 00:12:52,610
+because of all the badness in the
+
+280
+00:12:52,610 --> 00:12:54,350
+language you have to bring an
+
+281
+00:12:54,350 --> 00:12:56,990
+extraordinary amount of discipline to
+
+282
+00:12:56,990 --> 00:12:59,480
+the writing in this language that means
+
+283
+00:12:59,480 --> 00:13:02,440
+you really have to write everything well
+
+284
+00:13:02,440 --> 00:13:04,640
+so there's a lot of confusion about
+
+285
+00:13:04,640 --> 00:13:07,370
+JavaScript for example it's crazy name
+
+286
+00:13:07,370 --> 00:13:09,500
+it seems to have the same name as
+
+287
+00:13:09,500 --> 00:13:12,440
+another language called Java it's it can
+
+288
+00:13:12,440 --> 00:13:14,590
+it's confusing it's similar to the
+
+289
+00:13:14,590 --> 00:13:16,790
+confusion between Star Trek and Star
+
+290
+00:13:16,790 --> 00:13:19,070
+Wars right you've got two
+
+291
+00:13:19,070 --> 00:13:21,500
+science-fiction franchises that you know
+
+292
+00:13:21,500 --> 00:13:24,260
+got spaceships and people fighting and
+
+293
+00:13:24,260 --> 00:13:28,160
+stuff and basically the same name but
+
+294
+00:13:28,160 --> 00:13:29,870
+the fans know they're really different
+
+295
+00:13:29,870 --> 00:13:32,570
+right you can't confuse them in Star
+
+296
+00:13:32,570 --> 00:13:34,700
+Trek you have phasers and photon
+
+297
+00:13:34,700 --> 00:13:38,750
+torpedoes uniforms dam regulations and
+
+298
+00:13:38,750 --> 00:13:41,300
+in Star Wars you have lightsabers and
+
+299
+00:13:41,300 --> 00:13:47,420
+blasters proton torpedoes sand chaos I
+
+300
+00:13:47,420 --> 00:13:50,360
+hate sand by the way so when you're
+
+301
+00:13:50,360 --> 00:13:53,390
+working in Java so which language is the
+
+302
+00:13:53,390 --> 00:13:55,670
+Star Wars language right it's JavaScript
+
+303
+00:13:55,670 --> 00:14:00,290
+right so when you're working in
+
+304
+00:14:00,290 --> 00:14:02,510
+JavaScript it gives you a choice
+
+305
+00:14:02,510 --> 00:14:06,980
+you can either go Jedi where you can go
+
+306
+00:14:06,980 --> 00:14:11,570
+Jar Jar unfortunately a lot of our
+
+307
+00:14:11,570 --> 00:14:17,750
+brothers have decided to go Jar Jar so
+
+308
+00:14:17,750 --> 00:14:20,630
+I've observed two things the fantasy of
+
+309
+00:14:20,630 --> 00:14:23,270
+infallibility and the futility of Follis
+
+310
+00:14:23,270 --> 00:14:25,940
+'no stew a titude x' i find the first
+
+311
+00:14:25,940 --> 00:14:28,850
+one the fantasy of infallibility mostly
+
+312
+00:14:28,850 --> 00:14:31,100
+in younger guys who think they can write
+
+313
+00:14:31,100 --> 00:14:34,790
+mad crazy code and it'll work and
+
+314
+00:14:34,790 --> 00:14:37,360
+they'll just take ridiculous risks just
+
+315
+00:14:37,360 --> 00:14:40,520
+cuz and then I see the futility of
+
+316
+00:14:40,520 --> 00:14:42,260
+thoughtlessness mostly in the older guys
+
+317
+00:14:42,260 --> 00:14:46,040
+we're saying it never works it's never
+
+318
+00:14:46,040 --> 00:14:52,100
+going to work why even try so two very
+
+319
+00:14:52,100 --> 00:14:54,440
+different perspectives but they both
+
+320
+00:14:54,440 --> 00:14:56,570
+lead to the same thing danger driven
+
+321
+00:14:56,570 --> 00:14:58,439
+development
+
+322
+00:14:58,439 --> 00:15:01,269
+where you take unnecessary risks and the
+
+323
+00:15:01,269 --> 00:15:06,339
+coding just to keep it interesting so
+
+324
+00:15:06,339 --> 00:15:07,779
+one of the things that makes programming
+
+325
+00:15:07,779 --> 00:15:10,240
+so difficult to manage is the difficulty
+
+326
+00:15:10,240 --> 00:15:12,550
+in scheduling in order to schedule
+
+327
+00:15:12,550 --> 00:15:14,889
+software we have to ant figure out what
+
+328
+00:15:14,889 --> 00:15:17,139
+time a is the time it takes to write the
+
+329
+00:15:17,139 --> 00:15:20,920
+code and that's difficult because we're
+
+330
+00:15:20,920 --> 00:15:23,980
+perfectionists you know ask a programmer
+
+331
+00:15:23,980 --> 00:15:25,089
+how long will that take
+
+332
+00:15:25,089 --> 00:15:26,829
+you know it's about that make you stroke
+
+333
+00:15:26,829 --> 00:15:29,199
+standard you know forgetting about all
+
+334
+00:15:29,199 --> 00:15:32,560
+that other time but even harder than
+
+335
+00:15:32,560 --> 00:15:35,649
+that is time B time B is a time it takes
+
+336
+00:15:35,649 --> 00:15:38,529
+to make the code work right now ideally
+
+337
+00:15:38,529 --> 00:15:41,259
+time B should be zero right you write
+
+338
+00:15:41,259 --> 00:15:43,540
+the code and it works right and you're
+
+339
+00:15:43,540 --> 00:15:46,110
+done but that's usually not the case
+
+340
+00:15:46,110 --> 00:15:51,279
+time B can be greater than time a right
+
+341
+00:15:51,279 --> 00:15:54,009
+and I've seen cases where time B is
+
+342
+00:15:54,009 --> 00:15:56,649
+infinite that's what happens when a
+
+343
+00:15:56,649 --> 00:15:59,639
+project is canceled after code complete
+
+344
+00:15:59,639 --> 00:16:01,629
+because they could never get it to work
+
+345
+00:16:01,629 --> 00:16:05,649
+so we don't want to do that if you're
+
+346
+00:16:05,649 --> 00:16:08,559
+doing anything during time a which
+
+347
+00:16:08,559 --> 00:16:13,170
+increases time B you're doing it wrong
+
+348
+00:16:13,170 --> 00:16:15,879
+so we should always take the time to
+
+349
+00:16:15,879 --> 00:16:18,490
+code well because if the code is written
+
+350
+00:16:18,490 --> 00:16:20,769
+well it's going to be easier to make it
+
+351
+00:16:20,769 --> 00:16:23,589
+work and it's critical even if you're
+
+352
+00:16:23,589 --> 00:16:24,759
+doing something cheap and dirty
+
+353
+00:16:24,759 --> 00:16:26,319
+something that's only going to run once
+
+354
+00:16:26,319 --> 00:16:29,920
+it still has to run at least once and
+
+355
+00:16:29,920 --> 00:16:31,779
+that's gonna be easier to do if you
+
+356
+00:16:31,779 --> 00:16:36,370
+write it well don't be sloppy so there
+
+357
+00:16:36,370 --> 00:16:38,800
+are new good parts in es6 you've
+
+358
+00:16:38,800 --> 00:16:40,990
+probably heard of them all the best one
+
+359
+00:16:40,990 --> 00:16:43,120
+unfortunately is not available
+
+360
+00:16:43,120 --> 00:16:46,629
+everywhere yet it's proper tail calls if
+
+361
+00:16:46,629 --> 00:16:49,449
+the last thing a function does is return
+
+362
+00:16:49,449 --> 00:16:50,649
+the result of calling the function
+
+363
+00:16:50,649 --> 00:16:53,800
+either itself or any other function the
+
+364
+00:16:53,800 --> 00:16:55,660
+compiler is required to instead of
+
+365
+00:16:55,660 --> 00:16:58,240
+creating a call return sequence it
+
+366
+00:16:58,240 --> 00:17:00,850
+instead generates a jump so it's
+
+367
+00:17:00,850 --> 00:17:03,600
+essentially a go-to with parameters and
+
+368
+00:17:03,600 --> 00:17:07,059
+this can cause a lot of programs to go
+
+369
+00:17:07,059 --> 00:17:09,220
+much much faster it also enables
+
+370
+00:17:09,220 --> 00:17:11,709
+something called continuation passing
+
+371
+00:17:11,709 --> 00:17:13,869
+style which is a form of programming
+
+372
+00:17:13,869 --> 00:17:17,020
+that was discovered in the functional
+
+373
+00:17:17,020 --> 00:17:21,130
+programming scheme which would be really
+
+374
+00:17:21,130 --> 00:17:23,319
+really effective in JavaScript if we had
+
+375
+00:17:23,319 --> 00:17:26,648
+this feature unfortunately Microsoft and
+
+376
+00:17:26,648 --> 00:17:28,600
+Google have been very very slow to
+
+377
+00:17:28,600 --> 00:17:32,380
+implement this so I'm I'm hoping if you
+
+378
+00:17:32,380 --> 00:17:34,120
+know any of those people tell them to
+
+379
+00:17:34,120 --> 00:17:34,720
+get on it
+
+380
+00:17:34,720 --> 00:17:36,669
+we need this this is the most important
+
+381
+00:17:36,669 --> 00:17:41,200
+feature we got in es6 second would be
+
+382
+00:17:41,200 --> 00:17:43,480
+the ellipsis operator or the dot dot dot
+
+383
+00:17:43,480 --> 00:17:46,929
+which can be used in calling sequences
+
+384
+00:17:46,929 --> 00:17:50,080
+in in parameter position or in argument
+
+385
+00:17:50,080 --> 00:17:53,919
+position in parameter position it says
+
+386
+00:17:53,919 --> 00:17:56,590
+take all of the remaining arguments and
+
+387
+00:17:56,590 --> 00:17:59,289
+pack them together into an array is so
+
+388
+00:17:59,289 --> 00:18:00,730
+it's a very effective way of dealing
+
+389
+00:18:00,730 --> 00:18:02,260
+with functions that need to take a
+
+390
+00:18:02,260 --> 00:18:04,270
+variable number of arguments in in
+
+391
+00:18:04,270 --> 00:18:06,909
+calling position it will spread the
+
+392
+00:18:06,909 --> 00:18:09,279
+array out so that each element becomes a
+
+393
+00:18:09,279 --> 00:18:11,919
+separate argument so this is two
+
+394
+00:18:11,919 --> 00:18:15,190
+versions of the curry function it
+
+395
+00:18:15,190 --> 00:18:17,140
+modified so that can take any number of
+
+396
+00:18:17,140 --> 00:18:18,850
+arguments the first one is the way you
+
+397
+00:18:18,850 --> 00:18:21,309
+can write it in es6 the second one is
+
+398
+00:18:21,309 --> 00:18:23,890
+the way you write it in es5 which one
+
+399
+00:18:23,890 --> 00:18:25,590
+would yet rather have to maintain
+
+400
+00:18:25,590 --> 00:18:30,970
+anybody six yeah obviously
+
+401
+00:18:30,970 --> 00:18:35,740
+so I like that that's good it modules we
+
+402
+00:18:35,740 --> 00:18:37,809
+got modules which was really good
+
+403
+00:18:37,809 --> 00:18:41,980
+because browsers provide linkage in the
+
+404
+00:18:41,980 --> 00:18:43,630
+form of global variables and we know
+
+405
+00:18:43,630 --> 00:18:45,370
+that global variables are evil
+
+406
+00:18:45,370 --> 00:18:47,679
+so modules give us an alternative to
+
+407
+00:18:47,679 --> 00:18:50,649
+that unfortunately module I don't like
+
+408
+00:18:50,649 --> 00:18:52,240
+the way modules turned out they're much
+
+409
+00:18:52,240 --> 00:18:53,260
+too complicated
+
+410
+00:18:53,260 --> 00:18:56,080
+I think modules should be simple where a
+
+411
+00:18:56,080 --> 00:18:58,929
+module can import whatever it needs and
+
+412
+00:18:58,929 --> 00:19:01,899
+will export one thing it's going to
+
+413
+00:19:01,899 --> 00:19:04,630
+export a function or an object
+
+414
+00:19:04,630 --> 00:19:06,190
+containing a bunch of functions and
+
+415
+00:19:06,190 --> 00:19:08,740
+that's it you want to have the simplest
+
+416
+00:19:08,740 --> 00:19:11,740
+interface possible if you have a
+
+417
+00:19:11,740 --> 00:19:14,350
+complicated interface then it's not a
+
+418
+00:19:14,350 --> 00:19:17,529
+good module module should surround what
+
+419
+00:19:17,529 --> 00:19:20,169
+they do be really clean and fortunately
+
+420
+00:19:20,169 --> 00:19:22,630
+there is a clean subset of the module
+
+421
+00:19:22,630 --> 00:19:23,410
+syntax
+
+422
+00:19:23,410 --> 00:19:26,200
+recommend using just that and avoiding
+
+423
+00:19:26,200 --> 00:19:29,800
+all the tricks and weird stuff we have
+
+424
+00:19:29,800 --> 00:19:33,400
+let in constant the language let is the
+
+425
+00:19:33,400 --> 00:19:36,310
+new var the difference between let and
+
+426
+00:19:36,310 --> 00:19:40,570
+var is that var ignored block scope and
+
+427
+00:19:40,570 --> 00:19:43,750
+let enforces block scope it turns out
+
+428
+00:19:43,750 --> 00:19:45,490
+you don't need block scope to write good
+
+429
+00:19:45,490 --> 00:19:49,450
+programs but if that's all the Java guys
+
+430
+00:19:49,450 --> 00:19:53,830
+know so if if you just have var on the
+
+431
+00:19:53,830 --> 00:19:57,130
+language they get confused and that's
+
+432
+00:19:57,130 --> 00:19:59,080
+not good that's not good right when the
+
+433
+00:19:59,080 --> 00:20:01,390
+Java guys get confused that's that's
+
+434
+00:20:01,390 --> 00:20:04,120
+trouble so if we have lot in the
+
+435
+00:20:04,120 --> 00:20:05,890
+language they don't get confused as much
+
+436
+00:20:05,890 --> 00:20:07,690
+and that's good so I recommend using
+
+437
+00:20:07,690 --> 00:20:11,620
+that only for that reason and we also
+
+438
+00:20:11,620 --> 00:20:16,480
+have Const and that that's good to
+
+439
+00:20:16,480 --> 00:20:19,960
+actually like Const better because it
+
+440
+00:20:19,960 --> 00:20:22,480
+discourages the use of assignment which
+
+441
+00:20:22,480 --> 00:20:24,490
+gets us away from mutability which gets
+
+442
+00:20:24,490 --> 00:20:27,070
+us a little closer to purity which is
+
+443
+00:20:27,070 --> 00:20:31,450
+mostly a good thing we have some new
+
+444
+00:20:31,450 --> 00:20:35,160
+syntax called destructuring
+
+445
+00:20:35,160 --> 00:20:37,810
+unfortunately that can get too wild too
+
+446
+00:20:37,810 --> 00:20:40,300
+but there is a simple form of it which I
+
+447
+00:20:40,300 --> 00:20:43,900
+like a lot where in this case we're
+
+448
+00:20:43,900 --> 00:20:45,850
+gonna create two variables that in other
+
+449
+00:20:45,850 --> 00:20:47,530
+and we've got an object on the other
+
+450
+00:20:47,530 --> 00:20:50,980
+side and that will be initialized with
+
+451
+00:20:50,980 --> 00:20:53,590
+some object dot that and other will be
+
+452
+00:20:53,590 --> 00:20:56,320
+initialized with some object not other
+
+453
+00:20:56,320 --> 00:20:58,390
+this doesn't allow us to do anything
+
+454
+00:20:58,390 --> 00:21:00,550
+that we couldn't do before but there are
+
+455
+00:21:00,550 --> 00:21:03,400
+some idioms which are much cleaner much
+
+456
+00:21:03,400 --> 00:21:06,100
+more readable in this form so I'm liking
+
+457
+00:21:06,100 --> 00:21:10,990
+this we have week maps week maps are
+
+458
+00:21:10,990 --> 00:21:13,570
+really important week maps are the way
+
+459
+00:21:13,570 --> 00:21:15,700
+that objects should have worked in
+
+460
+00:21:15,700 --> 00:21:19,930
+JavaScript JavaScript only allows
+
+461
+00:21:19,930 --> 00:21:22,330
+strings to be used as keys and objects
+
+462
+00:21:22,330 --> 00:21:23,860
+but there are times when you really want
+
+463
+00:21:23,860 --> 00:21:27,780
+an object to be a key in an object and
+
+464
+00:21:27,780 --> 00:21:30,700
+JavaScript doesn't allow that but week
+
+465
+00:21:30,700 --> 00:21:34,420
+maps do so we didn't fix objects we
+
+466
+00:21:34,420 --> 00:21:35,020
+added an
+
+467
+00:21:35,020 --> 00:21:38,530
+other thing and week maps also work well
+
+468
+00:21:38,530 --> 00:21:41,590
+with the garbage collector so if you
+
+469
+00:21:41,590 --> 00:21:43,330
+have an object and the only place that
+
+470
+00:21:43,330 --> 00:21:47,260
+exists is as a key in a week map then it
+
+471
+00:21:47,260 --> 00:21:50,860
+will automatically be deleted so there
+
+472
+00:21:50,860 --> 00:21:52,900
+are certain forms of memory leaks which
+
+473
+00:21:52,900 --> 00:21:55,600
+are avoided if you use week Maps the
+
+474
+00:21:55,600 --> 00:21:57,340
+problem with week map is it has the
+
+475
+00:21:57,340 --> 00:22:00,010
+worst name of any feature of programming
+
+476
+00:22:00,010 --> 00:22:02,890
+language ever nobody wants to use
+
+477
+00:22:02,890 --> 00:22:06,670
+something that's weak right but it's
+
+478
+00:22:06,670 --> 00:22:08,800
+really good I really like weak maps it
+
+479
+00:22:08,800 --> 00:22:10,270
+allows us to write programs that we
+
+480
+00:22:10,270 --> 00:22:13,350
+could not write in the language before
+
+481
+00:22:13,350 --> 00:22:16,450
+we have mega string literals which are
+
+482
+00:22:16,450 --> 00:22:19,150
+big I'll show you them in a minute first
+
+483
+00:22:19,150 --> 00:22:21,960
+let's look at a regular expression
+
+484
+00:22:21,960 --> 00:22:25,390
+anyone guess what this matches of course
+
+485
+00:22:25,390 --> 00:22:27,520
+not these don't these are terrible it's
+
+486
+00:22:27,520 --> 00:22:28,990
+really really hard to read regular
+
+487
+00:22:28,990 --> 00:22:32,640
+expressions but what I can do is I can
+
+488
+00:22:32,640 --> 00:22:36,850
+wrap the regular expression constructor
+
+489
+00:22:36,850 --> 00:22:39,430
+with something which takes a string and
+
+490
+00:22:39,430 --> 00:22:42,660
+deletes all the whitespace from it and
+
+491
+00:22:42,660 --> 00:22:45,400
+using the new literals I can now write
+
+492
+00:22:45,400 --> 00:22:48,820
+it like this so this one you can read
+
+493
+00:22:48,820 --> 00:22:52,510
+right so what this is is it batches all
+
+494
+00:22:52,510 --> 00:22:54,580
+of the number literals that are in es6
+
+495
+00:22:54,580 --> 00:22:56,620
+so we have binary literals octal
+
+496
+00:22:56,620 --> 00:22:59,860
+literals we've always had the hex and
+
+497
+00:22:59,860 --> 00:23:03,580
+the floating-point so which one would
+
+498
+00:23:03,580 --> 00:23:05,110
+you rather maintain the top one at the
+
+499
+00:23:05,110 --> 00:23:08,730
+bottom one I'm thinking the bottom one
+
+500
+00:23:08,730 --> 00:23:15,550
+yeah so but it's still a really weird
+
+501
+00:23:15,550 --> 00:23:17,980
+and a nasty notation I wish we had
+
+502
+00:23:17,980 --> 00:23:20,470
+something better but we don't until we
+
+503
+00:23:20,470 --> 00:23:21,700
+get something better and I'm not
+
+504
+00:23:21,700 --> 00:23:24,400
+confident that we ever will every time I
+
+505
+00:23:24,400 --> 00:23:26,830
+write a regular expression every time I
+
+506
+00:23:26,830 --> 00:23:29,890
+run it through regular x regular x is
+
+507
+00:23:29,890 --> 00:23:31,510
+something on the web which will take a
+
+508
+00:23:31,510 --> 00:23:34,090
+regular expression and show to you as a
+
+509
+00:23:34,090 --> 00:23:37,450
+railroad diagram so you trace the train
+
+510
+00:23:37,450 --> 00:23:39,610
+around the tracks and that shows you
+
+511
+00:23:39,610 --> 00:23:42,370
+what the thing matches and it makes a
+
+512
+00:23:42,370 --> 00:23:45,630
+lot more sense than that does
+
+513
+00:23:46,000 --> 00:23:49,820
+what else we got so we added a lot of
+
+514
+00:23:49,820 --> 00:23:53,330
+bad stuff in in es6 and it was all well
+
+515
+00:23:53,330 --> 00:23:55,280
+intended and people had good reasons for
+
+516
+00:23:55,280 --> 00:23:57,200
+why they wanted it but we shouldn't have
+
+517
+00:23:57,200 --> 00:23:58,070
+done any of it
+
+518
+00:23:58,070 --> 00:24:00,470
+so proxies were intended to be a
+
+519
+00:24:00,470 --> 00:24:03,830
+solution to the no such method problem
+
+520
+00:24:03,830 --> 00:24:06,170
+but it turned out to be way way too
+
+521
+00:24:06,170 --> 00:24:10,490
+complex generators were completely
+
+522
+00:24:10,490 --> 00:24:12,350
+unnecessary if you know how to write a
+
+523
+00:24:12,350 --> 00:24:14,600
+function that returns a function you
+
+524
+00:24:14,600 --> 00:24:16,670
+don't need generators in fact I think
+
+525
+00:24:16,670 --> 00:24:18,770
+you should have to understand a function
+
+526
+00:24:18,770 --> 00:24:20,750
+that returns a function in order to get
+
+527
+00:24:20,750 --> 00:24:26,630
+a JavaScript license it's we added
+
+528
+00:24:26,630 --> 00:24:30,710
+iterators don't need them symbols we
+
+529
+00:24:30,710 --> 00:24:32,090
+don't need them because we have week
+
+530
+00:24:32,090 --> 00:24:34,910
+maps whatever you could do with symbols
+
+531
+00:24:34,910 --> 00:24:37,850
+you could do with week maps just don't
+
+532
+00:24:37,850 --> 00:24:40,760
+need it reflection we don't need and the
+
+533
+00:24:40,760 --> 00:24:44,480
+fat arrow functions so that was highly
+
+534
+00:24:44,480 --> 00:24:46,580
+requested by a lot of the functional
+
+535
+00:24:46,580 --> 00:24:49,340
+guys and their argument was that the
+
+536
+00:24:49,340 --> 00:24:52,190
+problem with the function expression was
+
+537
+00:24:52,190 --> 00:24:53,960
+there was too much typing you had to
+
+538
+00:24:53,960 --> 00:24:58,429
+type a few NZT that's too much to type
+
+539
+00:24:58,429 --> 00:25:00,290
+but can't do that I said well there's
+
+540
+00:25:00,290 --> 00:25:02,270
+this new thing called keyboard macros
+
+541
+00:25:02,270 --> 00:25:07,059
+you know see just it's too much to read
+
+542
+00:25:07,059 --> 00:25:12,559
+so okay so we put this in but I don't
+
+543
+00:25:12,559 --> 00:25:14,030
+like it because it looks too much like a
+
+544
+00:25:14,030 --> 00:25:17,570
+relational operator so it's I think easy
+
+545
+00:25:17,570 --> 00:25:21,200
+when you're scanning a program to miss
+
+546
+00:25:21,200 --> 00:25:23,059
+the fact that this is a function so it
+
+547
+00:25:23,059 --> 00:25:26,929
+looks like it might be a comparison but
+
+548
+00:25:26,929 --> 00:25:28,940
+anyway what this one is is it's a little
+
+549
+00:25:28,940 --> 00:25:33,280
+function we don't have to say return
+
+550
+00:25:33,280 --> 00:25:36,559
+I'll just return a thing so it's going
+
+551
+00:25:36,559 --> 00:25:39,320
+to take a name and return an object that
+
+552
+00:25:39,320 --> 00:25:41,540
+contains an ID property of that name so
+
+553
+00:25:41,540 --> 00:25:43,190
+we made a tiny little constructor so
+
+554
+00:25:43,190 --> 00:25:47,000
+that's pretty neat except that this is
+
+555
+00:25:47,000 --> 00:25:48,830
+not going to return a new object it's
+
+556
+00:25:48,830 --> 00:25:51,620
+going to return undefined so if you look
+
+557
+00:25:51,620 --> 00:25:54,320
+at the code is it obvious why it returns
+
+558
+00:25:54,320 --> 00:25:57,840
+undefined it looks like it should yeah
+
+559
+00:25:57,840 --> 00:26:01,720
+yeah it's we keep doing stuff like that
+
+560
+00:26:01,720 --> 00:26:04,809
+we'd pick stuff that looks like one
+
+561
+00:26:04,809 --> 00:26:07,419
+thing and accepted it doesn't work and
+
+562
+00:26:07,419 --> 00:26:08,950
+you don't get any warning that it
+
+563
+00:26:08,950 --> 00:26:11,860
+doesn't work it's just dad so for that
+
+564
+00:26:11,860 --> 00:26:15,039
+reason I recommend it's just not worth
+
+565
+00:26:15,039 --> 00:26:17,140
+it for for the number of keystrokes you
+
+566
+00:26:17,140 --> 00:26:19,929
+save given this potential syntactic
+
+567
+00:26:19,929 --> 00:26:22,510
+hazard I would just rather not use them
+
+568
+00:26:22,510 --> 00:26:26,700
+which is a shame now by far the worst
+
+569
+00:26:26,700 --> 00:26:33,220
+new feature in es6 is class this one was
+
+570
+00:26:33,220 --> 00:26:35,860
+strongly recommended by all the Java
+
+571
+00:26:35,860 --> 00:26:37,480
+guys who are having to write in
+
+572
+00:26:37,480 --> 00:26:40,570
+JavaScript now who don't want to have to
+
+573
+00:26:40,570 --> 00:26:43,330
+learn a new language and so this gives
+
+574
+00:26:43,330 --> 00:26:44,770
+them the illusion of writing in a
+
+575
+00:26:44,770 --> 00:26:46,480
+language that they think that they
+
+576
+00:26:46,480 --> 00:26:49,809
+already know except we didn't really add
+
+577
+00:26:49,809 --> 00:26:51,909
+classes to JavaScript it's just
+
+578
+00:26:51,909 --> 00:26:54,700
+syntactic sugar on top of the prototype
+
+579
+00:26:54,700 --> 00:26:58,539
+stuff which kind of works the same but
+
+580
+00:26:58,539 --> 00:27:00,760
+kind of doesn't and so there are some
+
+581
+00:27:00,760 --> 00:27:02,500
+places where your people that can get
+
+582
+00:27:02,500 --> 00:27:04,149
+surprised because it doesn't work the
+
+583
+00:27:04,149 --> 00:27:07,419
+way they think it does and whenever you
+
+584
+00:27:07,419 --> 00:27:09,340
+have that kind of confusion bad stuff
+
+585
+00:27:09,340 --> 00:27:12,909
+happens but worse than that if your
+
+586
+00:27:12,909 --> 00:27:15,250
+content in writing in this style you
+
+587
+00:27:15,250 --> 00:27:16,809
+will never understand how to use
+
+588
+00:27:16,809 --> 00:27:18,970
+JavaScript as a functional language and
+
+589
+00:27:18,970 --> 00:27:22,029
+it's so much more fun and pleasant to be
+
+590
+00:27:22,029 --> 00:27:25,450
+writing in JavaScript in that way the
+
+591
+00:27:25,450 --> 00:27:27,640
+people using class will never learn that
+
+592
+00:27:27,640 --> 00:27:29,620
+will never experience it they will go to
+
+593
+00:27:29,620 --> 00:27:32,440
+their graves never knowing how miserable
+
+594
+00:27:32,440 --> 00:27:39,640
+they were so in in the good parts I
+
+595
+00:27:39,640 --> 00:27:44,320
+recommended that you not use new it you
+
+596
+00:27:44,320 --> 00:27:46,779
+should use object.create instead and I
+
+597
+00:27:46,779 --> 00:27:48,250
+managed to get object.create
+
+598
+00:27:48,250 --> 00:27:51,700
+added to es 5 just so that I could use
+
+599
+00:27:51,700 --> 00:27:53,860
+it so I was pretty happy about that
+
+600
+00:27:53,860 --> 00:27:55,559
+so that's kind of surprised when I
+
+601
+00:27:55,559 --> 00:27:57,850
+noticed that I have stopped using
+
+602
+00:27:57,850 --> 00:28:01,990
+object.create and the reason for that is
+
+603
+00:28:01,990 --> 00:28:05,080
+that I stopped using this that if you're
+
+604
+00:28:05,080 --> 00:28:06,760
+not using this then object.create
+
+605
+00:28:06,760 --> 00:28:09,429
+doesn't really do much for you and the
+
+606
+00:28:09,429 --> 00:28:10,450
+reason
+
+607
+00:28:10,450 --> 00:28:15,639
+for that about this is that in 2007 I
+
+608
+00:28:15,639 --> 00:28:19,239
+did an experiment called ad safe there
+
+609
+00:28:19,239 --> 00:28:21,609
+were a bunch of projects including fbj s
+
+610
+00:28:21,609 --> 00:28:25,299
+at Facebook and website at Microsoft and
+
+611
+00:28:25,299 --> 00:28:27,789
+kaha at Google and my own ad safe
+
+612
+00:28:27,789 --> 00:28:29,859
+project we're all trying to figure out
+
+613
+00:28:29,859 --> 00:28:31,840
+how can we make JavaScript
+
+614
+00:28:31,840 --> 00:28:34,359
+safe so that we could allow a third
+
+615
+00:28:34,359 --> 00:28:37,090
+party to run in a page and not get out
+
+616
+00:28:37,090 --> 00:28:37,720
+of hand
+
+617
+00:28:37,720 --> 00:28:40,629
+stealing stuff and doing bad things and
+
+618
+00:28:40,629 --> 00:28:41,950
+the problem everyone had to deal with
+
+619
+00:28:41,950 --> 00:28:45,519
+was if you have a method and you call it
+
+620
+00:28:45,519 --> 00:28:47,440
+as a method everything's fine
+
+621
+00:28:47,440 --> 00:28:48,999
+this gets bound to the object of
+
+622
+00:28:48,999 --> 00:28:51,299
+interest but if you take that same
+
+623
+00:28:51,299 --> 00:28:54,399
+method and call it as a function this
+
+624
+00:28:54,399 --> 00:28:56,529
+gets bound to the global object which
+
+625
+00:28:56,529 --> 00:28:58,989
+gives away all of our security how do
+
+626
+00:28:58,989 --> 00:29:01,330
+you get around that so the approach of
+
+627
+00:29:01,330 --> 00:29:04,239
+the other projects took was doing code
+
+628
+00:29:04,239 --> 00:29:06,460
+rewriting so they would read a
+
+629
+00:29:06,460 --> 00:29:09,129
+JavaScript program and rewrite it adding
+
+630
+00:29:09,129 --> 00:29:11,529
+lots of indirection and runtime checking
+
+631
+00:29:11,529 --> 00:29:13,749
+to make sure that this didn't get out of
+
+632
+00:29:13,749 --> 00:29:16,809
+hand my approach was much simpler I said
+
+633
+00:29:16,809 --> 00:29:20,259
+let's make this illegal if we see a
+
+634
+00:29:20,259 --> 00:29:21,899
+program with this in it
+
+635
+00:29:21,899 --> 00:29:26,109
+we won't let it run we reject it that's
+
+636
+00:29:26,109 --> 00:29:27,879
+really simple to implement and it
+
+637
+00:29:27,879 --> 00:29:30,249
+doesn't make debugging harder and it
+
+638
+00:29:30,249 --> 00:29:31,929
+doesn't slow down the code which was a
+
+639
+00:29:31,929 --> 00:29:34,600
+problem with the other systems the
+
+640
+00:29:34,600 --> 00:29:36,940
+problem was that zero percent of all
+
+641
+00:29:36,940 --> 00:29:40,509
+existing JavaScript programs would go
+
+642
+00:29:40,509 --> 00:29:44,859
+through and so it just said well if you
+
+643
+00:29:44,859 --> 00:29:47,429
+take away this it's still a
+
+644
+00:29:47,429 --> 00:29:49,929
+turing-complete language so we should
+
+645
+00:29:49,929 --> 00:29:51,609
+still be able to do everything that we
+
+646
+00:29:51,609 --> 00:29:54,879
+need to do so to test that hypothesis
+
+647
+00:29:54,879 --> 00:29:56,499
+and to get an understanding of how
+
+648
+00:29:56,499 --> 00:29:58,029
+painful was going to be to do this
+
+649
+00:29:58,029 --> 00:30:00,429
+transition I started writing in a
+
+650
+00:30:00,429 --> 00:30:02,440
+dialect of JavaScript that didn't have
+
+651
+00:30:02,440 --> 00:30:06,340
+this in it and I was very surprised to
+
+652
+00:30:06,340 --> 00:30:08,289
+discover that it didn't get harder it
+
+653
+00:30:08,289 --> 00:30:10,509
+got easier and my programs got better
+
+654
+00:30:10,509 --> 00:30:12,940
+because I I was having to do function
+
+655
+00:30:12,940 --> 00:30:16,470
+stuff and not doing class stuff and
+
+656
+00:30:16,470 --> 00:30:19,570
+everything was great so I now recommend
+
+657
+00:30:19,570 --> 00:30:21,970
+everybody stop using this
+
+658
+00:30:21,970 --> 00:30:27,250
+I stopped using null so javascript has
+
+659
+00:30:27,250 --> 00:30:29,710
+to bottom values null and undefined and
+
+660
+00:30:29,710 --> 00:30:31,810
+there's an argument in language design
+
+661
+00:30:31,810 --> 00:30:35,260
+should you have any bottom values but
+
+662
+00:30:35,260 --> 00:30:36,820
+nobody thinks you should have two of
+
+663
+00:30:36,820 --> 00:30:40,360
+them and javascript has two of them and
+
+664
+00:30:40,360 --> 00:30:41,980
+people are confused when you have two
+
+665
+00:30:41,980 --> 00:30:43,480
+things which are very similar but not
+
+666
+00:30:43,480 --> 00:30:46,150
+the same that creates confusion some
+
+667
+00:30:46,150 --> 00:30:47,230
+people think you can use them
+
+668
+00:30:47,230 --> 00:30:50,080
+interchangeably but you can't because in
+
+669
+00:30:50,080 --> 00:30:53,500
+some cases they behave differently and
+
+670
+00:30:53,500 --> 00:30:55,330
+that difference is a source of confusion
+
+671
+00:30:55,330 --> 00:30:59,410
+that causes bugs so I decided to get rid
+
+672
+00:30:59,410 --> 00:31:01,840
+of one of them and the one that I can
+
+673
+00:31:01,840 --> 00:31:05,260
+get rid of is null because the system
+
+674
+00:31:05,260 --> 00:31:08,020
+itself uses undefined undefined is the
+
+675
+00:31:08,020 --> 00:31:10,120
+value of an uninitialized variable or a
+
+676
+00:31:10,120 --> 00:31:13,570
+missing property and so that's the one
+
+677
+00:31:13,570 --> 00:31:15,400
+the system uses and that's the one that
+
+678
+00:31:15,400 --> 00:31:20,310
+I use I stopped relying on false eNOS
+
+679
+00:31:20,310 --> 00:31:22,840
+you know the faulty values everything is
+
+680
+00:31:22,840 --> 00:31:25,630
+either true or false II Brendan did that
+
+681
+00:31:25,630 --> 00:31:28,930
+because of C C is an under typed
+
+682
+00:31:28,930 --> 00:31:33,040
+language so C uses a single value 0 to
+
+683
+00:31:33,040 --> 00:31:36,820
+represent null false the end of strings
+
+684
+00:31:36,820 --> 00:31:42,130
+0 and some other stuff and Brendon
+
+685
+00:31:42,130 --> 00:31:43,900
+wanted to be able to do the same kind of
+
+686
+00:31:43,900 --> 00:31:47,170
+stuff when writing in JavaScript and I
+
+687
+00:31:47,170 --> 00:31:49,300
+now think that that was a mistake
+
+688
+00:31:49,300 --> 00:31:51,790
+I think Java got this one right that in
+
+689
+00:31:51,790 --> 00:31:54,700
+a in a condition that value should
+
+690
+00:31:54,700 --> 00:31:57,220
+better be a boolean it shouldn't be
+
+691
+00:31:57,220 --> 00:32:04,450
+bullish I don't use for anymore because
+
+692
+00:32:04,450 --> 00:32:06,970
+in es5 we got these wonderful new array
+
+693
+00:32:06,970 --> 00:32:10,450
+methods like for each and map and reduce
+
+694
+00:32:10,450 --> 00:32:13,300
+and all those others so most of the time
+
+695
+00:32:13,300 --> 00:32:15,880
+you use a for statement it's because you
+
+696
+00:32:15,880 --> 00:32:17,500
+want to visit each element of an array
+
+697
+00:32:17,500 --> 00:32:20,380
+and it's much much better to use these
+
+698
+00:32:20,380 --> 00:32:22,450
+things you don't have to ever do the
+
+699
+00:32:22,450 --> 00:32:24,850
+plus plus stuff all of that happens
+
+700
+00:32:24,850 --> 00:32:27,370
+automatically all you deal with is what
+
+701
+00:32:27,370 --> 00:32:29,590
+you want to happen for each element it's
+
+702
+00:32:29,590 --> 00:32:31,600
+a much better way of writing programs so
+
+703
+00:32:31,600 --> 00:32:33,460
+I stopped using for
+
+704
+00:32:33,460 --> 00:32:36,880
+I don't use for in because I managed to
+
+705
+00:32:36,880 --> 00:32:40,210
+get object keys added in es5 so it now
+
+706
+00:32:40,210 --> 00:32:42,870
+returns a nice array of the own
+
+707
+00:32:42,870 --> 00:32:45,070
+properties of an object so you don't
+
+708
+00:32:45,070 --> 00:32:46,240
+have to worry about what might get
+
+709
+00:32:46,240 --> 00:32:48,070
+credit up on the prototype of chain and
+
+710
+00:32:48,070 --> 00:32:50,529
+then you can take that array and pass it
+
+711
+00:32:50,529 --> 00:32:52,990
+to for each yeah it's just a much nicer
+
+712
+00:32:52,990 --> 00:32:57,039
+way to deal with the stuff and when es6
+
+713
+00:32:57,039 --> 00:33:00,039
+is finally implemented everywhere and
+
+714
+00:33:00,039 --> 00:33:02,470
+will have proper tail calls and I will
+
+715
+00:33:02,470 --> 00:33:05,950
+stop doing a while so here are two
+
+716
+00:33:05,950 --> 00:33:08,500
+versions of the repeat function you pass
+
+717
+00:33:08,500 --> 00:33:10,960
+repeat function a function and it will
+
+718
+00:33:10,960 --> 00:33:12,549
+call that function over and over again
+
+719
+00:33:12,549 --> 00:33:15,880
+until it finally returns undefined the
+
+720
+00:33:15,880 --> 00:33:17,799
+first one is using while to do that the
+
+721
+00:33:17,799 --> 00:33:20,710
+second one is using tail recursion to do
+
+722
+00:33:20,710 --> 00:33:22,630
+it it's returning the result of calling
+
+723
+00:33:22,630 --> 00:33:28,659
+itself the yes v or es6 pecked requires
+
+724
+00:33:28,659 --> 00:33:30,850
+that these both run at the same speed
+
+725
+00:33:30,850 --> 00:33:33,460
+with the same memory pressure so there
+
+726
+00:33:33,460 --> 00:33:36,010
+is no longer a performance penalty for
+
+727
+00:33:36,010 --> 00:33:38,169
+using tail recursion and when that
+
+728
+00:33:38,169 --> 00:33:41,289
+finally becomes available I will be done
+
+729
+00:33:41,289 --> 00:33:43,210
+with loops I'm going to be writing all
+
+730
+00:33:43,210 --> 00:33:46,770
+of my repetitive stuff this way forever
+
+731
+00:33:46,770 --> 00:33:49,240
+so I've been thinking a lot about the
+
+732
+00:33:49,240 --> 00:33:51,190
+next language the language which
+
+733
+00:33:51,190 --> 00:33:53,830
+replaces JavaScript and I believe that
+
+734
+00:33:53,830 --> 00:33:55,899
+we have to have a next language because
+
+735
+00:33:55,899 --> 00:33:58,000
+if it turns out that javascript is the
+
+736
+00:33:58,000 --> 00:34:00,990
+last language that would be really sad
+
+737
+00:34:00,990 --> 00:34:04,179
+we shouldn't stop there we should find
+
+738
+00:34:04,179 --> 00:34:06,130
+something better if only for your
+
+739
+00:34:06,130 --> 00:34:07,690
+children right you don't want your
+
+740
+00:34:07,690 --> 00:34:13,929
+children writing in JavaScript so what's
+
+741
+00:34:13,929 --> 00:34:15,629
+the next language is going to look like
+
+742
+00:34:15,629 --> 00:34:18,580
+and it's not clear it's not clear
+
+743
+00:34:18,580 --> 00:34:21,550
+because programmers are as emotional and
+
+744
+00:34:21,550 --> 00:34:24,159
+irrational as normal people now that may
+
+745
+00:34:24,159 --> 00:34:25,570
+sound really insulting that I'm
+
+746
+00:34:25,570 --> 00:34:27,250
+comparing you to normal people but it's
+
+747
+00:34:27,250 --> 00:34:31,210
+true and why do I think that's true well
+
+748
+00:34:31,210 --> 00:34:35,080
+let me show you my evidence it took a
+
+749
+00:34:35,080 --> 00:34:37,119
+generation to agree that high level
+
+750
+00:34:37,119 --> 00:34:41,589
+languages were a good idea it used to be
+
+751
+00:34:41,589 --> 00:34:43,149
+that all programs were written in
+
+752
+00:34:43,149 --> 00:34:46,540
+machine language with where you had to
+
+753
+00:34:46,540 --> 00:34:50,139
+enter every single instruction and it
+
+754
+00:34:50,139 --> 00:34:53,650
+was a lot of work and very easy to get
+
+755
+00:34:53,650 --> 00:34:56,290
+things wrong and then Fortran comes
+
+756
+00:34:56,290 --> 00:34:58,420
+along in in Fortran you just write
+
+757
+00:34:58,420 --> 00:35:01,300
+things that look like equations they
+
+758
+00:35:01,300 --> 00:35:03,010
+called it automatic programming at the
+
+759
+00:35:03,010 --> 00:35:05,080
+time the idea was that the computer
+
+760
+00:35:05,080 --> 00:35:06,670
+would write its own programs you just
+
+761
+00:35:06,670 --> 00:35:10,090
+tell it what to do and so it was so much
+
+762
+00:35:10,090 --> 00:35:12,640
+easier and who would benefit from that
+
+763
+00:35:12,640 --> 00:35:15,100
+more than anybody else the programmers
+
+764
+00:35:15,100 --> 00:35:16,750
+and who refused to use it
+
+765
+00:35:16,750 --> 00:35:20,260
+the programmers had a similar thing
+
+766
+00:35:20,260 --> 00:35:22,630
+happening with the go-to Dijkstra writes
+
+767
+00:35:22,630 --> 00:35:27,280
+his letter to the C ACM in 68 suggesting
+
+768
+00:35:27,280 --> 00:35:30,010
+that goto should be eliminated from all
+
+769
+00:35:30,010 --> 00:35:33,180
+languages replaced with while in
+
+770
+00:35:33,180 --> 00:35:37,210
+if-then-else and that starts a bitter
+
+771
+00:35:37,210 --> 00:35:41,260
+argument that goes on for 20 years and I
+
+772
+00:35:41,260 --> 00:35:43,390
+remember that argument it was loud and
+
+773
+00:35:43,390 --> 00:35:47,110
+noisy and crazy people saying you can't
+
+774
+00:35:47,110 --> 00:35:48,940
+take the go-to away from me it's an
+
+775
+00:35:48,940 --> 00:35:50,740
+essential tool it's how I express myself
+
+776
+00:35:50,740 --> 00:35:54,430
+I'm a go-to guy I have a tradition my
+
+777
+00:35:54,430 --> 00:36:00,400
+grandfather used to go to it took a
+
+778
+00:36:00,400 --> 00:36:02,170
+generation to agree that objects were a
+
+779
+00:36:02,170 --> 00:36:04,930
+good idea objects are first discovered
+
+780
+00:36:04,930 --> 00:36:10,860
+in scheme or and I'm sorry in Simula and
+
+781
+00:36:10,920 --> 00:36:13,150
+being one of the most important
+
+782
+00:36:13,150 --> 00:36:15,490
+breakthroughs in programming the world
+
+783
+00:36:15,490 --> 00:36:17,230
+took don't notice of it at all except
+
+784
+00:36:17,230 --> 00:36:19,000
+for one grad student at the University
+
+785
+00:36:19,000 --> 00:36:20,650
+of Utah who thought that this object
+
+786
+00:36:20,650 --> 00:36:22,540
+idea was so powerful he could use it to
+
+787
+00:36:22,540 --> 00:36:23,800
+create a programming language for
+
+788
+00:36:23,800 --> 00:36:26,800
+children and that eventually leads to
+
+789
+00:36:26,800 --> 00:36:29,280
+object-oriented programming
+
+790
+00:36:29,280 --> 00:36:36,070
+in 1980 the were 85 I think the industry
+
+791
+00:36:36,070 --> 00:36:38,740
+had a choice what was going to be the
+
+792
+00:36:38,740 --> 00:36:40,930
+dominant object right a programming
+
+793
+00:36:40,930 --> 00:36:43,840
+language it can either be small talk ad
+
+794
+00:36:43,840 --> 00:36:46,780
+which was the best most carefully
+
+795
+00:36:46,780 --> 00:36:48,640
+designed programming language in history
+
+796
+00:36:48,640 --> 00:36:54,670
+or C++ and we chose C++ and that
+
+797
+00:36:54,670 --> 00:36:56,200
+decision was made by people who
+
+798
+00:36:56,200 --> 00:36:58,270
+fundamentally didn't understand what
+
+799
+00:36:58,270 --> 00:36:59,520
+object-oriented programming
+
+800
+00:36:59,520 --> 00:37:02,280
+and they chose C++ because he didn't
+
+801
+00:37:02,280 --> 00:37:03,630
+need to understand what object-oriented
+
+802
+00:37:03,630 --> 00:37:05,640
+programming programming was in order to
+
+803
+00:37:05,640 --> 00:37:08,340
+use it and we were still paying the
+
+804
+00:37:08,340 --> 00:37:10,680
+price for that all of our languages
+
+805
+00:37:10,680 --> 00:37:13,430
+since then have followed the C++
+
+806
+00:37:13,430 --> 00:37:17,180
+heredity and not the small talk oddity
+
+807
+00:37:17,180 --> 00:37:19,620
+then it took two generations to agree
+
+808
+00:37:19,620 --> 00:37:21,690
+that lambdas were a good idea lambdas
+
+809
+00:37:21,690 --> 00:37:23,970
+were perfected in the scheme language
+
+810
+00:37:23,970 --> 00:37:28,680
+again in the early 70s and world took no
+
+811
+00:37:28,680 --> 00:37:32,640
+notice of it and it took so long to get
+
+812
+00:37:32,640 --> 00:37:34,650
+to the mainstream that some thought it's
+
+813
+00:37:34,650 --> 00:37:35,910
+never going to go to the mainstream
+
+814
+00:37:35,910 --> 00:37:37,470
+because if it were a good thing it would
+
+815
+00:37:37,470 --> 00:37:39,630
+have happened by now but it is happening
+
+816
+00:37:39,630 --> 00:37:41,550
+now anyone know what the first
+
+817
+00:37:41,550 --> 00:37:44,090
+programming language was that brought
+
+818
+00:37:44,090 --> 00:37:47,870
+lambdas to the mainstream any guesses
+
+819
+00:37:47,870 --> 00:37:51,750
+it was JavaScript JavaScript was the
+
+820
+00:37:51,750 --> 00:37:55,410
+first one followed by Ruby and Python
+
+821
+00:37:55,410 --> 00:38:01,050
+and c-sharp and eventually a PHP got it
+
+822
+00:38:01,050 --> 00:38:05,060
+before Java is that embarrassing or what
+
+823
+00:38:05,330 --> 00:38:09,450
+so the reason each of these things take
+
+824
+00:38:09,450 --> 00:38:13,260
+so long is that we don't change minds we
+
+825
+00:38:13,260 --> 00:38:14,520
+have to wait for a generation of
+
+826
+00:38:14,520 --> 00:38:17,340
+programmers to retire or die before we
+
+827
+00:38:17,340 --> 00:38:19,920
+can get critical mass on the next idea I
+
+828
+00:38:19,920 --> 00:38:21,780
+remember when the go-to thing was going
+
+829
+00:38:21,780 --> 00:38:24,330
+on and it was really loud and hot and
+
+830
+00:38:24,330 --> 00:38:25,680
+people are getting really upset and
+
+831
+00:38:25,680 --> 00:38:29,820
+making ridiculous arguments and then one
+
+832
+00:38:29,820 --> 00:38:35,820
+day it was quiet so I are they gone can
+
+833
+00:38:35,820 --> 00:38:37,440
+we get rid of it now yeah we got rid of
+
+834
+00:38:37,440 --> 00:38:38,460
+it and everything was fine
+
+835
+00:38:38,460 --> 00:38:41,160
+that during the argument there are all
+
+836
+00:38:41,160 --> 00:38:44,610
+these complaints about or predictions
+
+837
+00:38:44,610 --> 00:38:46,080
+about bad things that were going to
+
+838
+00:38:46,080 --> 00:38:47,760
+happen almost threats that if you get
+
+839
+00:38:47,760 --> 00:38:49,740
+rid of go to the consequences are going
+
+840
+00:38:49,740 --> 00:38:51,930
+to be terrible and we got rid of go-to
+
+841
+00:38:51,930 --> 00:38:53,730
+and everything has been fine
+
+842
+00:38:53,730 --> 00:38:56,220
+and in fact the major benefit of getting
+
+843
+00:38:56,220 --> 00:38:58,380
+rid of go-to is that it is easier to
+
+844
+00:38:58,380 --> 00:39:00,210
+write programs of greater complexity
+
+845
+00:39:00,210 --> 00:39:03,960
+that having go-to complexity became
+
+846
+00:39:03,960 --> 00:39:06,540
+overwhelming much earlier that by going
+
+847
+00:39:06,540 --> 00:39:08,580
+structured we could make programs much
+
+848
+00:39:08,580 --> 00:39:11,520
+bigger more sophisticated before the
+
+849
+00:39:11,520 --> 00:39:13,040
+complexity becomes overwhelm
+
+850
+00:39:13,040 --> 00:39:16,610
+so again who benefited from that it was
+
+851
+00:39:16,610 --> 00:39:20,870
+us and who rejected it again it was us
+
+852
+00:39:20,870 --> 00:39:23,150
+so that's why I think it's going to be a
+
+853
+00:39:23,150 --> 00:39:24,860
+problem with the next language because
+
+854
+00:39:24,860 --> 00:39:26,900
+when the next language appears we will
+
+855
+00:39:26,900 --> 00:39:30,410
+all say no no none of that we don't want
+
+856
+00:39:30,410 --> 00:39:35,690
+that so looking at languages I would try
+
+857
+00:39:35,690 --> 00:39:38,750
+to put them into two classes systems
+
+858
+00:39:38,750 --> 00:39:42,410
+languages and application languages the
+
+859
+00:39:42,410 --> 00:39:44,450
+dominant a systems language is something
+
+860
+00:39:44,450 --> 00:39:46,730
+you'd use to write a kernel or a memory
+
+861
+00:39:46,730 --> 00:39:49,550
+manager or a device driver and nothing
+
+862
+00:39:49,550 --> 00:39:51,200
+else everything else should be written
+
+863
+00:39:51,200 --> 00:39:54,470
+in application languages and we have a
+
+864
+00:39:54,470 --> 00:39:56,150
+problem with systems languages because
+
+865
+00:39:56,150 --> 00:39:58,340
+the dominant systems language today is
+
+866
+00:39:58,340 --> 00:40:02,450
+still C and C comes from the late 60s we
+
+867
+00:40:02,450 --> 00:40:04,910
+have lost the ability to innovate in
+
+868
+00:40:04,910 --> 00:40:07,460
+systems languages right I think that's
+
+869
+00:40:07,460 --> 00:40:10,130
+shocking but I'm more concerned with
+
+870
+00:40:10,130 --> 00:40:12,110
+application languages because that's
+
+871
+00:40:12,110 --> 00:40:13,850
+where we live that's where we spend most
+
+872
+00:40:13,850 --> 00:40:15,980
+of our time so I would take the
+
+873
+00:40:15,980 --> 00:40:19,340
+application oh and I think every
+
+874
+00:40:19,340 --> 00:40:21,260
+language should clearly be on one side
+
+875
+00:40:21,260 --> 00:40:23,510
+of that line or the other I think the
+
+876
+00:40:23,510 --> 00:40:25,760
+biggest design error in Java was it
+
+877
+00:40:25,760 --> 00:40:27,710
+couldn't decide if it was a system
+
+878
+00:40:27,710 --> 00:40:29,600
+language or an application language and
+
+879
+00:40:29,600 --> 00:40:33,350
+so it tries to have one foot in each
+
+880
+00:40:33,350 --> 00:40:36,260
+boat and that's a problem one of the
+
+881
+00:40:36,260 --> 00:40:38,150
+consequences of that is that it requires
+
+882
+00:40:38,150 --> 00:40:41,330
+the use of threads in applications which
+
+883
+00:40:41,330 --> 00:40:44,530
+is a really really bad idea
+
+884
+00:40:44,530 --> 00:40:47,180
+so you can take application languages
+
+885
+00:40:47,180 --> 00:40:50,510
+and split them into two classes those
+
+886
+00:40:50,510 --> 00:40:52,550
+that use classical inheritance and those
+
+887
+00:40:52,550 --> 00:40:55,010
+that use prototypal inheritance the
+
+888
+00:40:55,010 --> 00:40:57,200
+classical languages are almost all of
+
+889
+00:40:57,200 --> 00:40:59,030
+the languages and the prototypal
+
+890
+00:40:59,030 --> 00:41:00,290
+languages are pretty much just
+
+891
+00:41:00,290 --> 00:41:03,890
+JavaScript and for a long time I was a
+
+892
+00:41:03,890 --> 00:41:06,080
+big advocate prototypal inheritance
+
+893
+00:41:06,080 --> 00:41:07,970
+because one of the problems that you get
+
+894
+00:41:07,970 --> 00:41:10,940
+with the classical stuff is it comes
+
+895
+00:41:10,940 --> 00:41:13,850
+with a lot more work first off when
+
+896
+00:41:13,850 --> 00:41:15,890
+you're designing your system you need to
+
+897
+00:41:15,890 --> 00:41:17,690
+do a classification you have to identify
+
+898
+00:41:17,690 --> 00:41:20,210
+all of the different types of objects
+
+899
+00:41:20,210 --> 00:41:21,240
+you're going to have
+
+900
+00:41:21,240 --> 00:41:23,940
+and those will become your classes and
+
+901
+00:41:23,940 --> 00:41:25,770
+then you have to work out the taxonomy
+
+902
+00:41:25,770 --> 00:41:27,900
+you have to figure out what is going to
+
+903
+00:41:27,900 --> 00:41:29,490
+inherit from what what's going to
+
+904
+00:41:29,490 --> 00:41:31,020
+implement what what's going to provide
+
+905
+00:41:31,020 --> 00:41:33,720
+an interface to what and we're doing
+
+906
+00:41:33,720 --> 00:41:36,390
+that at the stage of the program when we
+
+907
+00:41:36,390 --> 00:41:39,060
+have the least understanding of how that
+
+908
+00:41:39,060 --> 00:41:40,920
+should go together usually at the
+
+909
+00:41:40,920 --> 00:41:42,240
+beginning you know first we have to
+
+910
+00:41:42,240 --> 00:41:43,470
+design the hierarchy and then we'll
+
+911
+00:41:43,470 --> 00:41:46,680
+implement it and because it's such a
+
+912
+00:41:46,680 --> 00:41:49,290
+difficult problem it's inevitable that
+
+913
+00:41:49,290 --> 00:41:53,010
+we get it wrong and but we go ahead with
+
+914
+00:41:53,010 --> 00:41:56,780
+this broken taxonomy and we find that
+
+915
+00:41:56,780 --> 00:42:00,540
+things aren't quite right that program
+
+916
+00:42:00,540 --> 00:42:02,880
+or classes don't compose the way we
+
+917
+00:42:02,880 --> 00:42:05,490
+would want them to and that we find we
+
+918
+00:42:05,490 --> 00:42:07,650
+wish that we had multiple inheritance
+
+919
+00:42:07,650 --> 00:42:09,420
+because we just can't get stuff to go
+
+920
+00:42:09,420 --> 00:42:12,390
+together and that whatever is broken in
+
+921
+00:42:12,390 --> 00:42:15,210
+the bottom layers starts to work its way
+
+922
+00:42:15,210 --> 00:42:17,280
+into the higher layers as well that
+
+923
+00:42:17,280 --> 00:42:19,830
+there's leakage and everything gets
+
+924
+00:42:19,830 --> 00:42:21,990
+broken and eventually gets so bad that
+
+925
+00:42:21,990 --> 00:42:23,790
+you think you have to refactor which
+
+926
+00:42:23,790 --> 00:42:25,230
+means that you have to tear everything
+
+927
+00:42:25,230 --> 00:42:27,240
+apart and try to put it back together
+
+928
+00:42:27,240 --> 00:42:29,460
+the right way and that's really scary
+
+929
+00:42:29,460 --> 00:42:31,020
+because it might not ever go back
+
+930
+00:42:31,020 --> 00:42:32,670
+together and so we don't want to do that
+
+931
+00:42:32,670 --> 00:42:36,390
+either and people who live in the
+
+932
+00:42:36,390 --> 00:42:38,970
+Classical School assume that that's just
+
+933
+00:42:38,970 --> 00:42:41,880
+inevitable all programs have to live
+
+934
+00:42:41,880 --> 00:42:43,620
+with that that's just a fact of life and
+
+935
+00:42:43,620 --> 00:42:46,140
+it's not that's a characteristic of
+
+936
+00:42:46,140 --> 00:42:49,230
+classical programming and that doesn't
+
+937
+00:42:49,230 --> 00:42:51,990
+happen in prototypal programming because
+
+938
+00:42:51,990 --> 00:42:55,310
+you don't have the tight coupling that
+
+939
+00:42:55,310 --> 00:42:59,790
+classes have with extends and so the
+
+940
+00:42:59,790 --> 00:43:02,270
+program's just compose much better
+
+941
+00:43:02,270 --> 00:43:06,600
+so with prototypal inheritance we avoid
+
+942
+00:43:06,600 --> 00:43:08,460
+all of that stuff and there was another
+
+943
+00:43:08,460 --> 00:43:12,360
+advantage which is memory conservation
+
+944
+00:43:12,360 --> 00:43:15,560
+so the major advantage to using
+
+945
+00:43:15,560 --> 00:43:18,750
+object.create instead of object copy to
+
+946
+00:43:18,750 --> 00:43:22,910
+make instances is that object.create
+
+947
+00:43:22,910 --> 00:43:26,340
+uses less memory because we can inherit
+
+948
+00:43:26,340 --> 00:43:28,470
+properties instead of copying properties
+
+949
+00:43:28,470 --> 00:43:31,380
+and that may have made a lot of sense in
+
+950
+00:43:31,380 --> 00:43:33,990
+1995 when the language was design
+
+951
+00:43:33,990 --> 00:43:38,310
+and doesn't make sense anymore Moore's
+
+952
+00:43:38,310 --> 00:43:40,740
+law has been so incredibly generous on
+
+953
+00:43:40,740 --> 00:43:42,869
+memory capacity that the old way of
+
+954
+00:43:42,869 --> 00:43:46,320
+thinking is completely ridiculous now
+
+955
+00:43:46,320 --> 00:43:50,430
+you all have at least probably several
+
+956
+00:43:50,430 --> 00:43:53,280
+gigabytes of RAM in your pocket the way
+
+957
+00:43:53,280 --> 00:43:54,840
+we should think about memory is
+
+958
+00:43:54,840 --> 00:43:58,050
+completely different but we're still
+
+959
+00:43:58,050 --> 00:43:59,580
+programming like memory is a very
+
+960
+00:43:59,580 --> 00:44:02,450
+constrained resource it's not anymore
+
+961
+00:44:02,450 --> 00:44:05,910
+it's also a source of confusion because
+
+962
+00:44:05,910 --> 00:44:08,340
+we have own properties and inherited
+
+963
+00:44:08,340 --> 00:44:11,400
+properties and sometimes they behave the
+
+964
+00:44:11,400 --> 00:44:13,020
+same and sometimes they don't
+
+965
+00:44:13,020 --> 00:44:14,910
+anytime you've got things which are kind
+
+966
+00:44:14,910 --> 00:44:16,950
+of the same but not you have a source of
+
+967
+00:44:16,950 --> 00:44:20,190
+confusion which can lead to bugs it also
+
+968
+00:44:20,190 --> 00:44:22,200
+provides for a retroactive heredity
+
+969
+00:44:22,200 --> 00:44:24,000
+where we can change what something
+
+970
+00:44:24,000 --> 00:44:26,460
+inherits after it's been constructed
+
+971
+00:44:26,460 --> 00:44:29,010
+I've not found any good uses for that
+
+972
+00:44:29,010 --> 00:44:30,930
+but I've seen some very very bad uses
+
+973
+00:44:30,930 --> 00:44:34,050
+for that it also tends to inhibit
+
+974
+00:44:34,050 --> 00:44:36,030
+performance that modern JavaScript
+
+975
+00:44:36,030 --> 00:44:38,520
+engines get speed by making assumptions
+
+976
+00:44:38,520 --> 00:44:41,369
+about the shape of objects but they have
+
+977
+00:44:41,369 --> 00:44:43,830
+to be pessimistic about prototype chains
+
+978
+00:44:43,830 --> 00:44:46,050
+because the prototype chain can change
+
+979
+00:44:46,050 --> 00:44:50,130
+without notification so I no longer
+
+980
+00:44:50,130 --> 00:44:52,410
+recommend prototypal inheritance I'm now
+
+981
+00:44:52,410 --> 00:44:55,200
+an advocate of class free object related
+
+982
+00:44:55,200 --> 00:44:55,859
+programming
+
+983
+00:44:55,859 --> 00:44:58,290
+I think class free object Airy
+
+984
+00:44:58,290 --> 00:45:00,810
+programming is JavaScript's gift to
+
+985
+00:45:00,810 --> 00:45:06,660
+humanity so this is block scope you all
+
+986
+00:45:06,660 --> 00:45:09,930
+know block scope is we've we've got two
+
+987
+00:45:09,930 --> 00:45:13,320
+blocks each defines a variable a or B
+
+988
+00:45:13,320 --> 00:45:15,930
+and the inner block can see both
+
+989
+00:45:15,930 --> 00:45:18,119
+variables but the outer block can only
+
+990
+00:45:18,119 --> 00:45:21,119
+see its own variable so because a block
+
+991
+00:45:21,119 --> 00:45:24,320
+hides stuff which is a good thing and
+
+992
+00:45:24,320 --> 00:45:27,570
+all languages even JavaScript now can do
+
+993
+00:45:27,570 --> 00:45:28,940
+something like that
+
+994
+00:45:28,940 --> 00:45:31,830
+and the same thing also works for
+
+995
+00:45:31,830 --> 00:45:34,440
+functions because a function is just a
+
+996
+00:45:34,440 --> 00:45:36,930
+block with some extra plumbing on it
+
+997
+00:45:36,930 --> 00:45:39,000
+which allows the block to be executed
+
+998
+00:45:39,000 --> 00:45:41,550
+somehow in the future
+
+999
+00:45:41,550 --> 00:45:45,160
+and we've still got this relationship
+
+1000
+00:45:45,160 --> 00:45:50,440
+where we can diagram the variables so
+
+1001
+00:45:50,440 --> 00:45:53,530
+variable a or the green function has
+
+1002
+00:45:53,530 --> 00:45:56,590
+variable a and the yellow function has
+
+1003
+00:45:56,590 --> 00:46:00,220
+access to a and B and so this concept is
+
+1004
+00:46:00,220 --> 00:46:02,950
+called closure talking about sets that
+
+1005
+00:46:02,950 --> 00:46:08,560
+one set closes over the other set and it
+
+1006
+00:46:08,560 --> 00:46:09,820
+took a long time to figure out how to
+
+1007
+00:46:09,820 --> 00:46:12,040
+implement this because of this case what
+
+1008
+00:46:12,040 --> 00:46:14,380
+happens if the inner function survives
+
+1009
+00:46:14,380 --> 00:46:17,290
+the invocation of the outer function for
+
+1010
+00:46:17,290 --> 00:46:19,540
+example if the outer function returns
+
+1011
+00:46:19,540 --> 00:46:21,910
+the inner function the inner function
+
+1012
+00:46:21,910 --> 00:46:24,700
+wants to have access to a but a
+
+1013
+00:46:24,700 --> 00:46:28,540
+disappears when when the green function
+
+1014
+00:46:28,540 --> 00:46:31,450
+returns it turned out that the solution
+
+1015
+00:46:31,450 --> 00:46:34,300
+to that was trivial we just allocate
+
+1016
+00:46:34,300 --> 00:46:36,130
+everything on on a heap instead of on a
+
+1017
+00:46:36,130 --> 00:46:37,540
+stack and let the garbage collector
+
+1018
+00:46:37,540 --> 00:46:39,670
+clean it all up and so that's what
+
+1019
+00:46:39,670 --> 00:46:44,110
+JavaScript does so having this this is
+
+1020
+00:46:44,110 --> 00:46:46,780
+how I recommend making objects in
+
+1021
+00:46:46,780 --> 00:46:50,290
+JavaScript from now on so I've got a
+
+1022
+00:46:50,290 --> 00:46:51,790
+constructor function which will take a
+
+1023
+00:46:51,790 --> 00:46:54,340
+specification object we could take
+
+1024
+00:46:54,340 --> 00:46:56,830
+individual parameters but I'd like
+
+1025
+00:46:56,830 --> 00:46:58,810
+having them all in one object that means
+
+1026
+00:46:58,810 --> 00:47:01,690
+we can use an object literal and that
+
+1027
+00:47:01,690 --> 00:47:04,360
+allows the arguments to come in any
+
+1028
+00:47:04,360 --> 00:47:06,760
+order and if there any that we don't
+
+1029
+00:47:06,760 --> 00:47:08,920
+need we can simply ignore them and if
+
+1030
+00:47:08,920 --> 00:47:10,690
+there are any that are missing we can
+
+1031
+00:47:10,690 --> 00:47:13,540
+easily provide defaults I once wrote a
+
+1032
+00:47:13,540 --> 00:47:17,230
+constructor which had ten arguments and
+
+1033
+00:47:17,230 --> 00:47:18,640
+it was really hard to use because nobody
+
+1034
+00:47:18,640 --> 00:47:20,200
+could remember what order they were in
+
+1035
+00:47:20,200 --> 00:47:22,570
+and after a while we discovered that
+
+1036
+00:47:22,570 --> 00:47:25,930
+nobody ever used the third parameter but
+
+1037
+00:47:25,930 --> 00:47:28,210
+we couldn't take it out because all the
+
+1038
+00:47:28,210 --> 00:47:31,290
+programs if I instead had a
+
+1039
+00:47:31,290 --> 00:47:34,630
+specification object then we could have
+
+1040
+00:47:34,630 --> 00:47:36,340
+gotten rid of that parameter and it
+
+1041
+00:47:36,340 --> 00:47:38,080
+would have been easy and the
+
+1042
+00:47:38,080 --> 00:47:39,580
+specification object could also be a
+
+1043
+00:47:39,580 --> 00:47:41,230
+JSON payload right we could get
+
+1044
+00:47:41,230 --> 00:47:42,700
+something over the network which tells
+
+1045
+00:47:42,700 --> 00:47:45,250
+us constitute an object with these
+
+1046
+00:47:45,250 --> 00:47:50,220
+properties and it'll make it for us so I
+
+1047
+00:47:50,220 --> 00:47:53,710
+will initialize member variables
+
+1048
+00:47:53,710 --> 00:47:58,630
+from the specification object and then I
+
+1049
+00:47:58,630 --> 00:48:03,119
+can call other constructors and take the
+
+1050
+00:48:03,119 --> 00:48:06,430
+functions that they return and copy them
+
+1051
+00:48:06,430 --> 00:48:08,859
+into my own other variables so these are
+
+1052
+00:48:08,859 --> 00:48:10,540
+the other methods that are going to be
+
+1053
+00:48:10,540 --> 00:48:16,000
+available to us and then I create my own
+
+1054
+00:48:16,000 --> 00:48:18,730
+methods and because of closure my own
+
+1055
+00:48:18,730 --> 00:48:21,160
+methods will have access to all the
+
+1056
+00:48:21,160 --> 00:48:22,810
+member variables all the other methods
+
+1057
+00:48:22,810 --> 00:48:25,900
+all of our other methods and the
+
+1058
+00:48:25,900 --> 00:48:28,240
+specification object and we don't use
+
+1059
+00:48:28,240 --> 00:48:35,589
+this and then I list all of the methods
+
+1060
+00:48:35,589 --> 00:48:39,099
+that need to be public and I export them
+
+1061
+00:48:39,099 --> 00:48:43,900
+in and I freeze the object freezing is
+
+1062
+00:48:43,900 --> 00:48:45,490
+really important here because it allows
+
+1063
+00:48:45,490 --> 00:48:47,560
+us to have a high integrity object it
+
+1064
+00:48:47,560 --> 00:48:50,290
+cannot be confused or corrupted the only
+
+1065
+00:48:50,290 --> 00:48:52,510
+way to get access to the member data is
+
+1066
+00:48:52,510 --> 00:48:55,960
+through the methods that gives us highly
+
+1067
+00:48:55,960 --> 00:48:58,570
+reliable objects it's the only way to
+
+1068
+00:48:58,570 --> 00:49:00,609
+get highly reliable objects in this
+
+1069
+00:49:00,609 --> 00:49:03,580
+silly language so this is the way that I
+
+1070
+00:49:03,580 --> 00:49:06,220
+recommend that we be making objects in
+
+1071
+00:49:06,220 --> 00:49:11,440
+the future we don't need this so thank
+
+1072
+00:49:11,440 --> 00:49:13,490
+you and good night
+
+1073
+00:49:13,490 --> 00:49:20,699
+[Applause]
+
+1074
+00:49:22,410 --> 00:49:25,809
+as a thank you for your speech I have
+
+1075
+00:49:25,809 --> 00:49:28,509
+one question about webassembly what do
+
+1076
+00:49:28,509 --> 00:49:30,630
+you think about webassembly
+
+1077
+00:49:30,630 --> 00:49:35,910
+where are you I died oh there you are
+
+1078
+00:49:37,650 --> 00:49:43,089
+most so the thing that the the only
+
+1079
+00:49:43,089 --> 00:49:45,249
+benefit that I see from webassembly is
+
+1080
+00:49:45,249 --> 00:49:48,549
+that some things will go faster and most
+
+1081
+00:49:48,549 --> 00:49:51,009
+things will not go faster because
+
+1082
+00:49:51,009 --> 00:49:55,450
+they're already fast enough so if you
+
+1083
+00:49:55,450 --> 00:49:56,890
+have something that really has to go
+
+1084
+00:49:56,890 --> 00:50:00,099
+really fast in a browser then I guess
+
+1085
+00:50:00,099 --> 00:50:03,099
+it's a good idea but it comes at a
+
+1086
+00:50:03,099 --> 00:50:05,979
+significant cost in other ways and for
+
+1087
+00:50:05,979 --> 00:50:07,900
+most applications I think it's just a
+
+1088
+00:50:07,900 --> 00:50:16,239
+distraction thank you thanks for your
+
+1089
+00:50:16,239 --> 00:50:18,489
+speech it was really amazing I have a
+
+1090
+00:50:18,489 --> 00:50:20,079
+question and both of your talks you
+
+1091
+00:50:20,079 --> 00:50:23,410
+mentioned that generators are not as
+
+1092
+00:50:23,410 --> 00:50:25,359
+good as you might think a lot of users
+
+1093
+00:50:25,359 --> 00:50:28,329
+might think but you didn't mention
+
+1094
+00:50:28,329 --> 00:50:30,430
+actually the reason because like for my
+
+1095
+00:50:30,430 --> 00:50:32,969
+opinion and not only for my opinion it
+
+1096
+00:50:32,969 --> 00:50:35,769
+represented illustrate how our minds
+
+1097
+00:50:35,769 --> 00:50:39,160
+work because our minds doesn't work in
+
+1098
+00:50:39,160 --> 00:50:42,549
+in terms of a synchronously like it's
+
+1099
+00:50:42,549 --> 00:50:44,890
+streamlined instruction so do that then
+
+1100
+00:50:44,890 --> 00:50:48,549
+do that and etc etc so actually Kyle
+
+1101
+00:50:48,549 --> 00:50:51,430
+Simpson in the offer of you don't know
+
+1102
+00:50:51,430 --> 00:50:52,059
+Jess
+
+1103
+00:50:52,059 --> 00:50:54,519
+Sirius also mentioned that it's really
+
+1104
+00:50:54,519 --> 00:50:57,069
+really good feature of year six so I'd
+
+1105
+00:50:57,069 --> 00:50:59,559
+like to know in curious about why do you
+
+1106
+00:50:59,559 --> 00:51:02,019
+think that it's not as good as we might
+
+1107
+00:51:02,019 --> 00:51:05,469
+think first off it's unnecessary in
+
+1108
+00:51:05,469 --> 00:51:07,509
+anything which is unnecessary I think we
+
+1109
+00:51:07,509 --> 00:51:08,859
+should get rid of it because I think a
+
+1110
+00:51:08,859 --> 00:51:10,539
+smaller language is better than a bigger
+
+1111
+00:51:10,539 --> 00:51:13,809
+one but it makes control flow much more
+
+1112
+00:51:13,809 --> 00:51:18,579
+complex it breaks some things that used
+
+1113
+00:51:18,579 --> 00:51:20,469
+to be invariance in the language because
+
+1114
+00:51:20,469 --> 00:51:22,719
+things can go in and out even being
+
+1115
+00:51:22,719 --> 00:51:25,479
+weird State the syntax is really ugly it
+
+1116
+00:51:25,479 --> 00:51:27,309
+looks like it's going to return a
+
+1117
+00:51:27,309 --> 00:51:29,709
+function and it's not returning a
+
+1118
+00:51:29,709 --> 00:51:33,470
+function so it's deceptive and confusing
+
+1119
+00:51:33,470 --> 00:51:36,800
+and it's unnecessary I don't see any
+
+1120
+00:51:36,800 --> 00:51:39,290
+value in it at all and and your argument
+
+1121
+00:51:39,290 --> 00:51:42,290
+about it's the way we think that's the
+
+1122
+00:51:42,290 --> 00:51:44,120
+thing we need to change that we're
+
+1123
+00:51:44,120 --> 00:51:47,650
+talking about a paradigm shift right so
+
+1124
+00:51:47,650 --> 00:51:50,210
+granted the other side of the paradigm
+
+1125
+00:51:50,210 --> 00:51:53,320
+shift will take some hours of experience
+
+1126
+00:51:53,320 --> 00:51:56,330
+but once you've accomplished that then
+
+1127
+00:51:56,330 --> 00:51:58,610
+you'll see that the how we're used to
+
+1128
+00:51:58,610 --> 00:52:01,310
+thinking about things argument is
+
+1129
+00:52:01,310 --> 00:52:03,080
+holding us back it's not helping us go
+
+1130
+00:52:03,080 --> 00:52:06,230
+forward so if you were creating a new
+
+1131
+00:52:06,230 --> 00:52:08,200
+language you would leave only
+
+1132
+00:52:08,200 --> 00:52:10,430
+higher-order functions as a way to
+
+1133
+00:52:10,430 --> 00:52:13,040
+handle a synchrony world in in
+
+1134
+00:52:13,040 --> 00:52:17,540
+JavaScript or whatever language yeah
+
+1135
+00:52:17,540 --> 00:52:22,040
+so it's only only thing at the feature
+
+1136
+00:52:22,040 --> 00:52:26,480
+we need to to use to handle all us in 20
+
+1137
+00:52:26,480 --> 00:52:32,890
+world right yeah okay thank you
+
+1138
+00:52:36,960 --> 00:52:39,490
+thank you very much first of all for
+
+1139
+00:52:39,490 --> 00:52:43,240
+trolling he has six glasses users but I
+
+1140
+00:52:43,240 --> 00:52:46,180
+haven't yet still what's wrong with the
+
+1141
+00:52:46,180 --> 00:52:51,150
+arrow functions I thought I explained it
+
+1142
+00:52:51,150 --> 00:52:54,730
+they are visually confusing they don't
+
+1143
+00:52:54,730 --> 00:52:56,109
+look like functions they look like
+
+1144
+00:52:56,109 --> 00:53:01,960
+conditions or relations and there is
+
+1145
+00:53:01,960 --> 00:53:04,059
+that syntactic error that they cannot
+
+1146
+00:53:04,059 --> 00:53:07,150
+return objects or it looks like a valid
+
+1147
+00:53:07,150 --> 00:53:09,339
+thing which might not produce a syntax
+
+1148
+00:53:09,339 --> 00:53:10,990
+error but doesn't mean anything like
+
+1149
+00:53:10,990 --> 00:53:14,579
+what you think it means so the the
+
+1150
+00:53:14,579 --> 00:53:17,589
+saving of writing a keyword I don't
+
+1151
+00:53:17,589 --> 00:53:19,839
+think is worth the cost the other
+
+1152
+00:53:19,839 --> 00:53:22,540
+benefit that you get is that the binding
+
+1153
+00:53:22,540 --> 00:53:25,329
+of this is better but I recommend not
+
+1154
+00:53:25,329 --> 00:53:28,089
+using this anyway so there's no
+
+1155
+00:53:28,089 --> 00:53:33,450
+advantage to that thank you
+
+1156
+00:53:42,660 --> 00:53:47,040
+I actually have two questions but they
+
+1157
+00:53:47,040 --> 00:53:50,250
+really short you mentioned about jslint
+
+1158
+00:53:50,250 --> 00:53:52,650
+so I will be interesting what do you
+
+1159
+00:53:52,650 --> 00:53:55,650
+think about prettier which is like it
+
+1160
+00:53:55,650 --> 00:53:57,630
+forces you to write in a certain style
+
+1161
+00:53:57,630 --> 00:54:00,210
+that not everyone might like and it's
+
+1162
+00:54:00,210 --> 00:54:03,240
+hardly configurable but it makes at
+
+1163
+00:54:03,240 --> 00:54:06,990
+least code consistent and second thing
+
+1164
+00:54:06,990 --> 00:54:09,870
+you mentioned about like trying to make
+
+1165
+00:54:09,870 --> 00:54:13,440
+less errors in your code do you think
+
+1166
+00:54:13,440 --> 00:54:15,420
+typescript can be a solution to that or
+
+1167
+00:54:15,420 --> 00:54:18,030
+at least to like what do you think about
+
+1168
+00:54:18,030 --> 00:54:20,910
+introducing types in JavaScript now
+
+1169
+00:54:20,910 --> 00:54:25,380
+typescript is not a solution to that so
+
+1170
+00:54:25,380 --> 00:54:28,230
+the theory about types and it's an
+
+1171
+00:54:28,230 --> 00:54:30,480
+interesting theory is that types allow
+
+1172
+00:54:30,480 --> 00:54:32,160
+the compiler to find a large class of
+
+1173
+00:54:32,160 --> 00:54:36,710
+errors at compile time which is great
+
+1174
+00:54:36,710 --> 00:54:41,460
+but you don't actually get much benefit
+
+1175
+00:54:41,460 --> 00:54:43,230
+from them because you still have to test
+
+1176
+00:54:43,230 --> 00:54:46,080
+right there's no type system which is so
+
+1177
+00:54:46,080 --> 00:54:47,730
+good which you know you don't have to
+
+1178
+00:54:47,730 --> 00:54:49,800
+test anymore because the type system is
+
+1179
+00:54:49,800 --> 00:54:51,720
+taking care of it that's not the case
+
+1180
+00:54:51,720 --> 00:54:54,030
+you still have to test and it turns out
+
+1181
+00:54:54,030 --> 00:54:56,010
+the sorts of bugs of the type system can
+
+1182
+00:54:56,010 --> 00:55:00,270
+find your tests fine instantly so the
+
+1183
+00:55:00,270 --> 00:55:04,050
+bugs that are found are the lowest value
+
+1184
+00:55:04,050 --> 00:55:06,320
+bugs the bugs that keep you up at night
+
+1185
+00:55:06,320 --> 00:55:09,240
+the type system does not help with those
+
+1186
+00:55:09,240 --> 00:55:12,600
+and actually helps to cause those that
+
+1187
+00:55:12,600 --> 00:55:14,280
+the type system doesn't want to write
+
+1188
+00:55:14,280 --> 00:55:16,290
+some kinds of programs that you need to
+
+1189
+00:55:16,290 --> 00:55:18,900
+write and so you have to circumvent the
+
+1190
+00:55:18,900 --> 00:55:20,700
+type system or you have to turn it off
+
+1191
+00:55:20,700 --> 00:55:24,540
+by casting or some other mechanism so
+
+1192
+00:55:24,540 --> 00:55:26,240
+when we account for it
+
+1193
+00:55:26,240 --> 00:55:30,150
+we tend to give the type system the
+
+1194
+00:55:30,150 --> 00:55:32,870
+value of all of the bugs that it found
+
+1195
+00:55:32,870 --> 00:55:36,630
+but we don't subtract the value of the
+
+1196
+00:55:36,630 --> 00:55:38,790
+bugs that it missed and we don't
+
+1197
+00:55:38,790 --> 00:55:40,920
+consider the value of the bugs that it
+
+1198
+00:55:40,920 --> 00:55:43,230
+caused and I think when you take a full
+
+1199
+00:55:43,230 --> 00:55:45,330
+accounting of types that they're just
+
+1200
+00:55:45,330 --> 00:55:48,020
+not worth it
+
+1201
+00:55:50,580 --> 00:55:55,020
+Sonic's a lot yeah thank you
+
+1202
+00:55:55,020 --> 00:56:00,139
+[Applause]
+
