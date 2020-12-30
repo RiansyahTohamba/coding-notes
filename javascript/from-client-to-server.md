@@ -11,10 +11,14 @@ pilot ini buat quotes.
 
 
 # 00:34:20
+judul slidenya
+## the next language
 it took a generation to agree that high-level language is good
-
 it took a generation to agree that lambda is good
+..
+saya pisah di separate note, the-next-language.md
 
+# detail 
 https://www.youtube.com/watch?v=XFTOG895C7c
 
 slidenya
