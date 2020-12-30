@@ -40,8 +40,14 @@ Mocks are used for commands and stubs are used for queries.
 [stubs, mock, spies]
 
 # LC briand
-The majority of the work on coupling measurement in object-oriented systems focuses on usage dependencies between classes, which can be derived from a static analysis of design documents or source code. 
+Studi tentang Coupling measurement pada OO berfokus kepada dependencies antar kelas.
+Static analysis dapat menghitung dependencies baik untuk kode sumber maupun desain UML.
+Aspek dinamis CBO saat run-time di investigasi barely(?) 
+The dynamic aspects of coupling between objects at run-time have barely been investigated and are not yet considered in practice. 
 
-The dynamic aspects of coupling between objects at run-time have barely been investigated and are not yet considered in practice. Even though we address this issue in the survey, we make no attempt to integrate it in our framework and restrict ourselves to the analysis of static usage dependencies in a system.
+Aspek dinamis dari penggabungan antara objek pada waktu proses hampir tidak diselidiki dan belum dipertimbangkan dalam praktik.
+
+Even though we address this issue in the survey, we make no attempt to integrate it in our framework and restrict ourselves to the analysis of static usage dependencies in a system.
+
 
 # referensi 
