@@ -42,12 +42,16 @@ Mocks are used for commands and stubs are used for queries.
 # LC briand
 Studi tentang Coupling measurement pada OO berfokus kepada dependencies antar kelas.
 Static analysis dapat menghitung dependencies baik untuk kode sumber maupun desain UML.
-Aspek dinamis CBO saat run-time di investigasi barely(?) 
-The dynamic aspects of coupling between objects at run-time have barely been investigated and are not yet considered in practice. 
+Aspek dinamis CBO saat run-time hampir tidak diselidiki (have-barely-been-investigated) dan belum dipertimbangkan pada praktik koding.
+static (white box) test source code in non-run-time. Bersifat preventive sebelum ditemukan oleh client.
+dynamic (black box) test source code in run-time. Bersifat Corrective.
+unit-test, integration-test termasuk static.
+functional-test termasuk dynamic.
 
-Aspek dinamis dari penggabungan antara objek pada waktu proses hampir tidak diselidiki dan belum dipertimbangkan dalam praktik.
-
-Even though we address this issue in the survey, we make no attempt to integrate it in our framework and restrict ourselves to the analysis of static usage dependencies in a system.
-
+Meskipun kami membahas masalah ini dalam survei, kami tidak berusaha untuk mengintegrasikannya ke dalam framework kami dan membatasi diri kami pada analisis "static-usage-dependencies" dalam suatu sistem.
+# 2. motivasi 
+OO measurement menjadi tren di tahun 1999, ditandai dengan
+1. Pembuatan framework untuk measurement.
+2. varian measurement OO seperti kopling,kohesi dan inheritance.
 
 # referensi 
