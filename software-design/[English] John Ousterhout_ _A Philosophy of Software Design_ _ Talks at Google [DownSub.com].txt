@@ -254,13 +254,8 @@ AUDIENCE: Complexity.
 
 JOHN OUTSERHOUT: Complexity.
 
-So I asked Don
-Knuth this question.
-
-He said, layers of
-abstraction, which I would say
-
-is almost right.
+So I asked Don Knuth this question.
+He said, layers of abstraction, which I would say is almost right.
 
 [LAUGHTER]
 
