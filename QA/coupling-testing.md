@@ -49,6 +49,9 @@ unit-test, integration-test termasuk static.
 functional-test termasuk dynamic.
 
 Meskipun kami membahas masalah ini dalam survei, kami tidak berusaha untuk mengintegrasikannya ke dalam framework kami dan membatasi diri kami pada analisis "static-usage-dependencies" dalam suatu sistem.
+
+pada paper coupling framework briand, terdapat 18 keyword testing.
+
 # 2. motivasi 
 OO measurement menjadi tren di tahun 1999, ditandai dengan
 1. Pembuatan framework untuk measurement.
