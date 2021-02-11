@@ -315,10 +315,20 @@ Here's another study that was done similar to this on code smells.
 These were people who looked at 30 open-source projects each of which had been around for over a decade and studied what the anti-patterns were what they did wrong and where the defects in the code were based on what was changed their results were \textbf{twofold}, which are : 
 \begin{itemize}
 	\item \textbf{if smell then bug} : one was that, yes ! if "there are code smells", the code is more "likely to be buggy" in that area. that's probably obvious to a lot of us. 
-	\item The second thing that they found and this is a little bit more surprising is that fixing the anti-patterns did nothing to the bugs it turns out the two were correlated certain kinds of code led to more poorly designed low quality code and more bugs, but they were independent. fixing one didn't affect the other so this means that we can use code smells to isolate where we should be looking for bugs, but we can't fix the bugs. we just fixing the code smells we have to actually figure out what the bug itself is.
+	\item \textbf{remove smell tak berkaitan dengan fixing bug} : The second thing that they found and this is a little bit more surprising is that fixing the anti-patterns \textbf{did nothing} to the bugs. 
+	it turns out the two were correlated. 
+	certain kinds of code led to more poorly designed. 
+	low quality code and more bugs, but they were independent. 
+	fixing one didn't affect the other. 
+	so this means that we can use code smells to isolate where we should be looking for bugs, but we can't fix the bugs. 
+	we just fixing the code smells.
+	we have to actually figure out what the bug itself is.
+
 \end{itemize}
 
-this is an example of how we can use code mining to very quickly and efficiently get insights into how things work but code mining does this very effective has traps of its own you see it's not a controlled environment we're looking at. the field we're looking at the world and that makes for very complicated noisy data and we have to be very careful about that.
+this is an example of how we can use code mining to very quickly and efficiently get insights into how things work.
+but code mining does this very effective (but) has traps of its own. 
+you see it's not a controlled environment we're looking at. the field we're looking at the world and that makes for very complicated noisy data and we have to be very careful about that.
 
 \subsection{A Large Scale Study of Programming Languages and Code Quality in Github}
 Who's heard of this paper came out in 2017 a large-scale study of programming languages in code quality and github see a few of you because it was a pretty moment to study it was the first it only has about a hundred million lines of github and it was the first site that showed clear sophistical significance between different kinds of programming languages using commits and bug fixes and commits they found that functionally programming languages were safer than imperative languages static typed languages had fewer bugs and dynamic type languages manual memory languages were buggier then controlled garbage collected languages this came out a couple years ago and while the aspectus was small it was hailed as one of the best evidences for the port importance of programming language now there's one more part of this entire process that 
