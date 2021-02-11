@@ -18,7 +18,10 @@ and the great advantage is also that they can be applied to identifies
 identify cause-effect relationship for specific well defined variables 
 why as we said before the goal of the experiment is is to isolate the independent variable and control the other one 
 so that the dependent variable is just dependent on variations variations of the independent one , okay? 
-so this allows me to say when I change this I have a change in that and this change is not caused by anything else , okay? disadvantage there are many , okay? 
+so this allows me to say when I change this I have a change in that and this change is not caused by anything else , okay? 
+
+# ini disadvantage nya
+disadvantage there are many , okay? 
 they are applicable only to well-defined problem in which you can actually define and isolate these variables 
 as I said at the beginning if you have cases in which it is very complicated to to isolate the variable of interest because the contextual factors that may affect them are many and cannot be cannot be separated by by the measurement of the variable it is very hard to perform an experiment and they are hard also if you cannot simulate the right conditions in the rod 
 so if the control confounding factors confounding variables may be too r2 to control 

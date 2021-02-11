@@ -19,7 +19,7 @@ you have to read it starting from design collect data and afterwards analyzed it
 =========================
 design phase 
 1. you start from a certain hypothesis that is the right from the theory. 
-if you remember we had propositions in the theory that can be 'translated into some form of hypothesis'
+if you remember we had propositions in the theory that can be 'translated into some formal hypothesis'
 we will see examples of hypothesis later on 
 
 2. then you have the concept of independent  variables, dependent variables and control variables. 
@@ -75,7 +75,9 @@ so how sure can you be that that that your test is successful
 so how sure can you do for example that in this case normally 
 
 that your null hypothesis is rejected but this we will see later on but how sure can you be of the conclusion of this test and the effect size is how much is this effect that are measuring with my test big large , okay? 
-so one is their p-value out was telling you how much can you be confident let's say how significant is your result and the emphasize tells you how much how large is the effect is the effect that you have observed in your data , okay? after this analysis you have a say you have more confidence about the reliability of your hypothesis 
+
+so one is their p-value out was telling you how much can you be confident 
+let's say how significant is your result and the emphasize tells you how much how large is the effect is the effect that you have observed in your data , okay? after this analysis you have a say you have more confidence about the reliability of your hypothesis 
 so actually we are never speaking about accepting and hypothesis but we are speaking about rejecting a null hypothesis and we will see this in the next slide some explanation some explanation about that but the idea here that you need to remember is that you start with up with a hypothesis that you don't know whether it's true or not and at the end the data analysis you may have come to ERISA that tells you these hypothesis is more likely to be true than to be false , okay? the left part will require your creativity 
 so designing and also collecting data somehow because it involves selecting also the people the people involved in the experiment 
 
@@ -102,23 +104,28 @@ but now let's see more formal let's, say definitions , okay?
 a controlled experiments is (let's read the slide ) 
 "an environmental investigation of a testable hypothesis in which conditions are set up to isolate the variables of interest that are independent variables and tests how they affect certain measurable outcomes the dependent variables" 
 
-
 so what does it mean ?
 look at the picture and I think is quite intuitive.
 
-you have some input variable , okay? some input variable that you want to change and these are the independent variables, okay? 
+you have some input variable , okay? 
+some input variable that you want to change and these are the independent variables, okay? 
 
 the experiment is this box , okay? 
+
 the treatments box (let's call it) 
-and you want to see how certain dependent variables: (so variables of output in this box) vary based on the independent one , okay? 
+and you want to see how certain dependent variables: 
+(so variables of output in this box) vary based on the independent one , okay ? 
 
 (the treatment) what is a treatment ? 
-treatment is a combination of values for the independent variables. what does it mean? 
+treatment is a combination of values for the independent variables. 
 
-in an example can clarify everything here 
-for example 
+what does it mean? 
 
-in the case of the experiment with software tools 
+in an example can clarify everything here.
+for example.
+
+in the case of the experiment with software tools.
+
 I may have the independent variable is the testing tool that I'm using , okay? 
 the treatments is 
 1. the first treatment is with tool A and 
@@ -126,13 +133,14 @@ the treatments is
 
 because the testing tool as a variable can take tool A or tool B as values , okay? 
 ----------
-testing tool = tool A (benarkah?)
-testing tool = tool B (benarkah?)
+independent variable = value.
+testing tool = tool A  or testing tool = tool B.
+tool A dan Tool B adalah value.
 ---
-so I have two different treatments 
+so I have two different treatments.
 and the dependent variable is the thing that I want to measure.
 for example can be 
-1. the number of bugs found in the software 
+1. the number of bugs found in the software.
 2. or the speed , okay? 
 
 this is the basic element of any experiment 
@@ -143,8 +151,21 @@ the treatments that are "combinations" of values of the independent variable and
 2. and (then) I want to observe something as output (dependent variable)
 
 ==============
-treatments = kombinasi value of dependent, independent
-masalahnya pada riset refactoring, independent nya belum kelihatan
+treatments = kombinasi value of dependent + independent variable.
+
+pada kasus alessio.
+
+testing tool adalah independent variable.
+testing tool menggunakan tool A hasilnya 100 bug found.
+testing tool menggunakan tool B hasilnya 1000 bug found.
+
+independent variable pada kasus refactoring ?
+
+independent variable adalah omegat ?
+kode program = omegat sebelum refactoring.
+kode program = omegat sesudah refactoring.
+
+
 ==================
 It is important to consider this other part :
 what I want to do is to 'isolate' the independent variable because I want to see just the effect on them  (on the dependent variables) , okay? 
@@ -162,10 +183,6 @@ what I need to do is that
 1. what can be the other variables that can 'affect' my dependent ones , (okay?) 
 2. what can be the other aspects, the other factors, that 'combined' with the choice of the testing tool can modify the number of bugs found ?
 
-----
-samakan nilai variable control untuk testing tool A dan B. 
-contoh variable control nya : jumlah bug nya harus sama yang sudah diketahui dari awal, length of program,
-----
 well obviously 
 the type of code that I'm using for testing 
 the code sample that I'm using for testing 
@@ -181,6 +198,18 @@ because in reality I can have different lengths
 and this may affect for example 
 1. the speed of the tool or 
 2. actually the number of bugs that a certain tool is able to find , okay? 
+
+----
+variable control adalah nilai yang disamakan untuk testing tool A dan B. 
+contoh variable control nya : 
+
+1. jumlah bug nya harus sama yang sudah diketahui dari awal, 
+tool A dan B sama-sama punya 1100 bug.
+
+2. length of program,
+tool A dan B sama-sama punya 1100 KLOC.
+
+----
 
 so this is to tell you that 
 here, like in any controlled experiment the independent variables need to be isolated 

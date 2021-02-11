@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.11.7)  8 JAN 2021 17:30
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.11.7)  10 FEB 2021 12:26
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -178,55 +178,63 @@ Package caption Info: End \AtBeginDocument code.
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [1]
 Chapter 1.
-[1
-
-] [2]
-Chapter 2.
-[3
-
-] [4]
-Chapter 3.
-[5
-
-]
-Chapter 4.
-[6
-
-] [7]
-Chapter 5.
-[8
-
-] [9]
-Missing character: There is no â in font cmr12!
-Missing character: There is no € in font cmr12!
-Missing character: There is no ™ in font cmr12!
-Missing character: There is no â in font cmr12!
-Missing character: There is no € in font cmr12!
-Missing character: There is no ™ in font cmr12!
-Missing character: There is no â in font cmr12!
-Missing character: There is no € in font cmr12!
-Missing character: There is no ™ in font cmr12!
- [10]
-Missing character: There is no â in font cmr12!
-Missing character: There is no € in font cmr12!
-Missing character: There is no ™ in font cmr12!
-Missing character: There is no â in font cmr12!
-Missing character: There is no € in font cmr12!
-Missing character: There is no ™ in font cmr12!
- [11]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 294.
-
- (/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 26.
+(/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <14.4> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 294.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 26.
+ [1
 
-[12] [13]
+] [2] [3]
+Chapter 2.
+[4
+
+] [5]
+Chapter 3.
+[6
+
+]
+Chapter 4.
+[7
+
+] [8]
+Chapter 5.
+
+Overfull \hbox (29.13947pt too wide) in paragraph at lines 174--175
+[]\OT1/cmr/m/n/14.4 I have a code-base and one of the vari-able names is \OT1/c
+mr/bx/n/14.4 em-ployer[]number
+ []
+
+[9
+
+]
+Overfull \hbox (6.64069pt too wide) in paragraph at lines 192--199
+[]\OT1/cmr/m/n/14.4 Kelompok per-tama meng-gu-nakan pe-na-maan yang dis-ingkat.
+ Kelom-
+ []
+
+[10] [11]
+Missing character: There is no â in font cmr12!
+Missing character: There is no € in font cmr12!
+Missing character: There is no ™ in font cmr12!
+Missing character: There is no â in font cmr12!
+Missing character: There is no € in font cmr12!
+Missing character: There is no ™ in font cmr12!
+Missing character: There is no â in font cmr12!
+Missing character: There is no € in font cmr12!
+Missing character: There is no ™ in font cmr12!
+Missing character: There is no â in font cmr12!
+Missing character: There is no € in font cmr12!
+Missing character: There is no ™ in font cmr12!
+Missing character: There is no â in font cmr12!
+Missing character: There is no € in font cmr12!
+Missing character: There is no ™ in font cmr12!
+ [12] [13] [14] [15]
 Chapter 6.
-[14
+[16
 
-] [15]
+] [17]
 Chapter 7.
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
@@ -255,7 +263,7 @@ Missing character: There is no ™ in font cmr12!
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no ™ in font cmr12!
-[16
+[18
 
 ]
 Missing character: There is no â in font cmr12!
@@ -297,7 +305,7 @@ Missing character: There is no ™ in font cmr12!
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no ™ in font cmr12!
- [17]
+ [19]
 Chapter 8.
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
@@ -317,47 +325,55 @@ Missing character: There is no ™ in font cmr12!
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no ™ in font cmr12!
-[18
+[20
 
-] [19] [20] [21]
+] [21] [22] [23]
+Underfull \hbox (badness 10000) in paragraph at lines 491--492
+
+ []
+
+[24]
 Missing character: There is no Ã in font cmr12!
 Missing character: There is no ­ in font cmr12!
- [22] [23]
+ [25] [26]
 Chapter 9.
-[24
+[27
 
 ]
 Chapter 10.
-[25
+[28
 
 ]
 Chapter 11.
-[26
+[29
 
-] [27]
+] [30]
 Chapter 12.
-[28
+[31
 
-] [29] (./hillel-wayne-intro-to-empirical-sw-eng.aux) ) 
+] [32] (./hillel-wayne-intro-to-empirical-sw-eng.aux)
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ ) 
 Here is how much of TeX's memory you used:
- 2934 strings out of 492982
- 47218 string characters out of 6134896
- 110438 words of memory out of 5000000
- 6493 multiletter control sequences out of 15000+600000
- 8942 words of font info for 32 fonts, out of 8000000 for 9000
+ 2937 strings out of 492982
+ 47283 string characters out of 6134896
+ 108440 words of memory out of 5000000
+ 6496 multiletter control sequences out of 15000+600000
+ 9548 words of font info for 34 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
  41i,6n,38p,1588b,184s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texlive/texm
-f-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist
-/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/
-type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
-ublic/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
-amsfonts/cm/cmti12.pfb>
-Output written on hillel-wayne-intro-to-empirical-sw-eng.pdf (31 pages, 113505 
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share
+/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texliv
+e/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
+Output written on hillel-wayne-intro-to-empirical-sw-eng.pdf (34 pages, 119526 
 bytes).
 PDF statistics:
- 124 PDF objects out of 1000 (max. 8388607)
- 85 compressed objects within 1 object stream
+ 133 PDF objects out of 1000 (max. 8388607)
+ 91 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
