@@ -1,0 +1,885 @@
+code;author;title;year;description
+[Abb83];  Abbott,  R.";Program  Design  by  Informal  English  Descriptions"; CACM ,  vol.  26, November ;1983; pp. 892–894. 
+[Abr09]; Abrial, J.";Faultless Systems: Yes We Can!"  IEEE Computer , vol. 42, no. 9, September, ;2009; pp. 30–36. 
+[ACM12];  ACM/IEEE-CS  Joint  Task  Force,"Software  Engineering  Code  of  Ethics and Professional Practice";2012; available at www.acm.org/serving/se/code.htm. 
+[Ada93]; Adams, D.,  Mostly Harmless , Macmillan, ;1993;
+[AFC88];  Software Risk Abatement , AFCS/AFLC Pamphlet 800-45, U.S. Air Force, September  30, ;1988; 
+[Agi03]; The Agile Alliance Home Page, available at www.agilealliance.org/home
+[Air99]; Airlie Council";Performance Based Management: The Program Manager’s Guide  Based on the 16-Point Plan and Related Metrics," Draft Report, March 8, ;1999; 
+[Aka04]; Akao, Y.;Quality Function Deployment , Productivity Press, ;2004;
+
+sampai sini yang sudah diubah ke json
+
+[Ale11]; Alexander, I. "Gore, Sore, or What?"  IEEE Software , vol. 28, no. 1, January–February 
+[Ale77]; Alexander, C.,  A Pattern Language , Oxford University Press, ;1977;
+[Ale79]; Alexander, C.,  The Timeless Way of Building , Oxford University Press, ;1979;
+[All08];  Allen,  J.  H.,  et  al.,   Software  Security  Engineering:  A  Guide  for  Project  Managers , 
+[Amb01]; Ambler, S.,  The Object Primer , 2nd ed., Cambridge University Press, ;2001;
+[Amb02a]; Ambler, S.";What Is Agile Modeling (AM)?" ;2002; available at www.agilemodeling. ;2011; pp. 8–10.  Addison-Wesley, ;2008;  com/index.htm. 
+[Amb02b]; Ambler, S., and R. Jeffries,  Agile Modeling , Wiley, ;2002;
+[Amb02c];  Ambler,  S.";UML  Component  Diagramming  Guidelines,"  ;2002;  available  at 
+[Amb04]; Ambler, S."; Examining the Cost of Change Curve ," in  The Object Primer , 3rd ed., 
+[Amb06];  Ambler,  S.";The  Agile  Uniﬁ ed  Process  (AUP),  ;2006;  available  at  www.ambysoft. www.modelingstyle.info/.  Cambridge University Press, ;2004;  com/uniﬁ edprocess/agileUP.html. 
+[Amb95]; Ambler, S.";Using Use-Cases,"  Software Development , July ;1995; pp. 53–61
+[Amb98]; Ambler, S.,  Process Patterns: Building Large-Scale Systems Using Object Technology ,  Cambridge University Press/SIGS Books, ;1998; 
+[And05];  Andreou,  A.,  et  al.";Key  Issues  for  the  Design  and  Development  of  Mobile  Com-
+merce  Services  and  Applications,"   International  Journal  of  Mobile  Communications , vol. 3, no. 3, March ;2005; pp. 303–323.   And06]; Andrews, M., and J. Whittaker,  How to Break Web Software: Functional and Security  Testing of Web Applications and Web Services , Addison-Wesley, ;2006; 
+[ANS87]; ANSI/ASQC A3-;1987;  Quality Systems Terminology , ;1987;
+[Ant06]; Anton, D., and C. Anton,  ISO ;9001; Survival Guide , 3rd ed., AEM Consulting Group,  ;2006; 
+[AOS07]; AOSD.net (Aspect-Oriented Software Development), glossary, available at http://aosd.net/wiki/index.php?title=Glossary. 
+[App00]; Appleton, B.";Patterns and Software: Essential Concepts and Terminology," Febru- ary ;2000; available at www.cmcrossroads.com/bradapp/docs/patterns-intro.html
+[App13]; Apple Computer,  Accessibility , ;2013; available at www.apple.com/accessibility/
+[Arl02]; Arlow, J., and I. Neustadt,  UML and the Uniﬁ ed Process , Addison-Wesley, ;2002;
+[Arn89];  Arnold,  R.  S.";Software  Restructuring,"   Proceedings  of  the  IEEE ,  vol.  77,  no.  4,  April ;1989; pp. 607–617.  909    910  
+[Art97]; Arthur, L. J.";Quantum Improvements in Software System Quality,"  CACM , vol. 40,  no. 6, June ;1997; pp. 47–52. 
+[Ast04]; Astels, D.,  Test Driven Development: A Practical Guide , Prentice Hall, ;2004;
+[ATK12];  ATKearney";A.T.  Kearney  Study  of  Global  Wealth  and  Spending,"  ;2012;  available  at  http://www.atkearney.com/news-media/news-releases/news-release/-/asset_
+publisher/00OIL7Jc67KL/content/id/;3874;64. 
+[Baa07]; de Baar, B.";Project Risk Checklist," ;2007; available at www.softwareprojects.org/ project_riskmanagement_starting62.htm. 
+[Baa10]; Baaz, A., et al.";Appreciating Lessons Learned,"  IEEE Software , vol. 27, no. 4, July– August, ;2010; pp. 72–79. 
+[Bab09];  Babar,  M.,  and  I.  Groton";Software  Architecture  Review:  The  State  of  Practice,"   IEEE Computer , vol. 42, no. 6, June ;2009; pp. 1–8. 
+[Bab86]; Babich, W. A.,  Software Conﬁ guration Management , Addison-Wesley, ;1986;
+[Bac97];  Bach,  J.";‘Good  Enough  Quality:  Beyond  the  Buzzword,"   IEEE  Computer ,  vol.  30, 
+[Bac98]; Bach, J.";The Highs and Lows of Change Control,"  Computer , vol. 31, no. 8, August  no. 8, August ;1997; pp. 96–98.  ;1998; pp. 113–115. 
+[Bae98]; Baetjer, Jr., H.,  Software as Capital , IEEE Computer Society Press, ;1998; p. 85
+[Bak72]; Baker, F. T.";Chief Programmer Team Management of Production Programming,"   IBM Systems Journal ., vol. 11, no. 1, ;1972; pp. 56–73. 
+[Ban06a];  Baniassad,  E.,  et  al.";Discovering  Early  Aspects,"   IEEE  Software ,  vol.  23,  no.  1,  January–February, ;2006; pp. 61–69. 
+[Bar06b];  Baresi,  L.,  E.  DiNitto,  and  C.  Ghezzi";Toward  Open-World  Software:  Issues  and  Challenges,"  IEEE Computer , vol. 39, no. 10, October ;2006; pp. 36–43. 
+[Bas03];  Bass,  L.,  P.  Clements,  and  R.  Kazman,   Software  Architecture  in  Practice ,  2nd  ed.,  Addison-Wesley, ;2003; 
+[Bas84];  Basili,  V.  R.,  and  D.  M.  Weiss";A  Methodology  for  Collecting  Valid  Software  Engineering Data,"  IEEE Trans. Software Engineering , vol. SE-10, ;1984; pp. 728–738. 
+[Bea11]; Beaird, J., The Principles of Beautiful Web Design, 2nd ed., Sitepoint, ;2011;
+[Bec00]; Beck, K.,  Extreme Programming Explained: Embrace Change , Addison-Wesley, ;1999;
+[Bec01];  Beck,  K.,  et  al.";Manifesto  for  Agile  Software  Development,"  www.agilemanifesto .org/.  Wesley, ;2004; 
+[Bec04a];  Beck,  K.,   Extreme  Programming  Explained:  Embrace  Change ,  2nd  ed.,  Addison-
+[Bec04b]; Beck, K.,  Test-Driven Development: By Example , 2nd ed., Addison-Wesley, ;2004;
+[Bee99];  Beedle,  M.,  et  al.";SCRUM:  An  Extension  Pattern  Language  for  Hyperproduc-
+tive  Software  Development,"  included  in:   Pattern  Languages  of  Program  Design  4 , 
+Addison-Wesley Longman, Reading MA, ;1999; downloadable from http://jeffsutherland
+.com/scrum/scrum_plop.pdf. 
+[Beg10]; Begel, A., R. DeLine, and T. Zimmermann";Social Media for Software Engineering,"   Proc. FoSER ;2010; , ACM, November, ;2010; 
+[Bei84]; Beizer, B.,  Software System Testing and Quality Assurance , Van Nostrand-Reinhold,  ;1984; 
+[Bei90]; Beizer, B.,  Software Testing Techniques , 2nd ed., Van Nostrand-Reinhold, ;1990;
+[Bei95]; Beizer, B.,  Black-Box Testing , Wiley, ;1995;
+[Bel81];  Belady,  L.,  Foreword  to   Software  Design:  Methods  and  Techniques   (L.  J.  Peters,  author), Yourdon Press, ;1981; 
+[Bel95]; Bellinzona R., M. G. Gugini, and B. Pernici";Reusing Speciﬁ cations in OO Applica- tions,"  IEEE Software , March ;1995; pp. 65–75. 
+[Ben00];  Bennatan,  E.,   Software  Project  Management:  A  Practitioner’s  Approach ,  3rd  ed., 
+[Ben99]; Bentley, J.,  Programming Pearls , 2nd ed., Addison-Wesley, ;1999;
+[Ben02]; Bennett, S., S. McRobb, and R. Farmer,  Object-Oriented Analysis and Design , 2nd  McGraw-Hill, ;2000;  ed., McGraw-Hill, ;2002; 
+[Ben10];  Benaroch,  M.,  and  A.  Appari";Financial  Pricing  of  Software  Development  Risk  Facotrs,"  IEEE Software , vol. 27, no. 3, September–October, ;2010; pp. 65–73.        911
+[Ber80];  Bersoff,  E.,  V.  Henderson,  and  S.  Siegel,   Software  Conﬁ guration  Management ,  Prentice Hall, ;1980; 
+[Ber93]; Berard, E.,  Essays on Object-Oriented Software Engineering , vol. 1, Addison-Wesley, ;1993;
+[Bes04]; Bessin, J.";The Business Value of Quality," IBM developerWorks, June 15, ;2004; download-
+able from http://cm.techwell.com/articles/original/business-value-quality-and-testing
+[Bie94]; Bieman, J. M., and L. M. Ott";Measuring Functional Cohesion,"  IEEE Trans. Software  Engineering , vol. SE-20, no. 8, August ;1994; pp. 308–320. 
+[Bin93]; Binder, R.";Design for Reuse Is for Real,"  American Programmer , vol. 6, no. 8, August  ;1993; pp. 30–37. 
+[Bin94a];  Binder,  R.";Testing  Object-Oriented  Systems:  A  Status  Report,"   American  Programmer , vol. 7, no. 4, April ;1994; pp. 23–28. 
+[Bin94b];  Binder,  R.  V.";Object-Oriented  Software  Testing,"   Communications  of  the  ACM , 
+[Bin99];  Binder,  R.,   Testing  Object-Oriented  Systems:  Models,  Patterns,  and  Tools ,  vol. 37, no. 9, September ;1994; p. 29.  Addison-Wesley, ;1999; 
+[Bir98]; Biró, M., and T. Remzsö";Business Motivations for Software Process Improvement," 
+ERCIM  News  No.  32,  January  ;1998;  available  at  www.ercim.org/publication/Ercim_
+News/enw32/biro.html. 
+[Bla09]; Black, S., et al. "Formal Versus Agile: Survival of the Fittest?"  IEEE Computer , vol. 42, 
+[Bla10];  Blair,  S.,  et  al.";Responsibility-Driven  Architecture,"   IEEE  Software ,  vol.  27,  no.  3,  no. 9, September ;2009; pp. 37–45.  March–April ;2010; pp. 26–32. 
+[Bod09];  Bode,  S.,  et  al.";Software  Architectural  Design  Meets  Security  Engineering,"  Proceedings  of  16th  Annual  IEEE  International  Conference  and  Workshop  on  the 
+Engineering of Computer Based Systems , ;2009; 
+[Boe00]; Boehm, B., et al.,  Software Cost Estimation in COCOMO II , Prentice Hall, ;2000;
+[Boe01a];  Boehm,  B.";The  Spiral  Model  as  a  Tool  for  Evolutionary  Software  Acquisition,"  CrossTalk , May ;2001; available at www.stsc.hill.af.mil/crosstalk/;2001;/05/boehm.html
+[Boe01b]; Boehm, B., and V. Basili";Software Defect Reduction Top 10 List,"  IEEE Computer , 
+[Boe08]; Boehm, B.";Making a Difference in the Software Century,"  IEEE Computer , vol. 41,  vol. 34, no. 1, January ;2001; pp. 135–137.  no. 3, March ;2008; pp. 32–38. 
+[Boe81]; Boehm, B.,  Software Engineering Economics , Prentice Hall, ;1981;
+[Boe88];  Boehm,  B.";A  Spiral  Model  for  Software  Development  and  Enhancement,"   Computer , vol. 21, no. 5, May ;1988; pp. 61–72. 
+[Boe89]; Boehm, B. W.,  Software Risk Management , IEEE Computer Society Press, ;1989;
+[Boe96]; Boehm, B.";Anchoring the Software Process,"  IEEE Software , vol. 13, no. 4, July ;1996;  pp. 73–82.  July ;1998; pp. 33–44. 
+[Boe98]; Boehm, B.";Using the WINWIN Spiral Model: A Case Study,"  Computer , vol. 31, no. 7, 
+[Boh00]; Bohl, M., and M. Rynn,  Tools for Structured Design: An Introduction to Programming  Logic , 5th ed., Prentice Hall, ;2000; 
+[Boh66]; Bohm, C., and G. Jacopini";Flow Diagrams, Turing Machines and Languages with  Only Two Formation Rules,"  CACM , vol. 9, no. 5, May ;1966; pp. 366–371. 
+[Boi04]; Boiko, B.,  Content Management Bible , 2nd ed., Wiley, ;2004;
+[Boo02]; Booch, G., and A. Brown";Collaborative Development Environments," Rational Soft-
+[Boo05];  Booch,  G.,  J.  Rumbaugh,  and  I.  Jacobsen,   The  Uniﬁ ed  Modeling  Language  User  ware Corp., October 28, ;2002;  Guide . 2nd ed., Addison-Wesley, ;2005; 
+[Boo06]; Bootstrap-institute.com, ;2006; www.cse.dcu.ie/espinode/directory/directory.html
+[Boo08]; Booch, G.,  Handbook of Software Architecture , ;2008; available at www.booch.com/
+[Boo11a];  Booch,  G.";Dominant  Design,"   IEEE  Software ,  vol.  28,  no.  2,  January–February 
+[Boo11b];  Booch,  G.";Draw  Me  a  Picture,"   IEEE  Software ,  vol.  28,  no.  1,  January–February  architecture/systems.jsp.  ;2011; pp. 8–9.  ;2011; pp. 6–7.     912  
+[Boo94]; Booch, G.,  Object-Oriented Analysis and Design , 2nd ed., Benjamin Cummings, ;1994;
+[Bor01]; Borchers, J.,  A Pattern Approach to Interaction Design , Wiley, ;2001;
+[Bos00]; Bosch, J.,  Design & Use of Software Architectures , Addison-Wesley, ;2000;
+[Bos11];  Bose,  B.,  et  al.";Morphing  Smartphones  into  Automotive  Application  Platforms,"   IEEE Computer , vol. 44, no. 5, May ;2011; pp. 28–29. 
+[Bra94]; Bradac, M., D. Perry, and L. Votta";Prototyping a Process Monitoring Experiment,"   IEEE Trans. Software Engineering , vol. 20, no. 10, October ;1994; pp. 774–784. 
+[Bre02]; Breen, P.";Exposing the Fallacy of ‘Good Enough’ Software," informit.com, February  1, ;2002; available at www.informit.com/articles/article.asp?p=;2514;1&rl=1. 
+[Bre03]; Breu, R., et al.,  Key Issues of a Formally Based Process Model for Security Engineering , 
+Proceedings of the 16th International Conference on Software & Systems Engineering 
+and their Applications,  ;2003; . 
+[Bre10]; Breu, R.,  Ten Principles for Living Models—A Manifesto of Change-Driven Software 
+Engineering , International Conference on Complex, Intelligent and Software Intensive 
+Systems (CISIS), Krakow, Poland, February ;2010; pp. 1–8. 
+[Bro01]; Brown, B.,  Oracle9i Web Development , 2nd ed., McGraw-Hill, ;2001;
+[Bro03];  Brooks,  F.";Three  Great  Challenges  for  Half-Century-Old  Computer  Science,"   JACM , vol. 50, no. 1, January ;2003; pp. 25–26. 
+[Bro06];  Broy,  M.";The  ‘Grand  Challenge’  in  Informatics:  Engineering  Software  Intensive  Systems,"  IEEE Computer , vol. 39, no. 10, October ;2006; pp. 72–80. 
+[Bro10a];  Brown,  N.,  R.  Nord,  and  I.  Ozkaya";Enabling  Agility  through  Architecture,"  Crosstalk ,  November–December  ;2010;  available  at  www.crosstalkonline.org/storage/
+issue-archives/…/;2010;11-Brown.pdf. 
+[Bro10b]; Broy, M., and R. Reussner";Software Architecture Review: The State of Practice,"   IEEE Computer , vol. 43, no. 10, June ;2010; pp. 88–91. 
+[Bro11];  Brown,  M.";The  Best  Tools  for  Mobile  App  Testing,"  available  at   http://www .mobileapptesting.com/the-best-tools-for-mobile-app-testing/;2011;/08/.  
+[Bro12]; Brown, A.,  The Architecture of Open Source Applications , lulu.com, ;2012;
+[Bro95]; Brooks, F.,  The Mythical Man-Month , Silver Anniversary edition, Addison-Wesley, ;1995;
+[Bro96];  Brown,  A.,  and  K.  Wallnau";Engineering  of  Component  Based  Systems,"  Component-Based Software Engineering , IEEE Computer Society Press, ;1996; pp. 7–15
+[Buc99];  Bucanac,  C.";The  V-Model,"  University  of  Karlskrona/Ronneby,  January  ;1999;  downloadable from www.bucanac.com/documents/The_V-Model.pdf. 
+[Bud96]; Budd, T.,  An Introduction to Object-Oriented Programming , 2nd ed., Addison-Wesley, 
+[Bus07]; Buschmann, F., et al.,  Pattern-Oriented Software Architecture, A System of Pattern ,  ;1996;  Wiley, ;2007; 
+[Bus10];  Buschmann,  F.";Learning  from  Failure,  Part  2:  Featuritis,  Performitis,  and  Other  Diseases,"  IEEE Software , vol. 27, no. 1, January–February ;2010; pp. 10–11. 
+[Bus10a]; Buschmann, F.";On Architecture Styles and Paradigms,"  IEEE Software , vol. 27, no.  5, September–October ;2010; pp. 92–94. 
+[Bus10b];  Buschmann,  F.,  and  K.  Henley";Five  Considerations  for  Software  Architecture,  Part 1,"  IEEE Software , vol. 27, no. 3, May–June ;2010; pp. 63–65. 
+[Bus10c];  Buschmann,  F.,  and  K.  Henley";Five  Considerations  for  Software  Architecture,  Part 2,"  IEEE Software , vol. 27, no. 4, July–August ;2010; pp. 12–14. 
+[Bus96]; Buschmann, F., et al.,  Pattern-Oriented Software Architecture , Wiley, ;1996;
+[Cac02]; Cachero, C., et al.";Conceptual Navigation Analysis: a Device and Platform Inde-
+pendent  Navigation  Speciﬁ cation,"   Proceedings  of  the  Second  International  Workshop 
+on Web-Oriented Technology , June ;2002; available at www.dsic.upv.es/~west/iwwost02/
+papers/cachero.pdf. 
+[Car08];  Carrasco,  M.";7  Key  Attributes  of  High  Performance  Software  Development 
+Teams,"  June  30,  ;2008;  available  at   http://www.realsoftwaredevelopment.com/7-key-
+attributes-of-high-performance-software-development-teams/.  
+[Car90]; Card, D., and R. Glass,  Measuring Software Design Quality , Prentice Hall, ;1990;
+[Cas06];  Casey,  V.,  and  I.  Richardson";Uncovering  the  Reality  within  Virtual  Software  Teams,"  Proc. GSD’06 , ACM, May 23, ;2006;        913
+[Cas89];  Cashman,  M.";Object  Oriented  Domain  Analysis,"   ACM  Software  Engineering  Notes , vol. 14, no. 6, October ;1989; p. 67. 
+[Cav78]; Cavano, J., and J. McCall";A Framework for the Measurement of Software Quality,"   Proc. ACM Software Quality Assurance Workshop , November ;1978; pp. 133–139
+[CCS02]; CS3 Consulting Services, ;2002; available at www.cs3inc.com/DSDM.htm
+[Cec06];  Cechich,  A.,  et  al.";Trends  on  COTS  Component  Identiﬁ cation,"   Proc.  Fifth  Intl.  Conf. on COTS-Based Software Systems , IEEE, ;2006; 
+[Cha89]; Charette, R.,  Engineering Risk Analysis and Management , McGraw-Hill/Intertext, 
+[Cha92];  Charette,  R.";Building  Bridges  over  Intelligent  Rivers,"   American  Programmer , 
+[Cha93];  de  Champeaux,  D.,  D.  Lea,  and  P.  Faure,   Object-Oriented  System  Development ,  ;1989;  vol. 5, no. 7, September ;1992; pp. 2–9.  Addison-Wesley, ;1993; 
+[Chi94]; Chidamber, S., and C. Kemerer";A Metrics Suite for Object-Oriented Design,"  IEEE  Trans. Software Engineering , vol. SE-20, no. 6, June ;1994; pp. 476–493. 
+[Cho89];  Choi,  S.,  and  W.  Scacchi";Assuring  the  Correctness  of  a  Conﬁ gured  Software 
+Description,"  Proceedings of the Second International Workshop on Software Conﬁ gura-
+tion Management , ACM, Princeton, NJ, October ;1989; pp. 66–75. 
+[Chu09]; Chung, L., and J. Leite";On Non-Functional Requirements in Software Engineer-
+ing," published in  Conceptual Modeling: Foundations and Applications , Springer-Verlag, 
+;2009; 
+[Chu95];  Churcher,  N.,  and  M.  Shepperd";Towards  a  Conceptual  Framework  for  Object-
+Oriented Metrics,"  ACM Software Engineering Notes , vol. 20, no. 2, April ;1995; pp. 69–76. 
+[Cia09]; Ciafrani, C., et al.,  ISO ;9000;:;2008; Explained , 3rd ed., ASQ Quality Press, ;2009;
+[Cig07]; Cigital, Inc.";Case Study: Finding Defects Earlier Yields Enormous Savings," ;2007;  available at www.cigital.com/solutions/roi-cs2.php. 
+[Cla05]; Clark, S., and E. Baniasaad,  Aspect-Oriented Analysis and Design , Addison-Wesley,  ;2005; 
+[Cle03]; Clements, P., R. Kazman, and M. Klein,  Evaluating Software Architectures: Methods  and Case Studies , Addison-Wesley, ;2003; 
+[Cle06]; Clemmons, R.";Project Estimation with Use Case Points,"  CrossTalk , February ;2006;  pp. 18–222, available at www.stsc.hill.af.mil/crosstalk/;2006;/02/;0602;Clemmons.pdf. 
+[Cle10]; Clements, P., and L. Bass";The Business Goals Viewpoint,"  IEEE Software , vol. 27, 
+[CMM07];   Capability  Maturity  Model  Integration  (CMMI) ,  Software  Engineering  Institute,  no. 6, November–December ;2010; pp. 38–45.  ;2007; available at www.sei.cmu.edu/cmmi/. 
+[CMM08];  People   Capability Maturity Model Integration (People CMM) , Software Engineering  Institute, ;2008; available at www.sei.cmu.edu/cmm-p/. 
+[Coa91]; Coad, P., and E. Yourdon,  Object-Oriented Analysis , 2nd ed., Prentice Hall, ;1991;
+[Coa99];  Coad,  P.,  E.  Lefebvre,  and  J.  DeLuca,   Java  Modeling  in  Color  with  UML ,  Prentice  Hall, ;1999; 
+[Coc01a]; Cockburn, A., and J. Highsmith";Agile Software Development: The People Factor,"   IEEE Computer , vol. 34, no. 11, November ;2001; pp. 131–133. 
+[Coc01b]; Cockburn, A.,  Writing Effective Use-Cases , Addison-Wesley, ;2001;
+[Coc02]; Cockburn, A.,  Agile Software Development , Addison-Wesley, ;2002;
+[Coc04]; Cockburn, A.";What the Agile Toolbox Contains,"  CrossTalk , November ;2004; avail- able at www.stsc.hill.af.mil/crosstalk/;2004;/11/;0411;Cockburn.html. 
+[Coc05]; Cockburn, A.,  Crystal Clear , Addison-Wesley, ;2005;
+[Coc11]; Cochran, C.,  ISO ;9001; in Plain English , Paton Professional, ;2011;
+[Coh05]; Cohn, M.";Estimating with Use Case Points,"  Methods & Tools , Fall, ;2005; available 
+at  http://www.mountaingoatsoftware.com/articles/estimating-with-use-case-points 
+[Col09]; Collaris, R-A., and E. Dekker";Software Cost Estimation Using Use Case Points"; IBM 
+Developer  Works,  March  15,  ;2009;  available  at  http://www.ibm.com/developerworks/
+rational/library/edge/09/mar09/collaris_dekker/. 
+[Con93];  Constantine,  L.";Work  Organization:  Paradigms  for  Project  Management  and  Organization,  CACM , vol. 36, no. 10, October ;1993; pp. 34–43.     914  
+[Con95]; Constantine, L.";What DO Users Want? Engineering Usability in Software,"  Windows  Tech Journal , December ;1995; available from www.forUse.com. 
+[Con96]; Conradi, R.";Software Process Improvement: Why We Need SPIQ," NTNU, October  ;1996; downloadable from www.idi.ntnu.no/grupper/su/publ/pdf/nik96-spiq.pdf. 
+[Con99];  Constantine,  L.,  and  L.  Lockwood";Learning  the  Laws  of  Usability,"   Software  Development , vol. 7, no. 10, October, ;1999; 
+[Con02];  Conradi,  R.,  and  A.  Fuggetta";Improving  Software  Process  Improvement,"  IEEE  Software ,  July–August  ;2002;  pp.  2–9,  available  at  http://citeseer.ist.psu.edu/
+conradi02improving.html. 
+[Cop05];  Coplien,  J.";Software  Patterns,"  ;2005;  available  at  http://hillside.net/patterns/ deﬁ nition.html. 
+[Cou00];  Coulouris,  G.,  J.  Dollimore,  and  T.  Kindberg,   Distributed  Systems:  Concepts  and  Design , 3rd ed., Addison-Wesley, ;2000; 
+[Cri92]; Christel, M., and K. Kang";Issues in Requirements Elicitation," Software Engineer- ing Institute, CMU/SEI-92-TR-12 7, September ;1992; 
+[Crn11]; Crnkovic, I., et al.";A Classiﬁ cation Framework for Software Component Models,"  IEEE  Transactions  on  Software  Engineering ,  vol.  37,  no.  5,  September–October  ;2011; 
+pp. 593–615. 
+[Cro79]; Crosby, P.,  Quality Is Free , McGraw-Hill, ;1979;
+[Cur01];  Curtis,  B.,  W.  Heﬂ ey,  and  S.  Miller,   People  Capability  Maturity  Model ,  Addison- Wesley, ;2001; 
+[Cur86]; Curritt, P., M. Dyer, and H. Mills";Certifying the Reliability of Software,"  IEEE Trans,  Software Engineering , vol. SE-12, no. 1, January ;1994; 
+[Cur90]; Curtis, B., and D. Walz";The Psychology of Programming in the Large: Team and  Organizational Behavior,"  Psychology of Programming , Academic Press, ;1990; 
+[CVS07];  Concurrent  Versions  System,  Ximbiot,  ;2007;  available  at  http://ximbiot.com/cvs/
+[CVS12];   Open  CVS ,  ;2012;  available  at  http://web.archive.org/web/;2004;;1220;;0414;34/http://wiki/index.php?title=Main_Page.  www.opencvs.org/. 
+[DAC03];  "An  Overview  of  Model-Based  Testing  for  Software,"  Data  and  Analysis  Center 
+for  Software,  CR/TA  12,  June  ;2003;  available  from  www.goldpractices.com/dwnload/
+practice/pdf/Model_Based_Testing.pdf. 
+[Dah72]; Dahl, O., E. Dijkstra, and C. Hoare,  Structured Programming , Academic Press, ;1972;
+[Dan09];  Dang,  A.";How  Correct  is  Security  by  Correctness?"  Tom’s  Hardware,  July  16,  ;2009; 
+available at http://www.tomshardware.com/reviews/joanna-rutkowska-rootkit,;2356;-7.html
+[Dar01];  Dart,  S.,   Spectrum  of  Functionality  in  Conﬁ guration  Management  Systems ,  Soft-
+ware  Engineering  Institute,  ;2001;  available  at  www.sei.cmu.edu/legacy/scm/tech_rep/
+TR11_90/TOC_TR11_90.html. 
+[Dar91];  Dart,  S.";Concepts  in  Conﬁ guration  Management  Systems,"   Proc.  Third  Interna-
+tional Workshop on Software Conﬁ guration Management , ACM SIGSOFT, ;1991; available 
+at www.sei.cmu.edu/legacy/scm/abstracts/abscm_concepts.html. 
+[Dar99];  Dart,  S.";Change  Management:  Containing  the  Web  Crisis,"   Proc.  Software  Con-
+ﬁ guration Management Symposium , Toulouse, France, ;1999; available at www.perforce
+.com/perforce/conf99/dart.html. 
+[Dav90];  Davenport,  T.  H.,  and  J.  E.  Young";The  New  Industrial  Engineering:  Information 
+Technology and Business Process Redesign,"  Sloan Management Review , Summer ;1990; 
+pp. 11–27. 
+[Dav93];  Davis,  A.,  et  al.";Identifying  and  Measuring  Quality  in  a  Software  Requirements 
+Speciﬁ cation,"  Proceedings of the First International Software Metrics Symposium , IEEE, 
+Baltimore, MD, May ;1993; pp. 141–152. 
+[Dav95a];  Davis,  M.";Process  and  Product:  Dichotomy  or  Duality,"   Software  Engineering  Notes , ACM Press, vol. 20, no. 2, April ;1995; pp. 17–18. 
+[Dav95b]; Davis, A.,  201 Principles of Software Development , McGraw-Hill, ;1995;
+[Day99];  Dayani-Fard,  H.,  et  al.";Legacy  Software  Systems:  Issues,  Progress,  and  Chal-
+lenges," IBM Technical Report: TR-74.165-k, April ;1999; available at www.cas.ibm.com/
+toronto/publications/TR-74.165/k/legacy.html.        915
+[DeM02]; DeMarco, T., and B. Boehm";The Agile Methods, Fray,"  IEEE Computer , vol. 35, no.  6, June ;2002; pp. 90–92. 
+[DeM79]; DeMarco, T.,  Structured Analysis and System Speciﬁ cation , Prentice Hall, ;1979;
+[DeM95]; DeMarco, T.,  Why Does Software Cost So Much?  Dorset House, ;1995;
+[DeM98]; DeMarco, T., and T. Lister,  Peopleware , 2nd ed., Dorset House, ;1998;
+[Dem86]; Deming, W.,  Out of the Crisis , MIT Press, ;1986;
+[Den73]; Dennis, J.";Modularity," in  Advanced Course on Software Engineering  (F. L. Bauer,  ed.), Springer-Verlag, ;1973; pp. 128–182. 
+[Des08];  de  Sá,  M.,  and  L.  Carriço";Lessons  from  Early  Stages  Design  of  Mobile  Applica-
+tions,"  Proceedings of 10th International Conference on Human Computer Human with 
+Mobile Services and Devices , September ;2008; pp. 127–136. 
+[deS09];  de  Sousa,  C.,  et  al";Cooperative  and  Human  Aspects  of  Software  Engineering,"   IEEE Software , vol. 26, no. 6, pp. 17–19. 
+[Dev00]; Devanbu, P., and S. Stubblebine";Software Engineering for Security: A Roadmap,"  Proc.  ICSE ,  IEEE,  ;2000;  available  at  http://www0.cs.ucl.ac.uk/staff/A.Finkelstein/fose/ 
+ﬁ naldevanbu.pdf. 
+[Dev01];  Devedzik,  V.";Software  Patterns,"  in   Handbook  of  Software  Engineering  and  Knowledge Engineering , World Scientiﬁ c Publishing Co., ;2001; 
+[Dha95]; Dhama, H.";Quantitative Metrics for Cohesion and Coupling in Software,"  Journal  of Systems and Software , vol. 29, no. 4, April ;1995; 
+[Dij65];  Dijkstra,  E.";Programming  Considered  as  a  Human  Activity,"  in   Proc.  ;1965;  IFIP  Congress , North-Holland Publishing Co., ;1965; 
+[Dij72]; Dijkstra, E.";The Humble Programmer," ;1972; ACM Turing Award Lecture,  CACM ,  vol. 15, no. 10, October ;1972; pp. 859–866. 
+[Dij76a];  Dijkstra,  E.";Structured  Programming,"  in   Software  Engineering,  Concepts  and  Techniques  (J. Buxton et al., ed.), Van Nostrand-Reinhold, ;1976;
+[Dij76b]; Dijkstra, E.,  A Discipline of Programming , Prentice Hall, ;1976;
+[Dij82];  Dijksta,  E.";On  the  Role  of  Scientiﬁ c  Thought,"   Selected  Writings  on  Computing:  A Personal Perspective , Springer-Verlag, ;1982; 
+[Dix99];  Dix,  A.";Design  of  User  Interfaces  for  the  Web,"   Proc.  User  Interfaces  to  Data 
+Systems  Conference ,  September  ;1999;  available  at  www.comp.lancs.ac.uk/computing/
+users/dixa/topics/webarch/. 
+[Don99]; Donahue, G., S. Weinschenck, and J. Nowicki";Usability Is Good Business," Compu- ware Corp., July ;1999; available at www.compuware.com. 
+[Dre99]; Dreilinger, S.";CVS Version Control for Web Site Projects," ;1999; available at www .durak.org/cvswebsites/howto-cvs/howto-cvs.html
+[Dru75]; Drucker, P.,  Management , W. H. Heinemann, ;1975;
+[DSi08]; D’Silva, V., et al.";Interview: Software Security in the Real World,"  IEEE Transactions 
+on Computer-Aided Design of Integrated Circuits and Systems , vol. 27, no. 7, July ;2008; 
+pp. ;1165;–;1178; 
+[Duc01];  Ducatel,  K.,  et  al.,   Scenarios  for  Ambient  Intelligence  in  ;2010; ,  ISTAG-European 
+ftp://ftp.cordis.europa.eu/pub/ist/docs/
+from  Commission,  ;2001;  downloadable 
+istagscenarios;2010;pdf. 
+[Dun01]; Dunaway, D., and S. Masters,  CMM-Based Appraisal for Internal Process Improve-
+ment  (CBA  IPI  Version  1,2  Method  Description) ,  Software  Engineering  Institute,  ;2001; 
+available at www.sei.cmu.edu/publications/documents/01.reports/01tr033.html. 
+[Dun02]; Dunn, W.,  Practical Design of Safety-Critical Computer Systems , William Dunn, ;2002;
+[Dun82]; Dunn, R., and R. Ullman,  Quality Assurance for Computer Software , McGraw-Hill,  ;1982; 
+[Duy02]; VanDuyne, D., J. Landay, and J. Hong,  The Design of Sites , Addison-Wesley, ;2002;
+[Dye92]; Dyer, M.,  The Cleanroom Approach to Quality Software Development , Wiley, ;1992;
+[Edg95]; Edgemon, J.";Right Stuff: How to Recognize It When Selecting a Project Manager,"   Application Development Trends , vol. 2, no. 5, May ;1995; pp. 37–42. 
+[Eis01]; Eisenstein, J., et al.";Applying Model-Based Techniques to the Development of UIs  for Mobile Computers,"  Proceedings of Intelligent User Interfaces , January ;2001;
+[Eji91]; Ejiogu, L.,  Software Engineering with Formal Metrics , QED Publishing, ;1991;     916  
+[Elr01];  Elrad,  T.,  R.  Filman,  and  A.  Bader  (ed.)";Aspect  Oriented  Programming,"   Comm.  ACM , vol. 44, no. 10, October ;2001; special issue. 
+[Erd09]; Ergomus, H.";The Seven Traits of Superprofessionals,"  IEEE Software , vol. 26, no. 4,  July–August, ;2009; pp. 4–6. 
+[Erd10];  Ergogmus,  H.";Déjà  vu:  The  Life  of  Software  Engineering  Ideas,"   IEEE  Software ,  vol. 27, no. 1, January–February ;2010; pp. 2–3. 
+[Eri05]; Ericson, C.,  Hazard Analysis Techniques for System Safety , Wiley-Interscience, ;2005;
+[Eri08]; Erickson, T.,  The Interaction Design Patterns Page , May ;2008; available at www.visi .com/~snowfall/InteractionPatterns.html. 
+[Eva04]; Evans, E.,  Domain Driven Design , Addison-Wesley, ;2004;
+[Eve09]; Everett, G., and B. Meyer";Point/Counterpoint,"  IEEE Software , vol. 26, no. 4, July–
+[Fag86]; Fagan, M.";Advances in Software Inspections,"  IEEE Trans. Software Engineering ,  August ;2009; pp. 62–65.  vol. 12, no. 6, July ;1986; 
+[Fal10]; Falessi, D., et al.";Peaceful Coexistence: Agile Developer Perspectives on Software  Architecture,"  IEEE Software , vol. 27, no. 3, March–April ;2010; pp. 23–25. 
+[Fel07]; Feller, J., et al. (eds.),  Perspectives on Free and Open Source Software , The MIT Press,  ;2007; 
+[Fel89]; Felican, L., and G. Zalateu";Validating Halstead’s Theory for Pascal Programs,"  IEEE  Trans. Software Engineering , vol. SE-15, no. 2, December ;1989; pp. ;1630;–;1632; 
+[Fen91]; Fenton, N.,  Software Metrics , Chapman and Hall, ;1991;
+[Fen94];  Fenton,  N.";Software  Measurement:  A  Necessary  Scientiﬁ c  Basis,"   IEEE  Trans.  Software Engineering , vol. SE-20, no. 3, March ;1994; pp. 199–206. 
+[Fer00]; Fernandez, E. B., and X. Yuan";Semantic Analysis Patterns,"  Proceedings of the   19th 
+International Conerence on Conceptual Modeling, ER;2000; , Lecture Notes in Computer 
+Science  ;1920;  Springer,  ;2000;  pp.  183–195.  Also  available  from  www.cse.fau.edu/~ed/
+SAPpaper2.pdf. 
+[Fer97]; Ferguson, P., et al.";Results of Applying the Personal Software Process,"  IEEE Com- puter , vol. 30, no. 5, May ;1997; pp. 24–31. 
+[Fer98];  Ferdinandi,  P.  L.";Facilitating  Communication,"   IEEE  Software ,  September  ;1998; 
+[Fil05]; Filman, R., et al.,  Aspect-oriented Software Development , Addison-Wesley, ;2005;
+[Fir12];  Firesmith,  D.,   Security  and  Safety  Requirements  for  Software-Intensive  Systems , 
+[Fir93]; Firesmith, D. G.,  Object-Oriented Requirements Analysis and Logical Design , Wiley,  pp. 92–96.  Auerbach, ;2012;  ;1993; 
+[Fis11]; Fisher, R., et al.,  Getting to Yes: Negotiating without Giving In , Penguin Books, ;2011;
+[Fle98]; Fleming, Q., and J. Koppelman";Earned Value Project Management,"  CrossTalk , vol.  11, no. 7, July ;1998; p. 19. 
+[Fok10]; Fokaefs, M., et al., WikiDev 2.0: Facilitating Software Development Teams,  Proceed-
+ings  of  the  14th  European  Conference  on  Software  Maintenance  and  Reengineering , 
+March 15–18, ;2010; pp. 276–277. 
+[Fos06]; Foster, E.";Quality Culprits," InfoWorld Grip Line Weblog, May 2, ;2006; available at  http://weblog.infoworld.com/gripeline/;2006;/05/02_a395.html. 
+[Fow00];  Fowler,  M.,  et  al.,   Refactoring:  Improving  the  Design  of  Existing  Code ,  Addison- Wesley, ;2000; 
+[Fow01];  Fowler,  M.,  and  J.  Highsmith";The  Agile  Manifesto,"   Software  Development  Mag-
+azine ,  August  ;2001;  available  at  www.sdmagazine.com/documents/s=844/sdm;0108;a/
+;0108;a.htm. 
+[Fow02];  Fowler,  M.";The  New  Methodology,"  June  ;2002;  available  at  www.martinfowler .com/articles/newMethodology.html#N8B. 
+[Fow03]; Fowler, M., et al.,  Patterns of Enterprise Application Architecture , Addison-Wesley,  ;2003; 
+[Fow04]; Fowler, M.,  UML Distilled , 3rd ed., Addison-Wesley, ;2004;
+[Fow97]; Fowler, M.,  Analysis Patterns: Reusable Object Models , Addison-Wesley, ;1997;        917
+[Fra93]; Frankl, P., and S. Weiss";An Experimental Comparison of the Effectiveness of Branch 
+Testing and Data Flow,"  IEEE Trans. Software Engineering , vol. SE-19, no. 8, August ;1993; 
+pp. 770–787. 
+[Fre80];  Freeman,  P.";The  Context  of  Design,"  in   Software  Design  Techniques ,  3rd  ed.  (P. Freeman and A. Wasserman, eds.), IEEE Computer Society Press, ;1980; pp. 2–4. 
+[Fre90];  Freedman,  D.,  and  G.  Weinberg,   Handbook  of  Walkthroughs,  Inspections  and  Technical Reviews , 3rd ed., Dorset House, ;1990; 
+[Fri10]; Fricker, S.";Handshaking with Implementation Proposals: Negotiating Requirements  Understanding,"  IEEE Software , vol. 27, no. 2, March–April ;2010; pp. 72–80. 
+[Gag04]; Gage, D., and J. McCormick";We Did Nothing Wrong,"  Baseline Magazine , March 4,  ;2004; available at www.baselinemag.com/article2/0,;1397;;1544;403,00.asp. 
+[Gai95]; Gaines, B.";Modeling and Forecasting the Information Sciences," Technical Report,  University of Calgary, Calgary, Alberta, September ;1995; 
+[Gam95]; Gamma, E., et al.,  Design Patterns: Elements of Reusable Object-Oriented Software , 
+[Gar08]; GartnerGroup";Understanding Hype Cycles," ;2008; available at www.gartner.com/ Addison-Wesley, ;1995;  pages/story.php.id.;8795;s.8.jsp. 
+[Gar09]; Gardner, D.";Can Software Development Aspire to the Cloud?"  ZDNet.com , April 
+28,  ;2009;  available  at   http://www.zdnet.com/blog/gardner/can-software-development-
+aspire-to-the-cloud/;2915; . 
+[Gar09a];  Garlan,  D.,  et  al.";Architectural  Mismatch:  Way  Reuse  is  Still  So  Hard,"   IEEE  Software , vol. 26, no. 4, July–August ;2009; pp. 66–69. 
+[Gar10]; Garcia-Crespo, A. et al.";A Qualitative Study of Hard Decision Making in Manag-
+ing Global Software Development Teams,"  Journal of Management Information Systems , 
+vol. 27, no. 3, June ;2010; pp. 247–252. 
+[Gar12];  GartnerGroup";Gartner  Says  Worldwide  Media  Tablets  Sales  to  Reach  119 
+Million  Units  in  ;2012";  April  ;2012;  available  at  http://www.gartner.com/it/page.jsp?id=
+;1980;115. 
+[Gar84]; Garvin, D.";What Does ‘Product Quality’ Really Mean?"  Sloan Management Review ,  Fall ;1984; pp. 25–45. 
+[Gar87];  Garvin  D.";Competing  on  the  Eight  Dimensions  of  Quality,"   Harvard  Business 
+Review , November ;1987; pp. 101–109. A summary is available at www.acm.org/crossroads/
+xrds6-4/software.html. 
+[Gar95]; Garlan, D., and M. Shaw";An Introduction to Software Architecture,"  Advances in 
+Software  Engineering  and  Knowledge  Engineering ,  vol.  I  (V.  Ambriola  and  G.  Tortora, 
+eds.), World Scientiﬁ c Publishing Company, ;1995; 
+[Gau89]; Gause, D., and G. Weinberg,  Exploring Requirements: Quality Before Design , Dorset  House, ;1989; 
+[Gav11]; Gavalas, D., and D. Economou";Development Platforms for Mobile Applications,"   IEEE Software , vol. 28, no. 1, January–February, ;2011; pp. 77–86. 
+[Gey01];  Geyer-Schulz,  A.,  and  M.  Hahsler";Software  Engineering  with  Analysis  Pat-
+terns," Technical Report 01/;2001; Institut für Informationsverarbeitung und -wirtschaft, 
+Wirschaftsuniversität Wien, November ;2001; downloadable from http://citeseerx.ist.psu.
+edu/viewdoc/download?doi=10.1.1.70.;8415;&rep=rep1&type=pdf. 
+[Gho01];  Ghoshm,  A.,  and  Swaminatha,  T.  "Software  Security  and  Privacy  Risks  in  Mobile  E-Commerce,"  Communication of the ACM , vol. 44, no. 2, February ;2001; pp. 51–57. 
+[Gil06]; Gillis, D.";Pattern-Based Design," tehan + lax blog, September 14, ;2006; available at  www.teehanlax.com/blog/?p=96. 
+[Gil88]; Gilb, T.,  Principles of Software Project Management , Addison-Wesley, ;1988;
+[Gil95]; Gilb, T.";What We Fail to Do in Our Current Testing Culture,"  Testing Techniques  Newsletter  (online edition, ttn@soft.com), Software Research, January ;1995; 
+[Gla02]; Gladwell, M.,  The Tipping Point , Back Bay Books, ;2002;
+[Gla98]; Glass, R.";Deﬁ ning Quality Intuitively,"  IEEE Software , May ;1998; pp. 103–104, 107
+[Gli07];  Glinz,  M.,  and  R.  Wieringa";Stakeholders  in  Requirements  Engineering,"   IEEE  Software , vol. 24, no. 2, March–April ;2007; pp. 18–20.     918  
+[Gli09]; Glinz, M.";A Risk-Base, Value-Oriented Approach to Quality Requirements,"  IEEE  Software , vol. 26, no. 5, March–April ;2009; pp. 34–41. 
+[Glu94];  Gluch,  D.";A  Construct  for  Describing  Software  Development  Risks,"  CMU/SEI- 94-TR-14, Software Engineering Institute, ;1994; 
+[Gna99]; Gnaho, C., and F. Larcher";A User-Centered Methodology for Complex and Cus-
+tomizable Web Engineering,"  Proceedings of the First ICSE Workshop on Web Engineering , 
+ACM, Los Angeles, May ;1999; 
+[Gon04];  Gonzales,  R.";Requirements  Engineering,"  Sandia  National  Laboratories,  a  slide 
+presentation,  available  at  www.incose.org/enchantment/docs/04AprRequirement-
+sEngineering.pdf. 
+[Gor06]; Gorton, I.,  Essential Software Architecture , Springer, ;2006;
+[Got11];  Gotel,  O.,  and  S.  Morris";Requirements  Tracery,"   IEEE  Software ,  vol.  28,  no.  5, 
+[Gra03]; Gradecki, J., and N. Lesiecki,  Mastering AspectJ: Aspect-Oriented Programming in 
+[Gra87];  Grady,  R.  B.,  and  D.  L.  Caswell,   Software  Metrics:  Establishing  a  Company-Wide 
+[Gra92];  Grady,  R.  G.,   Practical  Software  Metrics  for  Project  Management  and  Process  September–October ;2011; pp. 92–94.  Java , Wiley, ;2003;  Program , Prentice Hall, ;1987;  Improvement , Prentice Hall, ;1992; 
+[Gru00]; Gruia-Catalin, R., et al.";Software Engineering for Mobility: A Roadmap,"  Proceed-
+ings   of the 22nd International Conference on the Future of Software Engineering , ;2000;
+[Gru02];  Grundy,  J.";Aspect-Oriented  Component  Engineering,"  ;2002;  www.cs.auckland.
+[Gub09];  Gube,  J.";40+  Helpful  Resources  on  User  Interface  Design  Patterns,"  June  15, 
+http://www.smashingmagazine.com/;2009;/06/15/40-helpful-resources-on-user- ac.nz/~john-g/aspects.html.  ;2009; 
+interface-design-patterns/. 
+[Gus89];  Gustavsson,  A.";Maintaining  the  Evolution  of  Software  Objects  in  an  Integrated 
+Environment,"  Proceedings of the Second International Workshop on Software Conﬁ gu-
+ration Management , ACM, Princeton, NJ, October ;1989; pp. 114–117. 
+[Gut93];  Guttag,  J.,  and  J.  Horning,   Larch:  Languages  and  Tools  for  Formal  Speciﬁ cation ,  Springer-Verlag, ;1993; 
+[Hac98]; Hackos, J., and J. Redish,  User and Task Analysis for Interface Design , Wiley, ;1998;
+[Hai02];  Hailpern,  B.,  and  P.  Santhanam";Software  Debugging,  Testing  and  Veriﬁ cation,"  IBM  Systems  Journal ,  vol.  41,  no.  1,  ;2002;  available  at  www.research.ibm.com/journal/
+sj/411/hailpern.html. 
+[Hal77]; Halstead, M.,  Elements of Software Science , North-Holland, ;1977;
+[Hal90]; Hall, A.";Seven Myths of Formal Methods,"  IEEE Software , September ;1990; pp. 11–20
+[Hal98];  Hall,  E.  M.,   Managing  Risk:  Methods  for  Software  Systems  Development ,  Addison- Wesley, ;1998; 
+[Ham90]; Hammer, M.";Reengineer Work: Don’t Automate, Obliterate,"  Harvard Business  Review , July–August ;1990; pp. 104–112. 
+[Han95]; Hanna, M.";Farewell to Waterfalls,"  Software Magazine , May ;1995; pp. 38–46
+[Har11]; Harris, N., and P. Avgeriou";Pattern-Based Architecture Reviews,"  IEEE Software ,  vol. 28, no. 6, November–December ;2011; pp. 66–71. 
+[Har12]; Hardy, T.,  Software and System Safety , Authorhouse, ;2012;
+[Har98b];  Harrison,  R.,  S.  Counsell,  and  R.  Nithi";An  Evaluation  of  the  MOOD  Set  of 
+Object-Oriented Software Metrics,"  IEEE Trans. Software Engineering , vol. SE-24, no. 6, 
+June ;1998; pp. 491–496. 
+[Hen10];  Hendler,  J.";Web  3.0:  The  Dawn  of  Semantic  Search,"   IEEE  Computer ,  January,  ;2010; p. 77.  ;2000; 
+[Her00]; Herrmann, D.,  Software Safety and Reliability , Wiley-IEEE Computer Society Press, 
+[Het84]; Hetzel, W.,  The Complete Guide to Software Testing , QED Information Sciences, ;1984;
+[Het93]; Hetzel, W.,  Making Software Measurement Work , QED Publishing, ;1993;
+[Hev93];  Hevner,  A.,  and  H.  Mills";Box  Structure  Methods  for  System  Development  with  Objects,"  IBM Systems Journal , vol. 31, no. 2, February ;1993; pp. 232–251.        919 vol. 14, no. 12, December ;2001;  vol. 15, no. 1, January ;2002;  ;1995; pp. 2–4. 
+[Hig01];  Highsmith,  J.  (ed.)";The  Great  Methodologies  Debate:  Part  1,"   Cutter  IT  Journal ., 
+[Hig02a]; Highsmith, J. (ed.)";The Great Methodologies Debate: Part 2,"  Cutter IT Journal , 
+[Hig95]; Higuera, R.";Team Risk Management,"  CrossTalk , U.S. Dept. of Defense, January 
+[Hil05];  Hildreth,  S.";Buggy  Software:  Up  from  a  Low  Quality  Quagmire,"   Computerworld , 
+July  25,  ;2005;  available  at  www.computerworld.com/developmenttopics/development/
+story/0,;1080;1,;1033;78,00.html. 
+[Hil13]; Hillside.net,  Patterns Catalog , ;2013; available at http://hillside.net/patterns/patterns-
+[Hne11]; Hneif, M., and S. Lee";Using Guidelines to Improve Quality in Software Nonfunc-
+tional Attributes,"  IEEE Software , vol. 28, no. 5, November–December ;2011; pp. 72–73
+[Hof00];  Hofmeister,  C.,  R.  Nord,  and  D.  Soni,   Applied  Software  Architecture ,  Addison- catalog.  Wesley, ;2000; 
+[Hof01];  Hofmann,  C.,  et  al.";Approaches  to  Software  Architecture,"  ;2001;  downloadable  from http://citeseer.nj.nec.com/;8401;5.html. 
+[Hol06]; Holzner, S.,  Design Patterns for Dummies , For Dummies Publishers, ;2006;
+[Hoo96]; Hooker, D.";Seven Principles of Software Development," September ;1996; available  at http://c2.com/cgi/wikiSevenPrinciplesOfSoftwareDevelopment. 
+[Hoo12]; Hoober, S., and E. Berkman,  Designing Mobile Interfaces , O’Reilly Media, ;2012;
+[Hop90];  Hopper,  M.";Rattling  SABRE,  New  Ways  to  Compete  on  Information,"   Harvard  Business Review , May–June ;1990; 
+[Hor03]; Horch, J.,  Practical Guide to Software Quality Management , 2nd ed., Artech House, 
+[Hoy09]; Hoyle, D.,  ISO ;9000; Quality Systems Handbook , 6th ed., Taylor & Francis, ;2009;
+[Hum00]; Humphrey, W.,  Introduction to the Team Software Process , Addison-Wesley, ;2000;
+[Hum05];  Humphrey,  W.,   A  Self-Improvement  Process  for  Software  Engineers ,  Addison- ;2003;  Wesley, ;2005; 
+[Hum95]; Humphrey, W.,  A Discipline for Software Engineering , Addison-Wesley, ;1995;
+[Hum96]; Humphrey, W.";Using a Deﬁ ned and Measured Personal Software Process,"  IEEE  Software , vol. 13, no. 3, May–June ;1996; pp. 77–88. 
+[Hum97]; Humphrey, W.,  Introduction to the Personal Software Process , Addison-Wesley, ;1997;
+[Hum98];  Humphrey,  W.";The  Three  Dimensions  of  Process  Improvement,  Part  III:  The 
+Team  Process,"   CrossTalk ,  April  ;1998;  available  at  www.stsc.hill.af.mil/crosstalk/;1998;/
+apr/dimensions.asp. 
+[Hun99]; Hunt, A., D. Thomas, and W. Cunningham,  The Pragmatic Programmer , Addison- Wesley, ;1999; 
+[Hya96]; Hyatt, L., and L. Rosenberg";A Software Quality Model and Metrics for Identifying 
+Project  Risks  and  Assessing  Software  Quality,"  NASA  SATC,  ;1996;  available  at  http://
+satc.gsfc.nasa.gov/support/STC_APR96/qualtiy/stc_qual.html. 
+[IBM13];  IBM,   Web  Services  Globalization  Model ,  ;2013;  available  at  http://www.ibm.com/ developerworks/webservices/library/ws-global/. 
+[IBM81];  "Implementing  Software  Inspections,"  course  notes,  IBM  Systems  Sciences  Insti-
+[IEE93a];  IEEE Standards Collection: Software Engineering , IEEE Standard 610.12-;1990; IEEE,  tute, IBM Corporation, ;1981;  ;1993; 
+[IEE93b];  IEEE Standard Glossary of Software Engineering Terminology , IEEE, ;1993;
+[IEE00];  IEEE  Standard  Association,  IEEE-Std-;1471;-;2000;   Recommended  Practice  for  Archi-
+tectural  Description  of  Software-Intensive  Systems ,  ;2000;  available  at  http://standards.
+ieee.org/reading/ieee/std_public/description/se/;1471;-;2000;_desc.html. 
+[IEE05];  IEEE  Std.  982.1-;2005;   IEEE  Standard  Dictionary  of  Measures  of  the  Software  As-
+pects  of  Dependability ,  ;2005;  available  at  http://standards.ieee.org/ﬁ ndstds/standard/
+982.1-;2005;html. 
+[IEE09];   IEEE  Software   (special  issue)";Human  Aspects  of  Software  Engineering,"  vol.  28,  no 6, November–December, ;2009;     920  
+[IFP01];  Function Point Counting Practices Manual , ;2001; downloadable from: perun.pmf.uns. ac.rs/old/repository/…/se/functionpoints.pdf. 
+[IFP12];  Function Point Bibliography/Reference Library , International Function Point Users  Group, ;2012; available from http://www.ifpug.org/?page_id=237. 
+[Isk08];  Iskold,  A.";Top  Ten  Concepts  that  Every  Software  Engineer  Should  Know,"  Read-
+Write,  July  ;2008;  available  from  http://readwrite.com/;2008;/07/22/top_10_concepts_
+that_every_software_engineer_should_know. 
+[ISO00];  ISO ;9001;: ;2000; Document Set , International Organization for Standards, ;2000; avail- able at www.iso.ch/iso/en/iso;9000;-;1400;0/iso;9000;/iso;9000;index.html. 
+[ISO02];   Z  Formal  Speciﬁ cation  Notation—Syntax,  Type  System  and  Semantics ,  ISO/IEC  ;1356;8:;2002; Intl. Standards Organization, ;2002; 
+[ISO08]; ISO SPICE, ;2008; available at www.isospice.com/categories/SPICE-Project/
+[Ivo01]; Ivory, M., R. Sinha, and M. Hearst"; Empirically Validated Web Page Design Metrics," 
+ACM   SIGCHI’01 ,  March  31–April  4,  ;2001;  available  at  http://webtango.berkeley.edu/
+papers/chi;2001;/. 
+[Jac02a];  Jacobson,  I.";A  Resounding  ‘Yes’  to  Agile  Processes—But  Also  More,"   Cutter  IT  Journal , vol. 15, no. 1, January ;2002; pp. 18–24. 
+[Jac02b]; Jacyntho, D., D. Schwabe, and G. Rossi";An Architecture for Structuring Complex  Web Applications," ;2002; available at www;2002;org/CDROM/alternate/478/. 
+[Jac04];  Jacobson,  I.,  and  P.  Ng,   Aspect-Oriented  Software  Development ,  Addison-Wesley, 
+[Jac75]; Jackson, M. A.,  Principles of Program Design , Academic Press, ;1975;
+[Jac92]; Jacobson, I.,  Object-Oriented Software Engineering , Addison-Wesley, ;1992;
+[Jac98]; Jackman, M.";Homeopathic Remedies for Team Toxicity,"  IEEE Software , July ;1998;  ;2004;  pp. 43–45. 
+[Jac99]; Jacobson, I., G. Booch, and J. Rumbaugh,  The Uniﬁ ed Software Development Process ,  Addison-Wesley, ;1999; 
+[Jal04]; Jalote, P., et al.";Timeboxing: A Process Model for Iterative Software Development,"  Journal of Systems and Software , vol. 70, issue 2, ;2004; pp. 117–127. Available at www.cse.
+iitk.ac.in/users/jalote/papers/Timeboxing.pdf
+[Jec06]; Jech, T.,  Set Theory , 3rd ed., Springer, ;2006;
+[Jon04]; Jones, C.";Software Project Management Practices: Failure Versus Success,"  Cross-
+Talk , October ;2004; Available at www.stsc.hill.af.mil/crossTalk/;2004;/10/;0410;Jones.html. 
+[Jon86]; Jones, C.,  Programming Productivity , McGraw-Hill, ;1986;
+[Jon91]; Jones, C.,  Systematic Software Development Using VDM , 2nd ed., Prentice Hall, ;1991;
+[Jon96];  Jones,  C.";How  Software  Estimation  Tools  Work,"   American  Programmer ,  vol.  9,  no. 7, July ;1996; pp. 19–27. 
+[Jon98]; Jones, C.,  Estimating Software Costs , McGraw-Hill, ;1998;
+[Joy00]; Joy, B.";The Future Doesn’t Need Us,"  Wired , vol. 8, no. 4, April ;2000;
+[Kai02]; Kaiser, J.";Elements of Effective Web Design,"  About, Inc ., ;2002; available at http://webdesign.about.com/library/weekly/aa;0919;98.htm. 
+[Kan01]; Kaner, C.";Pattern: Scenario Testing" (draft), ;2001; available at www.testing.com/ test-patterns/patterns/pattern-scenario-testing-kaner.html. 
+[Kan93]; Kaner, C., J. Falk, and H. Q. Nguyen,  Testing Computer Software , 2nd ed., Van Nostrand-
+[Kan95]; Kaner, C.";Lawyers, Lawsuits, and Quality Related Costs," ;1995; available at www. Reinhold, ;1993;  badsoftware.com/plaintif.htm. 
+[Kanll]; Kannan, N.";Mobile Testing: Nine Strategy Tests You’ll Want to Perform," ;2011; avail-
+able  at   http://searchsoftwarequality.techtarget.com/tip/Mobile-testing-Nine-strategy-
+tests-youll-want-to-perform . 
+[Kar94]; Karten, N.,  Managing Expectations , Dorset House, ;1994;
+[Kau95]; Kauffman, S.,  At Home in the Universe , Oxford, ;1995;
+[Kaz03]; Kazman, R., and A. Eden";Deﬁ ning the Terms Architecture, Design, and Implemen-
+tation,"  news@sei interactive , Software Engineering Institute, vol. 6, no. 1, ;2003; available 
+at www.sei.cmu.edu/news-at-sei/columns/the_architect/;2003;/1q03/architect-1q03.htm.        921
+[Kaz98]; Kazman, R., et al.,  The Architectural Tradeoff Analysis Method , Software Engineer-
+ing  Institute,  CMU/SEI-98-TR-008,  July  ;1998;  summarized  at  http://www.sei.cmu.edu/
+architecture/tools/evaluate/atam.cfm. 
+[Kea07];  Keane";Testing  Mobile  Business  Applications,"  a  white  paper,  ;2007;  available  at 
+[Kei98]; Keil, M., et al.";A Framework for Identifying Software Project Risks,"  CACM , vol. 41,  www.keane.com.  no. 11, November ;1998; pp. 76–83. 
+[Kel00]; Kelly, D., and R. Oshana";Improving Software Quality Using Statistical Techniques, 
+Information and Software Technology,"  Elsevier , vol. 42, August ;2000; pp. 801–807, avail-
+able  at  www.eng.auburn.edu/~kchang/comp;6710;/readings/Improving_Quality_with_
+Statistical_Testing_InfoSoftTech_August;2000;pdf. 
+[Ker05]; Kerievsky, J.,  Industrial XP: Making XP Work in Large Organizations , Cutter Con-
+sortium,  Executive  Report,  vol.  6.,  no.  2,  ;2005;  available  at  www.cutter.com/content-
+and-analysis/resource-centers/agile-project-management/sample-our-research/
+apmr;0502;html. 
+[Ker11];  Kershbaum,  F.,  et  al.";Secure  Collaborative  Supply-Chain  Management,"   IEEE  Computer , vol. 44, no. 9, September ;2011; pp. 38–43. 
+[Ker78];  Kernighan,  B.,  and  P.  Plauger,   The  Elements  of  Programming  Style ,  2nd  ed.,  McGraw-Hill, ;1978; 
+[Kho12a]; Khode, A.";Getting Started with Mobile Apps Testing," ;2012; available at  http://www.mobileappstesting.com/getting-started-with-mobile-apps-testing/ . 
+[Kho12b]; Khode, A.";Checklist for Mobile Test Automation Tools," ;2012; available at  http://www.mobileappstesting.com/getting-started-with-mobile-apps-testing/  
+[Kir94]; Kirani, S., and W. Tsai";Speciﬁ cation and Veriﬁ cation of Object-Oriented Programs," 
+Technical  Report  TR  94-64,  Computer  Science  Department,  University  of  Minnesota, 
+December ;1994; 
+[Kiz05]; Kizza, J.,  Computer Network Security , Springer, ;2005;
+[Knu98]; Knuth, D.,  The Art of Computer Programming , three volumes, Addison-Wesley, ;1998;
+[Koe12];  Koester,  J.";The  Seven  Deadly  Sins  of  MobileApp  Design,"   Venture  Beat/Mobile , 
+May 31, ;2012; available at http://venturebeat.com/;2012;/05/31/the-7-deadly-sins-of-mobile-
+app-design/ 
+[Kon02];  Konrad,  S.,  and  B.  Cheng";Requirements  Patterns  for  Embedded  Systems,"   Pro-
+ceedings of the 10th Anniversary IEEE Joint International Conference on Requirements 
+Engineering ,  IEEE,  September  ;2002;  pp.  127–136,  available  at  http://citeseer.ist.psu.
+edu/;6692;58.html. 
+[Kor03]; Korpipaa, P., et al.";Managing Context Information in Mobile Devices,"  IEEE Perva- sive Computing , vol. 2, no. 3, July–September ;2003; pp. 42–51. 
+[Kra88]; Krasner, G., and S. Pope";A Cookbook for Using the Model-View Controller User 
+Interface  Paradigm  in  Smalltalk-80,"   Journal  of  Object-Oriented  Programming ,  vol.  1, 
+no. 3, August–September ;1988; pp. 26–49. 
+[Kra95]; Kraul, R., and L. Streeter";Coordination in Software Development,"  CACM , vol. 38, 
+[Kru05]; Krutchen, P.";Software Design in a Postmodern Era,"  IEEE Software , vol. 22, no. 2,  no. 3, March ;1995; pp. 69–81.  March–April ;2005; pp. 16–18. 
+[Kru06];  Kruchten,  P.,  H.  Obbink,  and  J.  Stafford  (eds.)";Software  Architectural"  (special  issue),  IEEE Software , vol. 23, no. 2, March–April ;2006; 
+[Kru09]; Kruchten, P., et al. "The Decision View’s Role in Software Architecture Practice,"   IEEE Software , vol. 26, no. 2, March–April ;2009; pp. 70–72. 
+[Kur05]; Kurzweil, R.,  The Singularity Is Near , Penguin Books, ;2005;
+[Kur13]; Kurzweil, R.,  How to Create a Mind , Viking, ;2013;
+[Kyb84]; Kyburg, H.,  Theory and Measurement , Cambridge University Press, ;1984;
+[Laa00]; Laakso, S., et al.";Improved Scroll Bars,"  CHI ;2000; Conf. Proc ., ACM, ;2000; pp. 97–98,  available at www.cs.helsinki.ﬁ /u/salaakso/patterns/. 
+[Lag10];  Lago,  P.,  et  al.";Software  Architecture:  Framing  Stakeholders’  Concerns,"   IEEE  Software , vol. 27, no. 6, November–December ;2010; pp. 20–24.     922  
+[Lai02]; Laitenberger, A.";A Survey of Software Inspection Technologies," in  Handbook on 
+Software  Engineering  and  Knowledge  Engineering ,  World  Scientiﬁ c  Publishing  Com-
+pany, ;2002; 
+[Lam01a]; Lam, W.";Testing E-Commerce Systems: A Practical Guide,"  IEEE IT Pro , March– April ;2001; pp. 19–28. 
+[Lam01b];  Lamsweerde,  A.  "Goal-Oriented  Requirements  Engineering:  A  Guided  Tour,"  Proceedings  of  5th  IEEE  International  Symposium  on  Requirements  Engineering , 
+Toronto, August ;2009; pp. 249–263. 
+[Lan01]; Lange, M.";It’s Testing Time! Patterns for Testing Software," June ;2001; available at  www.testing.com/test-patterns/patterns/index.html. 
+[Lan02];  Land,  R.";A  Brief  Survey  of  Software  Architecture,"  technical  report,  Dept.  of  Computer Engineering, Mälardalen University, Sweden, February ;2002; 
+[Lan10];  Lanubile,  F.,  C.  Ebert,  R.  Prikladnicki,  and  A.  Vizcaino"; Collaboration  Tools  for  Global Software Engineering ,"  IEEE Software , vol. 27, ;2010; pp. 52–55. 
+[Laz11]; Lazzaroni, M., et al.,  Reliability Engineering , Springer, ;2011;
+[Leh97a];  Lehman,  M.,  and  L.  Belady,   Program  Evolution:  Processes  of  Software  Change ,  Academic Press, ;1997; 
+[Leh97b]; Lehman, M., et al.";Metrics and Laws of Software Evolution—The Nineties View,"  Proceedings of the 4th International Software Metrics Symposium (METRICS ’97) , IEEE, 
+;1997; available at www.ece.utexas.edu/~perry/work/papers/feast1.pdf. 
+[Let01];  Lethbridge,  T.,  and  R.  Laganiere,   Object-Oriented  Software  Engineering:  Practical  Software Development Using UML and Java , McGraw-Hill, ;2001; 
+[Let03a]; Lethbridge, T., Personal communication on domain analysis, May ;2003;
+[Let03b]; Lethbridge, T., Personal communication on software metrics, June ;2003;
+[Lev01];  Levinson,  M.";Let’s  Stop  Wasting  $78  billion  a  Year,"   CIO  Magazine ,  October  15,  ;2001; available at www.cio.com/archive/;1015;01/wasting.html. 
+[Lev95]; Leveson, N.,  Safeware: System Safety and Computers , Addison-Wesley, ;1995;
+[Lew09]; Lewicki, R., B. Barry, and D. Saunders,  Negotiation , McGraw-Hill, ;2009;
+[Lie03];  Lieberherr,  K.";Demeter:  Aspect-Oriented  Programming,"  May  ;2003;  available  at  www.ccs.neu.edu/home/lieber/LoD.html. 
+[Lin79]; Linger, R., H. Mills, and B. Witt,  Structured Programming , Addison-Wesley, ;1979;
+[Lin88]; Linger, R., and H. Mills";A Case Study in Cleanroom Software Engineering: The IBM  COBOL Structuring Facility,"  Proc. COMPSAC ‘88 , Chicago, October ;1988; 
+[Lin94];  Linger,  R.";Cleanroom  Process  Model,"   IEEE  Software ,  vol.  11,  no.  2,  March  ;1994;  pp. 50–58.  ;1988; 
+[Lip10]; Lipner, S.";The Security Development Life Cycle," June 24, ;2010; available at  https://
+www.owasp.org/images/7/78/OWASP_AppSec_Research_;2010;_Keynote_2_by_Lipner.pdf 
+[Lis88];  Liskov,  B.";Data  Abstraction  and  Hierarchy,"   SIGPLAN  Notices ,  vol.  23,  no.  5,  May 
+[Liu98]; Liu, K., et al.";Report on the First SEBPC Workshop on Legacy Systems," Durham Uni-
+versity, February ;1998; available at www.dur.ac.uk/CSM/SABA/legacy-wksp1/report.html
+[Lon02];  Longstreet,  D.";Fundamental  of  Function  Point  Analysis,"  Longstreet  Consulting,  Inc., ;2002; available at www.ifpug.com/fpafund.htm. 
+[Lor94]; Lorenz, M., and J. Kidd,  Object-Oriented Software Metrics , Prentice Hall, ;1994;
+[Lup08];  Lupton,  E.,  and  J.  Cole,   Graphic  Design:  The  New  Basics ,  Princeton  Architectural  Press, ;2008; 
+[Maa07];  Maassen,  O.,  and  S.  Stelting";Creational  Patterns:  Creating  Objects  in  an  OO  System," ;2007; available at www.informit.com/articles/article.asp?p=;2645;2&rl=1. 
+[Mad10]; Madison, J.";Agile-Architecture Interactions,"  IEEE Software , vol. 27, no. 3, March– April ;2010; pp. 41–48. 
+[Mai10a]; Maiden, N., and S. Jones";Agile Requirements—Can We Have Our Cake and Eat It  Too?"  IEEE Software , vol. 27, no. 3, May–June ;2010; pp. 20–24. 
+[Mai10b];  Maiden,  N.";Service  Design:  It’s  All  in  the  Brand,"   IEEE  Software ,  vol.  27,  no.  5,  September–October ;2010; pp. 18–19. 
+[Man81]; Mantai, M.";The Effect of Programming Team Structures on Programming Tasks,"   CACM , vol. 24, no. 3, March ;1981; pp. 106–113.        923
+[Man97]; Mandel, T.,  The Elements of User Interface Design , Wiley, ;1997;
+[Mar00];  Martin,  R.";Design  Principles  and  Design  Patterns,"  ;2000;  available  at  www
+[Mar01]; Marciniak, J. (ed.),  Encyclopedia of Software Engineering , 2nd ed., Wiley, ;2001;
+[Mar02a];  Marick,  B.";Software  Testing  Patterns,"  ;2002;  available  at  www.testing.com/ .objectmentor.com.  test-patterns/index.html. 
+[Mar94]; Marick, B.,  The Craft of Software Testing , Prentice Hall, ;1994;
+[Mas02]; Mascolo, C., et al.";Mobile Computing Middleware," appears in  Advanced Lectures  on Networking  (E. Georgi, ed.), Springer-Verlag, ;2002; 
+[Mat94];  Matson,  J.,  et  al";Software  Cost  Estimation  Using  Function  Points,"  IEEE  Trans.  Software Engineering, vol. SE-20, no. 4, April ;1994; pp. 275–287
+[McC04]; McConnell, S.,  Code Complete , 2nd. ed., Microsoft Press, ;2004;
+[McC09]; McCaffrey, J.";Analyzing Risk Exposure and Risk using PERIL,"  MSDN Magazine , 
+January ;2009; available at http://msdn.microsoft.com/en-us/magazine/dd;3154;17.aspx [McC76]; McCabe, T.";A Software Complexity Measure,"  IEEE Trans. Software Engineering ,  vol. SE-2, December ;1976; pp. 308–320. 
+[McC77];  McCall,  J.,  P.  Richards,  and  G.  Walters";Factors  in  Software  Quality,"  three  volumes, NTIS AD-A049-014, 015, 055, November ;1977; 
+[McC94]; McCabe, T. J., and A. H. Watson";Software Complexity,"  CrossTalk , vol. 7, no. 12, 
+[McC96]; McConnell, S.";Best Practices: Daily Build and Smoke Test,"  IEEE Software , vol. 13,  December ;1994; pp. 5–9.  no. 4, July ;1996; pp. 143–144. 
+[McC98]; McConnell, S.,  Software Project Survival Guide , Microsoft Press, ;1998;
+[McC99];  McConnell,  S.";Software  Engineering  Principles,"   IEEE  Software ,  vol.  16,  no.  2,  March–April ;1999; available at www.stevemcconnell.com/ieeesoftware/eic04.htm. 
+[McD93]; McDermid, J., and P. Rook";Software Development Process Models," in  Software  Engineer’s Reference Book , CRC Press, ;1993; pp. 15/26–15/28. 
+[McG91]; McGlaughlin, R.";Some Notes on Program Design,"  Software Engineering Notes ,  vol. 16, no. 4, October ;1991; pp. 53–54. 
+[McG94];  McGregor,  J.,  and  T.  Korson";Integrated  Object-Oriented  Testing  and  Develop-
+ment Processes,"  Communications of the ACM , vol. 37, no. 9, September, ;1994; pp. 59–77. 
+[McN10]; McNeil, P.,  The Web Designer’s Idea Book , vol. 2, How Publishers, ;2010;
+[Mea10]; Mead, N., and Jarzombek, J.";Advancing Software Assurance with Public-Private  Collaboration,"  IEEE Computer , vol. 43, no. 9, September ;2010; pp. 21–30. 
+[Mei06]; Meier, J.";Web Application Security Engineering,"  IEEE Security and Privacy , July– August ;2006; pp. 16–24. 
+[Mei09]; Meier, J., et al.,  Microsoft Application Architecture Guide , 2nd ed., Microsoft Press,  ;2009; available at  http://msdn.microsoft.com/en-us/library/ff;6507;06 . 
+[Mei12]; Meier, J., et al.";Chapter 19: Mobile Applications,"  Application Architecture Guide, 
+2.0 ,  ;2012;  available  at  http://apparchguide.codeplex.com/wikipage?title=Chapter%20
+19%20-%20Mobile%20Applications 
+[Men01]; Mendes, E., N. Mosley, and S. Counsell";Estimating Design and Authoring Effort,"   IEEE Multimedia , vol. 8, no. 1, January–March ;2001; pp. 50–57. 
+[Mer93];  Merlo,  E.,  et  al.";Reengineering  User  Interfaces,"   IEEE  Software ,  January  ;1993;  pp. 64–73. 
+[Mes08]; Messeguer, R., et al. "Communication and Coordination Patterns to Support Mobile 
+Collaboration,"  Proceedings of 12th International Conference on Collaborative and Coop-
+erative Work , April ;2008; pp. 565–570. 
+[Mey09]; Meyer, B., et al.";Programs that Test Themselves,"  IEEE Computer , vol. 42, no. 9,  September ;2009; pp. 46–55. 
+[Mic04]; Microsoft";Prescriptive Architecture: Integration and Patterns,"  MSDN , May ;2004;  available at http://msdn2.microsoft.com/en-us/library/ms;9787;00.aspx. 
+[Mic12];  "Principles  of  Service-Oriented  Design,"  Microsoft,  ;2012;  available  at  http://msdn .microsoft.com/en-us/library/bb;9729;54.aspx 
+[Mic13a]; Microsoft";Patterns and Practices,"  MSDN , available at http://msdn.microsoft.com/ en-us/library/ff;6475;89.aspx.     924  
+[Mic13b];  Microsoft Accessibility Technology for Everyone , ;2013; available at www.microsoft.
+[Mil00a]; Miller, E.";WebSite Testing," ;2000; available at www.soft.com/eValid/Technology/ com/enable/.  White.Papers/website.testing.html. 
+[Mil04]; Miler, J., and J. Gorski";Risk Identiﬁ cation Patterns for Software Projects,"  Foun-
+dations of Computing and Decision Sciences , vol. 29, no. 1, ;2004; pp. 115–131, available at  http://iag.pg.gda.pl/iag/download/Miler-Gorski_Risk_Identiﬁ cation_Patterns.pdf 
+[Mil72];  Mills,  H.";Mathematical  Foundations  for  Structured  Programming,"  Techni-
+cal  Report  FSC  71-;6012;  IBM  Corp.,  Federal  Systems  Division,  Gaithersburg,  MD, 
+;1972; 
+[Mil77]; Miller, E.";The Philosophy of Testing," in  Program Testing Techniques , IEEE Com-
+[Mil87]; Mills, H., M. Dyer, and R. Linger";Cleanroom Software Engineering,"  IEEE Software ,  puter Society Press, ;1977; pp. 1–3.  September ;1987; pp. 19–25. 
+[Mil88];  Mills,  H.";Stepwise  Reﬁ nement  and  Veriﬁ cation  in  Box  Structured  Systems,"   Computer , vol. 21, no. 6, June ;1988; pp. 23–35. 
+[Min95]; Minoli, D.,  Analyzing Outsourcing , McGraw-Hill, ;1995;
+[Mob11]; Mobile Labs";Mobile Application Test Automation: Best Practices for Best Results," 
+a white paper, ;2011; available at  http://mobilelabsinc.com/wp-content/uploads/;2012;/01/
+Mobile-Application-Test-Automation-Best-Practices-White-Paper.pdf.  [Mob12]; "Mobile UI Patterns," ;2012; available at  http://mobile-patterns.com/ 
+[Mor05]; Morales, A.";The Dream Team,"  Dr. Dobbs Portal , March 3, ;2005; available at www .ddj.com/dept/global/;1844;;1530;3. 
+[Mor81];  Moran,  T.";The  Command  Language  Grammar:  A  Representation  for  the  User 
+Interface  of  Interactive  Computer  Systems,"   Intl.  Journal  of  Man-Machine  Studies , 
+vol. 15, pp. 3–50. 
+[Mus87];  Musa,  J.,  A.  Iannino,  and  K.  Okumoto,   Engineering  and  Managing  Software  with  Reliability Measures , McGraw-Hill, ;1987; 
+[Mye78]; Myers, G.,  Composite Structured Design , Van Nostrand, ;1978;
+[Mye79]; Myers, G.,  The Art of Software Testing , Wiley, ;1979;
+[Myl11]; Malavarapu, V., and M. Inanamdar";Taking Testing to the Cloud," ;2012; available at  http://www.cognizant.com/InsightsWhitepapers/Taking-Testing-to-the-Cloud.pdf. 
+[NAS07];  NASA,   Software  Risk  Checklist ,  Form  LeR-F;0510;051,  March  ;2007;  available  at  http://osat-ext.grc.nasa.gov/rmo/spa/SoftwareRiskChecklist.doc. 
+[Nei11]; Neil, T.";A Look Inside Mobile Design Patterns," UXBooth.com, November 12, ;2011;  available at http://www.uxbooth.com/blog/mobile-design-patters/. 
+[Nei12]; Neil, T.,  Mobile Design Pattern Gallery , O’Reilly Media, ;2012;
+[Ngu00];  Nguyen,  H.";Testing  Web-Based  Applications,"   Software  Testing  and  Quality  Engineering , May–June ;2000; available at www.stqemagazine.com. 
+[Ngu01]; Nguyen, H.,  Testing Applications on the Web , Wiley, ;2001;
+[Nie00]; Nielsen, J.,  Designing Web Usability , New Riders Publishing, ;2000;
+[Nie92]; Nierstrasz, O., S. Gibbs, and D. Tsichritzis";Component-Oriented Software Develop- ment,"  CACM , vol. 35, no. 9, September ;1992; pp. 160–165. 
+[Nie94]; Nielsen, J., and J. Levy";Measuring Usability: Preference vs. Performance,"  CACM ,  vol. 37, no. 4, April ;1994; pp. 65–75. 
+[Nie96]; Nielsen, J., and A. Wagner";User Interface Design for the WWW,"  Proc. CHI ’96 Conf.  on Human Factors in Computing Systems , ACM Press, ;1996; pp. 330–331. 
+[Nir10]; Niranjan, P., and C. V. Guru Rao";A Mockup Tool for Software Component Reuse 
+Library,"  Intl. J. Software Engineering & Applications , vol. 1, no. 2, April ;2010; available at 
+http://airccse.org/journal/ijsea/papers/;0410;ijsea1.pdf. 
+[Nok13];  "Category:  Mobile  Design,"  Nokia  Developer,  ;2013;  available  at  http://www .developer.nokia.com/Community/Wiki/Category:Mobile_Design_Patterns. 
+[Nog00]; Nogueira, J., C. Jones, and Luqi";Surﬁ ng the Edge of Chaos: Applications to Soft-
+ware  Engineering,"  Command  and  Control  Research  and  Technology  Symposium, 
+Naval Post Graduate School, Monterey, CA, June ;2000; available at www.dodccrp.org/
+;2000;CCRTS/cd/html/pdf_papers/Track_4/075.pdf.        925
+[Nor70]; Norden, P.";Useful Tools for Project Management" in  Management of Production , 
+[Nor86];  Norman,  D.  A.";Cognitive  Engineering,"  in   User  Centered  Systems  Design ,  Law- M. K. Starr (ed.), Penguin Books, ;1970;  rence Earlbaum Associates, ;1986; 
+[Nor88]; Norman, D.,  The Design of Everyday Things , Doubleday, ;1988;
+[Nov04]; Novotny, O.";Next Generation Tools for Object-Oriented Development,"  The Archi-
+tecture  Journal ,  January  ;2005;  available  at  http://msdn2.microsoft.com/en-us/library/
+aa;4800;62.aspx. 
+[Noy02]; Noyes, B.";Rugby, Anyone?"  Managing Development  (an online publication of Faw-
+cette  Technical  Publications),  June  ;2002;  available  at  www.fawcette.com/resources/
+managingdev/methodologies/scrum/. 
+[Nun11]; Nunes, N., L. Constantine, and R. Kazman";iUCP: Estimating Interactive Software 
+Project Size with Enhanced Use Case Points,"  IEEE Software , vol. 28, no. 4, July–August 
+;2011; pp. 64–73. 
+[Obj10]; "The Dependency Inversion Principle,"  Objectmentor.com , ;2010; available at www .objectmentor.com/resources/articles/dip.pdf>. 
+[Off02]; Offutt, J.";Quality Attributes of Web Software Applications,"  IEEE Software , March– April ;2002; pp. 25–32. 
+[Ols06]; Olsen, G.";From COM to Common,"  Component Technologies , ACM, vol. 4, no. 5, June 
+;2006;  available  at  http://acmqueue.com/modules.php?name=Content&pa=showpage&
+pid=394. 
+[Ols99]; Olsina, L., et al.";Specifying Quality Characteristics and Attributes for Web Sites,"   Proc. 1st ICSE Workshop on Web Engineering , ACM, Los Angeles, May ;1999; 
+[OMG03a]; Object Management Group,  OMG Uniﬁ ed Modeling Language Speciﬁ cation , ver-
+sion 1.5, March ;2003; available at www.rational.com/uml/resources/documentation/
+[OMG03b]; "Object Constraint Language Speciﬁ cation," in  Uniﬁ ed Modeling Language , v2.0,  Object Management Group, September ;2003; available at www.omg.org. 
+[Orf99]; Orfali, R., D. Harkey, and J. Edwards,  Client/Server Survival Guide , 3rd ed., Wiley, ;1999;
+[Osb90];  Osborne,  W.  M.,  and  E.  J.  Chikofsky";Fitting  Pieces  to  the  Maintenance  Puzzle,"   IEEE Software , January ;1990; pp. 10–11. 
+[OSO12];  OpenSource.org , ;2012; available at www.opensource.org/
+[Pag85]; Page-Jones, M.,  Practical Project Management , Dorset House, ;1985; p. vii
+[Par72]; Parnas, D.";On Criteria to Be Used in Decomposing Systems into Modules,"  CACM ,  vol. 14, no. 1, April ;1972; pp. 221–227. 
+[Par96a]; Pardee, W.,  To Satisfy and Delight Your Customer , Dorset House, ;1996;
+[Par96b]; Park, R. E., W. B. Goethert, and W. A. Florac,  Goal Driven Software Measurement—A 
+Guidebook , CMU/SEI-96-BH-002, Software Engineering Institute, Carnegie Mellon Uni-
+versity, August ;1996; 
+[Par10]; Parnas, D.";Interview: Software Security in the Real World,"  IEEE Computer , vol. 43,  no. 1, January ;2010; pp. 28–34. 
+[Par11]; Pardo, C., et al.";Harmonizing Quality Assurance Processes and Product Charac- teristics,"  IEEE Computer , June ;2011; pp. 94–96. 
+[Pas10];  Passos,  L.,  et  al.";Static  Architecture-Conformance  Checking:  An  Illustrative  Overview,"  IEEE Software , vol. 27, no. 5, September–October ;2010; pp. 82–89, 
+[Pat07]; Patton, J.";Understanding User Centricity,"  IEEE Software , vol. 24, no. 6, November– December ;2007; pp. 9–11. 
+[Pau94];  Paulish,  D.,  and  A.  Carleton";Case  Studies  of  Software  Process  Improvement  Measurement,"  Computer , vol. 27, no. 9, September ;1994; pp. 50–57. 
+[Pea11];  Pearson,  S.,  and  M.  Mont";Sticky  Policies:  An  Approach  for  Managing  Privacy  across Multiple Parties,"  IEEE Computer , vol. 44, no. 9, September ;2011; pp. 60–68. 
+[Pee11]; Peeters, J.";Agile Security Requirements Engineering,"  Proceedings of First Inter- national Workshop on Empirical Requirements Engineering , ;2011; 
+[Per74]; Persig, R.,  Zen and the Art of Motorcycle Maintenance , Bantam Books, ;1974;
+[Pha89]; Phadke, M.,  Quality Engineering Using Robust Design , Prentice Hall, ;1989;
+[Pha97]; Phadke, M.";Planning Efﬁ cient Software Tests,"  CrossTalk , vol. 10, no. 10, October  ;1997; pp. 11–15.     926  
+[Phi02]; Phillips, M.";CMMI V1.1 Tutorial," April ;2002; available at www.sei.cmu.edu/cmmi/
+[Phi98];  Phillips,  D.,   The  Software  Project  Manager’s  Handbook ,  IEEE  Computer  Society 
+[Pol45]; Polya, G.,  How to Solve It , Princeton University Press, ;1945;
+[Poo88];  Poore,  J.,  and  H.  Mills";Bringing  Software  Under  Statistical  Quality  Control,"   Quality Progress , November ;1988; pp. 52–55. 
+[Poo93];  Poore,  J.,  H.  Mills,  and  D.  Mutchler";Planning  and  Certifying  Software  System  Reliability,"  IEEE Software , vol. 10, no. 1, January ;1993; pp. 88–99. 
+[Pop08];  Popcorn,  F.,   Faith  Popcorn’s  Brain  Reserve ,  ;2008;  available  at  www.faithpopcorn
+[Pot04]; Potter, M.,  Set Theory and Its Philosophy: A Critical Introduction , Oxford University  Press, ;1998;  .com/.  Press, ;2004; 
+[Pow02]; Powell, T.,  Web Design , 2nd ed., McGraw-Hill/Osborne, ;2002;
+[Pow98]; Powell, T.,  Web Site Engineering , Prentice Hall, ;1998;
+[Pra07]; Pratt, M.";Five Tips for Building an Incident Response Plan,"  Computerworld , May 16, ;2007; 
+available  at  http://www.computerworld.com/s/article/;9019;558/Five_tips_for_building_
+an_incident_response_pla. 
+[Pre05]; Pressman, R.,  Adaptable Process Model , Version 2.0, R. S. Pressman & Associates,  ;2005; available at www.rspa.com/apm/index.html. 
+[Pre08]; Pressman, R., and D. Lowe,  Web Engineering: A Practitioner’s Approach , McGraw-Hill,  ;2008; 
+[Pre88]; Pressman, R.,  Making Software Engineering Happen , Prentice Hall, ;1988;
+[Pre94]; Premerlani, W., and M. Blaha";An Approach for Reverse Engineering of Relational  Databases,"  CACM , vol. 37, no. 5, May ;1994; pp. 42–49. 
+[Pri10]; Prince, B.";10 Most Dangerous Web App Security Flaws,"  eWeek.com , April, 19, ;2010; 
+http://www.eweek.com/c/a/Security/10-Most-Dangerous-Web-App- available 
+Security-Risks-;7307;57/.  at 
+[Put78]; Putnam, L.";A General Empirical Solution to the Macro Software Sizing and Estima-
+tion Problem,"  IEEE Trans. Software Engineering , vol. SE-4, no. 4, July ;1978; pp. 345–361. 
+[Put92]; Putnam, L., and W. Myers,  Measures for Excellence , Yourdon Press, ;1992;
+[Put97a];  Putnam,  L.,  and  W.  Myers";How  Solved  Is  the  Cost  Estimation  Problem?"   IEEE  Software , November ;1997; pp. 105–107. 
+[Put97b];  Putnam,  L.,  and  W.  Myers,   Industrial  Strength  Software:  Effective  Management  Using Measurement , IEEE Computer Society Press, ;1997;
+[Pyz03]; Pyzdek, T.,  The Six Sigma Handbook , McGraw-Hill, ;2003;
+[QAI08];  A Software Engineering Curriculum , QAI, ;2008; information available at www.qaie- school.com/innerpages/offer.asp. 
+[QSM02]; "QSM Function Point Language Gearing Factors," Version 2.0,  Quantitative Soft- ware Management , ;2002; available at www.qsm.com/FPGearing.html. 
+[Qur09];  Qureshi  N.,  and  A.  Perini";Engineering  Adaptive  Requirements,"   Proceedings  of 
+Workshop on Software Engineering for Adaptive and Self-Managing Systems , Vancouver, 
+May ;2009; pp. 126–131. 
+[Rad02];  Radice,  R.,   High-Quality  Low  Cost  Software  Inspections ,  Paradoxicon  Publishing, 
+[Rai06]; Raiffa, H.,  The Art and Science of Negotiation , Belknap Press, ;2005;
+[Rat12]; Raatikainen, M., et al.";Mobile Content as a Service: A Blueprint for a Vendor-Neutral 
+Cloud of Mobile Devices,"  IEEE Software , vol. 29, no. 4, July–August, ;2012; pp. 28–32
+[Red10]; Redwine, S.";Fitting Software Assurance into Higher Education,"  IEEE Computer ,  vol. 43, no. 9, September ;2010; pp. 41–66. 
+[Ree99]; Reel, J.";Critical Success Factors in Software Projects,"  IEEE Software , May ;1999;  ;2002;  pp. 18–23. 
+[Reu12]; Reuveni, D. "Crowdsourcing Provides Answer to App Testing Dilemma," ;2012; available  http://www.wirelessweek.com/Articles/;2010;/02/Mobile-Content-Crowdsourcing- at 
+Answer-App-Testing-Dilemma-Mobile-Applications/ . 
+[Ric01]; Ricadel, A.";The State of Software Quality,"  InformationWeek , May 21, ;2001; avail- able at www.informationweek.com/838/quality.htm.        927
+[Ric04]; Rico, D.,  ROI of Software Process Improvement , J. Ross Publishing, ;2004; A summary  article can be found at http://davidfrico.com/rico03a.pdf. 
+[Rob10];  Robinson,  W.";A  Roadmap  for  Comprehensive  Requirements  Monitoring,"   IEEE  Computer , vol. 43, no. 5, May ;2010; pp. 64–72. 
+[Roc06];  Graphic Design That Works , Rockport Publishers, ;2006;
+[Roc11]; Rocha, F., S, Abreus, and M. Correia";The Final Frontier: Conﬁ dentiality and Privacy  in the Cloud,"  IEEE Computer , vol. 44, no. 9, September ;2011; pp. 44–50. 
+[Roc94]; Roche, J. M.";Software Metrics and Measurement Principles,"  Software Engineer- ing Notes , ACM, vol. 19, no. 1, January ;1994; pp. 76–85. 
+[Rod12]; Rodriguez, S.";Half of Americans Now Have Smartphones,"  The Los Angeles Times , 
+August  14,  ;2012;  available  at  http://www.latimes.com/business/technology/la-ﬁ -tn-
+americans-smartphones-;2012;;0814;0,;6077;673.story. 
+[Rod98]; Rodden, T., et al.";Exploiting Context in HCI Design for Mobile Systems,"  Proceed- ings of Workshop on Human Computer Interaction with Mobile Devices , ;1998; 
+[Roe00]; Roetzheim, W.";Estimating Internet Development,"  Software Development , August  ;2000; available at www.sdmagazine.com/documents/s=741/sdm;0008;d/;0008;d.htm. 
+[Rog12];  Rogers,  A.";Software  Quality  Assurance  Engineers  Are  the  Happiest  Workers  in 
+America,"  Business Insider , April 16, ;2012; available at http://www.businessinsider.com/
+happiest-jobs-in-america-;2012;-4. 
+[Rom11]; Roman, R., et al.";Securing the Internet of Things,"  IEEE Computer , vol. 44, no. 9,  September ;2011; pp. 51–58. 
+[Roo09]; Rooksby, J., et al.";Testing in the Wild: The Social and Organizational Dimensions 
+of Real World Practice,"  Journal of Computer Supported Work , vol. 18, no. 5–6, December 
+;2009; pp. 559–580. 
+[Roo96];  Roos,  J.";The  Poised  Organization:  Navigating  Effectively  on  Knowledge  Land- scapes," ;1996; available at www.imd.ch/fac/roos/paper_po.html. 
+[Ros04];  Rosenhainer,  L.";Identifying  Crosscutting  Concerns  in  Requirements  Speciﬁ ca-
+tions,"  ;2004;  available  at  http://trese.cs.utwente.nl/workshops/oopsla-early-aspects-
+;2004;/Papers/Rosenhainer.pdf. 
+[Ros75]; Ross, D., J. Goodenough, and C. Irvine";Software Engineering: Process, Principles  and Goals,"  IEEE Computer , vol. 8, no. 5, May ;1975; 
+[Rot02]; Roth, J.";Seven Challenges for Developers of Mobile Groupware," in    Proceedings of  Computer Human Interaction Workshop on Mobile Ad Hoc Collaboration , ;2002; 
+[Rou02];  Rout,  T.  (project  manager),   SPICE:  Software  Process  Assessment—Part  1:  Concepts 
+and Introductory Guide , ;2002; available at www.sqi.gu.edu.au/spice/suite/download.html
+[Roy70]; Royce, W.";Managing the Development of Large Software Systems: Concepts and  Techniques,"  Proc. WESCON , August ;1970; 
+[Roz11]; Rozanski, N., and E. Woods,  Software Systems Architecture , second edition, Addison- Wesley, ;2011; 
+[Rum91]; Rumbaugh, J., et al.,  Object-Oriented Modeling and Design , Prentice Hall, ;1991;
+[Rya11a]; Ryan, M.";Cloud Computing Privacy Concerns on Our Doorstep,"  Communication  of the ACM , vol. 44, no. 2, January ;2011; pp. 36–38. 
+[Sae11]; Saeed, A., T. Chen, and O. Alzubi";Malicious and Spam Posts in Online Social Net- works,"  IEEE Computer , vol. 44, no. 9, September ;2011; pp. 23–28. 
+[Saf08]; Safanov, V.,  Using Aspect-Oriented Programming for Trustworthy Software Develop- ment , Wiley-Interscience, ;2008; 
+[Sai11];  Saieddian,  H.,  and  D.  Broyles";Security  Vulnerabilities  in  the  Same  Origin  Pol-
+icy  Implications  and  Alternatives,"   IEEE  Computer ,  vol.  44,  no.  9,  September  ;2011; 
+pp. 29–36. 
+[Sal09];  Saleh,  K.,  and  G.  Elshahry";Modeling  Security  Requirements  for  Trustworthy  Systems,"  Encyclopedia of Information Science and Technology , 2nd ed., ;2009; 
+[Sar06];  Sarwate,  A.";Hot  or  Not:  Web  Application  Vulnerabilities,"   SC  Magazine ,  Decem-
+ber  27,  ;2006;  available  at  http://www.scmagazine.com/hot-or-not-web-application-
+vulnerabilities/article/;3431;5/. 
+[Saw08]; Sawyer, S., et al.";Social Interactions of Information Systems Development Teams: 
+A Performance Perspective,"  Information Systems Journal , vol. 20, ;2008; pp. 81–107.     928  
+[Sca00]; Scacchi, W.";Understanding Software Process Redesign Using Modeling, Analysis, 
+and Simulation,"  Software Process Improvement and Practice , Wiley, ;2000; pp. 185–195, 
+available  at  www.ics.uci.edu/~wscacchi/Papers/Software_Process_Redesign/SPIP-
+ProSim99.pdf. 
+[Sce02]; Sceppa, D.,  Microsoft ADO.NET , Microsoft Press, ;2002;
+[Sch01b]; Schwaber, K., and M. Beedle,  Agile Software Development with SCRUM , Prentice 
+[Sch03]; Schlickman, J.,  ISO ;9001;: ;2000; Quality Management System Design , Artech House 
+[Sch06]; Schmidt, D.";Model-Driven Engineering,"  IEEE Computer , vol. 39, no. 2, February 
+[Sch09]; Schumacher, R. (ed.),  Handbook of Global User Research , Morgan-Kaufmann, ;2009;
+[Sch11]; Schilit, B. "Mobile Computing: Looking to the Future,"  IEEE Computer , vol. 44, no. 5,  Hall, ;2001;  Publishers, ;2003;  ;2006; pp. 25–31.  May ;2011; pp. 28–29. 
+[Sch98a]; Schneider, G., and J. Winters,  Applying Use Cases , Addison-Wesley, ;1998;
+[Sch98c]; Schulmeyer, G., and J. McManus (eds.),  Handbook of Software Quality Assurance ,  3rd ed., Prentice Hall, ;1998; 
+[Sch99]; Schneidewind, N.";Measuring and Evaluating Maintenance Process Using Reliabil-
+ity,  Risk,  and  Test  Metrics,"   IEEE  Trans.  SE ,  vol.  25,  no.  6,  November–December  ;1999; 
+pp. 768–781, available at www.dacs.dtic.mil/topics/reliability/IEEETrans.pdf. 
+[SDS08];  Spice  Document  Suite";The  SPICE  and  ISO  Document  Suite,"   ISO-Spice ,  ;2008;  available at www.isospice.com/articles/9/1/SPICE-Project/Page1.html. 
+[SEE03]; The Software Engineering Ethics Research Institute";UCITA Updates," ;2003; avail- able at http://seeri.etsu.edu/default.htm. 
+[SEI00];  SCAMPI, V1.0 Standard CMMI ®Assessment Method for Process Improvement: Method 
+Description ,  Software  Engineering  Institute,  Technical  Report  CMU/SEI-;2000;-TR-009, 
+available at www.sei.cmu.edu/publications/documents/00.reports/00tr009.html. 
+[SEI02];  "Maintainability  Index  Technique  for  Measuring  Program  Maintainability,"  SEI,  ;2002; available at www.sei.cmu.edu/str/descriptions/mitmpm_body.html. 
+[SEI08]; "The Ideal Model," Software Engineering Institute, ;2008; available at  www.sei.cmu .edu/ideal/ .  ;2005; 
+[SEI13]; "Software Product Lines—Overview," Software Engineering Institute, ;2013; available  at www.sei.cmu.edu/productlines/. 
+[Sha05];  Shalloway,  A.,  and  J.  Trott,   Design  Patterns  Explained ,  2nd  ed.,  Addison-Wesley, 
+[Sha09]; Shaw, M.";Continuing Prospects for an Engineering Discipline of Software,"  IEEE  Software , vol. 26, no. 8, November–December ;2009; pp. 64–67. 
+[Sha95a];  Shaw,  M.,  and  D.  Garlan";Formulations  and  Formalisms  in  Software  Architec- ture,"  Volume ;1000;—Lecture Notes in Computer Science , Springer-Verlag, ;1995; 
+[Sha95b];  Shaw,  M.,  et  al.";Abstractions  for  Software  Architecture  and  Tools  to  Support  Them,"  IEEE Trans. Software Engineering , vol. SE-21, no. 4, April ;1995; pp. 314–335. 
+[Sha96]; Shaw, M., and D. Garlan,  Software Architecture , Prentice Hall, ;1996;
+[She10]; Sheldon, F., and Vishik, C. "Moving Toward Trustworthy Systems: R&D Essentials,"   IEEE Computer , vol. 43, no. 9, September ;2010; pp. 31–40. 
+[Shn04];  Shneiderman,  B.,  and  C.  Plaisant,   Designing  the  User  Interface ,  4th  ed.,  Addison- Wesley, ;2004; 
+[Shn09]; Shneiderman, B., et al.,  Designing the User Interface , 5th ed., Addison-Wesley, ;2009;
+[Shn80]; Shneiderman, B.,  Software Psychology , Winthrop Publishers, ;1980; p. 28
+[Sho83]; Shooman, M.,  Software Engineering , McGraw-Hill, ;1983;
+[Shu12]; Shull, F.";Designing a World at Your Fingertips: A Look at Mobile User Interfaces,"   IEEE Software , vol. 29, no. 4, July–August, ;2012; pp. 4–7. 
+[Sin08];  Sinn,  R.  H.,   Software  Security  Technologies:  A  Programmatic  Approach ,  Addison-
+[Sne03]; Snee, R., and R. Hoerl,  Leading Six Sigma , Prentice Hall, ;2003;
+[Sne95]; Sneed, H.";Planning the Reengineering of Legacy Systems,"  IEEE Software , January  Wesley, ;2008;  ;1995; pp. 24–25.        929
+[Soa10]; Soares, G., et al.";Making Program Refactoring Safer,"  IEEE Software , vol. 37, no. 4,  July–August ;2010; pp. 52–57. 
+[Soa11]; Soasta";Five Strategies for Performance Testing Mobile Applications," a white paper, 
+;2011; available at  http://info.soasta.com/performance-testing-mobile-apps-sem2.html 
+[Sob10]; Sobel, A., and G. McGraw";Interview: Software Security in the Real World,"  IEEE  Computer , vol. 43, no. 9, September ;2010; pp. 47–53. 
+[Sol99]; van Solingen, R., and E. Berghout,  The Goal/Question/Metric Method , McGraw-Hill,  ;1999; 
+[Som05]; Somerville, I.";Integrating Requirements Engineering: A Tutorial,"  IEEE Software ,  vol. 22, no. 1, January–February ;2005; pp. 16–23. 
+[Som97]; Somerville, I., and P. Sawyer,  Requirements Engineering , Wiley, ;1997;
+[Sou08];  de  Sousa,  C.,  and  D.  Redmiles";An  Empirical  Study  of  Software  Developer’s  Management of Dependencies and Changes,"  ICSE Proceedings , May ;2008; available at 
+http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.158.427&rep=rep1&type=pdf
+[Spa11]; Spagnolli, B., et al.";Eco-Feedback on the Go: Motivating Energy Awareness,"  IEEE  Computer , vol. 44, no. 5, May ;2011; pp. 38–45. 
+[SPI99]; "SPICE: Software Process Assessment, Part 1: Concepts and Introduction," Version  1.0, ISO/IEC JTC1, ;1999; 
+[Spl01]; Splaine, S., and S. Jaskiel,  The Web Testing Handbook , STQE Publishing, ;2001;
+[Spo02];  Spolsky,  J.";The  Law  of  Leaky  Abstractions,"  November  ;2002;  available  at  www .joelonsoftware.com/articles/LeakyAbstractions.html. 
+[Spr04]; Spriestersbach, A., and T. Springer";Quality Attributes in Mobile Web Application 
+Development," ;2004; available at  http://atlas.tk.informatik.tu-darmstadt.de/Publications/
+;2004;/profes.pdf . 
+[Sri01]; Sridhar, M., and N. Mandyam";Effective Use of Data Models in Building Web Appli- cations," ;2001; available at www;2002;org/CDROM/alternate/698/. 
+[SSO08]; Software-Supportability.org, ;2008; available at www.software-supportability.org/
+[Sta10]; Stafford, T., and R. Poston";Online Security Threats and Computer User Intentions,"   IEEE Computer , vol. 43, no. 1, January ;2010; pp. 58–64. 
+[Sta97]; Stapleton, J.,  DSDM—Dynamic System Development Method: The Method in Practice ,  Addison-Wesley, ;1997; 
+[Sta97b]; Statz, J., D. Oxley, and P. O’Toole";Identifying and Managing Risks for Software 
+Process Improvement,"  CrossTalk , April ;1997; available at www.stsc.hill.af.mil/crosstalk/
+;1997;/04/identifying.asp. 
+[Ste93]; Stewart, T.";Reengineering: The Hot New Managing Tool,"  Fortune , August 23, ;1993;  pp. 41–48. 
+[Sto05]; Stone, D., et al.,  User Interface Design and Evaluation , Morgan Kaufman, ;2005;
+[Str08]; Stickland, J.";How Cloud Computing Works,"  http://computer.howstuffworks.com/ cloud-computing/cloud-computing.htm , April, ;2008; 
+[Ste10]; Stephens, M., and D. Rosenberg,  Design Driven Testing , Apress, ;2010;
+[Tai89];  Tai,  K.";What  to  Do  Beyond  Branch  Testing,"   ACM  Software  Engineering  Notes ,  vol. 14, no. 2, April ;1989; pp. 58–61. 
+[Tai12];  Taivalsaari,  A.,  and  K.  Systa";Mobile  Content  as  a  Service:  A  Blueprint  for  a 
+Vendor-Neutral Cloud of Mobile Devices,"  IEEE Software , vol. 29, no. 4, July–August ;2012; 
+pp. 28–33. 
+[Tan01];  Tandler,  P.";Aspect-Oriented  Model-Driven  Development  for  Mobile  Context- Aware Computing,"  Proceedings of UbiComp ;2001;: Ubiquitous Computing , ;2001;
+[Tay09]; Taylor, R., N. Medvidovic, and E. Dashofy,  Software Architecture , Wiley, ;2009;
+[Tay90];  Taylor,  D.,   Object-Oriented  Technology:  A  Manager’s  Guide ,  Addison-Wesley,  ;1990; 
+[The01]; Thelin, T., H. Petersson, and C. Wohlin";Sample Driven Inspections,"  Proc. of Work-
+shop on Inspection in Software Engineering (WISE’01) , Paris, France, July ;2001; pp. 81–91. 
+Available at http://www.cas.mcmaster.ca/wise/wise01/ThelinPeterssonWohlin.pdf
+[The13]; "The Emergence of Cloud Computing," ;2013; available at http://www.opensourcery. com/clouddev.htm. 
+[Tho04]; Thomas, J., et al.,  Java Testing Patterns , Wiley, ;2004;     930  
+[Tho92];  Thomsett,  R.";The  Indiana  Jones  School  of  Risk  Management,"   American  Programmer , vol. 5, no. 7, September ;1992; pp. 10–18. 
+[Tic05];  TickIT , ;2005; available at www.tickit.org/
+[Tid02];  Tidwell,  J.";IU  Patterns  and  Techniques,"  May,  ;2002;  available  at   http://designinginterfaces.com/ . 
+[Til00]; Tillman, H.";Evaluating Quality on the Net," Babson College, May 30, ;2000; available  at www.hopetillman.com/ﬁ ndqual.html#2. 
+[Tog01]; Tognozzi, B.";First Principles,"  askTOG , ;2001; available at www.asktog.com/basics/ ﬁ rstPrinciples.html. 
+[Tra95];  Tracz,  W.";Third  International  Conference  on  Software  Reuse—Summary,"   ACM  Software Engineering Notes , vol. 20, no. 2, April ;1995; pp. 21–22. 
+[Tyr05];  Tyree,  J.,  and  A.  Akerman";Architectural  Decisions:  Demystifying  Architecture,"   IEEE Software , vol. 22, no. 2, March–April, ;2005; 
+[Uem99]; Uemura, T., S. Kusumoto, and K. Inoue";A Function Point Measurement Tool for 
+UML Design Speciﬁ cations,"  Proc. of Sixth International Symposium on Software Metrics , 
+IEEE, November ;1999; pp. 62–69. 
+[Ull97]; Ullman, E.,  Close to the Machine: Technophilia and its Discontents , City Lights Books,  ;2002; 
+[Uni03]; Unicode, Inc.,  The Unicode Home Page , ;2003; available at www.unicode.org/
+[USA87];  Management Quality Insight , AFCSP 800-14 (U.S. Air Force), January 20, ;1987;
+[Ute12]; UTest, E-book:  Essential Guide to Mobile App Testing, ;2012; , available at  http://www .utest.com/landing-blog/essential-guide-mobile-app-testing . 
+[UXM10];  "Four  Best  User  Interface  Pattern  Libraries,"   UX  Movement.com ,  available  at  http://uxmovement.com/resources/4-best-design-pattern-libraries/. 
+[Vac06]; Vacca, J.,  Practical Internet Security , Springer, ;2006;
+[Van02]; Van Steen, M., and A. Tanenbaum,  Distributed Systems: Principles and Paradigms ,  Prentice Hall, ;2002; 
+[Van89];  Van  Vleck,  T.";Three  Questions  About  Each  Bug  You  Find,"   ACM  Software  Engi- neering Notes , vol. 14, no. 5, July ;1989; pp. 62–63. 
+[Ven03];  Venners,  B.";Design  by  Contract:  A  Conversation  with  Bertrand  Meyer,"   Artima  Developer , December 8, ;2003; available at www.artima.com/intv/contracts.html. 
+[Vin11]; Vinson, L.";Mobile Application Testing: Process, Tools, and Techniques," ;2011; available  http://threeminds.organic.com/;2011;/05/mobile-application-testing-process-tools- at 
+techniques.html .  August ;2012; pp. 25–27.  Addison-Wesley, ;2003; 
+[Voa12]; Voas, J., et al.";Mobile Software App Takeover,"  IEEE Software , vol. 29, no. 4, July–
+[Wal03];  Wallace,  D.,  I.  Raggett,  and  J.  Aufgang,   Extreme  Programming  for  Web  Projects , 
+[Wal12];  Walker,  J.";Computer  Programmers  Learn  Tough  Lesson  in  Sharing,"   The  Wall  Street Journal , vol. 260, no. 48, August 27, ;2012; p. 1. 
+[War07]; Ward, M.";Using VoIP Software Building zBlocks—A Look at the Choices," TMNNet, 
+;2007;  available  at  www.tmcnet.com/voip/;0605;/featurearticle-using-voip-software-
+building-blocks.htm. 
+[War74]; Warnier, J. D.,  Logical Construction of Programs , Van Nostrand-Reinhold, ;1974;
+[Was10]; Wasserman, A.";Software Engineering Issues for Mobile Application Development,"  Proceedings of the FSE/SDP Workshop on Future of Software Engineering Research , ;2010; 
+[Web05]; Weber, S.,  The Success of Open Source , Harvard University Press, ;2005;
+[Web13];  Web  Application  Security  Consortium,  ;2013;  available  at  http://www.webappsec
+[Wee11];  Weevers,  I.";Seven  Guidelines  for  Designing  High  Performance  Mobile  User 
+Experiences,"  Smashing  Magazine ,  July  18,  ;2011;  available  at  http://uxdesign
+.smashingmagazine.com/;2011;/07/18/seven-guidelines-for-designing-high-performance-
+mobile-user-experiences/ 
+[Wei86]; Weinberg, G.,  On Becoming a Technical Leader , Dorset House, ;1986;
+[Wel01];  vanWelie,  M.";Interaction  Design  Patterns,"  ;2001;  available  at  www.welie.com/ .org/.  patterns/.        931
+[Wel99];  Wells,  D.";XP—Unit  Tests,"  ;1999;  available  at  www.extremeprogramming.org/ rules/unittests.html. 
+[Wev11];  Wever,  A.,  and  N.  Maiden";Requirements  Analysis:  The  Next  Generation,"   IEEE  Software , vol. 28, no. 2, March–April ;2011; pp. 22–23. 
+[Whi07];  Whitehead,  J.";Collaboration  in  Software  Engineering:  A  Roadmap,"  in   Future  of  Software Engineering ;2007; , L. Briand and A. Wolf (eds.), IEEE-CS Press, ;2007; 
+[Whi08];  White,  J.";Start  Your  Engines:  Mobile  Application  Development,"  April  22,  ;2008;  available at  http://www.devx.com/SpecialReports/Article/;3769;3 . 
+[Whi12]; Whittaker, J., et al.,  How Google Tests Software , Addison-Wesley, ;2012;
+[Whi97]; Whitmire, S.,  Object-Oriented Design Measurement , Wiley, ;1997;
+[Wie02]; Wiegers, K.,  Peer Reviews in Software , Addison-Wesley, ;2002;
+[Wie03]; Wiegers, K.,  Software Requirements , 2nd ed., Microsoft Press, ;2003;
+[Wik12];  Wikipedia";Data  Modeling,"  ;2012;  available  at   http://en.wikipedia.org/wiki/
+[Wik13]; "Cloud Computing," January ;2013; available at  http://en.wikipedia.org/wiki/Cloud_ Data_modeling .  computing . 
+[Wil00]; Williams, L., and R. Kessler";All I Really Need to Know about Pair Programming I 
+Learned in Kindergarten,"  CACM , vol. 43, no. 5, May ;2000; available at http://collabora-
+tion.csc.ncsu.edu/laurie/Papers/Kindergarten.PDF. 
+[Wil05];  Willoughby,  M.";Q&A:  Quality  Software  Means  More  Secure  Software,"   Comput-
+erworld , March 21, ;2005; available at www.computerworld.com/securitytopics/security/
+story/0,;1080;1,;9131;6,00.html. 
+[Wil97]; Williams, R., J. Walker, and A. Dorofee";Putting Risk Management into Practice,"   IEEE Software , May ;1997; pp. 75–81. 
+[Wil99]; Wilkens, T.";Earned Value, Clear and Simple,"  Primavera Systems , April 1, ;1999; p. 2
+[Win90];  Wing,  J.";A  Speciﬁ er’s  Introduction  to  Formal  Methods,"   IEEE  Computer ,  vol.  23, 
+[Wir71];  Wirth,  N.";Program  Development  by  Stepwise  Reﬁ nement,"   CACM ,  vol.  14,  no.  4, 
+[Wir90]; Wirfs-Brock, R., B. Wilkerson, and L. Weiner,  Designing Object-Oriented Software ,  no. 9, September ;1990; pp. 8–24.  ;1971; pp. 221–227.  Prentice Hall, ;1990;  vcgdocuments/vcgTutorial/. 
+[WMT02];   Web  Mapping  Testbed  Tutorial ,  ;2002;  available  at  www.webmapping.org/
+[Woh94]; Wohlin, C., and P. Runeson";Certification of Software Components,"  IEEE Trans.  Software Engineering , vol. SE-20, no. 6, June ;1994; pp. 494–499. 
+[Wor04]; World Bank,  Digital Technology Risk Checklist , ;2004; available at www.moonv6.org/ lists/att-;0223;/WWBANK_Technology_Risk_Checklist_Ver_6point1.pdf. 
+[Wri11];  Wright,  A.";Lessons  Learned:  Architects  Are  Facilitators,  Too!"   IEEE  Software ,  vol. 28, no. 2, January–February ;2011; pp. 70–72. 
+[W3C03]; World Wide Web Consortium,  Web Content Accessibility Guidelines , ;2003; available  at www.w3.org/TR/;2003;/WD-WCAG20-;2003;;0624;/. 
+[Yac03]; Yacoub, S., et al.,  Pattern-Oriented Analysis and Design , Addison-Wesley, ;2003;
+[Yah13]; Yahoo Developer Network, Yahoo! Design Pattern Library, ;2013; available at http://developer.yahoo.com/ypatterns/. 
+[Yau11]; Yau, S., and H. An";Software Engineering Meets Services and Cloud Computing,"   IEEE Computer , vol. 44, no. 10, October ;2011; pp. 47–53. 
+[You01]; Young, R.,  Effective Requirements Practices , Addison-Wesley, ;2001;
+[You75]; Yourdon, E.,  Techniques of Program Structure and Design , Prentice Hall, ;1975;
+[You95]; Yourdon, E.";When Good Enough Is Best,"  IEEE Software , vol. 12, no. 3, May ;1995; 
+[Yau02]; Yaun, M. "Best Tools for Mobile Application Development,"  Java World , available at  www.javaworld.com/javaworld/jw-10-;2002;/jw-;1018;-wireless.html. 
+[Zah90]; Zahniser, R.";Building Software in Groups,"  American Programmer , vol. 3, no. 7–8, 
+[Zah94];  Zahniser,  R.";Timeboxing  for  Top  Team  Performance,"   Software  Development ,  pp. 79–81.  July–August ;1990;  March ;1994; pp. 35–38.     932  
+[Zha05]; Zhang, W., and S. Jarzabek";Reuse without Compromising Performance: Industrial Experience  from  RPG  Software  Product  Line  for  Mobile  Devices,"   Proceedings  of  9th 
+Software Product Line Conference , September ;2005; pp. 57–69. 
+[Zim11];  Zimmermann,  O.";Architectural  Decisions  as  Reusable  Design  Assets,"   IEEE  Software , vol. 28, no. 1, January–February ;2011;
+[Zul92];  Zultner,  R.";Quality  Function  Deployment  for  Software:  Satisfying  Customers,"   American Programmer , February ;1992; pp. 28–41. 
+[Zus90]; Zuse, H.,  Software Complexity: Measures and Methods , DeGruyter, ;1990
+[Zus97]; Zuse, H.,  A Framework of Software Measurement , DeGruyter, ;1997     

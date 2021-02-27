@@ -1,0 +1,58 @@
+[
+  {
+    "code": "[Abb83]",
+    "author": "Abbott,  R.",
+    "title": "Program  Design  by  Informal  English  Descriptions",
+    "year": "CACM ,  vol.  26, November",
+    "description": 1983
+  },
+  {
+    "code": "[Abr09]",
+    "author": "Abrial, J.",
+    "title": "Faultless Systems: Yes We Can!\"  IEEE Computer , vol. 42, no. 9, September,",
+    "year": 2009,
+    "description": "pp. 30–36."
+  },
+  {
+    "code": "[ACM12]",
+    "author": "ACM/IEEE-CS  Joint  Task  Force,\"Software  Engineering  Code  of  Ethics and Professional Practice",
+    "title": 2012,
+    "year": "available at www.acm.org/serving/se/code.htm.",
+    "description": ""
+  },
+  {
+    "code": "[Ada93]",
+    "author": "Adams, D.,  Mostly Harmless , Macmillan,",
+    "title": 1993,
+    "year": "",
+    "description": ""
+  },
+  {
+    "code": "[AFC88]",
+    "author": "Software Risk Abatement , AFCS/AFLC Pamphlet 800-45, U.S. Air Force, September  30,",
+    "title": 1988,
+    "year": "",
+    "description": ""
+  },
+  {
+    "code": "[Agi03]",
+    "author": "The Agile Alliance Home Page, available at www.agilealliance.org/home",
+    "title": "",
+    "year": "",
+    "description": ""
+  },
+  {
+    "code": "[Air99]",
+    "author": "Airlie Council",
+    "title": "Performance Based Management: The Program Manager’s Guide  Based on the 16-Point Plan and Related Metrics,\" Draft Report, March 8,",
+    "year": 1999,
+    "description": ""
+  },
+  {
+    "code": "[Aka04]",
+    "author": "Akao, Y.",
+    "title": "Quality Function Deployment , Productivity Press,",
+    "year": 2004,
+    "description": ""
+  }
+]
