@@ -1,8 +1,5 @@
 https://platformlab.stanford.edu/Seminar%20Talks/retreat-2017/John%20Ousterhout.pdf 
-
-[MUSIC PLAYING]
-
-
+[DownSub.com]
 
 SPEAKER 1: OK.
 
@@ -334,29 +331,12 @@ they could find.
 
 It's all about practice.
 
-So that got me
-thinking, I mean, I
+So that got me thinking, I mean, I believe it's got to be possible to teach this. But the second thing is, who's going to do it? 
+Well, unfortunately, not most of today's faculty.
 
-believe it's got to be
-possible to teach this.
+The problem is the typical faculty member writes a little bit of code as a grad student, never really gets any instruction.
 
-But the second thing is,
-who's going to do it?
-
-Well, unfortunately, not
-most of today's faculty.
-
-The problem is the
-typical faculty member
-
-writes a little bit of
-code as a grad student,
-
-never really gets
-any instruction.
-
-You throw out some crappy
-code for your dissertation,
+You throw out some crappy code for your dissertation,
 
 and then you become a professor.
 
@@ -371,10 +351,7 @@ write anymore code.
 And so, you know, the only way
 to become a great developer
 
-and learn design skills
-today is with tons
-
-of personal experience,
+and learn design skills today is with tons of personal experience,
 sort of trial and error.
 
 Faculty don't have that.
@@ -694,8 +671,7 @@ in the course and the book.
 
 I don't claim those are the end.
 
-Actually, I'm hoping
-more to use those
+Actually, I'm hoping more to use those
 
 to start a discussion of
 all of them over time.
@@ -764,13 +740,8 @@ question in back, yeah.
 
 AUDIENCE: Yeah.
 
-I'm curious what you think about
-how does the sort of end to end
-
-principle in sort of
-software design factor
-
-into this in terms of trying
+I'm curious what you think about how does the sort of end to end principle in sort of
+software design factor into this in terms of trying
 to push all the complexity
 
 to the edges of the system?
