@@ -27,14 +27,10 @@ get things started here--
 John is a Professor of Computer
 Science at Stanford University.
 
-He spent, before that,
-14 years in industry
-
-where he founded two companies,
-Scriptics and Electric Cloud
-
-and, before that, 14 years as
-a professor at UC Berkeley.
+He spent, 
+before that, 14 years in industry where he founded two companies,
+Scriptics and Electric Cloud and, 
+before that, 14 years as a professor at UC Berkeley.
 
 Anybody here who has taken
 a class with John before--
@@ -42,38 +38,26 @@ a class with John before--
 so a bunch of his
 students as well.
 
-So he's pretty
-distinguished, so I'm not
+So he's pretty distinguished, so I'm not
 
 going to go through a
 list of his awards here--
 
-a member of the National Academy
-of Engineering, ACM Software
-
-System Award, UC Berkeley
-Distinguished Teaching Award,
-
+a member of the National Academy of Engineering, 
+ACM Software System Award, 
+UC Berkeley Distinguished Teaching Award,
 to name a few here.
 
 But more relevant
 to this talk, John
 
 has built several influential
-systems, the Sprite operating
-
-system, Tcl, Tk, log-structured
-file systems, Raft,
-
+systems, 
+the Sprite operating system, 
+Tcl, Tk, log-structured file systems, Raft,
 and, more recently, RAMCloud.
 
-And I think his bios
-says he has literally
-
-graded, like, thousands
-of programming student
-
-assignments.
+And I think his bios says he has literally graded, like, thousands of programming student assignments.
 
 And today, we are going to
 hear the synthesis of all
@@ -82,9 +66,7 @@ of John's first-hand knowledge
 both from his research
 
 and teaching on a topic that's
-very close to us, how to design
-
-and how not to design software.
+very close to us, how to design and how not to design software.
 
 There is a book here.
 
@@ -156,55 +138,16 @@ insults are on the mic.
 
 OK.
 
-So people have been
-programming computers
+susah searching black art di google.
 
-for more than 80 years now.
-
-And yet software design is
-still basically a black art.
-
-There's essentially no agreement
-on how to do software design
-
-or even what a good piece
-of software looks like.
-
-You know, we talk a lot
-about software engineering,
-
-and software tools, and
-testing, and processes.
-
-But we have almost
-no conversation
-
-about the fundamental act
-of designing software.
-
-And this has bugged
-me for a long time.
-
-So today, I'd like to tell
-you about some things I've
-
-been doing to try and change
-that, to start the conversation
-
-and to see if we can somehow
-create a more, a greater,
-
-sense of design awareness
-in the software community.
-
-And that consists
-of a new course
-
-I developed at
-Stanford and then,
-
-based on that, a book
-on software design.
+So people have been programming computers for more than 80 years now.
+And yet software design is still basically a black art.
+There's essentially no agreement on how to do software design or even what a good piece of software looks like.
+You know, we talk a lot about software engineering, and software tools, and testing, and processes.
+But we have almost no conversation about the fundamental act of designing software.
+And this has bugged me for a long time.
+So today, I'd like to tell you about some things I've been doing to try and change that, to start the conversation and to see if we can somehow create a more, a greater, sense of design awareness in the software community.
+And that consists of a new course I developed at Stanford and then, based on that, a book on software design.
 
 OK.
 

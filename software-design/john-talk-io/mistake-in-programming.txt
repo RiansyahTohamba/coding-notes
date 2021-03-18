@@ -1,0 +1,50 @@
+https://platformlab.stanford.edu/Seminar%20Talks/retreat-2017/John%20Ousterhout.pdf 
+
+MISTAKE IN CODING  
+1. shallow class = classitis
+2. 
+
+I think this is one of the biggest mistakes people make,  too many, too small, too shallow classes.
+And the reason people do that is because they've  been taught classes and methods should be small.
+How many of you at sometime in some course  were taught your method should be small?  And how many of you have been given a number, like any method  larger than n lines, you should chop it up?  How many of you have heard something like that said?  OK.
+Tell me a small value of n you've heard.
+AUDIENCE: 20.
+JOHN OUTSERHOUT: 20?  [INTERPOSING VOICES]  
+JOHN OUTSERHOUT: Has anybody heard 10?  [LAUGHTER]  I've heard 10 sometimes.
+
+So if you take this to the extreme,  this results in what I call classitis.
+Classitis is when somebody says classes are good  and somebody else thought what they heard  was more classes are better.
+[LAUGHTER]  And so under classitis, your goal  is to have as many small classes as possible  where each class adds the tiniest  possible amount of new functionality  to the previous classes.
+If you want more functionality than that,  make another class for it.
+Probably the best example of this in the world  today is the Java Class Library.
+There's nothing in the Java language that requires this.
+But somehow this has just become the culture  in the Java world, these tons of little tiny shallow interfaces.
+Like, for example, the thing that just bugged me about Java  when I started programming, if I want to open a file  and read serialized objects from it,  I have to create three objects for that.
+First, I have to create this file stream.
+But for some reason, I don't get buffering.
+If I want buffering--  it's like, do you want it eat today?  [LAUGHTER]  If I want buffering, I have to create another object.
+And then if I want read serialized objects,  you add another object on top of that.
+And each of these can throw exceptions  that I have to catch.
+And then exceptions can come halfway through,  and I have to do clean up--  enormous amount of complexity for something  that's really, really simple.
+So I think they lost sight of the idea that, first of all,  in managing complexity, the common case matters a lot.
+You want to make the common case really, really simple.
+I shouldn't have to do all of this.
+OK.
+Maybe I want to be able to not have buffering,  but that should be an option that-- you know,  if I don't want buffering, that should be where things get more  complicated, not to have to remember to ask especially  for buffering.
+So to me, it's not about length.
+Length is really not the fundamental issues.
+I don't have problems with methods  that are hundreds of lines long if they're relatively clean  and if they have a deep interface to them.
+It's abstraction.
+That's the most important thing.
+So rather than striving for length,  you should first try and get these deep abstractions.
+And then if you end up with something  that's really big and long, then see if you can chop it up.
+But depth is more important.
+So what's an example of a deep interface?  My favorite in the world, probably one  of the most beautiful interfaces ever invented  is that Unix file I/O interface--  five functions, falling over easy interfaces  to every function.
+The only complexity is the flags and the permissions for open  are a little bit funky, but everything else  is very, very simple.
+And then think about what's hidden  behind this simple interface.
+There's typically hundreds of thousands of lines of code  behind that that do everything from managing disk space  to file caching to, you know, device drivers--  enormous amount of code and, of course, many other lower level  interfaces behind this, but just this amazingly beautiful  five functions.
+Now, today, people look at this and think, well, duh,  of course, that's the way you design things.
+But it was not like this.
+Has anybody in this room actually programmed  at around the time Unix came out?  Only a few of us are old enough to have done that.
+Things were pretty horrible before then.
+Like, for example, in pre-Unix file systems,  there would be a totally different set of kernel calls  if you wanted to open a file for random access versus sequential  access--  two different sets kernel calls, different kinds of files.
