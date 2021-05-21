@@ -1,4 +1,3 @@
-https://platformlab.stanford.edu/Seminar%20Talks/retreat-2017/John%20Ousterhout.pdf 
 [DownSub.com]
 
 SPEAKER 1: OK.
@@ -310,54 +309,31 @@ If you want a fun read, read it.
 It's a relatively quick read
 in which he goes through study
 
-after study that
-shows in these fields
-
-where we think of some people
+after study that shows in these fields where we think of some people
 as being tremendously talented,
 
-in fact, the only thing
-that really differentiates
+# what make differentiates between top performer and average performer ?
+in fact, the only thing that really differentiates the top performers from the average performers is "how much they've practiced".
 
-the top performers from
-the average performers
-
-is how much they've practiced.
-
-That's the one consistent
-correlating factor
-
-they could find.
-
+That's the one consistent correlating factor they could find.
 It's all about practice.
 
-So that got me thinking, I mean, I believe it's got to be possible to teach this. But the second thing is, who's going to do it? 
+# is it possible to teach "problem-decomposition"
+So that got me thinking, I mean, I believe it's got to be possible to teach this. 
+But the second thing is, who's going to do it? 
+
+# why most faculty in 2018 cannot teach it ?
 Well, unfortunately, not most of today's faculty.
-
 The problem is the typical faculty member writes a little bit of code as a grad student, never really gets any instruction.
+You throw out some crappy code for your dissertation, and then you become a professor.
+And then you decide coding is what graduate students do, so you stop coding.
+And you never write anymore code.
 
-You throw out some crappy code for your dissertation,
-
-and then you become a professor.
-
-And then you decide coding
-is what graduate students do,
-
-so you stop coding.
-
-And you never
-write anymore code.
-
-And so, you know, the only way
-to become a great developer
-
-and learn design skills today is with tons of personal experience,
-sort of trial and error.
+# how to become a great developer ?
+And so, you know, the only way to become a great developer and learn design skills today is with tons of personal experience, sort of trial and error.
 
 Faculty don't have that.
-
-So they can't teach
-their students.
+So they can't teach their students.
 
 And so the whole process
 just continues over and over
@@ -397,11 +373,9 @@ been a great year for me.
 So in over my career,
 I've probably written,
 
-I think now, 250,000 to
-300,000 lines of code.
+I think now, 250,000 to 300,000 lines of code.
 
-So I've had a chance
-to observe a lot.
+So I've had a chance to observe a lot.
 
 And, again, as
 I've been doing it,
@@ -409,17 +383,12 @@ I've been doing it,
 I've been thinking
 about design stuff.
 
-So I thought maybe, you know, if
-anybody can do it in academia,
+So I thought maybe, you know, if anybody can do it in academia,
+I probably got about as good a shot as anybody.
 
-I probably got about as
-good a shot as anybody.
+Then the third question is, well, how do you do it?
 
-Then the third question
-is, well, how do you do it?
-
-So I combined all these
-three things together.
+So I combined all these three things together.
 
 I finally decided only
 one way to find out.
@@ -431,9 +400,7 @@ You know, maybe I'll crash and
 burn, but I'll give it a try.
 
 So I created a new course
-at Stanford, CS 190 Software
-
-Design Studio.
+at Stanford, CS 190 Software Design Studio.
 
 It's not taught like a
 typical [INAUDIBLE] course.
@@ -529,23 +496,15 @@ pieces of their project
 and other students
 will critique it.
 
-And then I do
-longer code reviews.
+And then I do longer code reviews.
 
 I read everybody's projects.
 
-I typically make 50 to 100
-comments on every team.
+I typically make 50 to 100 comments on every team.
 
-And then I meet with the
-teams individually for an hour
+And then I meet with the teams individually for an hour and go over it with them.
 
-and go over it with them.
-
-Then the second
-phase is they revise
-
-based on the code reviews.
+Then the second phase is they revise based on the code reviews.
 
 They actually add a little bit
 of additional functionality
@@ -3696,17 +3655,13 @@ do design reviews?
 
 I assume almost everybody.
 
-And how many of
-you in your design
+And how many of you in your design
 
-reviews it's common
-for you to discuss
+reviews it's common for you to discuss
 
-design issues as opposed
-to coding style and bugs?
+design issues as opposed to coding style and bugs?
 
-How many of you commonly
-talk about design things?
+How many of you commonly talk about design things?
 
 Good.
 
@@ -3764,8 +3719,7 @@ with a lot of experience
 I think reading
 the student's code.
 
-I feel like some
-principles are emerging.
+I feel like some principles are emerging.
 
 You know, if you read the book
 and agree or disagree with me,
@@ -3773,10 +3727,8 @@ and agree or disagree with me,
 I'd be curious to hear
 your take on that.
 
-What I hope to do in
-the future is just
-
-to somehow leverage this
+# future of software design
+What I hope to do in the future is just to somehow leverage this
 out into the community.
 
 I'd love to see just a greater
@@ -3792,7 +3744,7 @@ it's just sad that
 we don't really
 
 even have discussion today.
-
+# mana mailing list nya ?
 So I created a mailing
 list for discussion topics
 
@@ -3812,20 +3764,9 @@ better and the class better
 
 over time.
 
-And the long-term
-goal is it'd be great
+And the long-term goal is it'd be great if, 5 or 10 years from now, we actually have a relatively robust set of principles that most developers agree are good for software design.
 
-if, 5 or 10 years
-from now, we actually
-
-have a relatively
-robust set of principles
-
-that most developers agree
-are good for software design.
-
-So thanks for your
-attention, and I'd
+So thanks for your attention, and I'd
 
 be happy to take more questions.
 
@@ -4005,11 +3946,9 @@ widely spread in the community.
 Like the worst
 thing would happened
 
-is if a software engineer
-comes in and says,
+is if a software engineer comes in and says,
 
-no, this method is
-longer than 20 lines.
+no, this method is longer than 20 lines.
 
 You've got to break it up.
 
@@ -4180,6 +4119,7 @@ the web came along
 and Tcl did not effectively
 make the transition to the web.
 
+# how to hiring people ?
 SPEAKER 1: OK.
 
 So there's a lot of really
@@ -4201,22 +4141,18 @@ answer more questions as well.
 
 OK.
 
-So any thoughts on
-the hiring process
+So any thoughts on the hiring process
 
 based on what you've observed?
 
-And the question
-has, how would you
-
-change the hiring process
+And the question has, how would you change the hiring process
 which is so algorithm heavy?
 
 Can you share your experience
 when you ran your company?
 
-JOHN OUTSERHOUT: Hiring
-process, actually, I'm
+## john prefer faster learner
+JOHN OUTSERHOUT: Hiring process, actually, I'm
 
 not sure it relates
 to software design.
@@ -4340,20 +4276,14 @@ of a software design
 based on the choice of
 languages and support ecosystem?
 
-JOHN OUTSERHOUT:
-Oh, a good question.
+JOHN OUTSERHOUT: Oh, a good question.
 
 There's some languages somehow
-lend themselves to better
-
-design than other languages.
+lend themselves to better design than other languages.
 
 You know, there probably are--
-
 I think that's mostly a
-secondary, sort of second order
-
-thing.
+secondary, sort of second order thing.
 
 But, for example, today, I'd
 rather program in C++ than C,
@@ -4363,16 +4293,10 @@ object oriented features
 
 in C++.
 
-Now, C++ is sort of a big beast
-of a language with a horrible
-
-learning curve, but I
+Now, C++ is sort of a big beast of a language with a horrible learning curve, but I
 appreciate the power of it.
 
-But, honestly, I think
-the design principles
-
-are fairly universal.
+But, honestly, I think the design principles are fairly universal.
 
 You can use them
 in any language.
@@ -4397,22 +4321,16 @@ gets passed around.
 And the object oriented
 was really crucial to that.
 
-I say, no, they just found
-a really sweet interface.
+I say, no, they just found a really sweet interface.
 
-So I haven't found one language
-that somehow was dramatically
+So I haven't found one language that somehow was dramatically
 
 better than others for design.
 
-But if people have
-opinions, I'd be
+But if people have opinions, I'd be
+curious to hear other opinions about that.
 
-curious to hear other
-opinions about that.
-
-SPEAKER 1: So back
-to hiring, you
+SPEAKER 1: So back to hiring, you
 
 mentioned we should hire on
 slope, not on y-intercept.
@@ -4430,44 +4348,20 @@ Especially, like--
 
 JOHN OUTSERHOUT: I have no idea.
 
-SPEAKER 1: --you need at
-least two points, right?
+SPEAKER 1: --you need at least two points, right?
 
 In an interview, I get only one.
-
-And I am terrified of hiring
-more tactical tornadoes.
+And I am terrified of hiring more tactical tornadoes.
 
 [LAUGHTER]
 
 JOHN OUTSERHOUT: I don't know.
 
-You know, so I'll tell you
-what correlated best for me,
+You know, so I'll tell you what correlated best for me, but it's sort of crazy is that I found in my experienced, people who worked out best were the ones where I just really enjoyed my conversation with them during the interview. And that's sort of weird. 
 
-but it's sort of crazy is that
-I found in my experienced people
+I feel kind of funny saying that, because that means somehow somebody sucked up to me. And I liked them and hired them.
 
-who worked out best were
-the ones where I just
-
-really enjoyed my conversation
-with them during the interview.
-
-And that's sort of weird.
-
-I feel kind of
-funny saying that,
-
-because that means somehow
-somebody sucked up to me.
-
-And I liked them and hired them.
-
-I don't think that's it because
-I have a pretty sensitive meter
-
-for suck-upness.
+I don't think that's it because I have a pretty sensitive meter for suck-upness.
 
 And that really pisses me off.
 
