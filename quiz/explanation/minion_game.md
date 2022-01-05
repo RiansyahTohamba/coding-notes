@@ -27,7 +27,15 @@ apakah itu?
 TC4	punya len sebesar 5010
 TC5	punya len sebesar > 5010
 
-# give up?
-lanjut ke test yg lain dulu
+# output
+BANANA
 
+hasil:
+BANANA
+ANANA
+NANA
+ANA
+NA
+A
 
+ANANA
