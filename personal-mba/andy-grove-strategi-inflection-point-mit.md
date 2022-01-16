@@ -387,45 +387,21 @@ microprocessors more valuable.
 Intel is Microsoft's
 complementor.
 
-Microsoft software, without
-Intel microprocessors,
+# Microsoft only running if intel exist 
+Microsoft software, without Intel microprocessors, would clearly not be as valuable as it is with.
 
-would clearly not be as
-valuable as it is with.
+This is sort of the general analysis of describing
+how a business operates and this is not what I was going to talk about.
 
-This is sort of the general
-analysis of describing
+# introduction to '10x force'
 
-how a business operates
-and this is not
+What we are going to look at and what we are going to examine here is "what happens when one of those forces becomes very, very much larger than the others?".
 
-what I was going to talk about.
-
-What we are going
-to look at and what
-
-we are going to
-examine here is what
-
-happens when one of those forces
-becomes very, very much larger
-
-than the others.
-
-And I want to call it an order
-of magnitude in order to--
-
-order of magnitude
-is not exactly
-
-a trade publication term.
+And I want to call it an order of magnitude in order to--order of magnitude is not exactly a trade publication term.
 
 I called it a 10x force.
 
-A 10 for 10 force, 10
-times increase relative
-
-to the other forces.
+A 10 for 10 force, 10 times increase relative to the other forces.
 
 What happens when
 there is such, one
@@ -433,8 +409,7 @@ there is such, one
 of the forces that determine
 the well-being of a business
 
-really grows out
-of bound and so big
+really grows out of bound and so big
 
 that it can distort the picture.
 
@@ -444,26 +419,11 @@ happen at times
 like that is that the very
 nature of the industry changes.
 
-Not the business, not the
-competitive well-being
+Not the business, not the competitive well-being of the business alone, but the whole business model changes.
 
-of the business alone, but the
-whole business model changes.
+And I give you an example that comes right from our own industry on this one.
 
-And I give you an
-example that comes
-
-right from our own
-industry on this one.
-
-And on the left
-of the diagram you
-
-would have maybe the business
-model of the computing industry
-
-as it used to be performed
-in the '60s, '70s, '80s.
+And on the left of the diagram you would have maybe the business model of the computing industry as it used to be performed in the '60s, '70s, '80s.
 
 Computers were sold as
 vertically integrated devices,
@@ -651,45 +611,23 @@ of cost effectiveness.
 In the case of the
 Porter diagram,
 
-it caused substitution
-in a very large scale.
+it caused substitution in a very large scale.
 
 
+It can come in various other ways.
 
-It can come in
-various other ways.
+# case-study retailer
+If you are a retailer in a small or medium town someplace in America, the strategic inflection point arrives in the form of a bunch of surveyors who come and start surveying the property in one of the most highly traveled intersections in town.
 
-If you are a retailer in
-a small or medium town
+And then a sign goes up, future home of Walmart.
 
-someplace in America, the
-strategic inflection point
+Now you say, what's the difference?
 
-arrives in the form of
-a bunch of surveyors
+There never was just one retail store in this town.
 
-who come and start surveying
-the property in one
+There were always a bunch of them.
 
-of the most highly traveled
-intersections in town.
-
-And then a sign goes up,
-future home of Walmart.
-
-Now you say, what's
-the difference?
-
-There never was just one
-retail store in this town.
-
-There were always
-a bunch of them.
-
-Any owner of a
-retail store would
-
-say I always had competition.
+Any owner of a retail store would say I always had competition.
 
 I have competition now.
 
@@ -698,8 +636,7 @@ hell is the difference?
 
 And this is the 10x force.
 
-Walmart is not just
-one more competitor.
+Walmart is not just one more competitor.
 
 It is the largest retailer
 in the world tuned, tuned,
@@ -737,20 +674,16 @@ the form of regulatory changes.
 An example of that is
 what happened in 1984
 
-when in the form of the
-modified final judgment,
+when in the form of the modified final judgment,
 
 judge brought about the
 deregulation of a many decade
 
-old, countrywide monopoly that
-was the AT&T of that time.
+old, countrywide monopoly that was the AT&T of that time.
 
-And the repercussions of that
-change have been immense.
+And the repercussions of that change have been immense.
 
-And it impacted the
-well-being of not one company,
+And it impacted the well-being of not one company,
 
 but a lot of companies.
 
@@ -812,6 +745,7 @@ their well-being
 
 and their business processes.
 
+# case study computer industry
 We talked about the
 computer industry.
 
@@ -829,31 +763,18 @@ the internet is being
 
 beaten to death in the press.
 
-But the larger picture is that
-there is a phenomenon coming
+But the larger picture is that there is a phenomenon coming here that is likely to affect not just one industry,
+like all of these examples have, but half a dozen industries.
 
-here that is likely to
-affect not just one industry,
+Industries that don't even know that this--
 
-like all of these examples have,
-but half a dozen industries.
+what, 
 
-Industries that don't
-even know that this--
+how does packet switching have to do with the media industry?
 
-what, how does
-packet switching have
+What the hell does the internet has to do with the entertainment industry in Hollywood?
 
-to do with the media industry?
-
-What the hell does
-the internet has
-
-to do with the entertainment
-industry in Hollywood?
-
-What does it have to do
-with the service industries?
+What does it have to do with the service industries?
 
 And yet, enormous
 industries that
@@ -891,11 +812,9 @@ about the computer industry.
 But right now, it's a bunch
 of bits in a confused fashion,
 
-and we are just entering
-the valley of death.
+and we are just entering the valley of death.
 
-It is very confusing
-in the middle of it.
+It is very confusing in the middle of it.
 
 That's not unusual.
 
@@ -906,7 +825,6 @@ take shape very clearly.
 
 And a lot of people
 have different ideas
-
 on how it's going to be.
 
 And which is why, of course,
@@ -925,30 +843,16 @@ a major change
 
 in the competitive environment.
 
-It can be technological,
-regulation, 10x competition
+It can be: 
+1. technological,
+2. regulation, 
+3. 10x competition force.
 
-force.
+And a key element is that it is very often, and I don't know if always, because I haven't made an exhaustive study of it.
 
-And a key element is
-that it is very often,
+But very often, the first signs of it, the first recognition of it, does not come from senior management, people like me.
 
-and I don't know if
-always, because I haven't
-
-made an exhaustive study of it.
-
-But very often, the
-first signs of it,
-
-the first recognition
-of it, does not
-
-come from senior
-management, people like me.
-
-But come from people who
-are in the front lines
+But come from people who are in the front lines
 
 of the key activities
 of the corporation.
@@ -1038,17 +942,13 @@ change is not for the better.
 Mostly the change is something
 that worked, doesn't work.
 
-And our products are no
-longer [INAUDIBLE] at them.
+And our products are no longer [INAUDIBLE] at them.
 
-In our case, when Intel was a
-semiconductor memory company.
+In our case, when Intel was a semiconductor memory company.
 
-We pioneered
-semiconductor memories.
+We pioneered semiconductor memories.
 
-We were the leaders in
-semiconductor memories.
+We were the leaders in semiconductor memories.
 
 In the mid '80s, the Japanese
 came and became a 10x force
