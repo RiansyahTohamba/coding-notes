@@ -1,7 +1,9 @@
 graph.md
 
-A graph models a set of connections. 
-graph = set[koneksi_1,koneksi_1,..,koneksi_n]
+A graph models a 'set of connections'. 
+
+koneksi_1 = nodes_bio_hani
+graph = [koneksi_1,koneksi_1,..,koneksi_n]
 
 Misalkan terdapat 4 org bermain game poker, dan sy ingin buat model:
 	WHO owns WHOM money
