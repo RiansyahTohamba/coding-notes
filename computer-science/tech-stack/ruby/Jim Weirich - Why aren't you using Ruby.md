@@ -72,37 +72,32 @@ with my drone and there we go okay
 
 lesson watch the battery meter when
 
-you're flying okay so that's the fun
+you're flying okay, 
 
-part we'll have more fun too but I
+so that's the fun part we'll have more fun too, 
+but I thought we just start off with that. 
 
-thought we just
-
-start off with that hi I'm Jim Wyrick
-
-I'm with neo and I'm here to talk about
-
-why you should be using Ruby
+# introduction
+hi I'm Jim Wyrick.
+I'm with neo.
+and I'm here to talk about 'why you should be using Ruby'
 
 now I think so I'm going to I'm going to
 
 try to convince you that Ruby is a cool
-
 language to use and that you should be
+using it then and if you're not already.
 
-using it then and if you're not already
+how many people are here using Ruby?
+already ok quite enough. 
 
-how many people are here using Ruby
+how many people here are curious about Ruby and they
+aren't using it yet? 
 
-already ok quite enough how many people
+ok quite a number of you 
+you are the guys I want to talk to 
 
-here are curious about Ruby and they
-
-aren't using it yet ok quite a number of
-
-you you are the guys I want to talk to I
-
-want to tell you about Ruby and get you
+I want to tell you about Ruby and get you
 
 excited about maybe using it now there's
 
@@ -114,22 +109,20 @@ trap a lot
 
 there's features versus benefits and
 
-when I talk about features if I talk
+when I talk about features if I talk about Ruby. 
 
-about Ruby I'd love to tell you about
+# blocks in ruby
+I'd love to tell you about the blocks in Ruby.
 
-the blocks in Ruby how we can use
+how we can use anonymous blocks do all kinds of
+wonderful things.
 
-anonymous blocks do all kinds of
+I can talk about the
 
-wonderful things I can talk about the
+strong oo messaging in Ruby.
 
-strong oo messaging in Ruby and how
-
-great that is I can tell you that Ruby
-
+and how great that is I can tell you that Ruby
 is a dynamic language I can tell you
-
 about the testing culture that comes
 
 along with a community of Ruby but these
@@ -297,21 +290,14 @@ in the year 2000 that was kind of when
 it was kicking off and I was reading
 
 that mailing list and there was a email
+on that list from this fella: Dave Thomas, 
+who wrote the 'pickaxe book'.
 
-on that list from this fella
-
-Dave Thomas who wrote the pickaxe book
-
-but at the time the only book he had
-
-written was the pragmatic programmer
-
-which I had just finished reading have
-
+but at the time the only book he had written was the pragmatic programmer
+which I had just finished reading. 
+have
 you read this book awesome book if you
-
 have not read this book yet please go
-
 out and pick it up it is full of really
 
 great pragmatic advice for developers I
@@ -1914,7 +1900,7 @@ turns out that's a lot trickier than
 
 just having it turn and look at you the
 
-first time I did it I had a bug in my
+first time. I did it I had a bug in my
 
 advance you know advance or back up
 
