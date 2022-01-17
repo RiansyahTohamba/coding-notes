@@ -1217,9 +1217,7 @@ got the basic core engine in there and
 what we didn't do was file tasks this
 
 was awesome this just goes to show that
-
 Ruby is really good at expressing and
-
 capturing ideas very quickly next story
 
 we have to have speed up just a little
@@ -1900,26 +1898,17 @@ turns out that's a lot trickier than
 
 just having it turn and look at you the
 
-first time. I did it I had a bug in my
+first time. 
 
-advance you know advance or back up
+I did it I had a bug in my advance you know advance or back up
+logic and it zero difficulty a target  like just attacked me so we're going  slow in that part all right so summary.
 
-logic and it zero difficulty a target
+this is real-time programming.
 
-like just attacked me so we're going
-
-slow in that part all right so summary
-
-this is real-time programming I have to
-
-send that drone come in I'll come in at
-
+I have to send that drone come in I'll come in at
 every 50 milliseconds or so just so it
-
 doesn't lose the data stream otherwise
-
 it will shut down and hover and land I'm
-
 using threads although I want to switch
 
 around to you celluloid and an actor
