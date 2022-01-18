@@ -1,0 +1,3998 @@
+with-time.txt
+
+1
+00:00:19,010 --> 00:00:21,600
+good morning again okay let's get this
+
+2
+00:00:21,600 --> 00:00:25,230
+started you excited to be here all right
+
+3
+00:00:25,230 --> 00:00:25,980
+very good
+
+4
+00:00:25,980 --> 00:00:29,160
+ah before I start my talk I want to
+
+5
+00:00:29,160 --> 00:00:36,210
+start off with some fun okay so I want
+
+6
+00:00:36,210 --> 00:00:39,840
+to show you guys the latest toy that we
+
+7
+00:00:39,840 --> 00:00:47,640
+have back in the office so if you see
+
+8
+00:00:47,640 --> 00:00:51,719
+right here this is a flying drone that's
+
+9
+00:00:51,719 --> 00:00:54,809
+remote-controlled this is a this is
+
+10
+00:00:54,809 --> 00:00:56,730
+actually Karen's drone that's flying I'm
+
+11
+00:00:56,730 --> 00:00:59,460
+filming this from my drone so we have
+
+12
+00:00:59,460 --> 00:01:01,379
+two drones actually flying in the office
+
+13
+00:01:01,379 --> 00:01:03,840
+right there there's Karen right there at
+
+14
+00:01:03,840 --> 00:01:05,820
+the edge we're trying to do the thing
+
+15
+00:01:05,820 --> 00:01:08,040
+where we're practicing flying so she's
+
+16
+00:01:08,040 --> 00:01:09,810
+going to fly around the room and I'm
+
+17
+00:01:09,810 --> 00:01:11,850
+going to fly so my camera points at her
+
+18
+00:01:11,850 --> 00:01:13,229
+all the time
+
+19
+00:01:13,229 --> 00:01:15,689
+lost in the lights there we go it's
+
+20
+00:01:15,689 --> 00:01:19,259
+coming out there I tell you this is
+
+21
+00:01:19,259 --> 00:01:21,960
+great fun it's it's really weird to see
+
+22
+00:01:21,960 --> 00:01:23,909
+people walking through our hallways at
+
+23
+00:01:23,909 --> 00:01:25,830
+the office and looking up and seeing
+
+24
+00:01:25,830 --> 00:01:28,890
+what's going on with us but so far
+
+25
+00:01:28,890 --> 00:01:30,600
+everybody's been very positive no one's
+
+26
+00:01:30,600 --> 00:01:32,310
+tried to get us kicked out because we're
+
+27
+00:01:32,310 --> 00:01:34,770
+flying drones but this is this is this
+
+28
+00:01:34,770 --> 00:01:36,210
+is awesome stuff and you just have great
+
+29
+00:01:36,210 --> 00:01:37,920
+fun I'm not going to make you watch the
+
+30
+00:01:37,920 --> 00:01:39,930
+entire video I'm going to skip ahead
+
+31
+00:01:39,930 --> 00:01:42,689
+here and I'll show you what happens when
+
+32
+00:01:42,689 --> 00:01:48,000
+your drone runs out of batteries so
+
+33
+00:01:48,000 --> 00:01:54,119
+there yeah about right here maybe okay
+
+34
+00:01:54,119 --> 00:01:58,140
+so I'm I'm filming and going around all
+
+35
+00:01:58,140 --> 00:01:59,369
+of a sudden I get a little bit wobbly
+
+36
+00:01:59,369 --> 00:02:03,229
+with my drone and there we go okay
+
+37
+00:02:03,380 --> 00:02:08,038
+lesson watch the battery meter when
+
+38
+00:02:08,038 --> 00:02:09,810
+you're flying okay so that's the fun
+
+39
+00:02:09,810 --> 00:02:13,170
+part we'll have more fun too but I
+
+40
+00:02:13,170 --> 00:02:13,840
+thought we just
+
+41
+00:02:13,840 --> 00:02:16,180
+start off with that hi I'm Jim Wyrick
+
+42
+00:02:16,180 --> 00:02:18,790
+I'm with neo and I'm here to talk about
+
+43
+00:02:18,790 --> 00:02:22,470
+why you should be using Ruby
+
+44
+00:02:22,470 --> 00:02:26,140
+now I think so I'm going to I'm going to
+
+45
+00:02:26,140 --> 00:02:29,050
+try to convince you that Ruby is a cool
+
+46
+00:02:29,050 --> 00:02:30,730
+language to use and that you should be
+
+47
+00:02:30,730 --> 00:02:32,500
+using it then and if you're not already
+
+48
+00:02:32,500 --> 00:02:34,840
+how many people are here using Ruby
+
+49
+00:02:34,840 --> 00:02:38,500
+already ok quite enough how many people
+
+50
+00:02:38,500 --> 00:02:40,360
+here are curious about Ruby and they
+
+51
+00:02:40,360 --> 00:02:42,400
+aren't using it yet ok quite a number of
+
+52
+00:02:42,400 --> 00:02:44,379
+you you are the guys I want to talk to I
+
+53
+00:02:44,379 --> 00:02:46,180
+want to tell you about Ruby and get you
+
+54
+00:02:46,180 --> 00:02:48,340
+excited about maybe using it now there's
+
+55
+00:02:48,340 --> 00:02:50,260
+a downside to doing talks like this and
+
+56
+00:02:50,260 --> 00:02:52,569
+I think us as programmers fall into this
+
+57
+00:02:52,569 --> 00:02:53,440
+trap a lot
+
+58
+00:02:53,440 --> 00:02:55,840
+there's features versus benefits and
+
+59
+00:02:55,840 --> 00:02:58,269
+when I talk about features if I talk
+
+60
+00:02:58,269 --> 00:02:59,620
+about Ruby I'd love to tell you about
+
+61
+00:02:59,620 --> 00:03:02,200
+the blocks in Ruby how we can use
+
+62
+00:03:02,200 --> 00:03:03,760
+anonymous blocks do all kinds of
+
+63
+00:03:03,760 --> 00:03:05,829
+wonderful things I can talk about the
+
+64
+00:03:05,829 --> 00:03:08,890
+strong oo messaging in Ruby and how
+
+65
+00:03:08,890 --> 00:03:10,660
+great that is I can tell you that Ruby
+
+66
+00:03:10,660 --> 00:03:12,370
+is a dynamic language I can tell you
+
+67
+00:03:12,370 --> 00:03:14,290
+about the testing culture that comes
+
+68
+00:03:14,290 --> 00:03:16,150
+along with a community of Ruby but these
+
+69
+00:03:16,150 --> 00:03:19,090
+are all features of the language what
+
+70
+00:03:19,090 --> 00:03:22,090
+you really want to hear or what are the
+
+71
+00:03:22,090 --> 00:03:25,359
+benefits to you for using Ruby so I'm
+
+72
+00:03:25,359 --> 00:03:27,519
+not going to talk a lot about the
+
+73
+00:03:27,519 --> 00:03:29,859
+features of Ruby instead I'm going to
+
+74
+00:03:29,859 --> 00:03:34,120
+tell some stories so maybe a better name
+
+75
+00:03:34,120 --> 00:03:35,829
+for this talk instead of why aren't you
+
+76
+00:03:35,829 --> 00:03:39,970
+using Ruby is why I use Ruby so we're
+
+77
+00:03:39,970 --> 00:03:40,840
+going to go from there I'm going to tell
+
+78
+00:03:40,840 --> 00:03:43,329
+you 5 stories about some Ruby code that
+
+79
+00:03:43,329 --> 00:03:44,829
+I've written in the past that I get
+
+80
+00:03:44,829 --> 00:03:46,989
+excited about and I really love and the
+
+81
+00:03:46,989 --> 00:03:49,840
+first story is about me switching to
+
+82
+00:03:49,840 --> 00:03:52,769
+Ruby in the first place
+
+83
+00:03:52,859 --> 00:03:57,130
+only people recognize this code what
+
+84
+00:03:57,130 --> 00:04:00,940
+language Perl yes
+
+85
+00:04:00,940 --> 00:04:04,269
+Perl so I was I was using Perl at the
+
+86
+00:04:04,269 --> 00:04:06,579
+time this would have been the year 2000
+
+87
+00:04:06,579 --> 00:04:08,650
+probably in the spring I've been using
+
+88
+00:04:08,650 --> 00:04:10,389
+Perl for about 3 years to do a lot of
+
+89
+00:04:10,389 --> 00:04:13,840
+scripting I was a C++ programmer at the
+
+90
+00:04:13,840 --> 00:04:17,019
+time just learning Java during this time
+
+91
+00:04:17,019 --> 00:04:20,108
+period I use Perl to write a lot of the
+
+92
+00:04:20,108 --> 00:04:24,130
+scripts that I use to manage my process
+
+93
+00:04:24,130 --> 00:04:26,800
+to generate header files to find things
+
+94
+00:04:26,800 --> 00:04:27,610
+in files
+
+95
+00:04:27,610 --> 00:04:29,530
+sort things out just all the tools that
+
+96
+00:04:29,530 --> 00:04:32,020
+every programmer uses to get things done
+
+97
+00:04:32,020 --> 00:04:34,900
+I was writing my stuff in Perl now Perl
+
+98
+00:04:34,900 --> 00:04:36,699
+is a wonderful language to get things
+
+99
+00:04:36,699 --> 00:04:38,319
+done quickly in and I really really
+
+100
+00:04:38,319 --> 00:04:40,060
+loved it for that but there's a big
+
+101
+00:04:40,060 --> 00:04:42,219
+downside to using Perl and I found that
+
+102
+00:04:42,219 --> 00:04:44,199
+as my programs grew larger and larger
+
+103
+00:04:44,199 --> 00:04:47,199
+the Perl code became harder and harder
+
+104
+00:04:47,199 --> 00:04:50,050
+to manage as long as you need a list of
+
+105
+00:04:50,050 --> 00:04:52,210
+items in Perl that's awesome it works
+
+106
+00:04:52,210 --> 00:04:54,789
+great but as soon as you need a list of
+
+107
+00:04:54,789 --> 00:04:58,330
+a list things get a little strange in
+
+108
+00:04:58,330 --> 00:04:59,919
+Perl in fact I would like to point out
+
+109
+00:04:59,919 --> 00:05:02,169
+that in the Perl tutorial page there's a
+
+110
+00:05:02,169 --> 00:05:04,060
+separate document just talking about how
+
+111
+00:05:04,060 --> 00:05:06,909
+to write a list of a list and it is
+
+112
+00:05:06,909 --> 00:05:12,639
+called Perl lol not saying anything but
+
+113
+00:05:12,639 --> 00:05:16,960
+okay so I was using Perl I was really
+
+114
+00:05:16,960 --> 00:05:18,699
+really really looking for something
+
+115
+00:05:18,699 --> 00:05:20,710
+better so I surveyed the landscape and
+
+116
+00:05:20,710 --> 00:05:23,139
+in the year 2000 there wasn't much else
+
+117
+00:05:23,139 --> 00:05:25,479
+out there but I stumble along this other
+
+118
+00:05:25,479 --> 00:05:28,900
+language called Python good Python looks
+
+119
+00:05:28,900 --> 00:05:30,580
+like it's exactly what I need it's
+
+120
+00:05:30,580 --> 00:05:32,500
+object oriented which is something I
+
+121
+00:05:32,500 --> 00:05:34,539
+really really liked if you ever tried to
+
+122
+00:05:34,539 --> 00:05:36,789
+do object orientation in Perl Oh haven't
+
+123
+00:05:36,789 --> 00:05:41,949
+helped you it was a scripting language
+
+124
+00:05:41,949 --> 00:05:43,750
+and it was freely available to all the
+
+125
+00:05:43,750 --> 00:05:46,000
+criteria I needed so I grabbed Python I
+
+126
+00:05:46,000 --> 00:05:48,879
+started using it the immediate downside
+
+127
+00:05:48,879 --> 00:05:50,770
+I found is that where I could write
+
+128
+00:05:50,770 --> 00:05:54,009
+stuff very very very quickly in Perl to
+
+129
+00:05:54,009 --> 00:05:55,930
+do it in Python required me to go back
+
+130
+00:05:55,930 --> 00:05:58,900
+to the documentation and read how do I
+
+131
+00:05:58,900 --> 00:06:00,909
+read a file how do I do this how do I do
+
+132
+00:06:00,909 --> 00:06:02,949
+that and every single thing I needed to
+
+133
+00:06:02,949 --> 00:06:05,229
+do I had to look up and learn and so the
+
+134
+00:06:05,229 --> 00:06:06,729
+learning curve moving from pearl to
+
+135
+00:06:06,729 --> 00:06:09,310
+Python was rather steep for me in fact
+
+136
+00:06:09,310 --> 00:06:11,379
+it was steep enough I tried three
+
+137
+00:06:11,379 --> 00:06:14,319
+separate times to learn Python and gave
+
+138
+00:06:14,319 --> 00:06:18,099
+up two times the third time I was
+
+139
+00:06:18,099 --> 00:06:21,069
+determined I am going to learn this
+
+140
+00:06:21,069 --> 00:06:25,930
+language or else so I sat down I started
+
+141
+00:06:25,930 --> 00:06:27,430
+doing stuff with it and I was reading
+
+142
+00:06:27,430 --> 00:06:30,009
+the documentation and I was I was really
+
+143
+00:06:30,009 --> 00:06:32,080
+getting you know into Python and I was
+
+144
+00:06:32,080 --> 00:06:34,000
+really going to learn it and then I was
+
+145
+00:06:34,000 --> 00:06:37,060
+reading a mailing list I think it was
+
+146
+00:06:37,060 --> 00:06:38,919
+the extreme programming mailing list so
+
+147
+00:06:38,919 --> 00:06:39,980
+because XP was
+
+148
+00:06:39,980 --> 00:06:42,170
+in the year 2000 that was kind of when
+
+149
+00:06:42,170 --> 00:06:43,940
+it was kicking off and I was reading
+
+150
+00:06:43,940 --> 00:06:46,220
+that mailing list and there was a email
+
+151
+00:06:46,220 --> 00:06:47,840
+on that list from this fella
+
+152
+00:06:47,840 --> 00:06:51,260
+Dave Thomas who wrote the pickaxe book
+
+153
+00:06:51,260 --> 00:06:53,150
+but at the time the only book he had
+
+154
+00:06:53,150 --> 00:06:55,280
+written was the pragmatic programmer
+
+155
+00:06:55,280 --> 00:06:58,130
+which I had just finished reading have
+
+156
+00:06:58,130 --> 00:07:00,590
+you read this book awesome book if you
+
+157
+00:07:00,590 --> 00:07:02,030
+have not read this book yet please go
+
+158
+00:07:02,030 --> 00:07:04,250
+out and pick it up it is full of really
+
+159
+00:07:04,250 --> 00:07:08,150
+great pragmatic advice for developers I
+
+160
+00:07:08,150 --> 00:07:10,220
+really highly recommend it so I said oh
+
+161
+00:07:10,220 --> 00:07:12,800
+look here's an email from Dave Thomas
+
+162
+00:07:12,800 --> 00:07:14,330
+and I really respect him because of the
+
+163
+00:07:14,330 --> 00:07:17,420
+book he wrote here and the email he said
+
+164
+00:07:17,420 --> 00:07:19,730
+hey guys I discovered this little
+
+165
+00:07:19,730 --> 00:07:21,740
+language called Ruby it's kind of cool
+
+166
+00:07:21,740 --> 00:07:24,730
+you might like it that's all he said I
+
+167
+00:07:24,730 --> 00:07:28,940
+thought well if Dave Thomas likes Ruby
+
+168
+00:07:28,940 --> 00:07:32,170
+I'm going to check it out
+
+169
+00:07:32,170 --> 00:07:35,930
+so I downloaded Ruby I booted it up
+
+170
+00:07:35,930 --> 00:07:38,330
+booted it up I started it up and I
+
+171
+00:07:38,330 --> 00:07:40,430
+started taking a look at it and in two
+
+172
+00:07:40,430 --> 00:07:41,000
+days
+
+173
+00:07:41,000 --> 00:07:43,130
+I totally switched from Perl to Ruby
+
+174
+00:07:43,130 --> 00:07:45,710
+after two days I wrote no more new code
+
+175
+00:07:45,710 --> 00:07:48,770
+in Perl after that point I switched over
+
+176
+00:07:48,770 --> 00:07:51,410
+was so easy for me every time I got to a
+
+177
+00:07:51,410 --> 00:07:52,730
+place where I said I need to do
+
+178
+00:07:52,730 --> 00:07:54,740
+something I would think about oh let's
+
+179
+00:07:54,740 --> 00:07:57,050
+see Perl doesn't like this if I would
+
+180
+00:07:57,050 --> 00:07:59,300
+take that and do it in a way I would do
+
+181
+00:07:59,300 --> 00:08:02,750
+it like this and bam it worked so Ruby
+
+182
+00:08:02,750 --> 00:08:05,960
+really matched match my expectations of
+
+183
+00:08:05,960 --> 00:08:07,460
+the language it was an awesome
+
+184
+00:08:07,460 --> 00:08:09,410
+experience and I love Ruby ever since
+
+185
+00:08:09,410 --> 00:08:11,470
+that so I've been using Ruby now
+
+186
+00:08:11,470 --> 00:08:14,090
+thirteen years getting really close to
+
+187
+00:08:14,090 --> 00:08:17,150
+thirteen years now so awesome awesome
+
+188
+00:08:17,150 --> 00:08:20,390
+awesome language so let's summarize this
+
+189
+00:08:20,390 --> 00:08:22,390
+story
+
+190
+00:08:22,390 --> 00:08:24,950
+Ruby has what we call the principle of
+
+191
+00:08:24,950 --> 00:08:27,530
+least surprise things in there if you
+
+192
+00:08:27,530 --> 00:08:29,270
+know the language and kind of knows know
+
+193
+00:08:29,270 --> 00:08:31,130
+where it's going this thing's did it
+
+194
+00:08:31,130 --> 00:08:33,770
+tend to be unsurprising you think hmm
+
+195
+00:08:33,770 --> 00:08:36,830
+how would I do this and doggone it it
+
+196
+00:08:36,830 --> 00:08:37,789
+seems to work
+
+197
+00:08:37,789 --> 00:08:41,120
+it has great data abstraction where Perl
+
+198
+00:08:41,120 --> 00:08:43,909
+had trouble managing lists of lists Ruby
+
+199
+00:08:43,909 --> 00:08:46,610
+could easily handle lists of anything
+
+200
+00:08:46,610 --> 00:08:48,140
+and it was just objects and everything
+
+201
+00:08:48,140 --> 00:08:50,690
+was uniformly accessed through through
+
+202
+00:08:50,690 --> 00:08:52,820
+message passing and it was so strong
+
+203
+00:08:52,820 --> 00:08:56,110
+strongly oh-oh in fact it's probably the
+
+204
+00:08:56,110 --> 00:08:59,930
+most low language out there in the same
+
+205
+00:08:59,930 --> 00:09:04,540
+class as small talk so a really strong
+
+206
+00:09:04,540 --> 00:09:07,790
+ability and easy to learn I found it
+
+207
+00:09:07,790 --> 00:09:09,350
+quite easy to pick up and go with it
+
+208
+00:09:09,350 --> 00:09:13,700
+I teach rails programming now to people
+
+209
+00:09:13,700 --> 00:09:16,880
+new to rails and most of the people in
+
+210
+00:09:16,880 --> 00:09:19,460
+the class are also new to Ruby we teach
+
+211
+00:09:19,460 --> 00:09:22,340
+them rails and Ruby in a three day
+
+212
+00:09:22,340 --> 00:09:24,230
+course and they come out of that with a
+
+213
+00:09:24,230 --> 00:09:26,360
+pretty good foundation on how to do
+
+214
+00:09:26,360 --> 00:09:28,550
+programming in rails even though that
+
+215
+00:09:28,550 --> 00:09:29,840
+might be the first time they've seen
+
+216
+00:09:29,840 --> 00:09:32,690
+Ruby Ruby is not a hard language to pick
+
+217
+00:09:32,690 --> 00:09:40,900
+up so second story this is a true story
+
+218
+00:09:40,900 --> 00:09:42,980
+the other one was true too but I just
+
+219
+00:09:42,980 --> 00:09:44,390
+want to emphasize that this one in
+
+220
+00:09:44,390 --> 00:09:47,390
+particular is true the names have been
+
+221
+00:09:47,390 --> 00:09:51,800
+changed to protect the innocent guilty
+
+222
+00:09:51,800 --> 00:09:55,970
+those involved I was working in a large
+
+223
+00:09:55,970 --> 00:09:57,980
+financial company at the time and this
+
+224
+00:09:57,980 --> 00:10:03,350
+is soon after I've discovered Ruby and I
+
+225
+00:10:03,350 --> 00:10:05,810
+was using Ruby a lot again for my
+
+226
+00:10:05,810 --> 00:10:07,700
+tooling for the stuff I do every day I
+
+227
+00:10:07,700 --> 00:10:10,250
+wrote Ruby scripts to analyze the
+
+228
+00:10:10,250 --> 00:10:12,500
+database I Ruby scripts to go into the
+
+229
+00:10:12,500 --> 00:10:15,170
+database and pull out data and show it
+
+230
+00:10:15,170 --> 00:10:17,600
+to me in a form so I could easily figure
+
+231
+00:10:17,600 --> 00:10:19,280
+out what was going on in the database
+
+232
+00:10:19,280 --> 00:10:21,110
+I wrote Ruby scripts to talk to their
+
+233
+00:10:21,110 --> 00:10:23,150
+event manager so I could receive events
+
+234
+00:10:23,150 --> 00:10:24,920
+and publish events on their event
+
+235
+00:10:24,920 --> 00:10:26,870
+manager so everything in the environment
+
+236
+00:10:26,870 --> 00:10:27,680
+that we worked with
+
+237
+00:10:27,680 --> 00:10:30,080
+I had Ruby scripts to communicate with
+
+238
+00:10:30,080 --> 00:10:31,880
+that and make it easier as my job as a
+
+239
+00:10:31,880 --> 00:10:33,440
+programmer to do work in that
+
+240
+00:10:33,440 --> 00:10:37,130
+environment now this particular part of
+
+241
+00:10:37,130 --> 00:10:40,970
+the company dealt with incoming mail if
+
+242
+00:10:40,970 --> 00:10:44,860
+you send any kind of mail to this big
+
+243
+00:10:44,860 --> 00:10:47,510
+multinational financial corporation it
+
+244
+00:10:47,510 --> 00:10:51,320
+all came through this one room in Hebron
+
+245
+00:10:51,320 --> 00:10:53,900
+Kentucky and they would open up the mail
+
+246
+00:10:53,900 --> 00:10:56,300
+and they would scan it into a scanner
+
+247
+00:10:56,300 --> 00:10:59,390
+and digitize it that scanner that data
+
+248
+00:10:59,390 --> 00:11:01,580
+would go into a program that would read
+
+249
+00:11:01,580 --> 00:11:04,700
+it and it would generate an event for
+
+250
+00:11:04,700 --> 00:11:06,140
+every item that was
+
+251
+00:11:06,140 --> 00:11:10,399
+and that event was published and picked
+
+252
+00:11:10,399 --> 00:11:12,980
+up by the next program in the pipeline
+
+253
+00:11:12,980 --> 00:11:15,290
+so at this point it's been scanned it's
+
+254
+00:11:15,290 --> 00:11:17,690
+a form and it's got image data attached
+
+255
+00:11:17,690 --> 00:11:19,100
+to this event actually the image
+
+256
+00:11:19,100 --> 00:11:21,200
+restored the database but a reference to
+
+257
+00:11:21,200 --> 00:11:23,990
+the image was put into the event then it
+
+258
+00:11:23,990 --> 00:11:26,029
+would run through a barcode reader that
+
+259
+00:11:26,029 --> 00:11:27,920
+would look at the image and look for
+
+260
+00:11:27,920 --> 00:11:31,040
+barcodes and find data encoded on the
+
+261
+00:11:31,040 --> 00:11:33,320
+form in barcodes and add that to the
+
+262
+00:11:33,320 --> 00:11:36,170
+event and publish it again with this new
+
+263
+00:11:36,170 --> 00:11:40,490
+event then went to the checkbox analyzer
+
+264
+00:11:40,490 --> 00:11:42,470
+and it would look for check boxes on the
+
+265
+00:11:42,470 --> 00:11:44,029
+form and see if this check box was
+
+266
+00:11:44,029 --> 00:11:45,829
+checked or if this check box was not
+
+267
+00:11:45,829 --> 00:11:47,209
+checked and then it would add
+
+268
+00:11:47,209 --> 00:11:49,310
+information about check boxes to the
+
+269
+00:11:49,310 --> 00:11:51,230
+event and it would publish it again and
+
+270
+00:11:51,230 --> 00:11:52,550
+then they would go onto the pipeline
+
+271
+00:11:52,550 --> 00:11:54,440
+there were stages in this pipeline that
+
+272
+00:11:54,440 --> 00:11:56,690
+looked for character information did
+
+273
+00:11:56,690 --> 00:11:59,029
+handwriting analysis and there was
+
+274
+00:11:59,029 --> 00:12:01,399
+manual verification steps and things but
+
+275
+00:12:01,399 --> 00:12:03,230
+it kept publishing these events on the
+
+276
+00:12:03,230 --> 00:12:04,790
+pipeline till eventually got to the
+
+277
+00:12:04,790 --> 00:12:06,110
+point where it says okay we've collected
+
+278
+00:12:06,110 --> 00:12:08,209
+all the data for this form I'm going to
+
+279
+00:12:08,209 --> 00:12:10,790
+publish this data out to the pension
+
+280
+00:12:10,790 --> 00:12:13,190
+division or to the stock options
+
+281
+00:12:13,190 --> 00:12:14,990
+division or to some other division it
+
+282
+00:12:14,990 --> 00:12:20,420
+was a whole workflow type of thing well
+
+283
+00:12:20,420 --> 00:12:22,880
+for many years how they handled fax data
+
+284
+00:12:22,880 --> 00:12:24,649
+was they would get a fax they would
+
+285
+00:12:24,649 --> 00:12:28,240
+print out the fax and they would scan it
+
+286
+00:12:30,490 --> 00:12:33,740
+it that actually worked and surprisingly
+
+287
+00:12:33,740 --> 00:12:36,440
+but it seemed to be rather inefficient
+
+288
+00:12:36,440 --> 00:12:39,260
+and scanning a you know a fax is already
+
+289
+00:12:39,260 --> 00:12:41,060
+scanned and scanning that is just leads
+
+290
+00:12:41,060 --> 00:12:42,949
+to all kind of dirty images so they
+
+291
+00:12:42,949 --> 00:12:44,209
+thought they could get better results by
+
+292
+00:12:44,209 --> 00:12:46,339
+feeding the scan fax data directly into
+
+293
+00:12:46,339 --> 00:12:48,380
+the feed so the fax data would come into
+
+294
+00:12:48,380 --> 00:12:50,510
+its own process it would publish an
+
+295
+00:12:50,510 --> 00:12:52,699
+event and then it would enter the
+
+296
+00:12:52,699 --> 00:12:54,350
+pipeline just like anything else so
+
+297
+00:12:54,350 --> 00:12:57,199
+paper email our paper mail was scanned
+
+298
+00:12:57,199 --> 00:12:59,720
+fax data was scanned and sent in as well
+
+299
+00:12:59,720 --> 00:13:04,610
+so that's the way that worked I was
+
+300
+00:13:04,610 --> 00:13:07,610
+sitting at my desk one day working hard
+
+301
+00:13:07,610 --> 00:13:09,500
+on you know kind of heads down on
+
+302
+00:13:09,500 --> 00:13:11,240
+working of whatever I needed to work on
+
+303
+00:13:11,240 --> 00:13:12,829
+this was the days before pair
+
+304
+00:13:12,829 --> 00:13:15,140
+programming got popular so I had my own
+
+305
+00:13:15,140 --> 00:13:17,449
+cubicle right there and I was kind heads
+
+306
+00:13:17,449 --> 00:13:18,829
+down and I noticed that people were kind
+
+307
+00:13:18,829 --> 00:13:19,300
+of
+
+308
+00:13:19,300 --> 00:13:21,970
+wandering around outside my cubicle and
+
+309
+00:13:21,970 --> 00:13:23,470
+kind of running back and forth and and
+
+310
+00:13:23,470 --> 00:13:25,420
+the noise levels seem to be a bit little
+
+311
+00:13:25,420 --> 00:13:27,100
+bit louder and I wondered hmm
+
+312
+00:13:27,100 --> 00:13:28,420
+something's going on today and I don't
+
+313
+00:13:28,420 --> 00:13:30,910
+know what that might be but I'm working
+
+314
+00:13:30,910 --> 00:13:31,240
+here
+
+315
+00:13:31,240 --> 00:13:33,670
+and finally my manager comes into my
+
+316
+00:13:33,670 --> 00:13:35,529
+cubicle with another developer he says
+
+317
+00:13:35,529 --> 00:13:39,220
+uh Jim you know you know Ruby don't you
+
+318
+00:13:39,220 --> 00:13:43,540
+I said yeah because I've been kind of
+
+319
+00:13:43,540 --> 00:13:45,100
+evangelizing Ruby to the rest of the
+
+320
+00:13:45,100 --> 00:13:46,540
+group I was the main user of it but
+
+321
+00:13:46,540 --> 00:13:48,160
+there are several other people who saw
+
+322
+00:13:48,160 --> 00:13:49,570
+some of the advantage of Ruby and we're
+
+323
+00:13:49,570 --> 00:13:51,910
+using it as well and they said well this
+
+324
+00:13:51,910 --> 00:13:54,610
+is what happened be part of our process
+
+325
+00:13:54,610 --> 00:13:57,910
+that takes in facts and publishes the
+
+326
+00:13:57,910 --> 00:14:01,209
+event somehow was dropping events I no
+
+327
+00:14:01,209 --> 00:14:03,730
+longer recall the exact technical reason
+
+328
+00:14:03,730 --> 00:14:05,320
+for this failure maybe the disk was full
+
+329
+00:14:05,320 --> 00:14:07,720
+or maybe there is a section being thrown
+
+330
+00:14:07,720 --> 00:14:11,019
+I don't remember but these faxes were
+
+331
+00:14:11,019 --> 00:14:16,000
+being dropped now you know if I lose a
+
+332
+00:14:16,000 --> 00:14:18,459
+fax you know well how do I use fact I
+
+333
+00:14:18,459 --> 00:14:20,440
+fax order to our restaurant if I lose my
+
+334
+00:14:20,440 --> 00:14:24,790
+fax I don't get my meal that day that's
+
+335
+00:14:24,790 --> 00:14:27,130
+not the case with this company those
+
+336
+00:14:27,130 --> 00:14:30,399
+orders coming in might be changes to
+
+337
+00:14:30,399 --> 00:14:32,920
+pension plans are changes to stocks you
+
+338
+00:14:32,920 --> 00:14:34,870
+know buy the stock sell that stock and
+
+339
+00:14:34,870 --> 00:14:38,070
+if they don't take action on that order
+
+340
+00:14:38,070 --> 00:14:41,140
+within a certain number of hours they
+
+341
+00:14:41,140 --> 00:14:43,390
+are liable for the difference in price
+
+342
+00:14:43,390 --> 00:14:45,820
+from the point that they set the fax was
+
+343
+00:14:45,820 --> 00:14:47,560
+sent and the point they actually made
+
+344
+00:14:47,560 --> 00:14:51,160
+the trade this is potentially millions
+
+345
+00:14:51,160 --> 00:14:54,070
+of dollars of data that was falling out
+
+346
+00:14:54,070 --> 00:14:57,370
+of the fax machine and onto the floor
+
+347
+00:14:57,370 --> 00:15:01,920
+this was an emergency so they said Jim
+
+348
+00:15:01,920 --> 00:15:04,449
+you know Ruby can you help us now it
+
+349
+00:15:04,449 --> 00:15:08,620
+turns out that the facts program wrote a
+
+350
+00:15:08,620 --> 00:15:10,660
+pretty complete log of everything it did
+
+351
+00:15:10,660 --> 00:15:13,180
+and the log was still being written it
+
+352
+00:15:13,180 --> 00:15:14,890
+was saying oh except Shinzon we're not
+
+353
+00:15:14,890 --> 00:15:16,660
+delivering the message but every single
+
+354
+00:15:16,660 --> 00:15:19,390
+facts element was was recorded in the
+
+355
+00:15:19,390 --> 00:15:22,000
+log along with the database ID of the
+
+356
+00:15:22,000 --> 00:15:24,730
+image associated with that fax so what I
+
+357
+00:15:24,730 --> 00:15:28,029
+had to do was write a ruby script that
+
+358
+00:15:28,029 --> 00:15:30,870
+would read the log
+
+359
+00:15:31,480 --> 00:15:34,989
+would reconstruct the event based upon
+
+360
+00:15:34,989 --> 00:15:37,959
+details in the log pull the database ID
+
+361
+00:15:37,959 --> 00:15:40,209
+out and put it in an event and republish
+
+362
+00:15:40,209 --> 00:15:43,169
+that event into the system so
+
+363
+00:15:43,169 --> 00:15:45,699
+essentially I was writing a vacuum
+
+364
+00:15:45,699 --> 00:15:47,109
+sweeper that would sweep up all the
+
+365
+00:15:47,109 --> 00:15:49,540
+broken faxes laying on the floor and put
+
+366
+00:15:49,540 --> 00:15:53,019
+them in so this is how I saved the
+
+367
+00:15:53,019 --> 00:15:56,609
+company millions of dollars using Ruby
+
+368
+00:15:56,609 --> 00:16:04,959
+Ruby hero I asked for a fraction of that
+
+369
+00:16:04,959 --> 00:16:07,689
+million to be included in my bonus and
+
+370
+00:16:07,689 --> 00:16:09,339
+they just laughed I don't I don't get
+
+371
+00:16:09,339 --> 00:16:09,730
+that
+
+372
+00:16:09,730 --> 00:16:11,829
+and actually truthfully it was a team
+
+373
+00:16:11,829 --> 00:16:13,779
+effort I was doing the log recovery
+
+374
+00:16:13,779 --> 00:16:15,639
+someone else was doing some event stuff
+
+375
+00:16:15,639 --> 00:16:18,100
+there were about five or six people all
+
+376
+00:16:18,100 --> 00:16:20,230
+working on this problem the log recovery
+
+377
+00:16:20,230 --> 00:16:22,329
+piece was just a small portion of that
+
+378
+00:16:22,329 --> 00:16:24,339
+but together by using room in it and
+
+379
+00:16:24,339 --> 00:16:26,019
+they knew that Ruby could handle the job
+
+380
+00:16:26,019 --> 00:16:27,459
+they knew they could not write this
+
+381
+00:16:27,459 --> 00:16:29,499
+stuff in Java quick enough you know in
+
+382
+00:16:29,499 --> 00:16:31,119
+the half hour that we needed to get this
+
+383
+00:16:31,119 --> 00:16:34,029
+done so here Ruby handles an emergency
+
+384
+00:16:34,029 --> 00:16:36,129
+it's really rapid to get a quick
+
+385
+00:16:36,129 --> 00:16:38,019
+solution up it took me about half an
+
+386
+00:16:38,019 --> 00:16:39,519
+hour to figure out how to parse the log
+
+387
+00:16:39,519 --> 00:16:41,949
+file and generate those events and we
+
+388
+00:16:41,949 --> 00:16:44,220
+saved lots and lots of money with that
+
+389
+00:16:44,220 --> 00:16:47,279
+all right
+
+390
+00:16:55,570 --> 00:17:02,690
+next story I love this picture this is
+
+391
+00:17:02,690 --> 00:17:05,750
+actually at the Breedlove guitar Factory
+
+392
+00:17:05,750 --> 00:17:08,150
+in Bend Oregon and the gal here is
+
+393
+00:17:08,150 --> 00:17:11,780
+actually working on the fretboard of a
+
+394
+00:17:11,780 --> 00:17:13,609
+guitar she's playing in the grooves and
+
+395
+00:17:13,609 --> 00:17:14,540
+putting in the frets
+
+396
+00:17:14,540 --> 00:17:16,790
+for a guitar that will be made there I
+
+397
+00:17:16,790 --> 00:17:19,280
+have a Breedlove guitar so when I took
+
+398
+00:17:19,280 --> 00:17:20,930
+tour of the factory I just took all
+
+399
+00:17:20,930 --> 00:17:22,700
+kinds of pictures I love I love this
+
+400
+00:17:22,700 --> 00:17:24,170
+stuff but what I want to concentrate on
+
+401
+00:17:24,170 --> 00:17:27,020
+is that we as developers love to make
+
+402
+00:17:27,020 --> 00:17:31,280
+things love to build things I was
+
+403
+00:17:31,280 --> 00:17:33,110
+working on a project with a friend of
+
+404
+00:17:33,110 --> 00:17:36,290
+mine we were actually pairing and we
+
+405
+00:17:36,290 --> 00:17:38,470
+were working on getting a build script
+
+406
+00:17:38,470 --> 00:17:42,500
+up and running and working and we were
+
+407
+00:17:42,500 --> 00:17:45,950
+doing and we were it was for Java but we
+
+408
+00:17:45,950 --> 00:17:48,470
+were old hat developers back in those
+
+409
+00:17:48,470 --> 00:17:51,350
+days we this ant thing was kind of
+
+410
+00:17:51,350 --> 00:17:53,060
+newfangled for us so we were still using
+
+411
+00:17:53,060 --> 00:17:56,180
+make at the time and we were trying to
+
+412
+00:17:56,180 --> 00:17:58,550
+do make trying to get make to do
+
+413
+00:17:58,550 --> 00:18:00,470
+something that was just a little bit too
+
+414
+00:18:00,470 --> 00:18:03,560
+dynamic for make we were shelling out to
+
+415
+00:18:03,560 --> 00:18:05,810
+Ock and scripting stuff and doing all
+
+416
+00:18:05,810 --> 00:18:07,610
+kinds of weird things I think I look
+
+417
+00:18:07,610 --> 00:18:10,180
+like this by the time I was done I
+
+418
+00:18:10,180 --> 00:18:12,790
+turned around to Ryan I said Ryan
+
+419
+00:18:12,790 --> 00:18:15,410
+wouldn't it be great if make were
+
+420
+00:18:15,410 --> 00:18:19,790
+written in Ruby and Ryan says Jim that's
+
+421
+00:18:19,790 --> 00:18:22,460
+an awesome idea I have no idea what you
+
+422
+00:18:22,460 --> 00:18:26,870
+mean so I turned around to the
+
+423
+00:18:26,870 --> 00:18:28,250
+whiteboard and I scribbled on the
+
+424
+00:18:28,250 --> 00:18:29,330
+whiteboard something that looked
+
+425
+00:18:29,330 --> 00:18:31,280
+approximately like this I said Ryan you
+
+426
+00:18:31,280 --> 00:18:33,680
+would you would have a task command and
+
+427
+00:18:33,680 --> 00:18:36,260
+this task command takes a name of some
+
+428
+00:18:36,260 --> 00:18:37,790
+kind of task you want to perform and
+
+429
+00:18:37,790 --> 00:18:39,560
+then you just give it a block of stuff
+
+430
+00:18:39,560 --> 00:18:41,720
+you wish to execute when this task is
+
+431
+00:18:41,720 --> 00:18:44,030
+performed and somehow you would manage
+
+432
+00:18:44,030 --> 00:18:46,790
+dependencies and do that and and you
+
+433
+00:18:46,790 --> 00:18:48,230
+would just use this like you use make
+
+434
+00:18:48,230 --> 00:18:50,000
+but it'd be all written in Ruby it'd be
+
+435
+00:18:50,000 --> 00:18:51,950
+totally dynamic this problem that we're
+
+436
+00:18:51,950 --> 00:18:55,160
+trying to solve would be trivial to do
+
+437
+00:18:55,160 --> 00:18:57,770
+in Ruby and he says that's brilliant
+
+438
+00:18:57,770 --> 00:18:59,780
+and we talked about it for another five
+
+439
+00:18:59,780 --> 00:19:02,120
+minutes but then we realized no we
+
+440
+00:19:02,120 --> 00:19:05,000
+really really wanted to do this what
+
+441
+00:19:05,000 --> 00:19:06,410
+would we have to do well we would have
+
+442
+00:19:06,410 --> 00:19:08,320
+to reproduce the
+
+443
+00:19:08,320 --> 00:19:13,710
+entire functionality of make in Ruby
+
+444
+00:19:13,710 --> 00:19:16,149
+just so we can get it a little bit more
+
+445
+00:19:16,149 --> 00:19:18,820
+dynamic and we laughed at the idea
+
+446
+00:19:18,820 --> 00:19:22,330
+that's silly no one would ever ever want
+
+447
+00:19:22,330 --> 00:19:30,820
+to do that only an idiot so Ryan went
+
+448
+00:19:30,820 --> 00:19:32,649
+back to his desk and he left me sitting
+
+449
+00:19:32,649 --> 00:19:34,269
+there thinking and I began to think well
+
+450
+00:19:34,269 --> 00:19:38,980
+gosh how hard could it really be I mean
+
+451
+00:19:38,980 --> 00:19:40,929
+if I did a really trivial implementation
+
+452
+00:19:40,929 --> 00:19:43,210
+of make in Ruby thought what I have to
+
+453
+00:19:43,210 --> 00:19:49,509
+do he imagine you have this setup let's
+
+454
+00:19:49,509 --> 00:19:52,659
+set up a sample make make like problem
+
+455
+00:19:52,659 --> 00:19:55,269
+you have a task called make mac and
+
+456
+00:19:55,269 --> 00:19:57,490
+cheese and in order to make mac and
+
+457
+00:19:57,490 --> 00:19:59,860
+cheese you need to boil water you need
+
+458
+00:19:59,860 --> 00:20:02,379
+to buy cheese you need to buy the pasta
+
+459
+00:20:02,379 --> 00:20:04,509
+for the macaroni before you can buy
+
+460
+00:20:04,509 --> 00:20:06,549
+either pasta or macaroni you have to go
+
+461
+00:20:06,549 --> 00:20:08,230
+to the store and these tasks have to be
+
+462
+00:20:08,230 --> 00:20:10,360
+all be performed in the proper order
+
+463
+00:20:10,360 --> 00:20:11,799
+because you don't want to start boiling
+
+464
+00:20:11,799 --> 00:20:13,990
+the water before you go to the store
+
+465
+00:20:13,990 --> 00:20:16,149
+that would be silly so you need to have
+
+466
+00:20:16,149 --> 00:20:17,710
+some kind of dependency structure
+
+467
+00:20:17,710 --> 00:20:20,529
+between these tasks and you need to be
+
+468
+00:20:20,529 --> 00:20:23,919
+able to say hey go and do this so you
+
+469
+00:20:23,919 --> 00:20:26,019
+might create a structure that looks like
+
+470
+00:20:26,019 --> 00:20:26,639
+this
+
+471
+00:20:26,639 --> 00:20:29,830
+declare a task give it a list of
+
+472
+00:20:29,830 --> 00:20:31,450
+dependencies and these dependencies are
+
+473
+00:20:31,450 --> 00:20:33,610
+exactly the dependencies I've drawn out
+
+474
+00:20:33,610 --> 00:20:36,789
+here with the green arrows make mac and
+
+475
+00:20:36,789 --> 00:20:38,860
+cheese boil water buy pasta buy cheese
+
+476
+00:20:38,860 --> 00:20:40,960
+go to store five different tasks with
+
+477
+00:20:40,960 --> 00:20:43,389
+all their dependencies declared and if
+
+478
+00:20:43,389 --> 00:20:46,360
+you're familiar with rate this is very
+
+479
+00:20:46,360 --> 00:20:49,029
+very very similar to what rake looks
+
+480
+00:20:49,029 --> 00:20:51,250
+like today just a few syntactical
+
+481
+00:20:51,250 --> 00:20:53,080
+differences just to make it easy that's
+
+482
+00:20:53,080 --> 00:20:54,250
+what we're going to do now is we're
+
+483
+00:20:54,250 --> 00:20:56,820
+going to write rate
+
+484
+00:21:03,690 --> 00:21:09,820
+you think I'm joking so here there is
+
+485
+00:21:09,820 --> 00:21:11,920
+our task file I have it all ready to go
+
+486
+00:21:11,920 --> 00:21:16,870
+so there's all our tasks let's open up
+
+487
+00:21:16,870 --> 00:21:19,060
+the micro rake file and you can see it's
+
+488
+00:21:19,060 --> 00:21:21,610
+empty and what I want to be able to do
+
+489
+00:21:21,610 --> 00:21:25,120
+is be able say Ruby micro rake and give
+
+490
+00:21:25,120 --> 00:21:29,140
+it the Mac oh no excuse me make mac and
+
+491
+00:21:29,140 --> 00:21:31,450
+cheese command and run that and we'll
+
+492
+00:21:31,450 --> 00:21:32,890
+run all the tasks now you see it does
+
+493
+00:21:32,890 --> 00:21:34,630
+nothing here because our micro rake file
+
+494
+00:21:34,630 --> 00:21:37,780
+is empty so let's see what we need to
+
+495
+00:21:37,780 --> 00:21:42,130
+write to make this to work I'm going to
+
+496
+00:21:42,130 --> 00:21:44,140
+start with the last thing we do and work
+
+497
+00:21:44,140 --> 00:21:48,010
+backwards in the file so we need to be
+
+498
+00:21:48,010 --> 00:21:50,770
+able to grab this command name right
+
+499
+00:21:50,770 --> 00:21:53,350
+here this make mac and cheese from the
+
+500
+00:21:53,350 --> 00:21:55,330
+command line and try to invoke the task
+
+501
+00:21:55,330 --> 00:21:58,440
+to fix that so I'm going to say our V
+
+502
+00:21:58,440 --> 00:22:01,690
+each do for each argument in our
+
+503
+00:22:01,690 --> 00:22:05,800
+argument list we need to find the task
+
+504
+00:22:05,800 --> 00:22:08,440
+so let's assume we have a global hash
+
+505
+00:22:08,440 --> 00:22:11,790
+call tasks we look up the task in there
+
+506
+00:22:11,790 --> 00:22:18,130
+we invoke the task then we end so there
+
+507
+00:22:18,130 --> 00:22:20,980
+that's that's the end of our program so
+
+508
+00:22:20,980 --> 00:22:22,630
+what becomes before that what we need I
+
+509
+00:22:22,630 --> 00:22:26,710
+said I had a global task hash here so
+
+510
+00:22:26,710 --> 00:22:28,090
+let's create that and let's define a
+
+511
+00:22:28,090 --> 00:22:35,680
+task method it takes a name a thank you
+
+512
+00:22:35,680 --> 00:22:37,890
+in
+
+513
+00:22:39,120 --> 00:22:43,140
+we're just going to turn off Wi-Fi here
+
+514
+00:22:43,140 --> 00:22:47,970
+that is way too tempting for people
+
+515
+00:22:50,670 --> 00:22:53,380
+takes the name it takes dependencies and
+
+516
+00:22:53,380 --> 00:22:57,040
+it takes a block and in there we're
+
+517
+00:22:57,040 --> 00:22:59,200
+going to create a task object new and
+
+518
+00:22:59,200 --> 00:23:01,780
+pass it the name the dependencies and
+
+519
+00:23:01,780 --> 00:23:04,720
+the block into that that will create a
+
+520
+00:23:04,720 --> 00:23:06,460
+task object now I need to save it
+
+521
+00:23:06,460 --> 00:23:09,130
+somewhere so let's take our tasks hash
+
+522
+00:23:09,130 --> 00:23:15,180
+and save it by its name just like that
+
+523
+00:23:17,730 --> 00:23:29,410
+but what I wrote you twice oh oh thank
+
+524
+00:23:29,410 --> 00:23:33,970
+you this is why we pair this is like
+
+525
+00:23:33,970 --> 00:23:41,770
+super pairing or something okay so let's
+
+526
+00:23:41,770 --> 00:23:42,670
+create our cask
+
+527
+00:23:42,670 --> 00:23:45,370
+thing here and I'll need a constructor
+
+528
+00:23:45,370 --> 00:23:48,730
+takes the name the dependencies and the
+
+529
+00:23:48,730 --> 00:23:51,610
+action block and just stores them off
+
+530
+00:23:51,610 --> 00:23:54,130
+I'm going to want to have a method
+
+531
+00:23:54,130 --> 00:23:59,050
+called execute and execute is very
+
+532
+00:23:59,050 --> 00:24:01,110
+simple it just takes the action and
+
+533
+00:24:01,110 --> 00:24:04,180
+calls it because action is just a block
+
+534
+00:24:04,180 --> 00:24:05,050
+and it's going to it's an anonymous
+
+535
+00:24:05,050 --> 00:24:06,910
+function I'm just going to call it like
+
+536
+00:24:06,910 --> 00:24:10,410
+that and now I need to write invoke
+
+537
+00:24:10,410 --> 00:24:14,020
+voc's a little more tricky let's see a
+
+538
+00:24:14,020 --> 00:24:17,140
+task should never execute twice so if
+
+539
+00:24:17,140 --> 00:24:19,270
+it's already run lets you know you
+
+540
+00:24:19,270 --> 00:24:21,280
+invoke it it's already run we're done we
+
+541
+00:24:21,280 --> 00:24:22,870
+have to can return immediately so we
+
+542
+00:24:22,870 --> 00:24:31,270
+return if already yeah there we go
+
+543
+00:24:31,270 --> 00:24:35,980
+already run so if we get this far that
+
+544
+00:24:35,980 --> 00:24:37,780
+means it hasn't run yet we have to make
+
+545
+00:24:37,780 --> 00:24:40,540
+sure all our dependencies are invoked so
+
+546
+00:24:40,540 --> 00:24:44,530
+depths each do depth and I would like to
+
+547
+00:24:44,530 --> 00:24:46,600
+say DEP invoke but that's not quite
+
+548
+00:24:46,600 --> 00:24:48,910
+right because depth is the dependencies
+
+549
+00:24:48,910 --> 00:24:50,770
+are names so I have to look them
+
+550
+00:24:50,770 --> 00:24:52,630
+first so I have to look them up in the
+
+551
+00:24:52,630 --> 00:24:54,820
+tasks hash like that fortunately I have
+
+552
+00:24:54,820 --> 00:24:57,820
+that available and after all my
+
+553
+00:24:57,820 --> 00:25:00,520
+dependencies are invoked I can go ahead
+
+554
+00:25:00,520 --> 00:25:02,830
+and just execute our current task and
+
+555
+00:25:02,830 --> 00:25:09,430
+mark it as already run cool we're almost
+
+556
+00:25:09,430 --> 00:25:09,940
+done
+
+557
+00:25:09,940 --> 00:25:11,590
+the only thing we need to do is right
+
+558
+00:25:11,590 --> 00:25:18,100
+here we just need to require the tasks
+
+559
+00:25:18,100 --> 00:25:23,410
+file like that 28 lines of code let's
+
+560
+00:25:23,410 --> 00:25:37,270
+see how close I got a hard right i sat
+
+561
+00:25:37,270 --> 00:25:39,520
+down at my desk and I thought about this
+
+562
+00:25:39,520 --> 00:25:42,040
+I said this is easy actually I need a
+
+563
+00:25:42,040 --> 00:25:43,840
+list of dependencies I need to iterate
+
+564
+00:25:43,840 --> 00:25:45,160
+through them I need to evoke them
+
+565
+00:25:45,160 --> 00:25:47,620
+recursively and that's really all there
+
+566
+00:25:47,620 --> 00:25:50,260
+is so I took about half an hour I did
+
+567
+00:25:50,260 --> 00:25:51,670
+this in about three minutes took me
+
+568
+00:25:51,670 --> 00:25:53,350
+about half an hour the first time I did
+
+569
+00:25:53,350 --> 00:25:55,540
+this and I sat down and emailed it to
+
+570
+00:25:55,540 --> 00:25:57,040
+Ryan and then I really over - Ryan's
+
+571
+00:25:57,040 --> 00:25:58,360
+desk I said check your email check your
+
+572
+00:25:58,360 --> 00:26:03,040
+email check your email and he pulled it
+
+573
+00:26:03,040 --> 00:26:05,530
+up and there it was and I think it was I
+
+574
+00:26:05,530 --> 00:26:07,180
+think I had about 50 lines in my first
+
+575
+00:26:07,180 --> 00:26:10,840
+implementation there was 50 lines all of
+
+576
+00:26:10,840 --> 00:26:13,930
+you know the basic core logic of rape
+
+577
+00:26:13,930 --> 00:26:17,050
+right there and and Ryan glowed over it
+
+578
+00:26:17,050 --> 00:26:18,970
+he we were all and sincerely cool and
+
+579
+00:26:18,970 --> 00:26:21,310
+then I go but yeah but it's not really
+
+580
+00:26:21,310 --> 00:26:24,160
+make because make will check timestamps
+
+581
+00:26:24,160 --> 00:26:27,280
+on the files and only rebuild files if
+
+582
+00:26:27,280 --> 00:26:29,920
+they're out of date with respect to
+
+583
+00:26:29,920 --> 00:26:34,330
+their dependencies and this was more
+
+584
+00:26:34,330 --> 00:26:37,480
+like ant which just does tasks regularly
+
+585
+00:26:37,480 --> 00:26:39,910
+I thought yeah that file that file
+
+586
+00:26:39,910 --> 00:26:41,620
+testing thing that'd be hard no one
+
+587
+00:26:41,620 --> 00:26:46,630
+would ever do that I went back to my
+
+588
+00:26:46,630 --> 00:26:48,910
+desk and about 20 minutes later a
+
+589
+00:26:48,910 --> 00:26:52,720
+subclass task as a file task added a
+
+590
+00:26:52,720 --> 00:26:54,100
+check in there to see if it was out of
+
+591
+00:26:54,100 --> 00:26:57,130
+date was response with respect to its
+
+592
+00:26:57,130 --> 00:26:59,650
+dependencies and I had a file task of
+
+593
+00:26:59,650 --> 00:27:02,290
+singing there so whizzed in under an
+
+594
+00:27:02,290 --> 00:27:04,390
+hour's worth of coding I had the first
+
+595
+00:27:04,390 --> 00:27:06,010
+version of rake out there and running
+
+596
+00:27:06,010 --> 00:27:07,180
+now of course there's a lot more and
+
+597
+00:27:07,180 --> 00:27:08,850
+rake today there's file lists there's
+
+598
+00:27:08,850 --> 00:27:10,960
+there's all the shell commands that work
+
+599
+00:27:10,960 --> 00:27:12,640
+there's a lot of little things that help
+
+600
+00:27:12,640 --> 00:27:15,280
+you get rake like stuff done but this is
+
+601
+00:27:15,280 --> 00:27:17,910
+the core and this is it and it's all in
+
+602
+00:27:17,910 --> 00:27:23,320
+28 lines of code right there friend of
+
+603
+00:27:23,320 --> 00:27:26,950
+mine who was started using Ruby because
+
+604
+00:27:26,950 --> 00:27:28,840
+of my great enthusiasm for it he said
+
+605
+00:27:28,840 --> 00:27:30,910
+yeah Jim I was I tried to solve a
+
+606
+00:27:30,910 --> 00:27:32,890
+problem in Ruby the other day and I just
+
+607
+00:27:32,890 --> 00:27:34,300
+started writing code and I was done
+
+608
+00:27:34,300 --> 00:27:38,020
+before I realized it it's kind of how it
+
+609
+00:27:38,020 --> 00:27:40,270
+works Ruby is so good at expressing what
+
+610
+00:27:40,270 --> 00:27:42,550
+you as a programmer want to express it
+
+611
+00:27:42,550 --> 00:27:44,530
+really matches the way I think very
+
+612
+00:27:44,530 --> 00:27:55,450
+closely okay whoops that's skip I got
+
+613
+00:27:55,450 --> 00:27:57,880
+the code in there too so 28 lines of
+
+614
+00:27:57,880 --> 00:28:00,220
+code about half an hour of efforts you
+
+615
+00:28:00,220 --> 00:28:02,620
+got the basic core engine in there and
+
+616
+00:28:02,620 --> 00:28:04,630
+what we didn't do was file tasks this
+
+617
+00:28:04,630 --> 00:28:06,580
+was awesome this just goes to show that
+
+618
+00:28:06,580 --> 00:28:08,920
+Ruby is really good at expressing and
+
+619
+00:28:08,920 --> 00:28:16,050
+capturing ideas very quickly next story
+
+620
+00:28:16,140 --> 00:28:18,070
+we have to have speed up just a little
+
+621
+00:28:18,070 --> 00:28:19,840
+bit
+
+622
+00:28:19,840 --> 00:28:21,910
+beautiful testing or as I like to call
+
+623
+00:28:21,910 --> 00:28:25,170
+this section designed by conference I
+
+624
+00:28:25,170 --> 00:28:29,470
+was at the Ruby hoedown in 2009 do you
+
+625
+00:28:29,470 --> 00:28:31,570
+guys know what a hoedown is do you have
+
+626
+00:28:31,570 --> 00:28:36,900
+hoedowns here in earth way ask kind of a
+
+627
+00:28:37,140 --> 00:28:39,430
+southern thing in America right it's
+
+628
+00:28:39,430 --> 00:28:41,200
+kind of a party it's a dance it's a kind
+
+629
+00:28:41,200 --> 00:28:44,140
+of a you know good time party well the
+
+630
+00:28:44,140 --> 00:28:46,180
+Ruby hoedown was where we get together
+
+631
+00:28:46,180 --> 00:28:48,490
+and talk about Ruby and it's a it's a
+
+632
+00:28:48,490 --> 00:28:51,040
+lightweight conference it was free it's
+
+633
+00:28:51,040 --> 00:28:55,480
+close to where I live in Ohio and so a
+
+634
+00:28:55,480 --> 00:28:57,160
+lot of us from edge case we were edge
+
+635
+00:28:57,160 --> 00:28:59,920
+case of the time we would all pile in
+
+636
+00:28:59,920 --> 00:29:02,050
+about two or three vehicles and we drive
+
+637
+00:29:02,050 --> 00:29:05,470
+down to Nashville Tennessee where the
+
+638
+00:29:05,470 --> 00:29:07,390
+hoedown was being held and we all attend
+
+639
+00:29:07,390 --> 00:29:08,950
+a conference and this is almost kind of
+
+640
+00:29:08,950 --> 00:29:11,680
+like a little mini vacation for us here
+
+641
+00:29:11,680 --> 00:29:13,540
+you can see we're all gab this is at one
+
+642
+00:29:13,540 --> 00:29:15,340
+of the tables there at the hotel it
+
+643
+00:29:15,340 --> 00:29:16,780
+looks like we're in Florida because
+
+644
+00:29:16,780 --> 00:29:17,570
+there's palm
+
+645
+00:29:17,570 --> 00:29:22,320
+this is actually indoors in the hotel is
+
+646
+00:29:22,320 --> 00:29:26,730
+huge huge monsters hotel but during the
+
+647
+00:29:26,730 --> 00:29:28,530
+conference we sat around tables much
+
+648
+00:29:28,530 --> 00:29:30,600
+like this at the back room of the
+
+649
+00:29:30,600 --> 00:29:32,490
+conference area and we kind of talked
+
+650
+00:29:32,490 --> 00:29:34,050
+amongst each other because you know we
+
+651
+00:29:34,050 --> 00:29:35,370
+were kind of laid-back none of us were
+
+652
+00:29:35,370 --> 00:29:37,140
+presenting that year you were just
+
+653
+00:29:37,140 --> 00:29:39,630
+enjoying the conference and someone got
+
+654
+00:29:39,630 --> 00:29:42,300
+up to give a talk on cucumber how many
+
+655
+00:29:42,300 --> 00:29:46,740
+people use cucumber here anybody few I I
+
+656
+00:29:46,740 --> 00:29:48,960
+have a love-hate relationship with
+
+657
+00:29:48,960 --> 00:29:51,060
+cucumber but the thing I love about it
+
+658
+00:29:51,060 --> 00:29:54,810
+is the fact that lays out your testing
+
+659
+00:29:54,810 --> 00:29:58,860
+as given when and then I really really
+
+660
+00:29:58,860 --> 00:30:01,230
+really like that way of specifying my
+
+661
+00:30:01,230 --> 00:30:03,300
+test as these are the things that are
+
+662
+00:30:03,300 --> 00:30:06,930
+given when I do this code then I expect
+
+663
+00:30:06,930 --> 00:30:08,670
+this thing to happen and I would lay out
+
+664
+00:30:08,670 --> 00:30:11,100
+my tests in this format anyways kind of
+
+665
+00:30:11,100 --> 00:30:13,260
+informally but I was really looking for
+
+666
+00:30:13,260 --> 00:30:15,900
+a more formal way of specifying given
+
+667
+00:30:15,900 --> 00:30:20,730
+when then in my tests so I was sit in
+
+668
+00:30:20,730 --> 00:30:21,930
+the back room and I was taking all of
+
+669
+00:30:21,930 --> 00:30:24,570
+all this and I grabbed a notepad and I
+
+670
+00:30:24,570 --> 00:30:26,430
+started writing on the notepad notice
+
+671
+00:30:26,430 --> 00:30:28,740
+how so many ideas this kind of start as
+
+672
+00:30:28,740 --> 00:30:30,600
+scribbling down on a piece of paper and
+
+673
+00:30:30,600 --> 00:30:33,630
+I said I started pushing this paper
+
+674
+00:30:33,630 --> 00:30:35,490
+around the table where we were all
+
+675
+00:30:35,490 --> 00:30:38,250
+sitting I said does this make sense to
+
+676
+00:30:38,250 --> 00:30:39,810
+you if I if you saw a test in this
+
+677
+00:30:39,810 --> 00:30:42,090
+format would you understand what's going
+
+678
+00:30:42,090 --> 00:30:44,370
+on and the feedback I got was more or
+
+679
+00:30:44,370 --> 00:30:47,070
+less positive everybody felt that by
+
+680
+00:30:47,070 --> 00:30:49,530
+looking at something like this you could
+
+681
+00:30:49,530 --> 00:30:51,450
+kind of tell what was going even knowing
+
+682
+00:30:51,450 --> 00:30:53,280
+nothing about the given when them
+
+683
+00:30:53,280 --> 00:30:55,320
+framework you could figure out what was
+
+684
+00:30:55,320 --> 00:30:57,330
+going on so I would kind of got positive
+
+685
+00:30:57,330 --> 00:31:01,400
+feedback on this except for my boss
+
+686
+00:31:04,840 --> 00:31:07,970
+because at that time the test unit
+
+687
+00:31:07,970 --> 00:31:11,660
+versus many tests versus r-spec versus
+
+688
+00:31:11,660 --> 00:31:14,030
+something else flame wars were still
+
+689
+00:31:14,030 --> 00:31:15,380
+going strong and there were so many
+
+690
+00:31:15,380 --> 00:31:17,540
+testing frameworks for Ruby Joe really
+
+691
+00:31:17,540 --> 00:31:19,310
+didn't think we needed yet another one
+
+692
+00:31:19,310 --> 00:31:22,460
+and I assured him no Joe I am NOT going
+
+693
+00:31:22,460 --> 00:31:24,190
+to actually write this I'm just I'm just
+
+694
+00:31:24,190 --> 00:31:31,700
+brainstorming on ideas I lied so I wrote
+
+695
+00:31:31,700 --> 00:31:34,400
+a library called given that was based on
+
+696
+00:31:34,400 --> 00:31:37,850
+test unit and this is an example from
+
+697
+00:31:37,850 --> 00:31:40,760
+the github page is still out there don't
+
+698
+00:31:40,760 --> 00:31:43,190
+go and use it there's something better
+
+699
+00:31:43,190 --> 00:31:45,440
+than this but this is my first pass at
+
+700
+00:31:45,440 --> 00:31:48,410
+this and there's a couple things I'd
+
+701
+00:31:48,410 --> 00:31:49,880
+like to point out about this code first
+
+702
+00:31:49,880 --> 00:31:52,700
+of all I added the idea of an invariant
+
+703
+00:31:52,700 --> 00:31:55,070
+and invariant is something that is
+
+704
+00:31:55,070 --> 00:31:57,680
+always always always true no matter what
+
+705
+00:31:57,680 --> 00:32:00,350
+you do to this object in this case I'm
+
+706
+00:32:00,350 --> 00:32:02,750
+saying if you've got a stack object it
+
+707
+00:32:02,750 --> 00:32:07,040
+is always true that the stack depth is
+
+708
+00:32:07,040 --> 00:32:09,980
+going to be non-negative it's always
+
+709
+00:32:09,980 --> 00:32:12,080
+true that if the stack depth is zero
+
+710
+00:32:12,080 --> 00:32:15,230
+then empty will be true and if empty is
+
+711
+00:32:15,230 --> 00:32:16,850
+false then the stack depth will be
+
+712
+00:32:16,850 --> 00:32:19,070
+something other than zero these things
+
+713
+00:32:19,070 --> 00:32:21,500
+that are always true about a stack and
+
+714
+00:32:21,500 --> 00:32:24,770
+then I divided up the rest of test into
+
+715
+00:32:24,770 --> 00:32:27,890
+this I said given an empty stack and so
+
+716
+00:32:27,890 --> 00:32:30,410
+given this method so I had
+
+717
+00:32:30,410 --> 00:32:32,360
+initialization or setup procedures by
+
+718
+00:32:32,360 --> 00:32:33,890
+name you had to name that set up
+
+719
+00:32:33,890 --> 00:32:36,410
+procedures in the given statement and
+
+720
+00:32:36,410 --> 00:32:38,450
+then you went through several tests so
+
+721
+00:32:38,450 --> 00:32:40,220
+this is actually three tests right here
+
+722
+00:32:40,220 --> 00:32:42,710
+an empty stack the empty stack you
+
+723
+00:32:42,710 --> 00:32:46,040
+expect the stack to be 0 when you push
+
+724
+00:32:46,040 --> 00:32:47,720
+an item you expect the stack to the
+
+725
+00:32:47,720 --> 00:32:49,250
+depth to be 1 and the top to be that
+
+726
+00:32:49,250 --> 00:32:52,340
+item and when you pop it you should get
+
+727
+00:32:52,340 --> 00:32:56,300
+some kind of failure error now this was
+
+728
+00:32:56,300 --> 00:32:59,600
+ok I kind of liked it but I was a little
+
+729
+00:32:59,600 --> 00:33:01,310
+uncomfortable with it a couple things I
+
+730
+00:33:01,310 --> 00:33:03,440
+didn't like I didn't like this fails
+
+731
+00:33:03,440 --> 00:33:05,780
+with thing this was just pure ugly this
+
+732
+00:33:05,780 --> 00:33:08,840
+exception thing popped up by magic and
+
+733
+00:33:08,840 --> 00:33:12,230
+that was felt weird to me I didn't like
+
+734
+00:33:12,230 --> 00:33:13,850
+the fact I had to say expect expect
+
+735
+00:33:13,850 --> 00:33:17,450
+expect although I was doing this in
+
+736
+00:33:17,450 --> 00:33:19,429
+test unit I didn't have the dot should
+
+737
+00:33:19,429 --> 00:33:21,529
+that our spec uses I might have used
+
+738
+00:33:21,529 --> 00:33:23,960
+that here but I didn't like doing that a
+
+739
+00:33:23,960 --> 00:33:26,809
+whole lot so so it was okay but just not
+
+740
+00:33:26,809 --> 00:33:31,250
+quite what I wanted wanted the next year
+
+741
+00:33:31,250 --> 00:33:32,779
+I was at another conference this was
+
+742
+00:33:32,779 --> 00:33:35,690
+Ruby nation this takes place in the in
+
+743
+00:33:35,690 --> 00:33:37,490
+Washington deceived the capital of the
+
+744
+00:33:37,490 --> 00:33:41,059
+US there and at this conference John
+
+745
+00:33:41,059 --> 00:33:44,210
+Lahr Kowski was giving a talk on pure
+
+746
+00:33:44,210 --> 00:33:44,870
+r-spec
+
+747
+00:33:44,870 --> 00:33:47,750
+now at the time I was a test unit guy I
+
+748
+00:33:47,750 --> 00:33:49,700
+used test unit to write all my tests and
+
+749
+00:33:49,700 --> 00:33:51,500
+our spec was okay but I didn't use it
+
+750
+00:33:51,500 --> 00:33:53,960
+that much but he gave this talk r-spec
+
+751
+00:33:53,960 --> 00:33:55,159
+pure r-spec
+
+752
+00:33:55,159 --> 00:33:57,470
+in fact if you want to go see his talk
+
+753
+00:33:57,470 --> 00:33:59,389
+he's his slides are right there at that
+
+754
+00:33:59,389 --> 00:34:03,080
+URL and at one point he got to this
+
+755
+00:34:03,080 --> 00:34:06,500
+slide right here and he says our spec
+
+756
+00:34:06,500 --> 00:34:09,440
+has this thing called left if you say
+
+757
+00:34:09,440 --> 00:34:12,679
+let this name be this block left is a
+
+758
+00:34:12,679 --> 00:34:14,839
+lazy initializer when you call when you
+
+759
+00:34:14,839 --> 00:34:16,699
+reference that name the first time in a
+
+760
+00:34:16,699 --> 00:34:19,070
+test it goes out and execute that block
+
+761
+00:34:19,070 --> 00:34:21,168
+and assigns the value of the block is
+
+762
+00:34:21,168 --> 00:34:25,280
+the value for that name so here blog
+
+763
+00:34:25,280 --> 00:34:28,129
+post gets assigned a new blog post every
+
+764
+00:34:28,129 --> 00:34:30,770
+time it it gets referenced are the first
+
+765
+00:34:30,770 --> 00:34:33,770
+time it's referenced in a test if you
+
+766
+00:34:33,770 --> 00:34:35,389
+break this down it's essentially this
+
+767
+00:34:35,389 --> 00:34:37,339
+code that let statement is writing a
+
+768
+00:34:37,339 --> 00:34:40,869
+lazy initializer method that does this
+
+769
+00:34:40,869 --> 00:34:42,918
+well that was kind of cool
+
+770
+00:34:42,918 --> 00:34:45,918
+and I realized also that this really
+
+771
+00:34:45,918 --> 00:34:49,668
+interacts well with our specs block
+
+772
+00:34:49,668 --> 00:34:52,639
+nature you have nested describe and
+
+773
+00:34:52,639 --> 00:34:56,719
+context blocks in our spec and this
+
+774
+00:34:56,719 --> 00:34:59,510
+essentially turns into this where you
+
+775
+00:34:59,510 --> 00:35:03,319
+have a class here the left turns into a
+
+776
+00:35:03,319 --> 00:35:07,099
+method the example is here and so this
+
+777
+00:35:07,099 --> 00:35:08,569
+actually inherits from the outer
+
+778
+00:35:08,569 --> 00:35:11,180
+examples of this version overrides that
+
+779
+00:35:11,180 --> 00:35:14,119
+version so you can internally override
+
+780
+00:35:14,119 --> 00:35:16,849
+decisions you made outside and that
+
+781
+00:35:16,849 --> 00:35:18,819
+works really really nicely with the
+
+782
+00:35:18,819 --> 00:35:22,550
+structure of our spec so I rewrote our
+
+783
+00:35:22,550 --> 00:35:25,250
+spec or we were given to use our spec
+
+784
+00:35:25,250 --> 00:35:26,869
+and it turned out to be something like
+
+785
+00:35:26,869 --> 00:35:29,150
+this and I really really like the way
+
+786
+00:35:29,150 --> 00:35:31,250
+this this reads here we'll go through
+
+787
+00:35:31,250 --> 00:35:37,190
+fairly quickly so given a stack stack
+
+788
+00:35:37,190 --> 00:35:38,869
+new given the initial contents of the
+
+789
+00:35:38,869 --> 00:35:41,480
+sack and I felt Stu being empty the
+
+790
+00:35:41,480 --> 00:35:43,220
+initial contents and we load up the
+
+791
+00:35:43,220 --> 00:35:44,690
+stack with the initial contents here and
+
+792
+00:35:44,690 --> 00:35:46,490
+this given so here these Givens are
+
+793
+00:35:46,490 --> 00:35:49,340
+essentially let's this given here is
+
+794
+00:35:49,340 --> 00:35:52,880
+essentially a before I kept in variant
+
+795
+00:35:52,880 --> 00:35:55,790
+and notice there is no longer and expect
+
+796
+00:35:55,790 --> 00:35:58,670
+or should on that this returns either
+
+797
+00:35:58,670 --> 00:35:59,660
+true or false
+
+798
+00:35:59,660 --> 00:36:02,240
+and our spec given is able to determine
+
+799
+00:36:02,240 --> 00:36:04,580
+what the error is
+
+800
+00:36:04,580 --> 00:36:06,500
+if it fails and gives you a nice error
+
+801
+00:36:06,500 --> 00:36:09,230
+message we'll see you in a second here
+
+802
+00:36:09,230 --> 00:36:11,869
+is an empty stack with initial contents
+
+803
+00:36:11,869 --> 00:36:14,180
+that the staff does this when you push
+
+804
+00:36:14,180 --> 00:36:16,550
+these things are true when you pop it
+
+805
+00:36:16,550 --> 00:36:17,960
+should have failed so this is much like
+
+806
+00:36:17,960 --> 00:36:20,960
+the test we saw before here's a stack
+
+807
+00:36:20,960 --> 00:36:22,820
+with several items so we override the
+
+808
+00:36:22,820 --> 00:36:25,550
+initial contents to be this the original
+
+809
+00:36:25,550 --> 00:36:29,780
+depth we record and so after you you
+
+810
+00:36:29,780 --> 00:36:31,040
+know you do some pushing you do some
+
+811
+00:36:31,040 --> 00:36:32,540
+popping and these are the things that
+
+812
+00:36:32,540 --> 00:36:34,820
+are true once that's done this reads
+
+813
+00:36:34,820 --> 00:36:36,800
+beautifully this reads like a
+
+814
+00:36:36,800 --> 00:36:40,099
+specification this I love this I love
+
+815
+00:36:40,099 --> 00:36:41,780
+this and just about everyone I showed
+
+816
+00:36:41,780 --> 00:36:43,520
+this to says yeah this is kind of cool
+
+817
+00:36:43,520 --> 00:36:45,140
+they really really really liked it for
+
+818
+00:36:45,140 --> 00:36:48,109
+writing their their specs the nice thing
+
+819
+00:36:48,109 --> 00:36:51,050
+is suppose we change this to be a two so
+
+820
+00:36:51,050 --> 00:36:53,450
+this fails if you do that you get this
+
+821
+00:36:53,450 --> 00:36:55,580
+kind of error message where it tells you
+
+822
+00:36:55,580 --> 00:36:59,210
+we expected one to equal zero and then
+
+823
+00:36:59,210 --> 00:37:02,210
+it breaks down the expression that
+
+824
+00:37:02,210 --> 00:37:04,670
+failed it gives you the stack depth is
+
+825
+00:37:04,670 --> 00:37:07,400
+one the stack object is this the
+
+826
+00:37:07,400 --> 00:37:09,440
+original depth minus two is zero the
+
+827
+00:37:09,440 --> 00:37:11,450
+original depth itself is two so it
+
+828
+00:37:11,450 --> 00:37:13,580
+breaks down each sub expression in this
+
+829
+00:37:13,580 --> 00:37:15,260
+thing that failed and gives you all the
+
+830
+00:37:15,260 --> 00:37:18,320
+details you need to debug why that thing
+
+831
+00:37:18,320 --> 00:37:21,710
+is failing so beautiful output from a
+
+832
+00:37:21,710 --> 00:37:25,280
+beautiful testing framework so summary
+
+833
+00:37:25,280 --> 00:37:27,530
+sometimes ideas mature slowly there's
+
+834
+00:37:27,530 --> 00:37:30,380
+synergy in things like the nested nature
+
+835
+00:37:30,380 --> 00:37:32,359
+and the given run then of our spec and
+
+836
+00:37:32,359 --> 00:37:35,599
+you get expressive readable tests out of
+
+837
+00:37:35,599 --> 00:37:39,530
+this I'm almost out of time but we're
+
+838
+00:37:39,530 --> 00:37:41,150
+going to go real fast flying robots as
+
+839
+00:37:41,150 --> 00:37:43,900
+our last story this ties into
+
+840
+00:37:43,900 --> 00:37:46,690
+the video I put at the front so this is
+
+841
+00:37:46,690 --> 00:37:48,339
+the AR Drone that you saw flowing this
+
+842
+00:37:48,339 --> 00:37:49,930
+is in the outdoor mode where it doesn't
+
+843
+00:37:49,930 --> 00:37:53,410
+have the bumpers on it it has cameras it
+
+844
+00:37:53,410 --> 00:37:54,999
+has all kinds of sensors that allow it
+
+845
+00:37:54,999 --> 00:37:58,059
+to do interesting things and the best
+
+846
+00:37:58,059 --> 00:38:00,549
+part of it is that it talks to you over
+
+847
+00:38:00,549 --> 00:38:04,329
+Wi-Fi and the entire API is open and you
+
+848
+00:38:04,329 --> 00:38:06,400
+can see exactly what's going on and
+
+849
+00:38:06,400 --> 00:38:09,400
+there's a developer guides in PDF than
+
+850
+00:38:09,400 --> 00:38:11,740
+the entire API so it looks something
+
+851
+00:38:11,740 --> 00:38:14,289
+like this there's a command stream that
+
+852
+00:38:14,289 --> 00:38:16,720
+goes to the drone it sends back
+
+853
+00:38:16,720 --> 00:38:19,079
+navigation data and video data
+
+854
+00:38:19,079 --> 00:38:20,890
+navigation data looks something like
+
+855
+00:38:20,890 --> 00:38:23,559
+this you send a text command so it's
+
+856
+00:38:23,559 --> 00:38:26,289
+trivial to write this in Ruby you have
+
+857
+00:38:26,289 --> 00:38:28,180
+to send it a sequence number you send it
+
+858
+00:38:28,180 --> 00:38:30,039
+things like takeoff flags and emergency
+
+859
+00:38:30,039 --> 00:38:31,869
+landing flags you give it information
+
+860
+00:38:31,869 --> 00:38:36,190
+like roll and pitch and altitude and and
+
+861
+00:38:36,190 --> 00:38:39,420
+yaw you send all that information to it
+
+862
+00:38:39,420 --> 00:38:42,069
+you can send it configuration commands
+
+863
+00:38:42,069 --> 00:38:45,279
+like set your lights to be this hour do
+
+864
+00:38:45,279 --> 00:38:46,930
+some particular video targeting and
+
+865
+00:38:46,930 --> 00:38:50,319
+here's a program written in a library
+
+866
+00:38:50,319 --> 00:38:53,019
+called Argos it creates a drone object
+
+867
+00:38:53,019 --> 00:38:56,140
+starts it takes off turns right for five
+
+868
+00:38:56,140 --> 00:38:58,150
+seconds turns left for five seconds then
+
+869
+00:38:58,150 --> 00:39:07,119
+hovers and lands turn right for five
+
+870
+00:39:07,119 --> 00:39:15,150
+seconds to the left for five seconds
+
+871
+00:39:16,140 --> 00:39:22,150
+hovers and lands here's another one this
+
+872
+00:39:22,150 --> 00:39:24,279
+will take off and go through a loop go
+
+873
+00:39:24,279 --> 00:39:29,680
+left and right two times showing you the
+
+874
+00:39:29,680 --> 00:39:30,910
+code here just so you believe it's
+
+875
+00:39:30,910 --> 00:39:32,799
+program hit the return there's a
+
+876
+00:39:32,799 --> 00:39:34,480
+five-second delay I run over the other
+
+877
+00:39:34,480 --> 00:39:39,089
+side of the office this is me running
+
+878
+00:39:41,489 --> 00:39:47,230
+right left right left laying a hover and
+
+879
+00:39:47,230 --> 00:39:50,019
+land the first time I tried programmatic
+
+880
+00:39:50,019 --> 00:39:52,779
+control of moving sideways I said go
+
+881
+00:39:52,779 --> 00:39:56,499
+forward one and went room right into a
+
+882
+00:39:56,499 --> 00:39:57,900
+wall
+
+883
+00:39:57,900 --> 00:40:00,369
+okay maybe ones not the best let's do
+
+884
+00:40:00,369 --> 00:40:05,500
+point two so navigation coming back from
+
+885
+00:40:05,500 --> 00:40:07,420
+the drone is a lot trickier where the
+
+886
+00:40:07,420 --> 00:40:09,250
+stuff going to the drone is just simple
+
+887
+00:40:09,250 --> 00:40:10,930
+text commands coming back is actually
+
+888
+00:40:10,930 --> 00:40:13,299
+binary data it has a fixed length tenor
+
+889
+00:40:13,299 --> 00:40:17,559
+that's about four I think it's for
+
+890
+00:40:17,559 --> 00:40:19,450
+32-bit integers have come back at the
+
+891
+00:40:19,450 --> 00:40:21,359
+header this got variable length options
+
+892
+00:40:21,359 --> 00:40:24,009
+navigation data and vision detection
+
+893
+00:40:24,009 --> 00:40:25,390
+data are the two options that I'm
+
+894
+00:40:25,390 --> 00:40:27,190
+interested in particular and they're
+
+895
+00:40:27,190 --> 00:40:28,690
+variable lengths and they're packed and
+
+896
+00:40:28,690 --> 00:40:29,500
+they look like this
+
+897
+00:40:29,500 --> 00:40:31,390
+this is actually from the structure of
+
+898
+00:40:31,390 --> 00:40:37,480
+the C code from the API that means to
+
+899
+00:40:37,480 --> 00:40:40,240
+decode this stuff I've got to do weird
+
+900
+00:40:40,240 --> 00:40:42,269
+things like unpack it with weird
+
+901
+00:40:42,269 --> 00:40:44,740
+commands in the unpack command and then
+
+902
+00:40:44,740 --> 00:40:46,960
+know exactly which array element
+
+903
+00:40:46,960 --> 00:40:48,970
+references that particular data and then
+
+904
+00:40:48,970 --> 00:40:50,589
+they have to do like some floating point
+
+905
+00:40:50,589 --> 00:40:53,529
+D codes on the floating point data that
+
+906
+00:40:53,529 --> 00:40:56,500
+comes back and it's just weird so I
+
+907
+00:40:56,500 --> 00:40:59,140
+don't want to do that so I wrote some
+
+908
+00:40:59,140 --> 00:41:01,539
+code that looks like this this is Ruby
+
+909
+00:41:01,539 --> 00:41:09,390
+code that looks a lot like the C code
+
+910
+00:41:09,390 --> 00:41:12,130
+we're just missing we added a semicolon
+
+911
+00:41:12,130 --> 00:41:13,900
+at the beginning of the name and removed
+
+912
+00:41:13,900 --> 00:41:16,690
+the atom out of the colon to be getting
+
+913
+00:41:16,690 --> 00:41:19,539
+the name remove the semicolon and it is
+
+914
+00:41:19,539 --> 00:41:21,430
+now Ruby code so I can take the header
+
+915
+00:41:21,430 --> 00:41:24,160
+paste it in my Ruby do minor text
+
+916
+00:41:24,160 --> 00:41:26,109
+editing on it and now I have something
+
+917
+00:41:26,109 --> 00:41:29,740
+that allows me to access that data so
+
+918
+00:41:29,740 --> 00:41:31,960
+this line says unpack it with a capital
+
+919
+00:41:31,960 --> 00:41:34,329
+V and the name of that data position in
+
+920
+00:41:34,329 --> 00:41:37,390
+the array is V V bat flying percentage
+
+921
+00:41:37,390 --> 00:41:38,950
+the battery percentage left
+
+922
+00:41:38,950 --> 00:41:42,220
+this one says unpack it was V decoded
+
+923
+00:41:42,220 --> 00:41:44,529
+with the decode float command and then
+
+924
+00:41:44,529 --> 00:41:48,609
+call that one theta so I can do this
+
+925
+00:41:48,609 --> 00:41:51,069
+with all the options there here's I'm
+
+926
+00:41:51,069 --> 00:41:52,509
+going to skip over this this is not that
+
+927
+00:41:52,509 --> 00:41:54,220
+important but here's another program
+
+928
+00:41:54,220 --> 00:41:59,259
+that says when this is a callback and
+
+929
+00:41:59,259 --> 00:42:02,259
+this is called whenever the drone sends
+
+930
+00:42:02,259 --> 00:42:05,440
+me a binary data package and it says
+
+931
+00:42:05,440 --> 00:42:07,869
+okay go through the data options and for
+
+932
+00:42:07,869 --> 00:42:09,789
+each option check to see if it is the
+
+933
+00:42:09,789 --> 00:42:10,600
+nav option
+
+934
+00:42:10,600 --> 00:42:15,760
+vision detection so the drone tells me
+
+935
+00:42:15,760 --> 00:42:17,950
+when it sees a particular target in its
+
+936
+00:42:17,950 --> 00:42:20,350
+camera sights and tells me the position
+
+937
+00:42:20,350 --> 00:42:22,870
+in the camera where that is it's about a
+
+938
+00:42:22,870 --> 00:42:25,270
+thousand pixels wide so if we're at five
+
+939
+00:42:25,270 --> 00:42:27,580
+hundred we're on target if we're above
+
+940
+00:42:27,580 --> 00:42:30,250
+six hundred I want to turn right if it's
+
+941
+00:42:30,250 --> 00:42:34,260
+below 400 I want to turn left
+
+942
+00:42:37,320 --> 00:42:45,430
+so we blinked the lights we take off and
+
+943
+00:42:45,430 --> 00:42:47,710
+I'm going there I am holding the outdoor
+
+944
+00:42:47,710 --> 00:42:49,720
+hall and that orange and yellow pattern
+
+945
+00:42:49,720 --> 00:42:53,820
+is what the camera detects
+
+946
+00:43:08,650 --> 00:43:12,440
+too fast there we go okay move slow it
+
+947
+00:43:12,440 --> 00:43:15,380
+can find it it's not real bright okay so
+
+948
+00:43:15,380 --> 00:43:17,859
+there we go
+
+949
+00:43:24,130 --> 00:43:27,349
+and there we go so it's turning and
+
+950
+00:43:27,349 --> 00:43:29,960
+following the pattern we're doing some
+
+951
+00:43:29,960 --> 00:43:31,339
+more stuff with this we're not done with
+
+952
+00:43:31,339 --> 00:43:33,859
+this what I want to do is be able to
+
+953
+00:43:33,859 --> 00:43:35,810
+have it follow me put a hat with that
+
+954
+00:43:35,810 --> 00:43:37,940
+pattern on it and walk down the hall I
+
+955
+00:43:37,940 --> 00:43:39,920
+just have the drone follow me wherever
+
+956
+00:43:39,920 --> 00:43:42,280
+it goes
+
+957
+00:43:47,740 --> 00:43:50,420
+turns out that's a lot trickier than
+
+958
+00:43:50,420 --> 00:43:53,119
+just having it turn and look at you the
+
+959
+00:43:53,119 --> 00:43:55,630
+first time I did it I had a bug in my
+
+960
+00:43:55,630 --> 00:43:58,190
+advance you know advance or back up
+
+961
+00:43:58,190 --> 00:44:01,220
+logic and it zero difficulty a target
+
+962
+00:44:01,220 --> 00:44:05,089
+like just attacked me so we're going
+
+963
+00:44:05,089 --> 00:44:09,950
+slow in that part all right so summary
+
+964
+00:44:09,950 --> 00:44:11,900
+this is real-time programming I have to
+
+965
+00:44:11,900 --> 00:44:13,490
+send that drone come in I'll come in at
+
+966
+00:44:13,490 --> 00:44:16,220
+every 50 milliseconds or so just so it
+
+967
+00:44:16,220 --> 00:44:17,660
+doesn't lose the data stream otherwise
+
+968
+00:44:17,660 --> 00:44:20,150
+it will shut down and hover and land I'm
+
+969
+00:44:20,150 --> 00:44:22,010
+using threads although I want to switch
+
+970
+00:44:22,010 --> 00:44:24,170
+around to you celluloid and an actor
+
+971
+00:44:24,170 --> 00:44:26,569
+pattern in the near future there is a
+
+972
+00:44:26,569 --> 00:44:30,319
+library called r2 that allows you to
+
+973
+00:44:30,319 --> 00:44:33,260
+talk to multiple robotic type devices
+
+974
+00:44:33,260 --> 00:44:35,690
+one of them being the drone the another
+
+975
+00:44:35,690 --> 00:44:38,960
+being like us have you seen the sparrow
+
+976
+00:44:38,960 --> 00:44:40,730
+robots the round robots that are colored
+
+977
+00:44:40,730 --> 00:44:42,920
+and just roll around you can control
+
+978
+00:44:42,920 --> 00:44:44,510
+those with the r2 library so check that
+
+979
+00:44:44,510 --> 00:44:45,200
+one out
+
+980
+00:44:45,200 --> 00:44:46,880
+this library I'm using to control the
+
+981
+00:44:46,880 --> 00:44:50,960
+drone itself is called Argus yeah so
+
+982
+00:44:50,960 --> 00:44:53,240
+again being able to write expressive
+
+983
+00:44:53,240 --> 00:44:55,160
+code I could take that C code put it in
+
+984
+00:44:55,160 --> 00:44:57,740
+my Ruby code and exactly map to the
+
+985
+00:44:57,740 --> 00:44:59,510
+exact data that was in that binary data
+
+986
+00:44:59,510 --> 00:45:02,869
+and doggone it this stuff is fun so
+
+987
+00:45:02,869 --> 00:45:04,970
+features and benefits you saw some of
+
+988
+00:45:04,970 --> 00:45:06,530
+the features but the benefits of Ruby
+
+989
+00:45:06,530 --> 00:45:09,770
+that I see it's easy to learn you can be
+
+990
+00:45:09,770 --> 00:45:11,300
+up and running on Ruby really really
+
+991
+00:45:11,300 --> 00:45:13,819
+quickly it's extremely expressive it
+
+992
+00:45:13,819 --> 00:45:16,550
+says what you want to say in your code
+
+993
+00:45:16,550 --> 00:45:19,310
+it's flexible you can write it you can
+
+994
+00:45:19,310 --> 00:45:21,410
+they'll see data structures with it you
+
+995
+00:45:21,410 --> 00:45:24,380
+can get to a working prototype really
+
+996
+00:45:24,380 --> 00:45:26,330
+really fast with it it's easy to change
+
+997
+00:45:26,330 --> 00:45:29,240
+and doggone it I think Ruby is fun I'm
+
+998
+00:45:29,240 --> 00:45:32,120
+out of time but I'm jhamora cat Neil
+
+999
+00:45:32,120 --> 00:45:34,480
+thank
+
