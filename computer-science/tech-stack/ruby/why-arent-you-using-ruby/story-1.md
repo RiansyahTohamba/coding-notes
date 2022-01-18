@@ -150,3 +150,6 @@ might be the first time they've seen
 
 Ruby Ruby is not a hard language to pick up.
 
+
+## summary 
+1. banyak merujuk ke pick axe nya dave thomas
