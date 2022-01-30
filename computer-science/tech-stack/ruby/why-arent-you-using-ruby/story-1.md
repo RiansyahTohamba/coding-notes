@@ -89,9 +89,9 @@ see Perl doesn't like this if I would
 
 take that and do it in a way I would do
 
-it like this and bam it worked so Ruby
+it like this and bam it worked.
 
-really matched match my expectations of
+so Ruby really matched match my expectations of
 
 the language it was an awesome experience and I love Ruby ever since
 that so I've been using Ruby now, thirteen years getting really close to
@@ -101,6 +101,8 @@ thirteen years now so awesome awesome
 awesome language. 
 
 so let's summarize this story: 
+1. least surprise
+
 Ruby has what we call the 'principle of least surprise'.
 
 things in there if you know the language and kind of knows know where it's going this thing's did it
@@ -112,7 +114,11 @@ seems to work
 
 it has great data abstraction where Perl
 
-had trouble managing lists of lists Ruby
+had trouble managing 'lists of lists'
+
+ada case 'list of list' yang tak bisa ditangani perl 
+
+Ruby
 
 could easily handle lists of anything
 
@@ -120,16 +126,19 @@ and it was just objects and everything
 
 was uniformly accessed through through
 
-message passing and it was so strong
+message passing and 
 
-strongly oh-oh in fact it's probably the
+it was so strong strongly OO. 
+
+in fact it's probably the
 
 most low language out there in the same
 
 class as small talk so a really strong
 
-ability and easy to learn I found it
+ability 
 
+and easy to learn I found it
 quite easy to pick up and go with it
 
 I teach rails programming now to people
@@ -151,5 +160,8 @@ might be the first time they've seen
 Ruby Ruby is not a hard language to pick up.
 
 
+
 ## summary 
 1. banyak merujuk ke pick axe nya dave thomas
+2. easy to learn: kecepatan orang lain untuk belajar ruby
+3. oo way

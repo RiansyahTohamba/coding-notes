@@ -3,7 +3,20 @@ in Bend Oregon and the gal here is actually working on the fretboard of a guitar
 
 I just took all kinds of pictures.
 
-I love I love this stuff but what I want to concentrate on is that we as developers love to make things love to build things I was working on a project with a friend of mine we were actually pairing and we were working on getting a build script up and running and working and we were doing and we were it was for Java but we were old hat developers back in those days we this ant thing was kind of newfangled for us so we were still using make at the time and we were trying to do make trying to get make to do something that was just a little bit too dynamic for make we were shelling out to Ock and scripting stuff and doing all kinds of weird things I think I look like this by the time I was done I turned around to Ryan I said Ryan wouldn't it be great if make were written in Ruby and Ryan says Jim that's an awesome idea I have no idea what you mean so I turned around to the whiteboard and I scribbled on the whiteboard something that looked approximately like this I said Ryan you would you would have a task command and this task command takes a name of some kind of task you want to perform and then you just give it a block of stuff you wish to execute when this task is performed and somehow you would manage dependencies and do that and and you would just use this like you use make but it'd be all written in Ruby it'd be totally dynamic this problem that we're trying to solve would be trivial to do in Ruby and he says that's brilliant and we talked about it for another five minutes but then we realized no we really really wanted to do this what would we have to do well we would have to reproduce the 
+I love. 
+
+I love this stuff, but what I want to concentrate on is that: 
+'we as developers love to make things' 
+love to build things. 
+
+I was working on a project with a friend of mine.
+we were actually pairing and we were working on getting a build script up and running and working. 
+
+and we were doing and we were it was for Java. 
+
+but we were old hat developers back in those days. 
+
+we this ant thing was kind of newfangled for us so we were still using make at the time and we were trying to do make trying to get make to do something that was just a little bit too dynamic for make we were shelling out to Ock and scripting stuff and doing all kinds of weird things I think I look like this by the time I was done I turned around to Ryan I said Ryan wouldn't it be great if make were written in Ruby and Ryan says Jim that's an awesome idea I have no idea what you mean so I turned around to the whiteboard and I scribbled on the whiteboard something that looked approximately like this I said Ryan you would you would have a task command and this task command takes a name of some kind of task you want to perform and then you just give it a block of stuff you wish to execute when this task is performed and somehow you would manage dependencies and do that and and you would just use this like you use make but it'd be all written in Ruby it'd be totally dynamic this problem that we're trying to solve would be trivial to do in Ruby and he says that's brilliant and we talked about it for another five minutes but then we realized no we really really wanted to do this what would we have to do well we would have to reproduce the 
 entire functionality of make in Ruby
 
 just so we can get it a little bit more.
