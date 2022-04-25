@@ -1,0 +1,4 @@
+<beans>
+	<bean id="knight" class="com.springinaction.knights.BraveKnight"></bean>
+	<bean id="quest" class="com.springinaction.knights.SlayDragonQuest"></bean>
+</beans>
